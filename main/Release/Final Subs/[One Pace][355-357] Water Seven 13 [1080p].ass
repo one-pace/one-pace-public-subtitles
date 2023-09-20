@@ -13,13 +13,16 @@ Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,
 Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
 Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
 Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
-Style: Credits-207+,FOT-Greco Std DB Strp,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.5,0,1,3.8,0,7,15,15,15,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
 Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 Style: Lyrics-OP5,FOT-Greco Std DB Strp,57,&H00FFFFFF,&H00FFFFFF,&H00060606,&H00000000,-1,0,0,0,100,100,1,0,1,4,0,2,33,33,27,1
 Style: Karaoke-OP5,Duality,90,&H000090FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:02:32.51,0:02:42.50,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
 Dialogue: 50,0:01:55.48,0:01:57.86,Main-207+,,0,0,0,,Hey Franky, hold up!
 Dialogue: 50,0:01:58.39,0:02:00.22,Main-207+,,0,0,0,,Huh? What–
 Dialogue: 50,0:02:00.70,0:02:02.49,Main-207+,,0,0,0,,Put on some pants before you go!
@@ -28,9 +31,9 @@ Dialogue: 50,0:02:05.35,0:02:08.94,Main-207+,,0,0,0,,{\Nanother fuss about expos
 Dialogue: 50,0:02:08.94,0:02:12.42,Main-207+,,0,0,0,,Whatever. I'm just getting a few supplies.
 Dialogue: 50,0:02:12.42,0:02:14.41,Main-207+,,0,0,0,,Go on. Get moving, then.
 Dialogue: 50,0:02:14.41,0:02:19.51,Main-207+,,0,0,0,,What a joke doin' all this\Njust to celebrate an acquittal.
-Dialogue: 50,0:02:19.51,0:02:22.12,Main-207+,,0,0,0,,I mean, Tom-{\i1}san{\i0} was innocent\Nfrom the get-go.
+Dialogue: 50,0:02:19.51,0:02:22.12,Main-207+,,0,0,0,,{I mean, Tom-[/i1]san[/i0]was innocent\Nfrom the get-go.}I mean, Mr. Tom was innocent\Nfrom the get-go.
 Dialogue: 50,0:02:22.69,0:02:25.08,Main-207+,,0,0,0,,Phew... Now, then...
-Dialogue: 50,0:02:27.91,0:02:31.24,Main-207+,,0,0,0,,Hey, Tom-{\i1}san{\i0}! Iceburg!\NRise and shine!
+Dialogue: 50,0:02:27.91,0:02:31.24,Main-207+,,0,0,0,,{Hey, Tom-[/i1]san[/i0]! Iceburg!\NRise and shine!}Hey, Mr. Tom and Iceburg! Rise and shine!
 Dialogue: 50,0:02:31.24,0:02:33.22,Main-207+,,0,0,0,,Today's the big trial!
 Dialogue: 50,0:02:33.22,0:02:35.89,Main-207+,,0,0,0,,Time to face justice!
 Dialogue: 50,0:02:38.50,0:02:40.04,Main-207+,,0,0,0,,Hurry to the wharf!
@@ -62,7 +65,7 @@ Dialogue: 50,0:04:39.11,0:04:39.97,Main-207+,,0,0,0,,Why...
 Dialogue: 50,0:04:42.29,0:04:43.94,Main-207+,,0,0,0,,Who is that?!
 Dialogue: 50,0:04:44.71,0:04:46.47,Main-207+,,0,0,0,,M-My...
 Dialogue: 50,0:04:46.47,0:04:48.23,Main-207+,,0,0,0,,My ships...
-Dialogue: 50,0:04:48.64,0:04:50.10,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}, there's trouble!
+Dialogue: 50,0:04:48.64,0:04:50.10,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0], there's trouble!}Mr. Tom, there's trouble!
 Dialogue: 50,0:04:50.10,0:04:51.06,Main-207+,,0,0,0,,Huh?
 Dialogue: 50,0:04:51.59,0:04:54.08,Main-207+,,0,0,0,,Franky's ships are firing on the judicial ship!
 Dialogue: 50,0:04:54.08,0:04:57.57,Main-207+,,0,0,0,,Calm down. It can't be Franky.\NHe just left for town.
@@ -85,14 +88,14 @@ Dialogue: 50,0:05:49.66,0:05:52.46,Main-207+,,0,0,0,,{The attack on the judicial
 Dialogue: 50,0:05:52.46,0:05:56.46,Main-207+,,0,0,0,,Is that so? Then move on\Nto the next stage of the plan.
 Dialogue: 50,0:05:56.46,0:05:58.75,Main-207+,,0,0,0,,{We must sacrifice for justice.}{We must make sacrifices for justice.}Justice requires sacrifice.{Some options - JT}
 Dialogue: 50,0:05:58.75,0:05:59.55,Main-207+,,0,0,0,,Yes, sir!
-Dialogue: 50,0:06:03.98,0:06:07.09,Main-207+,,0,0,0,,So, shall we begin you trial now,
+Dialogue: 50,0:06:03.98,0:06:07.09,Main-207+,,0,0,0,,So, shall we begin your trial now,
 Dialogue: 50,0:06:07.67,0:06:09.63,Main-207+,,0,0,0,,Tom's Workers?
 Dialogue: 50,0:06:15.61,0:06:18.01,Main-207+,,0,0,0,,The judicial ship is sinking.
 Dialogue: 50,0:06:18.01,0:06:20.43,Main-207+,,0,0,0,,All right. Let's pull back to Scrap Island.
 Dialogue: 50,0:06:20.43,0:06:21.19,Main-207+,,0,0,0,,Okay.
 Dialogue: 50,0:06:25.75,0:06:28.09,Main-207+,,0,0,0,,That fleet is withdrawing.
 Dialogue: 50,0:06:28.09,0:06:31.66,Main-207+,,0,0,0,,Wait a minute.\NI've seen those ships before!
-Dialogue: 50,0:06:34.04,0:06:36.88,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}, the ships are returning.
+Dialogue: 50,0:06:34.04,0:06:36.88,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0], the ships are returning.}Mr. Tom, the ships are returning.
 Dialogue: 50,0:06:37.27,0:06:39.34,Main-207+,,0,0,0,,They're near the shore.\NWe can grab 'em!
 Dialogue: 50,0:06:40.04,0:06:42.63,Main-207+,,0,0,0,,They've really done a number on us!
 Dialogue: 50,0:06:46.47,0:06:48.55,Main-207+,,0,0,0,,Two men are racing here\Nfrom Scrap Island.
@@ -106,7 +109,7 @@ Dialogue: 50,0:07:11.56,0:07:12.54,Main-207+,,0,0,0,,{Those are also Franky's...
 Dialogue: 50,0:07:12.94,0:07:15.16,Main-207+,,0,0,0,,Oh no!\NIceburg, watch out!
 Dialogue: 50,0:07:29.53,0:07:30.79,Main-207+,,0,0,0,,Damn...
 Dialogue: 50,0:07:30.79,0:07:33.78,Main-207+,,0,0,0,,{My Battle Frankies are vaporized!}My Battle Frankies got vaporized!
-Dialogue: 50,0:07:42.32,0:07:44.57,Main-207+,,0,0,0,,Iceburg! Tom-{\i1}san{\i0}!
+Dialogue: 50,0:07:42.32,0:07:44.57,Main-207+,,0,0,0,,{Iceburg! Tom-[/i1]san[/i0]!}Iceburg! Mr. Tom!
 Dialogue: 50,0:07:45.15,0:07:47.07,Main-207+,,0,0,0,,Hey, you two!
 Dialogue: 50,0:07:47.07,0:07:50.13,Main-207+,,0,0,0,,What's wrong?!\NWhat happened?!
 Dialogue: 50,0:07:54.41,0:07:58.21,Main-207+,,0,0,0,,Are you all right?!\NSay something, Ice–
@@ -117,8 +120,8 @@ Dialogue: 50,0:08:17.35,0:08:20.81,Main-207+,,0,0,0,,M-My ships did this to you?
 Dialogue: 50,0:08:21.36,0:08:22.72,Main-207+,,0,0,0,,I told you.
 Dialogue: 50,0:08:23.36,0:08:25.44,Main-207+,,0,0,0,,Again and again...
 Dialogue: 50,0:08:26.36,0:08:30.45,Flashbacks-207+,,0,0,0,,{\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&\t(21,300,1,\c&HFFFFFF&\3c&H525252&\4c&H000000&)}I don't understand how you can leave\Ndozens of these things lying around.
-Dialogue: 50,0:08:31.55,0:08:35.16,Flashbacks-207+,,0,0,0,,{\Nsuch weapons, Lame}You're culpable for creating\Nsuch weapons, Lame{\i0}-ky!{Gaijin: I like the change, but we'll need to update W712}
-Dialogue: 50,0:08:35.72,0:08:38.83,Main-207+,,0,0,0,,My ships... did that to Tom-{\i1}san{\i0}?!
+Dialogue: 50,0:08:31.55,0:08:35.16,Flashbacks-207+,,0,0,0,,{\Nsuch weapons, Lame}You're culpable for creating\Nsuch weapons, {\i0}Lame{\i1}-ky!{Gaijin: I like the change, but we'll need to update W712}
+Dialogue: 50,0:08:35.72,0:08:38.83,Main-207+,,0,0,0,,{My ships... did that to Tom-[/i1]san[/i0]?!}My ships... did that to Mr. Tom?!
 Dialogue: 50,0:08:39.84,0:08:40.88,Main-207+,,0,0,0,,Get it now?
 Dialogue: 50,0:08:41.77,0:08:44.68,Main-207+,,0,0,0,,The weapons we create are deadly.
 Dialogue: 50,0:08:44.68,0:08:47.84,Main-207+,,0,0,0,,Whether you intend harm or not,
@@ -127,18 +130,18 @@ Dialogue: 50,0:08:51.90,0:08:55.24,Main-207+,,0,0,0,,Even if it's someone you lo
 Dialogue: 50,0:08:56.54,0:09:00.15,Main-207+,,0,0,0,,The government framed us.
 Dialogue: 50,0:09:00.15,0:09:03.23,Main-207+,,0,0,0,,They'll accuse us of the judicial ship attack.
 Dialogue: 50,0:09:03.23,0:09:05.97,Main-207+,,0,0,0,,They want the blueprints,
-Dialogue: 50,0:09:05.97,0:09:09.07,Main-207+,,0,0,0,,so they're going to railroad\NTom-{\i1}san{\i0} for the crime.
+Dialogue: 50,0:09:05.97,0:09:09.07,Main-207+,,0,0,0,,{so they're going to railroad\NTom-[/i1]san[/i0]for the crime.}so they're going to railroad\NMr. Tom for the crime.
 Dialogue: 50,0:09:09.07,0:09:14.04,Main-207+,,0,0,0,,How can you feign innocence\Nin a situation like this?!
-Dialogue: 50,0:09:14.04,0:09:17.54,Main-207+,,0,0,0,,If they end up taking Tom-{\i1}san{\i0} away,
+Dialogue: 50,0:09:14.04,0:09:17.54,Main-207+,,0,0,0,,{If they end up taking Tom-[/i1]san[/i0]away,}If they end up taking Mr. Tom away,
 Dialogue: 50,0:09:18.55,0:09:20.37,Main-207+,,0,0,0,,I will...
 Dialogue: 50,0:09:20.70,0:09:23.00,Main-207+,,0,0,0,,never forgive you, Franky!
 Dialogue: 50,0:09:28.61,0:09:29.75,Main-207+,,0,0,0,,I will...
 Dialogue: 50,0:09:29.75,0:09:31.26,Main-207+,,0,0,0,,That's enough!
-Dialogue: 50,0:09:31.26,0:09:32.60,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}!
+Dialogue: 50,0:09:31.26,0:09:32.60,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]!}Mr. Tom!
 Dialogue: 50,0:09:32.60,0:09:35.97,Main-207+,,0,0,0,,Don't blame him, Iceburg!
 Dialogue: 50,0:09:35.97,0:09:38.31,Main-207+,,0,0,0,,{Franky didn't do anything wrong.}Franky did nothing wrong.
 Dialogue: 50,0:09:38.31,0:09:40.83,Main-207+,,0,0,0,,How can you still say that at a time like this?!
-Dialogue: 50,0:09:41.47,0:09:42.44,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}!
+Dialogue: 50,0:09:41.47,0:09:42.44,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]!}Mr. Tom!
 Dialogue: 50,0:09:44.36,0:09:46.77,Main-207+,,0,0,0,,I'm sorry.\NI made this harpoon.
 Dialogue: 50,0:09:46.77,0:09:50.37,Main-207+,,0,0,0,,I made it so it can't be pulled free.
 Dialogue: 50,0:09:51.07,0:09:51.99,Main-207+,,0,0,0,,Dammit!
@@ -188,7 +191,7 @@ Dialogue: 50,0:12:31.16,0:12:33.07,Main-207+,,0,0,0,,Those...
 Dialogue: 50,0:12:34.48,0:12:36.44,Main-207+,,0,0,0,,are no longer my ships!
 Dialogue: 50,0:12:46.08,0:12:48.29,Main-207+,,0,0,0,,Tom broke his cuffs!
 Dialogue: 50,0:12:48.71,0:12:49.75,Main-207+,,0,0,0,,Ready arms!
-Dialogue: 50,0:12:53.25,0:12:57.01,Main-207+,,0,0,0,,That's the first time Tom-{\i1}san{\i0}'s hit Franky.
+Dialogue: 50,0:12:53.25,0:12:57.01,Main-207+,,0,0,0,,{That's the first time Tom-[/i1]san[/i0]'s hit Franky.}That's the first time Mr. Tom's hit Franky.
 Dialogue: 50,0:12:57.97,0:12:58.97,Main-207+,,0,0,0,,What the hell?!
 Dialogue: 50,0:13:02.20,0:13:04.92,Main-207+,,0,0,0,,"Those aren't my ships"?
 Dialogue: 50,0:13:05.51,0:13:07.66,Main-207+,,0,0,0,,You mustn't say that!
@@ -211,7 +214,7 @@ Dialogue: 50,0:14:27.04,0:14:29.62,Thoughts-207+,,0,0,0,,I'll never clear my nam
 Dialogue: 50,0:14:30.60,0:14:32.18,Thoughts-207+,,0,0,0,,This is how it ends.
 Dialogue: 50,0:14:33.05,0:14:37.69,Thoughts-207+,,0,0,0,,It must be tough to have\Nyour innocent ships used for such depravity.
 Dialogue: 50,0:14:38.30,0:14:41.07,Thoughts-207+,,0,0,0,,I bet you want to hit him, Franky.
-Dialogue: 50,0:14:51.54,0:14:52.58,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}!
+Dialogue: 50,0:14:51.54,0:14:52.58,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]!}Mr. Tom!
 Dialogue: 50,0:14:52.58,0:14:54.57,Main-207+,,0,0,0,,Ahh!\NTom's gone ballistic!
 Dialogue: 50,0:14:55.16,0:14:56.54,Secondary-207+,,0,0,0,,Ribbit!
 Dialogue: 50,0:14:55.76,0:14:56.54,Main-207+,,0,0,0,,What's he doing?!
@@ -222,17 +225,17 @@ Dialogue: 50,0:15:04.09,0:15:06.39,Main-207+,,0,0,0,,{have any idea how much thi
 Dialogue: 50,0:15:06.39,0:15:07.64,Main-207+,,0,0,0,,F-Fire!
 Dialogue: 50,0:15:09.81,0:15:10.81,Main-207+,,0,0,0,,Ah!
 Dialogue: 50,0:15:10.81,0:15:13.89,Main-207+,,0,0,0,,Oh...\NThey shot him...
-Dialogue: 50,0:15:20.58,0:15:22.28,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}!
+Dialogue: 50,0:15:20.58,0:15:22.28,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]!}Mr. Tom!
 Dialogue: 50,0:15:23.99,0:15:26.07,Thoughts-207+,,0,0,0,,Tranquilizer darts?
 Dialogue: 50,0:15:30.91,0:15:34.66,Main-207+,,0,0,0,,Suck on that, you monstrous fishman!
-Dialogue: 50,0:15:35.37,0:15:37.58,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}, why'd you do that?!
+Dialogue: 50,0:15:35.37,0:15:37.58,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0], why'd you do that?!}Mr. Tom, why'd you do that?!
 Dialogue: 50,0:15:37.58,0:15:41.13,Main-207+,,0,0,0,,Hey, you morons, what are you doing?!\NTake them into custody already!
 Dialogue: 50,0:15:41.71,0:15:45.88,Main-207+,,0,0,0,,Take these savages\Nfrom Tom's Workers to Enies Lobby!
 Dialogue: 50,0:15:46.36,0:15:48.87,Main-207+,,0,0,0,,I had no idea Tom was such a violent guy.
 Dialogue: 50,0:15:48.87,0:15:50.35,Main-207+,,0,0,0,,What is he thinking?!
 Dialogue: 50,0:15:51.22,0:15:54.68,Main-207+,,0,0,0,,I knew he had sold his soul to those pirates!
 Dialogue: 50,0:15:55.64,0:15:58.73,Main-207+,,0,0,0,,{\Njust waiting for a chance like this!}They built those battleships\Njust for this purpose!
-Dialogue: 50,0:15:59.38,0:16:01.69,Main-207+,,0,0,0,,How can you say\Nsuch a thing about Tom-{\i1}san{\i0}?!
+Dialogue: 50,0:15:59.38,0:16:01.69,Main-207+,,0,0,0,,{How can you say\Nsuch a thing about Tom-[/i1]san[/i0]?!}How can you say\Nsuch a thing about Mr. Tom?!
 Dialogue: 50,0:16:01.69,0:16:02.78,Main-207+,,0,0,0,,Leave it alone!
 Dialogue: 50,0:16:02.78,0:16:03.88,Main-207+,,0,0,0,,Huh?
 Dialogue: 50,0:16:03.88,0:16:05.74,Main-207+,,0,0,0,,It's fine.
@@ -241,7 +244,7 @@ Dialogue: 50,0:16:06.59,0:16:07.61,Main-207+,,0,0,0,,Your Honor.
 Dialogue: 50,0:16:07.61,0:16:08.61,Main-207+,,0,0,0,,Yes?
 Dialogue: 50,0:16:09.24,0:16:13.04,Main-207+,,0,0,0,,I plead guilty to the judicial ship attack.
 Dialogue: 50,0:16:13.04,0:16:14.33,Main-207+,,0,0,0,,What?!
-Dialogue: 50,0:16:14.33,0:16:16.58,Main-207+,,0,0,0,,Wait! Tom-{\i1}san{\i0}, take it back!
+Dialogue: 50,0:16:14.33,0:16:16.58,Main-207+,,0,0,0,,{Wait! Tom-[/i1]san[/i0], take it back!}Wait! Mr. Tom, take it back!
 Dialogue: 50,0:16:16.58,0:16:18.62,Main-207+,,0,0,0,,However, I have just one request.
 Dialogue: 50,0:16:18.62,0:16:22.01,Main-207+,,0,0,0,,Screw you, you stupid fish!\NWho would grant a criminal a favor?!
 Dialogue: 50,0:16:22.01,0:16:23.67,Main-207+,,0,0,0,,Silence, CP5!
@@ -252,13 +255,13 @@ Dialogue: 50,0:16:35.28,0:16:36.14,Main-207+,,0,0,0,,Huh?
 Dialogue: 50,0:16:36.54,0:16:41.27,Main-207+,,0,0,0,,If I were to grant your request,\Nyou'd be right back where you started.
 Dialogue: 50,0:16:41.27,0:16:46.44,Main-207+,,0,0,0,,You'd still be guilty of building\Nthe Pirate King's ship, a capital offense.
 Dialogue: 50,0:16:46.86,0:16:49.11,Main-207+,,0,0,0,,I'd prefer that.
-Dialogue: 50,0:16:49.71,0:16:52.82,Main-207+,,0,0,0,,Yeah, I helped the man called Roger.
+Dialogue: 50,0:16:49.71,0:16:52.82,Main-207+,,0,0,0,,Yeah, I helped the man called Roger.{Used as flashback in Enies Lobby 11 @14:44}
 Dialogue: 50,0:16:53.22,0:16:56.50,Main-207+,,0,0,0,,I'm damn proud of it too!
 Dialogue: 50,0:16:58.41,0:17:00.28,Main-207+,,0,0,0,,How outrageous!
 Dialogue: 50,0:17:00.28,0:17:03.17,Main-207+,,0,0,0,,Imagine being proud of helping\Nthe Pirate King...
 Dialogue: 50,0:17:03.65,0:17:04.61,Main-207+,,0,0,0,,He's a traitor!
 Dialogue: 50,0:17:04.61,0:17:06.84,Main-207+,,0,0,0,,– Fishman thug!\N– Bastard fish!
-Dialogue: 50,0:17:07.27,0:17:09.17,Main-207+,,0,0,0,,Why, Tom-{\i1}san{\i0}?!
+Dialogue: 50,0:17:07.27,0:17:09.17,Main-207+,,0,0,0,,{Why, Tom-[/i1]san[/i0]?!}Why, Mr. Tom?!
 Dialogue: 50,0:17:09.76,0:17:14.93,Main-207+,,0,0,0,,I'm fine with this.\NListen to me. Don't beat yourself up.
 Dialogue: 50,0:17:15.50,0:17:20.39,Main-207+,,0,0,0,,I had no idea the government was\Nthis determined to get the blueprints.
 Dialogue: 50,0:17:20.39,0:17:23.99,Main-207+,,0,0,0,,My work with Roger put me\Nat a bit of a disadvantage.
@@ -271,35 +274,34 @@ Dialogue: 50,0:17:40.63,0:17:43.63,Main-207+,,0,0,0,,No matter what happens to m
 Dialogue: 50,0:17:43.89,0:17:46.71,Main-207+,,0,0,0,,I'll still be of service to the city.
 Dialogue: 50,0:17:47.26,0:17:49.26,Main-207+,,0,0,0,,My dream...
 Dialogue: 50,0:17:50.22,0:17:54.05,Main-207+,,0,0,0,,{has only just began its journey.}has only just begun its journey.
-Dialogue: 50,0:17:55.84,0:17:57.15,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}!
-Dialogue: 50,0:17:59.27,0:18:00.27,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}!
+Dialogue: 50,0:17:55.84,0:17:57.15,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]!}Mr. Tom!
+Dialogue: 50,0:17:59.27,0:18:00.27,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]!}Mr. Tom!
 Dialogue: 50,0:18:05.59,0:18:08.32,Thoughts-207+,,0,0,0,,Iceburg, Franky,
 Dialogue: 50,0:18:08.81,0:18:11.11,Thoughts-207+,,0,0,0,,take care of those blueprints.
-Dialogue: 50,0:18:11.88,0:18:14.36,Thoughts-207+,,0,0,0,,Kokoro-{\i1}san{\i0}, Yokozuna,
+Dialogue: 50,0:18:11.88,0:18:14.36,Thoughts-207+,,0,0,0,,{Kokoro-[/i1]san[/i0], Yokozuna,}Kokoro, Yokozuna,
 Dialogue: 50,0:18:15.13,0:18:17.53,Thoughts-207+,,0,0,0,,thank you for everything.
 Dialogue: 50,0:18:22.10,0:18:23.87,Main-207+,,0,0,0,,The tranquilizers have finally kicked in!
 Dialogue: 50,0:18:23.87,0:18:26.64,Main-207+,,0,0,0,,Arrest those three\Nfor attacking the judicial ship!
 Dialogue: 50,0:18:26.64,0:18:27.75,Main-207+,,0,0,0,,Yes, sir!
 Dialogue: 50,0:18:29.05,0:18:29.96,Main-207+,,0,0,0,,{Hold that order.}Belay that order.
 Dialogue: 50,0:18:30.33,0:18:31.05,Main-207+,,0,0,0,,Huh?
-Dialogue: 50,0:18:31.38,0:18:33.65,Main-207+,,0,0,0,,The charges have changed.
+Dialogue: 50,0:18:31.38,0:18:33.65,Main-207+,,0,0,0,,The charges have changed.{Used as flashback in Enies Lobby 22 @06:16}
 Dialogue: 50,0:18:33.65,0:18:38.15,Main-207+,,0,0,0,,For the crime of building\NPirate King Gold Roger's pirate ship,
 Dialogue: 50,0:18:38.15,0:18:42.27,Main-207+,,0,0,0,,take the shipwright Tom to Enies Lobby.
 Dialogue: 50,0:18:42.65,0:18:43.72,Main-207+,,0,0,0,,That is all.
-Dialogue: 50,0:18:45.18,0:18:50.07,Main-207+,,0,0,0,,Damn. What's gotten\Ninto that sentimental old coot?
-Dialogue: 50,0:18:50.07,0:18:52.44,Main-207+,,0,0,0,,Whatever.\NI have no need for his apprentices.
+Dialogue: 50,0:18:45.18,0:18:50.07,Main-207+,,0,0,0,,Damn. What's gotten into\Nthat sentimental old coot?
+Dialogue: 50,0:18:50.07,0:18:52.44,Main-207+,,0,0,0,,Whatever. I have no need for his apprentices.
 Dialogue: 50,0:18:52.68,0:18:54.78,Main-207+,,0,0,0,,Free the two apprentices!
-Dialogue: 50,0:19:01.05,0:19:03.58,Main-207+,,0,0,0,,Tom-{\i1}san{\i0}'s dead in the water.
+Dialogue: 50,0:19:01.05,0:19:03.58,Main-207+,,0,0,0,,{Tom-[/i1]san[/i0]'s dead in the water.}Mr. Tom's dead in the water.
 Dialogue: 50,0:19:04.47,0:19:07.50,Main-207+,,0,0,0,,There's nothing we can do\Nagainst the World Government.
 Dialogue: 50,0:19:08.06,0:19:09.64,Main-207+,,0,0,0,,Stay strong, you two.
-Dialogue: 50,0:19:09.64,0:19:12.85,Main-207+,,0,0,0,,{Tom-san save your lives!}Tom-{\i1}san{\i0} saved your lives!
+Dialogue: 50,0:19:09.64,0:19:12.85,Main-207+,,0,0,0,,{Tom-san saved your lives!}Mr. Tom saved your lives!
 Dialogue: 50,0:19:12.85,0:19:17.14,Main-207+,,0,0,0,,{If you go to war on them,}If you go to war with them,\Nyou'll be dead before the day is out.
-Dialogue: 50,0:19:17.52,0:19:20.81,Main-207+,,0,0,0,,Enies Lobby is\Nthe government's judicial island.
-Dialogue: 50,0:19:21.43,0:19:24.64,Main-207+,,0,0,0,,No one who goes there
-Dialogue: 50,0:19:24.64,0:19:27.35,Main-207+,,0,0,0,,has ever come back!
+Dialogue: 50,0:19:17.52,0:19:20.81,Main-207+,,0,0,0,,Enies Lobby is the government's judicial island.
+Dialogue: 50,0:19:21.43,0:19:27.35,Main-207+,,0,0,0,,No one who goes there has ever come back!
 Dialogue: 50,0:19:28.32,0:19:30.69,Main-207+,,0,0,0,,The sea train is ready for departure!
 Dialogue: 50,0:19:30.69,0:19:32.44,Main-207+,,0,0,0,,– We're ready to go!\N– All right!
-Dialogue: 50,0:19:33.28,0:19:34.36,Main-207+,,0,0,0,,Kokoro-{\i1}san{\i0}...
+Dialogue: 50,0:19:33.28,0:19:34.36,Main-207+,,0,0,0,,{Kokoro-[/i1]san[/i0]...}Miss Kokoro...
 Dialogue: 50,0:19:35.70,0:19:38.66,Main-207+,,0,0,0,,Hey, you guys, get him out of here now!
 Dialogue: 50,0:19:38.66,0:19:39.87,Main-207+,,0,0,0,,I...
 Dialogue: 50,0:19:39.87,0:19:43.66,Main-207+,,0,0,0,,Ew. Move this fat, squidgy fishman!
@@ -309,14 +311,14 @@ Dialogue: 50,0:19:48.88,0:19:49.92,Main-207+,,0,0,0,,Hey!
 Dialogue: 50,0:19:52.14,0:19:52.88,Main-207+,,0,0,0,,Ahh!
 Dialogue: 50,0:19:56.47,0:19:58.05,Main-207+,,0,0,0,,Franky, no!
 Dialogue: 50,0:20:03.08,0:20:03.81,Main-207+,,0,0,0,,Oh, no!
-Dialogue: 50,0:20:04.60,0:20:06.68,Main-207+,,0,0,0,,He caved in Spandam-{\i1}san{\i0}'s face!
+Dialogue: 50,0:20:04.60,0:20:06.68,Main-207+,,0,0,0,,{He caved in Spandam-[/i1]san[/i0]'s face!}He caved in Agent Spandam's face!
 Dialogue: 50,0:20:06.68,0:20:09.49,Main-207+,,0,0,0,,Tom's apprentice has gone berserk!
 Dialogue: 50,0:20:10.31,0:20:11.90,Main-207+,,0,0,0,,That's enough!
 Dialogue: 50,0:20:10.99,0:20:11.90,Secondary-207+,,0,0,0,,Ribbit, ribbit!
 Dialogue: 50,0:20:11.90,0:20:16.24,Main-207+,,0,0,0,,Seize him!\NEveryone else, get Tom out of here!
 Dialogue: 50,0:20:16.24,0:20:20.02,Main-207+,,0,0,0,,Just try it!\NI won't let you take him!
 Dialogue: 50,0:20:20.02,0:20:21.40,Main-207+,,0,0,0,,Fire at will!
-Dialogue: 50,0:20:22.75,0:20:24.62,Main-207+,,0,0,0,,Let Tom-{\i1}san{\i0} go!
+Dialogue: 50,0:20:22.75,0:20:24.62,Main-207+,,0,0,0,,{Let Tom-[/i1]san[/i0]go!}Let Mr. Tom go!
 Dialogue: 50,0:20:27.47,0:20:28.10,Main-207+,,0,0,0,,Ugh...
 Dialogue: 50,0:20:28.10,0:20:29.41,Main-207+,,0,0,0,,Are you okay?!
 Dialogue: 50,0:20:31.42,0:20:33.21,Main-207+,,0,0,0,,Run for it!
@@ -325,7 +327,7 @@ Dialogue: 50,0:20:45.27,0:20:47.73,Main-207+,,0,0,0,,{Damn it! He got away!}Damm
 Dialogue: 50,0:20:48.12,0:20:51.19,Main-207+,,0,0,0,,I'll never forgive that punk, Cutty Flam!
 Dialogue: 50,0:20:51.61,0:20:53.57,Main-207+,,0,0,0,,He's a damned criminal!
 Dialogue: 50,0:20:54.19,0:20:57.82,Main-207+,,0,0,0,,As soon as this is over,\NI'll have that idiot hanged!
-Dialogue: 50,0:20:58.29,0:21:00.07,Main-207+,,0,0,0,,Spandam-{\i1}san{\i0}!
+Dialogue: 50,0:20:58.29,0:21:00.07,Main-207+,,0,0,0,,{Spandam-[/i1]san[/i0]!}Agent Spandam!
 Dialogue: 50,0:20:59.42,0:21:00.07,Secondary-207+,,0,0,0,,What?!
 Dialogue: 50,0:21:00.40,0:21:02.70,Main-207+,,0,0,0,,I-It's Cutty Flam.
 Dialogue: 50,0:21:02.70,0:21:04.19,Main-207+,,0,0,0,,What do you mean?!
@@ -333,26 +335,26 @@ Dialogue: 50,0:21:04.19,0:21:05.74,Main-207+,,0,0,0,,He intercepted us!
 Dialogue: 50,0:21:06.09,0:21:09.20,Main-207+,,0,0,0,,{He's got some weapon on the tracks ahead.}He's on the tracks ahead\Nwith some kind of weapon.
 Dialogue: 50,0:21:13.68,0:21:15.63,Main-207+,,0,0,0,,Wait right there, Yokozuna.
 Dialogue: 50,0:21:15.63,0:21:16.42,Main-207+,,0,0,0,,Rib-Ribbit.
-Dialogue: 50,0:21:17.57,0:21:19.35,Main-207+,,0,0,0,,Is he an imbecile?
+Dialogue: 50,0:21:17.57,0:21:19.35,Main-207+,,0,0,0,,Is he an imbecile?!
 Dialogue: 50,0:21:19.35,0:21:20.59,Main-207+,,0,0,0,,What's your order?
-Dialogue: 50,0:21:21.43,0:21:22.59,Main-207+,,0,0,0,,{You're an imbecile too!?}Are {\i1}you{\i0} an imbecile!?
+Dialogue: 50,0:21:21.43,0:21:22.59,Main-207+,,0,0,0,,{You're an imbecile too?!}Are {\i1}you{\i0} an imbecile?!
 Dialogue: 50,0:21:22.90,0:21:26.22,Main-207+,,0,0,0,,Just keep going!\NWe'll give him what he wants.
 Dialogue: 50,0:21:26.22,0:21:27.89,Main-207+,,0,0,0,,He's none of your concern!
-Dialogue: 50,0:21:27.89,0:21:29.14,Main-207+,,0,0,0,,Y-Yes, sir!
-Dialogue: 50,0:21:31.77,0:21:34.15,Main-207+,,0,0,0,,Stop, Puffing Tom!
+Dialogue: 50,0:21:27.89,0:21:29.14,Main-207+,,0,0,0,,Y-Yes, sir.
+Dialogue: 50,0:21:31.77,0:21:34.15,Main-207+,,0,0,0,,Stop, {\i1}Puffing Tom{\i0}!
 Dialogue: 50,0:21:36.61,0:21:40.36,Main-207+,,0,0,0,,Where do you think you're taking\Nthe man who created you?!
 Dialogue: 50,0:21:50.79,0:21:52.46,Main-207+,,0,0,0,,Ribbit, ribbit!
 Dialogue: 50,0:21:55.22,0:21:57.01,Main-207+,,0,0,0,,You're not going anywhere!
-Dialogue: 50,0:22:02.03,0:22:04.05,Main-207+,,0,0,0,,Give me Tom-{\i1}san{\i0} back!
+Dialogue: 50,0:22:02.03,0:22:04.05,Main-207+,,0,0,0,,{Give me Tom-[/i1]san[/i0]back! - OG}Give me back Mr. Tom!{Z}
 Dialogue: 50,0:22:06.22,0:22:09.98,Main-207+,,0,0,0,,{\t(2910,3760,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}Stop, sea train!
 Dialogue: 50,0:22:13.60,0:22:18.02,Flashbacks-207+,,0,0,0,,So your parents abandoned you?\NHilarious!
 Dialogue: 50,0:22:18.58,0:22:20.03,Flashbacks-207+,,0,0,0,,Hey, it's not that funny!
 Dialogue: 50,0:22:20.33,0:22:22.78,Flashbacks-207+,,0,0,0,,Well, you're damn welcome at my house.
-Dialogue: 50,0:22:23.21,0:22:24.70,Thoughts-207+,,0,0,0,,Tom-{\i1}san{\i0}...
+Dialogue: 50,0:22:23.21,0:22:24.70,Thoughts-207+,,0,0,0,,{Tom-[/i1]san[/i0]...}Mr. Tom...
 Dialogue: 50,0:22:25.32,0:22:26.78,Thoughts-207+,,0,0,0,,to be honest, I...
 Dialogue: 50,0:22:26.78,0:22:28.66,Thoughts-207+,,0,0,0,,don't want to build ships anymore.
 Dialogue: 50,0:22:29.48,0:22:34.71,Thoughts-207+,,0,0,0,,I can't love any ship that has hurt\Nthose who are precious to me!
-Dialogue: 50,0:22:35.16,0:22:36.29,Thoughts-207+,,0,0,0,,But, Tom-{\i1}san{\i0},
+Dialogue: 50,0:22:35.16,0:22:36.29,Thoughts-207+,,0,0,0,,{But, Tom-[/i1]san[/i0],}But, Mr. Tom,
 Dialogue: 50,0:22:37.67,0:22:41.46,Thoughts-207+,,0,0,0,,I still want to be like you!
 Dialogue: 50,0:22:46.33,0:22:47.97,Main-207+,,0,0,0,,Urgh!
 Dialogue: 50,0:22:50.66,0:22:53.79,Thoughts-207+,,0,0,0,,I want you to come home\Nand keep teaching me!
@@ -360,8 +362,8 @@ Dialogue: 50,0:23:03.31,0:23:04.95,Thoughts-207+,,0,0,0,,I, too,
 Dialogue: 50,0:23:05.55,0:23:07.70,Thoughts-207+,,0,0,0,,want to build my dream ship!
 Dialogue: 50,0:23:11.60,0:23:17.37,Thoughts-207+,,0,0,0,,It would ply the world's uncharted seas,\Nnot giving a damn about anything!
 Dialogue: 50,0:23:18.01,0:23:19.94,Thoughts-207+,,0,0,0,,That's my dream ship!
-Dialogue: 0,0:02:09.03,0:02:14.41,Title-207+,,0,0,0,,{\blur0.8\fad(700,0)\3c&H403B3B&\c&H403B3B&\bord3\fscx120\fscy120\1a&HFF&\t(655,700,\1a&H00&)}Tom-san
-Dialogue: 0,0:02:09.03,0:02:14.41,Title-207+,,0,0,0,,{\blur0.8\fad(700,0)\3c&H403B3B&\c&HE5E5E6&\bord0\fscx120\fscy120}Tom-san
+Dialogue: 0,0:02:09.03,0:02:14.41,Title-207+,,0,0,0,,{\blur0.8\fad(700,0)\3c&H403B3B&\c&H403B3B&\bord3\fscx120\fscy120\1a&HFF&\t(655,700,\1a&H00&)}{Tom-san}Mr. Tom
+Dialogue: 0,0:02:09.03,0:02:14.41,Title-207+,,0,0,0,,{\blur0.8\fad(700,0)\3c&H403B3B&\c&HE5E5E6&\bord0\fscx120\fscy120}{Tom-san}Mr. Tom
 Dialogue: 1,0:01:50.17,0:01:54.93,Title-207+,,0,0,0,,{\blur0.9\fad(400,0)\fnFOT-Greco Std DB Strp\3c&H1B1718&\c&H1B1718&\1a&HFF&\fscx120\fscy120\t(355,400,\1a&H00&)}The Day of the Verdict
 Dialogue: 2,0:01:50.17,0:01:54.93,Title-207+,,0,0,0,,{\bord0\blur0.9\fad(400,0)\fnFOT-Greco Std DB Strp\c&HFFFFFF&\4a&HFF&\fscx120\fscy120}The Day of the Verdict
 Dialogue: 0,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.5\bord4\c&H000000&}Video Editing
@@ -5664,3 +5666,4 @@ Dialogue: 0,0:01:41.11,0:01:43.30,Karaoke-OP5,,0,0,0,fx,{\an5\move(1036.5,75,922
 Dialogue: 0,0:01:41.11,0:01:43.30,Karaoke-OP5,,0,0,0,fx,{\an5\move(1036.5,75,1122,141)\bord0\1c&HFFFFFF&\fad(0,500)\p1}m -4.5 1.5 l -4.5 -6.75 -3.75 1.5 -0.375 -1.875 -3.375 1.875 3.375 1.875 -3.375 2.625 -0.75 5.25 -3.75 3 -3.75 10.125 -4.5 3 -7.875 6 -4.875 2.25 -13.125 1.875 -4.875 1.875 -7.5 -1.5
 Dialogue: 0,0:01:41.11,0:01:43.30,Karaoke-OP5,,0,0,0,fx,{\an5\move(1036.5,75,942,-51)\bord0\1c&HFFFFFF&\fad(0,500)\p1}m -4.5 1.5 l -4.5 -6.75 -3.75 1.5 -0.375 -1.875 -3.375 1.875 3.375 1.875 -3.375 2.625 -0.75 5.25 -3.75 3 -3.75 10.125 -4.5 3 -7.875 6 -4.875 2.25 -13.125 1.875 -4.875 1.875 -7.5 -1.5
 Dialogue: 0,0:01:41.11,0:01:43.30,Karaoke-OP5,,0,0,0,fx,{\an5\move(1036.5,75,979.5,-25.5)\bord0\1c&HFFFFFF&\fad(0,500)\p1}m -4.5 1.5 l -4.5 -6.75 -3.75 1.5 -0.375 -1.875 -3.375 1.875 3.375 1.875 -3.375 2.625 -0.75 5.25 -3.75 3 -3.75 10.125 -4.5 3 -7.875 6 -4.875 2.25 -13.125 1.875 -4.875 1.875 -7.5 -1.5
+

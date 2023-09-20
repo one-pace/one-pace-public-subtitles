@@ -1,4 +1,4 @@
-[Script Info]
+﻿[Script Info]
 Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
@@ -18,9 +18,8 @@ Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H780
 Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
 Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
 Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: RogerMonologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
 Style: Karaoke,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,8,23,23,23,1
-Style: Kanji,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,8,23,23,146,1
-Style: Kanji-furigana,Duality,60,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.375,0,8,23,23,225,1
 Style: Translation,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,2,23,23,34,1
 
 [Events]
@@ -525,11 +524,11 @@ Dialogue: 0,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(
 Dialogue: 1,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Raws
 Dialogue: 0,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2800,2845,\1a&HFF&)}Neo-Raws
 Dialogue: 1,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Neo-Raws
-Dialogue: 0,0:00:12.90,0:00:14.63,Main-207-,,0,0,0,,Some things cannot be stopped.
-Dialogue: 0,0:00:14.63,0:00:17.54,Main-207-,,0,0,0,,The tides of time,
-Dialogue: 0,0:00:17.54,0:00:20.37,Main-207-,,0,0,0,,humanity's dreams and inherited will...
-Dialogue: 0,0:00:20.37,0:00:23.48,Main-207-,,0,0,0,,As long as people seek freedom,
-Dialogue: 0,0:00:23.48,0:00:26.11,Main-207-,,0,0,0,,these things will never cease to be.
+Dialogue: 0,0:00:12.90,0:00:14.63,RogerMonologue,,0,0,0,,Some things cannot be stopped.
+Dialogue: 0,0:00:14.63,0:00:17.54,RogerMonologue,,0,0,0,,The tides of time,
+Dialogue: 0,0:00:17.54,0:00:20.37,RogerMonologue,,0,0,0,,humanity's dreams and inherited will...
+Dialogue: 0,0:00:20.37,0:00:23.48,RogerMonologue,,0,0,0,,As long as people seek freedom,
+Dialogue: 0,0:00:23.48,0:00:26.11,RogerMonologue,,0,0,0,,these things will never cease to be.
 Dialogue: 0,0:00:34.58,0:00:35.06,Karaoke,,0,0,0,fx,{\an5\move(119,42,119,57,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Mi
 Dialogue: 1,0:00:35.06,0:00:35.25,Karaoke,,0,0,0,fx,{\an5\move(119,57,119,57)\shad0\3c&HFFFFFF&\1c&H2B1CCE&\bord3\blur0\be7\fscx150\fscy180\t(\fscx100\fscy100\frz0\bord0.5\blur0\be0\frz0)}Mi
 Dialogue: 0,0:00:35.06,0:00:35.25,Karaoke,,0,0,0,fx,{\an5\pos(119,57)\1a&HFF&\3c&HFFFFFF&\fscx150\fscy160\blur1\bord1\shad0\t(\fscx100\fscy100\frz0)}Mi
@@ -3064,5 +3063,4 @@ Dialogue: 0,0:01:39.90,0:01:40.69,Translation,,0,0,0,fx,{\an5\move(902,1012,902,
 Dialogue: 0,0:01:36.73,0:01:39.90,Translation,,0,0,0,fx,{\an5\move(960,997,960,1012,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}ead
 Dialogue: 1,0:01:39.90,0:01:40.35,Translation,,0,0,0,fx,{\an5\move(960,1012,960,1012)\shad0\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0}ead
 Dialogue: 0,0:01:40.35,0:01:40.72,Translation,,0,0,0,fx,{\an5\move(960,1012,960,982,70,370)\3c&HFFFFFF&\1c&H2B1CBA&\bord3\blur0\shad0\t(70,370,\alpha&HFF&\frx180)}ead
-
 
