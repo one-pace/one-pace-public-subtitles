@@ -151,6 +151,19 @@ subs {
     }
   }
 
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Italian subs)
+  val increaseLayer_it by task<ASS> {
+    from(get("itsubs"))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+
   // Merge subs with karaoke (German subs)
   val merge_de by task<Merge> {
     from(increaseLayer_de.item())
@@ -189,6 +202,25 @@ subs {
     out(get("mergefile_pt"))
   }
 
+  // Merge subs with karaoke (Italian subs)
+  val merge_it by task<Merge> {
+    from(increaseLayer_it.item())
+
+    if (propertyExists("OP_it")) {
+      from(get("OP_it")) {
+        syncSourceLine("sync", EventLineAccessor.EFFECT)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get("mergefile_it"))
+  }
+
   // Removes all non dialogue lines from Spanish subtitle
   val spanishDub by task<ASS> {
     from(get("spsubs"))
@@ -207,6 +239,9 @@ subs {
     }
     if (file(get("ptsubs")).exists()) {
       dependsOn(merge_pt.item())
+    }
+    if (file(get("itsubs")).exists()) {
+      dependsOn(merge_it.item())
     }
   }
 
@@ -319,7 +354,7 @@ subs {
 
     // Italian Subtitles
     if (file(get("itsubs")).exists()) {
-      from(get("itsubs")) {
+      from(merge_it.item()) {
         tracks {
           name("Italian")
           lang("it")
