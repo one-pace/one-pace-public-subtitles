@@ -63,7 +63,7 @@ fun escapeTitle (title: String) : String {
 }
 
 subs {
-  readProperties("sub.properties", "chapter.properties", "title.properties", "publicrepo.properties")
+  readProperties("sub.properties", "chapter.properties", "title.properties", "publicrepo.properties", "publish.properties")
   episodes(getList("episodes"))
 
   val increaseLayer by task<ASS> {
@@ -296,23 +296,20 @@ subs {
     // Signs and Songs subtitle for English Dub if English dub exists
     val mkvInfo = getMkvInfo(file(get("video")))
     if (mkvInfo.audio_tracks.size > 1) {
-      if (propertyExists("removekaraoke")) {
-        from(dubWithoutKaraoke.item()) {
-            tracks {
-              name("Signs and Songs")
-              lang("eng")
-              default(false)
-            }
-        }
-        } else {
-          from(dubWithKaraoke.item()) {
-            tracks {
-              name("Signs and Songs")
-              lang("eng")
-              default(false)
-            }
+      val signsSongsTask =
+        if (propertyExists("removekaraoke"))
+          dubWithoutKaraoke
+        else
+          dubWithKaraoke
+
+      from(signsSongsTask.item()) {
+          tracks {
+            name("Signs and Songs")
+            lang("eng")
+            default(false)
+            forced(true)
           }
-        }
+      }
     }
 
     // French Subtitles
@@ -431,5 +428,11 @@ subs {
     val muxBatch by task<DefaultSubTask> {
       dependsOn(mux.batchItems())
     }
+  }
+
+  torrent {
+      trackers(getList("trackers"))
+      from(mux.item())
+      out(get("torrentfile"))
   }
 }
