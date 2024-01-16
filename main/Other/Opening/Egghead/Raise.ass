@@ -13,7 +13,9 @@ PlayResY: 1080
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.250000
-Video Position: 33704
+Scroll Position: 30
+Active Line: 35
+Video Position: 34125
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -25,18 +27,18 @@ Style: Translation - Copy,FOT-Klee Pro M-Strp,50,&H00BBA778,&H000000FF,&H00FFFFF
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Comment: 0,0:23:25.72,0:23:25.72,Karaoke,,0,0,0,sync,{Scene of crab at beach ends/luffy's  strawhat  looking away scene starts}
-Comment: 1,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template char,!retime("start2syl",-800+($si-1)*80, 0)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,0)\t(0,400,\1c&H997E3B&)}
-Comment: 0,0:00:15.27,0:00:15.27,Karaoke,hilight,0,0,0,template multi,!retime("postsyl",-$dur,1400-$dur)!{\an5\pos($center,$middle)\t(0,42,\3c&HFFFFFF&\bord7\blur3)\t(42,$dur,\bord1\1a&HFF&\blur1)\fad(0,800)}
-Comment: 1,0:00:00.00,0:00:00.00,Karaoke - Copy,,0,0,0,template char,!retime("start2syl",-800+($si-1)*80, 0)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,0)\t(0,400,\1c&H997E3B&)}
-Comment: 0,0:00:15.27,0:00:15.27,Karaoke - Copy,hilight,0,0,0,template multi,!retime("postsyl",-$dur,1400-$dur)!{\an5\pos($center,$middle)\t(0,42,\3c&HFFFFFF&\bord7\blur3)\t(42,$dur,\bord1\1a&HFF&\blur1)\fad(0,800)}
-Comment: 0,0:00:00.00,0:00:00.00,Translation,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Translation,,0,0,0,code syl all,function char_counter2(ref) ci2[ref] = ci2[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Translation,,0,0,0,code syl,function phong(ref) ci[ref]=ci[ref]-1; return "" end; ci={40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; cn= _G.unicode.len((orgline.text_stripped:gsub(" ","")))
-Comment: 1,0:00:00.00,0:00:00.00,Translation,,0,0,0,template char,!char_counter(8)!!retime("line",-(ci[1]-1)*17,-2-(ci[1]-1)*10)!!phong(1)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,300)\t(0,400,\1c&H997E3B&)}
-Comment: 0,0:00:00.00,0:00:00.00,Translation - Copy,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Translation - Copy,,0,0,0,code syl all,function char_counter2(ref) ci2[ref] = ci2[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Translation - Copy,,0,0,0,code syl,function phong(ref) ci[ref]=ci[ref]-1; return "" end; ci={40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; cn= _G.unicode.len((orgline.text_stripped:gsub(" ","")))
-Comment: 1,0:00:00.00,0:00:00.00,Translation - Copy,,0,0,0,template char,!char_counter(8)!!retime("line",-(ci[1]-1)*17,-2-(ci[1]-1)*10)!!phong(1)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,300)\t(0,400,\1c&H997E3B&)}
+Comment: 1,0:25:43.00,0:25:43.00,Karaoke,,0,0,0,template char,!retime("start2syl",-800+($si-1)*80, 0)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,0)\t(0,400,\1c&H997E3B&)}
+Comment: 0,0:25:58.27,0:25:58.27,Karaoke,hilight,0,0,0,template multi,!retime("postsyl",-$dur,1400-$dur)!{\an5\pos($center,$middle)\t(0,42,\3c&HFFFFFF&\bord7\blur3)\t(42,$dur,\bord1\1a&HFF&\blur1)\fad(0,800)}
+Comment: 1,0:25:43.00,0:25:43.00,Karaoke - Copy,,0,0,0,template char,!retime("start2syl",-800+($si-1)*80, 0)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,0)\t(0,400,\1c&H997E3B&)}
+Comment: 0,0:25:58.27,0:25:58.27,Karaoke - Copy,hilight,0,0,0,template multi,!retime("postsyl",-$dur,1400-$dur)!{\an5\pos($center,$middle)\t(0,42,\3c&HFFFFFF&\bord7\blur3)\t(42,$dur,\bord1\1a&HFF&\blur1)\fad(0,800)}
+Comment: 0,0:25:43.00,0:25:43.00,Translation,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Comment: 0,0:25:43.00,0:25:43.00,Translation,,0,0,0,code syl all,function char_counter2(ref) ci2[ref] = ci2[ref] + 1; return "" end
+Comment: 0,0:25:43.00,0:25:43.00,Translation,,0,0,0,code syl,function phong(ref) ci[ref]=ci[ref]-1; return "" end; ci={40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; cn= _G.unicode.len((orgline.text_stripped:gsub(" ","")))
+Comment: 1,0:25:43.00,0:25:43.00,Translation,,0,0,0,template char,!char_counter(8)!!retime("line",-(ci[1]-1)*17,-2-(ci[1]-1)*10)!!phong(1)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,300)\t(0,400,\1c&H997E3B&)}
+Comment: 0,0:25:43.00,0:25:43.00,Translation - Copy,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
+Comment: 0,0:25:43.00,0:25:43.00,Translation - Copy,,0,0,0,code syl all,function char_counter2(ref) ci2[ref] = ci2[ref] + 1; return "" end
+Comment: 0,0:25:43.00,0:25:43.00,Translation - Copy,,0,0,0,code syl,function phong(ref) ci[ref]=ci[ref]-1; return "" end; ci={40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; cn= _G.unicode.len((orgline.text_stripped:gsub(" ","")))
+Comment: 1,0:25:43.00,0:25:43.00,Translation - Copy,,0,0,0,template char,!char_counter(8)!!retime("line",-(ci[1]-1)*17,-2-(ci[1]-1)*10)!!phong(1)!{\an5\move(!$scenter-math.random(-40,-10)!,!$middle-math.random(70,90)!,$scenter,$smiddle,0,500)\fad(700,300)\t(0,400,\1c&H997E3B&)}
 Comment: 0,0:23:43.26,0:23:45.83,Karaoke,,0,0,0,karaoke,{\k15}{\k27}"Ji{\k71}kan {\k34}gi{\k47}re {\k63}sa"
 Comment: 0,0:23:47.22,0:23:50.19,Karaoke,,0,0,0,karaoke,{\k23}{\k18}Da{\k16}re{\k19}ka {\k27}ga {\k20}ma{\k38}ta{\k50} {\k16}wa{\k31}ra{\k39}tta
 Comment: 0,0:23:51.34,0:23:55.52,Karaoke,,0,0,0,karaoke,{\k10}{\k38}Jou{\k61}tou{\k76} {\k66}saa {\k44}ka{\k16}ku{\k37}ren{\k20}bo {\k50}wa
@@ -58,7 +60,7 @@ Comment: 0,0:24:31.61,0:24:35.32,Karaoke,,0,0,0,karaoke,{\k18}{\k21}Mi{\k17}e{\k
 Comment: 0,0:24:35.66,0:24:39.40,Karaoke,,0,0,0,karaoke,{\k18}{\k19}Ji{\k32}bun {\k34}no {\k15}a{\k37}shi {\k16}de {\k52}Try{\k53}#{\k98}#
 Comment: 0,0:24:39.69,0:24:43.41,Karaoke,,0,0,0,karaoke,{\k10}{\k24}Se{\k23}ka{\k16}i {\k24}no {\k21}ha{\k34}te {\k20}wo {\k33}to{\k15}mo {\k32}ni {\k23}mi{\k46}yo{\k51}u
 Comment: 0,0:24:43.75,0:24:47.21,Karaoke,,0,0,0,karaoke,{\k16}{\k32}I{\k21}ssho {\k32}na{\k15}ra {\k19}i{\k16}ke{\k15}ru {\k49}Fly{\k59}#{\k72}#
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,,
+Comment: 0,0:23:43.00,0:23:43.00,Karaoke,,0,0,0,,
 Comment: 0,0:23:43.26,0:23:45.83,Translation,,0,0,0,karaoke,"Time's up, won't come back"
 Comment: 0,0:23:47.22,0:23:50.19,Translation,,0,0,0,karaoke,Somebody said again, with a laugh
 Comment: 0,0:23:51.34,0:23:55.52,Translation,,0,0,0,karaoke,Fine then, guess time for hide-and-seek's...
