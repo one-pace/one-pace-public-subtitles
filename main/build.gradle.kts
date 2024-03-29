@@ -19,27 +19,6 @@ var engDialogue : Array<String> = arrayOf<String>(
   "Note"
 )
 
-var esSign : Array<String> = arrayOf<String>(
-  "OPLetreros",
-  "Credits",
-  "Title",
-  "Captions",
-  "WeAreTrad",
-  "WeAreKara",
-  "BelieveTrad",
-  "BelieveKara",
-  "TOPPU",
-  "Top",
-  "Kanji",
-  "Karaoke",
-  "Kanji-furigana",
-  "Translation",
-  "We-Go-Karaoke",
-  "We-Go-Translation",
-  "HikariRom",
-  "HikariTradu"
-)
-
 fun EventLine.styleContainsAny (strings: Array<String>) : Boolean {
   for (s in strings) {
     if (this.style.contains(s)) return true;
@@ -49,10 +28,6 @@ fun EventLine.styleContainsAny (strings: Array<String>) : Boolean {
 
 fun EventLine.isDialogue () : Boolean {
   return this.styleContainsAny(engDialogue);
-}
-
-fun EventLine.isSpanishDialogue () : Boolean {
-  return !this.styleContainsAny(esSign);
 }
 
 fun escapeTitle (title: String) : String {
@@ -221,16 +196,6 @@ subs {
     out(get("mergefile_it"))
   }
 
-  // Removes all non dialogue lines from Spanish subtitle
-  val spanishDub by task<ASS> {
-    from(get("spsubs"))
-    ass {
-      events.lines.removeIf {
-        it.isSpanishDialogue ()
-      }
-    }
-  }
-
   // Helper task to merge all language subs needing merging and output to Final Subs folder
   val mergeAll by task<DefaultSubTask> {
     dependsOn(merge.item())
@@ -263,9 +228,13 @@ subs {
               name("Japanese")
               trackOrder(1)
               default(true)
-            } else {
+            } else if (track.lang == "en") {
                 name("English")
                 trackOrder(2)
+                default(false)
+            } else if (track.lang == "es") {
+                name("Spanish")
+                trackOrder(3)
                 default(false)
               }
         }
@@ -381,14 +350,18 @@ subs {
         }
       }
 
-      // Signs and Songs subtitle for Spanish dub
-      if (file(get("esaudio")).exists()) {
-        from(spanishDub.item()) {
-          tracks {
-            name("Spanish Signs and Songs")
-            lang("es")
-            default(false)
-          }
+      attach(get("spfonts")) {
+        includeExtensions("ttf", "otf")
+      }
+    }
+
+    // Spanish Dub Subtitles
+    if (file(get("spdubsubs")).exists()) {
+      from(get("spdubsubs")) {
+        tracks {
+          name("Spanish Signs and Songs")
+          lang("es")
+          default(false)
         }
       }
 
