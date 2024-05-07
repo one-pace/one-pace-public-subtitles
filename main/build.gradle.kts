@@ -60,7 +60,7 @@ subs {
 
     if (propertyExists("OP") && !propertyExists("noOP")) {
       from(get("OP")) {
-        syncSourceLine("sync", EventLineAccessor.EFFECT)
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
@@ -145,7 +145,7 @@ subs {
 
     if (propertyExists("OP_de")) {
       from(get("OP_de")) {
-        syncSourceLine("sync", EventLineAccessor.EFFECT)
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
@@ -164,7 +164,7 @@ subs {
 
     if (propertyExists("OP_pt")) {
       from(get("OP_pt")) {
-        syncSourceLine("sync", EventLineAccessor.EFFECT)
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
@@ -183,7 +183,7 @@ subs {
 
     if (propertyExists("OP_it")) {
       from(get("OP_it")) {
-        syncSourceLine("sync", EventLineAccessor.EFFECT)
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
