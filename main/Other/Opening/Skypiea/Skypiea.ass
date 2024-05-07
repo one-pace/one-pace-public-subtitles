@@ -23,7 +23,7 @@ Style: Roger Monologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H780
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:58.50,0:00:58.54,Roger Monologue,,0,0,0,sync,{Scene of Merry sailing the globe ends/Frame of Sanji's face start}
+Comment: 0,0:00:58.50,0:00:58.54,Roger Monologue,sync,0,0,0,,{Scene of Merry sailing the globe ends/Frame of Sanji's face start}
 Comment: 0,0:01:00.00,0:01:00.00,Karaoke,,0,0,0,code once anystyle,math.randomseed(12345)
 Comment: 0,0:01:00.00,0:01:00.00,Karaoke,,0,0,0,template syl noblank notext,!retime("syl",-50,100)!{\an5\c&HFFFFFF&\3c&HFFFFFF&\blur0.6\frz!math.random(-40,40)!\bord-5\fscy30\pos(!orgline.left + syl.center!,!orgline.middle!)\t(-100,!syl.duration!-30!,\fscy165)\fad(0,100)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
 Comment: 0,0:01:00.00,0:01:00.00,Karaoke,,0,0,0,template char loop i 3,!retime("start2syl",-500+(3 * char.i - 4 + $loop_i)*8,-50)!{\pos(!orgline.left + char.center!,!orgline.middle!)\an5\bord2\blur12\fscx!math.random(150,250)!\fscy!math.random(150,250)!\fad(230,0)\t(0,400,\blur0\fscx100\fscy100\c&H9C5D42&)}
