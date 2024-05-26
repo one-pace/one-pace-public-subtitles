@@ -9,505 +9,455 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Main,Impress BT,83,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.75,3.75,2,180,180,27,1
-Style: Flashbacks,Impress BT,83,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.125,3.75,2,180,180,27,1
-Style: Thoughts,Impress BT,83,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.125,3.75,2,180,180,27,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
 Style: Captions,Roboto,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,15,1
-Style: Title,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.75,0,1,3,0,2,15,15,15,1
-Style: Credits,FOT-Greco Std DB Strp,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,95,100,1.5,0,1,3.8,0,4,15,15,15,1
-Style: Narrator,Impress BT,84,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.75,3.75,8,180,180,27,1
+Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Note-207+,Impress BT Pace,57,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3,3,8,300,300,27,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:02.00,0:00:08.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Video Editing
-Dialogue: 1,0:00:02.00,0:00:08.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Video Editing
-Dialogue: 2,0:00:02.00,0:00:08.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Video Editing
-Dialogue: 0,0:00:02.00,0:00:08.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Feeso
-Dialogue: 1,0:00:02.00,0:00:08.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0.1\fscx120\fscy125\4a&HFF&}Feeso
-Dialogue: 2,0:00:02.00,0:00:08.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0.1\fscx120\fscy125\4a&HFF&}Feeso
-Dialogue: 0,0:00:08.00,0:00:14.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Graphics
-Dialogue: 1,0:00:08.00,0:00:14.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Graphics
-Dialogue: 2,0:00:08.00,0:00:14.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Graphics
-Dialogue: 0,0:00:08.00,0:00:14.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Datenshi
-Dialogue: 1,0:00:08.00,0:00:14.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Datenshi
-Dialogue: 2,0:00:08.00,0:00:14.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Datenshi
-Dialogue: 0,0:00:14.00,0:00:22.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Quality Control
-Dialogue: 1,0:00:14.00,0:00:22.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Quality Control
-Dialogue: 2,0:00:14.00,0:00:22.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Quality Control
-Dialogue: 0,0:00:14.00,0:00:22.00,Credits,,100,0,0,,{\pos(170,725)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Galaxy 9000\NGrug\NPepperjack\NSewil
-Dialogue: 1,0:00:14.00,0:00:22.00,Credits,,100,0,0,,{\pos(170,725)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Galaxy 9000\NGrug\NPepperjack\NSewil
-Dialogue: 2,0:00:14.00,0:00:22.00,Credits,,100,0,0,,{\pos(170,725)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Galaxy 9000\NGrug\NPepperjack\NSewil
-Dialogue: 0,0:00:22.00,0:00:28.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Soundtracking
-Dialogue: 1,0:00:22.00,0:00:28.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Soundtracking
-Dialogue: 2,0:00:22.00,0:00:28.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Soundtracking
-Dialogue: 0,0:00:22.00,0:00:28.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Halee
-Dialogue: 1,0:00:22.00,0:00:28.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Halee
-Dialogue: 2,0:00:22.00,0:00:28.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Halee
-Dialogue: 0,0:00:28.00,0:00:34.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Timing
-Dialogue: 1,0:00:28.00,0:00:34.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Timing
-Dialogue: 2,0:00:28.00,0:00:34.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Timing
-Dialogue: 0,0:00:28.00,0:00:34.00,Credits,,100,0,0,,{\pos(170,645)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}KaitouYahiko\NPhosCity
-Dialogue: 1,0:00:28.00,0:00:34.00,Credits,,100,0,0,,{\pos(170,645)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko\NPhosCity
-Dialogue: 2,0:00:28.00,0:00:34.00,Credits,,100,0,0,,{\pos(170,645)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko\NPhosCity
-Dialogue: 0,0:00:34.00,0:00:40.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Subtitle Editing
-Dialogue: 1,0:00:34.00,0:00:40.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Subtitle Editing
-Dialogue: 2,0:00:34.00,0:00:40.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Subtitle Editing
-Dialogue: 0,0:00:34.00,0:00:40.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Zenef
-Dialogue: 1,0:00:34.00,0:00:40.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Zenef
-Dialogue: 2,0:00:34.00,0:00:40.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Zenef
-Dialogue: 0,0:00:40.00,0:00:46.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Translation
-Dialogue: 1,0:00:40.00,0:00:46.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Translation
-Dialogue: 2,0:00:40.00,0:00:46.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Translation
-Dialogue: 0,0:00:40.00,0:00:46.00,Credits,,100,0,0,,{\pos(170,645)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Crunchyroll \NGaijin
-Dialogue: 1,0:00:40.00,0:00:46.00,Credits,,100,0,0,,{\pos(170,645)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Crunchyroll \NGaijin
-Dialogue: 2,0:00:40.00,0:00:46.00,Credits,,100,0,0,,{\pos(170,645)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Crunchyroll \NGaijin
-Dialogue: 0,0:00:46.00,0:00:50.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\c&H000000&}Special Thanks
-Dialogue: 1,0:00:46.00,0:00:50.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Special Thanks
-Dialogue: 2,0:00:46.00,0:00:50.00,Credits,,100,0,0,,{\fad(400,400)\blur0.5\bord0\4a&HFF&}Special Thanks
-Dialogue: 0,0:00:46.00,0:00:50.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Randy Troy
-Dialogue: 1,0:00:46.00,0:00:50.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Randy Troy
-Dialogue: 2,0:00:46.00,0:00:50.00,Credits,,100,0,0,,{\pos(170,615)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Randy Troy
-Dialogue: 50,0:00:02.23,0:00:04.06,Narrator,,0,0,0,,The Great Pirate Era
-Dialogue: 50,0:00:04.06,0:00:09.19,Narrator,,0,0,0,,has proven to be a more tumultuous storm \Nthan the World Government expected.
-Dialogue: 50,0:00:10.86,0:00:18.12,Narrator,,0,0,0,,The figures in the eye \Nof this relentless tempest are...
-Dialogue: 50,0:00:19.95,0:00:21.83,Narrator,,0,0,0,,Monkey D. Luffy...
-Dialogue: 50,0:00:22.87,0:00:25.12,Narrator,,0,0,0,,and the Straw Hat Pirates!
-Dialogue: 50,0:00:27.50,0:00:31.38,Narrator,,0,0,0,,To confront the furious Great Pirate Era,
-Dialogue: 50,0:00:31.38,0:00:35.84,Narrator,,0,0,0,,fifty world leaders have come\Ntogether for the Reverie,
-Dialogue: 50,0:00:36.64,0:00:39.93,Narrator,,0,0,0,,a quadrennial conference \Nthat {is about to begin}will commence shortly.
-Dialogue: 50,0:00:44.60,0:00:48.61,Narrator,,0,0,0,,Now is a time of great change.
-Dialogue: 0,0:00:55.41,0:01:00.29,Title,,0,0,375,,{\bord2.7\c&H000000&\1a&HFF&\blur1.05\fad(800,0)\t(755,800,\1a&H00&)}The Empty Throne
-Dialogue: 1,0:00:55.41,0:01:00.29,Title,,0,0,375,,{\bord0\4a&HFF&\blur1.05\fad(800,0)}The Empty Throne
-Dialogue: 50,0:01:10.67,0:01:12.21,Main,,0,0,0,,{Kaido-sama!}Lord Kaido!
-Dialogue: 50,0:01:14.09,0:01:17.72,Main,,0,0,0,,What is it?!\NDon't bother me when I'm drinking!
-Dialogue: 50,0:01:17.72,0:01:20.18,Main,,0,0,0,,No! I didn't mean to!
-Dialogue: 50,0:01:20.18,0:01:21.31,Main,,0,0,0,,The thing is...
-Dialogue: 50,0:01:34.15,0:01:36.11,Main,,0,0,0,,{\i1}What do you want?!
-Dialogue: 50,0:01:36.95,0:01:39.32,Main,,0,0,0,,It's about Straw Hat.
-Dialogue: 50,0:01:39.32,0:01:42.54,Main,,0,0,0,,{\i1}He's on his way to you.
-Dialogue: 50,0:01:42.54,0:01:44.91,Main,,0,0,0,,{So what?}What are you getting at?
-Dialogue: 50,0:01:44.91,0:01:48.21,Main,,0,0,0,,Listen, keep your hands off him!
-Dialogue: 50,0:01:49.38,0:01:53.63,Main,,0,0,0,,I'm coming to Wano \Nto claim Straw Hat's head myself.
-Dialogue: 50,0:01:54.26,0:01:57.34,Main,,0,0,0,,Is this some kind of {a }joke?! I refuse!
-Dialogue: 50,0:01:57.34,0:02:00.09,Main,,0,0,0,,{\i1}I have no business with you.
-Dialogue: 50,0:02:00.93,0:02:06.39,Main,,0,0,0,,{I've got to take Straw Hat out, or I'll lose face!}If I don't personally squash Straw Hat, \N{my reputation will suffer}I'll become a laughingstock.
-Dialogue: 50,0:02:06.39,0:02:10.23,Main,,0,0,0,,Besides, he has something \Nthat I want back!
-Dialogue: 50,0:02:10.23,0:02:11.94,Main,,0,0,0,,{\i1}I don't care!
-Dialogue: 50,0:02:12.32,0:02:15.90,Main,,0,0,0,,{\i1}You still owe me big time, \N{right}don't you?
-Dialogue: 50,0:02:15.90,0:02:17.53,Main,,0,0,0,,Owe you?
-Dialogue: 50,0:02:17.53,0:02:20.16,Main,,0,0,0,,{\i1}{You remember, don't you?}Don't tell me you've forgotten.
-Dialogue: 50,0:02:20.16,0:02:22.37,Main,,0,0,0,,{\i1}That was a long time ago!
-Dialogue: 50,0:02:22.37,0:02:25.24,Main,,0,0,0,,{But...}{No matter!}Even so, {it was a lifetime debt.}it incurred a lifetime debt.
-Dialogue: 50,0:02:31.00,0:02:37.05,Main,,0,0,0,,{I'm the one who's got a grudge against that Straw Hat brat!}I'm the one who'll get even \Nwith that Straw Hat rookie!
-Dialogue: 50,0:02:37.05,0:02:39.72,Main,,0,0,0,,So {\i1}I'm{\i0} the one who will kill him!
-Dialogue: 50,0:02:39.72,0:02:43.43,Main,,0,0,0,,{If you come, I'll kill you too, Linlin!}Show your face,\Nand I'll kill you too, Linlin!{Needs to match Wano 28 @09:08}
-Dialogue: 50,0:02:43.43,0:02:45.22,Main,,0,0,0,,{\i1}I'd like to see you try.{I didn't call to get your permission, I'm just giving you fair warning.}
-Dialogue: 50,0:02:45.22,0:02:48.73,Main,,0,0,0,,{\i1}I'm not asking your permission;\Nthis is merely a courtesy call.
-Dialogue: 50,0:02:50.60,0:02:54.69,Main,,0,0,0,,{Get it}Got that? Straw Hat's head is mine!
-Dialogue: 50,0:02:54.69,0:02:58.99,Main,,0,0,0,,{Let's try and get along... like we used to!}So let's play nice... \Nfor old times' sake!
-Dialogue: 50,0:03:02.87,0:03:04.53,Main,,0,0,5,,Big Mom is on the move!
-Dialogue: 50,0:03:04.53,0:03:07.41,Main,,0,0,5,,It {appears that}seems she's contacted Kaido!
-Dialogue: 50,0:03:07.41,0:03:09.75,Main,,0,0,0,,They're using an unsecured channel!
-Dialogue: 50,0:03:09.75,0:03:14.84,Main,,0,0,0,,{They don't care about being wiretapped}Don't they care if we overhear?!\NAre they {\i1}trying{\i0} to provoke us?
-Dialogue: 50,0:03:15.46,0:03:17.92,Main,,0,0,0,,{\i1}{Let's try and get along...}So let's play nice...
-Dialogue: 50,0:03:17.92,0:03:22.39,Main,,0,0,0,,{What could oppose both \NEmperor Big Mom and Emperor Kaido?}What force could possibly oppose \NEmperor Big Mom and Emperor Kaido?
-Dialogue: 50,0:03:22.39,0:03:25.26,Main,,0,0,0,,{The admirals}Admirals? The Seven Warlords?
-Dialogue: 50,0:03:27.89,0:03:31.73,Main,,0,0,0,,{Do you want me to head out, Sakazuki?}Should I head out, Sakazuki?
-Dialogue: 50,0:03:31.73,0:03:34.48,Main,,0,0,0,,Wait, Borsalino.
-Dialogue: 50,0:03:34.48,0:03:39.32,Main,,0,0,0,,{We don't know the military capability of Wano.}We have zero intel \Non Wano's military capacity.
-Dialogue: 50,0:03:40.15,0:03:42.20,Main,,0,0,0,,{The samurai, huh?}Their samurai, you mean?
-Dialogue: 50,0:03:44.53,0:03:47.20,Main,,0,0,5,,Seriously?! Garp-{\i1}chan{\fs18} {\r}?!
-Dialogue: 50,0:03:47.20,0:03:51.75,Main,,0,0,0,,{Aren't Kaido and Big Mom going after your grandson?!}Don't Kaido and Big Mom each have \Na bone to pick with your grandson?!
-Dialogue: 50,0:03:51.75,0:03:54.38,Main,,0,0,0,,{Straw Hat Luffy!}With Straw Hat Luffy?!
-Dialogue: 50,0:03:56.09,0:03:57.67,Main,,0,0,0,,{That's hilarious!}What a riot!
-Dialogue: 50,0:03:59.38,0:04:02.18,Main,,0,0,0,,{This isn't a joke!}You realize this isn't a joke, right?
-Dialogue: 50,0:04:02.59,0:04:07.14,Main,,0,0,5,,{Are you just going to allow two of the emperors to team up?}You're saying you'd just let two emperors team up?
-Dialogue: 50,0:04:07.14,0:04:09.56,Main,,0,0,0,,{Well, it's not like we can do anything anyway;}It's not as if we can do anything right now.
-Dialogue: 50,0:04:09.56,0:04:11.39,Main,,0,0,0,,{it's the Reverie!}Not during the Reverie anyway.
-Dialogue: 50,0:04:11.39,0:04:15.23,Main,,0,0,0,,Most of our manpower has been \Nassigned to protect {the royals}royalty!
-Dialogue: 50,0:04:15.23,0:04:17.19,Main,,0,0,0,,But if nothing is done...
-Dialogue: 50,0:04:17.19,0:04:19.82,Main,,0,0,0,,Pardon me, ma'am,
-Dialogue: 50,0:04:19.82,0:04:22.07,Main,,0,0,0,,but this is Big Mom we're {talking}talkin' about.
-Dialogue: 50,0:04:22.07,0:04:25.41,Main,,0,0,0,,{\q2}{She must have known that the Navy couldn't spare any marines...}She must've known the Navy ain't gonna spare a soul,
-Dialogue: 50,0:04:25.41,0:04:28.03,Main,,70,0,0,,{because of the Reverie!}what with the Reverie!
-Dialogue: 50,0:04:28.03,0:04:29.99,Main,,0,0,0,,You're right, but...
-Dialogue: 50,0:04:29.99,0:04:32.54,Main,,0,0,0,,What did Mister Sakazuki say?
-Dialogue: 50,0:04:32.54,0:04:36.96,Main,,0,0,0,,He said, "Wano is a not a member country,\Nso it's outside our jurisdiction."
-Dialogue: 50,0:04:36.96,0:04:38.63,Main,,0,0,0,,{Just as I'd expect!}Figured as much!
-Dialogue: 50,0:04:40.38,0:04:42.55,Main,,0,0,0,,Best not to get involved for now!
-Dialogue: 50,0:04:45.51,0:04:47.30,Main,,0,0,0,,But Garp-{\i1}kun{\i},
-Dialogue: 50,0:04:47.30,0:04:50.10,Main,,0,0,3,,if Big Mom and Kaido are up to something again,
-Dialogue: 50,0:04:50.10,0:04:52.39,Main,,0,0,3,,we shouldn't take it lightly.
-Dialogue: 50,0:04:52.39,0:04:53.39,Main,,0,0,3,,After all,
-Dialogue: 50,0:04:53.39,0:04:57.31,Main,,0,0,0,,{you became known as the hero of the Navy because of them...}they're the reason you're \Nknown as the "{h}Hero of the Navy."
-Dialogue: 50,0:04:59.48,0:05:01.28,Main,,0,0,0,,{The "Rocks", huh?}Rocks, huh?
-Dialogue: 50,0:05:04.28,0:05:08.03,Main,,0,0,0,,{Hina, you're quite young.\NWhere did you hear about this?}Hina, that's a bit \Nbefore your time, isn't it?
-Dialogue: 50,0:05:09.28,0:05:13.25,Main,,0,0,0,,{Before Roger, it was definitely their era!}Before Roger, that era belonged to {\i1}them{\fs15} {\r}!
-Dialogue: 50,0:05:14.00,0:05:18.42,Main,,0,0,0,,But that was 40 years ago.\NThe past is in the past.
-Dialogue: 50,0:05:18.42,0:05:22.38,Main,,0,0,0,,{Even though}Though they lost their captain,\N{they're still gaining influence.}their influence only grows.
-Dialogue: 50,0:05:22.38,0:05:24.09,Main,,0,0,0,,Hina's worried.
-Dialogue: 50,0:05:24.09,0:05:26.18,Main,,0,0,0,,No point worrying!
-Dialogue: 50,0:05:26.18,0:05:31.97,Main,,0,0,0,,{True, they would be a threat if they returned,\Nbut things never turn out how you'd expect anyway...}True, they'd be a threat if they returned,\Nbut the future always finds ways to surprise us!
-Dialogue: 50,0:05:31.97,0:05:37.40,Main,,0,0,0,,{Your grandson's bounty is also a real problem.}But seriously, your grandson's bounty \Nis a real nuisance, ain't it?
-Dialogue: 50,0:05:37.40,0:05:41.15,Main,,0,0,0,,{I mean, it jumped to 1.5 billion belly.}It recently jumped \Nto 1.5 billion belly, didn't it?
-Dialogue: 50,0:05:43.28,0:05:46.24,Main,,0,0,0,,Why are you smiling? Hina's confused.
-Dialogue: 50,0:05:46.24,0:05:49.28,Main,,0,0,0,,{He's still just a fledgling.}And he's still just getting started...
-Dialogue: 50,0:05:49.95,0:05:53.54,Main,,0,0,2,,You may enter, King Sterry of Goa.
-Dialogue: 50,0:06:18.52,0:06:21.86,Thoughts,,0,0,0,,So {\i1}this{\i0} is the center of the world!
-Dialogue: 50,0:06:36.20,0:06:38.62,Main,,0,0,0,,– Now, swear your oath.{..}\N– What?
-Dialogue: 50,0:06:38.62,0:06:40.88,Main,,0,0,0,,C-Can I sit there?!
-Dialogue: 50,0:06:40.88,0:06:43.21,Main,,0,0,0,,Don't joke about such things!{Is that supposed to be a joke?!}
-Dialogue: 50,0:06:43.21,0:06:44.17,Thoughts,,0,0,0,,Tch!
-Dialogue: 50,0:06:44.17,0:06:48.34,Main,,0,0,0,,No one is allowed to sit upon that throne.
-Dialogue: 50,0:06:48.34,0:06:50.59,Main,,0,0,0,,It is the Empty Throne.
-Dialogue: 50,0:06:50.59,0:06:53.43,Main,,0,0,0,,It symbolizes equality \Nbetween the {rulers of nations.}nations' leaders.
-Dialogue: 50,0:06:53.43,0:06:56.97,Main,,0,0,0,,The oath affirms that no ruler\Nwill seek dominion over the rest.
-Dialogue: 50,0:06:56.97,0:07:00.39,Main,,0,0,0,,The 20 weapons {that protect the throne}that \Nstand sentinel over the throne
-Dialogue: 50,0:07:00.39,0:07:04.32,Main,,0,0,0,,were placed there \N800 years ago to represent
-Dialogue: 50,0:07:04.32,0:07:07.57,Main,,0,0,0,,the oaths of the First Twenty, \N{who created the world.}the world's creators.
-Dialogue: 50,0:07:07.57,0:07:11.11,Main,,0,0,0,,It is located at the very \Ncenter of the world.
-Dialogue: 50,0:07:11.11,0:07:14.66,Main,,0,0,0,,Its vacancy is evidence of peace.
-Dialogue: 50,0:07:14.66,0:07:18.66,Main,,0,0,0,,{The greatest authority in the world remains with the Five Elders, }As the Five Elders, \Nthe Celestial Dragons' leadership,
-Dialogue: 50,0:07:18.66,0:07:23.21,Main,,0,0,0,,{the highest-ranking Celestial Dragons.}remain the greatest authority in the world,
-Dialogue: 50,0:07:23.21,0:07:27.71,Main,,0,0,0,,{There is no one ruler of the world.}their division of {leadership}power symbolizes how there is no one ruler over all.
-Dialogue: 50,0:07:32.43,0:07:35.85,Main,,0,0,0,,Now, swear your oath, King Sterry.
-Dialogue: 50,0:07:36.26,0:07:40.81,Thoughts,,0,0,0,,If I sit there, \NI'll be king of the world!
-Dialogue: 50,0:07:40.81,0:07:42.56,Main,,0,0,0,,King Sterry?
-Dialogue: 50,0:07:43.35,0:07:47.32,Thoughts,,0,0,0,,I wanna sit there!
-Dialogue: 50,0:07:51.15,0:07:53.49,Main,,0,0,0,,Come on!
-Dialogue: 50,0:07:53.49,0:07:54.49,Main,,0,0,0,,What are you...?!
-Dialogue: 50,0:07:56.03,0:07:57.95,Main,,0,0,0,,Please stop!
-Dialogue: 50,0:08:00.20,0:08:01.96,Main,,0,0,2,,I caught one-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:08:01.96,0:08:04.83,Main,,0,0,2,,I caught a giant mermaid-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:08:04.83,0:08:06.71,Main,,0,0,0,,Shirahoshi!
-Dialogue: 50,0:08:10.76,0:08:12.22,Main,,0,0,0,,{Father-sama...}Dearest Father...
-Dialogue: 50,0:08:12.22,0:08:16.64,Main,,0,0,0,,{How can we forgive such an outrage}Do you expect us to overlook \Nsuch disrespect, Father{-}{sama}?!
-Dialogue: 50,0:08:19.64,0:08:22.06,Main,,0,0,0,,Come on! Calm down!
-Dialogue: 50,0:08:22.06,0:08:25.52,Main,,0,0,0,,What are you doing?! \NPlease stop!
-Dialogue: 50,0:08:25.52,0:08:27.90,Main,,0,0,0,,That's right! Chain her up!
-Dialogue: 50,0:08:30.19,0:08:31.19,Main,,0,0,0,,Shirahoshi!
-Dialogue: 50,0:08:31.19,0:08:34.36,Main,,0,0,0,,{Wait}Hold it! What are you doing,\NPrincess of Arabasta?!
-Dialogue: 50,0:08:34.36,0:08:35.78,Main,,0,0,0,,Shirahoshi-{\i1}chan{\fs15} {\r}!
-Dialogue: 50,0:08:35.78,0:08:39.12,Main,,0,0,0,,Stop, Rebecca! \NHe's a Celestial Dragon!
-Dialogue: 50,0:08:39.12,0:08:41.33,Main,,0,0,0,,So what?! Let go of me!
-Dialogue: 50,0:08:41.33,0:08:46.33,Main,,0,0,0,,{They have no perspective}They lack common sense!\NIf you anger them, they'll destroy Dressrosa!
-Dialogue: 50,0:08:54.63,0:08:55.89,Main,,0,0,0,,That bastard{...}!
-Dialogue: 50,0:08:55.89,0:08:57.22,Main,,0,0,0,,Don't do it, Leo!
-Dialogue: 50,0:08:57.22,0:08:59.18,Main,,0,0,0,,Shirahoshi{...}!
-Dialogue: 50,0:09:08.36,0:09:11.65,Main,,0,0,0,,Whoa, come on!
-Dialogue: 50,0:09:11.65,0:09:13.74,Thoughts,,0,0,0,,No one interfere!
-Dialogue: 50,0:09:15.45,0:09:17.24,Main,,0,0,0,,Come on!
-Dialogue: 50,0:09:24.62,0:09:27.29,Main,,0,0,0,,{Do it}Capture it, Slave #3!
-Dialogue: 50,0:09:27.29,0:09:30.84,Main,,0,0,0,,I'll make it my pet-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:09:33.42,0:09:38.47,Main,,0,0,0,,{I can't just stand here!\NHow dare he do that to our boss' friend!}No standin' around! He's gonna pay \Nfor doin' this to our boss' friend!
-Dialogue: 50,0:09:40.47,0:09:41.60,Main,,0,0,0,,Leo!
-Dialogue: 50,0:09:43.27,0:09:45.48,Main,,0,0,0,,Damn! {I have no choice!}There's no other way!
-Dialogue: 50,0:09:45.48,0:09:48.23,Main,,0,0,0,,I'm coming for you, Mermaid Princess!
-Dialogue: 50,0:09:48.23,0:09:51.40,Main,,0,0,0,,– Don't do it, Kanese soldier!\N– Somebody, stop him!
-Dialogue: 50,0:09:55.69,0:09:57.61,Main,,0,0,0,,Let me go!
-Dialogue: 50,0:10:00.91,0:10:01.87,Main,,0,0,0,,Leo!
-Dialogue: 50,0:10:01.87,0:10:03.91,Main,,0,0,0,,Who are you bastards?!
-Dialogue: 50,0:10:05.87,0:10:09.29,Main,,0,0,2,,You should be thanking me.
-Dialogue: 50,0:10:09.29,0:10:11.63,Main,,0,0,2,,Cipher Pol 0.{..}
-Dialogue: 50,0:10:12.55,0:10:14.67,Main,,0,0,2,,{Indeed, by stopping you...}Yes indeedy.
-Dialogue: 50,0:10:14.67,0:10:16.92,Main,,0,0,2,,{we just saved several countries.}Stopping you just spared several countries.
-Dialogue: 50,0:10:16.92,0:10:19.39,Main,,0,0,2,,{You do not cross a Celestial Dragon.}Don't ruffle the feathers of Celestial Dragons.
-Dialogue: 50,0:10:19.39,0:10:21.10,Main,,0,0,2,,{Even children know that.}Even young'uns know that.
-Dialogue: 50,0:10:25.52,0:10:27.14,Narrator,,0,0,0,,Cipher Pol is a secret organization
-Dialogue: 50,0:10:27.14,0:10:30.06,Narrator,,0,0,0,,under {the }direct control of the World Government.
-Dialogue: 50,0:10:30.06,0:10:36.53,Narrator,,0,0,0,,Aegis 0 is the top unit in the agency,\N{with}boasting the most powerful agents.
-Dialogue: 50,0:10:41.99,0:10:42.45,Main,,0,0,0,,Sai!
-Dialogue: 50,0:10:45.29,0:10:49.29,Main,,0,0,0,,The Celestial Dragons are the gods\Nwho created this world.
-Dialogue: 50,0:10:49.29,0:10:52.71,Main,,0,0,0,,{And all of you are merely the royals of the lower realm.}And though you are royalty, \Nyou merely rule the lower realm.
-Dialogue: 50,0:10:52.71,0:10:56.76,Main,,0,0,0,,It's only natural for gods \Nto get whatever they want.
-Dialogue: 50,0:10:56.76,0:10:59.18,Main,,0,0,0,,He's right-{\i1}{eh}ee{\i}, you {idiots}nincompoops!
-Dialogue: 50,0:10:59.18,0:11:02.01,Main,,0,0,0,,{That doesn't make sense!}Where's the logic in that?!
-Dialogue: 50,0:11:02.01,0:11:04.56,Main,,0,0,0,,{A god need not make sense.}Why would a god need logic?
-Dialogue: 50,0:11:05.01,0:11:06.72,Main,,0,0,0,,{Vivi-chan-sama...}Lady Vivi-{\i1}chan{\i0}...
-Dialogue: 50,0:11:10.77,0:11:12.31,Thoughts,,0,0,0,,Otohime{...},
-Dialogue: 50,0:11:12.31,0:11:16.36,Thoughts,,0,0,0,,your dream was to live \Nside-by-side with humans
-Dialogue: 50,0:11:16.36,0:11:18.44,Thoughts,,0,0,0,,in a world of sunlight!
-Dialogue: 50,0:11:19.78,0:11:22.32,Main,,0,0,0,,Give me back Shirahoshi! \NShe's my friend!
-Dialogue: 50,0:11:29.75,0:11:32.17,Main,,0,0,0,,Wait, Princess of Arabasta!
-Dialogue: 50,0:11:32.17,0:11:33.79,Main,,0,0,0,,King Neptune!
-Dialogue: 50,0:11:33.79,0:11:37.88,Main,,0,0,0,,Thank you! \N{I won't forget your kindness!}I'll never forget your kindness!
-Dialogue: 50,0:11:37.88,0:11:41.97,Main,,0,0,0,,But I'm afraid I must \Nlet go of our dreams-{\i1}jamon{\fs15} {\r}!
-Dialogue: 50,0:11:41.97,0:11:43.09,Main,,0,0,0,,What?!
-Dialogue: 50,0:11:47.18,0:11:51.23,Main,,0,0,0,,I'll crush them, and we'll return \Nto our seafloor home-{\i1}jamon{\fs15} {\r}!
-Dialogue: 50,0:11:54.23,0:11:56.86,Main,,0,0,0,,No! Don't hit him!
-Dialogue: 50,0:11:56.86,0:12:00.99,Main,,0,0,0,,If this {is the norm}is what happens on the surface,\N{I can't bring my people here anyway!}I can never bring my people here!
-Dialogue: 50,0:12:00.99,0:12:03.28,Main,,0,0,0,,No! This isn't how it is!
-Dialogue: 50,0:12:03.70,0:12:06.37,Main,,0,0,0,,King Neptune! This is not humanity!
-Dialogue: 50,0:12:09.70,0:12:12.79,Thoughts,,0,0,0,,I'm sorry, Otohime{...}!
-Dialogue: 50,0:12:14.58,0:12:17.46,Flashbacks,,0,0,0,,Let's face them together!{Pepperjack, here's another flashback for you.}
-Dialogue: 50,0:12:17.46,0:12:25.72,Flashbacks,,0,0,0,,Then maybe we can make a difference\Nfor the future of the children on this island,
-Dialogue: 50,0:12:27.05,0:12:29.31,Flashbacks,,0,0,0,,{\t(1693,2250,1,\3c&HFFFFFF&\4c&HFFFFFF&)}even just a small one!
-Dialogue: 50,0:12:30.68,0:12:36.19,Thoughts,,0,0,0,,{Even if we were to love them,\Nhumans won't change!}Even if we gave them our love,\Nwe can't change human nature!
-Dialogue: 50,0:12:36.19,0:12:39.78,Thoughts,,0,0,0,,I have to save Shirahoshi{...}; forgive me!
-Dialogue: 50,0:12:39.78,0:12:43.36,Main,,0,0,0,,How dare you defy me?\NKill him, Cipher Pol 0!
-Dialogue: 50,0:12:43.36,0:12:43.90,Main,,0,0,0,,{Roger.}{Yes, sir.}Wilco.
-Dialogue: 50,0:12:43.90,0:12:45.41,Main,,0,0,0,,{Get out of my way!}Out of my way!
-Dialogue: 50,0:12:45.41,0:12:48.45,Main,,0,0,0,,Stop it, Great Knight Neptune!\NDon't be {a fool}hasty!
-Dialogue: 50,0:12:50.33,0:12:54.08,Main,,0,0,0,,{Father-sama...}Dearest Father, no!\N{We should not give in to hatred!}Let go of your hatred!
-Dialogue: 50,0:13:04.76,0:13:06.72,Main,,0,0,0,,Ugh...
-Dialogue: 50,0:13:09.14,0:13:12.27,Main,,0,0,0,,Who hit the Celestial Dragon?!
-Dialogue: 50,0:13:12.27,0:13:16.23,Main,,0,0,0,,I-I have nothing to do with these hippos!
-Dialogue: 50,0:13:20.73,0:13:22.32,Main,,0,0,0,,{I'm sorry...}I'm so sorry!
-Dialogue: 50,0:13:22.32,0:13:24.86,Main,,0,0,0,,{As a fellow Celestial Dragon, I feel ashamed!}As a fellow Celestial Dragon, \NI am ashamed!
-Dialogue: 50,0:13:26.07,0:13:27.91,Main,,0,0,0,,Please forgive us!
-Dialogue: 50,0:13:29.37,0:13:31.29,Main,,0,0,0,,Is he a Celestial Dragon?!
-Dialogue: 50,0:13:31.29,0:13:34.54,Main,,0,0,0,,Let go of the princess, you idiot!
-Dialogue: 50,0:13:36.67,0:13:38.50,Main,,0,0,0,,My apologies{ to}, everyone!
-Dialogue: 50,0:13:38.50,0:13:41.88,Main,,0,0,0,,This fool {brought panic to a place meant for socializing!}induced panic \Nwhere we should be peaceably socializing.
-Dialogue: 50,0:13:44.05,0:13:47.80,Main,,0,0,0,,I assume you don't remember me, Neptune.
-Dialogue: 50,0:13:48.47,0:13:54.56,Main,,0,0,0,,But I am indebted to the Ryugu Kingdom\N{and have been waiting for this day!}and have patiently awaited this day.
-Dialogue: 50,0:13:54.56,0:13:57.48,Main,,0,0,0,,{The day that you would come here!}The day you would arrive here!
-Dialogue: 50,0:13:58.40,0:14:00.15,Main,,0,0,0,,{Don't tell me you're...}That means... you're...
-Dialogue: 50,0:14:03.07,0:14:06.57,Main,,0,0,0,,I'm the foolish Celestial Dragon
-Dialogue: 50,0:14:06.57,0:14:10.03,Main,,0,0,0,,who drifted down to \Nthe Ryugu Kingdom a decade ago.
-Dialogue: 50,0:14:10.66,0:14:14.16,Flashbacks,,0,0,0,,Hurry up and save me, you {fool}imbeciles!{Yet another flashback, Pepperjack!}
-Dialogue: 50,0:14:17.25,0:14:19.38,Flashbacks,,0,0,0,,– Kill him!\N– Make him suffer!
-Dialogue: 50,0:14:19.38,0:14:20.92,Flashbacks,,0,0,0,,Show him no mercy!
-Dialogue: 50,0:14:20.92,0:14:22.13,Flashbacks,,0,0,0,,Don't do it!
-Dialogue: 50,0:14:22.13,0:14:24.05,Flashbacks,,0,0,0,,{\t(1343,1802,1,\c&H000000&\3c&H000000&)}You stupid fish!
-Dialogue: 50,0:14:37.06,0:14:39.44,Flashbacks,,0,0,0,,Queen Otohime!!
-Dialogue: 50,0:14:39.44,0:14:41.61,Flashbacks,,0,0,0,,The {queen has}queen's been shot!
-Dialogue: 50,0:14:52.41,0:14:53.95,Flashbacks,,0,0,0,,Queen Otohime{...}!
-Dialogue: 50,0:14:54.41,0:14:58.29,Flashbacks,,0,0,0,,Everybody, drop your guns!
-Dialogue: 50,0:15:00.75,0:15:02.75,Flashbacks,,0,0,0,,Children are watching!
-Dialogue: 50,0:15:09.55,0:15:11.14,Flashbacks,,0,0,0,,{Otohime-sama...!}Your Majesty...
-Dialogue: 50,0:15:12.97,0:15:14.89,Flashbacks,,0,0,0,,It's just a scratch.{It's just a flesh wound.}
-Dialogue: 50,0:15:14.89,0:15:16.39,Flashbacks,,0,0,0,,Why are you protecting him?
-Dialogue: 50,0:15:16.39,0:15:19.94,Flashbacks,,0,0,0,,{Don't you know what he did to us in the past?!}You know what he's done to us all!
-Dialogue: 50,0:15:19.94,0:15:24.36,Flashbacks,,0,0,0,,{I can feel your anguish - it must be hard!}I understand your anguish;\Nthe pain runs deep for me too.
-Dialogue: 50,0:15:24.98,0:15:27.11,Flashbacks,,0,0,0,,{I understand}Our hearts ache, but...
-Dialogue: 50,0:15:27.11,0:15:33.37,Flashbacks,,0,0,0,,{you shouldn't spread your}we mustn't teach our resentment\Nof humans {to the children here}to our children!
-Dialogue: 50,0:15:35.33,0:15:39.08,Flashbacks,,0,0,0,,They should get the chance \Nto meet humans and decide for themselves.
-Dialogue: 50,0:15:43.58,0:15:46.00,Main,,0,0,2,,The words of the late Queen Otohime
-Dialogue: 50,0:15:46.00,0:15:48.17,Main,,0,0,2,,{made me human!}gave me my humanity!
-Dialogue: 50,0:15:48.17,0:15:50.80,Main,,0,0,2,,I would do anything to help your people!
-Dialogue: 50,0:15:51.34,0:15:56.35,Main,,0,0,0,,King Neptune{! It's}, \Nit is an honor to see you again!
-Dialogue: 50,0:15:56.35,0:15:59.06,Main,,0,0,0,,Cipher Pol! Leave this place!
-Dialogue: 50,0:16:37.26,0:16:41.31,Main,,0,0,0,,{Why did you need to come all the way here?}What would compel you \Nto come all this way?
-Dialogue: 50,0:16:41.31,0:16:43.14,Main,,0,0,0,,The Reverie is at hand.
-Dialogue: 50,0:16:43.14,0:16:47.52,Main,,0,0,0,,{You are in no position to be involved in politics.}Your position normally precludes any political entanglement.
-Dialogue: 50,0:16:48.02,0:16:50.73,Main,,0,0,0,,We only made time because it's you.
-Dialogue: 50,0:16:50.73,0:16:54.07,Main,,0,0,0,,Yes... and I appreciate that.
-Dialogue: 50,0:16:54.07,0:16:57.78,Main,,0,0,0,,Let's hear it, then.\NGuards, would you excuse us?
-Dialogue: 50,0:16:57.78,0:16:58.70,Main,,0,0,0,,Yes, sir!
-Dialogue: 50,0:17:17.18,0:17:20.18,Main,,0,0,0,,I need to talk to you about a certain pirate...
-Dialogue: 50,0:17:27.94,0:17:31.02,Main,,0,0,0,,{Most of the people are gone...}The crowd's really thinned out.
-Dialogue: 50,0:17:31.02,0:17:33.74,Main,,0,0,0,,It's to be expected\Nafter a mess like that.{After such a scene, \Nwhat do you expect?!}
-Dialogue: 50,0:17:33.74,0:17:37.91,Main,,0,0,0,,No one wants to get involved in a scandal.
-Dialogue: 50,0:17:43.12,0:17:44.54,Main,,0,0,0,,Wow{...}!
-Dialogue: 50,0:17:44.54,0:17:47.75,Main,,0,0,0,,How's that, Shirahoshi-{\i1}san{\fs18} {\r}?
-Dialogue: 50,0:17:48.63,0:17:51.92,Main,,0,0,0,,The bruise is completely gone!
-Dialogue: 50,0:17:51.92,0:17:55.92,Main,,0,0,0,,Thank you very much, \N{Mansherry-chan-sama}Lady Mansherry-{\i1}chan{\fs15} {\r}!
-Dialogue: 50,0:17:55.92,0:17:57.97,Main,,0,0,0,,{That's}What a wonderful ability!
-Dialogue: 50,0:18:01.93,0:18:07.85,Main,,0,0,0,,{I think you two are the biggest princess\Nand the smallest princess in the world!}{To}I think we{'d} have both the world's \Nbiggest and smallest princesses right here.
-Dialogue: 50,0:18:08.27,0:18:11.98,Main,,0,0,0,,{I'm sorry that I was\Nafraid of you at first...}I admit you frightened me at first. \NI'm so sorry.
-Dialogue: 50,0:18:11.98,0:18:15.99,Main,,0,0,0,,{I don't mind at all}I'm not bothered in the least, \N{Mansherry-chan-sama}Lady Mansherry-{\i1}chan{\fs15} {\r}!
-Dialogue: 50,0:18:17.95,0:18:22.08,Main,,0,0,0,,{I suppose all countries have both\Ngood people and bad people.}It seems all countries are comprised \Nof both good and bad people.
-Dialogue: 50,0:18:22.08,0:18:25.79,Main,,0,0,0,,The fishmen are no exception-{\i1}jamon{\fs15} {\r}!
-Dialogue: 50,0:18:25.79,0:18:30.54,Main,,0,0,0,,Thanks to you,\NI kept my promise to Otohime.
-Dialogue: 50,0:18:30.54,0:18:33.88,Main,,0,0,0,,No need to thank me, Neptune!
-Dialogue: 50,0:18:33.88,0:18:37.09,Main,,0,0,0,,I want to return the favor\Nfor saving me 10 years ago.
-Dialogue: 50,0:18:37.09,0:18:39.43,Main,,0,0,0,,{During the seven days of the conference,}Throughout this conference's seven days,
-Dialogue: 50,0:18:39.43,0:18:42.18,Main,,0,0,0,,{I'll look after Princess Shirahoshi.}I'll keep a close watch \Nover Princess Shirahoshi.
-Dialogue: 50,0:18:42.18,0:18:46.27,Main,,0,0,0,,If my status can help, \NI'll gladly make use of it!
-Dialogue: 50,0:18:46.27,0:18:50.15,Main,,0,0,0,,I've been told that I should keep \Nmy hands off of the Celestial Dragons,
-Dialogue: 50,0:18:50.15,0:18:54.48,Main,,0,0,0,,{but could I kick their butts\Nif it's on your orders?}but if you gave the order, \Ncould I kick their butts?
-Dialogue: 50,0:18:54.48,0:18:58.61,Main,,0,0,0,,Y-Yes! If it's necessary to protect\Nthe princess and her companions,
-Dialogue: 50,0:18:58.61,0:19:01.49,Main,,0,0,0,,I'll take full responsibility!
-Dialogue: 50,0:19:04.12,0:19:08.71,Main,,0,0,0,,I can't believe an oddball like him exists.
-Dialogue: 50,0:19:08.71,0:19:10.83,Main,,0,0,0,,{Vivi-sama!}Princess Vivi!
-Dialogue: 50,0:19:12.75,0:19:17.38,Main,,0,0,0,,{I'm sorry, Vivi-sama.}Apologies, Your Highness. \NI heard there was trouble.
-Dialogue: 50,0:19:17.38,0:19:19.38,Main,,0,0,0,,I should've {stayed with you.}been at your side.
-Dialogue: 50,0:19:19.38,0:19:22.59,Main,,0,0,0,,{Don't worry}Rest easy, Pell. I'm all right.
-Dialogue: 50,0:19:22.59,0:19:24.43,Main,,0,0,0,,Anyway, how's Papa?
-Dialogue: 50,0:19:24.43,0:19:27.97,Main,,0,0,0,,{Cobra-sama is talking to Admiral Fujitora of the Navy,}His Majesty Cobra is talking \Nto the one who sent that letter:
-Dialogue: 50,0:19:27.97,0:19:29.89,Main,,0,0,0,,{the one who sent that letter.}Admiral Fujitora of the Navy.
-Dialogue: 50,0:19:29.89,0:19:33.27,Main,,0,0,0,,They're {having a conversation}conversing \Nwith King Riku of Dressrosa.
-Dialogue: 50,0:19:33.27,0:19:34.69,Main,,0,0,0,,I see.{..}
-Dialogue: 50,0:19:37.65,0:19:40.57,Main,,0,0,0,,{\an8\i1}Pangaea Castle has
-Dialogue: 50,0:19:40.57,0:19:45.28,Main,,0,0,0,,{\an8\i1}three gates outside of its main gate,\Nand all of them are guarded.
-Dialogue: 50,0:19:47.66,0:19:50.54,Main,,0,0,0,,{\an8\i1}{One of those gates is \Nthe Celestial Dragon Gate...}Most notable is the Celestial Dragon Gate,
-Dialogue: 50,0:19:50.54,0:19:54.38,Main,,0,0,0,,{\an8\i1}which leads to the Land of the Gods\Nwhere the Celestial Dragons reside.
-Dialogue: 50,0:20:03.18,0:20:05.89,Main,,0,0,0,,Stop! Who goes there?!
-Dialogue: 50,0:20:10.31,0:20:13.20,Main,,0,0,0,,{Why, you're Queen Dowager Conney}Why, this is... \NFrom the Kingdom of Sorbet:
-Dialogue: 50,0:20:13.20,0:20:14.90,Main,,0,0,0,,{of the Kingdom of Sorbet!}Queen Dowager Conney!
-Dialogue: 50,0:20:19.28,0:20:22.70,Main,,0,0,0,,The Land of the Gods \Nis beyond this point.
-Dialogue: 50,0:20:22.70,0:20:26.62,Main,,0,0,0,,You can't pass; it's dangerous to be here.\NPlease {go back}return to the castle.
-Dialogue: 50,0:20:26.62,0:20:32.71,Main,,0,0,0,,It hurts-{\i1}{eh}ee{\fs15} {\r}! It's unforgivable-{\i1}{eh}ee{\fs15} {\r}!\NDamn that Mjosgard!
-Dialogue: 50,0:20:32.71,0:20:35.46,Main,,0,0,0,,Saint Charlos! Please be calm!
-Dialogue: 50,0:20:35.46,0:20:37.42,Main,,0,0,0,,You'll aggravate your wounds!
-Dialogue: 50,0:20:37.42,0:20:41.30,Main,,0,0,0,,He can't get away with this-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:20:41.30,0:20:43.38,Main,,0,0,0,,Open the gate!
-Dialogue: 50,0:20:43.38,0:20:46.34,Main,,0,0,0,,What?! What's going on?!
-Dialogue: 50,0:20:46.34,0:20:48.72,Main,,0,0,0,,Saint Charlos is {hurt}injured!
-Dialogue: 50,0:20:48.72,0:20:51.14,Main,,0,0,0,,He requires urgent {treatment}care!
-Dialogue: 50,0:20:51.14,0:20:52.27,Main,,0,0,0,,Right away!
-Dialogue: 50,0:21:01.78,0:21:04.65,Main,,0,0,0,,Hurry up! He requires medical assistance!
-Dialogue: 50,0:21:09.53,0:21:14.00,Main,,0,0,2,,Oh, Charlos! Are you okay?!
-Dialogue: 50,0:21:14.00,0:21:18.71,Main,,0,0,0,,I heard what happened.\NI was on my way to pick you up-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:21:18.71,0:21:20.46,Main,,0,0,0,,Saint Rosward!
-Dialogue: 50,0:21:20.46,0:21:23.59,Main,,0,0,0,,{F-Father-sama!}D-Daddy dearest!
-Dialogue: 50,0:21:25.63,0:21:28.68,Main,,0,0,0,,Oh, look at you!
-Dialogue: 50,0:21:28.68,0:21:31.22,Main,,0,0,0,,My dearest {son}sonny boy!
-Dialogue: 50,0:21:36.35,0:21:37.69,Main,,0,0,0,,Huh?
-Dialogue: 50,0:21:37.69,0:21:39.56,Main,,0,0,0,,Where did the queen dowager go?
-Dialogue: 50,0:21:40.36,0:21:44.40,Main,,0,0,0,,Damn that Mjosgard! \NI'll make him pay for this!
-Dialogue: 50,0:21:44.40,0:21:46.61,Main,,0,0,0,,He's always been a strange man:
-Dialogue: 50,0:21:46.61,0:21:49.78,Main,,0,0,0,,a Celestial Dragon \Nwho doesn't own a single slave!
-Dialogue: 50,0:21:49.78,0:21:54.08,Main,,0,0,0,,Just like Homing who descended\Nto the lower realm 30 years ago!
-Dialogue: 50,0:21:54.08,0:21:58.75,Main,,0,0,0,,The Donquixote family \N{must be crazy}is full of lunatics-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:21:59.63,0:22:03.09,Main,,0,0,0,,{Father-sama, that's...}Daddy dearest, that's...
-Dialogue: 50,0:22:05.30,0:22:09.14,Main,,0,0,2,,the invincible slave, Kuma!
-Dialogue: 50,0:22:09.14,0:22:10.85,Main,,0,0,0,,That's right!
-Dialogue: 50,0:22:10.85,0:22:15.56,Main,,0,0,0,,{My turn to rent him finally came}I finally got to rent him out-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:22:15.93,0:22:19.90,Narrator,,0,0,0,,Bartholomew Kuma, known as “the Tyrant,”
-Dialogue: 50,0:22:19.90,0:22:23.28,Narrator,,0,0,0,,was once a universally feared pirate.
-Dialogue: 50,0:22:23.28,0:22:27.90,Narrator,,0,0,0,,Few have had as checkered a life as his.
-Dialogue: 50,0:22:28.95,0:22:31.24,Narrator,,0,0,0,,Kuma, one of the Seven Warlords,
-Dialogue: 50,0:22:31.24,0:22:33.62,Narrator,,0,0,0,,{received a special assignment from the World Government...}took on a special mission \Nfrom the World Government
-Dialogue: 50,0:22:33.62,0:22:36.20,Narrator,,0,0,0,,to eliminate the Straw Hats.
-Dialogue: 50,0:22:36.20,0:22:42.63,Narrator,,0,0,0,,{Thus he suddenly emerged\Nin front of Luffy and the others...}He reached Thriller Bark just as Luffy\Nand the others pulled through their arduous battle. {right after their hard-fought battle on Thriller Bark.}
-Dialogue: 50,0:22:53.72,0:22:56.81,Flashbacks,,0,0,0,,{\fad(150,150)}{36}Thirty-Six-Pound Phoenix!
-Dialogue: 50,0:23:00.27,0:23:03.11,Flashbacks,,0,0,0,,{Is that your ability?}So that's your ability?{Pepperjack, more flashbacks for you!}
-Dialogue: 50,0:23:03.11,0:23:07.07,Flashbacks,,0,0,0,,I have the power to repel things.
-Dialogue: 50,0:23:07.07,0:23:11.74,Flashbacks,,0,0,0,,I ate the Paw-Paw Fruit \Nand became a {paw paw}paw pad man.
-Dialogue: 50,0:23:13.41,0:23:18.33,Flashbacks,,0,0,0,,Are you truly willing \Nto die for that man?
-Dialogue: 50,0:23:18.33,0:23:23.79,Flashbacks,,0,0,0,,Right now, it's the only way\Nto save my crewmates!
-Dialogue: 50,0:23:23.79,0:23:27.84,Flashbacks,,0,0,0,,My {ambition}dream means nothing\Nif I can't protect my own captain.
-Dialogue: 50,0:23:28.84,0:23:31.72,Flashbacks,,0,0,0,,{Luffy is gonna be king of the pirates!}Luffy will be king of the pirates!
-Dialogue: 50,0:23:39.10,0:23:41.56,Flashbacks,,0,0,0,,He has good friends.
-Dialogue: 50,0:23:42.94,0:23:47.82,Flashbacks,,0,0,0,,I should have expected no less\Nfrom your son, Dragon.
-Dialogue: 50,0:23:47.82,0:23:52.66,Narrator,,0,0,0,,{Even though Kuma is a warlord,\Nhe disobeyed the government's orders...}Despite Kuma's status as a warlord,\Nhe disobeyed the government's orders,
-Dialogue: 50,0:23:52.66,0:23:56.66,Narrator,,0,0,0,,{\t(3677,3990,1,\3c&HFFFFFF&\4c&HFFFFFF&)}and for some unknown reason,\N{spared the Straw Hats' lives.}he spared the Straw Hats' lives.
-Dialogue: 50,0:24:01.25,0:24:03.12,Main,,0,0,0,,This is so exciting-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:03.12,0:24:07.55,Main,,0,0,0,,{Father-sama}Daddy dearest finally got to rent \Nthe invincible slave Kuma!
-Dialogue: 50,0:24:07.55,0:24:11.51,Main,,0,0,0,,It's {convenient}advantageous to have\Na warlord as a slave-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:11.51,0:24:13.39,Main,,0,0,0,,You can hit him!
-Dialogue: 50,0:24:13.39,0:24:16.05,Main,,0,0,0,,You could even stab him!
-Dialogue: 50,0:24:18.77,0:24:23.14,Main,,0,0,0,,Yet he doesn't ever scream.\NHe's a top-class slave-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:23.14,0:24:28.36,Main,,0,0,0,,Nice, Father{-}{\i1}{sama}{\fs15} {\r}! I want one too-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:28.36,0:24:31.99,Main,,0,0,0,,Ow, ow, ow{...}! I'm gonna die-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:31.99,0:24:34.95,Main,,0,0,0,,{You must remain calm}Please stay still, {Charlos-sama}Saint Charlos!
-Dialogue: 50,0:24:34.95,0:24:39.45,Main,,0,0,0,,Ow, ow, ow{...}! {I really got a thrashing}He did a number on me-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:39.45,0:24:42.96,Main,,0,0,0,,Oh, poor Charlos!
-Dialogue: 50,0:24:42.96,0:24:46.92,Main,,0,0,0,,Let's get the world's greatest doctor\Nto look at you-{\i1}{eh}ee{\fs15} {\r}!
-Dialogue: 50,0:24:51.05,0:24:54.13,Thoughts,,0,0,0,,I didn't expect {to}I'd see him {this}so soon!
-Dialogue: 50,0:25:02.98,0:25:05.02,Thoughts,,0,0,2,,My infiltration was a success.
-Dialogue: 50,0:25:09.48,0:25:12.82,Thoughts,,0,0,0,,I'll never forgive them!
-Dialogue: 50,0:25:16.16,0:25:17.82,Thoughts,,0,0,0,,{Ever!}Not ever!
-Dialogue: 50,0:25:22.41,0:25:24.29,Main,,0,0,0,,Damn!
-Dialogue: 50,0:25:25.04,0:25:28.17,Main,,0,0,15,,{Don't get mad, Sabo...}Don't get in a tizzy, Sabo!
-Dialogue: 50,0:25:28.17,0:25:31.25,Main,,0,0,15,,You boys {are so scary}can all be so scary!
-Dialogue: 50,0:25:31.25,0:25:33.63,Main,,0,0,0,,{It's impossible not to get mad!}I can't help but get mad!
-Dialogue: 50,0:25:34.17,0:25:37.22,Main,,0,0,0,,Our {friend}comrade is going through hell!
-Dialogue: 50,0:25:37.22,0:25:39.60,Main,,0,0,0,,Our gentle Kuma!
-Dialogue: 50,0:25:42.64,0:25:44.85,Main,,0,0,0,,{It's unforgivable...}It's unthinkable{...}!
-Dialogue: 50,0:25:46.31,0:25:47.94,Main,,0,0,0,,Calm down.
-Dialogue: 50,0:25:47.94,0:25:51.57,Main,,0,0,0,,We get it. \NWe all feel the same way.
-Dialogue: 50,0:25:51.57,0:25:54.15,Main,,0,0,0,,We won't leave Kuma-{\i1}san{\i} to this fate!
-Dialogue: 50,0:25:54.15,0:25:57.32,Main,,0,0,0,,{That's one of the reasons we came here...}After all, he's one of \Nthe reasons we came here.
-Dialogue: 50,0:25:59.37,0:26:05.58,Main,,0,0,0,,Having said that, even if we set him free,\Nhe'll never return to his old self.
-Dialogue: 50,0:26:06.50,0:26:09.92,Main,,0,0,0,,{Still}Let's not forget that \NKuma-{\i1}chan{\i} is a prime example
-Dialogue: 50,0:26:09.92,0:26:12.50,Main,,0,0,0,,of the World Government's oppression!
-Dialogue: 50,0:26:12.50,0:26:16.17,Main,,0,0,0,,Since Kuma-{\i1}san{\i} {was formerly a king}is the former king\Nof a member nation,
-Dialogue: 50,0:26:16.17,0:26:19.84,Main,,0,0,0,,they wanted to make \Nan example out of him as a warning.
-Dialogue: 50,0:26:19.84,0:26:21.89,Main,,0,0,0,,To show that no matter\Nhow tough you are,
-Dialogue: 50,0:26:21.89,0:26:25.06,Main,,0,0,0,,this is how you end up \Nif you disobey the gods!
-Dialogue: 50,0:26:25.06,0:26:29.15,Main,,0,0,0,,The Celestial Dragons have CP-0\Nand Navy Headquarters {on their side.}in their corner.
-Dialogue: 50,0:26:29.81,0:26:32.52,Main,,0,0,0,,If we fail and get caught{...}–
-Dialogue: 50,0:26:32.52,0:26:35.36,Main,,0,0,0,,No. Failure is not an option.
-Dialogue: 50,0:26:35.86,0:26:37.82,Main,,0,0,0,,We either succeed...
-Dialogue: 50,0:26:37.82,0:26:39.28,Main,,0,0,0,,or we die!
-Dialogue: 50,0:26:46.66,0:26:50.27,Narrator,,0,0,0,,It's finally time for the Reverie!
-Dialogue: 50,0:26:51.84,0:26:53.67,Narrator,,0,0,0,,{\an8\i1}The world is divided into four oceans...
-Dialogue: 50,0:26:55.26,0:26:58.09,Narrator,,0,0,2,,{\an8\i1}by {a}the continental wall{ - the Red Line...}, the Red Line...
-Dialogue: 50,0:26:58.09,0:27:02.93,Narrator,,0,0,2,,{\q2}{\an8\i1}and the deadly seas of the Grand Line and the New World,
-Dialogue: 50,0:27:02.93,0:27:06.64,Narrator,,0,0,2,,{\an8\i1}{where Luffy and his crew are adventuring.}which is where Luffy and his crew are adventuring.
-Dialogue: 50,0:27:07.48,0:27:11.10,Narrator,,0,0,0,,{\an8\i1}The World Government is \Na truly massive organization.
-Dialogue: 50,0:27:11.10,0:27:15.02,Narrator,,0,0,0,,{\an8\i1}Most countries in the world are members: \N{A total of 170 nations}170 nations total!
-Dialogue: 50,0:27:15.86,0:27:19.99,Narrator,,0,0,0,,{\an8\i1}Of those, 50 monarchs \Nare chosen as representatives
-Dialogue: 50,0:27:19.99,0:27:24.16,Narrator,,0,0,0,,to assemble in the Holy Land \Nevery four years.
-Dialogue: 50,0:27:30.46,0:27:32.88,Main,,0,0,0,,Wh-Where's my seat?!
-Dialogue: 50,0:27:40.43,0:27:43.09,Main,,0,0,0,,– Finally.\N– Yeah.
-Dialogue: 50,0:27:43.09,0:27:45.31,Main,,0,0,0,,How's your country been?
-Dialogue: 50,0:27:45.31,0:27:48.52,Main,,0,0,0,,You said it was ravaged \Nby pirates four years ago?
-Dialogue: 50,0:27:48.52,0:27:52.98,Main,,0,0,0,,Thanks to Fleet Admiral Sakazuki,\Nthey were sent to Impel Down.
-Dialogue: 50,0:27:52.98,0:27:58.28,Main,,0,0,0,,Speaking of pirates, there is one name I'm hearing often lately. I think it's...
-Dialogue: 50,0:27:58.28,0:28:00.40,Main,,0,0,0,,Straw Hat Luffy, right?
-Dialogue: 50,0:28:01.57,0:28:04.16,Main,,0,0,0,,He attempted to assassinate Big Mom,
-Dialogue: 50,0:28:04.16,0:28:08.20,Main,,0,0,0,,and rumor has it that \Nhe's going after Kaido next.
-Dialogue: 50,0:28:08.20,0:28:13.00,Main,,0,0,0,,Kaido?! {Does that mean Wano\Nwill be in turmoil next?}Does that mean \NWano is next in line for disaster?
-Dialogue: 50,0:28:13.00,0:28:16.50,Main,,0,0,0,,Wano is not affiliated \Nwith the World Government,
-Dialogue: 50,0:28:16.50,0:28:18.59,Main,,0,0,0,,{so it's already practically lawless.}which effectively makes it \Na lawless land.
-Dialogue: 50,0:28:18.59,0:28:23.59,Main,,0,0,0,,{We don't know if it even operates as a country.}We don't even know \Nif it operates as a country.
-Dialogue: 50,0:28:23.59,0:28:27.01,Main,,0,0,0,,Is there nothing we can do?!
-Dialogue: 50,0:28:27.01,0:28:30.64,Main,,0,0,0,,Sending the Navy would cost money.
-Dialogue: 50,0:28:34.98,0:28:41.44,Main,,0,0,0,,Trouble seems to follow this \NStraw Hat Luffy, wherever he goes.
-Dialogue: 50,0:28:41.44,0:28:43.07,Main,,0,0,0,,You got that right!{!}
-Dialogue: 50,0:28:44.36,0:28:46.32,Main,,0,0,0,,What's so funny, Prodence?
-Dialogue: 50,0:28:47.16,0:28:49.20,Thoughts,,0,0,0,,Luffy-{\i1}kun{\i0}...
-Dialogue: 50,0:28:49.87,0:28:52.25,Main,,0,0,0,,The position of chairman always rotates.
-Dialogue: 50,0:28:52.25,0:28:53.87,Main,,0,0,0,,Who is it this time?
-Dialogue: 50,0:28:54.87,0:28:56.38,Main,,0,0,0,,{It's me!}That would be me!
-Dialogue: 50,0:28:56.38,0:28:58.63,Main,,0,0,0,,{It's a pleasure, everyone.}Everyone, it will be my honor.
-Dialogue: 50,0:28:58.63,0:29:00.34,Main,,0,0,0,,Ballywood, huh?
-Dialogue: 50,0:29:00.34,0:29:02.05,Main,,0,0,0,,Sounds good.
-Dialogue: 50,0:29:02.05,0:29:05.43,Main,,0,0,0,,{I think you'll run things efficiently.}This should run smoothly, then.
-Dialogue: 50,0:29:05.43,0:29:09.22,Main,,0,0,0,,Even if we have a full seven days,\Nwe have so much to address.
-Dialogue: 50,0:29:09.22,0:29:12.77,Narrator,,0,0,0,,This is the great conference \Nthat determines the order of the world.
-Dialogue: 50,0:29:13.43,0:29:16.85,Narrator,,0,0,0,,It is known as...
-Dialogue: 50,0:29:17.65,0:29:21.86,Main,,0,0,0,,Well then... my fellow monarchs...
-Dialogue: 50,0:29:23.24,0:29:29.28,Main,,0,0,0,,let us carefully discuss \Nthe future of this beautiful world!
-Dialogue: 50,0:29:34.04,0:29:35.96,Narrator,,0,0,0,,the Reverie!
-Dialogue: 50,0:29:36.67,0:29:39.84,Main,,0,0,0,,{It seems like the conference has begun...}And so the conference begins.{..}
-Dialogue: 50,0:29:39.84,0:29:46.72,Main,,0,0,0,,Apparently, King Cobra of Arabasta\Nis requesting an audience with us.
-Dialogue: 50,0:29:46.72,0:29:48.89,Main,,0,0,0,,The Nefertari family
-Dialogue: 50,0:29:48.89,0:29:52.68,Main,,0,0,0,,was the only family \Nof the First Twenty
-Dialogue: 50,0:29:52.68,0:29:55.64,Main,,0,0,0,,that stayed in the lower realm \N800 years ago.
-Dialogue: 50,0:29:55.64,0:30:00.48,Main,,0,0,0,,In a sense, they're traitors.\NHas he noticed something?
-Dialogue: 50,0:30:00.48,0:30:03.53,Main,,0,0,0,,Let's hope he doesn't\N{make things complicated.}complicate matters.
-Dialogue: 50,0:30:03.53,0:30:07.66,Main,,0,0,0,,You {can}could say the same\Nabout the {Big Mom and Kaido situation}situation with Big Mom and Kaido.
-Dialogue: 50,0:30:07.66,0:30:13.54,Main,,0,0,0,,It's been two years since the Summit War.\N {Yet}And yet{...}, this maelstrom will not cease.
-Dialogue: 50,0:30:13.54,0:30:18.88,Main,,0,0,0,,{The balance of the world can not be maintained forever.}This world's equilibrium \Ncannot be maintained indefinitely.
-Dialogue: 50,0:30:18.88,0:30:24.67,Main,,0,0,0,,{It seems like a great cleansing is in order.}The time has come \Nfor a great cleansing.
-Dialogue: 50,0:30:36.64,0:30:37.52,Main,,0,0,0,,{Imu-sama.}Lord Imu.
-Dialogue: 50,0:30:38.14,0:30:40.98,Main,,0,0,0,,{They have arrived.}The {Elder Stars}Five Elders have arrived.
-Dialogue: 50,0:31:37.95,0:31:42.58,Main,,0,0,0,,Have you discovered another light \Nto be erased from history?
-Dialogue: 50,0:31:42.58,0:31:45.25,Main,,0,0,0,,{Has the decision been made?}Is it decided, then?
-Dialogue: 50,0:31:49.01,0:31:52.18,Main,,0,0,0,,If so, you need only \Ngive us the name!
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 55,0:00:02.19,0:00:04.10,Narrator-207+,,0,0,0,,The Great Pirate Era...
+Dialogue: 55,0:00:04.10,0:00:09.07,Narrator-207+,,0,0,0,,has proven to be a more tumultuous storm\Nthan the World Government expected.
+Dialogue: 55,0:00:10.91,0:00:18.12,Narrator-207+,,0,0,0,,The figures in the eye of this\Nrelentless tempest are…
+Dialogue: 55,0:00:19.99,0:00:21.83,Narrator-207+,,0,0,0,,Monkey D. Luffy...
+Dialogue: 55,0:00:23.13,0:00:25.12,Narrator-207+,,0,0,0,,and the Straw Hat Pirates!
+Dialogue: 55,0:00:27.50,0:00:31.38,Narrator-207+,,0,0,0,,To confront the furious Great Pirate Era,
+Dialogue: 55,0:00:31.38,0:00:35.85,Narrator-207+,,0,0,0,,{fifty world leaders have come\Ntogether for the Reverie, - OG}fifty world leaders have come together\Nfor this quadrennial conference:{Z}
+Dialogue: 55,0:00:36.72,0:00:39.93,Narrator-207+,,0,0,0,,{a quadrennial conference\Nthat is about to begin. - OG}{a quadrennial conference\Nthat will commence shortly. - Gaijin}the Reverie, which will commence shortly.{Z}
+Dialogue: 55,0:00:44.69,0:00:48.34,Narrator-207+,,0,0,0,,Now is a time of great change.
+Dialogue: 50,0:01:10.67,0:01:12.21,Main-207+,,0,0,0,,{Kaido-sama! - OG}Captain Kaido!{Z}
+Dialogue: 50,0:01:14.09,0:01:17.72,Main-207+,,0,0,0,,What is it?! Don't bother me\Nwhen I'm drinking!
+Dialogue: 50,0:01:17.72,0:01:20.18,Main-207+,,0,0,0,,No! I didn't mean to!
+Dialogue: 50,0:01:20.18,0:01:21.31,Main-207+,,0,0,0,,The thing is...
+Dialogue: 50,0:01:34.15,0:01:36.11,Main-207+,,0,0,0,,{\i1}What do you want?!
+Dialogue: 50,0:01:36.95,0:01:39.32,Main-207+,,0,0,0,,It's about Straw Hat.
+Dialogue: 50,0:01:39.32,0:01:42.54,Main-207+,,0,0,0,,{\i1}He's on his way to you.
+Dialogue: 50,0:01:42.54,0:01:44.91,Main-207+,,0,0,0,,{So what? - OG}What are you getting at?{Z}
+Dialogue: 50,0:01:44.91,0:01:48.21,Main-207+,,0,0,0,,Listen, keep your hands off him!
+Dialogue: 50,0:01:49.38,0:01:53.63,Main-207+,,0,0,0,,I'm coming to Wano to claim\NStraw Hat's head myself.
+Dialogue: 50,0:01:54.26,0:01:57.34,Main-207+,,0,0,0,,{Is this some kind of a joke?! I refuse! - OG}Is this some kind of joke?! Entry denied!{Z}
+Dialogue: 50,0:01:57.34,0:02:00.09,Main-207+,,0,0,0,,{\i1}I have no business with you.
+Dialogue: 50,0:02:00.93,0:02:06.39,Main-207+,,0,0,0,,{I've got to take Straw Hat out, or I'll lose face! - OG}If I don't personally squash Straw Hat,\NI'll become a laughingstock.{Z/Gaijin}
+Dialogue: 50,0:02:06.39,0:02:10.23,Main-207+,,0,0,0,,Besides, he has something\Nthat I want back!
+Dialogue: 50,0:02:10.23,0:02:11.94,Main-207+,,0,0,0,,{\i1}I don't care!
+Dialogue: 50,0:02:12.32,0:02:15.90,Main-207+,,0,0,0,,{\i1}{You still owe me big time, right? - OG}You still owe me big time, don't you?{Z}
+Dialogue: 50,0:02:15.90,0:02:17.53,Main-207+,,0,0,0,,Owe you?
+Dialogue: 50,0:02:17.53,0:02:20.16,Main-207+,,0,0,0,,{\i1}{You remember, don't you? - OG}Don't tell me you've forgotten.{Z}
+Dialogue: 50,0:02:20.16,0:02:22.37,Main-207+,,0,0,0,,{\i1}That was a long time ago!
+Dialogue: 50,0:02:22.37,0:02:25.24,Main-207+,,0,0,0,,{But... it was a lifetime debt. - OG}Even so, it incurred a lifetime debt.{Z/Gaijin}
+Dialogue: 50,0:02:31.00,0:02:37.05,Main-207+,,0,0,0,,{I'm the one who's got a grudge against that Straw Hat brat! - OG}{\i1}I'm{\i0} the one with the grudge\Nagainst that Straw Hat brat!{Z}
+Dialogue: 50,0:02:37.05,0:02:39.72,Main-207+,,0,0,0,,So {\i1}I'm{\i0} the one who will kill him!
+Dialogue: 50,0:02:39.72,0:02:43.43,Main-207+,,0,0,0,,{If you come, I'll kill you too, Linlin! - OG}Show your face,\Nand I'll kill you too, Linlin!{Z}{Needs to match Wano 28 @09:08}
+Dialogue: 50,0:02:43.43,0:02:45.22,Main-207+,,0,0,0,,{\i1}I'd like to see you try.
+Dialogue: 50,0:02:45.22,0:02:48.73,Main-207+,,0,0,0,,{\i1}{I didn't call to get your permission, I'm just giving you fair warning. - OG}I'm not asking your permission;\Nthis is merely a courtesy call.{Z}
+Dialogue: 50,0:02:50.60,0:02:54.69,Main-207+,,0,0,0,,{Get it? Straw Hat's head is mine! - OG}Got that? Straw Hat's head is mine!{Z}
+Dialogue: 50,0:02:54.69,0:02:58.99,Main-207+,,0,0,0,,{Let's try and get along... like we used to! - OG}So let's play nice... for old times' sake!{Z}
+Dialogue: 50,0:03:02.87,0:03:04.53,Main-207+,,0,0,5,,Big Mom is on the move!
+Dialogue: 50,0:03:04.53,0:03:07.41,Main-207+,,0,0,5,,{It appears that she's contacted Kaido! - OG}It seems she's contacted Kaido!{Z}
+Dialogue: 50,0:03:07.41,0:03:09.75,Main-207+,,0,0,0,,They're using an unsecured channel!
+Dialogue: 50,0:03:09.75,0:03:14.84,Main-207+,,0,0,0,,{They don't care about being wiretapped?! Are they trying to provoke us? - OG}Don't they care if we overhear?!\NAre they {\i1}trying{\i0} to provoke us?{Z}
+Dialogue: 50,0:03:15.46,0:03:17.92,Main-207+,,0,0,0,,{\i1}{Let's try and get along... - OG}So let's play nice...{Z}
+Dialogue: 50,0:03:17.92,0:03:22.39,Main-207+,,0,0,0,,{What could oppose both\NEmperor Big Mom and Emperor Kaido? - OG}What force could possibly oppose\NEmperors Big Mom and Kaido?{Z}
+Dialogue: 50,0:03:22.39,0:03:25.26,Main-207+,,0,0,0,,The admirals? The Seven Warlords?
+Dialogue: 50,0:03:27.89,0:03:31.73,Main-207+,,0,0,0,,{Do you want me to head out, Sakazuki? - OG}Should I head out, Sakazuki?{Z}
+Dialogue: 50,0:03:31.73,0:03:34.48,Main-207+,,0,0,0,,Wait, Borsalino.
+Dialogue: 50,0:03:34.48,0:03:39.32,Main-207+,,0,0,0,,{We don't know the military capability of Wano. - OG}We have zero intel on Wano's\Nmilitary capabilities.{Z}
+Dialogue: 50,0:03:40.15,0:03:42.20,Main-207+,,0,0,0,,{The samurai, huh? - OG}Their samurai, you mean?{Z}
+Dialogue: 50,0:03:44.53,0:03:47.20,Main-207+,,0,0,5,,{Seriously?! Garp-chan?! - OG}Seriously, Garp?!{Z}
+Dialogue: 50,0:03:47.20,0:03:51.75,Main-207+,,0,0,0,,{Aren't Kaido and Big Mom going after your grandson?! - OG}Don't Kaido and Big Mom each have\Na bone to pick with your grandson...{Z}
+Dialogue: 50,0:03:52.30,0:03:54.38,Main-207+,,0,0,0,,{Straw Hat Luffy! - OG}Straw Hat Luffy?!{Z}
+Dialogue: 50,0:03:56.09,0:03:57.67,Main-207+,,0,0,0,,{That's hilarious! - OG}What a riot!{Z}
+Dialogue: 50,0:03:59.38,0:04:02.18,Main-207+,,0,0,0,,{This isn't a joke! - OG}You realize this isn't a joke, right?{Z}
+Dialogue: 50,0:04:02.59,0:04:07.14,Main-207+,,0,0,5,,{Are you just going to allow two of the Emperors to team up? - OG}You'd just let two Emperors team up?{Z}
+Dialogue: 50,0:04:07.14,0:04:09.56,Main-207+,,0,0,0,,{Well, it's not like we can do anything anyway; - OG}It's not as if we can do anything right now.{Z}
+Dialogue: 50,0:04:09.56,0:04:11.39,Main-207+,,0,0,0,,{it's the Reverie! - OG}Not during the Reverie anyway.{Z}
+Dialogue: 50,0:04:11.39,0:04:15.23,Main-207+,,0,0,0,,{Most of our manpower has been\Nassigned to protect the royals! - OG}Most of our manpower has been\Nassigned to protect royalty!{Z}
+Dialogue: 50,0:04:15.23,0:04:17.19,Main-207+,,0,0,0,,But if nothing is done...
+Dialogue: 50,0:04:17.19,0:04:19.82,Main-207+,,0,0,0,,Pardon me, ma'am,
+Dialogue: 50,0:04:19.82,0:04:22.07,Main-207+,,0,0,0,,{but this is Big Mom we're talking about. - OG}but this is Big Mom we're talkin' about.{Z}
+Dialogue: 50,0:04:22.07,0:04:25.41,Main-207+,,0,0,0,,{\q2}{She must have known that the Marines couldn't spare any men... - OG}She must've known the Marines ain't gonna spare a soul,{Z}
+Dialogue: 50,0:04:25.41,0:04:28.03,Main-207+,,170,0,0,,{because of the Reverie! - OG}what with the Reverie!{Z}
+Dialogue: 50,0:04:28.03,0:04:29.99,Main-207+,,0,0,0,,You're right, but...
+Dialogue: 50,0:04:29.99,0:04:32.54,Main-207+,,0,0,0,,What did Mr. Sakazuki say?{"shachou"? like president?}
+Dialogue: 50,0:04:32.54,0:04:36.96,Main-207+,,0,0,0,,He said, "Wano is a not a member country,\Nso it's outside our jurisdiction."
+Dialogue: 50,0:04:36.96,0:04:38.63,Main-207+,,0,0,0,,{Just as I'd expect! - OG}Sounds about right!{Z}
+Dialogue: 50,0:04:40.38,0:04:42.55,Main-207+,,0,0,0,,Best not to get involved for now!
+Dialogue: 50,0:04:45.51,0:04:47.30,Main-207+,,0,0,0,,But Garp{-kun}...
+Dialogue: 50,0:04:47.77,0:04:50.10,Main-207+,,245,0,3,,{\q2}if Big Mom and Kaido are up to something again,
+Dialogue: 50,0:04:50.10,0:04:52.39,Main-207+,,245,0,3,,we shouldn't take it lightly.
+Dialogue: 50,0:04:52.39,0:04:53.39,Main-207+,,245,0,3,,After all...
+Dialogue: 50,0:04:53.98,0:04:57.31,Main-207+,,0,0,0,,{you became known as the Hero of the Marines because of them... - OG}they're the reason you're known\Nas the "Hero of the Marines."{Z}
+Dialogue: 50,0:04:59.48,0:05:01.28,Main-207+,,0,0,0,,{The "Rocks", huh? - OG}Rocks, huh?{Z}
+Dialogue: 50,0:05:04.28,0:05:08.03,Main-207+,,0,0,0,,{Hina, you're quite young.\NWhere did you hear about this? - OG}Hina, that's a bit before your time, isn't it?{Z}
+Dialogue: 50,0:05:09.28,0:05:13.25,Main-207+,,0,0,0,,{Before Roger, it was definitely their era! - OG}Before Roger, that era belonged to {\i1}them{\i0}!{Z}
+Dialogue: 50,0:05:14.00,0:05:18.42,Main-207+,,0,0,0,,But that was forty years ago.\NThe past is in the past.
+Dialogue: 50,0:05:18.42,0:05:22.38,Main-207+,,0,0,0,,{Even though they lost their captain, they're still gaining influence. - OG}Though they lost their captain,\Ntheir influence only grows.{Z}
+Dialogue: 50,0:05:22.38,0:05:24.09,Main-207+,,0,0,0,,Hina's worried.
+Dialogue: 50,0:05:24.09,0:05:26.18,Main-207+,,0,0,0,,No point worrying!
+Dialogue: 50,0:05:26.18,0:05:31.97,Main-207+,,0,0,0,,{True, they would be a threat if they returned,\Nbut things never turn out how you'd expect anyway... - OG}True, they'd be a threat if they returned,\Nbut the future has a way of surprising us...{Z}
+Dialogue: 50,0:05:31.97,0:05:37.40,Main-207+,,0,0,0,,{Your grandson's bounty is also a real problem. - OG}But seriously, your grandson's bounty\Nis a real nuisance, ain't it?{Z}
+Dialogue: 50,0:05:37.40,0:05:41.15,Main-207+,,0,0,0,,I mean, it jumped to 1.5 billion belly.
+Dialogue: 50,0:05:43.28,0:05:46.24,Main-207+,,0,0,0,,Why are you smiling? Hina's confused.
+Dialogue: 50,0:05:46.24,0:05:49.28,Main-207+,,0,0,0,,{He's still just a fledgling. - OG}And he's still just getting started...{Z}
+Dialogue: 50,0:05:49.95,0:05:53.54,Main-207+,,0,0,0,,{\an8}You may enter, King Sterry of Goa.
+Dialogue: 50,0:06:18.52,0:06:21.86,Thoughts-207+,,0,0,0,,So {\i1}this{\i0} is the center of the world!
+Dialogue: 50,0:06:36.20,0:06:38.62,Main-207+,,0,0,0,,Now, swear your oath.
+Dialogue: 50,0:06:38.13,0:06:38.62,Secondary-207+,,0,0,0,,What?
+Dialogue: 50,0:06:38.62,0:06:40.88,Main-207+,,0,0,0,,C-Can I sit there?!
+Dialogue: 50,0:06:40.88,0:06:43.36,Main-207+,,0,0,0,,Don't joke about such things!
+Dialogue: 50,0:06:44.17,0:06:47.76,Main-207+,,0,0,0,,No one is allowed to sit upon that throne.
+Dialogue: 50,0:06:47.76,0:06:48.34,Main-207+,,0,0,0,,Huh...?
+Dialogue: 50,0:06:48.34,0:06:50.59,Main-207+,,0,0,0,,It is the Empty Throne.
+Dialogue: 50,0:06:50.59,0:06:53.43,Main-207+,,0,0,0,,{It symbolizes equality\Nbetween the rulers of nations. - OG}It symbolizes equality\Nbetween the nations' leaders.{Z - "rulers" redundant with next line}
+Dialogue: 50,0:06:53.43,0:06:56.97,Main-207+,,0,0,0,,The oath affirms that no ruler\Nwill seek dominion over the rest.
+Dialogue: 50,0:06:56.97,0:07:00.39,Main-207+,,0,0,0,,{The twenty weapons that protect the throne - OG}The 20 weapons that\Nstand sentinel over the throne{Z}
+Dialogue: 50,0:07:00.39,0:07:07.57,Main-207+,,0,0,0,,{were placed there 800 years ago to represent the oaths of the First Twenty, who created the world. - OG}{\q2}were placed there 800 years ago to represent\Nthe oaths of the First Twenty, the world's creators.{Z}
+Dialogue: 50,0:07:07.57,0:07:11.11,Main-207+,,0,0,0,,It is located at the very center of the world.
+Dialogue: 50,0:07:11.11,0:07:14.66,Main-207+,,0,0,0,,Its vacancy is evidence of peace.
+Dialogue: 50,0:07:14.66,0:07:18.66,Main-207+,,0,0,0,,The greatest authority in the world\Nremains with the Five Elders,
+Dialogue: 50,0:07:18.66,0:07:23.21,Main-207+,,0,0,0,,the highest-ranking Celestial Dragons.
+Dialogue: 50,0:07:23.21,0:07:27.71,Main-207+,,0,0,0,,There is no one ruler of the world.
+Dialogue: 50,0:07:32.43,0:07:35.85,Main-207+,,0,0,0,,Now, swear your oath, King Sterry.
+Dialogue: 50,0:07:36.26,0:07:40.81,Thoughts-207+,,0,0,0,,If I sit there, I'll be king of the world!
+Dialogue: 50,0:07:40.81,0:07:42.56,Main-207+,,0,0,0,,King Sterry?
+Dialogue: 50,0:07:43.35,0:07:47.32,Thoughts-207+,,0,0,0,,I wanna sit there!
+Dialogue: 50,0:07:51.15,0:07:53.49,Main-207+,,0,0,0,,Come on!
+Dialogue: 50,0:07:53.49,0:07:54.49,Main-207+,,0,0,0,,What are you...?!
+Dialogue: 50,0:07:56.03,0:07:57.95,Main-207+,,0,0,0,,Please stop!
+Dialogue: 50,0:08:00.20,0:08:01.96,Main-207+,,0,0,2,,I caught one{-ee}!
+Dialogue: 50,0:08:01.96,0:08:04.83,Main-207+,,0,0,2,,I caught a giant mermaid{-ee}!
+Dialogue: 50,0:08:04.83,0:08:06.71,Main-207+,,0,0,0,,Shirahoshi!
+Dialogue: 50,0:08:10.76,0:08:12.22,Main-207+,,0,0,0,,Father{-sama}...
+Dialogue: 50,0:08:12.22,0:08:16.64,Main-207+,,0,0,0,,{How can we forgive such an outrage, Father-sama?! - OG}Do you expect us to overlook\Nsuch disrespect, Father?!{Z}
+Dialogue: 50,0:08:19.64,0:08:22.06,Main-207+,,0,0,0,,Come on! Calm down!
+Dialogue: 50,0:08:22.06,0:08:25.52,Main-207+,,0,0,0,,What are you doing?! Please stop!
+Dialogue: 50,0:08:25.52,0:08:27.90,Main-207+,,0,0,0,,That's right! Chain her up!
+Dialogue: 50,0:08:30.19,0:08:31.19,Main-207+,,0,0,0,,Shirahoshi!
+Dialogue: 50,0:08:31.19,0:08:34.36,Main-207+,,0,0,0,,{Wait! What are you doing,\NPrincess of Arabasta?! - OG}Hold it! What are you doing,\NPrincess of Arabasta?!{Z}
+Dialogue: 50,0:08:34.36,0:08:35.78,Main-207+,,0,0,0,,Shirahoshi{-chan}!
+Dialogue: 50,0:08:35.78,0:08:39.12,Main-207+,,0,0,0,,Stop, Rebecca! He's a Celestial Dragon!
+Dialogue: 50,0:08:39.12,0:08:41.33,Main-207+,,0,0,0,,So what?! Let go of me!
+Dialogue: 50,0:08:41.33,0:08:46.33,Main-207+,,0,0,0,,{They have no perspective!\NIf you anger them, they'll destroy Dressrosa! - OG}They lack perspective! If you\Nanger them, they'll destroy Dressrosa!{Z}
+Dialogue: 50,0:08:54.63,0:08:55.89,Main-207+,,0,0,0,,That bastard...!
+Dialogue: 50,0:08:55.89,0:08:57.22,Main-207+,,0,0,0,,Don't do it, Leo!
+Dialogue: 50,0:08:57.22,0:08:59.18,Main-207+,,0,0,0,,Shirahoshi...
+Dialogue: 50,0:09:08.36,0:09:11.65,Main-207+,,0,0,0,,Whoa, come on!
+Dialogue: 50,0:09:11.65,0:09:13.74,Thoughts-207+,,0,0,0,,No one interfere!
+Dialogue: 50,0:09:15.45,0:09:17.24,Main-207+,,0,0,0,,Come on!
+Dialogue: 50,0:09:24.62,0:09:27.29,Main-207+,,0,0,0,,{Do it, Slave #3! - OG}Capture it, Slave #3!{Z}
+Dialogue: 50,0:09:27.29,0:09:30.84,Main-207+,,0,0,0,,I'll make it my pet{-ee}!
+Dialogue: 50,0:09:33.42,0:09:38.47,Main-207+,,0,0,0,,{I can't just stand here!\NHow dare he do that to our boss' friend! - OG}No standing around! He's gonna pay\Nfor doing this to our boss' friend!{Z}
+Dialogue: 50,0:09:40.47,0:09:41.60,Main-207+,,0,0,0,,Leo!
+Dialogue: 50,0:09:43.27,0:09:45.48,Main-207+,,0,0,0,,{Damn! I have no choice! - OG}Damn! There's no other way!{Z}
+Dialogue: 50,0:09:45.48,0:09:48.23,Main-207+,,0,0,0,,I'm coming for you, Mermaid Princess!
+Dialogue: 50,0:09:48.23,0:09:50.36,Main-207+,,0,0,0,,Don't do it, Kanese soldier!
+Dialogue: 50,0:09:50.36,0:09:51.40,Main-207+,,0,0,0,,Somebody, stop him!
+Dialogue: 50,0:09:55.69,0:09:57.61,Main-207+,,0,0,0,,Let me go!
+Dialogue: 50,0:10:00.91,0:10:01.87,Main-207+,,0,0,0,,Leo!
+Dialogue: 50,0:10:01.87,0:10:03.91,Main-207+,,0,0,0,,Who are you bastards?!
+Dialogue: 50,0:10:05.87,0:10:09.29,Main-207+,,0,0,2,,You should be thanking me.
+Dialogue: 50,0:10:09.29,0:10:11.63,Main-207+,,0,0,2,,Cipher Pol 0...
+Dialogue: 50,0:10:12.55,0:10:14.67,Main-207+,,0,0,0,,{\an8}{Indeed, by stopping you... - OG}Yes indeedy.{Randy Troy}
+Dialogue: 50,0:10:14.67,0:10:16.92,Main-207+,,0,0,0,,{\an8}{we just saved several countries. - OG}Stopping you just spared several countries.{Z}
+Dialogue: 50,0:10:16.92,0:10:19.39,Main-207+,,0,0,0,,{\an8}{You do not cross a Celestial Dragon. - OG}Don't ruffle the feathers of Celestial Dragons.{Z}
+Dialogue: 50,0:10:19.39,0:10:21.10,Main-207+,,0,0,0,,{\an8}{Even children know that. - OG}Even young'uns know that.{Z}
+Dialogue: 50,0:10:25.52,0:10:30.06,Narrator-207+,,0,0,0,,Cipher Pol is a secret organization under\Nthe direct control of the World Government.
+Dialogue: 50,0:10:30.06,0:10:36.53,Narrator-207+,,0,0,0,,{Aigis 0 is the top unit in the agency,\Nwith the most powerful agents. - OG}Aigis 0 is the top unit in the agency,\Nboasting the most powerful agents.{Z}
+Dialogue: 50,0:10:41.99,0:10:42.45,Main-207+,,0,0,0,,Sai!
+Dialogue: 50,0:10:45.29,0:10:49.29,Main-207+,,0,0,0,,The Celestial Dragons are the gods\Nwho created this world.
+Dialogue: 50,0:10:49.29,0:10:52.71,Main-207+,,0,0,0,,{And all of you are merely\Nthe royals of the lower realm. - OG}And though you are royalty,\Nyou merely rule the lower realm.{Z}
+Dialogue: 50,0:10:52.71,0:10:56.76,Main-207+,,0,0,0,,It's only natural for gods\Nto get whatever they want.
+Dialogue: 50,0:10:56.76,0:10:59.18,Main-207+,,0,0,0,,{He's right-ee, you idiots! - OG}He's right, you nincompoops!{Z}
+Dialogue: 50,0:10:59.18,0:11:02.01,Main-207+,,0,0,0,,{That doesn't make sense! - OG}Where's the logic in that?!{Z}
+Dialogue: 50,0:11:02.01,0:11:04.56,Main-207+,,0,0,0,,{A god need not make sense. - OG}Why would a god need logic?{Gaijin}
+Dialogue: 50,0:11:05.01,0:11:06.72,Main-207+,,0,0,0,,{Vivi-chan-sama... - OG}Lady Vivi...{Z}
+Dialogue: 50,0:11:10.77,0:11:12.31,Thoughts-207+,,0,0,0,,Otohime...
+Dialogue: 50,0:11:12.31,0:11:16.36,Thoughts-207+,,0,0,0,,your dream was to live\Nside-by-side with humans
+Dialogue: 50,0:11:16.36,0:11:18.44,Thoughts-207+,,0,0,0,,in a world of sunlight!
+Dialogue: 50,0:11:19.78,0:11:22.32,Main-207+,,0,0,0,,Give me back Shirahoshi! She's my friend!
+Dialogue: 50,0:11:29.75,0:11:32.17,Main-207+,,0,0,0,,Wait, Princess of Arabasta!
+Dialogue: 50,0:11:32.17,0:11:33.79,Main-207+,,0,0,0,,King Neptune!
+Dialogue: 50,0:11:33.79,0:11:37.88,Thoughts-207+,,0,0,0,,{Thank you! I won't forget your kindness! - OG}Thank you! I'll never forget your kindness!{Z}
+Dialogue: 50,0:11:37.88,0:11:41.97,Thoughts-207+,,0,0,0,,But I'm afraid I must\Nlet go of our dreams-{\i1}jamon{\i0}!
+Dialogue: 50,0:11:41.97,0:11:43.09,Main-207+,,0,0,0,,What?!
+Dialogue: 50,0:11:47.18,0:11:51.23,Main-207+,,0,0,0,,I'll crush them, and we'll return\Nto our seafloor home-{\i1}jamon{\i0}!
+Dialogue: 50,0:11:54.23,0:11:56.86,Main-207+,,0,0,0,,No! Don't hit him!
+Dialogue: 50,0:11:56.86,0:12:00.99,Main-207+,,0,0,0,,{If this is the norm on the surface,\NI can't bring my people here anyway! - OG}If this is what happens on the surface,\NI can never bring my people here!{Z}
+Dialogue: 50,0:12:00.99,0:12:03.28,Main-207+,,0,0,0,,No! This isn't how it is!
+Dialogue: 50,0:12:03.70,0:12:06.37,Main-207+,,0,0,0,,King Neptune! This is not humanity!
+Dialogue: 50,0:12:09.70,0:12:12.79,Thoughts-207+,,0,0,0,,I'm sorry, Otohime...!
+Dialogue: 50,0:12:14.58,0:12:17.46,Flashbacks-207+,,0,0,0,,Let's face them together!{FMI - ??}
+Dialogue: 50,0:12:17.46,0:12:25.72,Flashbacks-207+,,0,0,0,,Then maybe we can make a difference\Nfor the future of the children on this island,
+Dialogue: 50,0:12:27.05,0:12:29.31,Flashbacks-207+,,0,0,0,,{\t(1693,2250,1,\3c&HFFFFFF&\4c&HFFFFFF&)}even just a small one!
+Dialogue: 50,0:12:30.68,0:12:36.19,Thoughts-207+,,0,0,0,,{Even if we were to love them,\Nhumans won't change! - OG}Even if we gave them our love,\Nwe can't change human nature!{Z}
+Dialogue: 50,0:12:36.19,0:12:39.78,Thoughts-207+,,0,0,0,,I have to save Shirahoshi... Forgive me!
+Dialogue: 50,0:12:39.78,0:12:43.36,Main-207+,,0,0,0,,How dare you defy me? Kill him, Cipher Pol 0!
+Dialogue: 50,0:12:43.36,0:12:43.90,Main-207+,,0,0,0,,Roger.
+Dialogue: 50,0:12:43.90,0:12:45.41,Main-207+,,0,0,0,,{Get out of my way! - OG}Out of my way!{Z}
+Dialogue: 50,0:12:45.41,0:12:48.45,Main-207+,,0,0,0,,Stop it, Great Knight Neptune!\NDon't be a fool!
+Dialogue: 50,0:12:50.33,0:12:54.08,Main-207+,,0,0,0,,{Father-sama... No! We should not give in to hatred! - OG}Father, no! We can't give in to hatred!{Z}
+Dialogue: 50,0:13:04.76,0:13:06.72,Main-207+,,0,0,0,,Ugh...
+Dialogue: 50,0:13:09.14,0:13:12.27,Main-207+,,0,0,0,,Who hit the Celestial Dragon?!
+Dialogue: 50,0:13:12.27,0:13:16.23,Main-207+,,0,0,0,,I-I have nothing to do with these hippos!
+Dialogue: 50,0:13:20.73,0:13:22.32,Main-207+,,0,0,0,,{I'm sorry... - OG}I'm so sorry!{Z}
+Dialogue: 50,0:13:22.32,0:13:24.86,Main-207+,,0,0,0,,{As a fellow Celestial Dragon, I feel ashamed! - OG}As a fellow Celestial Dragon, I am ashamed!{Z}
+Dialogue: 50,0:13:26.07,0:13:27.91,Main-207+,,0,0,0,,Please forgive us!
+Dialogue: 50,0:13:29.37,0:13:31.29,Main-207+,,0,0,0,,Is he a Celestial Dragon?!
+Dialogue: 50,0:13:31.29,0:13:34.54,Main-207+,,0,0,0,,Let go of the princess, you idiot!
+Dialogue: 50,0:13:36.67,0:13:38.50,Main-207+,,0,0,0,,My apologies{ to}, everyone!
+Dialogue: 50,0:13:38.50,0:13:41.88,Main-207+,,0,0,0,,This fool brought panic to\Na place meant for socializing!
+Dialogue: 50,0:13:44.05,0:13:47.80,Main-207+,,0,0,0,,I assume you don't remember me, Neptune.
+Dialogue: 50,0:13:48.47,0:13:54.56,Main-207+,,0,0,0,,{But I am indebted to the Ryugu Kingdom\Nand have been waiting for this day! - OG}But I am indebted to the Ryugu Kingdom\Nand have patiently awaited this day.{Z}
+Dialogue: 50,0:13:54.56,0:13:57.48,Main-207+,,0,0,0,,{The day that you would come here! - OG}The day you would arrive here!{Z}
+Dialogue: 50,0:13:58.40,0:14:00.15,Main-207+,,0,0,0,,{Don't tell me you're... - OG}That means... you're...{Z}
+Dialogue: 50,0:14:03.07,0:14:10.03,Main-207+,,0,0,0,,I'm the foolish Celestial Dragon who drifted\Ndown to the Ryugu Kingdom a decade ago.
+Dialogue: 50,0:14:10.66,0:14:14.16,Flashbacks-207+,,0,0,0,,{Hurry up and save me, you fool! - OG}Hurry up and save me, you imbeciles!{FMI - ??}
+Dialogue: 50,0:14:17.25,0:14:19.38,Flashbacks-207+,,0,0,0,,– Kill him!\N– Make him suffer!
+Dialogue: 50,0:14:19.38,0:14:20.92,Flashbacks-207+,,0,0,0,,Show him no mercy!
+Dialogue: 50,0:14:20.92,0:14:22.13,Flashbacks-207+,,0,0,0,,Don't do it!
+Dialogue: 50,0:14:22.13,0:14:24.05,Flashbacks-207+,,0,0,0,,{\t(1343,1802,1,\c&H000000&\3c&H000000&)}You stupid fish!
+Dialogue: 50,0:14:37.06,0:14:39.44,Flashbacks-207+,,0,0,0,,– Queen Otohime!\N– Queen Otohime!
+Dialogue: 50,0:14:39.44,0:14:41.61,Flashbacks-207+,,0,0,0,,{The queen has been shot! - OG}The queen's been shot!{Z}
+Dialogue: 50,0:14:52.41,0:14:53.95,Flashbacks-207+,,0,0,0,,Queen Otohime...
+Dialogue: 50,0:14:54.41,0:14:55.47,Flashbacks-207+,,0,0,0,,Everybody...
+Dialogue: 50,0:14:56.71,0:14:58.29,Flashbacks-207+,,0,0,0,,drop your guns!
+Dialogue: 50,0:15:00.75,0:15:02.75,Flashbacks-207+,,0,0,0,,Children are watching!
+Dialogue: 50,0:15:09.55,0:15:11.14,Flashbacks-207+,,0,0,0,,{Otohime-sama...! - OG}Your Majesty...{Z}
+Dialogue: 50,0:15:12.97,0:15:14.89,Flashbacks-207+,,0,0,0,,It's just a scratch.{OG}{It's just a flesh wound. - Z}
+Dialogue: 50,0:15:14.89,0:15:16.39,Flashbacks-207+,,0,0,0,,Why are you protecting him?
+Dialogue: 50,0:15:16.39,0:15:19.94,Flashbacks-207+,,0,0,0,,{Don't you know what he did to us in the past?! - OG}Do you remember what he's\Ndone to us in the past?!{Z}
+Dialogue: 50,0:15:19.94,0:15:24.36,Flashbacks-207+,,0,0,0,,{I can feel your anguish - it must be hard! - OG}I feel your anguish;\NI feel how hard it must be.{Z}
+Dialogue: 50,0:15:24.98,0:15:27.11,Flashbacks-207+,,0,0,0,,I understand, but...
+Dialogue: 50,0:15:27.11,0:15:33.37,Flashbacks-207+,,0,0,0,,{you shouldn't spread your resentment of humans to the children here! - OG}we mustn't teach our resentment\Nof humans to our children!{Z}
+Dialogue: 50,0:15:35.33,0:15:39.08,Flashbacks-207+,,0,0,0,,They should get the chance to meet\Nhumans and decide for themselves.
+Dialogue: 50,0:15:43.58,0:15:48.17,Main-207+,,0,0,2,,{The words of the late Queen Otohime made me human! - OG}{\q2}The words of the late Queen Otohime gave me my humanity!{Z}
+Dialogue: 50,0:15:48.17,0:15:50.80,Main-207+,,0,0,2,,I would do anything to help your people!
+Dialogue: 50,0:15:51.34,0:15:56.35,Main-207+,,0,0,0,,{King Neptune! It's an honor to see you again! - OG}King Neptune, it is an honor to see you again!{Z}
+Dialogue: 50,0:15:56.35,0:15:59.06,Main-207+,,0,0,0,,Cipher Pol! Leave this place!
+Dialogue: 50,0:16:37.26,0:16:41.31,Main-207+,,0,0,0,,{Why did you need to come all the way here? - OG}What would compel you to come all this way?{Z}
+Dialogue: 50,0:16:41.31,0:16:43.14,Main-207+,,0,0,0,,The Reverie is at hand.
+Dialogue: 50,0:16:43.14,0:16:47.52,Main-207+,,0,0,0,,{You are in no position to be involved in politics. - OG}Your position normally precludes any political entanglement.{Z}
+Dialogue: 50,0:16:48.02,0:16:50.73,Main-207+,,0,0,0,,We only made time because it's you.
+Dialogue: 50,0:16:50.73,0:16:54.07,Main-207+,,0,0,0,,Yes... and I appreciate that.
+Dialogue: 50,0:16:54.07,0:16:57.78,Main-207+,,0,0,0,,Let's hear it, then.\NGuards, would you excuse us?
+Dialogue: 50,0:16:57.78,0:16:58.70,Main-207+,,0,0,0,,– Yes, sir!\N– Yes, sir!
+Dialogue: 50,0:17:17.18,0:17:20.18,Main-207+,,0,0,0,,I need to talk to you about a certain pirate...
+Dialogue: 50,0:17:27.94,0:17:31.02,Main-207+,,0,0,0,,{Most of the people are gone... - OG}The crowd's really thinned out...{Z}
+Dialogue: 50,0:17:31.02,0:17:33.74,Main-207+,,0,0,0,,It's to be expected after a mess like that.
+Dialogue: 50,0:17:33.74,0:17:37.91,Main-207+,,0,0,0,,No one wants to get involved in a scandal.
+Dialogue: 50,0:17:43.12,0:17:44.54,Main-207+,,0,0,0,,Wow!
+Dialogue: 50,0:17:44.54,0:17:47.75,Main-207+,,0,0,0,,How's that, Shirahoshi{-san}?
+Dialogue: 50,0:17:48.63,0:17:51.92,Main-207+,,0,0,0,,The bruise is completely gone!
+Dialogue: 50,0:17:51.92,0:17:55.92,Main-207+,,0,0,0,,{Thank you very much, Mansherry-chan-sama! - OG}Thank you very much, Lady Mansherry!{Z}
+Dialogue: 50,0:17:55.92,0:17:57.97,Main-207+,,0,0,0,,{That's a wonderful ability! - OG}What a wonderful ability!{Z}
+Dialogue: 50,0:18:01.93,0:18:07.85,Main-207+,,0,0,0,,{I think you two are the biggest princess\Nand the smallest princess in the world! - OG}I think we have both the world's\Nbiggest and smallest princesses right here.{Z}
+Dialogue: 50,0:18:08.27,0:18:11.98,Main-207+,,0,0,0,,{I'm sorry that I was\Nafraid of you at first... - OG}I admit you frightened me\Nat first. I'm so sorry.{Z}
+Dialogue: 50,0:18:11.98,0:18:15.99,Main-207+,,0,0,0,,{I don't mind at all, Mansherry-chan-sama! - OG}I'm not bothered in the least, Lady Mansherry!{Z}
+Dialogue: 50,0:18:17.95,0:18:22.08,Main-207+,,0,0,0,,{I suppose all countries have both\Ngood people and bad people. - OG}It seems all countries are comprised\Nof both good and bad people.{Z}
+Dialogue: 50,0:18:22.08,0:18:25.79,Main-207+,,0,0,0,,The fishmen are no exception-{\i1}jamon{\i0}!
+Dialogue: 50,0:18:25.79,0:18:30.54,Main-207+,,0,0,0,,{Thanks to you, I kept my promise to Otohime. - OG}Thanks to you, I could keep\Nmy promise to Otohime.{Z}
+Dialogue: 50,0:18:30.54,0:18:33.88,Main-207+,,0,0,0,,No need to thank me, Neptune!
+Dialogue: 50,0:18:33.88,0:18:37.09,Main-207+,,0,0,0,,I want to return the favor\Nfor saving me ten years ago.
+Dialogue: 50,0:18:37.09,0:18:42.18,Main-207+,,0,0,0,,{During the seven days of the conference,\NI'll look after Princess Shirahoshi. - OG}For the next seven days of this conference, I'll look out for Princess Shirahoshi.{Z}
+Dialogue: 50,0:18:42.18,0:18:46.27,Main-207+,,0,0,0,,If my status can help,\NI'll gladly make use of it!
+Dialogue: 50,0:18:46.27,0:18:50.15,Main-207+,,0,0,0,,I've been told that I should keep\Nmy hands off of the Celestial Dragons,
+Dialogue: 50,0:18:50.15,0:18:54.48,Main-207+,,0,0,0,,{but could I kick their butts\Nif it's on your orders? - OG}but if you gave the order,\Ncould I kick their butts?{Z}
+Dialogue: 50,0:18:54.48,0:18:58.61,Main-207+,,0,0,0,,Y-Yes! If it's necessary to protect\Nthe princess and her companions,
+Dialogue: 50,0:18:58.61,0:19:01.49,Main-207+,,0,0,0,,I'll take full responsibility!
+Dialogue: 50,0:19:04.12,0:19:08.71,Main-207+,,0,0,0,,I can't believe an oddball like him exists.
+Dialogue: 50,0:19:08.71,0:19:10.83,Main-207+,,0,0,0,,{Vivi-sama! - OG}Princess Vivi!{Z}
+Dialogue: 50,0:19:12.75,0:19:17.38,Main-207+,,0,0,0,,{I'm sorry, Vivi-sama. I heard there was trouble. - OG}Apologies, Your Highness.\NI heard there was trouble.{Z}
+Dialogue: 50,0:19:17.38,0:19:19.38,Main-207+,,0,0,0,,{I should've stayed with you. - OG}I should've been at your side.{Z}
+Dialogue: 50,0:19:19.38,0:19:22.59,Main-207+,,0,0,0,,{Don't worry, Pell. I'm all right. - OG}Rest easy, Pell. I'm all right.{Z}
+Dialogue: 50,0:19:22.59,0:19:24.43,Main-207+,,0,0,0,,Anyway, how's Papa?
+Dialogue: 50,0:19:24.43,0:19:27.97,Main-207+,,0,0,0,,{Cobra-sama is talking to Admiral Fujitora of the Marines, - OG}His Majesty Cobra is talking\Nto the one who sent that letter,
+Dialogue: 50,0:19:27.97,0:19:29.89,Main-207+,,0,0,0,,{the one who sent that letter. - OG}Admiral Fujitora of the Marines.{Z}
+Dialogue: 50,0:19:29.89,0:19:33.27,Main-207+,,0,0,0,,{They're having a conversation with King Riku of Dressrosa. - OG}They're conversing with\NKing Riku of Dressrosa.{Z}
+Dialogue: 50,0:19:33.27,0:19:34.69,Main-207+,,0,0,0,,I see...
+Dialogue: 50,0:19:37.65,0:19:40.53,Narrator-207+,,0,0,0,,{Pangaea Castle has - OG}To get into Pangaea Castle,{Z}
+Dialogue: 50,0:19:40.53,0:19:45.28,Narrator-207+,,0,0,0,,{three gates outside of its main gate,\Nand all of them are guarded. - OG}there are three outer gates and then\Na main gate, all of which are guarded.{Z}
+Dialogue: 50,0:19:47.66,0:19:51.04,Narrator-207+,,0,0,0,,One of those gates is\Nthe Celestial Dragon Gate...
+Dialogue: 50,0:19:51.04,0:19:54.38,Narrator-207+,,0,0,0,,{which leads to the Land of the Gods\Nwhere the Celestial Dragons reside. - OG}which leads to the Land of the Gods,\Nhome of the Celestial Dragons.{Z}
+Dialogue: 50,0:20:03.18,0:20:05.89,Main-207+,,0,0,0,,Stop! Who goes there?!
+Dialogue: 50,0:20:10.31,0:20:13.20,Main-207+,,0,0,0,,{Why, you're Queen Dowager Conney... - OG}Why, she's from the Kingdom of Sorbet...{Z}
+Dialogue: 50,0:20:13.20,0:20:14.90,Main-207+,,0,0,0,,{of the Kingdom of Sorbet! - OG}Queen Dowager Conney!{Z}
+Dialogue: 50,0:20:19.28,0:20:22.70,Main-207+,,0,0,0,,The Land of the Gods is beyond this point.
+Dialogue: 50,0:20:22.70,0:20:26.62,Main-207+,,0,0,0,,{You can't pass; it's dangerous to be here.\NPlease go back to the castle. - OG}You can't pass; it's dangerous to be here.\NPlease return to the castle.{Z}
+Dialogue: 50,0:20:26.62,0:20:32.71,Main-207+,,0,0,0,,It hurts{-ee}! It's unforgivable{-ee}!\NDamn that Mjosgard!
+Dialogue: 50,0:20:32.71,0:20:35.46,Main-207+,,0,0,0,,Saint Charlos! Please be calm!
+Dialogue: 50,0:20:35.46,0:20:37.42,Main-207+,,0,0,0,,You'll aggravate your wounds!
+Dialogue: 50,0:20:37.42,0:20:41.30,Main-207+,,0,0,0,,He can't get away with this{-ee}!
+Dialogue: 50,0:20:41.30,0:20:43.38,Main-207+,,0,0,0,,Open the gate!
+Dialogue: 50,0:20:43.38,0:20:46.34,Main-207+,,0,0,0,,What?! What's going on?!
+Dialogue: 50,0:20:46.34,0:20:48.72,Main-207+,,0,0,0,,{Saint Charlos is hurt! - OG}Saint Charlos is injured!{Z}
+Dialogue: 50,0:20:48.72,0:20:51.14,Main-207+,,0,0,0,,{He requires urgent treatment! - OG}He requires urgent care!{Z}
+Dialogue: 50,0:20:51.14,0:20:52.27,Main-207+,,0,0,0,,Right away!
+Dialogue: 50,0:21:01.78,0:21:04.65,Main-207+,,0,0,0,,Hurry up! He requires medical assistance!
+Dialogue: 50,0:21:09.53,0:21:14.00,Main-207+,,0,0,2,,Oh, Charlos! Are you okay?!
+Dialogue: 50,0:21:14.00,0:21:18.71,Main-207+,,0,0,0,,I heard what happened.\NI was on my way to pick you up{-ee}!
+Dialogue: 50,0:21:18.71,0:21:20.46,Main-207+,,0,0,0,,Saint Rosward!
+Dialogue: 50,0:21:20.46,0:21:23.59,Main-207+,,0,0,0,,{F-Father-sama! - OG}D-Daddy dearest!{Z}
+Dialogue: 50,0:21:25.63,0:21:28.68,Main-207+,,0,0,0,,Oh, look at you!
+Dialogue: 50,0:21:28.68,0:21:31.22,Main-207+,,0,0,0,,{My dearest son! - OG}My dearest sonny boy!{Z}
+Dialogue: 50,0:21:36.35,0:21:37.69,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:21:37.69,0:21:39.56,Main-207+,,0,0,0,,Where did the queen dowager go?
+Dialogue: 50,0:21:40.36,0:21:44.40,Main-207+,,0,0,0,,Damn that Mjosgard!\NI'll make him pay for this!
+Dialogue: 50,0:21:44.40,0:21:46.61,Main-207+,,0,0,0,,He's always been a strange man...
+Dialogue: 50,0:21:46.61,0:21:49.78,Main-207+,,0,0,0,,A Celestial Dragon who\Ndoesn't own a single slave!
+Dialogue: 50,0:21:49.78,0:21:54.08,Main-207+,,0,0,0,,Just like Homing who descended\Nto the lower realm thirty years ago!
+Dialogue: 50,0:21:54.08,0:21:58.75,Main-207+,,0,0,0,,{The Donquixote family \Nmust be crazy-ee! - OG}The Donquixote family is full of lunatics!{Z}
+Dialogue: 50,0:21:59.63,0:22:03.09,Main-207+,,0,0,0,,{Father-sama, that's... - OG}Daddy dearest, that's...{Z}
+Dialogue: 50,0:22:05.30,0:22:09.14,Main-207+,,0,0,2,,the invincible slave, Kuma!
+Dialogue: 50,0:22:09.14,0:22:10.85,Main-207+,,0,0,0,,That's right!
+Dialogue: 50,0:22:10.85,0:22:15.56,Main-207+,,0,0,0,,My turn to rent him finally came{-ee}!
+Dialogue: 50,0:22:15.93,0:22:20.28,Narrator-207+,,0,0,0,,Bartholomew Kuma, known as “the Tyrant,”
+Dialogue: 50,0:22:20.28,0:22:23.28,Narrator-207+,,0,0,0,,was once a universally feared pirate.
+Dialogue: 50,0:22:23.28,0:22:29.29,Narrator-207+,,0,0,0,,{\fad(0,1500)}Few have had as checkered a life as his.
+Dialogue: 50,0:22:29.29,0:22:31.62,Narrator-207+,,0,0,0,,Kuma, one of the Seven Warlords,
+Dialogue: 50,0:22:31.62,0:22:36.54,Narrator-207+,,0,0,0,,received a special assignment from the World\NGovernment to eliminate the Straw Hats.
+Dialogue: 50,0:22:36.54,0:22:40.51,Narrator-207+,,0,0,0,,{Thus he suddenly emerged in front of Luffy and the others right after their hard-fought battle - OG}He suddenly emerged in front of\NLuffy and his crew on Thriller Bark,{Z}
+Dialogue: 50,0:22:40.51,0:22:42.63,Narrator-207+,,0,0,0,,{on Thriller Bark. - OG}right after their hard-fought battle.{Z}
+Dialogue: 50,0:22:53.72,0:22:56.81,Flashbacks-207+,,0,0,0,,{\fad(150,150)}Thirty-Six-Pound Phoenix!
+Dialogue: 50,0:23:00.27,0:23:03.11,Flashbacks-207+,,0,0,0,,{Is that your ability? - OG}So that's your ability?{TB - ??}
+Dialogue: 50,0:23:03.11,0:23:07.07,Flashbacks-207+,,0,0,0,,I have the power to repel things.
+Dialogue: 50,0:23:07.07,0:23:11.74,Flashbacks-207+,,0,0,0,,{I ate the Paw-Paw Fruit\Nand became a paw paw man. - OG}I ate the Paw-Paw Fruit\Nand became a paw pad man.{Z}
+Dialogue: 50,0:23:13.41,0:23:18.33,Flashbacks-207+,,0,0,0,,Are you truly willing to die for that man?
+Dialogue: 50,0:23:18.33,0:23:23.79,Flashbacks-207+,,0,0,0,,Right now, it's the only way\Nto save my crewmates!
+Dialogue: 50,0:23:23.79,0:23:27.84,Flashbacks-207+,,0,0,0,,{My ambition means nothing\Nif I can't protect my own captain. - OG}My dream means nothing\Nif I can't protect my own captain.{Z}
+Dialogue: 50,0:23:28.84,0:23:31.72,Flashbacks-207+,,0,0,0,,{Luffy is gonna be king of the pirates! - OG}Luffy {\i0}will{\i1} be the King of the Pirates!{Z}
+Dialogue: 50,0:23:39.10,0:23:41.56,Flashbacks-207+,,0,0,0,,He has good friends.
+Dialogue: 50,0:23:42.94,0:23:47.82,Flashbacks-207+,,0,0,0,,I should have expected no less\Nfrom your son, Dragon.
+Dialogue: 50,0:23:47.82,0:23:52.66,Narrator-207+,,0,0,0,,{Even though Kuma is a Warlord,\Nhe disobeyed the government's orders... - OG}Despite Kuma's status as a Warlord,\Nhe disobeyed the government's orders,{Z}
+Dialogue: 50,0:23:52.66,0:23:56.66,Narrator-207+,,0,0,0,,{\t(3677,3990,1,\3c&HFFFFFF&\4c&HFFFFFF&)}{and for some unknown reason,\Nspared the Straw Hats' lives. - OG}and for some unknown reason,\Nhe spared the Straw Hats' lives.{Z}
+Dialogue: 50,0:24:01.25,0:24:03.12,Main-207+,,0,0,0,,This is so exciting{-ee}!
+Dialogue: 50,0:24:03.12,0:24:07.55,Main-207+,,0,0,0,,{Father-sama finally got to rent the invincible slave Kuma! - OG}Daddy dearest finally got to rent\Nthe invincible slave Kuma!{Z}
+Dialogue: 50,0:24:07.55,0:24:11.51,Main-207+,,0,0,0,,It's convenient to have a Warlord as a slave{-ee}!
+Dialogue: 50,0:24:11.51,0:24:13.39,Main-207+,,0,0,0,,You can hit him!
+Dialogue: 50,0:24:13.39,0:24:16.05,Main-207+,,0,0,0,,You could even stab him!
+Dialogue: 50,0:24:18.77,0:24:23.14,Main-207+,,0,0,0,,Yet he doesn't ever scream.\NHe's a top-class slave{-ee}!
+Dialogue: 50,0:24:23.14,0:24:28.36,Main-207+,,0,0,0,,{Nice, Father-sama! I want one too-ee! - OG}Nice, Daddy Dearest! I want one too!{Z}
+Dialogue: 50,0:24:28.36,0:24:32.28,Main-207+,,0,0,0,,Ow, ow, ow... I'm gonna die{-ee}!
+Dialogue: 50,0:24:32.28,0:24:34.95,Main-207+,,0,0,0,,{You must remain calm, Charlos-sama! - OG}Please remain calm, Saint Charlos!{Z}
+Dialogue: 50,0:24:34.95,0:24:39.45,Main-207+,,0,0,0,,{Ow, ow, ow... I really got a thrashing-ee! - OG}Ow, ow, ow... He did a number on me!{Z}
+Dialogue: 50,0:24:39.45,0:24:42.96,Main-207+,,0,0,0,,Oh, poor Charlos!
+Dialogue: 50,0:24:42.96,0:24:46.92,Main-207+,,0,0,0,,Let's get the world's greatest\Ndoctor to look at you{-ee}!
+Dialogue: 50,0:24:51.05,0:24:54.13,Thoughts-207+,,0,0,0,,{I didn't expect to see him this soon! - OG}I didn't expect I'd see him so soon!{Z}
+Dialogue: 50,0:25:02.98,0:25:05.02,Thoughts-207+,,0,0,2,,My infiltration was a success.
+Dialogue: 50,0:25:09.48,0:25:12.82,Thoughts-207+,,0,0,0,,I'll never forgive them!
+Dialogue: 50,0:25:16.16,0:25:17.82,Thoughts-207+,,0,0,0,,{Ever! - OG}Not ever!{Z}
+Dialogue: 50,0:25:22.41,0:25:24.29,Main-207+,,0,0,0,,Damn!
+Dialogue: 50,0:25:25.04,0:25:28.17,Main-207+,,0,0,15,,{Don't get mad, Sabo... - OG}Don't get in a tizzy, Sabo!{Z}
+Dialogue: 50,0:25:28.17,0:25:31.25,Main-207+,,0,0,15,,{You boys are so scary! - OG}You boys can all be so scary!{Z}
+Dialogue: 50,0:25:31.25,0:25:33.63,Main-207+,,0,0,0,,{It's impossible not to get mad! - OG}I can't help but get mad!{Z}
+Dialogue: 50,0:25:34.17,0:25:37.22,Main-207+,,0,0,0,,{Our friend is going through hell! - OG}Our comrade is going through hell!{Z}
+Dialogue: 50,0:25:37.22,0:25:39.60,Main-207+,,0,0,0,,Our gentle Kuma!
+Dialogue: 50,0:25:42.64,0:25:44.85,Main-207+,,0,0,0,,{It's unforgivable... - OG}It's unthinkable...{Z}
+Dialogue: 50,0:25:46.31,0:25:47.94,Main-207+,,0,0,0,,Calm down.
+Dialogue: 50,0:25:47.94,0:25:51.57,Main-207+,,0,0,0,,We get it. We all feel the same way.
+Dialogue: 50,0:25:51.57,0:25:54.15,Main-207+,,0,0,0,,We won't leave Kuma{-san} to this fate!
+Dialogue: 50,0:25:54.15,0:25:57.32,Main-207+,,0,0,0,,{That's one of the reasons we came here... - OG}After all, he's one of\Nthe reasons we came here.{Z}
+Dialogue: 50,0:25:59.37,0:26:05.58,Main-207+,,0,0,0,,Having said that, even if we set him free,\Nhe'll never return to his old self.
+Dialogue: 50,0:26:06.50,0:26:12.50,Main-207+,,0,0,0,,{Still, let's not forget that Kuma-chan is a prime example of the World Government's oppression! - OG}{\q2}Still, let's not forget that our Kuma is a prime\Nexample of the World Government's oppression!{Z}
+Dialogue: 50,0:26:12.50,0:26:16.17,Main-207+,,0,0,0,,{Since Kuma-san was formerly a king of a member nation, - OG}Since Kuma is the former king\Nof a member nation,{Z}
+Dialogue: 50,0:26:16.17,0:26:19.84,Main-207+,,0,0,0,,they wanted to make an example\Nout of him as a warning.
+Dialogue: 50,0:26:19.84,0:26:25.06,Main-207+,,0,0,0,,{\q2}To show that no matter how tough you are,\Nthis is how you end up if you disobey the gods!
+Dialogue: 50,0:26:25.06,0:26:29.15,Main-207+,,0,0,0,,{The Celestial Dragons have CP-0\Nand Marine Headquarters on their side. - OG}The Celestial Dragons have CP-0\Nand Marine Headquarters in their corner.{Z}
+Dialogue: 50,0:26:29.81,0:26:32.52,Main-207+,,0,0,0,,If we fail and get caught–
+Dialogue: 50,0:26:32.52,0:26:35.36,Main-207+,,0,0,0,,No. Failure is not an option.
+Dialogue: 50,0:26:35.86,0:26:37.51,Main-207+,,0,0,0,,We either succeed...
+Dialogue: 50,0:26:38.16,0:26:39.24,Main-207+,,0,0,0,,or we die!
+Dialogue: 50,0:26:46.66,0:26:50.27,Narrator-207+,,0,0,0,,{It's finally time for the Reverie! - OG}At long last, the Reverie is here!{Z}
+Dialogue: 50,0:26:51.84,0:26:53.67,Narrator-207+,,0,0,0,,{The world is divided into four oceans... - OG}The four oceans of the world...{Z}
+Dialogue: 50,0:26:55.26,0:26:58.09,Narrator-207+,,0,0,2,,{by a continental wall - the Red Line... - OG}{\q2}are separated by a continental wall—the Red Line—{Z}
+Dialogue: 50,0:26:58.09,0:27:02.93,Narrator-207+,,0,0,2,,{\q2}and the deadly seas of the Grand Line and the New World,
+Dialogue: 50,0:27:02.93,0:27:06.64,Narrator-207+,,0,0,2,,{\q2}{where Luffy and his crew are adventuring. - OG}which is where Luffy and his crew are adventuring.{Z}
+Dialogue: 50,0:27:07.48,0:27:11.10,Narrator-207+,,0,0,0,,The World Government is\Na truly massive organization.
+Dialogue: 50,0:27:11.10,0:27:15.02,Narrator-207+,,0,0,0,,{Most countries in the world are members:\NA total of 170 nations! - OG}Most countries in the world\Nare members: 170 nations total!{Z}
+Dialogue: 50,0:27:15.86,0:27:24.16,Narrator-207+,,0,0,0,,{\q2}Of those, fifty monarchs are chosen as representatives\Nto assemble in the Holy Land every four years.
+Dialogue: 50,0:27:30.46,0:27:32.88,Main-207+,,0,0,0,,Wh-Where's my seat?!
+Dialogue: 50,0:27:40.43,0:27:41.97,Main-207+,,0,0,0,,Finally.
+Dialogue: 50,0:27:41.97,0:27:43.09,Main-207+,,0,0,0,,Yeah.
+Dialogue: 50,0:27:43.09,0:27:45.31,Main-207+,,0,0,0,,How's your country been?
+Dialogue: 50,0:27:45.31,0:27:48.52,Main-207+,,0,0,0,,You said it was ravaged\Nby pirates four years ago?
+Dialogue: 50,0:27:48.52,0:27:52.98,Main-207+,,0,0,0,,Thanks to Fleet Admiral Sakazuki,\Nthey were sent to Impel Down.
+Dialogue: 50,0:27:52.98,0:27:58.28,Main-207+,,0,0,0,,{Speaking of pirates, there is one name\NI'm hearing often lately. I think it's... - OG}Speaking of pirates, lately there's been\None name on everyone's lips. I think it was...{Z}
+Dialogue: 50,0:27:58.28,0:28:00.40,Main-207+,,0,0,0,,Straw Hat Luffy, right?
+Dialogue: 50,0:28:01.57,0:28:04.16,Main-207+,,0,0,0,,He attempted to assassinate Big Mom,
+Dialogue: 50,0:28:04.16,0:28:08.20,Main-207+,,0,0,0,,and rumor has it that\Nhe's going after Kaido next.
+Dialogue: 50,0:28:08.20,0:28:13.00,Main-207+,,0,0,0,,{Kaido?! Does that mean Wano\Nwill be in turmoil next? - OG}Kaido?! Does that mean Wano\Nis next in line for disaster?{Z}
+Dialogue: 50,0:28:13.00,0:28:18.59,Main-207+,,0,0,0,,{Wano is not affiliated\Nwith the World Government, so it's already practically lawless. - OG}{\q2}Wano is not affiliated with the World Government,\Nwhich effectively makes it a lawless land.{Z}
+Dialogue: 50,0:28:18.59,0:28:23.59,Main-207+,,0,0,0,,{We don't know if it even operates as a country. - OG}We don't even know\Nif it operates as a country.{Z}
+Dialogue: 50,0:28:23.59,0:28:27.01,Main-207+,,0,0,0,,Is there nothing we can do?!
+Dialogue: 50,0:28:27.01,0:28:30.64,Main-207+,,0,0,0,,Sending the Marines would cost money.
+Dialogue: 50,0:28:34.98,0:28:41.44,Main-207+,,0,0,0,,Trouble seems to follow this\NStraw Hat Luffy wherever he goes.
+Dialogue: 50,0:28:41.44,0:28:43.07,Main-207+,,0,0,0,,You've got that right!
+Dialogue: 50,0:28:44.36,0:28:46.32,Main-207+,,0,0,0,,What's so funny, Prodence?
+Dialogue: 50,0:28:47.16,0:28:49.20,Thoughts-207+,,0,0,0,,Luffy{-kun}...
+Dialogue: 50,0:28:49.87,0:28:52.25,Main-207+,,0,0,0,,The position of chairman always rotates.
+Dialogue: 50,0:28:52.25,0:28:53.87,Main-207+,,0,0,0,,Who is it this time?
+Dialogue: 50,0:28:54.87,0:28:56.38,Main-207+,,0,0,0,,{It's me! - OG}That would be me!{Z}
+Dialogue: 50,0:28:56.38,0:28:58.63,Main-207+,,0,0,0,,{It's a pleasure, everyone. - OG}Everyone, it will be my honor.{Z}
+Dialogue: 50,0:28:58.63,0:29:00.34,Main-207+,,0,0,0,,Ballywood, huh?
+Dialogue: 50,0:29:00.34,0:29:02.05,Main-207+,,0,0,0,,Sounds good.
+Dialogue: 50,0:29:02.05,0:29:05.43,Main-207+,,0,0,0,,{I think you'll run things efficiently. - OG}This should run smoothly, then.{Z}
+Dialogue: 50,0:29:05.43,0:29:09.22,Main-207+,,0,0,0,,Even if we have a full seven days,\Nwe have so much to address.
+Dialogue: 50,0:29:09.22,0:29:12.77,Narrator-207+,,0,0,0,,This is the great conference\Nthat determines the order of the world.
+Dialogue: 50,0:29:13.43,0:29:16.85,Narrator-207+,,0,0,0,,It is known as...
+Dialogue: 50,0:29:17.65,0:29:21.86,Main-207+,,0,0,0,,Well then... my fellow monarchs...
+Dialogue: 50,0:29:23.24,0:29:29.28,Main-207+,,0,0,0,,let us carefully discuss\Nthe future of this beautiful world!
+Dialogue: 50,0:29:34.04,0:29:35.96,Narrator-207+,,0,0,0,,...the Reverie!
+Dialogue: 50,0:29:36.67,0:29:39.84,Main-207+,,0,0,0,,{It seems like the conference has begun... - OG}And so the conference begins...{Z}
+Dialogue: 50,0:29:39.84,0:29:46.72,Main-207+,,0,0,0,,Apparently, King Cobra of Arabasta\Nis requesting an audience with us.
+Dialogue: 50,0:29:46.72,0:29:52.68,Main-207+,,0,0,0,,{The Nefertari family was\Nthe only family of the First Twenty - OG}The Nefertari family was the only\Nmember of the First Twenty{Z}
+Dialogue: 50,0:29:52.68,0:29:55.64,Main-207+,,0,0,0,,that stayed in the lower realm 800 years ago.
+Dialogue: 50,0:29:55.64,0:30:00.48,Main-207+,,0,0,0,,In a sense, they're traitors.\NHas he noticed something?
+Dialogue: 50,0:30:00.48,0:30:03.53,Main-207+,,0,0,0,,{Let's hope he doesn't\Nmake things complicated. - OG}Let's hope he doesn't\Ncomplicate matters.{Z}
+Dialogue: 50,0:30:03.53,0:30:07.66,Main-207+,,0,0,0,,{You can say the same\Nabout the Big Mom and Kaido situation. - OG}You could say the same about\Nthe situation with Big Mom and Kaido.{Z}
+Dialogue: 50,0:30:07.66,0:30:13.54,Main-207+,,0,0,0,,It's been two years since the Summit War.\NYet this maelstrom will not cease.
+Dialogue: 50,0:30:13.54,0:30:18.88,Main-207+,,0,0,0,,{The balance of the world cannot be maintained forever. - OG}This world's equilibrium\Ncannot be maintained indefinitely.{Z}
+Dialogue: 50,0:30:18.88,0:30:24.67,Main-207+,,0,0,0,,{It seems like a great cleansing is in order. - OG}The time has come for a great cleansing.{Z}
+Dialogue: 50,0:30:36.64,0:30:37.52,Main-207+,,0,0,0,,{Imu-sama. - OG}Lord Imu.{Z}
+Dialogue: 50,0:30:38.14,0:30:40.98,Main-207+,,0,0,0,,{They have arrived. The Five Elders. - OG}The Five Elders have arrived.{Z}
+Dialogue: 50,0:31:37.95,0:31:42.58,Main-207+,,0,0,0,,Have you discovered another light\Nto be erased from history?
+Dialogue: 50,0:31:42.58,0:31:45.25,Main-207+,,0,0,0,,{Has the decision been made? - OG}Is it decided, then?{Z}
+Dialogue: 50,0:31:49.01,0:31:52.18,Main-207+,,0,0,0,,If so, you need only give us the name!
+Dialogue: 0,0:00:55.41,0:01:00.29,Title-207+,,0,0,0,,{\bord2.7\c&H000000&\1a&HFF&\blur1.05\fad(800,0)\t(755,800,\1a&H00&)}The Empty Throne
+Dialogue: 1,0:00:55.41,0:01:00.29,Title-207+,,0,0,0,,{\bord0\4a&HFF&\blur1.05\fad(800,0)}The Empty Throne
 Dialogue: 0,0:01:28.69,0:01:31.94,Captions,,0,0,0,,{\pos(960,840)\fscx120\fscy120\fs60\c&H000000&\1a&HFF&\blur0.75\fad(400,0)\t(355,400,\1a&H00&)}Whole Cake Island
 Dialogue: 1,0:01:28.69,0:01:31.94,Captions,,0,0,0,,{\pos(960,840)\fscx120\fscy120\fs60\bord0\4a&HFF&\blur0.75\fad(400,0)}Whole Cake Island
-Dialogue: 0,0:03:02.53,0:03:07.41,Captions,,0,0,0,,{\pos(960,816)\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}{Navy Headquarters, }New Marineford
-Dialogue: 1,0:03:02.53,0:03:07.41,Captions,,0,0,0,,{\pos(960,816)\fs67.5\bord0\4a&HFF&\blur0.6\fad(500,0)}{Navy Headquarters, }New Marineford
+Dialogue: 0,0:03:02.53,0:03:07.41,Captions,,0,0,0,,{\pos(960,816)\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}{Marine Headquarters, }New Marineford
+Dialogue: 1,0:03:02.53,0:03:07.41,Captions,,0,0,0,,{\pos(960,816)\fs67.5\bord0\4a&HFF&\blur0.6\fad(500,0)}{Marine Headquarters, }New Marineford
 Dialogue: 0,0:03:44.53,0:03:47.20,Captions,,0,0,0,,{\pos(960,828)\fs70.5\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}The Red Port
 Dialogue: 1,0:03:44.53,0:03:47.20,Captions,,0,0,0,,{\pos(960,828)\fs70.5\bord0\4a&HFF&\blur0.6\fad(400,0)}The Red Port
-Dialogue: 0,0:04:03.26,0:04:07.14,Captions,,0,0,345,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Vice Admiral Gion "Momousagi"\NNavy Headquarters
-Dialogue: 1,0:04:03.26,0:04:07.14,Captions,,0,0,345,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Vice Admiral Gion "Momousagi"\NNavy Headquarters
-Dialogue: 0,0:04:22.53,0:04:28.03,Captions,,0,90,402,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Vice Admiral Tokikake "Chaton"\NNavy Headquarters
-Dialogue: 1,0:04:22.53,0:04:28.03,Captions,,0,90,402,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Vice Admiral Tokikake "Chaton"\NNavy Headquarters
-Dialogue: 0,0:04:49.26,0:04:53.39,Captions,,0,75,345,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Rear Admiral Hina{\fs55.5}\N{Rear Admiral, }Navy Headquarters
-Dialogue: 1,0:04:49.26,0:04:53.39,Captions,,0,75,345,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Rear Admiral Hina{\fs55.5}\N{Rear Admiral, }Navy Headquarters
+Dialogue: 0,0:04:03.26,0:04:07.14,Captions,,0,0,345,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Vice Admiral Gion "Momousagi"\NMarine HQ
+Dialogue: 1,0:04:03.26,0:04:07.14,Captions,,0,0,345,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Vice Admiral Gion "Momousagi"\NMarine HQ
+Dialogue: 0,0:04:22.53,0:04:28.03,Captions,,0,90,402,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Vice Admiral Tokikake "Chaton"\NMarine HQ
+Dialogue: 1,0:04:22.53,0:04:28.03,Captions,,0,90,402,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Vice Admiral Tokikake "Chaton"\NMarine HQ
+Dialogue: 0,0:04:49.26,0:04:53.39,Captions,,0,75,345,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Rear Admiral Hina{\fs55.5}\NMarine HQ
+Dialogue: 1,0:04:49.26,0:04:53.39,Captions,,0,75,345,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Rear Admiral Hina{\fs55.5}\NMarine HQ
 Dialogue: 0,0:05:49.41,0:05:53.54,Captions,,0,0,0,,{\pos(960,832.5)\fs67.5\c&H000000&\alpha&HFF&\blur0.6\fad(400,0)\t(355,400,\alpha&H00&)}Pangaea Castle
 Dialogue: 1,0:05:49.41,0:05:53.54,Captions,,0,0,0,,{\pos(960,832.5)\fs67.5\alpha&HA0&\blur0.6\t(0,400,\alpha&H00&)}Pangaea Castle
-Dialogue: 0,0:07:47.40,0:07:49.86,Captions,,0,0,345,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(300,300)\t(255,300,\1a&H00&)\t(2160,2205,\1a&HFF&)}{The}\N{A Courtyard PartyPangaea Castle}A Courtyard\NPangaea Castle
-Dialogue: 1,0:07:47.40,0:07:49.86,Captions,,0,0,345,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(300,300)}{The}\N{A Courtyard PartyPangaea Castle}A Courtyard\NPangaea Castle
+Dialogue: 0,0:07:47.40,0:07:49.86,Captions,,0,0,345,,{\fs64.5\c&H000000&\1a&HFF&\blur0.6\fad(300,300)\t(255,300,\1a&H00&)\t(2160,2205,\1a&HFF&)}{The Courtyard Party\NPangaea Castle}Pangaea Castle Courtyard
+Dialogue: 1,0:07:47.40,0:07:49.86,Captions,,0,0,345,,{\fs64.5\bord0\4a&HFF&\blur0.6\fad(300,300)}{The Courtyard Party\NPangaea Castle}Pangaea Castle Courtyard
 Dialogue: 0,0:08:00.83,0:08:04.83,Captions,,0,0,353,,{\fs60\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Saint Charlos\NWorld Noble (Celestial Dragon)
 Dialogue: 1,0:08:00.83,0:08:04.83,Captions,,0,0,353,,{\fs60\bord0\4a&HFF&\blur0.6\fad(500,0)}Saint Charlos\NWorld Noble (Celestial Dragon)
 Dialogue: 0,0:10:05.41,0:10:09.29,Captions,,0,0,135,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\bord2.7\t(455,500,\1a&H00&)}Rob Lucci
 Dialogue: 1,0:10:05.41,0:10:09.29,Captions,,0,0,135,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}Rob Lucci
-Dialogue: 0,0:10:05.41,0:10:09.29,Captions,,0,0,390,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\bord2.7\t(455,500,\1a&H00&)}Cipher Pol Aegis 0
-Dialogue: 1,0:10:05.41,0:10:09.29,Captions,,0,0,390,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}Cipher Pol Aegis 0
+Dialogue: 0,0:10:05.41,0:10:09.29,Captions,,0,0,390,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\bord2.7\t(455,500,\1a&H00&)}Cipher Pol Aigis 0
+Dialogue: 1,0:10:05.41,0:10:09.29,Captions,,0,0,390,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}Cipher Pol Aigis 0
 Dialogue: 0,0:10:14.71,0:10:19.26,Captions,,0,0,248,,{\fs70.5\c&H000000&\1a&HFF&\blur0.6\fad(450,300)\t(405,450,\1a&H00&)\t(4250,4295,\1a&HFF&)}Kaku
 Dialogue: 1,0:10:14.71,0:10:19.26,Captions,,0,0,248,,{\fs70.5\bord0\4a&HFF&\blur0.6\fad(450,300)}Kaku
 Dialogue: 0,0:10:21.18,0:10:24.56,Captions,,0,0,248,,{\fs70.5\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}Stussy
 Dialogue: 1,0:10:21.18,0:10:24.56,Captions,,0,0,248,,{\fs70.5\bord0\4a&HFF&\blur0.6\fad(400,0)}Stussy
-Dialogue: 0,0:15:43.04,0:15:50.80,Captions,,0,0,345,,{\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(450,0)\t(405,450,\1a&H00&)}{St.}Saint Donquixote Mjosgard\NWorld Noble (Celestial Dragon)
-Dialogue: 1,0:15:43.04,0:15:50.80,Captions,,0,0,345,,{\fs67.5\bord0\4a&HFF&\blur0.6\fad(450,0)}{St.}Saint Donquixote Mjosgard\NWorld Noble (Celestial Dragon)
+Dialogue: 0,0:15:43.04,0:15:50.80,Captions,,0,0,345,,{\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(450,0)\t(405,450,\1a&H00&)}Saint Donquixote Mjosgard\NWorld Noble (Celestial Dragon)
+Dialogue: 1,0:15:43.04,0:15:50.80,Captions,,0,0,345,,{\fs67.5\bord0\4a&HFF&\blur0.6\fad(450,0)}Saint Donquixote Mjosgard\NWorld Noble (Celestial Dragon)
 Dialogue: 0,0:16:13.86,0:16:17.24,Captions,,0,0,0,,{\pos(960,727.5)\fs60\c&H000000&\1a&HFF&\blur0.6\fad(400,450)\t(355,400,\1a&H00&)\t(2930,2975,\1a&HFF&)}The Holy Land{, }\NMary Geoise
 Dialogue: 1,0:16:13.86,0:16:17.24,Captions,,0,0,0,,{\pos(960,727.5)\fs60\bord0\4a&HFF&\blur0.6\fad(400,450)}The Holy Land{, }\NMary Geoise
 Dialogue: 0,0:16:17.28,0:16:20.79,Captions,,0,0,0,,{\pos(997.5,832.5)\fs70.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Pangaea Castle
@@ -516,22 +466,22 @@ Dialogue: 0,0:16:24.79,0:16:28.80,Captions,,0,0,0,,{\pos(960,825)\fs64.5\c&H0000
 Dialogue: 1,0:16:24.79,0:16:28.80,Captions,,0,0,0,,{\pos(960,825)\fs64.5\bord0\4a&HFF&\blur0.6\fad(500,500)}The Room of Authority
 Dialogue: 0,0:16:31.76,0:16:35.64,Captions,,0,0,345,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}The Five Elders\NSupreme Council of the World Government
 Dialogue: 1,0:16:31.76,0:16:35.64,Captions,,0,0,345,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}The Five Elders\NSupreme Council of the World Government
-Dialogue: 0,0:17:22.93,0:17:27.94,Captions,,0,0,0,,{\fad(700,0)\pos(960,822)\fs67.5\c&H000000&\1a&HFF&\blur0.6\t(555,800,\1a&H00&)}{Pangaea Castle Courtyard}A Courtyard\NPangaea Castle
-Dialogue: 1,0:17:22.93,0:17:27.94,Captions,,0,0,0,,{\fad(700,0)\pos(960,822)\fs67.5\bord0\4a&HFF&\blur0.6}{Pangaea Castle Courtyard}A Courtyard\NPangaea Castle
-Dialogue: 0,0:19:37.07,0:19:40.57,Captions,,0,0,0,,{\pos(960,822)\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Pangaea Castle
-Dialogue: 1,0:19:37.07,0:19:40.57,Captions,,0,0,0,,{\pos(960,822)\fs67.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Pangaea Castle
-Dialogue: 0,0:20:06.30,0:20:10.31,Captions,,45,0,360,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Queen Dowager Conney{, the }\NKingdom of Sorbet{ Kingdom}
-Dialogue: 1,0:20:06.30,0:20:10.31,Captions,,45,0,360,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}Queen Dowager Conney{, the }\NKingdom of Sorbet{ Kingdom}
+Dialogue: 0,0:17:22.93,0:17:27.94,Captions,,0,0,0,,{\fad(700,0)\pos(960,822)\fs67.5\c&H000000&\1a&HFF&\blur0.6\t(555,800,\1a&H00&)}Pangaea Castle Courtyard
+Dialogue: 1,0:17:22.93,0:17:27.94,Captions,,0,0,0,,{\fad(700,0)\pos(960,822)\fs67.5\bord0\4a&HFF&\blur0.6}Pangaea Castle Courtyard
+Dialogue: 0,0:19:37.07,0:19:40.53,Captions,,0,0,0,,{\pos(960,822)\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Pangaea Castle
+Dialogue: 1,0:19:37.07,0:19:40.53,Captions,,0,0,0,,{\pos(960,822)\fs67.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Pangaea Castle
+Dialogue: 0,0:20:06.30,0:20:10.31,Captions,,45,0,360,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Queen Dowager Conney\NKingdom of Sorbet
+Dialogue: 1,0:20:06.30,0:20:10.31,Captions,,45,0,360,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}Queen Dowager Conney\NKingdom of Sorbet
 Dialogue: 0,0:21:10.20,0:21:14.00,Captions,,0,0,353,,{\fs60\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Saint Rosward\NWorld Noble (Celestial Dragon)
 Dialogue: 1,0:21:10.20,0:21:14.00,Captions,,0,0,353,,{\fs60\bord0\4a&HFF&\blur0.6\fad(500,0)}Saint Rosward\NWorld Noble (Celestial Dragon)
 Dialogue: 0,0:22:03.09,0:22:09.14,Captions,,0,0,405,,{\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Warlord Bartholomew Kuma\N(Former Revolutionary Officer and Former King of Sorbet)
 Dialogue: 1,0:22:03.09,0:22:09.14,Captions,,0,0,405,,{\bord0\4a&HFF&\blur0.6\fad(500,0)}Warlord Bartholomew Kuma\N(Former Revolutionary Officer and Former King of Sorbet)
-Dialogue: 0,0:24:57.76,0:25:05.02,Captions,,0,0,407,,{\fs60\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}{Captain of the Bonney PiratesJewelry Bonney, a Pirate of the Worst Generation}Captain Jewelry Bonney\NA Pirate of the Worst Generation\NBonney Pirates
-Dialogue: 1,0:24:57.76,0:25:05.02,Captions,,0,0,407,,{\fs60\bord0\4a&HFF&\blur0.6\fad(500,0)}{Captain of the Bonney PiratesJewelry Bonney, a Pirate of the Worst Generation}Captain Jewelry Bonney\NA Pirate of the Worst Generation\NBonney Pirates
-Dialogue: 0,0:25:25.25,0:25:31.25,Captions,,0,0,278,,{\fs61.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Beneath the Land of the Gods{ - }, Home of the Celestial Dragons
-Dialogue: 1,0:25:25.25,0:25:31.25,Captions,,0,0,278,,{\fs61.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Beneath the Land of the Gods{ - }, Home of the Celestial Dragons
-Dialogue: 0,0:26:45.79,0:26:50.25,Captions,,0,0,300,,{\fs70.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(400,500,\1a&H00&)}The Holy Land{, }\NMary Geoise
-Dialogue: 1,0:26:45.79,0:26:50.25,Captions,,0,0,300,,{\fs70.5\bord0\4a&HFF&\blur0.6\fad(500,0)}The Holy Land{, }\NMary Geoise
+Dialogue: 0,0:24:57.76,0:25:05.02,Captions,,0,0,407,,{\fs60\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Captain Jewelry Bonney\NBonney Pirates\NA Pirate of the Worst Generation
+Dialogue: 1,0:24:57.76,0:25:05.02,Captions,,0,0,407,,{\fs60\bord0\4a&HFF&\blur0.6\fad(500,0)}Captain Jewelry Bonney\NBonney Pirates\NA Pirate of the Worst Generation
+Dialogue: 0,0:25:25.25,0:25:31.25,Captions,,0,0,278,,{\fs61.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(455,500,\1a&H00&)}Beneath the Land of the Gods, Home of the Celestial Dragons
+Dialogue: 1,0:25:25.25,0:25:31.25,Captions,,0,0,278,,{\fs61.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Beneath the Land of the Gods, Home of the Celestial Dragons
+Dialogue: 0,0:26:45.79,0:26:50.25,Captions,,0,0,300,,{\fs70.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(400,500,\1a&H00&)}The Holy Land, Mary Geoise
+Dialogue: 1,0:26:45.79,0:26:50.25,Captions,,0,0,300,,{\fs70.5\bord0\4a&HFF&\blur0.6\fad(500,0)}The Holy Land, Mary Geoise
 Dialogue: 0,0:26:50.29,0:26:53.67,Captions,,0,0,0,,{\pos(960,834)\fs67.5\c&H000000&\1a&HFF&\blur0.6\fad(500,0)\t(400,500,\1a&H00&)}Pangaea Castle
 Dialogue: 1,0:26:50.29,0:26:53.67,Captions,,0,0,0,,{\pos(960,834)\fs67.5\bord0\4a&HFF&\blur0.6\fad(500,0)}Pangaea Castle
 Dialogue: 0,0:26:53.67,0:27:06.64,Captions,,0,0,0,,{\move(594,342,667.5,382.5)\fscx92\fscy92\bord3.75\c&H403B3C&\3c&H403B3C&\blur1.05\t(\fscx73.89\fscy73.89\bord3.015)}EAST BLUE
@@ -546,6 +496,54 @@ Dialogue: 0,0:26:53.67,0:27:06.64,Captions,,0,0,0,,{\move(1005,489,996,499.5)\fs
 Dialogue: 1,0:26:53.67,0:27:06.64,Captions,,0,0,0,,{\move(1005,489,996,499.5)\fscx92\fscy92\frz26.44\frx8\bord0\4a&HFF&\blur1.05\t(\fscx73.52\fscy73.52)}NEW WORLD
 Dialogue: 0,0:26:53.67,0:27:06.64,Captions,,0,0,0,,{\move(460.5,436.5,559.5,457.5)\bord4.5\c&H403B3C&\3c&H403B3C&\blur1.05\t(\fscx79.71\fscy79.71\bord3.585)}MARY GEOISE
 Dialogue: 1,0:26:53.67,0:27:06.64,Captions,,0,0,0,,{\move(460.5,436.5,559.5,457.5)\bord0\4a&HFF&\blur1.05\t(\fscx79.71\fscy79.71)}MARY GEOISE
-Dialogue: 0,0:30:31.55,0:30:36.56,Captions,,0,0,360,,{\fs60\c&H000000&\1a&HFF&\blur0.6\fad(500,500)\t(455,500,\1a&H00&)\t(4500,4545,\1a&HFF&)}{Pangaea Castle - }The Chamber of Flowers\NPangaea Castle
-Dialogue: 1,0:30:31.55,0:30:36.56,Captions,,0,0,360,,{\fs60\bord0\4a&HFF&\blur0.6\fad(500,500)}{Pangaea Castle - }The Chamber of Flowers\NPangaea Castle
+Dialogue: 0,0:30:31.55,0:30:36.56,Captions,,0,0,360,,{\fs60\c&H000000&\1a&HFF&\blur0.6\fad(500,500)\t(455,500,\1a&H00&)\t(4500,4545,\1a&HFF&)}The Chamber of Flowers\NPangaea Castle
+Dialogue: 1,0:30:31.55,0:30:36.56,Captions,,0,0,360,,{\fs60\bord0\4a&HFF&\blur0.6\fad(500,500)}The Chamber of Flowers\NPangaea Castle
+Dialogue: 0,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\c&H000000&}Video Editing
+Dialogue: 1,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Video Editing
+Dialogue: 2,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Video Editing
+Dialogue: 0,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Feeso
+Dialogue: 1,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0.1\fscx120\fscy125\4a&HFF&}Feeso
+Dialogue: 2,0:00:02.00,0:00:08.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0.1\fscx120\fscy125\4a&HFF&}Feeso
+Dialogue: 0,0:00:08.00,0:00:14.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\c&H000000&}Graphics
+Dialogue: 1,0:00:08.00,0:00:14.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Graphics
+Dialogue: 2,0:00:08.00,0:00:14.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:08.00,0:00:14.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Datenshi
+Dialogue: 1,0:00:08.00,0:00:14.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Datenshi
+Dialogue: 2,0:00:08.00,0:00:14.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Datenshi
+Dialogue: 0,0:00:14.00,0:00:22.00,Credits-207+,,0,0,0,,{\an1\fad(400,400)\blur0.5\c&H000000&\pos(100,706)}Quality Control
+Dialogue: 1,0:00:14.00,0:00:22.00,Credits-207+,,0,0,0,,{\an1\fad(400,400)\blur0.5\bord0\4a&HFF&\pos(100,706)}Quality Control
+Dialogue: 2,0:00:14.00,0:00:22.00,Credits-207+,,0,0,0,,{\an1\fad(400,400)\blur0.5\bord0\4a&HFF&\pos(100,706)}Quality Control
+Dialogue: 0,0:00:14.00,0:00:22.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Galaxy 9000\NGrug\NPepperjack\NSewil
+Dialogue: 1,0:00:14.00,0:00:22.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Galaxy 9000\NGrug\NPepperjack\NSewil
+Dialogue: 2,0:00:14.00,0:00:22.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Galaxy 9000\NGrug\NPepperjack\NSewil
+Dialogue: 0,0:00:22.00,0:00:28.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\c&H000000&}Soundtracking
+Dialogue: 1,0:00:22.00,0:00:28.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Soundtracking
+Dialogue: 2,0:00:22.00,0:00:28.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:22.00,0:00:28.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Halee
+Dialogue: 1,0:00:22.00,0:00:28.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Halee
+Dialogue: 2,0:00:22.00,0:00:28.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Halee
+Dialogue: 0,0:00:28.00,0:00:34.00,Credits-207+,,0,0,0,,{\an1\pos(100,820)\fad(400,400)\blur0.5\c&H000000&}Timing
+Dialogue: 1,0:00:28.00,0:00:34.00,Credits-207+,,0,0,0,,{\an1\pos(100,820)\fad(400,400)\blur0.5\bord0\4a&HFF&}Timing
+Dialogue: 2,0:00:28.00,0:00:34.00,Credits-207+,,0,0,0,,{\an1\pos(100,820)\fad(400,400)\blur0.5\bord0\4a&HFF&}Timing
+Dialogue: 0,0:00:28.00,0:00:34.00,Credits-207+,,0,0,0,,{\an1\pos(170,970)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}KaitouYahiko\NPhosCity
+Dialogue: 1,0:00:28.00,0:00:34.00,Credits-207+,,0,0,0,,{\an1\pos(170,970)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko\NPhosCity
+Dialogue: 2,0:00:28.00,0:00:34.00,Credits-207+,,0,0,0,,{\an1\pos(170,970)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko\NPhosCity
+Dialogue: 0,0:00:34.00,0:00:40.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\c&H000000&}Subtitle Editing
+Dialogue: 1,0:00:34.00,0:00:40.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Subtitle Editing
+Dialogue: 2,0:00:34.00,0:00:40.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Subtitle Editing
+Dialogue: 0,0:00:34.00,0:00:40.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Zenef
+Dialogue: 1,0:00:34.00,0:00:40.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Zenef
+Dialogue: 2,0:00:34.00,0:00:40.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Zenef
+Dialogue: 0,0:00:40.00,0:00:46.00,Credits-207+,,0,0,0,,{\an1\pos(100,820)\fad(400,400)\blur0.5\c&H000000&}Translation
+Dialogue: 1,0:00:40.00,0:00:46.00,Credits-207+,,0,0,0,,{\an1\pos(100,820)\fad(400,400)\blur0.5\bord0\4a&HFF&}Translation
+Dialogue: 2,0:00:40.00,0:00:46.00,Credits-207+,,0,0,0,,{\an1\pos(100,820)\fad(400,400)\blur0.5\bord0\4a&HFF&}Translation
+Dialogue: 0,0:00:40.00,0:00:46.00,Credits-207+,,0,0,0,,{\an1\pos(170,970)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Crunchyroll \NGaijin
+Dialogue: 1,0:00:40.00,0:00:46.00,Credits-207+,,0,0,0,,{\an1\pos(170,970)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Crunchyroll \NGaijin
+Dialogue: 2,0:00:40.00,0:00:46.00,Credits-207+,,0,0,0,,{\an1\pos(170,970)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Crunchyroll \NGaijin
+Dialogue: 0,0:00:46.00,0:00:50.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\c&H000000&}Special Thanks
+Dialogue: 1,0:00:46.00,0:00:50.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Special Thanks
+Dialogue: 2,0:00:46.00,0:00:50.00,Credits-207+,,0,0,0,,{\an1\pos(100,920)\fad(400,400)\blur0.5\bord0\4a&HFF&}Special Thanks
+Dialogue: 0,0:00:46.00,0:00:50.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord4\fscx120\fscy125\c&H000000&}Randy Troy
+Dialogue: 1,0:00:46.00,0:00:50.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Randy Troy
+Dialogue: 2,0:00:46.00,0:00:50.00,Credits-207+,,0,0,0,,{\an1\pos(170,1002.5)\fad(400,400)\blur0.5\bord0\fscx120\fscy125\4a&HFF&}Randy Troy
 
