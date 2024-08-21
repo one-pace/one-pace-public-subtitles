@@ -13,8 +13,8 @@ PlayResY: 1080
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 7131
-Active Line: 7138
+Scroll Position: 60
+Active Line: 169
 Video Position: 28303
 
 [V4+ Styles]
@@ -30,56 +30,24 @@ Style: Credits-furigana,FOT-Greco Std B,21,&H00FFFFFF,&H000000FF,&H00000000,&H00
 Style: Title-furigana,Agency FB,47,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.75,0,1,1.5,0,2,15,15,360,1
 Style: Flashbacks-720p-furigana,Impress BT,41,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,2.0625,1.875,2,180,180,27,1
 Style: Main-207+-furigana,Impress BT,41,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1.875,1.875,2,180,180,27,1
-Style: Main-207+,Impress BT,83,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.75,3.75,2,180,180,27,1
+Style: Main-207+,Impress BT Pace,76,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.55,3.55,2,300,300,57,1
 Style: Flashbacks-720p,Impress BT,83,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.125,3.75,2,180,180,27,1
 Style: Title,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.75,0,1,3,0,2,15,15,360,1
 Style: Credits,FOT-Greco Std B,42,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,95,100,1.5,0,1,3.3,0,7,15,15,15,1
 Style: Lyrics-OP5,Kozuka Mincho Pro H,57,&H00FFFFFF,&H00FFFFFF,&H00030303,&H00000000,0,0,0,0,110,100,1.5,0,1,3.375,0,2,33,33,27,1
 Style: Karaoke-OP5,Duality,90,&H000090FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
-Style: Thoughts-207+,Impress BT,83,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.125,3.75,2,180,180,27,1
+Style: Thoughts-207+,Impress BT,76,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,3.55,3.55,2,300,300,57,1
 Style: Narrator,Impress BT,84,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.75,3.75,8,180,180,27,1
-Style: Secondary-207+,Impress BT,83,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.75,3.75,2,180,180,27,1
+Style: Secondary-207+,Impress BT Pace,76,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.55,3.55,2,300,300,57,1
 Style: Kanji-furigana,Duality,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.25,0,8,15,15,180,1
 Style: Karaoke,brush-tipTerrence trial,90,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,8,15,15,15,1
 Style: Translation,brush-tipTerrence trial,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,2,15,15,15,1
 Style: Kanji,FOT-グレコ Std B,75,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,90,100,0,0,1,4.5,0,8,15,15,180,1
+Style: Flashbacks-207+,Impress BT Pace,76,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.55,3.55,2,300,300,57,1
+Style: Narrator-207+,Impress BT Pace,76,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.55,3.55,8,300,300,47,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template noblank notext,!retime("start2syl",-400+syl.i*100,0)!{\fad(0,100)\c&HFFFFFF&\3c&HFFFFFF&\fscx2\fscy2\an5\shad0\bord4\blur7\move($scenter,$middle,!$scenter+math.random(-100,100)!,!$smiddle+math.random(-60,60)!)\t(0,200,\fscx2\fscy2\p1}m 0 24 b 0 -8 50 -8 50 24 b 50 56 0 56 0 24 "
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template noblank notext,!retime("start2syl",-400+syl.i*100,0)!{\fad(0,100)\c&HFFFFBF&\3c&H61FDFE&\fscx2\fscy2\an5\shad0\bord4\blur7\move($scenter,$middle,!$scenter+math.random(-100,100)!,!$smiddle+math.random(-60,60)!)\t(0,200,\fscx10\fscy10\p1}m 0 24 b 0 -8 50 -8 50 24 b 50 56 0 56 0 24 "
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,Code once,kokoro = { "m 11 -13 b 25 -13 34 -2 34 10 b 32 26 20 32 12 32 b -1 32 -11 22 -11 10 b -11 -4 -1 -13 11 -13 "}
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template noblank,!retime("syl",-500,0)!{\an5\move(!$center+math.random(-50,50)!,!$middle+math.random(-50,50)!,$center,$middle)\fad(300,100)\c&HFFFFFF&\3c&HFFFFFF&\blur10\fscx15\fscy15\board20\p1}!kokoro[1]!
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template noblank loop 3,!retime("syl",0,500)!{\an5\move($center,$middle,!$center+math.random(-50,50)!,!$middle+math.random(-50,50)!)\fad(300,100)\fscx15\fscy15\blur20\bord10\c&HFFFFFF&\3c&H61FDFE&\p1}!kokoro[1]!
-Comment: 0,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template syl,!retime("start2syl",-400+syl.i*40,0)!{\an5\pos($center,$middle)\fad(300,0)\c&HF8C979&\3c&HFFFFFF&}
-Comment: 1,0:00:00.00,0:00:00.00,Karaoke,,0,0,0,template syl,!retime("syl",0,700)!{\an5\pos($center,$middle)\fad(0,300)\c&HFBE4BC&\3c&HD7FDFE&\t(0,100,\fscx115\fscy115)\t(100,!$dur+100!,\fscx100\fscy100\blur10\bord8)}
-Comment: 0,0:00:00.00,0:00:00.00,Kanji,,0,0,0,template noblank notext,!retime("start2syl",-400+syl.i*100,0)!{\fad(0,100)\c&HFFFFFF&\3c&HFFFFFF&\fscx2\fscy2\an5\shad0\bord4\blur7\move($scenter,$middle,!$scenter+math.random(-100,100)!,!$smiddle+math.random(-60,60)!)\t(0,200,\fscx2\fscy2\p1}m 0 24 b 0 -8 50 -8 50 24 b 50 56 0 56 0 24 "
-Comment: 0,0:00:00.00,0:00:00.00,Kanji,,0,0,0,template noblank notext,!retime("start2syl",-400+syl.i*100,0)!{\fad(0,100)\c&HFFFFBF&\3c&H61FDFE&\fscx2\fscy2\an5\shad0\bord4\blur7\move($scenter,$middle,!$scenter+math.random(-100,100)!,!$smiddle+math.random(-60,60)!)\t(0,200,\fscx10\fscy10\p1}m 0 24 b 0 -8 50 -8 50 24 b 50 56 0 56 0 24 "
-Comment: 0,0:00:00.00,0:00:00.00,Kanji,,0,0,0,Code once,kokoro = { "m 11 -13 b 25 -13 34 -2 34 10 b 32 26 20 32 12 32 b -1 32 -11 22 -11 10 b -11 -4 -1 -13 11 -13 "}
-Comment: 0,0:00:00.00,0:00:00.00,Kanji,,0,0,0,template noblank,!retime("syl",-500,0)!{\an5\move(!$center+math.random(-50,50)!,!$middle+math.random(-50,50)!,$center,$middle)\fad(300,100)\c&HFFFFFF&\3c&HFFFFFF&\blur10\fscx15\fscy15\board20\p1}!kokoro[1]!
-Comment: 0,0:00:00.00,0:00:00.00,Kanji,,0,0,0,template noblank loop 3,!retime("syl",0,500)!{\an5\move($center,$middle,!$center+math.random(-50,50)!,!$middle+math.random(-50,50)!)\fad(300,100)\fscx15\fscy15\blur20\bord10\c&HFFFFFF&\3c&H61FDFE&\p1}!kokoro[1]!
-Comment: 0,0:00:00.00,0:00:00.00,Kanji,,0,0,0,template syl,!retime("start2syl",-400+syl.i*40,0)!{\an5\pos($center,$middle)\fad(300,0)\c&HF8C979&\3c&HFFFFFF&}
-Comment: 1,0:00:00.00,0:00:00.00,Kanji,,0,0,0,template syl,!retime("syl",0,700)!{\an5\pos($center,$middle)\fad(0,300)\c&HFBE4BC&\3c&HD7FDFE&\t(0,100,\fscx115\fscy115)\t(100,!$dur+100!,\fscx100\fscy100\blur10\bord8)}
-Comment: 0,0:00:19.59,0:00:29.02,Kanji,,0,0,0,template furi,!retime("start2syl",-400+syl.i*40,0)!{\an5\pos($center,$middle)\fad(300,0)\c&HF8C979&\3c&HFFFFFF&}
-Comment: 1,0:00:19.59,0:00:29.02,Kanji,,0,0,0,template furi,!retime("syl",0,700)!{\an5\pos($center,$middle)\fad(0,300)\c&HFBE4BC&\3c&HD7FDFE&\t(0,100,\fscx115\fscy115)\t(100,!$dur+100!,\fscx100\fscy100\blur10\bord8)}
-Comment: 0,0:00:00.00,0:00:00.00,Translation,,0,0,0,code syl all,function char_counter(ref) ci[ref] = ci[ref] + 1; return "" end
-Comment: 0,0:00:00.00,0:00:00.00,Translation,,0,0,0,code syl,function phong(ref) ci[ref]=ci[ref]-1; return "" end; ci={40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}; cn= _G.unicode.len(orgline.text_stripped:gsub(" ",""))
-Comment: 1,0:00:37.35,0:00:37.35,Translation,,0,0,0,template char,!char_counter(8)!!retime("line",-(ci[1]-1)*10,-700-(ci[1]-1)*20)!!phong(1)!{\an5\pos($center,$middle)\fad(300,300)\c&HF8C979&\3c&HFFFFFF&}
-Comment: 0,0:19:37.90,0:19:47.33,Karaoke,,0,0,0,karaoke,{\k16}{\k33}A{\k19}no {\k62}hi{\k34} {\k31}yu{\k35}me{\k28}mi{\k26}ta {\k57}bo{\k26}ku{\k42}ra {\k48}wa{\k37} {\k28}ma{\k32}chi{\k57}gai {\k39}ja {\k60}na{\k27}i {\k19}to {\k73}shi{\k25}n{\k34}ji{\k55}te
-Comment: 0,0:19:47.37,0:19:55.92,Karaoke,,0,0,0,karaoke,{\k18}{\k33}A{\k28}ra{\k59}ku {\k36}u{\k56}ne{\k57}ru {\k33}u{\k29}na{\k27}ba{\k35}ra {\k77}wo{\k38} {\k33}wa{\k59}ta{\k34}tte {\k43}yu{\k78}ke{\k82}ru
-Comment: 0,0:19:56.43,0:20:05.63,Karaoke,,0,0,0,karaoke,{\k17}{\k32}Da{\k28}re {\k28}yo{\k31}ri {\k85}mo {\k58}yuu{\k34}ka{\k60}n {\k91}de {\k33}o{\k34}mo{\k26}i{\k33}ya{\k24}ri {\k91}mo {\k33}a{\k26}ru {\k30}ke{\k32}re{\k94}do
-Comment: 0,0:20:05.94,0:20:16.00,Karaoke,,0,0,0,karaoke,{\k20}{\k31}Mo{\k34}shi{\k29}mo {\k32}ki{\k27}mi {\k34}ga {\k29}ko{\k25}no {\k56}fu{\k37}ne {\k50}wo {\k37}o{\k31}ri{\k80}te {\k39}chi{\k28}ga{\k23}u {\k37}se{\k35}ka{\k29}i {\k45}ni {\k15}i{\k30}ta {\k51}to{\k38}shi{\k33}te {\k51}mo
-Comment: 0,0:20:16.06,0:20:24.43,Karaoke,,0,0,0,karaoke,{\k27}{\k36}Sa{\k27}i{\k89}go {\k30}ni {\k88}wa {\k35}ki{\k57}t{\k34}to {\k88}wa{\k32}ra{\k62}e{\k27}ru {\k205}yo
-Comment: 0,0:19:37.90,0:19:47.33,Kanji,,0,0,0,karaoke,{\k16}{\k33}あ{\k19}の{\k62}日|ひ{\k34}{\k31}夢|!ゆ{\k35}#|め{\k28}見|!み{\k26}た{\k57}僕|ぼ{\k26}#|く{\k42}ら{\k48}は {\k37}{\k28}間|!ま{\k32}違|!ち{\k1}#|が{\k57}い{\k39}じゃ{\k60}な{\k27}い{\k19}と{\k73}信|し{\k25}#|ん{\k34}じ{\k55}て
-Comment: 0,0:19:47.37,0:19:55.92,Kanji,,0,0,0,karaoke,{\k18}{\k33}荒|あ{\k28}#|ら{\k59}く{\k36}う{\k56}ね{\k57}る{\k33}海|う{\k29}#|な{\k27}原|!ば{\k35}#|ら{\k77}を{\k38}{\k33}渡|わ{\k59}#|た{\k34}って{\k43}行|ゆ{\k78}け{\k82}る
-Comment: 0,0:19:56.43,0:20:05.63,Kanji,,0,0,0,karaoke,{\k17}{\k32}誰|だ{\k28}#|れ{\k28}よ{\k31}り{\k85}も{\k58}勇|ゆう{\k34}敢|!か{\k60}#|ん{\k91}で{\k33}思|お{\k34}#|も{\k26}い{\k33}や{\k24}り{\k91}も{\k33}あ{\k26}る{\k30}け{\k32}れ{\k94}ど
-Comment: 0,0:20:05.94,0:20:16.00,Kanji,,0,0,0,karaoke,{\k20}{\k31}も{\k34}し{\k29}も{\k32}君|き{\k27}#|み{\k34}が{\k29}こ{\k25}の{\k56}船|ふ{\k37}#|ね{\k50}を{\k37}下|お{\k31}り{\k80}て{\k39}違|ち{\k28}#|が{\k23}う{\k37}世|せ{\k35}界|!か{\k29}#|い{\k45}に{\k15}居|い{\k30}た{\k51}と{\k38}し{\k33}て{\k51}も
-Comment: 0,0:20:16.06,0:20:24.43,Kanji,,0,0,0,karaoke,{\k27}{\k36}最|さ{\k27}#|い{\k89}後|!ご{\k30}に{\k88}は{\k35}き{\k57}っ{\k34}と{\k88}笑|わ{\k32}#|ら{\k62}え{\k27}る{\k205}よ
-Comment: 0,0:19:37.90,0:19:47.33,Translation,,0,0,0,karaoke,That day, we believed that the our dreamer selves were not wrong
-Comment: 0,0:19:47.37,0:19:55.92,Translation,,0,0,0,karaoke,And we could go across the rough seas
-Comment: 0,0:19:56.43,0:20:05.63,Translation,,0,0,0,karaoke,You were braver than anyone else, and considerated too, but
-Comment: 0,0:20:05.94,0:20:16.00,Translation,,0,0,0,karaoke,Even if you leave this ship and end up in another world
-Comment: 0,0:20:16.06,0:20:24.43,Translation,,0,0,0,karaoke,I'm sure we'll all be able to smile in the end
 Dialogue: 5,0:00:06.90,0:00:10.51,Main-207+,,0,0,0,,Ça suffit...\NArrêtez un peu vos bêtises !
 Dialogue: 5,0:00:11.69,0:00:14.60,Main-207+,,0,0,0,,Depuis quand\Ndes amis se battent-ils en duel ?
 Dialogue: 5,0:00:14.60,0:00:18.16,Main-207+,,0,0,0,,Laissez passer un peu de temps,\Nhistoire de vous calmer.
@@ -183,18 +151,18 @@ Dialogue: 5,0:09:20.50,0:09:22.04,Main-207+,,0,0,0,,Désolé...\NMange-toi ça !
 Dialogue: 5,0:09:22.60,0:09:24.25,Main-207+,,0,0,0,,{\fad(150,150)}Bille incendiaire !
 Dialogue: 5,0:09:37.01,0:09:38.80,Main-207+,,0,0,0,,La vache, quelle explosion !
 Dialogue: 5,0:09:45.85,0:09:47.69,Main-207+,,0,0,0,,Luffy ! Usopp !
-Dialogue: 5,0:09:58.71,0:10:03.41,Flashbacks-720p,,0,0,0,,Je suis Usopp !\NMes pirates et moi faisons la loi ici !
-Dialogue: 5,0:10:03.41,0:10:06.60,Flashbacks-720p,,0,0,0,,Les habitants de cette île\Nme vouent culte et admiration !
-Dialogue: 5,0:10:06.60,0:10:09.79,Flashbacks-720p,,0,0,0,,Ils m'appellent capitaine Usopp !
-Dialogue: 5,0:10:18.76,0:10:20.34,Flashbacks-720p,,0,0,0,,T'es vraiment rigolo, toi !
-Dialogue: 5,0:10:20.88,0:10:23.34,Flashbacks-720p,,0,0,0,,Dis donc, toi !\NArrête de te moquer de moi !
-Dialogue: 5,0:10:23.34,0:10:24.56,Flashbacks-720p,,0,0,0,,Pourquoi ?
-Dialogue: 5,0:10:24.56,0:10:27.27,Flashbacks-720p,,0,0,0,,Tu fais partie de l'équipage à présent.
-Dialogue: 5,0:10:31.11,0:10:33.74,Flashbacks-720p,,0,0,0,,Une île à l'horizon !
-Dialogue: 5,0:10:33.74,0:10:37.07,Flashbacks-720p,,0,0,0,,Ouah ! Génial ! \NC'est quoi, cette île ?
-Dialogue: 5,0:10:37.07,0:10:39.41,Flashbacks-720p,,0,0,0,,OK, on y va !
-Dialogue: 5,0:10:39.41,0:10:42.30,Flashbacks-720p,,0,0,0,,En avant toute, Merry !
-Dialogue: 5,0:10:42.50,0:10:44.95,Flashbacks-720p,,0,0,0,,Ouais ! En avant toute !
+Dialogue: 5,0:09:58.71,0:10:03.41,Flashbacks-207+,,0,0,0,,Je suis Usopp !\NMes pirates et moi faisons la loi ici !
+Dialogue: 5,0:10:03.41,0:10:06.60,Flashbacks-207+,,0,0,0,,Les habitants de cette île\Nme vouent culte et admiration !
+Dialogue: 5,0:10:06.60,0:10:09.79,Flashbacks-207+,,0,0,0,,Ils m'appellent capitaine Usopp !
+Dialogue: 5,0:10:18.76,0:10:20.34,Flashbacks-207+,,0,0,0,,T'es vraiment rigolo, toi !
+Dialogue: 5,0:10:20.88,0:10:23.34,Flashbacks-207+,,0,0,0,,Dis donc, toi !\NArrête de te moquer de moi !
+Dialogue: 5,0:10:23.34,0:10:24.56,Flashbacks-207+,,0,0,0,,Pourquoi ?
+Dialogue: 5,0:10:24.56,0:10:27.27,Flashbacks-207+,,0,0,0,,Tu fais partie de l'équipage à présent.
+Dialogue: 5,0:10:31.11,0:10:33.74,Flashbacks-207+,,0,0,0,,Une île à l'horizon !
+Dialogue: 5,0:10:33.74,0:10:37.07,Flashbacks-207+,,0,0,0,,Ouah ! Génial ! \NC'est quoi, cette île ?
+Dialogue: 5,0:10:37.07,0:10:39.41,Flashbacks-207+,,0,0,0,,OK, on y va !
+Dialogue: 5,0:10:39.41,0:10:42.30,Flashbacks-207+,,0,0,0,,En avant toute, Merry !
+Dialogue: 5,0:10:42.50,0:10:44.95,Flashbacks-207+,,0,0,0,,Ouais ! En avant toute !
 Dialogue: 5,0:11:15.27,0:11:17.03,Main-207+,,0,0,0,,Je n'aime vraiment pas ça.
 Dialogue: 5,0:11:17.03,0:11:20.13,Main-207+,,0,0,0,,Luffy ! Usopp !
 Dialogue: 5,0:11:37.10,0:11:41.76,Main-207+,,0,0,0,,Allons, je sais bien\Nqu'il en faut plus pour te tuer.
@@ -216,13 +184,13 @@ Dialogue: 5,0:12:58.50,0:13:02.09,Main-207+,,0,0,0,,Et il a absorbé\Nla puissan
 Dialogue: 5,0:13:03.76,0:13:05.09,Main-207+,,0,0,0,,{\fad(150,150)}Impact !
 Dialogue: 5,0:13:10.68,0:13:12.35,Main-207+,,0,0,0,,Un Impact Dial !
 Dialogue: 5,0:13:20.07,0:13:22.99,Main-207+,,0,0,0,,Alors, ça t'a plu ? Bordel !
-Dialogue: 5,0:13:51.79,0:13:58.06,Flashbacks-720p,,0,0,0,,Je suis Usopp !\NMes pirates et moi faisons la loi ici !
-Dialogue: 5,0:14:03.29,0:14:05.65,Flashbacks-720p,,0,0,0,,Au nouveau bateau et à Usopp !
-Dialogue: 5,0:14:05.65,0:14:08.66,Flashbacks-720p,,0,0,0,,Santé !
-Dialogue: 5,0:14:11.01,0:14:12.10,Flashbacks-720p,,0,0,0,,Ça va, comme ça ?
-Dialogue: 5,0:14:12.10,0:14:14.33,Flashbacks-720p,,0,0,0,,J'adore !\NFais aussi la grand-voile !
-Dialogue: 5,0:14:14.74,0:14:16.21,Flashbacks-720p,,0,0,0,,C'est bon ! On est parés !
-Dialogue: 5,0:14:16.21,0:14:20.54,Flashbacks-720p,,0,0,0,,Maintenant, le Vogue Merry\Nest prêt à partir à l'aventure !
+Dialogue: 5,0:13:51.79,0:13:58.06,Flashbacks-207+,,0,0,0,,Je suis Usopp !\NMes pirates et moi faisons la loi ici !
+Dialogue: 5,0:14:03.29,0:14:05.65,Flashbacks-207+,,0,0,0,,Au nouveau bateau et à Usopp !
+Dialogue: 5,0:14:05.65,0:14:08.66,Flashbacks-207+,,0,0,0,,Santé !
+Dialogue: 5,0:14:11.01,0:14:12.10,Flashbacks-207+,,0,0,0,,Ça va, comme ça ?
+Dialogue: 5,0:14:12.10,0:14:14.33,Flashbacks-207+,,0,0,0,,J'adore !\NFais aussi la grand-voile !
+Dialogue: 5,0:14:14.74,0:14:16.21,Flashbacks-207+,,0,0,0,,C'est bon ! On est parés !
+Dialogue: 5,0:14:16.21,0:14:20.54,Flashbacks-207+,,0,0,0,,Maintenant, le Vogue Merry\Nest prêt à partir à l'aventure !
 Dialogue: 5,0:14:21.70,0:14:25.35,Main-207+,,0,0,0,,{\fad(150,150)}Gum Gum...
 Dialogue: 5,0:14:25.55,0:14:27.73,Main-207+,,0,0,0,,{\fad(150,150)}Munition !
 Dialogue: 5,0:14:37.70,0:14:39.77,Main-207+,,0,0,0,,Usopp !
@@ -232,16 +200,16 @@ Dialogue: 5,0:15:27.40,0:15:32.21,Main-207+,,0,0,0,,Comme si tu avais\Nla moindr
 Dialogue: 5,0:15:58.86,0:16:01.21,Main-207+,,0,0,0,,Ça suffit... Arrêtez...
 Dialogue: 5,0:16:10.81,0:16:13.78,Main-207+,,0,0,0,,Fais ce que tu veux du Vogue Merry.
 Dialogue: 5,0:16:17.30,0:16:22.93,Main-207+,,0,0,0,,On va se prendre un nouveau navire.\NEt continuer notre aventure à son bord !
-Dialogue: 5,0:16:24.21,0:16:26.20,Flashbacks-720p,,0,0,0,,Pousse-toi de là, Luffy !
-Dialogue: 5,0:16:26.20,0:16:29.17,Flashbacks-720p,,0,0,0,,Tu rêves !\NC'est ma place réservée !
-Dialogue: 5,0:16:29.17,0:16:31.10,Flashbacks-720p,,0,0,0,,C'est quoi, ça ?
-Dialogue: 5,0:16:31.10,0:16:32.67,Flashbacks-720p,,0,0,0,,Qu'est-ce que tu fabriques, Usopp ?
-Dialogue: 5,0:16:32.67,0:16:34.31,Flashbacks-720p,,0,0,0,,Holà, doucement !
-Dialogue: 5,0:16:34.31,0:16:37.09,Flashbacks-720p,,0,0,0,,On se déchausse\Npour entrer dans mon atelier !
-Dialogue: 5,0:16:46.80,0:16:50.36,Flashbacks-720p,,0,0,0,,Un de ces jours,\Nje me rendrai à Erbaf !
-Dialogue: 5,0:16:50.36,0:16:52.79,Flashbacks-720p,,0,0,0,,Oui, j'irai au village des guerriers !
-Dialogue: 5,0:16:52.79,0:16:56.99,Flashbacks-720p,,0,0,0,,Ouais, Usopp !\NOn ira tous ensemble !
-Dialogue: 5,0:16:57.42,0:17:02.47,Flashbacks-720p,,0,0,0,,Entrez dans la danse !\NCe soir, on fête notre ruée vers l'or !
+Dialogue: 5,0:16:24.21,0:16:26.20,Flashbacks-207+,,0,0,0,,Pousse-toi de là, Luffy !
+Dialogue: 5,0:16:26.20,0:16:29.17,Flashbacks-207+,,0,0,0,,Tu rêves !\NC'est ma place réservée !
+Dialogue: 5,0:16:29.17,0:16:31.10,Flashbacks-207+,,0,0,0,,C'est quoi, ça ?
+Dialogue: 5,0:16:31.10,0:16:32.67,Flashbacks-207+,,0,0,0,,Qu'est-ce que tu fabriques, Usopp ?
+Dialogue: 5,0:16:32.67,0:16:34.31,Flashbacks-207+,,0,0,0,,Holà, doucement !
+Dialogue: 5,0:16:34.31,0:16:37.09,Flashbacks-207+,,0,0,0,,On se déchausse\Npour entrer dans mon atelier !
+Dialogue: 5,0:16:46.80,0:16:50.36,Flashbacks-207+,,0,0,0,,Un de ces jours,\Nje me rendrai à Erbaf !
+Dialogue: 5,0:16:50.36,0:16:52.79,Flashbacks-207+,,0,0,0,,Oui, j'irai au village des guerriers !
+Dialogue: 5,0:16:52.79,0:16:56.99,Flashbacks-207+,,0,0,0,,Ouais, Usopp !\NOn ira tous ensemble !
+Dialogue: 5,0:16:57.42,0:17:02.47,Flashbacks-207+,,0,0,0,,Entrez dans la danse !\NCe soir, on fête notre ruée vers l'or !
 Dialogue: 5,0:17:12.41,0:17:14.30,Main-207+,,0,0,0,,Adieu, Usopp.
 Dialogue: 5,0:17:15.16,0:17:18.04,Main-207+,,0,0,0,,Je me suis bien amusé à tes côtés.
 Dialogue: 5,0:17:22.85,0:17:24.77,Main-207+,,0,0,0,,Reste ici, Chopper !
@@ -262,22 +230,6 @@ Dialogue: 5,0:18:26.01,0:18:31.16,Main-207+,,0,0,0,,Si tu flanches,\Nà qui pour
 Dialogue: 5,0:18:43.19,0:18:45.02,Main-207+,,0,0,0,,Abandonnons le navire.
 Dialogue: 5,0:18:55.57,0:18:56.90,Main-207+,,0,0,0,,Aujourd'hui...
 Dialogue: 5,0:18:57.90,0:19:01.61,Main-207+,,0,0,0,,C'était notre dernier jour... à son bord.
-Dialogue: 0,0:04:20.68,0:04:26.26,Credits,,0,0,0,,{\pos(721.5,634.5)\blur0.6\fscx105\fscy110\c&H000000&}Video Editing\N\h\h\h{\fscx135\fscy140}Galaxy 9000
-Dialogue: 1,0:04:20.68,0:04:26.26,Credits,,0,0,0,,{\pos(721.5,634.5)\blur0.6\fscx105\fscy110\bord0\4a&HFF&}Video Editing\N\h\h\h{\fscx135\fscy140}Galaxy 9000
-Dialogue: 0,0:04:26.97,0:04:31.44,Credits,,0,0,0,,{\pos(787.5,672)\blur0.6\fscx105\fscy110\c&H000000&}Graphics\N\h\h\h\h{\fscx135\fscy140}Datenshi
-Dialogue: 1,0:04:26.97,0:04:31.44,Credits,,0,0,0,,{\pos(787.5,672)\blur0.6\fscx105\fscy110\bord0\4a&HFF&}Graphics\N\h\h\h\h{\fscx135\fscy140}Datenshi
-Dialogue: 0,0:04:31.56,0:04:35.44,Credits,,0,0,0,,{\pos(783,616.5)\blur0.6\fscx110\fscy115\c&H000000&}Karaoke\N\h\h\h{\fscx140\fscy145}KaitouYahiko
-Dialogue: 1,0:04:31.56,0:04:35.44,Credits,,0,0,0,,{\pos(783,616.5)\blur0.6\fscx110\fscy115\bord0\4a&HFF&}Karaoke\N\h\h\h{\fscx140\fscy145}KaitouYahiko
-Dialogue: 0,0:04:36.94,0:04:41.57,Credits,,0,0,0,,{\pos(786,649.5)\blur0.6\fscx110\fscy115\c&H000000&}Quality Control\N\h\h\h{\fscx140\fscy145}TrixJoestar\NZorohack
-Dialogue: 1,0:04:36.94,0:04:41.57,Credits,,0,0,0,,{\pos(786,649.5)\blur0.6\fscx110\fscy115\bord0\4a&HFF&}Quality Control\N\h\h\h{\fscx140\fscy145}TrixJoestar\NZorohack
-Dialogue: 0,0:04:49.50,0:04:56.88,Credits,,0,0,0,,{\pos(496.5,168)\blur0.6\fscx130\fscy135\c&H000000&}Soundtracking                      Halee
-Dialogue: 1,0:04:49.50,0:04:56.88,Credits,,0,0,0,,{\pos(496.5,168)\blur0.6\fscx130\fscy135\bord0\4a&HFF&}Soundtracking                      Halee
-Dialogue: 0,0:04:56.88,0:05:00.88,Credits,,0,0,0,,{\pos(787.5,628.5)\blur0.6\fscx100\fscy110\c&H000000&}Timing\N\h\h\h{\fscx135\fscy140}PhosCity\NZorohack
-Dialogue: 1,0:04:56.88,0:05:00.88,Credits,,0,0,0,,{\pos(787.5,628.5)\blur0.6\fscx100\fscy110\bord0\4a&HFF&}Timing\N\h\h\h{\fscx135\fscy140}PhosCity\NZorohack
-Dialogue: 0,0:05:29.54,0:05:33.25,Credits,,0,0,0,,{\pos(787.5,699)\blur0.6\fscx105\fscy110\c&H000000&}Subtitle Editing\N\h\h\h\h{\fscx135\fscy140}Zenef
-Dialogue: 1,0:05:29.54,0:05:33.25,Credits,,0,0,0,,{\pos(787.5,699)\blur0.6\fscx105\fscy110\bord0\4a&HFF&}Subtitle Editing\N\h\h\h\h{\fscx135\fscy140}Zenef
-Dialogue: 0,0:05:33.37,0:05:37.54,Credits,,0,0,0,,{\pos(781.5,609)\blur0.6\fscx105\fscy110\c&H000000&}Translation\N\h\h\h\h{\fscx135\fscy140}TrixJoestar\NADN
-Dialogue: 1,0:05:33.37,0:05:37.54,Credits,,0,0,0,,{\pos(781.5,609)\blur0.6\fscx105\fscy110\bord0\4a&HFF&}Translation\N\h\h\h\h{\fscx135\fscy140}TrixJoestar\NADN
 Dialogue: 0,0:03:58.42,0:04:02.47,Lyrics-OP5,,0,0,0,,{\fad(75,75)}Tout va bien ! Allez, continuons d'avancer
 Dialogue: 0,0:04:02.76,0:04:06.01,Lyrics-OP5,,0,0,0,,un rayon d'espoir brille toujours dans nos cœurs.
 Dialogue: 0,0:04:06.18,0:04:09.43,Lyrics-OP5,,0,0,0,,Main dans la main, la force se transmettra !
