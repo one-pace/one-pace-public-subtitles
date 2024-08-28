@@ -41,8 +41,19 @@ subs {
   readProperties("sub.properties", "chapter.properties", "title.properties", "publicrepo.properties", "publish.properties")
   episodes(getList("episodes"))
 
+  val ensubs = if (arg("ex") != null) "extended_ensubs" else "ensubs"
+  val frsubs = if (arg("ex") != null) "extended_frsubs" else "frsubs"
+  val spsubs = if (arg("ex") != null) "extended_spsubs" else "spsubs"
+  val arsubs = if (arg("ex") != null) "extended_arsubs" else "arsubs"
+  val desubs = if (arg("ex") != null) "extended_desubs" else "desubs"
+  val itsubs = if (arg("ex") != null) "extended_itsubs" else "itsubs"
+  val ptsubs = if (arg("ex") != null) "extended_ptsubs" else "ptsubs"
+  val video = if (arg("ex") != null) "extended_video" else "video"
+  val muxfile = if (arg("ex") != null) "extended_muxfile" else "muxfile"
+  val torrentfile = if (arg("ex") != null) "extended_torrentfile" else "torrentfile"
+
   val increaseLayer by task<ASS> {
-    from(get("ensubs"))
+    from(get(ensubs))
 
     ass {
       events.lines.forEach {
@@ -56,7 +67,10 @@ subs {
   merge {
     from(increaseLayer.item())
 
-    fromIfPresent(getList("typesetting"), ignoreMissingFiles = true)
+    fromIfPresent(
+      if (arg("ex") != null) getList("extended_typesetting") else getList("typesetting")
+      , ignoreMissingFiles = true
+    )
 
     if (propertyExists("OP") && !propertyExists("noOP")) {
       from(get("OP")) {
@@ -85,7 +99,7 @@ subs {
 
   // Removes all the dialoge and karaoke lines from English subs
   val dubWithoutKaraoke by task<ASS> {
-    from(get("ensubs"))
+    from(get(ensubs))
     ass {
       events.lines.removeIf {
         it.isDialogue ()
@@ -102,7 +116,7 @@ subs {
 
   // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (German subs)
   val increaseLayer_de by task<ASS> {
-    from(get("desubs"))
+    from(get(desubs))
 
     ass {
       events.lines.forEach {
@@ -115,7 +129,7 @@ subs {
 
   // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Portuguese subs)
   val increaseLayer_pt by task<ASS> {
-    from(get("ptsubs"))
+    from(get(ptsubs))
 
     ass {
       events.lines.forEach {
@@ -128,7 +142,7 @@ subs {
 
   // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Italian subs)
   val increaseLayer_it by task<ASS> {
-    from(get("itsubs"))
+    from(get(itsubs))
 
     ass {
       events.lines.forEach {
@@ -199,13 +213,13 @@ subs {
   // Helper task to merge all language subs needing merging and output to Final Subs folder
   val mergeAll by task<DefaultSubTask> {
     dependsOn(merge.item())
-    if (file(get("desubs")).exists()) {
+    if (file(get(desubs)).exists()) {
       dependsOn(merge_de.item())
     }
-    if (file(get("ptsubs")).exists()) {
+    if (file(get(ptsubs)).exists()) {
       dependsOn(merge_pt.item())
     }
-    if (file(get("itsubs")).exists()) {
+    if (file(get(itsubs)).exists()) {
       dependsOn(merge_it.item())
     }
   }
@@ -217,7 +231,7 @@ subs {
 
     title(escapeTitle(get("title").get()))
 
-    from(get("video")) {
+    from(get(video)) {
       video {
         lang("jpn")
         default(true)
@@ -263,7 +277,7 @@ subs {
     }
 
     // Signs and Songs subtitle for English Dub if English dub exists
-    val mkvInfo = getMkvInfo(file(get("video")))
+    val mkvInfo = getMkvInfo(file(get(video)))
     if (mkvInfo.audio_tracks.size > 1) {
       val signsSongsTask =
         if (propertyExists("removekaraoke"))
@@ -282,8 +296,8 @@ subs {
     }
 
     // French Subtitles
-    if (file(get("frsubs")).exists()) {
-      from(get("frsubs")) {
+    if (file(get(frsubs)).exists()) {
+      from(get(frsubs)) {
         tracks {
           name("French")
           lang("fr")
@@ -308,7 +322,7 @@ subs {
     //}
 
     // German Subtitles
-    if (file(get("desubs")).exists()) {
+    if (file(get(desubs)).exists()) {
       from(merge_de.item()) {
         tracks {
           name("German")
@@ -319,7 +333,7 @@ subs {
     }
 
     // Italian Subtitles
-    if (file(get("itsubs")).exists()) {
+    if (file(get(itsubs)).exists()) {
       from(merge_it.item()) {
         tracks {
           name("Italian")
@@ -330,7 +344,7 @@ subs {
     }
 
     // Portuguese Subtitles
-    if (file(get("ptsubs")).exists()) {
+    if (file(get(ptsubs)).exists()) {
       from(merge_pt.item()) {
         tracks {
           name("Portuguese")
@@ -341,7 +355,7 @@ subs {
     }
 
     // Spanish Subtitles
-    if (file(get("spsubs")).exists()) {
+    if (file(get(spsubs)).exists()) {
       from(get("spsubs")) {
         tracks {
           name("Spanish")
@@ -388,7 +402,7 @@ subs {
       }
     }
 
-    out(get("muxfile"))
+    out(get(muxfile))
   }
 
   // Mux whole arc using this task. Example: `./gradlew muxBatch.wano` where 'wano' is arckey for the arc 'Wano'
@@ -406,6 +420,6 @@ subs {
   torrent {
       trackers(getList("trackers"))
       from(mux.item())
-      out(get("torrentfile"))
+      out(get(torrentfile))
   }
 }
