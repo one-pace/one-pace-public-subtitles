@@ -51,6 +51,7 @@ subs {
   val video = if (arg("ex") != null) "extended_video" else "video"
   val muxfile = if (arg("ex") != null) "extended_muxfile" else "muxfile"
   val torrentfile = if (arg("ex") != null) "extended_torrentfile" else "torrentfile"
+  val chapter = if (arg("ex") != null) "extended_chapters" else "chapters"
 
   val increaseLayer by task<ASS> {
     from(get(ensubs))
@@ -111,7 +112,7 @@ subs {
   }
 
   chapters{
-    from(get("chapters"))
+    from(get(chapter))
   }
 
   // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (German subs)
