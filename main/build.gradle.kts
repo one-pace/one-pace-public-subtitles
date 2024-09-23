@@ -377,6 +377,7 @@ subs {
           name("Spanish Signs and Songs")
           lang("es")
           default(false)
+          forced(true)
         }
       }
 
