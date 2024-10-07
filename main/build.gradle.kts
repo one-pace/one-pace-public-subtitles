@@ -41,17 +41,25 @@ subs {
   readProperties("sub.properties", "chapter.properties", "title.properties", "publicrepo.properties", "publish.properties")
   episodes(getList("episodes"))
 
-  val ensubs = if (arg("ex") != null) "extended_ensubs" else "ensubs"
-  val frsubs = if (arg("ex") != null) "extended_frsubs" else "frsubs"
-  val spsubs = if (arg("ex") != null) "extended_spsubs" else "spsubs"
-  val arsubs = if (arg("ex") != null) "extended_arsubs" else "arsubs"
-  val desubs = if (arg("ex") != null) "extended_desubs" else "desubs"
-  val itsubs = if (arg("ex") != null) "extended_itsubs" else "itsubs"
-  val ptsubs = if (arg("ex") != null) "extended_ptsubs" else "ptsubs"
-  val video = if (arg("ex") != null) "extended_video" else "video"
-  val muxfile = if (arg("ex") != null) "extended_muxfile" else "muxfile"
-  val torrentfile = if (arg("ex") != null) "extended_torrentfile" else "torrentfile"
-  val chapter = if (arg("ex") != null) "extended_chapters" else "chapters"
+  fun getPrefix(): String {
+    return when {
+      arg("ex") != null -> "extended_"
+      arg("alt") != null -> "alternate_"
+      else -> ""
+    }
+  }
+
+  val ensubs = getPrefix() + "ensubs"
+  val frsubs = getPrefix() + "frsubs"
+  val spsubs = getPrefix() + "spsubs"
+  val arsubs = getPrefix() + "arsubs"
+  val desubs = getPrefix() + "desubs"
+  val itsubs = getPrefix() + "itsubs"
+  val ptsubs = getPrefix() + "ptsubs"
+  val video = getPrefix() + "video"
+  val muxfile = getPrefix() + "muxfile"
+  val torrentfile = getPrefix() + "torrentfile"
+  val chapter = getPrefix() + "chapters"
 
   val increaseLayer by task<ASS> {
     from(get(ensubs))
