@@ -50,6 +50,7 @@ subs {
   }
 
   val ensubs = getPrefix() + "ensubs"
+  val en_cc_subs = getPrefix() + "en_cc_subs"
   val frsubs = getPrefix() + "frsubs"
   val spsubs = getPrefix() + "spsubs"
   val arsubs = getPrefix() + "arsubs"
@@ -121,6 +122,37 @@ subs {
 
   chapters{
     from(get(chapter))
+  }
+
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (CC subs)
+  val increaseLayer_en_cc by task<ASS> {
+    from(get(en_cc_subs))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+  // Merge subs with karaoke (CC subs)
+  val merge_en_cc by task<Merge> {
+    from(increaseLayer_en_cc.item())
+
+    if (propertyExists("OP_en_cc")) {
+      from(get("OP_en_cc")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get("mergefile_en_cc"))
   }
 
   // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (German subs)
@@ -301,6 +333,17 @@ subs {
             default(false)
             forced(true)
           }
+      }
+    }
+
+    // CC Subtitles
+    if (file(get(en_cc_subs)).exists()) {
+      from(merge_en_cc.item()) {
+        tracks {
+          name("CC")
+          lang("eng")
+          default(false)
+        }
       }
     }
 
