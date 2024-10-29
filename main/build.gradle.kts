@@ -334,17 +334,18 @@ subs {
             forced(true)
           }
       }
-    }
 
-    // CC Subtitles
-    if (file(get(en_cc_subs)).exists()) {
-      from(merge_en_cc.item()) {
-        tracks {
-          name("CC")
-          lang("eng")
-          default(false)
+      // CC Subtitles
+      if (file(get(en_cc_subs)).exists()) {
+        from(merge_en_cc.item()) {
+          tracks {
+            name("CC")
+            lang("eng")
+            default(false)
+          }
         }
       }
+
     }
 
     // French Subtitles
