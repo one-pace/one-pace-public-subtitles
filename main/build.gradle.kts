@@ -62,6 +62,12 @@ subs {
   val torrentfile = getPrefix() + "torrentfile"
   val chapter = getPrefix() + "chapters"
 
+  val mergefile = getPrefix() + "mergefile"
+  val mergefile_en_cc = getPrefix() + "mergefile_en_cc"
+  val mergefile_de = getPrefix() + "mergefile_de"
+  val mergefile_pt = getPrefix() + "mergefile_pt"
+  val mergefile_it = getPrefix() + "mergefile_it"
+
   val increaseLayer by task<ASS> {
     from(get(ensubs))
 
@@ -94,7 +100,7 @@ subs {
     includeProjectGarbage(false)
     removeComments(true)
 
-    out(get("mergefile"))
+    out(get(mergefile))
   }
 
   // Removes all the dialoge lines from English subs
@@ -152,7 +158,7 @@ subs {
     includeProjectGarbage(false)
     removeComments(true)
 
-    out(get("mergefile_en_cc"))
+    out(get(mergefile_en_cc))
   }
 
   // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (German subs)
@@ -210,7 +216,7 @@ subs {
     includeProjectGarbage(false)
     removeComments(true)
 
-    out(get("mergefile_de"))
+    out(get(mergefile_de))
   }
 
   // Merge subs with karaoke (Portuguese subs)
@@ -229,7 +235,7 @@ subs {
     includeProjectGarbage(false)
     removeComments(true)
 
-    out(get("mergefile_pt"))
+    out(get(mergefile_pt))
   }
 
   // Merge subs with karaoke (Italian subs)
@@ -248,7 +254,7 @@ subs {
     includeProjectGarbage(false)
     removeComments(true)
 
-    out(get("mergefile_it"))
+    out(get(mergefile_it))
   }
 
   // Helper task to merge all language subs needing merging and output to Final Subs folder
