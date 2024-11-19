@@ -95,7 +95,7 @@ subs {
       }
     }
 
-    if (propertyExists("ED")) {
+    if (propertyExists("ED") && !propertyExists("noED")) {
       from(get("ED")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("ED", EventLineAccessor.ACTOR)
