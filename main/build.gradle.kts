@@ -95,6 +95,14 @@ subs {
       }
     }
 
+    if (propertyExists("ED")) {
+      from(get("ED")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
+
+
     onStyleConflict(ErrorMode.FAIL)
     includeExtraData(false)
     includeProjectGarbage(false)
@@ -150,6 +158,12 @@ subs {
       from(get("OP_en_cc")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_en_cc")) {
+      from(get("ED_en_cc")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
       }
     }
 
@@ -210,6 +224,12 @@ subs {
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
+    if (propertyExists("ED_de")) {
+      from(get("ED_de")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
 
     onStyleConflict(ErrorMode.FAIL)
     includeExtraData(false)
@@ -229,6 +249,12 @@ subs {
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
+    if (propertyExists("ED_pt")) {
+      from(get("ED_pt")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
 
     onStyleConflict(ErrorMode.FAIL)
     includeExtraData(false)
@@ -246,6 +272,12 @@ subs {
       from(get("OP_it")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_it")) {
+      from(get("ED_it")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
       }
     }
 
