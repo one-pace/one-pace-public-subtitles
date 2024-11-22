@@ -494,6 +494,12 @@ subs {
       }
     }
 
+    if (propertyExists("ED")) {
+      attach(get("edfonts")) {
+        includeExtensions("ttf", "otf")
+      }
+    }
+
     out(get(muxfile))
   }
 
