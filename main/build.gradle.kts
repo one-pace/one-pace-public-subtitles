@@ -88,6 +88,10 @@ subs {
       , ignoreMissingFiles = true
     )
 
+    // noOP and noED are properties set in the public subtitles repository to
+    // not merge new songs with old subtitle files or vice-versa.
+    // They should never be set in the actual internal subtitles repository.
+
     if (propertyExists("OP") && !propertyExists("noOP")) {
       from(get("OP")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
@@ -154,13 +158,13 @@ subs {
   val merge_en_cc by task<Merge> {
     from(increaseLayer_en_cc.item())
 
-    if (propertyExists("OP_en_cc")) {
+    if (propertyExists("OP_en_cc") && !propertyExists("noOP")) {
       from(get("OP_en_cc")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
-    if (propertyExists("ED_en_cc")) {
+    if (propertyExists("ED_en_cc") && !propertyExists("noED")) {
       from(get("ED_en_cc")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("ED", EventLineAccessor.ACTOR)
@@ -218,13 +222,13 @@ subs {
   val merge_de by task<Merge> {
     from(increaseLayer_de.item())
 
-    if (propertyExists("OP_de")) {
+    if (propertyExists("OP_de") && !propertyExists("noOP")) {
       from(get("OP_de")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
-    if (propertyExists("ED_de")) {
+    if (propertyExists("ED_de") && !propertyExists("noED")) {
       from(get("ED_de")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("ED", EventLineAccessor.ACTOR)
@@ -243,13 +247,13 @@ subs {
   val merge_pt by task<Merge> {
     from(increaseLayer_pt.item())
 
-    if (propertyExists("OP_pt")) {
+    if (propertyExists("OP_pt") && !propertyExists("noOP")) {
       from(get("OP_pt")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
-    if (propertyExists("ED_pt")) {
+    if (propertyExists("ED_pt") && !propertyExists("noED")) {
       from(get("ED_pt")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("ED", EventLineAccessor.ACTOR)
@@ -268,13 +272,13 @@ subs {
   val merge_it by task<Merge> {
     from(increaseLayer_it.item())
 
-    if (propertyExists("OP_it")) {
+    if (propertyExists("OP_it") && !propertyExists("noOP")) {
       from(get("OP_it")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("OP", EventLineAccessor.ACTOR)
       }
     }
-    if (propertyExists("ED_it")) {
+    if (propertyExists("ED_it") && !propertyExists("noED")) {
       from(get("ED_it")) {
         syncSourceLine("sync", EventLineAccessor.ACTOR)
         syncTargetLine("ED", EventLineAccessor.ACTOR)
