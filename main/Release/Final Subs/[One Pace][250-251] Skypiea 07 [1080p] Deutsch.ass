@@ -3,22 +3,23 @@ Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-YCbCr Matrix: TV.709
-PlayResX: 1440
 LayoutResX: 1440
 LayoutResY: 1080
+YCbCr Matrix: TV.709
+PlayResX: 1440
 PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Captions-207-,Impress BT Pace,99,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
-Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00003FFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
-Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
-Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
-Style: Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
-Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
-Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
 Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,50,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,3,0,7,16,16,16,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 Style: Karaoke,Duality,68,&H00B95D1D,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2.25,0,1,4.5,0,8,23,23,23,1
 Style: Translation,Duality,68,&H00B95D1D,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2.25,0,1,4.5,0,2,23,23,23,1
 Style: Roger Monologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
@@ -26,450 +27,345 @@ Style: Roger Monologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H780
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Der benutzte Mediaplayer unterstützt das in dieser Episode verwendete Untertitelformat nicht.\NDie Untertitel werden wahrscheinlich nicht korrekt angezeigt werden.\NBitte verwende einen der empfohlenen Videoplayer, vorzugsweise mpv:\Nhttps://mpv.io
-Dialogue: 0,0:02:32.51,0:02:42.50,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Der benutzte Mediaplayer unterstützt das in dieser Episode verwendete Untertitelformat nicht.\NDie Untertitel werden wahrscheinlich nicht korrekt angezeigt werden.\NBitte verwende einen der empfohlenen Videoplayer, vorzugsweise mpv:\Nhttps://mpv.io
-Dialogue: 50,0:01:54.09,0:01:55.55,Main-207-,,0,0,0,,Dort lebt ein Gott?!
-Dialogue: 50,0:01:56.85,0:01:59.89,Main-207-,,0,0,0,,An einem Ort, den wir nicht betreten dürfen?!
-Dialogue: 50,0:02:03.16,0:02:06.84,Main-207-,,0,0,0,,Korrekt. Da Skypiea Gottes Land ist,
-Dialogue: 50,0:02:06.84,0:02:11.28,Main-207-,,0,0,0,,wird es vom allmächtigen Gott Enel regiert.
-Dialogue: 50,0:02:11.28,0:02:13.45,Main-207-,,0,0,0,,Der allmächtige Gott?
-Dialogue: 50,0:02:15.20,0:02:18.75,Main-207-,,0,0,0,,Gott Enel weiß alles über diese Welt.
-Dialogue: 50,0:02:18.75,0:02:20.45,Main-207-,,0,0,0,,Alles?!
-Dialogue: 50,0:02:20.45,0:02:23.92,Main-207-,,0,0,0,,Er wacht auch über uns. Unaufhörlich.
-Dialogue: 50,0:02:23.92,0:02:25.10,Main-207-,,0,0,0,,Unaufhörlich?!
-Dialogue: 50,0:02:25.10,0:02:26.33,Main-207-,,0,0,0,,Sogar jetzt?
-Dialogue: 50,0:02:26.33,0:02:27.29,Main-207-,,0,0,0,,Natürlich.
-Dialogue: 50,0:02:30.46,0:02:32.97,Main-207-,,0,0,0,,Der heilige Boden, Upper Yard,
-Dialogue: 50,0:02:32.97,0:02:34.73,Main-207-,,0,0,0,,ist uns verwehrt.
-Dialogue: 50,0:02:36.89,0:02:39.39,Main-207-,,0,0,0,,Also gibt’s auch auf der Himmelsinsel Erdboden.
-Dialogue: 50,0:02:44.44,0:02:48.36,Main-207-,,0,0,0,,Verstehe. Ein Ort, auf den wir keinen Fuß setzen dürfen?
-Dialogue: 50,0:02:48.74,0:02:50.80,Main-207-,,0,0,0,,Ah! Hey, Luffy!
-Dialogue: 50,0:02:50.80,0:02:52.56,Main-207-,,0,0,0,,Was heckst du gerade aus?!
-Dialogue: 50,0:02:52.56,0:02:54.40,Main-207-,,0,0,0,,Spitz deine Lauscher!
-Dialogue: 50,0:02:54.40,0:02:56.42,Main-207-,,0,0,0,,Keinen Fuß darauf setzen bedeutet,
-Dialogue: 50,0:02:56.42,0:02:59.83,Main-207-,,0,0,0,,dass du auf gar keinen Fall dorthin gehen darfst, Luffy!
-Dialogue: 50,0:02:59.83,0:03:02.10,Main-207-,,0,0,0,,Ach so...
-Dialogue: 50,0:03:02.76,0:03:05.79,Main-207-,,0,0,0,,Dann gibt’s einen Ort, zu dem wir nicht dürfen.
-Dialogue: 50,0:03:07.88,0:03:12.17,Main-207-,,0,0,0,,Verstehe. Ein Ort, den wir auf gar keinen Fall betreten dürfen.
-Dialogue: 50,0:03:13.21,0:03:15.34,Thoughts-207-,,0,0,0,,– Luffy plant da definitiv hinzugehen!\N– Luffy plant da definitiv hinzugehen!
-Dialogue: 50,0:03:17.92,0:03:20.18,Main-207-,,0,0,0,,Hm? Aber wenn er doch Gott ist,
-Dialogue: 50,0:03:20.18,0:03:23.38,Main-207-,,0,0,0,,{\q2}würde er einem nicht vergeben, auch wenn\Nman einen verbotenen Ort betritt?
-Dialogue: 50,0:03:23.38,0:03:24.48,Main-207-,,0,0,0,,Er ist doch nett, oder?
-Dialogue: 50,0:03:24.48,0:03:25.46,Main-207-,,0,0,0,,Nun...
-Dialogue: 50,0:03:25.46,0:03:29.18,Main-207-,,0,0,0,,Aber Gottes Regeln zu brechen ist Blasphemie...
-Dialogue: 50,0:03:30.34,0:03:33.34,Main-207-,,0,0,0,,Ach so. Dann ist’s ja eh egal.
-Dialogue: 50,0:03:34.81,0:03:37.61,Thoughts-207-,,0,0,0,,Weil er trotzdem vorhat hinzugehen, egal ob ihm verziehen wird!
-Dialogue: 50,0:03:37.61,0:03:39.83,Secondary-207-,,0,0,0,,{\an8}Namischaaatz!
-Dialogue: 50,0:03:39.83,0:03:44.04,Secondary-207-,,0,0,0,,{\an8}Bleib, wo du bist! Geh nirgendwohin!
-Dialogue: 50,0:03:44.04,0:03:46.91,Secondary-207-,,0,0,0,,{\an8}Namischaaatz!
-Dialogue: 50,0:03:38.74,0:03:41.45,Main-207-,,0,0,0,,Jedenfalls sollten wir hingehen und Nami suchen!
-Dialogue: 50,0:03:41.45,0:03:44.29,Main-207-,,0,0,0,,Ist wirklich Nami der Grund?
-Dialogue: 50,0:03:44.29,0:03:46.91,Main-207-,,0,0,0,,Nicht nur, damit du das verbotene Land betreten darfst?!
-Dialogue: 50,0:03:51.02,0:03:54.88,Main-207-,,0,0,0,,Was sind das für gigantische Bäume?
-Dialogue: 50,0:03:54.88,0:03:56.59,Main-207-,,0,0,0,,So große sehe ich zum ersten Mal.
-Dialogue: 50,0:03:56.59,0:03:59.89,Main-207-,,0,0,0,,Wie alt diese Bäume wohl sind?\NEinige hundert Jahre?
-Dialogue: 50,0:04:00.25,0:04:02.32,Main-207-,,0,0,0,,All diese Bäume...
-Dialogue: 50,0:04:04.27,0:04:06.56,Main-207-,,0,0,0,,Ich kann nicht mal ihre Krone sehen!
-Dialogue: 50,0:04:09.06,0:04:10.35,Main-207-,,0,0,0,,Hey, Luffy! Gehen wir!
-Dialogue: 50,0:04:10.67,0:04:12.18,Main-207-,,0,0,0,,Hm... Warte noch kurz.
-Dialogue: 50,0:04:12.18,0:04:13.57,Main-207-,,0,0,0,,Ich mampf noch kurz fertig.
-Dialogue: 50,0:04:13.57,0:04:16.41,Main-207-,,0,0,0,,Und was, wenn Nami was passiert,
-Dialogue: 50,0:04:16.41,0:04:19.20,Main-207-,,0,0,0,,während du hier sitzt und dir den Bauch vollschlägst?!
-Dialogue: 50,0:04:19.20,0:04:21.20,Main-207-,,0,0,0,,Lass das einfach hier liegen, wir kommen eh wieder!
-Dialogue: 50,0:04:21.48,0:04:24.04,Main-207-,,0,0,0,,Hm... Moment noch! Das hier noch.
-Dialogue: 50,0:04:25.37,0:04:28.25,Main-207-,,0,0,0,,Conis, wenn wir auf \Nden warten, ist’s morgen!
-Dialogue: 50,0:04:28.25,0:04:30.50,Main-207-,,0,0,0,,Bring mich zu Upper Yard!
-Dialogue: 50,0:04:30.50,0:04:32.59,Main-207-,,0,0,0,,Was? A-Aber...
-Dialogue: 50,0:04:32.59,0:04:33.67,Main-207-,,0,0,0,,Hm?
-Dialogue: 50,0:04:33.67,0:04:38.22,Main-207-,,0,0,0,,Wir wissen doch gar nicht,\Nob sie wirklich dorthin gegangen ist.
-Dialogue: 50,0:04:38.22,0:04:39.68,Main-207-,,0,0,0,,Außerdem...
-Dialogue: 50,0:04:41.82,0:04:43.84,Main-207-,,0,0,0,,stecken wir in großen Schwierigkeiten,
-Dialogue: 50,0:04:43.84,0:04:46.14,Main-207-,,0,0,0,,wenn wir Gott Enels Zorn auf uns ziehen.
-Dialogue: 50,0:04:48.16,0:04:49.19,Main-207-,,0,0,0,,Hilfe!
-Dialogue: 50,0:04:53.88,0:04:54.48,Main-207-,,0,0,0,,Hilfe!
-Dialogue: 50,0:05:37.20,0:05:39.74,Main-207-,,0,0,0,,Ts, dieser Drecksack! Hat mir die Beute weggeschnappt.
-Dialogue: 50,0:05:42.03,0:05:44.70,Main-207-,,0,0,0,,Was ist da los?\NIch kann Stimmen hören.
-Dialogue: 50,0:05:45.08,0:05:46.19,Main-207-,,0,0,0,,Was um alles in der Welt?
-Dialogue: 50,0:05:49.20,0:05:50.58,Main-207-,,0,0,0,,Gib einfach auf!
-Dialogue: 50,0:05:52.58,0:05:53.74,Main-207-,,0,0,0,,Das rate ich eher dir.
-Dialogue: 50,0:05:53.74,0:05:55.29,Main-207-,,0,0,0,,Er gehört mir.
-Dialogue: 50,0:05:55.29,0:05:56.79,Main-207-,,0,0,0,,Geh mir aus dem Weg!
-Dialogue: 50,0:05:56.79,0:05:59.09,Main-207-,,0,0,0,,Hoho! Den Rat gebe ich zurück.
-Dialogue: 50,0:06:01.59,0:06:03.55,Main-207-,,0,0,0,,Hoho!
-Dialogue: 50,0:06:09.89,0:06:12.61,Main-207-,,0,0,0,,W-Was um alles in der Welt?
-Dialogue: 50,0:06:13.19,0:06:16.90,Main-207-,,0,0,0,,Was geschieht nur in diesem Wald?
-Dialogue: 50,0:06:17.22,0:06:20.78,Main-207-,,0,0,0,,Das ist also euer alter Waver.
-Dialogue: 50,0:06:20.78,0:06:23.53,Main-207-,,0,0,0,,Der ist in der Tat sehr alt.
-Dialogue: 50,0:06:23.53,0:06:26.00,Main-207-,,0,0,0,,Wir haben ihn im Meer der unteren Welt gefunden.
-Dialogue: 50,0:06:26.00,0:06:28.12,Main-207-,,0,0,0,,Soll ich mal einen Blick drauf werfen?
-Dialogue: 50,0:06:28.12,0:06:30.58,Main-207-,,0,0,0,,Wenn man ihn\Nreparieren kann, mach ich das
-Dialogue: 50,0:06:30.58,0:06:34.33,Main-207-,,0,0,0,,Ich bin ein Dial-Schiffsingenieur.
-Dialogue: 50,0:07:18.50,0:07:20.46,Main-207-,,0,0,0,,W-Was?! Was?!
-Dialogue: 50,0:07:23.92,0:07:25.92,Main-207-,,0,0,0,,Hey! Hilf mir!
-Dialogue: 50,0:07:25.92,0:07:27.18,Main-207-,,0,0,0,,Lass mich mit dir fahren!
-Dialogue: 50,0:07:28.43,0:07:30.05,Main-207-,,0,0,0,,Äh... Mit mir fahren?
-Dialogue: 50,0:07:30.05,0:07:31.93,Main-207-,,0,0,0,,Aber dieses Boot ist nur für eine Person, also...
-Dialogue: 50,0:07:31.93,0:07:33.14,Main-207-,,0,0,0,,Also bitte!
-Dialogue: 50,0:07:33.14,0:07:34.77,Main-207-,,0,0,0,,Kann es noch eine Person tragen?
-Dialogue: 50,0:07:34.77,0:07:35.94,Main-207-,,0,0,0,,Keine Ahnung!
-Dialogue: 50,0:07:35.94,0:07:39.23,Main-207-,,0,0,0,,S-Selbst wenn ich dich töten muss...
-Dialogue: 50,0:07:40.69,0:07:41.94,Main-207-,,0,0,0,,Guerillero!
-Dialogue: 50,0:07:49.87,0:07:51.69,Main-207-,,0,0,0,,G-Gott...
-Dialogue: 50,0:08:06.72,0:08:09.68,Main-207-,,0,0,0,,Scheiße! Ist das Enels Werk?
-Dialogue: 50,0:08:18.72,0:08:21.35,Main-207-,,0,0,0,,Wie kannst du es wagen, Vearth zu beschädigen?!
-Dialogue: 50,0:09:03.90,0:09:05.44,Main-207-,,0,0,0,,Besorgt sofort Water-Dials!
-Dialogue: 50,0:09:06.57,0:09:07.87,Main-207-,,0,0,0,,Löscht das Feuer!
-Dialogue: 50,0:09:12.76,0:09:15.03,Main-207-,,0,0,0,,Und nun salutieren!
-Dialogue: 50,0:09:15.66,0:09:16.74,Main-207-,,0,0,0,,– Heso!\N– Heso!
-Dialogue: 50,0:09:20.01,0:09:21.67,Main-207-,,0,0,0,,Heso, alle zusammen!
-Dialogue: 50,0:09:21.96,0:09:23.67,Main-207-,,0,0,0,,Das sind die Weißen Barrets!
-Dialogue: 50,0:09:24.17,0:09:26.00,Main-207-,,0,0,0,,Ob was passiert ist?
-Dialogue: 50,0:09:26.50,0:09:29.01,Main-207-,,0,0,0,,Wir bitten um eure Aufmerksamkeit!
-Dialogue: 50,0:09:29.01,0:09:33.97,Main-207-,,0,0,0,,Illegale Eindringlinge haben Skypiea heute über den Angel Beach infiltriert.
-Dialogue: 50,0:09:33.97,0:09:35.30,Main-207-,,0,0,0,,– Wie bitte?!\N– Wie bitte?!
-Dialogue: 50,0:09:35.30,0:09:37.77,Main-207-,,0,0,0,,Es wurden insgesamt sieben Eindringlinge gemeldet!
-Dialogue: 50,0:09:37.77,0:09:40.24,Main-207-,,0,0,0,,Wir, die Weißen Barrets, leiten derzeit
-Dialogue: 50,0:09:40.24,0:09:42.81,Main-207-,,0,0,0,,eine großflächige Suche nach diesen Kriminellen!
-Dialogue: 50,0:09:42.81,0:09:45.12,Main-207-,,0,0,0,,Bitte haltet nach verdächtigen Individuen Ausschau.
-Dialogue: 50,0:09:47.27,0:09:48.44,Main-207-,,0,0,0,,– Bitte haltet Ausschau!\N– Bitte haltet Ausschau!
-Dialogue: 50,0:09:49.26,0:09:53.66,Main-207-,,0,0,0,,Es wirkte, als hätte der Mann mit jemandem geredet.
-Dialogue: 50,0:09:53.66,0:09:55.82,Main-207-,,0,0,0,,Das war ein Guerillero. Er ist gerade abgehauen.
-Dialogue: 50,0:09:55.82,0:09:58.59,Main-207-,,0,0,0,,Hey, stell diesen Köter mal ruhig.
-Dialogue: 50,0:09:58.59,0:10:01.16,Main-207-,,0,0,0,,Er hat vermutlich um sein Leben gefleht.
-Dialogue: 50,0:10:01.96,0:10:06.95,Main-207-,,0,0,0,,Aber was denkt sich Enel dabei, sich selbst um ihn zu kümmern?
-Dialogue: 50,0:10:06.95,0:10:08.43,Main-207-,,0,0,0,,Warum wurden wir...
-Dialogue: 50,0:10:08.43,0:10:10.57,Main-207-,,0,0,0,,Vermutlich ging uns die Zeit aus.
-Dialogue: 50,0:10:10.57,0:10:11.63,Main-207-,,0,0,0,,Uns ging die Zeit aus?
-Dialogue: 50,0:10:12.32,0:10:15.98,Main-207-,,0,0,0,,{\q2}Eine andere Gruppe illegaler Eindringlinge\Nhat dieses Land bereits infiltriert.
-Dialogue: 50,0:10:15.98,0:10:18.00,Main-207-,,0,0,0,,Was? Schon wieder?
-Dialogue: 50,0:10:18.00,0:10:23.10,Main-207-,,0,0,0,,{\q2}Die alte Amazon hat uns über ein Schiff\Nmit sieben Leuten vom Blaumeer informiert.
-Dialogue: 50,0:10:23.10,0:10:24.91,Thoughts-207-,,0,0,0,,Sieben Blaumeerer...
-Dialogue: 50,0:10:25.43,0:10:27.23,Thoughts-207-,,0,0,0,,Meint er etwa uns?!
-Dialogue: 50,0:10:27.23,0:10:28.86,Thoughts-207-,,0,0,0,,{\fad(0,400)}Illegale Eindringlinge, hat er gesagt...
-Dialogue: 50,0:10:29.36,0:10:31.24,Flashbacks-207-,,0,0,0,,Wenn ihr zum oberen Areal möchtet,
-Dialogue: 50,0:10:31.24,0:10:35.11,Flashbacks-207-,,0,0,0,,müsst ihr die Einlassgebühr von einer Milliarde Extol pro Person entrichten.
-Dialogue: 50,0:10:35.11,0:10:36.97,Flashbacks-207-,,0,0,0,,So lautet das Gesetz.
-Dialogue: 50,0:10:38.78,0:10:41.92,Thoughts-207-,,0,0,0,,Etwa, weil wir die Einlassgebühr nicht bezahlt haben?
-Dialogue: 50,0:10:41.92,0:10:43.00,Thoughts-207-,,0,0,0,,Niemals!
-Dialogue: 50,0:10:43.72,0:10:45.21,Main-207-,,0,0,0,,Sieben Köpfe...
-Dialogue: 50,0:10:45.21,0:10:47.58,Main-207-,,0,0,0,,Die können wir aber nicht durch vier teilen.
-Dialogue: 50,0:10:48.99,0:10:51.67,Thoughts-207-,,0,0,0,,Was ist gerade passiert?
-Dialogue: 50,0:10:51.67,0:10:53.30,Thoughts-207-,,0,0,0,,Wer sind die bitte?
-Dialogue: 50,0:10:54.03,0:10:55.66,Thoughts-207-,,0,0,0,,Und was ist das nur für ein Ort?!
-Dialogue: 50,0:11:04.77,0:11:07.40,Main-207-,,0,0,0,,Ich muss den anderen sofort Bescheid geben!
-Dialogue: 50,0:11:07.40,0:11:09.27,Main-207-,,0,0,0,,Hier ist’s brandgefährlich!
-Dialogue: 50,0:11:16.28,0:11:18.25,Main-207-,,0,0,0,,Na? Usopp, schau mal!
-Dialogue: 50,0:11:20.58,0:11:22.66,Main-207-,,0,0,0,,Meins ist auch fertig!
-Dialogue: 50,0:11:23.92,0:11:25.52,Main-207-,,0,0,0,,Schau dir dieses Kunstwerk an!
-Dialogue: 50,0:11:25.52,0:11:27.85,Main-207-,,0,0,0,,Sehen sie uns nicht zum Verwechseln ähnlich?
-Dialogue: 50,0:11:28.43,0:11:29.67,Main-207-,,0,0,0,,Das ist der Wahnsinn!
-Dialogue: 50,0:11:30.17,0:11:32.96,Main-207-,,0,0,0,,Aber wo sehen die wie wir aus?!
-Dialogue: 50,0:11:32.96,0:11:34.05,Main-207-,,0,0,0,,Kannst es reparieren?
-Dialogue: 50,0:11:34.05,0:11:36.80,Main-207-,,0,0,0,,Diese Teile sehe ich zum ersten Mal.
-Dialogue: 50,0:11:36.80,0:11:38.34,Main-207-,,0,0,0,,Bitte repariere es irgendwie.
-Dialogue: 50,0:11:38.34,0:11:42.56,Main-207-,,0,0,0,,Entschuldige, aber ich muss es erst noch etwas untersuchen.
-Dialogue: 50,0:11:42.56,0:11:43.94,Main-207-,,0,0,0,,Bitte versuche es.
-Dialogue: 50,0:11:43.94,0:11:45.52,Main-207-,,0,0,0,,Ich nehme es mal auseinander.
-Dialogue: 50,0:11:51.56,0:11:53.47,Main-207-,,0,0,0,,Alterchen, was ist das?
-Dialogue: 50,0:12:00.64,0:12:02.40,Main-207-,,0,0,0,,Ihr mit dem verdächtigen Schiff dort drüben!
-Dialogue: 50,0:12:02.40,0:12:03.66,Main-207-,,0,0,0,,Stehenbleiben!
-Dialogue: 50,0:12:03.66,0:12:05.96,Main-207-,,0,0,0,,Wer sind denn die?
-Dialogue: 50,0:12:18.25,0:12:20.96,Main-207-,,0,0,0,,Und warum krabbeln sie?
-Dialogue: 50,0:12:20.96,0:12:21.90,Main-207-,,0,0,0,,Keinen Schimmer.
-Dialogue: 50,0:12:22.41,0:12:25.39,Main-207-,,0,0,0,,Das sind vermutlich... Pervos!
-Dialogue: 50,0:12:25.39,0:12:27.71,Main-207-,,0,0,0,,Was?! Das sind also Pervos...
-Dialogue: 50,0:12:28.80,0:12:31.77,Main-207-,,0,0,0,,Alle Mann, sofort anhalten!
-Dialogue: 50,0:12:34.90,0:12:35.69,Main-207-,,0,0,0,,– Heso!\N– Heso!
-Dialogue: 50,0:12:35.69,0:12:36.44,Main-207-,,0,0,0,,Heso!
-Dialogue: 50,0:12:36.44,0:12:37.65,Main-207-,,0,0,0,,Hallo, heso.
-Dialogue: 50,0:12:38.90,0:12:41.74,Main-207-,,0,0,0,,H-Hey, was redet ihr da?
-Dialogue: 50,0:12:41.74,0:12:43.87,Main-207-,,0,0,0,,Wer sind die?
-Dialogue: 50,0:12:43.87,0:12:45.58,Main-207-,,0,0,0,,Usopp meinte, das seien Pervos.
-Dialogue: 50,0:12:45.83,0:12:52.50,Main-207-,,0,0,0,,Ihr seid also die sieben Eindringlinge aus dem Blaumeer?!
-Dialogue: 50,0:12:52.50,0:12:53.42,Main-207-,,0,0,0,,– Was?\N– Was?
-Dialogue: 50,0:12:53.42,0:12:56.84,Main-207-,,0,0,0,,Voller Ehrfurcht vollstrecke ich das Urteil des Himmels über euch!
-Dialogue: 50,0:12:57.66,0:12:59.09,Main-207-,,0,0,0,,Illegale Eindringlinge?
-Dialogue: 50,0:12:59.09,0:13:00.59,Main-207-,,0,0,0,,Hm? Illegale Leimdrillinge?
-Dialogue: 50,0:13:01.40,0:13:03.50,Main-207-,,0,0,0,,Ausreden sind zwecklos, da Amazon,
-Dialogue: 50,0:13:03.50,0:13:06.04,Main-207-,,0,0,0,,die Einreisekontrollbeamtin des Heaven’s Gate,
-Dialogue: 50,0:13:06.04,0:13:08.81,Main-207-,,0,0,0,,uns Visual-Dial-Aufnahmen geschickt hat.
-Dialogue: 50,0:13:08.81,0:13:11.81,Main-207-,,0,0,0,,Oh nein! Das darf nicht wahr sein!
-Dialogue: 50,0:13:11.81,0:13:14.28,Main-207-,,0,0,0,,Liegt da nicht irgendein \NFehler vor, Kommandant McKinley?!
-Dialogue: 50,0:13:14.28,0:13:17.07,Main-207-,,0,0,0,,Das sind nämlich keine üblen Leute.
-Dialogue: 50,0:13:17.60,0:13:19.86,Main-207-,,0,0,0,,Was meinen die mit illegale Leimdrillinge?
-Dialogue: 50,0:13:19.86,0:13:23.35,Main-207-,,0,0,0,,Lag die Einlassgebühr nicht bei einer Milliarde Extol pro Person?
-Dialogue: 50,0:13:23.35,0:13:25.27,Main-207-,,0,0,0,,Es stimmt, dass wir das nicht gezahlt haben.
-Dialogue: 50,0:13:25.27,0:13:29.30,Main-207-,,0,0,0,,{\q2}Aber die alte Dame meinte doch,\Nwir könnten auch ohne zu bezahlen eintreten.
-Dialogue: 50,0:13:29.30,0:13:30.33,Main-207-,,0,0,0,,Ja, das stimmt!
-Dialogue: 50,0:13:30.33,0:13:31.64,Main-207-,,0,0,0,,Es ist sinnlos.
-Dialogue: 50,0:13:31.64,0:13:34.42,Main-207-,,0,0,0,,Sucht keine Ausreden und gebt es einfach zu.
-Dialogue: 50,0:13:34.42,0:13:37.30,Main-207-,,0,0,0,,Jedoch besteht noch kein Grund zur Panik.
-Dialogue: 50,0:13:37.75,0:13:40.78,Main-207-,,0,0,0,,„Illegales Eindringen“ ist laut dem „Urteil des Himmels“
-Dialogue: 50,0:13:40.78,0:13:43.30,Main-207-,,0,0,0,,nur ein Verbrechen elften Grades.
-Dialogue: 50,0:13:43.30,0:13:44.97,Main-207-,,0,0,0,,Wenn ihr eure Strafe akzeptiert,
-Dialogue: 50,0:13:44.97,0:13:47.97,Main-207-,,0,0,0,,könnte ihr an Ort und Stelle legale Touristen werden.
-Dialogue: 50,0:13:47.97,0:13:50.38,Main-207-,,0,0,0,,Oh, sag das doch früher.
-Dialogue: 50,0:13:50.38,0:13:53.52,Main-207-,,0,0,0,,Missfällt mir zwar trotzdem, aber wie lautet die Strafe?
-Dialogue: 50,0:13:53.52,0:13:55.09,Main-207-,,0,0,0,,Ganz einfach.
-Dialogue: 50,0:13:55.53,0:13:57.98,Main-207-,,0,0,0,,Zahlt die zehnfache Einlassgebühr.
-Dialogue: 50,0:13:58.94,0:14:04.45,Main-207-,,0,0,0,,Wenn ihr sofort zahlt, legen wir eure Verbrechen zu den Akten.
-Dialogue: 50,0:14:04.45,0:14:06.16,Main-207-,,0,0,0,,10 Milliarden Extol pro Person,
-Dialogue: 50,0:14:06.16,0:14:09.33,Main-207-,,0,0,0,,also 70 Milliarden für euch alle sieben.
-Dialogue: 50,0:14:09.33,0:14:11.71,Main-207-,,0,0,0,,S-Siebzig Milliarden Extol?!
-Dialogue: 50,0:14:11.71,0:14:15.54,Main-207-,,0,0,0,,U-Und wie viel ist ein Extol in Berry umgerechnet?
-Dialogue: 50,0:14:15.54,0:14:18.24,Main-207-,,0,0,0,,Berry... Das ist die Währung im Blaumeer, korrekt?
-Dialogue: 50,0:14:18.24,0:14:21.51,Main-207-,,0,0,0,,10.000 Extol sind ein Berry.
-Dialogue: 50,0:14:21.51,0:14:23.65,Main-207-,,0,0,0,,10.000 Extol sind ein Berry...
-Dialogue: 50,0:14:23.65,0:14:24.01,Main-207-,,0,0,0,,1...
-Dialogue: 50,0:14:24.01,0:14:24.26,Main-207-,,0,0,0,,10...
-Dialogue: 50,0:14:24.26,0:14:24.64,Main-207-,,0,0,0,,100...
-Dialogue: 50,0:14:24.64,0:14:25.22,Main-207-,,0,0,0,,1.000...
-Dialogue: 50,0:14:25.22,0:14:25.51,Main-207-,,0,0,0,,10.000...
-Dialogue: 50,0:14:25.51,0:14:26.51,Main-207-,,0,0,0,,100.000...
-Dialogue: 50,0:14:26.51,0:14:27.60,Main-207-,,0,0,0,,Ah! Wie viel wären das?
-Dialogue: 50,0:14:27.60,0:14:31.16,Main-207-,,0,0,0,,Dann sind 70 Milliarden Extol 7 Millionen Berry.
-Dialogue: 50,0:14:31.16,0:14:32.31,Main-207-,,0,0,0,,Sackteuer!
-Dialogue: 50,0:14:32.31,0:14:34.85,Main-207-,,0,0,0,,Ist dir klar, wie viel Reis wir dafür kaufen könnten?! Sag!
-Dialogue: 50,0:14:34.85,0:14:36.94,Main-207-,,0,0,0,,Warum müssen wir noch so viel blechen,
-Dialogue: 50,0:14:36.94,0:14:40.23,Main-207-,,0,0,0,,{\q2}nachdem wir unser Leben riskiert haben,\Num in den Himmel zu kommen?
-Dialogue: 50,0:14:40.23,0:14:41.49,Main-207-,,0,0,0,,Das könnt ihr knicken!
-Dialogue: 50,0:14:41.49,0:14:43.57,Main-207-,,0,0,0,,Was sagst du da?
-Dialogue: 50,0:14:43.57,0:14:45.38,Main-207-,,0,0,0,,Wenn dem so wäre,
-Dialogue: 50,0:14:45.38,0:14:48.20,Main-207-,,0,0,0,,hättet ihr nur 700.000 Berry zahlen müssen, als ihr eingetreten seid.
-Dialogue: 50,0:14:48.20,0:14:50.49,Main-207-,,0,0,0,,Und das ist immer noch Schweineteuer!
-Dialogue: 50,0:14:51.79,0:14:53.41,Main-207-,,0,0,0,,Betrachtet das als Vorwarnung:
-Dialogue: 50,0:14:53.41,0:14:57.00,Main-207-,,0,0,0,,{\q2}Wir, die Weißen Barrets, sind die Einheit,\Ndie Gottes Priestern direkt unterstellt ist.
-Dialogue: 50,0:14:57.00,0:14:58.60,Main-207-,,0,0,0,,Seid vorsichtig,
-Dialogue: 50,0:14:58.60,0:15:01.08,Main-207-,,0,0,0,,{\q2}Diskussionen könnten den Strafgrad erhöhen.
-Dialogue: 50,0:14:59.71,0:15:01.08,Secondary-207-,,0,0,0,,Wie auch immer.
-Dialogue: 50,0:15:01.08,0:15:02.34,Secondary-207-,,0,0,0,,Vergessen wir die Typen.
-Dialogue: 50,0:15:02.34,0:15:05.29,Main-207-,,0,0,0,,Wir sollten uns lieber auf die Suche nach Nami machen.
-Dialogue: 50,0:15:05.29,0:15:06.54,Main-207-,,0,0,0,,Ich mach mir Sorgen.
-Dialogue: 50,0:15:06.54,0:15:08.35,Main-207-,,0,0,0,,Sie könnte irgendwo allein weinen.
-Dialogue: 50,0:15:17.02,0:15:21.22,Thoughts-207-,,0,0,0,,Diese Typen vorhin wussten,\Ndass wir auf die Himmelsinsel kamen,
-Dialogue: 50,0:15:21.22,0:15:24.01,Thoughts-207-,,0,0,0,,{\q2}was bedeutet, dass auch Luffy und die\Nanderen in Gefahr schweben könnten.
-Dialogue: 50,0:15:24.01,0:15:25.07,Thoughts-207-,,0,0,0,,Ich muss mich beeilen!
-Dialogue: 50,0:15:29.02,0:15:31.05,Main-207-,,0,0,0,,Ich freu mich schon, damit zu fahren!
-Dialogue: 50,0:15:31.05,0:15:32.91,Main-207-,,0,0,0,,Hoffentlich kann man ihn reparieren.
-Dialogue: 50,0:15:33.22,0:15:34.33,Main-207-,,0,0,0,,Oh?
-Dialogue: 50,0:15:34.74,0:15:37.71,Main-207-,,0,0,0,,Dieser Waver scheint kaputt zu sein.
-Dialogue: 50,0:15:37.71,0:15:40.79,Main-207-,,0,0,0,,Wenn ihr das wart, wäre das ein Verbrechen zehnten Grades,
-Dialogue: 50,0:15:41.17,0:15:44.80,Main-207-,,0,0,0,,{\q2}die Zerstörung von\NHimmelsinseleigentum durch Blaumeerer.
-Dialogue: 50,0:15:44.80,0:15:48.64,Main-207-,,0,0,0,,Nein, nein! Entschuldigung.\NDen besaßen sie von Anfang an.
-Dialogue: 50,0:15:48.64,0:15:50.30,Main-207-,,0,0,0,,Er hat recht! Der gehört mir!
-Dialogue: 50,0:15:50.62,0:15:52.22,Main-207-,,0,0,0,,Von Anfang an?
-Dialogue: 50,0:15:52.22,0:15:53.87,Main-207-,,0,0,0,,Äußerst verdächtig.
-Dialogue: 50,0:15:53.87,0:15:56.48,Main-207-,,0,0,0,,Waver sollten im Blaumeer nicht existieren.
-Dialogue: 50,0:15:56.48,0:15:59.49,Main-207-,,0,0,0,,Wenn dieses Objekt von der Himmelsinsel gestohlen wurde,
-Dialogue: 50,0:15:59.49,0:16:01.23,Main-207-,,0,0,0,,erhöht sich das Strafmaß noch mehr.
-Dialogue: 50,0:16:01.23,0:16:03.57,Main-207-,,0,0,0,,Klappe! Ich schlag dich zu Brei!
-Dialogue: 50,0:16:07.23,0:16:10.15,Main-207-,,0,0,0,,Oh nein... Es ist bereits jemand hier.
-Dialogue: 50,0:16:10.15,0:16:12.16,Main-207-,,0,0,0,,Ob das diese Kerle von vorhin sind?
-Dialogue: 50,0:16:12.16,0:16:16.53,Main-207-,,0,0,0,,Bitte macht keine Dummheiten, Leute.
-Dialogue: 50,0:16:16.53,0:16:18.67,Main-207-,,0,0,0,,Nicht so hastig, Luffy, Zoro!
-Dialogue: 50,0:16:18.67,0:16:21.75,Main-207-,,0,0,0,,Hört mal.\NSchnecken kennt ihr, richtig? Also...
-Dialogue: 50,0:16:19.96,0:16:21.75,Secondary-207-,,0,0,0,,{\an8}Bitte wartet!
-Dialogue: 50,0:16:22.46,0:16:25.42,Main-207-,,0,0,0,,Ah! Nami, du bist wohlauf!
-Dialogue: 50,0:16:25.42,0:16:28.97,Main-207-,,0,0,0,,Luffy! Mach ihnen keinen Ärger!
-Dialogue: 50,0:16:28.97,0:16:31.14,Main-207-,,0,0,0,,Aber die...
-Dialogue: 50,0:16:31.14,0:16:32.18,Main-207-,,0,0,0,,Nami!
-Dialogue: 50,0:16:32.18,0:16:36.85,Main-207-,,0,0,0,,{\q2}Zahl die 7-Millionen-Berry-Gebühr für unseren\Nillegalen Eintritt mit deinem Geheimvorrat!
-Dialogue: 50,0:16:36.85,0:16:40.21,Main-207-,,0,0,0,,{\fad(0,200)}Gut! Also kommen wir noch mit einer Strafgebühr davon?
-Dialogue: 50,0:16:41.47,0:16:44.36,Main-207-,,0,0,0,,7 Millionen Berry, sagte er?
-Dialogue: 50,0:16:47.04,0:16:48.32,Main-207-,,0,0,0,,{\t(800,0,1,\c&HFDFDFE&\3c&HFDFDFE&\4c&HFDFDFE&)}Was?!
-Dialogue: 50,0:16:48.95,0:16:50.32,Main-207-,,0,0,0,,Das ist viel zu teuer!
-Dialogue: 50,0:16:58.00,0:16:59.46,Main-207-,,0,0,0,,Mist!
-Dialogue: 50,0:16:59.46,0:17:01.75,Main-207-,,0,0,0,,Diese unverschämt hohe Geldforderung hat mich... {komplett aus der Sache gebracht}
-Dialogue: 50,0:17:01.75,0:17:02.79,Main-207-,,0,0,0,,– Hey!\N– Hey!
-Dialogue: 50,0:17:02.79,0:17:04.25,Main-207-,,0,0,0,,– Kommandant!\N– Kommandant!
-Dialogue: 50,0:17:04.25,0:17:06.95,Main-207-,,0,0,0,,Hey, danke, dass Sie mich mit dem Waver fahren ließen.
-Dialogue: 50,0:17:06.95,0:17:08.17,Main-207-,,0,0,0,,Hat großen Spaß gemacht.
-Dialogue: 50,0:17:08.17,0:17:10.03,Main-207-,,0,0,0,,Aber nein, entschuldigt.
-Dialogue: 50,0:17:10.03,0:17:12.72,Main-207-,,0,0,0,,Was viel wichtiger ist: Ihr steckt in großen Schwierigkeiten!
-Dialogue: 50,0:17:12.72,0:17:14.94,Secondary-207-,,0,0,0,,{\an8}Kommandant! Halten sie durch!
-Dialogue: 50,0:17:14.93,0:17:15.92,Secondary-207-,,0,0,0,,{\an8}Ihre Wunde ist nicht tief!
-Dialogue: 50,0:17:15.92,0:17:18.96,Secondary-207-,,0,0,0,,{\an8}Wie konnte das passieren?!
-Dialogue: 50,0:17:13.56,0:17:14.98,Main-207-,,0,0,0,,Leute, verziehen wir uns!
-Dialogue: 50,0:17:14.98,0:17:17.63,Main-207-,,0,0,0,,Wie? Hast du nicht gerade ’nen Streit angezettelt?
-Dialogue: 50,0:17:17.63,0:17:21.23,Main-207-,,0,0,0,,{\q2}Es ist gefährlich, sich in diese\NGottsache einzumischen! Ich mein’s ernst!
-Dialogue: 50,0:17:21.23,0:17:25.27,Main-207-,,0,0,0,,{\q2}Vermutlich ein Verbrechen fünften Grades,\NWiderstand gegen die Staatsgewalt.
-Dialogue: 50,0:17:25.57,0:17:28.30,Main-207-,,0,0,0,,Wenn es als Verbrechen fünften Grades abgetan wurde,
-Dialogue: 50,0:17:28.30,0:17:31.66,Main-207-,,0,0,0,,werdet ihr im Namen Gott Enels in die Wolken verbannt.
-Dialogue: 50,0:17:31.66,0:17:33.16,Main-207-,,0,0,0,,In die Wolken verbannt?
-Dialogue: 50,0:17:33.16,0:17:34.07,Main-207-,,0,0,0,,Ach, na dann.
-Dialogue: 50,0:17:34.07,0:17:36.87,Main-207-,,0,0,0,,Klingt doch gar nicht übel.
-Dialogue: 50,0:17:36.87,0:17:39.41,Main-207-,,0,0,0,,Von wegen! Das ist die Todesstrafe!
-Dialogue: 50,0:17:40.49,0:17:41.90,Main-207-,,0,0,0,,Das ist eine Strafe, in der ihr
-Dialogue: 50,0:17:41.90,0:17:45.41,Main-207-,,0,0,0,,{\q2}zusammen mit eurem Schiff auf eine Wolke\Ngesetzt werdet, der ihr nicht entkommen könnt.
-Dialogue: 50,0:17:45.41,0:17:48.17,Main-207-,,0,0,0,,Ihr treibt im Himmel umher, bis nur noch Knochen von euch übrig sind.
-Dialogue: 50,0:17:49.59,0:17:51.17,Main-207-,,0,0,0,,Das ist die Todesstrafe!
-Dialogue: 50,0:17:51.55,0:17:52.94,Main-207-,,0,0,0,,Verstehe.
-Dialogue: 50,0:17:52.94,0:17:55.20,Main-207-,,0,0,0,,Darum ist dieses Schiff vom Himmel gefallen.
-Dialogue: 50,0:17:55.20,0:17:57.31,Main-207-,,0,0,0,,Was?! Wie meinst du das, Robin?
-Dialogue: 50,0:17:57.60,0:18:02.40,Main-207-,,0,0,0,,{\q2}Erinnert ihr euch an diese Galeone,\Ndie vom Himmel fiel? St. Briss hieß sie doch?
-Dialogue: 50,0:18:02.40,0:18:06.19,Main-207-,,0,0,0,,Womöglich traf sie diese Strafe vor 200 Jahren.
-Dialogue: 50,0:18:11.53,0:18:13.24,Main-207-,,0,0,0,,– Hey, ihr da!\N– Hey, ihr da!
-Dialogue: 50,0:18:13.24,0:18:15.74,Main-207-,,0,0,0,,Ist euch eigentlich bewusst, was ihr dem Kommandanten angetan habt?!
-Dialogue: 50,0:18:15.74,0:18:18.24,Main-207-,,0,0,0,,Sucht ihr Streit?
-Dialogue: 50,0:18:16.53,0:18:18.24,Secondary-207-,,0,0,0,,Ah, Sanji! Warte!
-Dialogue: 50,0:18:18.24,0:18:19.49,Main-207-,,0,0,0,,Aber natürlich, Namilein!
-Dialogue: 50,0:18:19.49,0:18:22.37,Main-207-,,0,0,0,,Jetzt seid nicht so wütend,\Ndas war doch nur ein Versehen.
-Dialogue: 50,0:18:22.37,0:18:23.58,Main-207-,,0,0,0,,Ein Versehen?!
-Dialogue: 50,0:18:23.58,0:18:25.58,Main-207-,,0,0,0,,N-Nun, wie ich soll ich sagen... Ich habe ungewollt...
-Dialogue: 50,0:18:25.58,0:18:26.71,Main-207-,,0,0,0,,Ungewollt?!
-Dialogue: 50,0:18:26.71,0:18:29.74,Main-207-,,0,0,0,,Anfänger sollten es wohl wirklich nicht so übertreiben, nicht wahr?
-Dialogue: 50,0:18:31.63,0:18:35.04,Main-207-,,0,0,0,,{\q2}Sie hatte keine Probleme, das Ding zu steuern,\Nund sah aus, als hätte sie mächtig Spaß!
-Dialogue: 50,0:18:35.97,0:18:37.33,Main-207-,,0,0,0,,Schnauze, Luffy!
-Dialogue: 50,0:18:37.33,0:18:39.52,Secondary-207-,,0,0,0,,{\an8}Sei doch nicht albern, Luffy!
-Dialogue: 50,0:18:39.52,0:18:41.77,Secondary-207-,,0,0,0,,{\an8}So ein Unsinn!
-Dialogue: 50,0:18:37.60,0:18:41.73,Main-207-,,0,0,0,,Nami will ihnen weismachen, es sei ein Unfall gewesen.
-Dialogue: 50,0:18:41.73,0:18:42.77,Main-207-,,0,0,0,,Ach ja?
-Dialogue: 50,0:18:43.34,0:18:45.03,Main-207-,,0,0,0,,Ähm, entschuldigt
-Dialogue: 50,0:18:45.03,0:18:48.97,Main-207-,,0,0,0,,{\q2}aber wäre es nicht besser,\NKommandant McKinley erst zu behandeln?
-Dialogue: 50,0:18:48.97,0:18:50.23,Main-207-,,0,0,0,,Entschuldigt.
-Dialogue: 50,0:18:50.23,0:18:51.78,Main-207-,,0,0,0,,D-Das stimmt!
-Dialogue: 50,0:18:51.78,0:18:53.28,Main-207-,,0,0,0,,Kommandant McKinley!
-Dialogue: 50,0:18:53.28,0:18:55.91,Main-207-,,0,0,0,,Dann tragen wir ihn zu meinem Haus.
-Dialogue: 50,0:18:55.91,0:18:57.16,Main-207-,,0,0,0,,Wir danken für Ihre Hilfe!
-Dialogue: 50,0:18:57.16,0:18:58.12,Main-207-,,0,0,0,,– Heso!\N– Heso!
-Dialogue: 50,0:19:00.91,0:19:04.96,Main-207-,,0,0,0,,Und ihr Sieben rührt euch nicht vom Fleck, kapiert?!
-Dialogue: 50,0:19:04.96,0:19:07.33,Main-207-,,0,0,0,,Kommandant!
-Dialogue: 50,0:19:08.20,0:19:10.68,Main-207-,,0,0,0,,Die krabbeln schon wieder?
-Dialogue: 50,0:19:10.68,0:19:12.30,Main-207-,,0,0,0,,Wieso tragen sie ihn nicht einfach normal?
-Dialogue: 50,0:19:12.80,0:19:16.39,Main-207-,,0,0,0,,Ihr seid keine bösen Leute.\NDas weiß ich.
-Dialogue: 50,0:19:16.39,0:19:19.14,Main-207-,,0,0,0,,Also nutzt bitte die Chance,\Nvon hier zu fliehen.
-Dialogue: 50,0:19:19.14,0:19:20.01,Main-207-,,0,0,0,,H-Hey!
-Dialogue: 50,0:19:21.78,0:19:23.82,Main-207-,,0,0,0,,Tun wir, was sie sagte.
-Dialogue: 50,0:19:24.86,0:19:27.12,Main-207-,,0,0,0,,Ich hab es mit eigenen Augen gesehen.
-Dialogue: 50,0:19:27.12,0:19:29.02,Main-207-,,0,0,0,,Eine Insel mit superunheimlichen Typen!
-Dialogue: 50,0:19:29.61,0:19:33.05,Main-207-,,0,0,0,,Also hast du den verbotenen heiligen Boden tatsächlich betreten.
-Dialogue: 50,0:19:33.05,0:19:36.12,Main-207-,,0,0,0,,„Der Ort, auf den wir niemals einen Fuß setzen dürfen.“
-Dialogue: 50,0:19:36.12,0:19:37.69,Main-207-,,0,0,0,,„Superunheimliche Typen“...
-Dialogue: 50,0:19:37.69,0:19:39.78,Main-207-,,0,0,0,,Ah! Hör nicht hin!\NSieh nicht hin! Sag kein Wort!
-Dialogue: 50,0:19:39.78,0:19:41.74,Main-207-,,0,0,0,,Ob Gott oder Guerillero...
-Dialogue: 50,0:19:41.74,0:19:44.29,Main-207-,,0,0,0,,Wir sollten uns von dort fernhalten!
-Dialogue: 50,0:19:44.29,0:19:46.25,Main-207-,,0,0,0,,Jedenfalls verziehen wir uns von hier! Wir gehen!
-Dialogue: 50,0:19:46.87,0:19:49.80,Main-207-,,0,0,0,,Ah... Es bricht mir das Herz, von Conis getrennt zu sein,
-Dialogue: 50,0:19:49.80,0:19:51.41,Main-207-,,0,0,0,,aber wenn Nami das befiehlt...
-Dialogue: 50,0:19:52.41,0:19:56.22,Main-207-,,0,0,0,,Wenn wir hierbleiben, machen wir\Nauch den beiden Probleme.
-Dialogue: 50,0:19:56.22,0:19:57.30,Main-207-,,0,0,0,,Das stimmt!
-Dialogue: 50,0:19:57.30,0:20:00.51,Main-207-,,0,0,0,,Die werden sie noch als unsere Komplizen hinstellen!
-Dialogue: 50,0:20:00.51,0:20:03.47,Main-207-,,0,0,0,,Wenn wir es also so anstellen, dass wir von selbst wegrennen,
-Dialogue: 50,0:20:03.47,0:20:05.88,Main-207-,,0,0,0,,sollte es für sie keinen Ärger nach sich ziehen.
-Dialogue: 50,0:20:05.88,0:20:08.94,Main-207-,,0,0,0,,Verstanden?! Gut, dann wäre das geklärt. Abmarsch!
-Dialogue: 50,0:20:14.25,0:20:16.49,Main-207-,,0,0,0,,Was treibst du da, Luffy?!
-Dialogue: 50,0:20:16.49,0:20:17.78,Main-207-,,0,0,0,,Warum rennen wir weg?
-Dialogue: 50,0:20:18.16,0:20:20.07,Main-207-,,0,0,0,,Die beiden haben nichts verbrochen.
-Dialogue: 50,0:20:20.73,0:20:22.95,Main-207-,,0,0,0,,Wer sie festnimmt, begeht einen Fehler.
-Dialogue: 50,0:20:25.90,0:20:28.42,Thoughts-207-,,0,0,0,,Bitte, beeilt euch...
-Dialogue: 50,0:20:31.31,0:20:33.46,Main-207-,,0,0,0,,Es gibt keinen Ort,\Nan den sie fliehen können.
-Dialogue: 50,0:20:35.88,0:20:38.43,Main-207-,,0,0,0,,Wie lang wollt ihr noch diskutieren? Kommt endlich an Bord!
-Dialogue: 50,0:20:38.43,0:20:40.59,Main-207-,,0,0,0,,Wie oft muss ich es dir noch verklickern?!
-Dialogue: 50,0:20:40.59,0:20:42.40,Main-207-,,0,0,0,,Wenn wir hierbleiben, geraten nicht nur wir,
-Dialogue: 50,0:20:42.40,0:20:44.60,Main-207-,,0,0,0,,sondern auch die beiden in Schwierigkeiten!
-Dialogue: 50,0:20:44.60,0:20:46.27,Main-207-,,0,0,0,,Wir stecken so oder so in Schwierigkeiten.
-Dialogue: 50,0:20:46.89,0:20:48.23,Main-207-,,0,0,0,,Bitte flieht!
-Dialogue: 50,0:20:49.06,0:20:50.35,Main-207-,,0,0,0,,Schnell!
-Dialogue: 50,0:20:50.35,0:20:51.90,Main-207-,,0,0,0,,Au verdammt!
-Dialogue: 50,0:20:51.90,0:20:54.04,Main-207-,,0,0,0,,Das würde ich nicht tun, Fräulein.
-Dialogue: 50,0:20:54.04,0:20:57.10,Main-207-,,0,0,0,,Wenn du die Kriminellen verteidigst,
-Dialogue: 50,0:20:57.10,0:21:00.42,Main-207-,,0,0,0,,werdet auch ihr beide dafür zahlen.
-Dialogue: 50,0:21:00.42,0:21:02.56,Main-207-,,0,0,0,,Wie ihr wisst,\Nsind diese Leute Verbrecher,
-Dialogue: 50,0:21:02.56,0:21:05.08,Main-207-,,0,0,0,,die als Strafe für ihr Verbrechen fünften Grades,
-Dialogue: 50,0:21:05.08,0:21:08.83,Main-207-,,0,0,0,,Beleidigung und Behinderung der Staatsgewalt,
-Dialogue: 50,0:21:08.83,0:21:13.50,Main-207-,,0,0,0,,in die Wolken verbannt werden sollten.
-Dialogue: 50,0:21:15.13,0:21:17.53,Main-207-,,0,0,0,,Wie gesagt, das war nur ein Unfall!
-Dialogue: 50,0:21:17.53,0:21:18.30,Main-207-,,0,0,0,,Jetzt komm schon!
-Dialogue: 50,0:21:18.30,0:21:19.93,Main-207-,,0,0,0,,Verhaftet sie!
-Dialogue: 50,0:21:21.30,0:21:23.30,Main-207-,,0,0,0,,Bitte verschwindet! Ihr seid ihnen nicht gewachsen!
-Dialogue: 50,0:21:25.85,0:21:26.60,Main-207-,,0,0,0,,Feuer!
-Dialogue: 50,0:21:26.60,0:21:27.93,Main-207-,,0,0,0,,{\fad(150,150)}Milky Arrow!
-Dialogue: 50,0:21:28.93,0:21:29.98,Main-207-,,0,0,0,,Pfeile?!
-Dialogue: 50,0:21:29.98,0:21:31.35,Main-207-,,0,0,0,,Du gehst vor, Nami!
-Dialogue: 50,0:21:31.35,0:21:32.77,Main-207-,,0,0,0,,Roger!
-Dialogue: 50,0:21:35.90,0:21:36.98,Main-207-,,0,0,0,,Was ist denn das?
-Dialogue: 50,0:21:36.98,0:21:38.45,Main-207-,,0,0,0,,Wolken?
-Dialogue: 50,0:21:41.92,0:21:44.73,Main-207-,,0,0,0,,Los, Weiße Barrets!
-Dialogue: 50,0:21:56.03,0:21:57.55,Main-207-,,0,0,0,,Was?! Was ist jetzt los?
-Dialogue: 50,0:22:06.56,0:22:08.56,Main-207-,,0,0,0,,Ihr macht echt lustige Sachen!
-Dialogue: 50,0:22:08.56,0:22:09.56,Main-207-,,0,0,0,,Was?!
-Dialogue: 50,0:22:09.56,0:22:10.93,Main-207-,,0,0,0,,Was macht er da?!
-Dialogue: 50,0:22:10.93,0:22:13.23,Main-207-,,0,0,0,,Was?! Sein Arm...\NSein Arm hat sich gedehnt!
-Dialogue: 50,0:22:13.23,0:22:14.44,Main-207-,,0,0,0,,Herrjemine...
-Dialogue: 50,0:22:16.62,0:22:19.47,Main-207-,,0,0,0,,{\fad(150,150)}Gum-Gum...
-Dialogue: 50,0:22:20.03,0:22:21.10,Main-207-,,0,0,0,,Kann das sein?
-Dialogue: 50,0:22:21.10,0:22:22.40,Main-207-,,0,0,0,,Eine Teufelsfrucht?!
-Dialogue: 50,0:22:24.82,0:22:26.89,Main-207-,,0,0,0,,{\fad(150,150)}...Fireworks!
-Dialogue: 50,0:23:01.47,0:23:03.40,Main-207-,,0,0,0,,Übrigens... Nami!
-Dialogue: 50,0:23:03.77,0:23:06.26,Main-207-,,0,0,0,,Wie steht’s um unsere Finanzen?
-Dialogue: 50,0:23:06.26,0:23:07.98,Main-207-,,0,0,0,,Wir haben noch 50.000 Berry.
-Dialogue: 50,0:23:07.98,0:23:10.83,Main-207-,,0,0,0,,50.000? So arm sind wir?
-Dialogue: 50,0:23:10.83,0:23:14.19,Main-207-,,0,0,0,,Normal reicht das für einen,\Nmaximal zwei Tage.
-Dialogue: 50,0:23:14.19,0:23:16.62,Main-207-,,0,0,0,,Warum sind wir so arm?
-Dialogue: 50,0:23:16.62,0:23:18.96,Main-207-,,0,0,0,,Als euer Kapitän muss ich mal ein ernstes Wort mit euch reden!
-Dialogue: 50,0:23:18.96,0:23:22.26,Main-207-,,0,0,0,,Ihr solltet mehr darüber nachdenken, wie ihr euer Geld nutzt und...
-Dialogue: 50,0:23:22.26,0:23:23.84,Main-207-,,0,0,0,,Das ist nur, weil du uns die Haare vom Kopf frisst!
-Dialogue: 50,0:23:24.55,0:23:25.93,Main-207-,,0,0,0,,Alles klar!
-Dialogue: 50,0:23:25.93,0:23:28.26,Main-207-,,0,0,0,,Jedenfalls war die Formation B, die ich ihnen angeordnet habe,
-Dialogue: 50,0:23:28.26,0:23:30.16,Main-207-,,0,0,0,,während des Kampfes ein voller Erfolg!
-Dialogue: 50,0:23:30.16,0:23:31.26,Main-207-,,0,0,0,,Wirklich?!
-Dialogue: 50,0:23:31.72,0:23:33.60,Main-207-,,0,0,0,,Sie haben...
-Dialogue: 50,0:23:33.60,0:23:34.81,Main-207-,,0,0,0,,...die Weißen Barrets besiegt!
-Dialogue: 50,0:23:35.37,0:23:40.27,Main-207-,,0,0,0,,Normalerweise sind die Fähigkeiten der Blaumeerer hier eingeschränkt.
-Dialogue: 50,0:23:46.22,0:23:49.02,Thoughts-207-,,0,0,0,,Ihr Dummköpfe!
-Dialogue: 50,0:23:49.02,0:23:51.20,Main-207-,,0,0,0,,Jetzt gibt es kein Zurück mehr!
-Dialogue: 50,0:23:51.98,0:23:56.12,Main-207-,,0,0,0,,Ihr hättet einfach brav Folge leisten sollen...
-Dialogue: 50,0:23:56.12,0:23:58.42,Main-207-,,0,0,0,,Wir, die Weißen Barrets,
-Dialogue: 50,0:23:58.42,0:24:02.13,Main-207-,,0,0,0,,sind die freundlichsten Gesetzeshüter im Land Gottes.
-Dialogue: 50,0:24:02.13,0:24:05.55,Main-207-,,0,0,0,,{\i1}Sie {\i0}sind allerdings nicht so nett wie wir!
-Dialogue: 50,0:24:08.08,0:24:11.47,Main-207-,,0,0,0,,Ihr seid nun Verbrecher zweiten Grades!
-Dialogue: 50,0:24:11.80,0:24:13.98,Main-207-,,0,0,0,,Egal ob ihr weint oder schreit...
-Dialogue: 50,0:24:16.94,0:24:20.27,Main-207-,,0,0,0,,Ihr werdet verurteilt, und zwar...
-Dialogue: 50,0:24:21.50,0:24:23.81,Main-207-,,0,0,0,,durch die Priester von Upper Yard!
-Dialogue: 50,0:24:23.81,0:24:25.49,Main-207-,,0,0,0,,Heso!
-Dialogue: 0,0:01:49.76,0:01:54.09,Title-207-,,0,0,0,,{\bord2.4\c&H0D0501&\3c&H0D0501&\blur0.6\fad(684,0)\1a&HFF&\t(604,684,\1a&H00&)}Göttliche Abrechnung
-Dialogue: 1,0:01:49.76,0:01:54.09,Title-207-,,0,0,0,,{\bord0\c&HFAF9F9&\4a&HFF&\blur0.6\fad(684,0)}Göttliche Abrechnung
-Dialogue: 0,0:09:09.61,0:09:13.28,Captions-207-,,0,0,0,,{\pos(720,675)\fscx80\fscy81\fnDFPGiHi-W7-Strp\bord3.8\c&H535353&\3c&H535353&\1a&HFF&\blur0.8\fad(189,436)\t(144,189,\1a&H00&)\t(3234,3279,\1a&HFF&)}Lovely Street\NAngel Island
-Dialogue: 1,0:09:09.61,0:09:13.28,Captions-207-,,0,0,0,,{\pos(720,675)\fscx80\fscy81\fnDFPGiHi-W7-Strp\bord0.6\c&HFAF6F4&\3c&HFAF6F4&\1a&HFF&\4a&HFF&\blur0.8\fad(189,436)\t(144,189,\1a&H00&)\t(3234,3279,\1a&HFF&)}Lovely Street\NAngel Island
-Dialogue: 2,0:09:09.61,0:09:13.28,Captions-207-,,0,0,0,,{\pos(720,675)\fscx80\fscy81\fnDFPGiHi-W7-Strp\bord0\c&HFAF6F4&\4a&HFF&\blur0.8\fad(189,436)}Lovely Street\NAngel Island
-Dialogue: 0,0:09:19.00,0:09:21.67,Captions-207-,,0,0,0,,{\an8\fscx80\fscy80\fnDFPGiHi-W7-Strp\bord3.6\c&H535353&\3c&H535353&\1a&HFF&\blur1\fad(392,0)\t(347,392,\1a&H00&)}Kommandant McKinley\NWeiße Baretts, Polizei von Skypiea
-Dialogue: 1,0:09:19.00,0:09:21.67,Captions-207-,,0,0,0,,{\an8\fscx80\fscy80\fnDFPGiHi-W7-Strp\bord0.6\c&HFAF6F4&\3c&HFAF6F4&\1a&HFF&\4a&HFF&\blur1\fad(392,0)\t(347,392,\1a&H00&)}Kommandant McKinley\NWeiße Baretts, Polizei von Skypiea
-Dialogue: 2,0:09:19.00,0:09:21.67,Captions-207-,,0,0,0,,{\an8\fscx80\fscy80\fnDFPGiHi-W7-Strp\bord0\c&HFAF6F4&\4a&HFF&\blur1\fad(392,0)}Kommandant McKinley\NWeiße Baretts, Polizei von Skypiea
-Dialogue: 0,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Video Editing
-Dialogue: 1,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Video Editing
-Dialogue: 0,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}Feeso
-Dialogue: 1,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}Feeso
-Dialogue: 0,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Graphics
-Dialogue: 1,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Graphics
-Dialogue: 0,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}Datenshi
-Dialogue: 1,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}Datenshi
-Dialogue: 0,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Quality Control
-Dialogue: 1,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Quality Control
-Dialogue: 0,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}Galaxy 9000\NPepperjack\NPolydoros\NScolines\NZenef
-Dialogue: 1,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}Galaxy 9000\NPepperjack\NPolydoros\NScolines\NZenef
-Dialogue: 0,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Karaoke
-Dialogue: 1,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Karaoke
-Dialogue: 0,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}KaitouYahiko
-Dialogue: 1,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}KaitouYahiko
-Dialogue: 0,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Soundtracking
-Dialogue: 1,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Soundtracking
-Dialogue: 0,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}Halee
-Dialogue: 1,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}Halee
-Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Timing
-Dialogue: 1,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Timing
-Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}KaitouYahiko
-Dialogue: 1,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}KaitouYahiko
-Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(44,209)\fscx120\fscy120\bord3.3\c&H000000&}Typesetting
-Dialogue: 1,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(44,209)\fscx120\fscy120\bord0\4a&HFF&}Typesetting
-Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(89,270)\fscx145\fscy145\bord3.5\c&H000000&}PhosCity
-Dialogue: 1,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\blur0.6\pos(89,270)\fscx145\fscy145\bord0\4a&HFF&}PhosCity
-Dialogue: 0,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Subtitle Editing
-Dialogue: 1,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Subtitle Editing
-Dialogue: 0,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}dennisjagut
-Dialogue: 1,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}dennisjagut
-Dialogue: 0,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord3.3\c&H000000&}Translation
-Dialogue: 1,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\blur0.6\pos(44,59)\fscx120\fscy120\bord0\4a&HFF&}Translation
-Dialogue: 0,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord3.5\c&H000000&}Crunchyroll\NNikki
-Dialogue: 1,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\blur0.6\pos(89,120)\fscx145\fscy145\bord0\4a&HFF&}Crunchyroll\NNikki
+Dialogue: 0,0:01:49.67,0:01:59.67,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Der benutzte Mediaplayer unterstützt das in dieser Episode verwendete Untertitelformat nicht.\NDie Untertitel werden wahrscheinlich nicht korrekt angezeigt werden.\NBitte verwende einen der empfohlenen Videoplayer, vorzugsweise mpv:\Nhttps://mpv.io
+Dialogue: 50,0:01:53.80,0:01:55.72,Thoughts-207-,,0,0,0,,Ich muss ihn retten. Ich muss ihn retten!
+Dialogue: 50,0:01:55.72,0:01:56.97,Thoughts-207-,,0,0,0,,Hier sind Himmelshaie!
+Dialogue: 50,0:01:58.85,0:02:00.93,Main-207-,,0,0,0,,Betrachte das als Enels Zorn!
+Dialogue: 50,0:02:01.35,0:02:03.98,Main-207-,,0,0,0,,Am Ende warst du uns Priestern nicht gewachsen!
+Dialogue: 50,0:02:03.98,0:02:08.86,Main-207-,,0,0,0,,Ritter des Himmels!
+Dialogue: 50,0:02:09.61,0:02:11.92,Main-207-,,0,0,0,,Du bist doch ein Zoan-Nutzer, oder?!
+Dialogue: 50,0:02:11.92,0:02:12.70,Main-207-,,0,0,0,,Bist du blöd?!
+Dialogue: 50,0:02:17.62,0:02:21.12,Main-207-,,0,0,0,,Ach ja, du bist ja auch ein Zoan-Nutzer.
+Dialogue: 50,0:02:22.00,0:02:23.75,Main-207-,,0,0,0,,Wie unangenehm...
+Dialogue: 50,0:02:27.46,0:02:30.17,Main-207-,,0,0,0,,Warum folgst du nicht deinem Herrn?!
+Dialogue: 50,0:02:37.63,0:02:39.43,Main-207-,,0,0,0,,Ah, wie absurd!
+Dialogue: 50,0:02:39.43,0:02:41.89,Main-207-,,0,0,0,,Ich ertrag nicht,\Nwie schwach die alle sind.
+Dialogue: 50,0:02:42.64,0:02:46.02,Main-207-,,0,0,0,,Wenn das hier ein bodenloser\NFluss wäre, gäbe es noch Hoffnung.
+Dialogue: 50,0:02:46.02,0:02:49.48,Main-207-,,0,0,0,,Doch leider ist dem nicht so.
+Dialogue: 50,0:02:50.98,0:02:52.49,Main-207-,,0,0,0,,Mal sehen...
+Dialogue: 50,0:02:53.11,0:02:56.70,Main-207-,,0,0,0,,{\q2}Ich frage mich, ob diese drei\NFlüchtlinge schon niedergestreckt wurden.
+Dialogue: 50,0:02:59.74,0:03:01.79,Main-207-,,0,0,0,,Ist dieser Brunnen so seltsam?
+Dialogue: 50,0:03:01.79,0:03:02.50,Main-207-,,0,0,0,,In der Tat.
+Dialogue: 50,0:03:03.12,0:03:05.71,Main-207-,,0,0,0,,Es ist schwer zu glauben, dass ein Brunnen unter einem Baum steckt.
+Dialogue: 50,0:03:06.67,0:03:09.67,Main-207-,,0,0,0,,Die Balance zwischen Zivilisation und Natur ist hier verdreht.
+Dialogue: 50,0:03:10.17,0:03:13.63,Main-207-,,0,0,0,,{\q2}Wie dem auch sei, wenn wir keine\NMöglichkeit zur Flussüberquerung finden,
+Dialogue: 50,0:03:14.17,0:03:17.05,Main-207-,,0,0,0,,können wir uns den Wald nicht näher ansehen.
+Dialogue: 50,0:03:18.97,0:03:21.60,Main-207-,,0,0,0,,Gott zu treffen ist in weiter Ferne.
+Dialogue: 50,0:03:21.60,0:03:24.77,Main-207-,,0,0,0,,Die Zivilisation konnte den Baumwuchs nicht absehen.
+Dialogue: 50,0:03:25.44,0:03:27.52,Main-207-,,0,0,0,,So etwas ist mir noch nie unter die Augen gekommen.
+Dialogue: 50,0:03:28.06,0:03:29.52,Main-207-,,0,0,0,,Hey, Nami!
+Dialogue: 50,0:03:29.52,0:03:31.77,Main-207-,,0,0,0,,Kannst du von dort oben was sehen?
+Dialogue: 50,0:03:36.82,0:03:40.24,Main-207-,,0,0,0,,Die Insel, auf der\NGott lebt, Upper Yard...
+Dialogue: 50,0:03:44.62,0:03:46.91,Main-207-,,0,0,0,,Hey! Raus mit der Sprache!
+Dialogue: 50,0:03:46.91,0:03:48.83,Main-207-,,0,0,0,,Hast du Gott gefunden?
+Dialogue: 50,0:03:50.33,0:03:52.17,Main-207-,,0,0,0,,Ob sie wohl was gesehen hat?
+Dialogue: 50,0:03:55.84,0:03:57.22,Main-207-,,0,0,0,,Diese Insel...
+Dialogue: 50,0:03:57.22,0:03:58.43,Main-207-,,0,0,0,,Das kann nicht sein...!
+Dialogue: 50,0:04:02.64,0:04:04.43,Main-207-,,0,0,0,,Ihr seid erledigt.
+Dialogue: 50,0:04:04.43,0:04:06.77,Main-207-,,0,0,0,,Jetzt ruht schon in Frieden.
+Dialogue: 50,0:04:06.77,0:04:09.73,Main-207-,,0,0,0,,Ich bin ein Priester. Ihr habt keine Chance.
+Dialogue: 50,0:04:11.73,0:04:13.36,Main-207-,,0,0,0,,I-Ich bin am Ende!
+Dialogue: 50,0:04:13.36,0:04:16.40,Main-207-,,0,0,0,,Mein Herz erträgt keine weiteren Überraschungen.
+Dialogue: 50,0:04:16.94,0:04:19.45,Main-207-,,0,0,0,,Bald bleiben euch keine Optionen mehr.
+Dialogue: 50,0:04:20.95,0:04:25.66,Main-207-,,0,0,0,,Euer Boot hat fast den Ausgang des Waldes erreicht.
+Dialogue: 50,0:04:25.66,0:04:28.04,Main-207-,,0,0,0,,Wenn es dort ist, ist alles vorbei!
+Dialogue: 50,0:04:31.25,0:04:34.34,Main-207-,,0,0,0,,Sofern ihr nicht wie Vögel fliegen könnt,
+Dialogue: 50,0:04:34.84,0:04:36.84,Main-207-,,0,0,0,,kommt ihr hier nicht raus.
+Dialogue: 50,0:04:39.84,0:04:44.68,Main-207-,,0,0,0,,Ihr wandert in diesem Wald umher und verendet vor Erschöpfung!
+Dialogue: 50,0:04:47.77,0:04:49.02,Main-207-,,0,0,0,,Das wird...
+Dialogue: 50,0:04:50.44,0:04:52.19,Main-207-,,0,0,0,,nicht passieren!
+Dialogue: 50,0:04:52.19,0:04:53.69,Main-207-,,0,0,0,,Und wie es das wird!
+Dialogue: 50,0:04:53.69,0:04:55.57,Main-207-,,0,0,0,,{\fad(150,150)}Überraschungsbälle!
+Dialogue: 50,0:04:57.03,0:04:58.90,Main-207-,,0,0,0,,{\fad(150,150)}Balldrache!
+Dialogue: 50,0:04:58.90,0:05:01.24,Main-207-,,0,0,0,,Und nun wird’s so richtig spaßig!
+Dialogue: 50,0:05:02.37,0:05:05.20,Main-207-,,0,0,0,,Welche davon ist wohl die Feuerbombe?
+Dialogue: 50,0:05:05.20,0:05:08.33,Main-207-,,0,0,0,,Berührt sie und lasst eine astronomische Explosion entstehen!
+Dialogue: 50,0:05:13.42,0:05:15.96,Thoughts-207-,,0,0,0,,Gut, jetzt. Wir schaffen’s noch!
+Dialogue: 50,0:05:16.50,0:05:18.63,Thoughts-207-,,0,0,0,,Du machst das schon, Luffy!
+Dialogue: 50,0:05:23.38,0:05:26.43,Main-207-,,0,0,0,,Oh? Du willst den Baum hochklettern und so entkommen?
+Dialogue: 50,0:05:26.43,0:05:29.23,Main-207-,,0,0,0,,Warum kann er meine Gedanken lesen?!
+Dialogue: 50,0:05:29.23,0:05:30.89,Main-207-,,0,0,0,,Bleib mir von den Fersen!
+Dialogue: 50,0:05:33.06,0:05:34.27,Main-207-,,0,0,0,,W-Was?!
+Dialogue: 50,0:05:36.57,0:05:37.73,Main-207-,,0,0,0,,Oh, verstehe!
+Dialogue: 50,0:05:38.48,0:05:41.40,Main-207-,,0,0,0,,Er wurde durch diese Schnur kontrolliert!
+Dialogue: 50,0:05:41.40,0:05:42.45,Main-207-,,0,0,0,,Ich kümmere mich...
+Dialogue: 50,0:05:43.87,0:05:45.74,Main-207-,,0,0,0,,um diese Schnur!
+Dialogue: 50,0:05:47.74,0:05:50.45,Main-207-,,0,0,0,,Ich kann meinen Balldrachen nicht mehr kontrollieren!
+Dialogue: 50,0:05:51.00,0:05:52.58,Main-207-,,0,0,0,,Wie unverfroren!
+Dialogue: 50,0:05:52.58,0:05:54.50,Main-207-,,0,0,0,,Komm du mir nur her!
+Dialogue: 50,0:06:00.34,0:06:02.97,Main-207-,,0,0,0,,Hey, jetzt nimm endlich deine Pfoten da weg!
+Dialogue: 50,0:06:23.53,0:06:25.41,Main-207-,,0,0,0,,Da ist er!
+Dialogue: 50,0:06:25.41,0:06:27.03,Main-207-,,0,0,0,,Ich hatte also recht!
+Dialogue: 50,0:06:27.03,0:06:29.20,Main-207-,,0,0,0,,Es besteht kein Zweifel, das ist der Ausgang!
+Dialogue: 50,0:06:29.70,0:06:30.95,Main-207-,,0,0,0,,Natürlich!
+Dialogue: 50,0:06:30.95,0:06:33.58,Main-207-,,0,0,0,,Warum ist uns das nicht früher eingefallen?
+Dialogue: 50,0:06:33.58,0:06:36.67,Main-207-,,0,0,0,,Wir sind von einem so hohen Ort gefallen.
+Dialogue: 50,0:06:37.13,0:06:40.09,Main-207-,,0,0,0,,Natürlich ist der Ausgang auf derselben Höhe!
+Dialogue: 50,0:06:41.13,0:06:44.38,Main-207-,,0,0,0,,Da wir nun wissen, wo wir hier rauskommen, ist das Boot auch egal!
+Dialogue: 50,0:06:44.76,0:06:45.89,Main-207-,,0,0,0,,Ich muss mich beeilen.
+Dialogue: 50,0:06:45.89,0:06:48.01,Main-207-,,0,0,0,,Die große Explosion eben macht mir Sorgen.
+Dialogue: 50,0:06:48.01,0:06:49.97,Main-207-,,0,0,0,,Hoffentlich geht’s denen gut!
+Dialogue: 50,0:06:49.97,0:06:50.93,Main-207-,,0,0,0,,Au, au, au...
+Dialogue: 50,0:06:57.40,0:06:58.90,Main-207-,,0,0,0,,Das war knapp!
+Dialogue: 50,0:06:58.90,0:07:01.03,Main-207-,,0,0,0,,Was für ein riesengroßer Idiot!
+Dialogue: 50,0:07:01.03,0:07:05.24,Main-207-,,0,0,0,,Nein, vielleicht war das auch Absicht.
+Dialogue: 50,0:07:05.24,0:07:06.34,Main-207-,,0,0,0,,Das ist nicht gut.
+Dialogue: 50,0:07:06.34,0:07:08.41,Main-207-,,0,0,0,,Ich bin noch nicht gut genug trainiert.
+Dialogue: 50,0:07:08.41,0:07:10.79,Main-207-,,0,0,0,,Er hat kurz die Kontrolle über das Geschehen erlangt!
+Dialogue: 50,0:07:10.79,0:07:13.83,Main-207-,,0,0,0,,Wenn ich wegen so einer Kleinigkeit aus der Fassung gerate,
+Dialogue: 50,0:07:14.33,0:07:16.37,Main-207-,,0,0,0,,störe ich das Mantra!
+Dialogue: 50,0:07:16.37,0:07:17.79,Main-207-,,0,0,0,,Du hast recht!
+Dialogue: 50,0:07:18.38,0:07:19.59,Main-207-,,0,0,0,,Das war knapp!
+Dialogue: 50,0:07:21.05,0:07:23.21,Main-207-,,0,0,0,,Ah! Du lebst noch?!
+Dialogue: 50,0:07:24.34,0:07:25.93,Main-207-,,0,0,0,,Ah! Runter von mir!
+Dialogue: 50,0:07:25.93,0:07:26.80,Main-207-,,0,0,0,,Du Trottel!
+Dialogue: 50,0:07:26.80,0:07:28.64,Main-207-,,0,0,0,,Lass ihn nicht gehen, Luffy!
+Dialogue: 50,0:07:26.80,0:07:28.64,Secondary-207-,,0,0,0,,Weg von mir!
+Dialogue: 50,0:07:28.64,0:07:30.81,Main-207-,,0,0,0,,Lass den laufenden Kubikmeter auf keinen Fall los!
+Dialogue: 50,0:07:30.81,0:07:31.64,Main-207-,,0,0,0,,Du...!
+Dialogue: 50,0:07:31.64,0:07:33.72,Main-207-,,0,0,0,,Oh, Sanji, du lebst noch?
+Dialogue: 50,0:07:33.72,0:07:36.48,Main-207-,,0,0,0,,Wegen dir wär’s fast um mich geschehen!
+Dialogue: 50,0:07:36.48,0:07:38.27,Main-207-,,0,0,0,,Achte mal mehr auf andere!
+Dialogue: 50,0:07:38.94,0:07:41.57,Main-207-,,0,0,0,,Nun, jedenfalls, Rollbraten...
+Dialogue: 50,0:07:45.65,0:07:48.41,Main-207-,,0,0,0,,Du schwafelst die ganze Zeit von „Prüfung hier, Prüfung da“...
+Dialogue: 50,0:07:48.41,0:07:51.74,Main-207-,,0,0,0,,Aber ehrlich gesagt ist das nicht unser Bier.
+Dialogue: 50,0:07:51.74,0:07:55.37,Main-207-,,0,0,0,,{\q2}Trotzdem haben wir uns auf deine\Nbescheuerte Himmelsprüfung eingelassen,
+Dialogue: 50,0:07:55.37,0:07:58.08,Main-207-,,0,0,0,,weil zwei hilflose Damen
+Dialogue: 50,0:07:58.08,0:08:00.21,Main-207-,,0,0,0,,auf unsere Rettung warten.
+Dialogue: 50,0:08:01.21,0:08:02.80,Main-207-,,0,0,0,,Anders gesagt...
+Dialogue: 50,0:08:04.80,0:08:07.26,Main-207-,,0,0,0,,ist das eine Prüfung der Liebe, jawohl!
+Dialogue: 50,0:08:07.26,0:08:09.26,Thoughts-207-,,0,0,0,,Ist der denn auch völlig bescheuert?!
+Dialogue: 50,0:08:10.01,0:08:11.80,Main-207-,,0,0,0,,Ah! Du sollst mich loslassen!
+Dialogue: 50,0:08:11.80,0:08:14.25,Main-207-,,0,0,0,,D-Du...! Drecksack!
+Dialogue: 50,0:08:14.25,0:08:15.89,Main-207-,,0,0,0,,Verdammt! Lass mich los!
+Dialogue: 50,0:08:15.89,0:08:18.73,Main-207-,,0,0,0,,Zwei gegen einen ist unfair!
+Dialogue: 50,0:08:22.11,0:08:24.69,Main-207-,,0,0,0,,Ihr Freaks habt unsere Freunde gekidnappt.
+Dialogue: 50,0:08:25.23,0:08:29.20,Main-207-,,0,0,0,,{\q2}Ihr habt einen süßen Engel zum\NWeinen gebracht und wolltet ihn töten!
+Dialogue: 50,0:08:29.20,0:08:31.82,Main-207-,,0,0,0,,Den Vorwurf kannst du dir also sparen.
+Dialogue: 50,0:08:31.82,0:08:33.45,Main-207-,,0,0,0,,Da hat er recht.
+Dialogue: 50,0:08:33.45,0:08:37.20,Main-207-,,0,0,0,,Es ist beachtlich, dass du unsere Bewegungen vorhersiehst.
+Dialogue: 50,0:08:37.20,0:08:39.33,Main-207-,,0,0,0,,Aber selbst wenn,
+Dialogue: 50,0:08:39.33,0:08:42.71,Main-207-,,0,0,0,,das bedeutet nicht, dass du sie auch vermeiden kannst, richtig?
+Dialogue: 50,0:08:44.25,0:08:45.88,Main-207-,,0,0,0,,I-Ihr Dummköpfe! Hört auf!
+Dialogue: 50,0:08:45.88,0:08:48.13,Main-207-,,0,0,0,,Ich bin einer der Priester, die Gott dienen!
+Dialogue: 50,0:08:48.13,0:08:48.97,Main-207-,,0,0,0,,Lass mich los!
+Dialogue: 50,0:08:48.97,0:08:50.22,Main-207-,,0,0,0,,Hey, hörst du schlecht?!
+Dialogue: 50,0:08:50.22,0:08:53.56,Main-207-,,0,0,0,,Sich der Verurteilung durch einen Priester zu widersetzen,
+Dialogue: 50,0:08:53.56,0:08:55.43,Main-207-,,0,0,0,,ist ein Verbrechen ersten Grades in Skypiea!
+Dialogue: 50,0:08:55.43,0:08:58.18,Main-207-,,0,0,0,,Jetzt hört mir zu!
+Dialogue: 50,0:08:58.18,0:09:02.15,Main-207-,,0,0,0,,{\q2}Mich anzugreifen gleicht einer\NKriegserklärung an den allmächtigen Enel!
+Dialogue: 50,0:09:02.15,0:09:04.82,Main-207-,,0,0,0,,Mach den Mund zu, hier stinkt’s.
+Dialogue: 50,0:09:06.15,0:09:10.15,Main-207-,,0,0,0,,Will man beispielsweise die perfekte Mignonnette aus Pfeffer gewinnen,
+Dialogue: 50,0:09:13.41,0:09:16.70,Main-207-,,0,0,0,,ist es wichtig, sie stark, grob...
+Dialogue: 50,0:09:17.37,0:09:20.12,Main-207-,,0,0,0,,und ohne zu zögern zu zerstampfen.
+Dialogue: 50,0:09:25.04,0:09:28.46,Main-207-,,0,0,0,,Dann entfaltet sich der wundervolle Geruch im Inneren...
+Dialogue: 50,0:09:29.22,0:09:31.47,Main-207-,,0,0,0,,Ah! Aaah! Aufhören!
+Dialogue: 50,0:09:32.64,0:09:34.22,Main-207-,,0,0,0,,Ah! Nicht, nein!
+Dialogue: 50,0:09:34.22,0:09:36.81,Main-207-,,0,0,0,,Das wird wehtun! Also lass es!
+Dialogue: 50,0:09:39.39,0:09:41.77,Main-207-,,0,0,0,,{\fad(150,150)}Concassé!
+Dialogue: 50,0:09:49.99,0:09:54.20,Main-207-,,0,0,0,,Gan Fall, der ehemalige Gott, ist nach Upper Yard gekommen.
+Dialogue: 50,0:10:07.09,0:10:08.88,Main-207-,,0,0,0,,Was ist, Aisa?
+Dialogue: 50,0:10:09.46,0:10:11.22,Main-207-,,0,0,0,,Zwei Stimmen sind verstummt.
+Dialogue: 50,0:10:11.22,0:10:12.38,Main-207-,,0,0,0,,Wie bitte?!
+Dialogue: 50,0:10:13.55,0:10:14.84,Main-207-,,0,0,0,,Sagt dir das dein Mantra?
+Dialogue: 50,0:10:14.84,0:10:15.80,Main-207-,,0,0,0,,Ja...
+Dialogue: 50,0:10:15.80,0:10:18.35,Main-207-,,0,0,0,,Gerade eben...
+Dialogue: 50,0:10:20.93,0:10:24.77,Main-207-,,0,0,0,,Das sagt dir dein Mantra, Aisa?
+Dialogue: 50,0:10:24.77,0:10:27.02,Main-207-,,0,0,0,,Du kannst zwei Stimmen nicht mehr hören...
+Dialogue: 50,0:10:27.02,0:10:28.23,Main-207-,,0,0,0,,Ist das wahr?!
+Dialogue: 50,0:10:31.07,0:10:32.57,Main-207-,,0,0,0,,Es besteht kein Zweifel.
+Dialogue: 50,0:10:32.57,0:10:36.53,Main-207-,,0,0,0,,Ihr alle wisst doch, dass sie seit ihrer Geburt über das Mantra,
+Dialogue: 50,0:10:36.53,0:10:40.16,Main-207-,,0,0,0,,eine mysteriöse Kraft verfügt, welche ihr erlaubt,
+Dialogue: 50,0:10:40.16,0:10:41.95,Main-207-,,0,0,0,,Leute von weit weg zu spüren.
+Dialogue: 50,0:10:43.08,0:10:45.33,Main-207-,,0,0,0,,Du vernimmst also die Stimme zweier Leute nicht mehr?
+Dialogue: 50,0:10:45.33,0:10:47.67,Main-207-,,0,0,0,,Ja... Sie verschwanden etwa zur selben Zeit.
+Dialogue: 50,0:10:48.42,0:10:51.96,Main-207-,,0,0,0,,Das waren vermutlich\NGan Fall und einer der Priester...
+Dialogue: 50,0:10:51.96,0:10:52.76,Main-207-,,0,0,0,,Gegenseitig abgemurkst?
+Dialogue: 50,0:10:52.76,0:10:54.84,Main-207-,,0,0,0,,Nicht übel, alter Mann.
+Dialogue: 50,0:10:54.84,0:10:56.51,Main-207-,,0,0,0,,Nun sind nur noch drei Priester übrig.
+Dialogue: 50,0:10:56.51,0:10:58.22,Main-207-,,0,0,0,,Das spielt uns in die Hände.
+Dialogue: 50,0:10:59.10,0:11:03.10,Main-207-,,0,0,0,,Anscheinend hat der Himmel unsere Gebete erhört.
+Dialogue: 50,0:11:04.23,0:11:07.90,Main-207-,,0,0,0,,Das ist unsere Chance, die Priester zu zerstören.
+Dialogue: 50,0:11:07.90,0:11:09.48,Main-207-,,0,0,0,,Ja!
+Dialogue: 50,0:11:09.48,0:11:13.40,Main-207-,,0,0,0,,Wir leiten sofort einen großflächigen Angriff auf den Upper Yard ein!
+Dialogue: 50,0:11:13.40,0:11:15.03,Main-207-,,0,0,0,,– Jawohl!\N– Jawohl!
+Dialogue: 50,0:11:18.57,0:11:23.00,Main-207-,,0,0,0,,In Wypers Gegenwart hast du dich noch nie wohlgefühlt, was?
+Dialogue: 50,0:11:23.00,0:11:24.96,Main-207-,,0,0,0,,Und jetzt zieh Leine.
+Dialogue: 50,0:11:24.12,0:11:24.96,Secondary-207-,,0,0,0,,Au!
+Dialogue: 50,0:11:26.79,0:11:28.54,Main-207-,,0,0,0,,Hey, Raki, warte!
+Dialogue: 50,0:11:29.17,0:11:30.13,Main-207-,,0,0,0,,Was ist?
+Dialogue: 50,0:11:30.13,0:11:32.59,Main-207-,,0,0,0,,Der Priester wurde nicht von Gan Fall besiegt.
+Dialogue: 50,0:11:32.96,0:11:36.30,Main-207-,,0,0,0,,Es sind andere Leute dort, die haben das getan.
+Dialogue: 50,0:11:36.30,0:11:37.89,Main-207-,,0,0,0,,Andere Leute?
+Dialogue: 50,0:11:37.89,0:11:40.64,Main-207-,,0,0,0,,Du meinst die Blaumeerer, die Skypiea betreten haben?
+Dialogue: 50,0:11:40.64,0:11:43.64,Main-207-,,0,0,0,,Keine Ahnung, aber vor denen sollte man auf der Hut sein!
+Dialogue: 50,0:11:44.14,0:11:44.98,Main-207-,,0,0,0,,Darum...
+Dialogue: 50,0:11:45.43,0:11:46.39,Main-207-,,0,0,0,,pass auf dich auf.
+Dialogue: 50,0:11:48.52,0:11:50.06,Main-207-,,0,0,0,,Verstanden...
+Dialogue: 50,0:11:50.06,0:11:52.73,Main-207-,,0,0,0,,Aisa, gib mir deine Tasche.
+Dialogue: 50,0:11:52.73,0:11:53.44,Main-207-,,0,0,0,,Was?!
+Dialogue: 50,0:11:53.44,0:11:57.91,Main-207-,,0,0,0,,Nein! Das ist meine Geheimtasche, meine Schätze sind darin!
+Dialogue: 50,0:11:57.91,0:11:59.16,Main-207-,,0,0,0,,Ich weiß.
+Dialogue: 50,0:12:02.08,0:12:04.91,Main-207-,,0,0,0,,Ich bringe dir auch was mit.
+Dialogue: 50,0:12:04.91,0:12:06.37,Main-207-,,0,0,0,,Wirklich wahr?!
+Dialogue: 50,0:12:05.66,0:12:06.37,Secondary-207-,,0,0,0,,Ja.
+Dialogue: 50,0:12:18.51,0:12:19.51,Main-207-,,0,0,0,,Oh?
+Dialogue: 50,0:12:20.34,0:12:23.43,Main-207-,,0,0,0,,Ich lebe?
+Dialogue: 50,0:12:25.89,0:12:27.73,Main-207-,,0,0,0,,Ritter des Himmels!
+Dialogue: 50,0:12:27.73,0:12:30.02,Main-207-,,0,0,0,,Ein Arzt! Schnell, ein Arzt!\NOh, ich bin ja einer!
+Dialogue: 50,0:12:33.15,0:12:35.40,Main-207-,,0,0,0,,Ein Glück... Er lebt noch.
+Dialogue: 50,0:12:37.86,0:12:40.07,Main-207-,,0,0,0,,Aber seltsam...
+Dialogue: 50,0:12:40.07,0:12:43.24,Main-207-,,0,0,0,,Ich dachte, wir wären im Fluss versunken.
+Dialogue: 50,0:12:43.24,0:12:45.45,Main-207-,,0,0,0,,Wer uns wohl rausgezogen hat?
+Dialogue: 50,0:12:48.33,0:12:49.96,Main-207-,,0,0,0,,Hm?! Wer ist da?! Er hat Gott gesagt...
+Dialogue: 50,0:12:50.46,0:12:52.38,Main-207-,,0,0,0,,Wer hat da gerade gesprochen?!
+Dialogue: 50,0:13:03.22,0:13:04.85,Main-207-,,0,0,0,,Was?! Was?!
+Dialogue: 50,0:13:14.23,0:13:16.72,Main-207-,,0,0,0,,Jetzt spuck’s schon aus!
+Dialogue: 50,0:13:16.72,0:13:18.19,Main-207-,,0,0,0,,Was hast du gesehen?!
+Dialogue: 50,0:13:18.19,0:13:20.24,Main-207-,,0,0,0,,Stellt keine Fragen. Folgt mir einfach!
+Dialogue: 50,0:13:20.24,0:13:22.20,Main-207-,,0,0,0,,Wir müssen irgendwie zur Küste gelangen!
+Dialogue: 50,0:13:23.41,0:13:25.41,Main-207-,,0,0,0,,Hey! Hilf mir mal!
+Dialogue: 50,0:13:25.41,0:13:28.83,Main-207-,,0,0,0,,Solltest du nicht vorgehen, wenn wir dir folgen sollen?!
+Dialogue: 50,0:13:28.83,0:13:29.75,Main-207-,,0,0,0,,An die Küste?
+Dialogue: 50,0:13:29.75,0:13:30.91,Main-207-,,0,0,0,,Genau.
+Dialogue: 50,0:13:30.91,0:13:33.67,Main-207-,,0,0,0,,Jedenfalls müssen wir es vor Ort überprüfen,
+Dialogue: 50,0:13:36.67,0:13:40.67,Main-207-,,0,0,0,,weil ich meinen Augen noch immer nicht glauben kann.
+Dialogue: 50,0:13:41.22,0:13:43.47,Main-207-,,0,0,0,,Endlich ist Ruhe im Karton.
+Dialogue: 50,0:13:43.47,0:13:45.14,Main-207-,,0,0,0,,Hey!
+Dialogue: 50,0:13:45.14,0:13:48.18,Main-207-,,0,0,0,,Luffy! Sanji! Ich hab das Boot gefunden!
+Dialogue: 50,0:13:48.18,0:13:51.44,Main-207-,,0,0,0,,Schnell! Sonst ist es aus dem Wald!
+Dialogue: 50,0:13:51.94,0:13:54.31,Main-207-,,0,0,0,,Hm? Oh, Usopp geht’s auch gut.
+Dialogue: 50,0:13:54.31,0:13:56.94,Main-207-,,0,0,0,,Hey, er sagt, das Boot segelt ohne uns davon!
+Dialogue: 50,0:13:57.36,0:13:58.40,Main-207-,,0,0,0,,Oh, Mist!
+Dialogue: 50,0:13:58.86,0:14:02.15,Main-207-,,0,0,0,,Es ist fast am Ausgang des Waldes!
+Dialogue: 50,0:14:03.45,0:14:05.66,Main-207-,,0,0,0,,Hey! Haltet euch an mir fest!
+Dialogue: 50,0:14:05.66,0:14:06.62,Main-207-,,0,0,0,,An dir?
+Dialogue: 50,0:14:06.62,0:14:07.62,Main-207-,,0,0,0,,Los geht’s!
+Dialogue: 50,0:14:08.12,0:14:14.21,Main-207-,,0,0,0,,{\fad(150,150)}Usopp Aaaah!
+Dialogue: 50,0:14:19.17,0:14:20.84,Main-207-,,0,0,0,,Alles klar! Hab’s!
+Dialogue: 50,0:14:20.84,0:14:23.59,Main-207-,,0,0,0,,Juhuuu! Du bist unser Mann, Usopp!
+Dialogue: 50,0:14:23.59,0:14:25.40,Main-207-,,0,0,0,,Das tat weh!
+Dialogue: 50,0:14:25.40,0:14:26.64,Main-207-,,0,0,0,,Willst du mich umbringen?!
+Dialogue: 50,0:14:26.64,0:14:27.60,Main-207-,,0,0,0,,Huppala.
+Dialogue: 50,0:14:27.60,0:14:29.22,Main-207-,,0,0,0,,Du kannst ja manchmal richtig cool sein!
+Dialogue: 50,0:14:29.22,0:14:31.77,Main-207-,,0,0,0,,Jo! Hast mich wohl unterschätzt, was?
+Dialogue: 50,0:14:31.77,0:14:32.48,Main-207-,,0,0,0,,Nanu?
+Dialogue: 50,0:14:32.98,0:14:34.06,Main-207-,,0,0,0,,Hä? Was?
+Dialogue: 50,0:14:32.98,0:14:34.06,Secondary-207-,,0,0,0,,Hey! Hey, hey!
+Dialogue: 50,0:14:34.06,0:14:36.61,Main-207-,,0,0,0,,M-M-Moment mal! Was tust du da?!
+Dialogue: 50,0:14:49.20,0:14:51.45,Main-207-,,0,0,0,,Das kriegst du zurück!
+Dialogue: 50,0:14:51.45,0:14:56.17,Main-207-,,0,0,0,,Ich hätte mich dehnen sollen.
+Dialogue: 50,0:14:57.58,0:15:01.80,Main-207-,,0,0,0,,Jedenfalls kommen wir nun aus dem Wald der Verlorenen.
+Dialogue: 50,0:15:06.26,0:15:08.68,Main-207-,,0,0,0,,Also ist Satori gefallen.
+Dialogue: 50,0:15:09.43,0:15:10.97,Main-207-,,0,0,0,,Lässt sein Mantra stören...
+Dialogue: 50,0:15:10.97,0:15:12.64,Main-207-,,0,0,0,,Was für ein Anfänger.
+Dialogue: 50,0:15:13.23,0:15:16.56,Main-207-,,0,0,0,,{\q2}Wenn ich mich nicht täusche,\Nsind die illegalen Eindringlinge Blaumeerer.
+Dialogue: 50,0:15:16.56,0:15:18.98,Main-207-,,0,0,0,,Das scheinen keine gewöhnlichen Leute zu sein.
+Dialogue: 50,0:15:18.98,0:15:21.53,Main-207-,,0,0,0,,Die Opfer bewegen sich auch frei herum.
+Dialogue: 50,0:15:21.53,0:15:23.69,Main-207-,,0,0,0,,Aber auch wenn wir sie erst mal ignorieren,
+Dialogue: 50,0:15:23.69,0:15:26.45,Main-207-,,0,0,0,,finden sie nicht von dieser Insel.
+Dialogue: 50,0:15:28.07,0:15:29.87,Main-207-,,0,0,0,,Was viel wichtiger ist: Wir müssen...
+Dialogue: 50,0:15:40.50,0:15:43.71,Main-207-,,0,0,0,,Nimmst du die Stimme eines sorgenvollen Kriegers wahr, Holy?
+Dialogue: 50,0:15:44.72,0:15:47.26,Main-207-,,0,0,0,,Egal wie oft wir kämpfen, das Ergebnis bleibt gleich.
+Dialogue: 50,0:15:48.01,0:15:52.06,Main-207-,,0,0,0,,Shura hat Gan Fall besiegt, aber die Prüfung der Bälle ist überwunden.
+Dialogue: 50,0:15:52.64,0:15:55.39,Main-207-,,0,0,0,,Welch turbulenter Tag!
+Dialogue: 50,0:15:56.31,0:15:58.02,Main-207-,,0,0,0,,Ich lasse sie hier nicht passieren.
+Dialogue: 50,0:15:58.02,0:16:00.48,Main-207-,,0,0,0,,Es ist dreist von ihnen, Gott sehen zu wollen!
+Dialogue: 50,0:16:01.48,0:16:03.60,Main-207-,,0,0,0,,Auch wenn die Sonne bald untergeht,
+Dialogue: 50,0:16:03.60,0:16:05.32,Main-207-,,0,0,0,,wird Upper Yard jetzt wohl...
+Dialogue: 50,0:16:07.61,0:16:09.82,Main-207-,,0,0,0,,ein bisschen aufgewühlt.
+Dialogue: 50,0:16:12.03,0:16:14.83,Main-207-,,0,0,2,,Die Flüchtlinge interessieren mich nicht länger.
+Dialogue: 50,0:16:14.83,0:16:19.29,Main-207-,,0,0,2,,Anscheinend sind Gegner erschienen, die sich meiner Wut stellen sollten.
+Dialogue: 50,0:16:43.27,0:16:45.65,Main-207-,,0,0,0,,Hergehört, allesamt!
+Dialogue: 50,0:16:45.65,0:16:48.78,Main-207-,,0,0,0,,Upper Yard wird jetzt aufgemischt.
+Dialogue: 50,0:16:48.78,0:16:51.49,Main-207-,,0,0,0,,Das ist eine einmalige Gelegenheit!
+Dialogue: 50,0:16:51.82,0:16:54.79,Main-207-,,0,0,0,,Wir müssen um jeden Preis zum Götterschrein gelangen!
+Dialogue: 50,0:16:55.37,0:16:57.70,Main-207-,,0,0,0,,Fürchtet euch nicht vor Enel!
+Dialogue: 50,0:16:58.41,0:17:03.42,Main-207-,,0,0,0,,Der Große Krieger Kalgara wird uns beschützen!
+Dialogue: 50,0:17:03.92,0:17:06.05,Main-207-,,0,0,0,,– Jawohl!\N– Jawohl!
+Dialogue: 50,0:17:06.05,0:17:07.13,Main-207-,,0,0,0,,Braham!
+Dialogue: 50,0:17:07.13,0:17:07.92,Main-207-,,0,0,0,,Jawohl!
+Dialogue: 50,0:17:07.92,0:17:08.92,Main-207-,,0,0,0,,Kamakiri!
+Dialogue: 50,0:17:09.88,0:17:10.63,Main-207-,,0,0,0,,Genbo!
+Dialogue: 50,0:17:10.63,0:17:11.76,Main-207-,,0,0,0,,Jawohl!
+Dialogue: 50,0:17:11.76,0:17:12.64,Main-207-,,0,0,0,,Raki!
+Dialogue: 50,0:17:12.64,0:17:13.76,Main-207-,,0,0,0,,Ja!
+Dialogue: 50,0:17:13.76,0:17:15.31,Main-207-,,0,0,0,,Kommt gesund zurück!
+Dialogue: 50,0:17:15.31,0:17:16.64,Main-207-,,0,0,0,,Wir teilen uns hier auf!
+Dialogue: 50,0:17:21.35,0:17:23.52,Main-207-,,0,0,0,,Wir haben dem Großen Kalgara geschworen,
+Dialogue: 50,0:17:23.52,0:17:25.82,Main-207-,,0,0,0,,das Leuchtfeuer Shandoras zu entzünden!
+Dialogue: 50,0:17:25.82,0:17:28.03,Main-207-,,0,0,0,,– Ja!\N– Ja!
+Dialogue: 50,0:17:31.70,0:17:34.74,Thoughts-207-,,0,0,0,,– Also seid ihr gekommen, Shandia!\N– Also seid ihr gekommen, Shandia!
+Dialogue: 50,0:17:41.29,0:17:43.96,Main-207-,,0,0,0,,Das ist nicht nötig, oder?
+Dialogue: 50,0:17:44.46,0:17:45.92,Main-207-,,0,0,0,,Seht euch das an.
+Dialogue: 50,0:17:47.00,0:17:48.55,Main-207-,,0,0,0,,Ihr erkennt das wieder, oder?
+Dialogue: 50,0:17:49.51,0:17:51.22,Main-207-,,0,0,0,,Was hat das zu bedeuten?!
+Dialogue: 50,0:17:51.22,0:17:53.39,Main-207-,,0,0,0,,Was macht etwas vom Boden hier oben?!
+Dialogue: 50,0:17:53.89,0:17:55.22,Main-207-,,0,0,0,,Das ist doch dasselbe, oder?!
+Dialogue: 50,0:17:55.22,0:17:56.35,Main-207-,,0,0,0,,Nein, ist es nicht.
+Dialogue: 50,0:17:56.35,0:17:57.31,Main-207-,,0,0,0,,Was?!
+Dialogue: 50,0:17:57.31,0:18:00.10,Main-207-,,0,0,0,,Das ist die andere Hälfte von der, die wir auf dem Boden sahen.
+Dialogue: 50,0:18:00.10,0:18:01.31,Main-207-,,0,0,0,,Die andere Hälfte?!
+Dialogue: 50,0:18:01.31,0:18:03.69,Main-207-,,0,0,0,,Es wurmt mich schon die ganze Zeit.
+Dialogue: 50,0:18:03.69,0:18:07.11,Main-207-,,0,0,0,,{\q2}Dieser Boden ist etwas, das im\NSchneeweißen Meer nicht existieren sollte.
+Dialogue: 50,0:18:07.69,0:18:09.93,Main-207-,,0,0,0,,Es war mir von Anfang an ein Rätsel,
+Dialogue: 50,0:18:09.93,0:18:12.86,Main-207-,,0,0,0,,warum diese Insel nicht aus Inselwolken besteht.
+Dialogue: 50,0:18:12.86,0:18:16.49,Main-207-,,0,0,0,,Anders gesagt: Diese Insel, genannt „Upper Yard“,
+Dialogue: 50,0:18:17.78,0:18:20.16,Main-207-,,0,0,0,,war ursprünglich im Blaumeer.
+Dialogue: 50,0:18:21.12,0:18:23.67,Main-207-,,0,0,0,,Ich fand das Haus schon seltsam,
+Dialogue: 50,0:18:23.67,0:18:26.84,Main-207-,,0,0,0,,weil es ein Obergeschoss hatte,
+Dialogue: 50,0:18:26.84,0:18:29.79,Main-207-,,0,0,0,,obwohl die Treppe fehlte.
+Dialogue: 50,0:18:30.42,0:18:33.47,Main-207-,,0,0,0,,{\q2}Außerdem gäbe es keinen Grund, ein Haus\Nan einer solchen Klippe zu bauen.
+Dialogue: 50,0:18:34.30,0:18:37.55,Main-207-,,0,0,0,,Diese Küste war\N„eine Trennung der Insel“!
+Dialogue: 50,0:18:38.93,0:18:41.14,Flashbacks-207-,,0,0,0,,{Jaya 04 - 02:46}K-Krass!
+Dialogue: 50,0:18:41.14,0:18:43.06,Flashbacks-207-,,0,0,0,,{Jaya 04 - 02:57}Ihr Blindschleichen. Schaut genau hin.
+Dialogue: 50,0:18:43.06,0:18:45.06,Flashbacks-207-,,0,0,0,,Ein Träumer, was?
+Dialogue: 50,0:18:45.06,0:18:48.02,Flashbacks-207-,,0,0,0,,{Jaya 04 - 03:01}Macht tatsächlich einen aufgeblasenen Eindruck.
+Dialogue: 50,0:18:48.02,0:18:48.69,Flashbacks-207-,,0,0,0,,{Jaya 04 - 03:05}Wieso das?
+Dialogue: 50,0:18:48.69,0:18:51.99,Flashbacks-207-,,0,0,0,,{Jaya 04 - 03:10}Was?! Das ist bloß eine Attrappe?!
+Dialogue: 50,0:18:57.16,0:19:01.37,Main-207-,,0,0,0,,Das ist die andere Hälfte der Insel, die auseinandergerissen wurde.
+Dialogue: 50,0:19:03.46,0:19:06.29,Main-207-,,0,0,0,,Diese Insel war ein Teil Jayas!
+Dialogue: 50,0:19:08.54,0:19:12.63,Main-207-,,0,0,0,,Dann wurde sie schon vor langer Zeit zweigeteilt
+Dialogue: 50,0:19:12.63,0:19:15.09,Main-207-,,0,0,0,,und ein Teil ist in den Himmel gewandert.
+Dialogue: 50,0:19:17.89,0:19:21.01,Main-207-,,0,0,0,,Aber wie kann das sein?
+Dialogue: 50,0:19:22.39,0:19:25.64,Main-207-,,0,0,0,,Hier sind haufenweise South Birds...
+Dialogue: 50,0:19:25.64,0:19:27.44,Main-207-,,0,0,0,,Aber warum?
+Dialogue: 50,0:19:27.94,0:19:30.48,Main-207-,,0,0,0,,Warum sind sie so riesig?
+Dialogue: 50,0:19:49.96,0:19:51.92,Main-207-,,0,0,0,,Hey! Zeit aufzustehen!
+Dialogue: 50,0:19:53.05,0:19:54.63,Main-207-,,0,0,0,,Hm? Ist denn schon Morgen?
+Dialogue: 50,0:19:56.84,0:19:58.22,Main-207-,,0,0,0,,Genau wie Zoro!
+Dialogue: 50,0:19:59.05,0:20:00.93,Main-207-,,0,0,0,,Bleibt wachsam, ihr Dummdödel!
+Dialogue: 50,0:20:06.85,0:20:08.81,Main-207-,,0,0,0,,Die „goldene Stadt“,
+Dialogue: 50,0:20:09.44,0:20:12.15,Main-207-,,0,0,0,,die einst auf dem Land existierte und von Noland entdeckt wurde,
+Dialogue: 50,0:20:12.15,0:20:14.40,Main-207-,,0,0,0,,versank gar nicht im Meer.
+Dialogue: 50,0:20:16.45,0:20:17.82,Main-207-,,0,0,0,,Dieser Teil Jayas...
+Dialogue: 50,0:20:19.07,0:20:20.95,Main-207-,,0,0,0,,schwebte all die Zeit im Himmel!
+Dialogue: 0,0:01:49.71,0:01:53.80,Title-207-,,0,0,0,,{\blur0.6\fad(692,0)\bord1.8\c&H000000&\1a&HFF&\t(650,692,\1a&H00&\fnM+ 1c Pace)}Ouvertüre
+Dialogue: 1,0:01:49.71,0:01:53.80,Title-207-,,0,0,0,,{\blur0.6\fad(692,0)\c&HF9F9F9&\bord0\4a&HFF&\fnM+ 1c Pace}Ouvertüre
+Dialogue: 1,0:15:32.04,0:15:36.54,Captions-207-,,0,0,0,,{\fnFOT-Greco Std DB Strp\pos(720,635)\bord0\blur1\c&HD8D6DB&\b0\fsp2\fscx108\fscy108}"Sky Punk" Gedatsu\NPriester von Skypiea
+Dialogue: 0,0:15:32.04,0:15:36.54,Captions-207-,,0,0,0,,{\fnFOT-Greco Std DB Strp\pos(720,635)\1a&HFF&\blur1\bord2\3c&H1F1F1F&\b0\fsp2\fscx108\fscy108}"Sky Punk" Gedatsu\NPriester von Skypiea
+Dialogue: 1,0:16:05.32,0:16:09.82,Captions-207-,,0,0,0,,{\fnFOT-Greco Std DB Strp\pos(720,635)\fscx108\fscy108\bord0\blur1\c&HF9F7F8&\fsp2}"Sky Breeder" Ohm\NPriester von Skypiea
+Dialogue: 0,0:16:05.32,0:16:09.82,Captions-207-,,0,0,0,,{\fnFOT-Greco Std DB Strp\pos(720,635)\fscx108\fscy108\1a&HFF&\blur1\bord3\3c&H101010&\fsp2}"Sky Breeder" Ohm\NPriester von Skypiea
+Dialogue: 1,0:16:09.82,0:16:19.29,Captions-207-,,0,0,0,,{\fnFOT-Greco Std DB Strp\pos(720,635)\fscx108\fscy108\bord0\blur1\c&HF8F7F8&\fsp2}"Sky Rider" Shura\NPriester von Skypiea
+Dialogue: 0,0:16:09.82,0:16:19.29,Captions-207-,,0,0,0,,{\fnFOT-Greco Std DB Strp\pos(720,635)\fscx108\fscy108\1a&HFF&\blur1\bord3\3c&H101010&\fsp2}"Sky Rider" Shura\NPriester von Skypiea
+Dialogue: 0,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Video Editing
+Dialogue: 0,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Feeso
+Dialogue: 0,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Graphics
+Dialogue: 0,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Datenshi
+Dialogue: 0,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Quality Control
+Dialogue: 0,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Galaxy 9000\NPepperjack\NPhosCity\NPolydoros\NZenef
+Dialogue: 0,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Karaoke
+Dialogue: 0,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}KaitouYahiko
+Dialogue: 0,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Soundtracking
+Dialogue: 0,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Halee
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Timing
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Gab
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\fscx120\fscy120\bord3.3\pos(44,222.2)}Typesetting
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\fscx145\fscy145\bord3.5\pos(89,283.2)}Gab\NPhosCity
+Dialogue: 0,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Subtitle Editing
+Dialogue: 0,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}dennisjagut
+Dialogue: 0,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Translation
+Dialogue: 0,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Crunchyroll
 Dialogue: 0,0:00:06.90,0:00:10.48,Roger Monologue,,0,0,0,,Eine Welt... Genau!
 Dialogue: 0,0:00:10.48,0:00:13.47,Roger Monologue,,0,0,0,,Eine Welt für dich,\Ndie nach Freiheit sucht,
 Dialogue: 0,0:00:13.47,0:00:16.53,Roger Monologue,,0,0,0,,erstreckt sich genau vor deinen Augen.

@@ -9,12 +9,14 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Main-207+,Impress BT,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
-Style: Flashbacks-207+,Impress BT,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
-Style: Thoughts-207+,Impress BT,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
-Style: Secondary-207+,Impress BT,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
-Style: Credits-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,95,100,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
 Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Note-207+,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,3,3,8,300,300,27,1
 Style: Captions Wano,DFGKanTeiRyu-XB-CP,53,&H00070707,&H0000FFFF,&H00F7F7F7,&H7F404040,0,0,0,0,100,100,0,0,1,4.5,0,8,60,60,66,0
 Style: T3,T3,53,&H00000000,&H000000FF,&H00050506,&H00000000,0,0,0,0,105,100,0,0,1,0.75,0,2,15,15,15,1
 Style: Sign-Letter,Yozakura JP,113,&H000E0B0B,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
@@ -22,517 +24,476 @@ Style: Sign-News,Brush Strokes,83,&H00222426,&H000000FF,&H00000000,&H00000000,0,
 Style: Sign-Bingoh_Brothers,Brush Strokes,90,&H00139FC0,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1.5,0,1,0,0,2,15,15,15,1
 Style: Sign-OP,Captain Redemption,375,&H0015181B,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
 Style: Sign-Wano,KG Ten Thousand Reasons Alt,60,&H005B57D2,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
 Style: Karaoke,Duality,105,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,8,15,15,15,1
 Style: Translation,Duality,105,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,2,15,15,15,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 55,0:01:42.91,0:01:46.79,Flashbacks-207+,,0,0,0,,Remember, you're the one\Nwho doubted my crew.
-Dialogue: 55,0:01:50.08,0:01:56.29,Flashbacks-207+,,0,0,0,,{We don't trust each other enough\Nto have each other's backs when death is on the line!}Without mutual trust, we won't have\Neach other's backs when death is on the line!
-Dialogue: 55,0:02:02.60,0:02:05.39,Main-207+,,0,0,0,,Traf was fuming when he left!
-Dialogue: 55,0:02:05.39,0:02:07.73,Main-207+,,0,0,0,,{I wonder}Who knows if he'll come back.
-Dialogue: 55,0:02:08.34,0:02:11.40,Main-207+,,0,0,0,,{I dunno what Shinobu was thinking saying that crap!}Shinobu went too far saying all that crap!
-Dialogue: 55,0:02:11.40,0:02:14.32,Main-207+,,0,0,0,,Don't tell me you can't\Nsee what {triggered her}set her off.
-Dialogue: 55,0:02:14.32,0:02:19.78,Main-207+,,0,0,0,,Kaido invades their country,\Ndestroys everything they had ever known,
-Dialogue: 55,0:02:19.78,0:02:24.66,Main-207+,,0,0,0,,{and yet this plan has been on hold for twenty years,\Nwhile they endured hell.}and yet they held off on their plan \Nfor 20 years while they endured hell.
-Dialogue: 55,0:02:24.66,0:02:29.75,Main-207+,,0,0,0,,Whatever. {I wouldn't blame Bepo and them\Nif they had blabbed about the plan.}Even if Bepo and them had blabbed \Nabout the plan, I wouldn't blame them.
-Dialogue: 55,0:02:29.75,0:02:32.00,Main-207+,,0,0,0,,Sure, I mean, you'd have talked.
-Dialogue: 55,0:02:32.00,0:02:34.42,Main-207+,,0,0,0,,I can say the same about you!
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:41.87,0:01:51.86,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 55,0:01:42.91,0:01:46.79,Flashbacks-207+,,0,0,0,,{Don't forget that you suspected my crew. - CR}{Remember, you're the one\Nwho doubted my crew. - Gaijin}Just remember that it was you\Nwho cast suspicion on my crew.{Z}
+Dialogue: 55,0:01:50.08,0:01:56.29,Flashbacks-207+,,0,0,0,,{How can people who don't trust each other\Nfight together in a deadly battle?! - CR}{We don't trust each other enough\Nto have each other's backs when death is on the line! - Gaijin}Without mutual trust, we won't have\Neach other's backs when fighting for our lives!{Z}
+Dialogue: 55,0:02:02.60,0:02:05.39,Main-207+,,0,0,0,,{Tra-guy left in a rage. - CR}Traf was fuming when he left!{Gaijin}
+Dialogue: 55,0:02:05.90,0:02:07.46,Main-207+,,0,0,0,,{Is he going to come back? - CR}{I wonder if he'll come back. - Gaijin}Who knows if he'll come back.{Z}
+Dialogue: 55,0:02:08.34,0:02:11.40,Main-207+,,0,0,0,,{Damn Shinobu! How could she say that?! - CR}{I dunno what Shinobu was thinking saying that crap! - Gaijin}Shinobu went too far saying all that crap!{Z}
+Dialogue: 55,0:02:11.40,0:02:14.32,Main-207+,,0,0,0,,{But you know why Shinobu-chan grew impatient! - CR}{Don't tell me you can't\Nsee what set her off. - Gaijin}You {\i1}do{\i0} understand what set her off, right?{Z}
+Dialogue: 55,0:02:14.32,0:02:19.78,Main-207+,,0,0,0,,{Kaido took over her country\Nand screwed up her life. - CR}{Kaido invades their country,\Ndestroys everything they had ever known, - Gaijin}Kaido invaded her country and laid waste\Nto everything she had ever known,{Z}
+Dialogue: 55,0:02:19.78,0:02:24.66,Main-207+,,0,0,0,,{But she has endured it\Nand waited 20 years to fight back! - CR}{and yet this plan has been on hold for twenty years, while they endured hell. - Gaijin}but she endured it for twenty years\Nwhile waiting for the moment to fight back.{Z}
+Dialogue: 55,0:02:24.66,0:02:29.75,Main-207+,,0,0,0,,{But even if Bepo and the others told them about the plan,\NI wouldn't blame them. - CR}{Whatever. I wouldn't blame Bepo and them\Nif they had blabbed about the plan. - Gaijin}Whatever. Even if Bepo and the others had\Nblabbed about the plan, I wouldn't blame them.{Z}
+Dialogue: 55,0:02:29.75,0:02:32.00,Main-207+,,0,0,0,,{Because you'd do so, right? - CR}Sure, I mean, you'd have talked.{Gaijin}
+Dialogue: 55,0:02:32.00,0:02:34.42,Main-207+,,0,0,0,,{I think you'd talk, too. - CR}I can say the same about you!{Gaijin}
 Dialogue: 55,0:02:36.42,0:02:38.20,Main-207+,,0,0,0,,Torture, huh?
-Dialogue: 55,0:02:39.09,0:02:40.66,Main-207+,,0,0,0,,I'd last three seconds.
-Dialogue: 55,0:02:40.66,0:02:42.01,Main-207+,,0,0,0,,Hold out just a bit longer!
-Dialogue: 55,0:02:42.01,0:02:43.10,Main-207+,,0,0,0,,Get outta here!
-Dialogue: 55,0:02:43.89,0:02:46.52,Main-207+,,0,0,0,,I have no business with any\Nof you damn peasants!
-Dialogue: 55,0:02:46.52,0:02:51.19,Main-207+,,0,0,0,,What's going on?\N{Who's shouting in laughter-filled Ebisu Town?}An angry shout seems out of place in Ebisu.
-Dialogue: 55,0:02:53.94,0:02:57.74,Main-207+,,0,0,0,,{There she is! That azukiarai-lookin' granny!}You there, old bean-grinding ghost granny!
+Dialogue: 55,0:02:39.09,0:02:40.66,Main-207+,,0,0,0,,{Over in three seconds. - CR}I'd last three seconds.{Gaijin}
+Dialogue: 55,0:02:40.66,0:02:42.01,Main-207+,,0,0,0,,{That's too short! - CR}{Hold out just a bit longer! - Gaijin}Hold out longer, will you?!{Z}
+Dialogue: 55,0:02:42.01,0:02:43.10,Main-207+,,0,0,0,,{Go away! - CR}Get outta here!{Gaijin}
+Dialogue: 55,0:02:43.89,0:02:46.52,Main-207+,,0,0,0,,{I don't need you lowly\Nshits to take care of me! - CR}I have no business with any\Nof you damn peasants!{Gaijin}
+Dialogue: 55,0:02:46.52,0:02:51.19,Main-207+,,0,0,0,,{What's this? Yelling in Ebisu Town\Nthat is always filled with laughter? - CR}{What's going on?\NWho's shouting in laughter-filled Ebisu Town? - Gaijin}What's going on? An angry shout\Nseems out of place in Ebisu Town.{Z}
+Dialogue: 55,0:02:53.94,0:02:57.74,Main-207+,,0,0,0,,{You must be that monster - bean-washing hag! - CR}{There she is! That azukiarai-lookin' granny! - Gaijin}You there, old bean-washing monster granny!{Z}
 Dialogue: 55,0:02:56.80,0:02:57.74,Secondary-207+,,0,0,0,,Stop it!
-Dialogue: 55,0:02:57.74,0:03:03.99,Main-207+,,0,0,0,,{He's a newcomer who used to live in the capital, but he was kicked out yesterday.}He's a new arrival to our town \Nwho was kicked out of the capital yesterday.
-Dialogue: 55,0:03:03.99,0:03:05.72,Main-207+,,0,0,0,,What the hell're you lookin' at?!
-Dialogue: 55,0:03:05.72,0:03:07.77,Main-207+,,0,0,0,,Get outta here, {ya }punks!
-Dialogue: 55,0:03:12.06,0:03:13.50,Main-207+,,0,0,0,,Kicked out?
+Dialogue: 55,0:02:57.74,0:03:03.99,Main-207+,,0,0,0,,{They're new here! They fled the capital\Nand arrived yesterday. - CR}{He's a newcomer who used to live in the capital, but he was kicked out yesterday. - Gaijin}They're new here. They arrived\Nyesterday after fleeing the capital.{Z}
+Dialogue: 55,0:03:03.99,0:03:05.72,Main-207+,,0,0,0,,What are you looking at?!{CR}{What the hell're you lookin' at?! - Gaijin}
+Dialogue: 55,0:03:05.72,0:03:07.77,Main-207+,,0,0,0,,{Go away! - CR}Get outta here, punks!{Gaijin/Z}
+Dialogue: 55,0:03:12.06,0:03:13.50,Main-207+,,0,0,0,,{Fled the capital? - CR}{Kicked out? - Gaijin}They fled the capital?{Z}
 Dialogue: 55,0:03:13.50,0:03:14.46,Main-207+,,0,0,0,,Yeah.
-Dialogue: 55,0:03:14.46,0:03:20.59,Main-207+,,0,0,0,,{\q2}Only those who produce wealth and show loyalty\Nto the shogun can live in the Flower Capital.
-Dialogue: 55,0:03:20.59,0:03:26.31,Main-207+,,0,0,0,,I heard they were into some\Npretty dirty stuff, though!
+Dialogue: 55,0:03:14.46,0:03:20.59,Main-207+,,0,0,0,,{Only people who are loyal to the Shogun\Nand earn money can live in the capital. - CR}{\q2}Only those who produce wealth and show loyalty\Nto the shogun can live in the Flower Capital.{Gaijin}
+Dialogue: 55,0:03:20.59,0:03:26.31,Main-207+,,0,0,0,,{I heard that those men were\Ndoing pretty bad things. - CR}{I heard they were into some\Npretty dirty stuff, though! - Gaijin}I heard those men were doing\Nsome pretty scummy things.{Z}
 Dialogue: 55,0:03:26.31,0:03:27.43,Main-207+,,0,0,0,,First,
-Dialogue: 55,0:03:27.43,0:03:29.39,Main-207+,,0,0,0,,we have the humble Bungo.
-Dialogue: 55,0:03:27.43,0:03:29.39,Secondary-207+,,0,0,0,,You damn kids!
-Dialogue: 55,0:03:31.19,0:03:34.81,Main-207+,,0,0,0,,Night after night,\Nhe'd roam the streets setting fires{.},
-Dialogue: 55,0:03:34.81,0:03:39.24,Main-207+,,0,0,0,,{He'd}but he'd bribe officials to avoid punishment.
-Dialogue: 55,0:03:42.86,0:03:44.30,Main-207+,,0,0,0,,He's an arsonist?!
-Dialogue: 55,0:03:44.30,0:03:46.53,Main-207+,,0,0,0,,{Why would he bribe anyone to commit arson?}{Why the cycle of arson and bribery?}Where's the payoff in arson and bribery?
-Dialogue: 55,0:03:46.53,0:03:50.25,Main-207+,,0,0,0,,{Someone}Someone else was profiting from those fires.
-Dialogue: 55,0:03:52.04,0:03:56.29,Main-207+,,0,0,0,,Enter the man who sells the {lumber}wood \N{used to rebuild}for rebuilding those houses{,}:
-Dialogue: 55,0:03:56.29,0:03:58.25,Main-207+,,0,0,0,,Bongo, the lumber dealer.
-Dialogue: 55,0:04:00.38,0:04:01.26,Main-207+,,0,0,0,,What?!
-Dialogue: 55,0:04:01.26,0:04:03.22,Main-207+,,0,0,0,,That's not all.
-Dialogue: 55,0:04:04.26,0:04:08.47,Main-207+,,0,0,0,,{Another would take advantage of those grieving over the loss of family in those fires,}Yet another targeted those who mourned \Nthe loss of family in the fires,
-Dialogue: 55,0:04:08.47,0:04:10.64,Main-207+,,0,0,0,,extorting large sums of money from them.
-Dialogue: 55,0:04:10.64,0:04:13.14,Main-207+,,0,0,0,,Meet Bingo, a priest and cooper.
-Dialogue: 55,0:04:16.02,0:04:18.19,Main-207+,,0,0,0,,No! {Are}So those three...
-Dialogue: 55,0:04:18.19,0:04:24.07,Main-207+,,0,0,0,,That's right. Bingo, Bongo,\Nand Bungo were in cahoots.
-Dialogue: 55,0:04:25.53,0:04:26.76,Main-207+,,0,0,0,,I knew it!
-Dialogue: 55,0:04:26.76,0:04:27.99,Main-207+,,0,0,0,,Those jerks!
-Dialogue: 55,0:04:27.99,0:04:31.95,Main-207+,,0,0,0,,You're not wrong. \NBut no matter what evil they committed,
-Dialogue: 55,0:04:31.95,0:04:36.58,Main-207+,,0,0,0,,they'd buy off officials{, so they'd never be caught.} to {drop the}avoid any charges.
-Dialogue: 55,0:04:36.58,0:04:39.04,Main-207+,,0,0,0,,They'd put on a good face in public,
-Dialogue: 55,0:04:39.04,0:04:42.42,Main-207+,,0,0,0,,while actually being {real}downright scoundrels.
-Dialogue: 55,0:04:43.05,0:04:44.55,Main-207+,,0,0,0,,But here's the thing.
-Dialogue: 55,0:04:44.55,0:04:50.93,Main-207+,,0,0,0,,Interestingly enough, Oiran Komurasaki,\Nthat beautiful girl who died yesterday,
-Dialogue: 55,0:04:50.93,0:04:54.27,Main-207+,,0,0,0,,had the three of them smitten.
-Dialogue: 55,0:04:54.27,0:04:59.77,Main-207+,,0,0,0,,All three spent so much on her\Nthat they ended up bankrupt!
-Dialogue: 55,0:04:59.77,0:05:03.65,Main-207+,,0,0,0,,{Rumor has it that the gods must have been watching!}The gods were watching after all! \NAnd them's the rumors!
+Dialogue: 55,0:03:27.43,0:03:29.39,Main-207+,,0,0,0,,{the underling, Bungoh... - CR}{we have the humble Bungo. - Gaijin}we have Bungo the flunkey.{Z}
+Dialogue: 55,0:03:27.43,0:03:29.39,Secondary-207+,,0,0,0,,You little shits!{CR}{You damn kids! - Gaijin}
+Dialogue: 55,0:03:31.19,0:03:34.81,Main-207+,,0,0,0,,{He set fires throughout the town\Nevery night. - CR}Night after night, he'd roam\Nthe streets setting fires,{Z/Gaijin}
+Dialogue: 55,0:03:34.81,0:03:39.24,Main-207+,,0,0,0,,{But he didn't get punished\Nbecause he paid off officials. - CR}but he'd bribe officials to avoid punishment.{Z/Gaijin}
+Dialogue: 55,0:03:42.86,0:03:44.30,Main-207+,,0,0,0,,An arsonist?!{CR}{He's an arsonist?! - Gaijin}
+Dialogue: 55,0:03:44.30,0:03:46.53,Main-207+,,0,0,0,,{Why bother paying off officials\Nto start fires?! - CR}Why would he bribe {\i1}anyone{\i0} to commit arson?{Gaijin}
+Dialogue: 55,0:03:46.53,0:03:50.25,Main-207+,,0,0,0,,{Someone was making money off of it... - CR}Someone else was profiting from those fires.{Gaijin}
+Dialogue: 55,0:03:52.04,0:03:56.29,Main-207+,,0,0,0,,{He's a lumber dealer\Nwho sold lumber for rebuilding houses. - CR}Enter the man who sold the wood\Nfor rebuilding those houses:{Gaijin/Z}
+Dialogue: 55,0:03:56.29,0:03:58.25,Main-207+,,0,0,0,,{His name is Bongoh. - CR}{Bongo, the lumber dealer. - Gaijin}That would be Bongo.{Z}
+Dialogue: 55,0:04:00.38,0:04:01.26,Main-207+,,0,0,0,,– What?!\N– What?!
+Dialogue: 55,0:04:01.26,0:04:03.22,Main-207+,,0,0,0,,{There's more to it. - CR}That's not all.{Gaijin}
+Dialogue: 55,0:04:04.26,0:04:08.47,Main-207+,,0,0,0,,{The other man exploited mourning people\Nwho lost their family members in the fire, - CR}{Another would take advantage of those grieving over the loss of family in those fires, - Gaijin}Yet another targeted those who mourned\Nthe loss of family in the fires,{Z}
+Dialogue: 55,0:04:08.47,0:04:10.64,Main-207+,,0,0,0,,{and charged them an outrageous price. - CR}extorting large sums of money from them.{Gaijin}
+Dialogue: 55,0:04:10.64,0:04:13.14,Main-207+,,0,0,0,,{He's a priest and undertaker named Bingoh. - CR}{Meet Bingo, a priest and cooper. - Gaijin}Meet Bingo, a priest and undertaker.{Z}
+Dialogue: 55,0:04:16.02,0:04:18.19,Main-207+,,0,0,0,,{Don't tell me those three were... - CR}No! So those three...{Gaijin/Z}
+Dialogue: 55,0:04:18.19,0:04:24.07,Main-207+,,0,0,0,,That's right. Bingoh, Bongoh,\Nand Bungoh were in cahoots.
+Dialogue: 55,0:04:25.53,0:04:26.76,Main-207+,,0,0,0,,{I thought so. - CR}I knew it.{Gaijin}
+Dialogue: 55,0:04:26.76,0:04:27.99,Main-207+,,0,0,0,,{That's terrible! - CR}{Those jerks! - Gaijin}They're horrible!{Z}
+Dialogue: 55,0:04:27.99,0:04:31.95,Main-207+,,0,0,0,,{Right, but no matter how\Nmuch crime they committed, - CR}You're not wrong. But no matter\Nwhat evil they committed,{Gaijin}
+Dialogue: 55,0:04:31.95,0:04:36.58,Main-207+,,0,0,0,,{they bought off officials,\Nso they escaped arrest. - CR}{they'd buy off officials, so they'd never be caught. - Gaijin}they'd buy off officials to avoid any charges.{Z/PJ}
+Dialogue: 55,0:04:36.58,0:04:39.04,Main-207+,,0,0,0,,{They pretended to be good people, - CR}They'd put on a good face in public,{Gaijin}
+Dialogue: 55,0:04:39.04,0:04:42.42,Main-207+,,0,0,0,,but they're actually the worst kind of people.{CR}{while actually being downright scoundrels. - Gaijin/Z}
+Dialogue: 55,0:04:43.05,0:04:44.55,Main-207+,,0,0,0,,{But the funny thing is... - CR}But here's the thing.{Gaijin}
+Dialogue: 55,0:04:44.55,0:04:50.93,Main-207+,,0,0,0,,{all three of them fell in love with\Nthe incredibly beautiful Komurasaki the Oiran... - CR}Interestingly enough, Oiran Komurasaki,\Nthat beautiful girl who died yesterday,{Gaijin}
+Dialogue: 55,0:04:50.93,0:04:54.27,Main-207+,,0,0,0,,{who died yesterday! - CR}had the three of them smitten.{Gaijin}
+Dialogue: 55,0:04:54.27,0:04:59.77,Main-207+,,0,0,0,,{All three of them spent tons of money on her\Nand went broke! - CR}{All three spent so much on her\Nthat they ended up bankrupt! - Gaijin}All three spent so much money\Non her that they went broke!{Z}
+Dialogue: 55,0:04:59.77,0:05:03.65,Main-207+,,0,0,0,,{So the gods really watch over us!\NThose are the rumors! - CR}{Rumor has it that the gods must have been watching! - Gaijin}The gods were watching after all!\NAnd them's the rumors!{Z}
 Dialogue: 55,0:05:03.65,0:05:05.57,Main-207+,,0,0,0,,That's a good story.
-Dialogue: 55,0:05:05.57,0:05:08.45,Main-207+,,0,0,0,,{It's pretty detailed for a rumor!}Those are pretty detailed rumors!
-Dialogue: 55,0:05:08.45,0:05:11.09,Main-207+,,0,0,0,,{It's gotta be true, right?}It's all true, isn't it?
-Dialogue: 55,0:05:11.09,0:05:14.98,Main-207+,,0,0,0,,If so, that means {Komurasaki}the {\i1}oiran{\i0} knew \Nwhat she was doing!
-Dialogue: 55,0:05:14.98,0:05:16.46,Main-207+,,0,0,0,,Incredible!
-Dialogue: 55,0:05:16.46,0:05:20.34,Main-207+,,0,0,0,,Who was {that }Komurasaki really?
-Dialogue: 55,0:05:20.34,0:05:22.34,Main-207+,,0,0,0,,Hey, {it's them!}those are the guys!
-Dialogue: 55,0:05:23.21,0:05:25.97,Main-207+,,0,0,0,,That's right! I saw them!
-Dialogue: 55,0:05:25.97,0:05:30.01,Main-207+,,0,0,0,,They {caused that scene}made a scene\Nduring the {\i1}oiran{\i0}'s procession.
-Dialogue: 55,0:05:30.01,0:05:35.17,Main-207+,,0,0,0,,Yasu-{\i1}san{\i0} took them in\Nand {gave them}provided {a house to live in}a place for them to live,
-Dialogue: 55,0:05:35.17,0:05:38.23,Main-207+,,0,0,0,,but they're still acting all high and mighty.
-Dialogue: 55,0:05:38.23,0:05:44.44,Main-207+,,0,0,0,,Tonoyasu really likes taking care of others.\NEven jerks like them!
-Dialogue: 55,0:05:44.44,0:05:48.86,Main-207+,,0,0,0,,{I'm sure many were inspired by this symbol.}I'm certain this symbol inspired a great many people!
-Dialogue: 55,0:05:53.62,0:05:56.75,Main-207+,,0,0,0,,Be sure to tell Kin'emon-{\i1}kun{\i0} and the others:
-Dialogue: 55,0:05:58.00,0:06:03.59,Main-207+,,0,0,0,,We'll be ready to fight {when the time comes.}at the appointed time.
-Dialogue: 55,0:06:03.59,0:06:06.34,Main-207+,,0,0,0,,Kin'emon-{\i1}kun{\fs18} {\r}?!
-Dialogue: 55,0:06:10.43,0:06:13.70,Main-207+,,0,0,0,,{I'm glad to have seen you two again!}It brought me great joy\Nto see you two again!
-Dialogue: 55,0:06:13.70,0:06:16.61,Main-207+,,0,0,0,,Well, I've got a lot to do!
-Dialogue: 55,0:06:16.61,0:06:17.64,Main-207+,,0,0,0,,Hey, old guy!
-Dialogue: 55,0:06:17.64,0:06:25.07,Main-207+,,0,0,0,,After all, plenty of people are likely to die \Nin the few days before the final battle!
-Dialogue: 55,0:06:25.07,0:06:28.15,Main-207+,,0,0,0,,{Well then, }Then, I beg your pardon!
-Dialogue: 55,0:06:33.16,0:06:34.91,Main-207+,,0,0,0,,The ladies' man!
-Dialogue: 55,0:06:34.91,0:06:37.12,Main-207+,,0,0,0,,The classy dame!
-Dialogue: 55,0:06:37.12,0:06:39.54,Main-207+,,0,0,0,,And the girl next door!
-Dialogue: 55,0:06:42.13,0:06:45.92,Main-207+,,0,0,0,,I bid you three {adieu}farewell!{-Zenef- "adieu" might work for someone like Sanji, but probably not for a samurai like Yasu}
-Dialogue: 55,0:06:50.13,0:06:53.30,Main-207+,,0,0,0,,So, who was that old man?
-Dialogue: 55,0:06:53.80,0:06:58.75,Main-207+,,0,0,0,,I didn't quite catch\Nwhat his relationship is with you two.
-Dialogue: 55,0:06:58.75,0:07:00.39,Main-207+,,0,0,0,,Ditto.
-Dialogue: 55,0:07:00.39,0:07:05.69,Main-207+,,0,0,0,,Yeah, Tonoyasu's really friendly.\N{And}But who is he?
-Dialogue: 55,0:07:08.61,0:07:10.53,Main-207+,,0,0,0,,The two of us...
-Dialogue: 55,0:07:12.32,0:07:14.28,Main-207+,,0,0,0,,...have no idea!
-Dialogue: 55,0:07:16.16,0:07:17.49,Main-207+,,0,0,0,,{What'd ya mean?!}{Say what now}You have no idea?!
-Dialogue: 55,0:07:17.49,0:07:20.29,Main-207+,,0,0,0,,You kept talking to him\Nwithout knowing who he is?!
-Dialogue: 55,0:07:20.29,0:07:23.50,Main-207+,,0,0,0,,Well, he just kept going on and on.
-Dialogue: 55,0:07:23.50,0:07:25.88,Main-207+,,0,0,0,,How could anyone forget such a quirky guy?!
-Dialogue: 55,0:07:25.88,0:07:29.76,Main-207+,,0,0,0,,He addressed us using "kun" and "chan,"
-Dialogue: 55,0:07:29.76,0:07:35.47,Main-207+,,0,0,0,,so I thought it {would have been }rude to ask\Nif he had once been someone of import.
-Dialogue: 55,0:07:36.31,0:07:39.93,Main-207+,,0,0,0,,He was so casual, so {maybe}perhaps\Nhe's a childhood friend?
-Dialogue: 55,0:07:39.93,0:07:43.48,Main-207+,,0,0,0,,Or a teacher?\NAn older schoolmate maybe?
-Dialogue: 55,0:07:47.40,0:07:49.65,Main-207+,,0,0,0,,Who was he?!
-Dialogue: 55,0:07:49.65,0:07:51.36,Main-207+,,0,0,0,,{What}For real?!
+Dialogue: 55,0:05:05.57,0:05:08.45,Main-207+,,0,0,0,,{But that's too specific to be rumor. - CR}{It's pretty detailed for a rumor! - Gaijin}But... aren't those rumors a bit too specific?{Z}
+Dialogue: 55,0:05:08.45,0:05:11.09,Main-207+,,0,0,0,,{It must be a true story. - CR}{It's gotta be true, right? - Gaijin}It's all true, isn't it?{Z}
+Dialogue: 55,0:05:11.09,0:05:14.98,Main-207+,,0,0,0,,{In that case, that Oiran knew who they were\Nand tricked them. - CR}{If so, that means the[/i1]oiran[/i0]\Nknew what she was doing! - Gaijin}If so, that means the {\i1}oiran{\i0}\Ntricked them on purpose!{Z}
+Dialogue: 55,0:05:14.98,0:05:16.46,Main-207+,,0,0,0,,{Well done! - CR}{Incredible! - Gaijin}Impressive.{Z}
+Dialogue: 55,0:05:16.46,0:05:20.34,Main-207+,,0,0,0,,{Who [/i1]is[/i0] Komurasaki? - CR}Who was Komurasaki really?{Gaijin/Z}
+Dialogue: 55,0:05:20.34,0:05:22.34,Main-207+,,0,0,0,,{Oh! Them! - CR}{Hey, it's them! - Gaijin}Hey, those are the guys!{Z}
+Dialogue: 55,0:05:23.21,0:05:25.97,Main-207+,,0,0,0,,{Yeah! I remember! - CR}That's right! I saw them!{Gaijin}
+Dialogue: 55,0:05:25.97,0:05:30.01,Main-207+,,0,0,0,,{They were making a scene\Nat the Oiran's procession! - CR}They made a scene during\Nthe {\i1}oiran{\i0}'s procession.{Gaijin/Z}
+Dialogue: 55,0:05:30.01,0:05:35.17,Main-207+,,0,0,0,,{Yasu-san provided them a place to live\Nand took care of them, - CR}Yasu took them in and provided\Na place for them to live,{Gaijin/Z}
+Dialogue: 55,0:05:35.17,0:05:38.23,Main-207+,,0,0,0,,{but they still act arrogant\Nand are out of control. - CR}but they're still acting all high and mighty.{Gaijin}
+Dialogue: 55,0:05:38.23,0:05:44.45,Main-207+,,0,0,0,,{Tonoyasu is such a caring man.\NHe even took care of those vermin! - CR}Tonoyasu really likes taking care\Nof others. Even jerks like them!{Gaijin}
+Dialogue: 55,0:05:44.45,0:05:48.86,Main-207+,,0,0,0,,{I'm sure there are tons of people\Nwho got motivated by seeing this! - CR}{I'm sure many were inspired by this symbol. - Gaijin}I'm certain this symbol inspired\Na great many people!{Z}
+Dialogue: 55,0:05:53.62,0:05:56.75,Main-207+,,0,0,0,,{Please tell Kin'emon-kun and the others! - CR}Be sure to tell young Kin'emon and the others:{Gaijin/Z}
+Dialogue: 55,0:05:58.00,0:06:03.59,Main-207+,,0,0,0,,{That we'll fight along with you at any cost! - CR}{We'll be ready to fight when the time comes. - Gaijin}We'll fight alongside you no matter what!{Z}
+Dialogue: 55,0:06:03.59,0:06:06.34,Main-207+,,0,0,0,,{Kin'emon... kun?! - CR}{\i1}Young{\i0} Kin'emon?!{Gaijin/Z}
+Dialogue: 55,0:06:10.43,0:06:13.70,Main-207+,,0,0,0,,{I'm glad to see you two, too... - CR}{I'm glad to have seen you two again! - Gaijin}It brought me joy to see you two again!{Z}
+Dialogue: 55,0:06:13.70,0:06:16.61,Main-207+,,0,0,0,,{Now, it's getting busy! - CR}{Well, I've got a lot to do! - Gaijin}Now, it's time to get to work!{Z}
+Dialogue: 55,0:06:16.61,0:06:17.64,Main-207+,,0,0,0,,Hey, wait!{CR}{Hey, old guy! - Gaijin}
+Dialogue: 55,0:06:17.64,0:06:25.07,Main-207+,,0,0,0,,{There are tons of people\Nwho won't last the week before the great battle! - CR}{After all, plenty of people are likely to die\Nin the few days before the final battle! - Gaijin}You know, lots of people will die\Nin the week leading up to the great battle!{Z}
+Dialogue: 55,0:06:25.07,0:06:28.15,Main-207+,,0,0,0,,So if you'll excuse me!{CR}{Then, I beg your pardon! - Gaijin/Z}
+Dialogue: 55,0:06:33.16,0:06:34.91,Main-207+,,0,0,0,,{A handsome man, - CR}The ladies' man!{Gaijin}
+Dialogue: 55,0:06:34.91,0:06:37.12,Main-207+,,0,0,0,,{a beautiful woman, - CR}The classy dame!{Gaijin}
+Dialogue: 55,0:06:37.12,0:06:39.54,Main-207+,,0,0,0,,{and a town girl! - CR}And the girl next door!{Gaijin}
+Dialogue: 55,0:06:42.13,0:06:45.92,Main-207+,,0,0,0,,{Well, good to see you all! - CR}{I bid you three farewell! - Gaijin/Z}It was good to see you all!{Z}
+Dialogue: 55,0:06:50.13,0:06:53.30,Main-207+,,0,0,0,,{Now, who's that old man? - CR}So, who was that old man?{Gaijin}
+Dialogue: 55,0:06:53.80,0:06:58.75,Main-207+,,0,0,0,,{I was listening, but I couldn't tell\Nhow you guys are connected to him. - CR}I listened in but didn't quite catch what\Nhis relationship is with you two.{Gaijin}
+Dialogue: 55,0:06:58.75,0:07:00.39,Main-207+,,0,0,0,,{Me, neither! - CR}Ditto.{Gaijin}
+Dialogue: 55,0:07:00.39,0:07:05.69,Main-207+,,0,0,0,,{Well, he was quite cheerful!\NWho is that Tonoyasu-san? - CR}Yes, Tonoyasu's really friendly. But who is he?{Gaijin/Z}
+Dialogue: 55,0:07:08.61,0:07:10.53,Main-207+,,0,0,0,,{I must say... - CR}The two of us...{Gaijin}
+Dialogue: 55,0:07:12.32,0:07:14.28,Main-207+,,0,0,0,,{We have no idea! - CR}...have no idea!{Gaijin}
+Dialogue: 55,0:07:16.16,0:07:17.49,Main-207+,,0,0,0,,{What do you mean?! - CR}{What'd ya mean?! - Gaijin}{Say what now?! - Z}You have no idea?!{PJ}
+Dialogue: 55,0:07:17.49,0:07:20.29,Main-207+,,0,0,0,,{You were talking to him\Nnot knowing who he was?! - CR}You kept talking to him\Nwithout knowing who he is?!{Gaijin}
+Dialogue: 55,0:07:20.29,0:07:23.50,Main-207+,,0,0,0,,{Well, he just went on and on, so... - CR}Well, he just kept going on and on...{Gaijin}
+Dialogue: 55,0:07:23.50,0:07:25.88,Main-207+,,0,0,0,,{How could you forget someone like him?! - CR}How could anyone forget such a quirky guy?!{Gaijin}
+Dialogue: 55,0:07:25.88,0:07:29.76,Main-207+,,0,0,0,,{Well, since he addressed \Nus with "kun" and "chan"... - CR}{He addressed us using "kun" and "chan," - Gaijin}He addressed us as\N"young Kanjuro" and "little Shinobu,"{Z}
+Dialogue: 55,0:07:29.76,0:07:35.47,Main-207+,,0,0,0,,{I thought if he had been someone important in the past,\Nit would be rude to ask him! - CR}{so I thought it would have been rude to ask\Nif he had once been someone of import. - Gaijin}so I thought it rude to ask\Nif he had once been someone important.{Z}
+Dialogue: 55,0:07:36.31,0:07:39.93,Main-207+,,0,0,0,,{He was addressing you casually,\Nso could he be your childhood friend... - CR}He was so casual, so perhaps\Nhe's a childhood friend?{Gaijin/Z}
+Dialogue: 55,0:07:39.93,0:07:43.48,Main-207+,,0,0,0,,{Or an instructor of some kind?\NOr an older friend? - CR}Or a teacher? An older schoolmate maybe?{Gaijin}
+Dialogue: 55,0:07:47.40,0:07:49.65,Main-207+,,0,0,0,,Who is he?!{CR}{Who was he?! - Gaijin}
+Dialogue: 55,0:07:49.65,0:07:51.36,Main-207+,,0,0,0,,– What?!\N– What?!
 Dialogue: 55,0:07:52.64,0:07:54.78,Main-207+,,0,0,0,,You bastards!
-Dialogue: 55,0:07:59.37,0:08:02.08,Main-207+,,0,0,0,,Get 'em, {Arm}Madilloman!
-Dialogue: 55,0:08:02.08,0:08:04.71,Main-207+,,0,0,0,,Let's fly, gramps!
-Dialogue: 55,0:08:15.74,0:08:20.39,Main-207+,,0,0,0,,In Wano, we use {\i1}{"ryuo"}ryuo{\i0} to refer to what you call "haki."
-Dialogue: 55,0:08:21.35,0:08:22.89,Main-207+,,0,0,0,,"Ryuo"?
-Dialogue: 55,0:08:26.90,0:08:29.69,Main-207+,,0,0,0,,It means, "to flow."
-Dialogue: 55,0:08:30.36,0:08:33.70,Main-207+,,0,0,0,,Your "haki" {must}should also be\Nflowing through your body.
-Dialogue: 55,0:08:33.70,0:08:36.28,Main-207+,,0,0,0,,You must first feel that flow.
-Dialogue: 55,0:08:37.62,0:08:39.54,Main-207+,,0,0,0,,All right!
-Dialogue: 55,0:08:43.54,0:08:45.25,Main-207+,,0,0,0,,The haki flows through me...
-Dialogue: 55,0:08:53.72,0:08:55.30,Main-207+,,0,0,0,,Don't force it!
-Dialogue: 55,0:09:07.19,0:09:09.57,Main-207+,,0,0,0,,Damn it! That's not it!
-Dialogue: 55,0:09:11.44,0:09:13.07,Main-207+,,0,0,0,,You cannot force it.
-Dialogue: 55,0:09:13.07,0:09:17.95,Main-207+,,0,0,0,,Channel the haki into your fists \Nfrom {where you don't need it.}{parts that do not require it.}body parts that do not require it.
+Dialogue: 55,0:07:59.37,0:08:02.08,Main-207+,,0,0,0,,{Go! Madillo-man! - CR}Get 'em, Madilloman!{Gaijin}
+Dialogue: 55,0:08:02.08,0:08:04.71,Main-207+,,0,0,0,,{Hold on, old man! - CR}{Let's fly, gramps! - Gaijin}Hold tight, gramps!{Z}
+Dialogue: 55,0:08:15.74,0:08:20.39,Main-207+,,0,0,0,,{You call it Haki,\Nbut we call it Ryuo in the Land of Wano. - CR}{In Wano, we use ryuo\Nto refer to what you call "haki." - Gaijin}You call it haki, but in Wano\Nwe refer to it as ryuo.{Z}
+Dialogue: 55,0:08:21.35,0:08:22.89,Main-207+,,0,0,0,,{Ryuo? - CR}"Ryuo"...?{Gaijin}
+Dialogue: 55,0:08:26.90,0:08:29.69,Main-207+,,0,0,0,,{It has the meaning of "flow." - CR}It means, "to flow."{Gaijin}
+Dialogue: 55,0:08:30.36,0:08:33.70,Main-207+,,0,0,0,,{I'm sure your Haki flows in your body, too. - CR}{Your "haki" should also be\Nflowing through your body. - Gaijin/Z}I imagine your haki flows\Nthrough your body, too.{Z}
+Dialogue: 55,0:08:33.70,0:08:36.28,Main-207+,,0,0,0,,{First, feel it. - CR}You must first feel that flow.{Gaijin}
+Dialogue: 55,0:08:37.62,0:08:39.54,Main-207+,,0,0,0,,Alright!
+Dialogue: 55,0:08:43.54,0:08:45.25,Main-207+,,0,0,0,,{Flowing Haki... - CR}The haki flows through me...{Gaijin}
+Dialogue: 55,0:08:53.72,0:08:55.30,Main-207+,,0,0,0,,{Don't press too hard! - CR}Don't force it!{Gaijin}
+Dialogue: 55,0:09:07.19,0:09:09.57,Main-207+,,0,0,0,,Damn! That's not it!
+Dialogue: 55,0:09:11.44,0:09:13.07,Main-207+,,0,0,0,,Don't strain yourself!{CR}{You cannot force it. - Gaijin}
+Dialogue: 55,0:09:13.07,0:09:17.95,Main-207+,,0,0,0,,Allow the unused haki in\Nyour body to flow to your fist!{CR}{Channel the haki into your fists\Nfrom where you don't need it. - Gaijin}{Channel the haki into your fists\Nfrom body parts that do not require it. - Z/PJ}
 Dialogue: 55,0:09:19.12,0:09:21.79,Main-207+,,0,0,0,,Straw Hat!
-Dialogue: 55,0:09:22.74,0:09:25.08,Main-207+,,0,0,0,,{Beat it!}I'll end you!
-Dialogue: 55,0:09:33.15,0:09:34.38,Main-207+,,0,0,0,,That's not it!
-Dialogue: 55,0:09:38.30,0:09:40.00,Main-207+,,0,0,0,,That's not it, either!
-Dialogue: 55,0:09:40.00,0:09:41.22,Main-207+,,0,0,0,,Damn it!
-Dialogue: 55,0:09:41.22,0:09:43.27,Main-207+,,0,0,0,,That's not it! That's not it!
-Dialogue: 55,0:09:43.27,0:09:46.23,Main-207+,,0,0,0,,Crap! Where is it?!
+Dialogue: 55,0:09:22.74,0:09:25.08,Main-207+,,0,0,0,,{Disappear! - CR}{Beat it! - Gaijin}You're a goner!{Z}
+Dialogue: 55,0:09:33.15,0:09:34.38,Main-207+,,0,0,0,,{This isn't it! - CR}That's not it!{Gaijin}
+Dialogue: 55,0:09:38.30,0:09:40.00,Main-207+,,0,0,0,,{This isn't it, either! - CR}That's not it, either!{Gaijin}
+Dialogue: 55,0:09:40.00,0:09:41.22,Main-207+,,0,0,0,,Damn!
+Dialogue: 55,0:09:41.22,0:09:43.27,Main-207+,,0,0,0,,{No! No! - CR}That's not it! That's not it!{Gaijin}
+Dialogue: 55,0:09:43.27,0:09:46.23,Main-207+,,0,0,0,,Dammit! Where is it?!{CR}{Crap! Where is it?! - Gaijin}
 Dialogue: 55,0:09:46.23,0:09:48.65,Main-207+,,0,0,0,,My haki!
-Dialogue: 55,0:09:50.77,0:09:53.78,Main-207+,,0,0,0,,It won't flow into my fist!
-Dialogue: 55,0:10:04.24,0:10:07.96,Main-207+,,0,0,0,,Hey hey, he's beating too many of my men.\NThese idiots.
+Dialogue: 55,0:09:50.77,0:09:53.78,Main-207+,,0,0,0,,{It's not flowing to my fist! - CR}It won't flow into my fist!{Gaijin}
+Dialogue: 55,0:10:04.24,0:10:07.96,Main-207+,,0,0,0,,{Whoa-whoa, he took down too many, that idiot. - CR}{Hey hey, he's beating too many\Nof my men. These idiots. - Gaijin}Hey, hey, he took down\Ntoo many of my men, that idiot.{Z}
 Dialogue: 55,0:10:11.67,0:10:13.34,Main-207+,,0,0,0,,Damn!
-Dialogue: 55,0:10:14.29,0:10:17.55,Main-207+,,0,0,0,,Fists of rage won't attract haki.
-Dialogue: 55,0:10:20.46,0:10:22.52,Main-207+,,0,0,0,,Who's next, already?
-Dialogue: 55,0:10:22.52,0:10:25.27,Main-207+,,0,0,0,,Bring 'em on!
-Dialogue: 55,0:10:26.35,0:10:30.55,Main-207+,,0,0,0,,Grandpa. Hey, grandpa!\NHow's the colic?
-Dialogue: 55,0:10:30.55,0:10:32.48,Main-207+,,0,0,0,,Oh, Yasu-{\i1}san{\fs15} {\r}!
-Dialogue: 55,0:10:32.48,0:10:36.03,Main-207+,,0,0,0,,It's not much,\Nbut I brought you some millet and water.
-Dialogue: 55,0:10:36.03,0:10:37.52,Main-207+,,0,0,0,,Take care of yourself!
-Dialogue: 55,0:10:37.52,0:10:41.57,Main-207+,,0,0,0,,You're {such a sweetheart}so kindhearted, Yasu-{\i1}san{\i0}.
-Dialogue: 55,0:10:42.20,0:10:46.70,Main-207+,,0,0,0,,What a compliment!\N{It's a joy to be called a sweetheart}What a joy to be called "kindhearted"!
-Dialogue: 55,0:10:46.70,0:10:49.54,Main-207+,,0,0,0,,Here'{s}re two more grains of millet!
-Dialogue: 55,0:10:50.16,0:10:52.50,Main-207+,,0,0,0,,So long, grandpa!
-Dialogue: 55,0:10:53.17,0:10:57.65,Main-207+,,0,0,0,,Hey, old {\i1}nori{\i0} maker, do you have enough medicine?
-Dialogue: 55,0:10:57.65,0:11:01.47,Main-207+,,0,0,0,,{I don't have any}I'm all out, but I feel better already,\Nhaving seen your face.
-Dialogue: 55,0:11:02.17,0:11:03.89,Main-207+,,0,0,0,,You seductress!
-Dialogue: 55,0:11:04.89,0:11:07.74,Main-207+,,0,0,0,,Oh, how's the knee, old man?
-Dialogue: 55,0:11:07.74,0:11:10.06,Main-207+,,0,0,0,,Come play with me, Yasu-{\i1}san{\fs15} {\r}!
-Dialogue: 55,0:11:10.31,0:11:13.81,Main-207+,,0,0,0,,Little man, how's your mother doing?
-Dialogue: 55,0:11:14.06,0:11:16.19,Main-207+,,0,0,0,,Osaki-{\i1}san{\i0}, how's the baby?
-Dialogue: 55,0:11:17.69,0:11:19.90,Main-207+,,0,0,0,,{There's a little one!}Coochy-coo!
-Dialogue: 55,0:11:20.61,0:11:24.16,Main-207+,,0,0,0,,– Yasu-{\i1}san{\fs10.074} {\r}!\N– Please come see us{,} too{ again}!
-Dialogue: 55,0:11:24.16,0:11:27.11,Main-207+,,0,0,0,,All right, everyone!\NCome and get it!
-Dialogue: 55,0:11:27.11,0:11:28.62,Main-207+,,0,0,0,,Thanks again!
-Dialogue: 55,0:11:29.71,0:11:32.42,Main-207+,,0,0,0,,{Tonoyasu's really generous.}What a generous guy, that Tonoyasu.
-Dialogue: 55,0:11:32.42,0:11:34.79,Main-207+,,0,0,0,,It's sweet how he goes around\Nhanding out food.
-Dialogue: 55,0:11:35.34,0:11:37.60,Main-207+,,0,0,0,,It's not what you think.
-Dialogue: 55,0:11:37.60,0:11:40.74,Main-207+,,0,0,0,,Laborers get paid peanuts.
-Dialogue: 55,0:11:40.74,0:11:41.69,Main-207+,,0,0,0,,Peanuts?
-Dialogue: 55,0:11:41.69,0:11:46.76,Main-207+,,0,0,0,,He had to sell Toko-{\i1}chan{\i0}, his only daughter, \N{as a worker in the capital.}to an employer in the capital.
-Dialogue: 55,0:11:47.31,0:11:51.73,Main-207+,,0,0,0,,She sends most of her earnings to Yasu-{\i1}san{\i0}.
+Dialogue: 55,0:10:14.29,0:10:17.55,Main-207+,,0,0,0,,Haki won't flow to an angry fist!{CR}{Fists of rage won't attract haki. - Gaijin}
+Dialogue: 55,0:10:20.46,0:10:22.52,Main-207+,,0,0,0,,{Who's next?! - CR}{Who's next, already? - Gaijin}Come on! Who's next?!{Z}
+Dialogue: 55,0:10:22.52,0:10:25.27,Main-207+,,0,0,0,,Bring it on!
+Dialogue: 55,0:10:26.35,0:10:30.55,Main-207+,,0,0,0,,{Gramps, Gramps, how's the abdominal pain? - CR}{Grandpa. Hey, grandpa! How's the colic? - Gaijin}Hey there, gramps! How's the abdominal pain?{Z}
+Dialogue: 55,0:10:30.55,0:10:32.48,Main-207+,,0,0,0,,{Oh, Yasu-[/i1]san[/i0]! - CR}Oh, Yasu!{Z}
+Dialogue: 55,0:10:32.48,0:10:36.03,Main-207+,,0,0,0,,It's not much, but I brought you\Nsome millet and water.
+Dialogue: 55,0:10:36.03,0:10:37.52,Main-207+,,0,0,0,,They'll give you energy!{CR}{Take care of yourself! - Gaijin}
+Dialogue: 55,0:10:37.52,0:10:41.57,Main-207+,,0,0,0,,{You're such a nice person, Yasu-san... - CR}{You're such a sweetheart, Yasu-san. - Gaijin}You're so kindhearted, Yasu.{Z}
+Dialogue: 55,0:10:42.20,0:10:46.70,Main-207+,,0,0,0,,{You're good at praising!\NI'm so happy to be called a nice person! - CR}{What a compliment!\NIt's a joy to be called a sweetheart! - Gaijin}What a compliment! It's a joy\Nto be called "kindhearted"!{Z}
+Dialogue: 55,0:10:46.70,0:10:49.54,Main-207+,,0,0,0,,I'll give you two more millet grains!{CR}{Here're two more grains of millet! - Gaijin}
+Dialogue: 55,0:10:50.16,0:10:52.50,Main-207+,,0,0,0,,See you, gramps!{CR}{So long, grandpa! - Gaijin}
+Dialogue: 55,0:10:53.17,0:10:57.65,Main-207+,,0,0,0,,{Hey! Seaweed Shop Granny!\NDo you have enough medicine?! - CR}{Hey, old[/i1]nori[/i0]maker, do you\Nhave enough medicine? - Gaijin}Hey, it's the granny who sells the seaweed!\NDo you have enough medicine?{Z}
+Dialogue: 55,0:10:57.65,0:11:01.47,Main-207+,,0,0,0,,{No, but just seeing you cheers me up. - CR}I'm all out, but I feel better already,\Nhaving seen your face.{Gaijin/Z}
+Dialogue: 55,0:11:02.17,0:11:03.89,Main-207+,,0,0,0,,You're such a man-killer!{CR}{You seductress! - Gaijin}
+Dialogue: 55,0:11:04.89,0:11:07.74,Main-207+,,0,0,0,,{Oh, mister, how's your knee?! - CR}{Oh, how's the knee, old man? - Gaijin}Oh! Mister, how's the knee?{Z}
+Dialogue: 55,0:11:07.74,0:11:10.06,Main-207+,,0,0,0,,{Yasu-san! Let's play! - CR}Come play with me, Yasu!{Gaijin}
+Dialogue: 55,0:11:10.31,0:11:13.81,Main-207+,,0,0,0,,{Hanko! How's your sick mother doing? - CR}{Little man, how's your mother doing? - Gaijin}Hanko, is your mother getting any better?{Z}
+Dialogue: 55,0:11:14.06,0:11:16.19,Main-207+,,0,0,0,,{Osaki-san, how's your baby? - CR}Osaki, how's the baby?{Gaijin}
+Dialogue: 55,0:11:17.69,0:11:19.90,Main-207+,,0,0,0,,{Up, up! - CR}{There's a little one! - Gaijin}Coochy-coo!{Z}
+Dialogue: 55,0:11:20.61,0:11:21.99,Main-207+,,0,0,0,,{Yasu-[/i1]san[/i0]! - CR}Yasu!{Z}
+Dialogue: 55,0:11:21.99,0:11:24.16,Main-207+,,0,0,0,,{Come see us, too! - CR}{Please come see us again! - Gaijin}Visit with us, too!{Z}
+Dialogue: 55,0:11:24.16,0:11:27.11,Main-207+,,0,0,0,,Here, everyone! Take these!{CR}{All right, everyone! Come and get it! - Gaijin}
+Dialogue: 55,0:11:27.11,0:11:28.62,Main-207+,,0,0,0,,{Thank you as always! - CR}Thanks again!{Gaijin}
+Dialogue: 55,0:11:29.71,0:11:32.42,Main-207+,,0,0,0,,{Tonoyasu must be making a lot of money. - CR}{Tonoyasu's really generous. - Gaijin}That Tonoyasu looks to be rolling in dough.{Z}
+Dialogue: 55,0:11:32.42,0:11:34.79,Main-207+,,0,0,0,,{No one else can give out food. - CR}{It's sweet how he goes\Naround handing out food. - Gaijin}No one else is able to hand out food like that.{Z}
+Dialogue: 55,0:11:35.34,0:11:37.60,Main-207+,,0,0,0,,{No, he is not... - CR}It's not what you think.{Gaijin}
+Dialogue: 55,0:11:37.60,0:11:40.74,Main-207+,,0,0,0,,{He only gets paid peanuts. - CR}{Laborers get paid peanuts. - Gaijin}He gets paid peanuts for the work he does.{Z}
+Dialogue: 55,0:11:40.74,0:11:41.69,Main-207+,,0,0,0,,{What? - CR}– Peanuts?\N– Peanuts?{Gaijin}
+Dialogue: 55,0:11:41.69,0:11:46.76,Main-207+,,0,0,0,,{His only daughter named Toko-chan\Nwas sold to the capital and has been working there, - CR}{He had to sell Toko-chan,\Nhis only daughter, as a laborer in the capital. - Gaijin}His only daughter Toko got sold to the capital\Nand has worked there ever since.{Z}
+Dialogue: 55,0:11:47.31,0:11:51.73,Main-207+,,0,0,0,,{but she sends most of her \Nearnings to Yasu-san. - CR}She sends most of her earnings to Yasu.{Gaijin}
 Dialogue: 55,0:11:52.59,0:11:54.10,Main-207+,,0,0,0,,Toko?
-Dialogue: 55,0:11:56.15,0:11:58.06,Flashbacks-207+,,0,0,0,,I'm not a boy{man}!
-Dialogue: 55,0:11:59.65,0:12:01.03,Main-207+,,0,0,0,,Oh, her!
-Dialogue: 55,0:12:01.03,0:12:04.36,Main-207+,,0,0,0,,Toko-{\i1}chan{\i0} sends him {the }money,
-Dialogue: 55,0:12:04.36,0:12:06.99,Main-207+,,0,0,0,,{and}but {he feels it'd go to waste \Nif he just kept it to himself.}he believes keeping it to himself is wasteful.
-Dialogue: 55,0:12:06.99,0:12:11.58,Main-207+,,0,0,0,,He spends his days handing out food\Nto those who can't work{.},
-Dialogue: 55,0:12:12.12,0:12:15.00,Main-207+,,0,0,0,,{E}even though he has nothing to eat himself.
-Dialogue: 55,0:12:18.04,0:12:20.74,Main-207+,,0,0,0,,He may look ridiculous,
-Dialogue: 55,0:12:20.74,0:12:24.72,Main-207+,,0,0,0,,{but everyone has loved him as long as I can remember.}but he's a long-beloved figure in our community.
-Dialogue: 55,0:12:24.72,0:12:27.51,Main-207+,,0,0,0,,He's a{our} saint.{Gaijin: Do people say "our saint"? Whether he's their saint or everyone's saint, the general term works, and it seems more natural. Reverted}{Zenef: this fits better with how she just mentioned everyone in Ebisu loves him.}
+Dialogue: 55,0:11:56.15,0:11:58.06,Flashbacks-207+,,0,0,0,,{I'm not otoko (male)! - CR}I'm not a man!{Gaijin}
+Dialogue: 55,0:11:59.65,0:12:01.03,Main-207+,,0,0,0,,{It must be her! - CR}Oh, her!{Gaijin}
+Dialogue: 55,0:12:01.03,0:12:04.36,Main-207+,,0,0,0,,{He said Toko-chan took the trouble to send it, - CR}Toko-{\i1}chan{\i0} sends him money,{Gaijin/Z}
+Dialogue: 55,0:12:04.36,0:12:06.99,Main-207+,,0,0,0,,{so he shouldn't have it all to himself. - CR}{and he feels it'd go to waste\Nif he just kept it to himself. - Gaijin}but he believes keeping it\Nto himself is a waste.{Z}
+Dialogue: 55,0:12:06.99,0:12:11.58,Main-207+,,0,0,0,,{He gives out food to those who can't work\Nevery day. - CR}Every day he hands out food\Nto those who can't work,{Gaijin/Z}
+Dialogue: 55,0:12:12.12,0:12:15.00,Main-207+,,0,0,0,,{He doesn't eat much himself. - CR}{even though he has nothing to eat himself. - Gaijin/Z}though he barely eats anything himself.{Z}
+Dialogue: 55,0:12:18.04,0:12:24.72,Main-207+,,0,0,0,,{His facial expressions and body movements are so goofy,\Nbut everyone's always loved him. - CR}{He may look ridiculous, but everyone has loved him as long as I can remember. - Gaijin}He may look ridiculous, but he's\Na long-beloved figure in our community.{Z}
+Dialogue: 55,0:12:24.72,0:12:27.51,Main-207+,,0,0,0,,He's a saint.
 Dialogue: 55,0:12:31.06,0:12:32.85,Main-207+,,0,0,0,,Daddy...
 Dialogue: 55,0:12:36.86,0:12:38.23,Thoughts-207+,,0,0,0,,Daddy!
-Dialogue: 55,0:12:42.90,0:12:45.81,Main-207+,,0,0,0,,{Off to bed. Get some sleep!}Lights out! Go to sleep!
-Dialogue: 55,0:12:47.66,0:12:49.41,Main-207+,,0,0,0,,Dam{n it}mit!
-Dialogue: 55,0:12:49.41,0:12:51.66,Main-207+,,0,0,0,,{We've got to}We gotta wait until tomorrow?!
-Dialogue: 55,0:12:52.41,0:12:55.83,Main-207+,,0,0,0,,Let me fight some more!
-Dialogue: 55,0:13:02.17,0:13:04.01,Main-207+,,0,0,0,,{I'm starving.}So hungry...
-Dialogue: 55,0:13:05.01,0:13:08.12,Main-207+,,0,0,0,,{Why won't you let me eat?!}You gonna feed me or what?!
-Dialogue: 55,0:13:08.12,0:13:10.18,Main-207+,,0,0,0,,{Look at him}Listen to 'im, barkin{g}' like some dog.
-Dialogue: 55,0:13:10.18,0:13:12.14,Main-207+,,0,0,0,,Shut up and {get some }sleep!
-Dialogue: 55,0:13:12.68,0:13:16.35,Main-207+,,0,0,0,,I'll be a mummy by tomorrow!
-Dialogue: 55,0:13:17.15,0:13:20.02,Main-207+,,0,0,0,,May I ask you something,\NSir Straw Hat?
-Dialogue: 55,0:13:20.02,0:13:20.86,Main-207+,,0,0,0,,What?
-Dialogue: 55,0:13:21.44,0:13:26.32,Main-207+,,0,0,0,,Why do you {want}wish to fight Kaido?\NI heard {that }he {beat}thrashed you in Kuri.
-Dialogue: 55,0:13:29.99,0:13:31.58,Main-207+,,0,0,0,,These guys are annoying.
-Dialogue: 55,0:13:45.09,0:13:47.34,Main-207+,,0,0,0,,All right, we're good now.
-Dialogue: 55,0:13:47.34,0:13:48.97,Main-207+,,0,0,0,,Old man,
-Dialogue: 55,0:13:49.83,0:13:51.56,Main-207+,,0,0,0,,have you heard of the Four Emperors?
-Dialogue: 55,0:13:51.56,0:13:52.93,Main-207+,,0,0,0,,No, I haven't.
-Dialogue: 55,0:13:52.93,0:13:57.23,Main-207+,,0,0,0,,Four pirates known as emperors sail the world's seas.
-Dialogue: 55,0:13:57.94,0:13:59.44,Main-207+,,0,0,0,,Kaido is one of them.
-Dialogue: 55,0:14:01.73,0:14:05.07,Main-207+,,0,0,0,,I'm {going to}gonna be king of the pirates,
-Dialogue: 55,0:14:05.07,0:14:07.78,Main-207+,,0,0,0,,so {I have to}I've gotta beat the four of {th}'em.
-Dialogue: 55,0:14:07.78,0:14:10.37,Main-207+,,0,0,0,,The king of the pirates?
-Dialogue: 55,0:14:10.37,0:14:12.37,Main-207+,,0,0,0,,Is that like the man called Roger?
-Dialogue: 55,0:14:13.95,0:14:16.52,Main-207+,,0,0,0,,You know Gold Roger?!
-Dialogue: 55,0:14:16.52,0:14:21.29,Main-207+,,0,0,0,,Yes, from when he came\Nto this country many years ago.
-Dialogue: 55,0:14:21.29,0:14:24.38,Main-207+,,0,0,0,,Oh, Kin'emon said the same thing.
-Dialogue: 55,0:14:24.38,0:14:27.84,Main-207+,,0,0,0,,What? Kin'emon?!
-Dialogue: 55,0:14:27.84,0:14:30.18,Main-207+,,0,0,0,,How would you know that name?!
-Dialogue: 55,0:14:38.81,0:14:40.02,Main-207+,,0,0,0,,What's going on?!
+Dialogue: 55,0:12:42.90,0:12:45.81,Main-207+,,0,0,0,,It's bedtime! Go to sleep!{CR}{Off to bed. Get some sleep! - Gaijin}
+Dialogue: 55,0:12:47.66,0:12:49.41,Main-207+,,0,0,0,,Damn!
+Dialogue: 55,0:12:49.41,0:12:51.66,Main-207+,,0,0,0,,{Continue this again tomorrow? - CR}{We've got to wait until tomorrow?! - Gaijin}We gotta wait until tomorrow?!{Z}
+Dialogue: 55,0:12:52.41,0:12:55.83,Main-207+,,0,0,0,,{Let me fight more! - CR}Let me fight some more!{Gaijin}
+Dialogue: 55,0:13:02.17,0:13:04.01,Main-207+,,0,0,0,,{I'm hungry... - CR}{I'm starving. - Gaijin}So hungry...{Z}
+Dialogue: 55,0:13:05.01,0:13:08.12,Main-207+,,0,0,0,,{Won't you even let me eat something?! - CR}{Why won't you let me eat?! - Gaijin}You gonna feed me or what?!{Z}
+Dialogue: 55,0:13:08.12,0:13:10.18,Main-207+,,0,0,0,,{Stop barking like a dog! - CR}Look at him, barking like some dog.{Gaijin}
+Dialogue: 55,0:13:10.18,0:13:12.14,Main-207+,,0,0,0,,{Shut up and go to sleep! - CR}Shut up and sleep!{Gaijin/Z}
+Dialogue: 55,0:13:12.68,0:13:16.35,Main-207+,,0,0,0,,{I'm gonna become a mummy by tomorrow! - CR}I'll be a mummy by tomorrow!{Gaijin}
+Dialogue: 55,0:13:17.15,0:13:20.02,Main-207+,,0,0,0,,{Can I ask you something, straw hat man? - CR}May I ask you something, Sir Straw Hat?{Gaijin}
+Dialogue: 55,0:13:20.02,0:13:20.86,Main-207+,,0,0,0,,{What is it? - CR}What?{Gaijin}
+Dialogue: 55,0:13:21.44,0:13:26.32,Main-207+,,0,0,0,,{Why would you want to fight Kaido?!\NI heard you once lost to him in Kuri. - CR}{Why do you wish to fight Kaido?\NI heard he thrashed you in Kuri. - Gaijin/Z}Why would you want to fight Kaido?\NI heard that you lost to him in Kuri.{Z}
+Dialogue: 55,0:13:29.99,0:13:31.58,Main-207+,,0,0,0,,{They're annoying... - CR}These guys are annoying.{Gaijin}
+Dialogue: 55,0:13:45.09,0:13:47.34,Main-207+,,0,0,0,,{Okay, this is good. - CR}Alright, we're good now.{Gaijin}
+Dialogue: 55,0:13:47.34,0:13:48.97,Main-207+,,0,0,0,,{Old man! - CR}Gramps!{Z}
+Dialogue: 55,0:13:49.60,0:13:51.56,Main-207+,,0,0,0,,{Do you know the Four Emperors? - CR}Have you heard of the Four Emperors?{Gaijin}
+Dialogue: 55,0:13:51.56,0:13:52.93,Main-207+,,0,0,0,,No...{CR}{No, I haven't. - Gaijin}
+Dialogue: 55,0:13:52.93,0:13:57.23,Main-207+,,0,0,0,,{There are four great pirates\Ncalled emperors across the world, - CR}{Four pirates known as Emperors\Nsail the world's seas. - Gaijin}There are four great pirates called\NEmperors are in this world...{Z}
+Dialogue: 55,0:13:57.94,0:13:59.44,Main-207+,,0,0,0,,and Kaido is one of them.{CR}{Kaido is one of them. - Gaijin}
+Dialogue: 55,0:14:01.73,0:14:05.07,Main-207+,,0,0,0,,{I'm gonna become the King of Pirates, - CR}I'm gonna be the King of the Pirates...{Gaijin/Z}
+Dialogue: 55,0:14:05.07,0:14:07.78,Main-207+,,0,0,0,,{so I have to take them all down! - CR}{so I gotta beat the four of them. - Gaijin/Z}so I gotta take them all down!{Z}
+Dialogue: 55,0:14:07.78,0:14:10.37,Main-207+,,0,0,0,,{The King of Pirates?! - CR}The King of the Pirates?{Gaijin}
+Dialogue: 55,0:14:10.37,0:14:12.37,Main-207+,,0,0,0,,{You mean a man like Roger? - CR}{Is that like the man called Roger? - Gaijin}Wasn't Roger one such man?{Z}
+Dialogue: 55,0:14:13.95,0:14:16.52,Main-207+,,0,0,0,,{Do you know Gold Roger?! - CR}You know Gold Roger?!{Gaijin}
+Dialogue: 55,0:14:16.52,0:14:21.29,Main-207+,,0,0,0,,{He came to this country a long time ago. - CR}Yes, from when he came\Nto this country many years ago.{Gaijin}
+Dialogue: 55,0:14:21.29,0:14:24.38,Main-207+,,0,0,0,,{Oh, that's what Kin'emon said! - CR}Oh, Kin'emon said the same thing.{Gaijin}
+Dialogue: 55,0:14:24.38,0:14:27.84,Main-207+,,0,0,0,,What?! Kin'emon?!
+Dialogue: 55,0:14:27.84,0:14:30.18,Main-207+,,0,0,0,,How do you know that name?!{CR}{How would you know that name?! - Gaijin}
+Dialogue: 55,0:14:38.81,0:14:40.02,Main-207+,,0,0,0,,{What is that?! - CR}What's going on?!{Gaijin}
 Dialogue: 55,0:14:46.03,0:14:46.78,Main-207+,,0,0,0,,What?!
-Dialogue: 55,0:14:47.28,0:14:50.28,Main-207+,,0,0,0,,You! You're... Raizo!
-Dialogue: 55,0:14:52.37,0:14:55.08,Main-207+,,0,0,0,,Straw Hat-{\i1}san{\i0}.
-Dialogue: 55,0:14:55.54,0:14:56.87,Main-207+,,0,0,0,,You?
-Dialogue: 55,0:14:58.54,0:15:00.96,Main-207+,,0,0,0,,That's Raizo{, right?}... isn't it?
-Dialogue: 55,0:15:00.96,0:15:02.54,Main-207+,,0,0,0,,{I am!}It is I!
-Dialogue: 55,0:15:04.46,0:15:06.17,Main-207+,,0,0,0,,What?!
-Dialogue: 55,0:15:06.17,0:15:08.21,Main-207+,,0,0,0,,What's going on with you two?!
-Dialogue: 55,0:15:08.21,0:15:09.93,Main-207+,,0,0,0,,{Why}How are you alive?!
-Dialogue: 55,0:15:09.93,0:15:11.55,Main-207+,,0,0,0,,Raizo!
-Dialogue: 55,0:15:11.55,0:15:15.01,Main-207+,,0,0,0,,Allow me to explain, {Hyogoro-dono.}Boss Hyogoro.
-Dialogue: 55,0:15:15.56,0:15:17.39,Main-207+,,0,0,0,,Arrest him! Arrest him!
-Dialogue: 55,0:15:17.39,0:15:18.64,Main-207+,,0,0,0,,Arrest him! Arrest him!
-Dialogue: 55,0:15:18.64,0:15:20.27,Main-207+,,0,0,0,,Arrest him! Arrest him!
-Dialogue: 55,0:15:20.27,0:15:23.65,Main-207+,,0,0,0,,There he is! It's Ushimitsu Kozo!
-Dialogue: 55,0:15:24.44,0:15:25.48,Main-207+,,0,0,0,,Enough already!
-Dialogue: 55,0:15:28.11,0:15:30.37,Main-207+,,0,0,0,,Seize him!
-Dialogue: 55,0:15:32.32,0:15:34.28,Main-207+,,0,0,0,,Is that so, Raizo?
-Dialogue: 55,0:15:34.28,0:15:40.00,Main-207+,,0,0,0,,{I am surprised to find that you are the Hyogoro-dono I once knew.}It's hard to believe you are \Nthe same Boss Hyogoro{Hyogoro-dono} I once knew.
-Dialogue: 55,0:15:41.58,0:15:43.98,Main-207+,,0,0,0,,{I can't believe it.}Th-This is difficult to fathom.
-Dialogue: 55,0:15:44.79,0:15:48.59,Main-207+,,0,0,0,,You all truly traveled\Nfrom 20 years in the past,
-Dialogue: 55,0:15:48.59,0:15:51.97,Main-207+,,0,0,0,,from that fateful day in Wano's history?
-Dialogue: 55,0:15:51.97,0:15:55.26,Main-207+,,0,0,0,,That is correct. It was\Ndue to Lady Toki's sorcery.
-Dialogue: 55,0:15:58.26,0:15:59.68,Main-207+,,0,0,0,,I can{'t}not believe it.
+Dialogue: 55,0:14:47.28,0:14:50.28,Main-207+,,0,0,0,,You're... R-Raizo!{CR}{You! You're... Raizo! - Gaijin}
+Dialogue: 55,0:14:52.37,0:14:55.08,Main-207+,,0,0,0,,{Straw Hat-[/i1]san[/i0]... - CR}Straw Hat...{Z}
+Dialogue: 55,0:14:55.54,0:14:56.87,Main-207+,,0,0,0,,{You... - CR}{You? - Gaijin}You're...{Z}
+Dialogue: 55,0:14:58.54,0:15:00.96,Main-207+,,0,0,0,,{This is Raizo, right? - CR}{That's Raizo... isn't it? - Gaijin/Z}This is Raizo... isn't it?{Z}
+Dialogue: 55,0:15:00.96,0:15:02.54,Main-207+,,0,0,0,,{I am! - CR}It is I!{Z}
+Dialogue: 55,0:15:04.46,0:15:06.17,Main-207+,,0,0,0,,– What?!\N– What?!
+Dialogue: 55,0:15:06.17,0:15:08.21,Main-207+,,0,0,0,,{What's going on with you guys?! - CR}What's going on with you two?!{Gaijin}
+Dialogue: 55,0:15:08.21,0:15:09.93,Main-207+,,0,0,0,,{How are you alive, - CR}How are you still alive,{Z}
+Dialogue: 55,0:15:09.93,0:15:11.55,Main-207+,,0,0,0,,Raizo?!
+Dialogue: 55,0:15:11.55,0:15:15.01,Main-207+,,0,0,0,,{Let me explain, Hyogoro-dono! - CR}Allow me to explain, Boss Hyogoro.{Gaijin}
+Dialogue: 55,0:15:15.56,0:15:20.27,Main-207+,,0,0,0,,{– You're under arrest!\N– You're under arrest! - CR}– Arrest him!\N– Arrest him!{Gaijin}
+Dialogue: 55,0:15:20.27,0:15:23.65,Main-207+,,0,0,0,,{There he is! Ushimitsu Kozo! - CR}There he is! It's the Witching Hour Boy!{Z}
+Dialogue: 55,0:15:24.44,0:15:25.48,Main-207+,,0,0,0,,{Surrender! - CR}{Enough already! - Gaijin}Give it up!{Z}
+Dialogue: 55,0:15:28.11,0:15:30.37,Main-207+,,0,0,0,,{Catch him! - CR}Seize him!{Gaijin}
+Dialogue: 55,0:15:32.32,0:15:34.28,Main-207+,,0,0,0,,{Is it true, Raizo?! - CR}{Is that so, Raizo? - Gaijin}So that's the truth, Raizo?!{Z}
+Dialogue: 55,0:15:34.28,0:15:40.00,Main-207+,,0,0,0,,{I... cannot believe...\Nthat you're the famous Hyogoro-dono... - CR}{I am surprised to find that you are the Hyogoro-dono I once knew. - Gaijin}It's hard to believe that you\Nare {\i1}the{\i0} Boss Hyogoro...!{Z}
+Dialogue: 55,0:15:41.58,0:15:43.98,Main-207+,,0,0,0,,{This is hard to take in. - CR}{I can't believe it. - Gaijin}This is difficult to fathom.{Z}
+Dialogue: 55,0:15:44.79,0:15:48.59,Main-207+,,0,0,0,,{Are you saying that you really crossed through\N20years of time - CR}{You all truly traveled\Nfrom twenty years in the past, - Gaijin}You are saying you actually crossed\Nthrough twenty years in time{Z}
+Dialogue: 55,0:15:48.59,0:15:51.97,Main-207+,,0,0,0,,{and came from the Land of\NWano on that fateful day? - CR}from that fateful day in Wano's history?{Gaijin}
+Dialogue: 55,0:15:51.97,0:15:55.26,Main-207+,,0,0,0,,{Yes! By Toki-sama's power! - CR}That is correct. It was\Ndue to Lady Toki's sorcery.{Gaijin}
+Dialogue: 55,0:15:58.26,0:15:59.68,Main-207+,,0,0,0,,I can't believe it!
 Dialogue: 55,0:15:59.68,0:16:03.81,Main-207+,,0,0,0,,I can't believe {\i1}you{\i0}, Caribou!
-Dialogue: 55,0:16:04.40,0:16:08.19,Main-207+,,0,0,0,,Please don't be so cruel, Straw Hat-{\i1}san{\fs15} {\r}!
-Dialogue: 55,0:16:08.19,0:16:10.40,Main-207+,,0,0,0,,What the hell, Raizo?!
-Dialogue: 55,0:16:10.40,0:16:14.07,Main-207+,,0,0,0,,{He said that the key you thought was for my cuffs were for his!}You thought you had the keys to my cuffs, \Nbut they were actually to {\i1}his{\fs15} {\r}!
-Dialogue: 55,0:16:15.16,0:16:17.91,Main-207+,,0,0,0,,{You don't have to hate me so much.}All this hate doesn't suit you.
-Dialogue: 55,0:16:17.91,0:16:20.69,Main-207+,,0,0,0,,{I'm sure I'll be able to help.}Surely I can help in some way.
-Dialogue: 55,0:16:21.54,0:16:24.71,Main-207+,,0,0,0,,From now on, I'm your lieutenant!
-Dialogue: 55,0:16:26.67,0:16:30.38,Main-207+,,0,0,0,,{And in exchange,}And... as a reward...
-Dialogue: 55,0:16:31.01,0:16:34.51,Main-207+,,0,0,0,,please let me leave with you on your ship.
-Dialogue: 55,0:16:34.51,0:16:36.68,Main-207+,,0,0,0,,Ah, so you can't get home?
-Dialogue: 55,0:16:37.26,0:16:40.12,Main-207+,,0,0,0,,{I'm sorry for everything I've done!}Please forgive me for my past misdeeds!
-Dialogue: 55,0:16:40.12,0:16:42.43,Main-207+,,0,0,0,,{I've had a change of heart.}I'm a changed man!
-Dialogue: 55,0:16:47.15,0:16:50.11,Main-207+,,0,0,0,,All right, {if you've had a change of heart}as long as you've changed,\N{then }I forgive you.
+Dialogue: 55,0:16:04.40,0:16:08.19,Main-207+,,0,0,0,,{Please don't say that, Straw Hat-san! - CR}{Please don't be so cruel, Straw Hat-[/i1]san[/i0]! - Gaijin}Oh, don't say that, Straw Hat!{Z}
+Dialogue: 55,0:16:08.19,0:16:10.40,Main-207+,,0,0,0,,{What do you mean, Raizo?! - CR}What the hell, Raizo?!{Gaijin}
+Dialogue: 55,0:16:10.40,0:16:14.07,Main-207+,,0,0,0,,{You thought it was the key to my cuffs,\Nbut it was to his?! - CR}{He said that the key you thought was for my cuffs were for his! - Gaijin}You thought you had the keys to my cuffs,\Nbut they were actually to {\i1}his{\i0}!{Z}
+Dialogue: 55,0:16:15.16,0:16:17.91,Main-207+,,0,0,0,,{Don't hate me like that! - CR}{You don't have to hate me so much. - Gaijin}All this hate doesn't suit you.{Z}
+Dialogue: 55,0:16:17.91,0:16:20.69,Main-207+,,0,0,0,,{I may come in handy. - CR}{I'm sure I'll be able to help. - Gaijin}Surely I can help in some way.{Z}
+Dialogue: 55,0:16:21.54,0:16:24.71,Main-207+,,0,0,0,,{I'm your subordinate from now on, mister! - CR}{From now on, I'm your lieutenant! - Gaijin}From now on, I'm your underling!{Z}
+Dialogue: 55,0:16:26.67,0:16:30.38,Main-207+,,0,0,0,,But, in exchange...{CR}{And in exchange, - Gaijin}
+Dialogue: 55,0:16:31.01,0:16:34.51,Main-207+,,0,0,0,,{let me get on board when you're leaving! - CR}please let me leave with you on your ship.{Gaijin}
+Dialogue: 55,0:16:34.51,0:16:36.68,Main-207+,,0,0,0,,{Oh, so you're stuck here! - CR}Ah, so you can't get home?{Gaijin}
+Dialogue: 55,0:16:37.26,0:16:40.12,Main-207+,,0,0,0,,{I'm sorry for what I did to you in the past! - CR}{I'm sorry for everything I've done! - Gaijin}Please forgive me for my past misdeeds!{Z}
+Dialogue: 55,0:16:40.12,0:16:42.43,Main-207+,,0,0,0,,{I have changed now... - CR}{I've had a change of heart. - Gaijin}I'm a changed man!{Z}
+Dialogue: 55,0:16:47.15,0:16:50.11,Main-207+,,0,0,0,,{Okay, there's no problem if you've changed. - CR}{All right, if you've had a change of heart, then I forgive you. - Gaijin}Alright. If you've changed, then it's fine.{Z}
 Dialogue: 55,0:16:50.11,0:16:51.44,Main-207+,,0,0,0,,What?!
-Dialogue: 55,0:16:54.24,0:16:57.03,Main-207+,,0,0,0,,Ah, I mean,\Nthank you very much!
-Dialogue: 55,0:16:58.28,0:17:02.58,Thoughts-207+,,0,0,0,,Is this some kind of trap? {It's even scarier how casually he forgave me.}What's truly\Nfrightening is how easily he forgave me.
-Dialogue: 55,0:17:02.58,0:17:07.63,Main-207+,,0,0,0,,Sir Luffytaro{Luffytaro-dono}, this man uses \Nquite the fascinating sorcery.
+Dialogue: 55,0:16:54.24,0:16:57.03,Main-207+,,0,0,0,,{Thank you... very much! - CR}Ah, I mean, thank you very much!{Gaijin}
+Dialogue: 55,0:16:58.28,0:17:02.58,Thoughts-207+,,0,0,0,,Is this some kind of trap?!\NIt scares me how easy that was!{CR}{Is this some kind of trap? It's even scarier how casually he forgave me. - Gaijin}
+Dialogue: 55,0:17:02.58,0:17:07.63,Main-207+,,0,0,0,,{Luffytaro-dono!\NThis guy has quite an interesting power. - CR}Sir Luffytaro, this man uses\Nquite the fascinating sorcery.{Gaijin}
 Dialogue: 55,0:17:07.63,0:17:09.71,Main-207+,,0,0,0,,He could be useful.
-Dialogue: 55,0:17:13.30,0:17:16.40,Main-207+,,0,0,0,,I never knew when to let go,
-Dialogue: 55,0:17:16.40,0:17:20.93,Main-207+,,0,0,0,,stubbornly clinging to life,
-Dialogue: 55,0:17:22.18,0:17:24.64,Main-207+,,0,0,0,,but it was worth it.
-Dialogue: 55,0:17:27.60,0:17:28.94,Main-207+,,0,0,0,,Boss Hyogoro{Hyogoro-dono}!
-Dialogue: 55,0:17:32.73,0:17:34.48,Main-207+,,0,0,0,,I was a hair's breadth away.
-Dialogue: 55,0:17:35.15,0:17:38.41,Main-207+,,0,0,0,,I thought I'd die here.
-Dialogue: 55,0:17:39.20,0:17:41.66,Main-207+,,0,0,0,,I had made {my }peace with that.
-Dialogue: 55,0:17:44.20,0:17:48.49,Main-207+,,0,0,0,,{If you had come just a bit later,\NI would have died, completely ignorant of everything.}If not for your timely arrival, \NI would have remained ignorant,
-Dialogue: 55,0:17:48.49,0:17:50.34,Main-207+,,0,0,0,,and I would be dead.
-Dialogue: 55,0:17:52.21,0:17:55.92,Main-207+,,0,0,0,,The Red Scabbards yet live?
-Dialogue: 55,0:17:56.47,0:18:00.35,Main-207+,,0,0,0,,Oden's child, Kozuki Momonosuke, survived?
-Dialogue: 55,0:18:00.89,0:18:03.06,Main-207+,,0,0,0,,The fires of rebellion...
-Dialogue: 55,0:18:04.60,0:18:06.64,Main-207+,,0,0,0,,{have not yet been extinguished?!}{D}do they continue to burn?!
-Dialogue: 55,0:18:17.20,0:18:19.57,Main-207+,,0,0,0,,Raizo! Sir Straw Hat!
-Dialogue: 55,0:18:20.45,0:18:25.16,Main-207+,,0,0,0,,{If all this is true, then there's still some life left in this old man!}Insomuch as this is true, \Nthere is yet life in this old man!
-Dialogue: 55,0:18:25.16,0:18:28.96,Main-207+,,0,0,0,,{Please let me do my part!}It would be an honor to assist you!
-Dialogue: 55,0:18:28.96,0:18:32.88,Main-207+,,0,0,0,,Oh, this is an unexpected boon!
-Dialogue: 55,0:18:32.88,0:18:38.24,Main-207+,,0,0,0,,Sir Luffy{Luffy-dono}, this man was once\Nthe boss {of}over all the {\i1}yakuza{\i0} in Wano.
-Dialogue: 55,0:18:38.24,0:18:42.80,Main-207+,,0,0,0,,Really?! So, you were the real deal \Nback in the day, old man{?}!
-Dialogue: 55,0:18:42.80,0:18:48.14,Main-207+,,0,0,0,,{Didn't you say you were gathering allies \Nin the Flower Capital?}You mentioned that you have been\Ngathering allies in the Flower Capital?
-Dialogue: 55,0:18:48.14,0:18:49.54,Main-207+,,0,0,0,,{That's right.}Indeed.
-Dialogue: 55,0:18:49.54,0:18:53.82,Main-207+,,0,0,0,,It must have been fate\Nthat brought you here to Udon.
-Dialogue: 55,0:18:53.82,0:19:00.36,Main-207+,,0,0,0,,There are four {other}adjoining mining camps\Nof a similar size to this one.
-Dialogue: 55,0:19:01.03,0:19:05.20,Main-207+,,0,0,0,,There are tens of thousands of prisoners here.
-Dialogue: 55,0:19:05.20,0:19:10.13,Main-207+,,0,0,0,,However, not all of them were arrested \Nfor theft or violence.
-Dialogue: 55,0:19:10.13,0:19:13.79,Main-207+,,0,0,0,,{For most of the prisoners in these camps,}Most of the prisoners in these camps\Nare guilty of one thing:
-Dialogue: 55,0:19:13.79,0:19:16.09,Main-207+,,0,0,0,,{their crimes were }treason against Orochi!
-Dialogue: 55,0:19:16.09,0:19:19.34,Main-207+,,0,0,0,,Is that so?! That was an oversight!
-Dialogue: 55,0:19:19.88,0:19:23.34,Main-207+,,0,0,0,,Udon is the nexus of the anger \Nfelt throughout the country.
-Dialogue: 55,0:19:23.34,0:19:29.14,Main-207+,,0,0,0,,{All the yakuza bosses who once supported Wano from the shadows are also here.}The {\i1}yakuza{\i0} bosses who once supported Wano \Nfrom the shadows are all here.
-Dialogue: 55,0:19:29.14,0:19:34.11,Main-207+,,0,0,0,,I{'ll talk to} will speak with them.\NThey will gladly fight for the Kozuki Clan.
-Dialogue: 55,0:19:34.11,0:19:37.71,Main-207+,,0,0,0,,Also, Raizo, see that cell?
-Dialogue: 55,0:19:37.71,0:19:38.99,Main-207+,,0,0,0,,{I already know.}I am already aware.
-Dialogue: 55,0:19:38.99,0:19:45.37,Main-207+,,0,0,0,,I briefly spoke with Kawamatsu.\NI intend to release him first.
-Dialogue: 55,0:19:46.70,0:19:47.83,Main-207+,,0,0,0,,I got it.
-Dialogue: 55,0:19:47.83,0:19:50.83,Main-207+,,0,0,0,,If we smash this place to pieces,
-Dialogue: 55,0:19:51.50,0:19:53.88,Main-207+,,0,0,0,,everyone will join our cause?!
-Dialogue: 55,0:19:54.42,0:19:57.80,Main-207+,,0,0,0,,Sir Luffy{Luffy-dono}, you're too loud!\NIt won't be that simple!
-Dialogue: 55,0:19:57.80,0:20:02.34,Main-207+,,0,0,0,,All right! {Now that's}With that decided,\Nbring us some food!
-Dialogue: 55,0:20:03.80,0:20:05.76,Main-207+,,0,0,0,,Please...
-Dialogue: 55,0:20:05.76,0:20:08.18,Main-207+,,0,0,0,,feed me.
-Dialogue: 55,0:20:09.27,0:20:12.64,Main-207+,,0,0,0,,I'm hungry... and sleepy.
-Dialogue: 55,0:20:12.64,0:20:16.23,Main-207+,,0,0,0,,Are we close to the {\i1}oshiruko{\i0}, Okiku-{\i1}chan{\fs18} {\r}?
-Dialogue: 55,0:20:16.23,0:20:21.78,Main-207+,,0,0,0,,The {crocoshark}sharkodile is also exhausted,\Nbut we have already reached Udon.
-Dialogue: 55,0:20:22.74,0:20:24.24,Main-207+,,0,0,0,,Wait for me{...},
-Dialogue: 55,0:20:24.24,0:20:28.03,Main-207+,,0,0,0,,my sweet {\i1}oshiruko{\fs15} {\r}!
-Dialogue: 55,0:20:29.58,0:20:32.00,Main-207+,,0,0,0,,{Not so sure it's okay we're here.}Is it okay that we're here?
-Dialogue: 55,0:20:35.33,0:20:37.50,Main-207+,,0,0,0,,Oh, that hits the spot!
+Dialogue: 55,0:17:13.30,0:17:16.40,Main-207+,,0,0,0,,{Without giving up... - CR}I never knew when to let go...{Gaijin}
+Dialogue: 55,0:17:16.40,0:17:20.93,Main-207+,,0,0,0,,{greedily... I held on to life... - CR}stubbornly clinging to life...{Gaijin}
+Dialogue: 55,0:17:22.18,0:17:23.71,Main-207+,,0,0,0,,{I'm glad that I did! - CR}but it was worth it.{Gaijin}
+Dialogue: 55,0:17:27.60,0:17:28.94,Main-207+,,0,0,0,,{Hyogoro-dono?! - CR}Boss Hyogoro!{Gaijin}
+Dialogue: 55,0:17:32.73,0:17:34.48,Main-207+,,0,0,0,,{That was close... - CR}I was a hair's breadth away.{Gaijin}
+Dialogue: 55,0:17:35.15,0:17:38.41,Main-207+,,0,0,0,,{I thought I was only gonna\Ndie miserably here... - CR}{I thought I'd die here. - Gaijin}I thought I'd die a miserable death here...{Z}
+Dialogue: 55,0:17:39.20,0:17:41.66,Main-207+,,0,0,0,,{I was accepting my death. - CR}I had made peace with that.{Gaijin/Z}
+Dialogue: 55,0:17:44.20,0:17:48.49,Main-207+,,0,0,0,,{Had this not happened,\NI would've died... - CR}{If you had come just a bit later,\NI would have died, completely ignorant of everything... - Gaijin}If not for your timely arrival,\NI would have died...{Z}
+Dialogue: 55,0:17:48.49,0:17:50.34,Main-207+,,0,0,0,,{not knowing anything. - CR}ignorant of everything.{Gaijin}
+Dialogue: 55,0:17:52.21,0:17:55.92,Main-207+,,0,0,0,,{So the Akazaya samurai are alive! - CR}The Red Scabbards yet live?{Gaijin}
+Dialogue: 55,0:17:56.47,0:18:00.35,Main-207+,,0,0,0,,{Oden's son, Kozuki Momonosuke, is alive! - CR}Oden's child, Kozuki Momonosuke, survived?{Gaijin}
+Dialogue: 55,0:18:00.89,0:18:03.06,Main-207+,,0,0,0,,{The fire of rebellion.... - CR}The fires of rebellion...{Gaijin}
+Dialogue: 55,0:18:04.60,0:18:06.64,Main-207+,,0,0,0,,{isn't extinguished! - CR}{have not yet been extinguished?! - Gaijin}do they continue to burn?!{Z}
+Dialogue: 55,0:18:17.20,0:18:19.57,Main-207+,,0,0,0,,{Raizo! Straw hat man! - CR}Raizo! Sir Straw Hat!{Gaijin}
+Dialogue: 55,0:18:20.45,0:18:25.16,Main-207+,,0,0,0,,When it comes to this, even a dotard\Nlike me still can contribute!{CR}{If all this is true, then there's still some life left in this old man! - Gaijin}
+Dialogue: 55,0:18:25.16,0:18:28.96,Main-207+,,0,0,0,,{Will you please let me join you?! - CR}{Please let me do my part! - Gaijin}It would be an honor to join you!{Z}
+Dialogue: 55,0:18:28.96,0:18:32.88,Main-207+,,0,0,0,,{Oh, we could ask for none better than him! - CR}Oh, this is an unexpected boon!{Gaijin}
+Dialogue: 55,0:18:32.88,0:18:38.24,Main-207+,,0,0,0,,{Luffy-dono! He used to be the greatest yakuza boss\Nin the Land of Wano! - CR}{Sir Luffy, this man was once\Nthe boss over all the yakuza in Wano. - Gaijin}Sir Luffy, this man was once the most\Nhighly regarded yakuza in all of Wano!{Z}
+Dialogue: 55,0:18:38.24,0:18:42.80,Main-207+,,0,0,0,,{What?! I knew you were a big deal back\Nin the day, old man! - CR}{Really?! So, you were the real deal\Nback in the day, old man! - Gaijin/Z}Really?! So you were a big deal\Nback in the day, gramps!{Z}
+Dialogue: 55,0:18:42.80,0:18:48.14,Main-207+,,0,0,0,,{You said that you were recruiting allies\Nin the Flower Capital now, didn't you?! - CR}{Didn't you say you were gathering allies\Nin the Flower Capital? - Gaijin}You mentioned that you have been\Ngathering allies in the Flower Capital?{Z}
+Dialogue: 55,0:18:48.14,0:18:49.54,Main-207+,,0,0,0,,{That is right! - CR}{That's right. - Gaijin}Indeed.{Z}
+Dialogue: 55,0:18:49.54,0:18:53.82,Main-207+,,0,0,0,,{It's surely fate that brought you to Udon! - CR}It must have been fate\Nthat brought you here to Udon.{Gaijin}
+Dialogue: 55,0:18:53.82,0:19:00.36,Main-207+,,0,0,0,,{In this labor camp, there are four other excavation sites\Njust as large as this one! - CR}In this labor camp, there are four adjoining\Nmining sites of a similar size to this one.{Gaijin/Z}
+Dialogue: 55,0:19:01.03,0:19:05.20,Main-207+,,0,0,0,,{There are tens of thousands\Nof prisoners in Udon! - CR}{There are tens of thousands of prisoners here. - Gaijin}Tens of thousands of prisoners\Nare being held here in Udon!{Z}
+Dialogue: 55,0:19:05.20,0:19:10.13,Main-207+,,0,0,0,,{However, not everyone was imprisoned\Nfor robbery or assault... - CR}However, not all of them were\Narrested for theft or violence.{Gaijin}
+Dialogue: 55,0:19:10.13,0:19:13.79,Main-207+,,0,0,0,,{Most of the prisoners are here for... - CR}{For most of the prisoners in these camps, - Gaijin}Most of the prisoners are here for one thing:{Z}
+Dialogue: 55,0:19:13.79,0:19:16.09,Main-207+,,0,0,0,,treason against Orochi!{CR}{their crimes were against Orochi! - Gaijin}
+Dialogue: 55,0:19:16.09,0:19:19.34,Main-207+,,0,0,0,,{Oh! Why didn't I think of that?! - CR}Is that so?! That was an oversight!{Gaijin}
+Dialogue: 55,0:19:19.88,0:19:23.34,Main-207+,,0,0,0,,{Rage from across the country is pooled here! - CR}{Udon is the nexus of the anger\Nfelt throughout the country. - Gaijin}The country's rage has been\Npooled into this location!{Z}
+Dialogue: 55,0:19:23.34,0:19:29.14,Main-207+,,0,0,0,,{The yakuza bosses who once supported the Land of Wano\Nbehind the scenes are all here, too! - CR}{All the yakuza bosses who once supported Wano from the shadows are also here. - Gaijin}The yakuza bosses who once supported Wano\Nfrom the shadows are all here.{Z}
+Dialogue: 55,0:19:29.14,0:19:34.11,Main-207+,,0,0,0,,{I'll talk to them!\NI'm sure they'll be happy to fight for Kozuki! - CR}I will speak with them. They will\Ngladly fight for the Kozuki Clan.{Gaijin/Z}
+Dialogue: 55,0:19:34.11,0:19:37.71,Main-207+,,0,0,0,,{And Raizo! In that cell... - CR}Also, Raizo, see that cell?{Gaijin}
+Dialogue: 55,0:19:37.71,0:19:38.99,Main-207+,,0,0,0,,{I know. - CR}{I already know. - Gaijin}I am already aware.{Z}
+Dialogue: 55,0:19:38.99,0:19:45.37,Main-207+,,0,0,0,,{I have had a word with Kawamatsu.\NI will release him first! - CR}I briefly spoke with Kawamatsu.\NI intend to release him first.{Gaijin}
+Dialogue: 55,0:19:46.70,0:19:47.83,Main-207+,,0,0,0,,{I see! - CR}I got it.{Gaijin}
+Dialogue: 55,0:19:47.83,0:19:50.83,Main-207+,,0,0,0,,{Then if I break this place down, - CR}If we smash this place to pieces,{Gaijin}
+Dialogue: 55,0:19:51.50,0:19:53.88,Main-207+,,0,0,0,,{everyone will ally with us! - CR}everyone will join our cause?!{Gaijin}
+Dialogue: 55,0:19:54.42,0:19:57.80,Main-207+,,0,0,0,,{Luffy-dono! You are too loud!\NIt is not that easy... - CR}Sir Luffy, you are too loud!\NIt will not be that simple!{Gaijin/Z}
+Dialogue: 55,0:19:57.80,0:20:02.34,Main-207+,,0,0,0,,{All right! Our plan has been set!\NBring me something to eat! - CR}Alright! With that decided, bring us some food!{Gaijin/Z}
+Dialogue: 55,0:20:03.80,0:20:05.76,Main-207+,,0,0,0,,{Let me... - CR}Please...{Gaijin}
+Dialogue: 55,0:20:05.76,0:20:08.18,Main-207+,,0,0,0,,{...eat... - CR}feed me.{Gaijin}
+Dialogue: 55,0:20:09.27,0:20:12.64,Main-207+,,0,0,0,,{I'm hungry... and tired... - CR}I'm hungry... and sleepy.{Gaijin}
+Dialogue: 55,0:20:12.64,0:20:16.23,Main-207+,,0,0,0,,{No red-bean soup yet? Okiku-chan... - CR}Are we close to the {\i1}oshiruko{\i0}, Okiku?{Gaijin}
+Dialogue: 55,0:20:16.23,0:20:21.78,Main-207+,,0,0,0,,{Sharkodile-san is exhausted, too.\NBut we have already entered Udon! - CR}The sharkodile is also exhausted,\Nbut we have already reached Udon.{Gaijin}
+Dialogue: 55,0:20:22.74,0:20:24.24,Main-207+,,0,0,0,,Wait for me,
+Dialogue: 55,0:20:24.24,0:20:28.03,Main-207+,,0,0,0,,{My red-bean soup... - CR}my sweet {\i1}oshiruko{\i0}!{Gaijin}
+Dialogue: 55,0:20:29.58,0:20:32.00,Main-207+,,0,0,0,,{Is this really a good idea? - CR}{Not so sure it's okay we're here. - Gaijin}Is it okay that we're here?{Z}
+Dialogue: 55,0:20:35.33,0:20:37.50,Main-207+,,0,0,0,,Oh, it's good!{CR}{Oh, that hits the spot! - Gaijin}
 Dialogue: 55,0:20:38.09,0:20:39.42,Main-207+,,0,0,0,,Another bowl!
-Dialogue: 55,0:20:40.05,0:20:43.30,Main-207+,,0,0,0,,{\i1}Oshiruko{\fs15} {\r}!
-Dialogue: 55,0:20:48.51,0:20:51.06,Main-207+,,0,0,0,,Extra! Extra! Breaking news!
-Dialogue: 55,0:20:51.06,0:20:53.18,Main-207+,,0,0,0,,{\an8}The cause of the uproar in the Flower Capital,
-Dialogue: 55,0:20:53.18,0:20:55.94,Main-207+,,0,0,0,,{\an8}the burglar known as {Kozo Ushimitsu}Ushimitsu Kozo,
-Dialogue: 55,0:20:55.94,0:20:59.07,Main-207+,,0,0,0,,{\an8}has finally been caught!
-Dialogue: 55,0:20:59.61,0:21:01.03,Main-207+,,0,0,0,,Lord Orochi!
-Dialogue: 55,0:21:01.73,0:21:05.49,Main-207+,,0,0,0,,Lord Orochi, I have some news you should hear.
-Dialogue: 55,0:21:05.49,0:21:09.74,Main-207+,,0,0,0,,It is about {Kozo }Ushimitsu Kozo,\Nwho was apprehended the other day.
-Dialogue: 55,0:21:11.10,0:21:13.00,Main-207+,,0,0,0,,{Just shut up!}Be silent!
-Dialogue: 55,0:21:13.00,0:21:19.54,Main-207+,,0,0,0,,{You have know idea what it's like to lose the love of your life!}Have you any sense of how I feel, \Nhaving lost the love of my life?!
-Dialogue: 55,0:21:20.25,0:21:24.56,Main-207+,,0,0,0,,I am deeply grieved by the death of {the oiran,}Oiran Komurasaki.
-Dialogue: 55,0:21:24.56,0:21:26.30,Main-207+,,0,0,0,,But with all due respect, {My Lord}my lord,
-Dialogue: 55,0:21:26.76,0:21:29.90,Main-207+,,0,0,0,,Kyoshiro's decision was most prudent.
-Dialogue: 55,0:21:29.90,0:21:33.31,Main-207+,,0,0,0,,If we let anyone who opposes the {\i1}shogun{\i0} live,
-Dialogue: 55,0:21:33.31,0:21:36.94,Main-207+,,0,0,0,,it could ruin {the shogun's}His Excellency's authority and prestige.
-Dialogue: 55,0:21:55.54,0:21:56.66,Main-207+,,0,0,0,,Lord Orochi–
-Dialogue: 55,0:21:56.66,0:22:00.50,Main-207+,,0,0,0,,I couldn't care less about Ushimitsu Kozo.
-Dialogue: 55,0:22:01.09,0:22:08.47,Main-207+,,0,0,0,,Komurasaki... No other woman \N{can}could match her beauty.
-Dialogue: 55,0:22:08.47,0:22:11.47,Main-207+,,0,0,0,,Do you not understand that?!
-Dialogue: 55,0:22:11.47,0:22:15.39,Main-207+,,0,0,0,,Thank you for the honor\Nof your presence, Lord Orochi.
-Dialogue: 55,0:22:15.39,0:22:18.14,Main-207+,,0,0,0,,{I beg you, please listen to what I have to say.}But I beg you, please hear me out.
-Dialogue: 55,0:22:18.14,0:22:23.61,Main-207+,,0,0,0,,{Kozo Ushimitsu}Ushimitsu Kozo was not\Nyour run-of-the-mill thief.
-Dialogue: 55,0:22:24.48,0:22:29.03,Main-207+,,0,0,0,,He was an insidious criminal who\Nwreaked havoc throughout the Flower Capital.
-Dialogue: 55,0:22:30.11,0:22:33.70,Main-207+,,0,0,0,,{He gave away the money he stole to the poor,}He stole from the rich and gave to the poor,
-Dialogue: 55,0:22:33.70,0:22:36.45,Main-207+,,0,0,0,,becoming a petty villain with heroic intentions.
-Dialogue: 55,0:22:38.58,0:22:44.00,Main-207+,,0,0,0,,He is currently in custody at {the }Rasetsu {p}Prison.
-Dialogue: 55,0:22:44.50,0:22:46.71,Main-207+,,0,0,0,,His true identity is...
+Dialogue: 55,0:20:40.05,0:20:43.30,Main-207+,,0,0,0,,{Red-bean soup! - CR}{\i1}Oshiruko{\i0}!{Gaijin}
+Dialogue: 55,0:20:48.51,0:20:51.06,Main-207+,,0,0,0,,{Big news! Big news! - CR}Extra! Extra! Breaking news!{Gaijin}
+Dialogue: 55,0:20:51.06,0:20:53.18,Main-207+,,0,0,0,,{[/an8] - The great thief Ushimitsu Kozo... - CR}{The cause of the uproar in the Flower Capital, - Gaijin}The great thief of the Flower Capital,{Z}
+Dialogue: 55,0:20:53.18,0:20:55.94,Main-207+,,0,0,0,,{[/an8] - who caused trouble\Nin the Flower Capital... - CR}{the burglar known as the Witching Hour Boy, - Gaijin}the troublesome Witching Hour Boy,{Z}
+Dialogue: 55,0:20:55.94,0:20:59.07,Main-207+,,0,0,0,,{\an8}{finally got caught! - CR}has finally been caught!{Gaijin}
+Dialogue: 55,0:20:59.61,0:21:01.03,Main-207+,,0,0,0,,{Orochi-sama. - CR}Shogun Orochi!{Gaijin}
+Dialogue: 55,0:21:01.73,0:21:05.49,Main-207+,,0,0,0,,{Orochi-sama, \Nthere is something that I want you to know... - CR}My lord, I have some\Nnews you should hear.{Gaijin/Z}
+Dialogue: 55,0:21:05.49,0:21:09.74,Main-207+,,0,0,0,,{It's about Ushimitsu Kozo\Nwho we caught yesterday... - CR}It is about the Witching Hour Boy,\Nwho was apprehended the other day.{Gaijin}
+Dialogue: 55,0:21:11.10,0:21:13.00,Main-207+,,0,0,0,,{Oh, shut up! - CR}{Just shut up! - Gaijin}Be silent!{Z}
+Dialogue: 55,0:21:13.00,0:21:19.54,Main-207+,,0,0,0,,{None of you can understand the pain of\Nlosing a beloved woman! - CR}{You have know idea what it's like to lose the love of your life! - Gaijin}Have you no sense of how I feel,\Nhaving lost the love of my life?!{Z}
+Dialogue: 55,0:21:20.25,0:21:24.56,Main-207+,,0,0,0,,{About the Oiran, Komurasaki's death,\Nmy sympathies are with you... - CR}{I am deeply grieved by\Nthe death of Oiran Komurasaki. - Gaijin/Z}I have only the deepest of sympathies\Nfor the passing of Oiran Komurasaki...{Z}
+Dialogue: 55,0:21:24.56,0:21:26.30,Main-207+,,0,0,0,,{But with all due respect, - CR}But with all due respect, my lord...{Gaijin}
+Dialogue: 55,0:21:26.76,0:21:29.90,Main-207+,,0,0,0,,{Kyoshiro's move was wise. - CR}Kyoshiro's decision was most prudent.{Gaijin}
+Dialogue: 55,0:21:29.90,0:21:33.31,Main-207+,,0,0,0,,{If he let someone\Nwho stood against you walk away, - CR}If we let anyone who opposes the shogun live,{Gaijin}
+Dialogue: 55,0:21:33.31,0:21:36.94,Main-207+,,0,0,0,,{it would have undermined\Nyour authority and reputation. - CR}it could undermine His Excellency's\Nauthority and prestige.{Gaijin/Z}
+Dialogue: 55,0:21:55.54,0:21:56.66,Main-207+,,0,0,0,,{Orochi-sama! - CR}My lord...!{Z}
+Dialogue: 55,0:21:56.66,0:22:00.50,Main-207+,,0,0,0,,{I do not care about Ushimitsu Kozo! - CR}I couldn't care less about\Nthe Witching Hour Boy...{Gaijin}
+Dialogue: 55,0:22:01.09,0:22:08.47,Main-207+,,0,0,0,,{There is no other woman as beautiful as Komurasaki\Nin the world! - CR}Komurasaki... No other woman\Ncould match her beauty.{Gaijin/Z}
+Dialogue: 55,0:22:08.47,0:22:11.47,Main-207+,,0,0,0,,{Can't you see that?! - CR}Do you not understand that?!{Gaijin}
+Dialogue: 55,0:22:11.47,0:22:15.39,Main-207+,,0,0,0,,{It is so great to see you, Orochi-sama! - CR}Thank you for the honor\Nof your presence, Shogun Orochi.{Gaijin}
+Dialogue: 55,0:22:15.39,0:22:18.14,Main-207+,,0,0,0,,{Please listen to me. - CR}{I beg you, please listen to what I have to say. - Gaijin}But I beg you, please hear me out.{Z}
+Dialogue: 55,0:22:18.14,0:22:23.61,Main-207+,,0,0,0,,{Ushimitsu Kozo was not\Njust another petty thief! - CR}The Witching Hour Boy was not\Nyour run-of-the-mill thief.{Gaijin/Z}
+Dialogue: 55,0:22:24.48,0:22:29.03,Main-207+,,0,0,0,,{Ushimitsu Kozo, the cowardly burglar\Nwho caused trouble in the Flower Capital... - CR}{He was an insidious criminal who\Nwreaked havoc throughout the Flower Capital. - Gaijin}He was a cowardly burglar who wreaked\Nhavoc throughout the Flower Capital.{Z}
+Dialogue: 55,0:22:30.11,0:22:33.70,Main-207+,,0,0,0,,{He is a hero-wannabe, small-time\Ncrook who gives away - CR}{He gave away the money he stole to the poor, - Gaijin}He stole from the rich and gave to the poor,{Z}
+Dialogue: 55,0:22:33.70,0:22:36.45,Main-207+,,0,0,0,,{the money and goods he steals to poor people. - CR}becoming a petty villain with heroic intentions.{Gaijin}
+Dialogue: 55,0:22:38.58,0:22:44.00,Main-207+,,0,0,0,,{We are holding him at the Prisoners' Quarters\Nin Rasetsu Town, - CR}He is currently in custody at Rasetsu Prison.{Gaijin}
+Dialogue: 55,0:22:44.50,0:22:46.71,Main-207+,,0,0,0,,{but the truth is his identity is... - CR}His true identity is...{Gaijin}
 Dialogue: 55,0:22:48.42,0:22:49.63,Main-207+,,0,0,0,,What?!
-Dialogue: 55,0:22:56.10,0:22:58.06,Main-207+,,0,0,0,,It's {\i1}him{\fs15} {\r}!
-Dialogue: 55,0:23:03.48,0:23:08.69,Main-207+,,0,0,0,,H-He... lives?!
-Dialogue: 55,0:23:11.24,0:23:15.62,Main-207+,,0,0,0,,No! I cannot believe it!
-Dialogue: 55,0:23:15.62,0:23:17.37,Main-207+,,0,0,0,,It's him!
-Dialogue: 55,0:23:18.08,0:23:22.17,Flashbacks-207+,,0,0,0,,You are of the Kurozumi Clan?\NWhy did you hide it?
-Dialogue: 55,0:23:33.34,0:23:37.22,Main-207+,,0,0,0,,It's him! {It's him!}He lives!
-Dialogue: 55,0:23:38.22,0:23:40.56,Main-207+,,0,0,0,,My {L}lord? My {L}lord?!
-Dialogue: 55,0:23:40.56,0:23:44.19,Main-207+,,0,0,0,,What shall we do about {Kozo Ushimitsu}Ushimitsu Kozo?
-Dialogue: 55,0:23:46.80,0:23:48.90,Main-207+,,0,0,0,,{It's obvious.}Isn't it obvious?!
-Dialogue: 55,0:23:48.90,0:23:54.53,Main-207+,,0,0,0,,Execute him!\NMake an example out of him!
-Dialogue: 55,0:23:54.53,0:23:59.33,Main-207+,,0,0,0,,Broadcast it immediately throughout Wano!
-Dialogue: 55,0:24:00.04,0:24:03.21,Main-207+,,0,0,0,,The light scrolls are already in place.
+Dialogue: 55,0:22:56.10,0:22:58.06,Main-207+,,0,0,0,,{He is... - CR}It's {\i1}him{\i0}!{Gaijin}
+Dialogue: 55,0:23:03.48,0:23:08.69,Main-207+,,0,0,0,,{H-He is... alive?! - CR}H-He... lives?!{Gaijin}
+Dialogue: 55,0:23:11.24,0:23:15.62,Main-207+,,0,0,0,,{No way... I cannot believe it! - CR}No! I cannot believe it!{Gaijin}
+Dialogue: 55,0:23:15.62,0:23:17.37,Main-207+,,0,0,0,,{He is... - CR}It's him!{Gaijin}
+Dialogue: 55,0:23:18.08,0:23:22.17,Flashbacks-207+,,0,0,0,,{So you are from the Kurozumi Family.\NWhy didn't you tell me? - CR}You are of the Kurozumi Clan?\NWhy did you hide it?{Gaijin}
+Dialogue: 55,0:23:33.34,0:23:37.22,Main-207+,,0,0,0,,{He is... He is... - CR}It's him! It's him!{Gaijin}
+Dialogue: 55,0:23:38.22,0:23:40.56,Main-207+,,0,0,0,,{Lord! Lord! - CR}My lord? My lord?!{Gaijin}
+Dialogue: 55,0:23:40.56,0:23:44.19,Main-207+,,0,0,0,,{What should we do about Ushimitsu Kozo? - CR}What shall we do about\Nthe Witching Hour Boy?{Gaijin}
+Dialogue: 55,0:23:46.80,0:23:48.90,Main-207+,,0,0,0,,{Why do you need to ask? - CR}{It's obvious. - Gaijin}Isn't it obvious?!{Z}
+Dialogue: 55,0:23:48.90,0:23:54.53,Main-207+,,0,0,0,,{Execute him! And show it to public\Nto set an example! - CR}Execute him! Make a public\Nexample out of him!{Gaijin/Z}
+Dialogue: 55,0:23:54.53,0:23:59.33,Main-207+,,0,0,0,,{Illuminate the Light-Scrolls across the Land of Wano\Nimmediately! - CR}{Broadcast it immediately throughout Wano! - Gaijin}Illuminate the light scrolls\Nacross Wano immediately!{Z}
+Dialogue: 55,0:24:00.04,0:24:03.21,Main-207+,,0,0,0,,{The Light-Scrolls are already prepared. - CR}{The light scrolls are already in place. - Gaijin}They already stand at the ready.{Z}
 Dialogue: 55,0:24:03.21,0:24:04.54,Main-207+,,0,0,0,,Kyoshiro!
-Dialogue: 55,0:24:04.54,0:24:09.90,Main-207+,,0,0,0,,Today, Komurasaki's public funeral\Nwill also {be held}take place in the capital.
-Dialogue: 55,0:24:09.90,0:24:14.98,Main-207+,,0,0,0,,{We have already made preparations for large crowds,}Large, grieving crowds hold the potential \Nfor disorderly conduct,
-Dialogue: 55,0:24:14.98,0:24:17.64,Main-207+,,0,0,0,,{which may bring about disorder.}so I have made preparations.
-Dialogue: 55,0:24:17.64,0:24:20.14,Main-207+,,0,0,0,,Just as I'd expect from you, Kyoshiro.
-Dialogue: 55,0:24:23.39,0:24:25.19,Main-207+,,0,0,0,,What are your orders, {My Lord}my lord?
-Dialogue: 55,0:24:27.94,0:24:30.15,Main-207+,,0,0,0,,I've made up my mind.
-Dialogue: 55,0:24:30.15,0:24:34.91,Main-207+,,0,0,0,,We will have {Kozo Ushimitsu}Ushimitsu Kozo\Njoin Komurasaki in death.
-Dialogue: 55,0:24:34.91,0:24:38.24,Main-207+,,0,0,0,,{It'll be a martyr's funeral for Komurasaki!}Komurasaki will {take part in}have a martyr's funeral!
-Dialogue: 55,0:24:38.24,0:24:40.12,Main-207+,,0,0,0,,Yes, {My Lord}my lord.
-Dialogue: 55,0:24:42.20,0:24:47.92,Main-207+,,0,0,0,,{Oh, how ironic for the capital's\Ntwo biggest stars to die at the same time!}It's ironic poetry to have the capital's \Ntwo biggest stars share the stage in death!
-Dialogue: 55,0:24:48.66,0:24:52.88,Main-207+,,0,0,0,,{That is just the sort of idea\NI would expect from our shogun.}That is exactly the stroke of {\i1}genius{\i0} \NI expect of my {\i1}shogun{\i0}.
-Dialogue: 55,0:24:52.88,0:24:54.93,Main-207+,,0,0,0,,{I will go too.}I, too, will attend.
-Dialogue: 55,0:24:55.80,0:24:59.72,Main-207+,,0,0,0,,{I'll watch the execution!}I wish to witness the execution!\N{Get my palanquin ready!}Ready my palanquin!
-Dialogue: 55,0:25:02.61,0:25:04.77,Main-207+,,0,0,0,,It can't be!
-Dialogue: 55,0:25:05.31,0:25:09.48,Main-207+,,0,0,0,,I can't deal with these bad jokes \Nin the morning, Kaido-{\i1}san{\i0}.
+Dialogue: 55,0:24:04.54,0:24:09.90,Main-207+,,0,0,0,,{Today, Komurasaki's funeral will be held\Nin the Flower Capital. - CR}Today, Komurasaki's public funeral\Nwill also take place in the capital.{Gaijin/Z}
+Dialogue: 55,0:24:09.90,0:24:14.98,Main-207+,,0,0,0,,{We are expecting a crowd of people\Nand it will be chaotic... - CR}{We have already made preparations for large crowds, - Gaijin}Large, grieving crowds hold\Nthe potential for disorderly conduct...{Z}
+Dialogue: 55,0:24:14.98,0:24:17.64,Main-207+,,0,0,0,,{That is why we have already prepared. - CR}{which may bring about disorder. - Gaijin}so I have made preparations.{Z}
+Dialogue: 55,0:24:17.64,0:24:20.14,Main-207+,,0,0,0,,That's my Kyoshiro!{CR}{Just as I'd expect from you, Kyoshiro. - Gaijin}
+Dialogue: 55,0:24:23.39,0:24:25.19,Main-207+,,0,0,0,,{What shall we do? - CR}What are your orders, my lord?{Gaijin}
+Dialogue: 55,0:24:27.94,0:24:30.15,Main-207+,,0,0,0,,{Okay! This is what we are going to do! - CR}I've made up my mind.{Gaijin}
+Dialogue: 55,0:24:30.15,0:24:34.91,Main-207+,,0,0,0,,{We will let Ushimitsu Kozo\Nfollow Komurasaki to the grave! - CR}We will have the Witching Hour Boy\Njoin Komurasaki in death.{Gaijin}
+Dialogue: 55,0:24:34.91,0:24:38.24,Main-207+,,0,0,0,,{To accompany her! - CR}{It'll be a martyr's funeral for Komurasaki! - Gaijin}He'll be an offering at Komurasaki's funeral!{Nikki/PP}
+Dialogue: 55,0:24:38.24,0:24:40.12,Main-207+,,0,0,0,,{Oh! - CR}Yes, my lord.{Gaijin}
+Dialogue: 55,0:24:42.20,0:24:47.92,Main-207+,,0,0,0,,{What a pity to lose the two biggest stars of the capital\Nat the same time! - CR}{Oh, how ironic for the capital's\Ntwo biggest stars to die at the same time! - Gaijin}It's sadly poetic to have the capital's\Ntwo biggest stars share the stage in death!{Z}
+Dialogue: 55,0:24:48.66,0:24:52.88,Main-207+,,0,0,0,,{Only you could come up\Nwith such a nice idea... - CR}{That is just the sort of idea\NI would expect from our shogun. - Gaijin}That is exactly the stroke of {\i1}genius{\i0}\NI expect of my shogun.{Z}
+Dialogue: 55,0:24:52.88,0:24:54.93,Main-207+,,0,0,0,,{I will be there, too! - CR}{I will go too. - Gaijin}I, too, will attend.{Z}
+Dialogue: 55,0:24:55.80,0:24:59.72,Main-207+,,0,0,0,,I will witness his execution\Nto the end! I need a palanquin now!{CR}{I'll watch the execution! Get my palanquin ready! - Gaijin}{I wish to witness the execution!\NReady my palanquin now! - Z}
+Dialogue: 55,0:25:02.61,0:25:04.77,Main-207+,,0,0,0,,{That's a lie! - CR}It can't be!{Gaijin}
+Dialogue: 55,0:25:05.31,0:25:09.48,Main-207+,,0,0,0,,{Stop making bad jokes\Nso early in the morning, Kaido-san! - CR}I can't deal with these bad jokes\Nin the morning, Kaido.{Gaijin}
 Dialogue: 55,0:25:12.53,0:25:13.69,Main-207+,,0,0,0,,{\i1}It's not a joke.
-Dialogue: 55,0:25:13.69,0:25:16.24,Main-207+,,0,0,0,,No... It can't be!
-Dialogue: 55,0:25:16.24,0:25:20.55,Main-207+,,0,0,0,,{\i1}If you don't believe me, connect a\Nlight-scroll snail and see for yourself!
+Dialogue: 55,0:25:13.69,0:25:16.24,Main-207+,,0,0,0,,{No way! No... - CR}No... It can't be!{Gaijin}
+Dialogue: 55,0:25:16.24,0:25:20.55,Main-207+,,0,0,0,,{\i1}{If you think it's a lie,\Nhook up your Light-Scroll Snail! - CR}If you don't believe me, connect a light-scroll\Nsnail and see for yourself!{Gaijin}
 Dialogue: 55,0:25:22.58,0:25:24.59,Main-207+,,0,0,0,,No!
-Dialogue: 55,0:25:26.74,0:25:29.46,Main-207+,,0,0,0,,Komurasaki-{\i1}tan{\fs5} {\r}!
-Dialogue: 55,0:25:32.00,0:25:33.42,Main-207+,,0,0,0,,Hey.
-Dialogue: 55,0:25:32.86,0:25:33.42,Secondary-207+,,0,0,0,,Huh?
-Dialogue: 55,0:25:33.42,0:25:36.55,Main-207+,,0,0,0,,He found out Komurasaki died.
-Dialogue: 55,0:25:36.55,0:25:40.10,Main-207+,,0,0,0,,Queen's gonna be in a bad mood for a while.
-Dialogue: 55,0:25:40.10,0:25:43.81,Main-207+,,0,0,0,,This is {not good}bad. What should we do?
+Dialogue: 55,0:25:26.74,0:25:29.46,Main-207+,,0,0,0,,{Komurasaki-[/i1]tan[/i0]! - CR}My Komurasaki!{Z}
+Dialogue: 55,0:25:32.00,0:25:33.42,Main-207+,,0,0,0,,Hey!
+Dialogue: 55,0:25:32.86,0:25:33.42,Secondary-207+,,0,0,0,,Huh?{Gaijin}
+Dialogue: 55,0:25:33.42,0:25:36.55,Main-207+,,0,0,0,,{He found out that Komurasaki died! - CR}He found out Komurasaki died.{Gaijin}
+Dialogue: 55,0:25:36.55,0:25:40.10,Main-207+,,0,0,0,,{I'm sure that he'll be in\Na bad mood for a while. - CR}Queen's gonna be in a bad mood for a while.{Gaijin - removed the -sama localization; they're not addressing Queen directly}
+Dialogue: 55,0:25:40.10,0:25:43.81,Main-207+,,0,0,0,,{We're in trouble. What should we do? - CR}This is bad. What should we do?{Gaijin/Z}
 Dialogue: 55,0:25:43.81,0:25:47.06,Main-207+,,0,0,0,,Hey, balloon!
-Dialogue: 55,0:25:47.06,0:25:50.27,Main-207+,,0,0,0,,Hurry and get out here!
-Dialogue: 55,0:25:50.77,0:25:55.03,Main-207+,,0,0,0,,Shut up!\NI don't have time for your nonsense!
-Dialogue: 55,0:25:55.90,0:26:00.54,Main-207+,,0,0,0,,Hey, balloon!\NWhen we gonna start today's sumo match?
-Dialogue: 55,0:26:00.54,0:26:02.58,Main-207+,,0,0,0,,Don't waste my time!
-Dialogue: 55,0:26:03.75,0:26:07.29,Main-207+,,0,0,0,,Did you guys get fat overnight or something?!
-Dialogue: 55,0:26:07.29,0:26:10.97,Main-207+,,0,0,0,,That's impossible!\NYou're just imagining it!
-Dialogue: 55,0:26:11.75,0:26:13.82,Main-207+,,0,0,0,,Hey{,}.
-Dialogue: 55,0:26:11.75,0:26:13.82,Secondary-207+,,0,0,0,,O-Oh. I see.
-Dialogue: 55,0:26:13.82,0:26:17.68,Main-207+,,0,0,0,,{\q2}{should}Do we report that the {\i1}oshiruko{\i0} {ran out last night}vanished overnight?
-Dialogue: 55,0:26:13.82,0:26:17.68,Secondary-207+,,0,0,0,,Anyway, that's not important right now!
-Dialogue: 55,0:26:17.68,0:26:22.00,Main-207+,,0,0,0,,No way! {What would Queen do if he heard more bad news?!}What do you think Queen would do \Nafter a double shock like that?
-Dialogue: 55,0:26:22.00,0:26:23.31,Main-207+,,0,0,0,,{Yeah, you're right.}Good point.
-Dialogue: 55,0:26:23.31,0:26:28.27,Main-207+,,0,0,0,,But where in the world did that {\i1}oshiruko{\i0} go?
-Dialogue: 55,0:26:28.27,0:26:32.65,Main-207+,,0,0,0,,{I told Luffy-dono they'd find out if he ate too much.}I warned Sir Luffy they would notice \Nif he ate too much.
-Dialogue: 55,0:26:32.65,0:26:37.40,Main-207+,,0,0,0,,{It was going too far to eat every last drop of oshiruko.}But eating every last drop of {\i1}oshiruko{\i0} \Nwas just excessive!
-Dialogue: 55,0:26:37.40,0:26:40.87,Main-207+,,0,0,0,,{How can such an idiot survive so long?}How has this idiot survived this long?
-Dialogue: 55,0:26:40.87,0:26:43.52,Main-207+,,0,0,0,,More importantly, it's sumo time! Sumo!
-Dialogue: 55,0:26:43.52,0:26:46.58,Main-207+,,0,0,0,,Let's go! {\i1}Dosukoi{\fs28} {\r}!
-Dialogue: 55,0:26:46.58,0:26:51.58,Main-207+,,0,0,0,,I don't have time {to deal with}for idiots.\NI gotta {find the truth.}know the truth!
-Dialogue: 55,0:26:51.58,0:26:55.46,Main-207+,,0,0,0,,Hey, {show me}get me a {video}video feed\Nof the Flower Capital now!
-Dialogue: 55,0:26:55.46,0:26:57.55,Main-207+,,0,0,0,,{Get a light-scroll snail ready!}Ready the light-scroll snail!
-Dialogue: 55,0:27:00.30,0:27:03.10,Main-207+,,0,0,0,,The light-scroll snail is {ready}in place!
-Dialogue: 55,0:27:05.72,0:27:08.10,Main-207+,,0,0,0,,Show me the Flower Capital.
-Dialogue: 55,0:27:09.48,0:27:11.10,Main-207+,,0,0,0,,{Is that a video transponder snail?}A video transponder snail?
-Dialogue: 55,0:27:15.60,0:27:19.49,Main-207+,,0,0,0,,Oh, it's {showing }the Flower Capital.
-Dialogue: 55,0:27:27.83,0:27:30.37,Main-207+,,0,0,0,,Mount Atama Thieves,
-Dialogue: 55,0:27:30.37,0:27:34.96,Main-207+,,0,0,0,,how dare you scum\Nsteal my weapons and provisions?!
-Dialogue: 55,0:27:34.96,0:27:37.41,Main-207+,,0,0,0,,{I'll take care of you!}Let me return the gesture...
-Dialogue: 55,0:27:41.55,0:27:44.72,Main-207+,,0,0,0,,{Try my trick sword on for size!}and give you a taste of my trick sword!
-Dialogue: 55,0:27:46.08,0:27:50.18,Main-207+,,0,0,0,,I'll {destroy}devastate Mount Atama!
-Dialogue: 55,0:27:50.18,0:27:53.81,Main-207+,,0,0,0,,This is the end of the Mount Atama Thieves.
-Dialogue: 55,0:28:00.74,0:28:03.16,Main-207+,,0,0,0,,It's too late!\NThe fire is spreading too fast!
-Dialogue: 55,0:28:03.16,0:28:05.83,Main-207+,,0,0,0,,{There's no way we can put it out}There's no extinguishing it,\NShutenmaru-{\i1}san{\fs15} {\r}!
-Dialogue: 55,0:28:07.83,0:28:10.45,Main-207+,,0,0,0,,That bastard Holdem!
-Dialogue: 55,0:28:10.45,0:28:12.58,Main-207+,,0,0,0,,Head to Bakura Town!
-Dialogue: 55,0:28:12.58,0:28:16.75,Main-207+,,0,0,0,,Bakura Town?!\N{Kaido's forces are on the way!}But we'll run into Kaido's forces!
-Dialogue: 55,0:28:16.75,0:28:18.84,Main-207+,,0,0,0,,{So what!}That's the idea!
-Dialogue: 55,0:28:19.46,0:28:22.63,Main-207+,,0,0,0,,Crush them all!
-Dialogue: 55,0:28:28.22,0:28:33.19,Main-207+,,0,0,0,,I see. {I'm sorry to hear what happened to Ashura Doji.}It's a shame to hear that\Nthis is happening to Ashura Doji.
-Dialogue: 55,0:28:33.19,0:28:36.23,Main-207+,,0,0,0,,Indeed, but {it}it is for the greater good.{The greater good.}
-Dialogue: 55,0:28:37.21,0:28:38.65,Main-207+,,0,0,0,,It was unavoidable.
-Dialogue: 55,0:28:39.35,0:28:40.94,Main-207+,,0,0,0,,We'll head to Bakura Town.
-Dialogue: 55,0:28:42.24,0:28:46.32,Main-207+,,0,0,0,,Our plan was foiled,\Nand we have no solution in sight.
-Dialogue: 55,0:28:47.01,0:28:51.83,Main-207+,,0,0,0,,For now, we'll get Ashura \Nto see the Beast Pirates as his enemy.
-Dialogue: 55,0:28:51.83,0:28:56.54,Main-207+,,0,0,0,,{He is crucial to our cause.}{Joining}His joining us is crucial to our cause!
-Dialogue: 55,0:29:02.30,0:29:04.47,Main-207+,,0,0,0,,{I'm...}I'm h– \N{h}H-{h}H-{\i1}{h}Huh{\i0}...?
+Dialogue: 55,0:25:47.06,0:25:50.27,Main-207+,,0,0,0,,{Come out already! - CR}Hurry and get out here!{Gaijin}
+Dialogue: 55,0:25:50.77,0:25:55.03,Main-207+,,0,0,0,,{Shut up! No time for that now! - CR}Shut up! I don't have time for your nonsense!{Gaijin}
+Dialogue: 55,0:25:55.90,0:26:00.54,Main-207+,,0,0,0,,{Hey, balloon! Can we start today's sumo match already?! - CR}Hey, balloon! When are we gonna\Nstart today's sumo match?{Gaijin/Z}
+Dialogue: 55,0:26:00.54,0:26:02.58,Main-207+,,0,0,0,,{Hurry up! - CR}Don't waste my time!{Gaijin}
+Dialogue: 55,0:26:03.75,0:26:07.29,Main-207+,,0,0,0,,{Did you idiots gain weight from yesterday?! - CR}Did you guys get fat overnight or something?!{Gaijin}
+Dialogue: 55,0:26:07.29,0:26:10.97,Main-207+,,0,0,0,,No, we didn't! It's just your imagination!{CR}{That's impossible! You're just imagining it! - Gaijin}
+Dialogue: 55,0:26:11.75,0:26:13.82,Secondary-207+,,0,0,0,,{\an8}{O-Okay. - CR}O-Oh. I see.{Gaijin}
+Dialogue: 55,0:26:13.01,0:26:17.68,Main-207+,,0,0,0,,{Hey! Should we tell him that the red-bean soup is all gone? - CR}{Hey, do we report that the oshiruko ran out last night? - Gaijin}Hey, do we report that\Nthe red bean soup vanished overnight?{Z}
+Dialogue: 55,0:26:13.82,0:26:16.61,Secondary-207+,,0,0,0,,{\an8}{Forget it! - CR}Anyway, that's not important right now!{Gaijin}
+Dialogue: 55,0:26:17.68,0:26:22.00,Main-207+,,0,0,0,,{No way! Another shock could drive him mad! - CR}No way! What would Queen do\Nif he heard more bad news?!{CR}{No way! What do you think Queen\Nwould do after a double shock like that? - Z}
+Dialogue: 55,0:26:22.00,0:26:23.31,Main-207+,,0,0,0,,{I agree! - CR}{Yeah, you're right. - Gaijin}Good point.{Z}
+Dialogue: 55,0:26:23.31,0:26:28.27,Main-207+,,0,0,0,,But I wonder where the red-bean soup went...{CR}{But where in the world did that[/i1]oshiruko[/i0]go? - Gaijin}
+Dialogue: 55,0:26:28.27,0:26:32.65,Main-207+,,0,0,0,,{That is why I told Luffy-dono\Nnot to eat too much... - CR}{I told Luffy-dono they'd find out if he ate too much. - Gaijin}This is precisely why I warned\NSir Luffy not to eat too much...{Z}
+Dialogue: 55,0:26:32.65,0:26:37.40,Main-207+,,0,0,0,,{Eating up all the soup in the pot\Nwas too much. - CR}{It was going too far to eat every last drop of oshiruko. - Gaijin}Eating every last drop of\N{\i1}oshiruko{\i0} soup was just excessive!{Z}
+Dialogue: 55,0:26:37.40,0:26:40.87,Main-207+,,0,0,0,,{How can an idiot like him survive? - CR}{How can such an idiot survive so long? - Gaijin}How does an idiot like him stay alive?{Z}
+Dialogue: 55,0:26:40.87,0:26:43.52,Main-207+,,0,0,0,,{Let's just have the sumo match! - CR}More importantly, it's sumo time! Sumo!{Gaijin}
+Dialogue: 55,0:26:43.52,0:26:46.58,Main-207+,,0,0,0,,{Come on! Dosukoi! - CR}Let's go! {\i1}Dosukoi{\i0}!{Gaijin}
+Dialogue: 55,0:26:46.58,0:26:51.58,Main-207+,,0,0,0,,{This is no time for dealing with a fool!\NI have to find out the truth! - CR}{I don't have time to deal with idiots.\NI gotta find the truth. - Gaijin}I don't have time for idiots.\NI gotta know the truth!{Z}
+Dialogue: 55,0:26:51.58,0:26:55.46,Main-207+,,0,0,0,,{Hey! Let me see the Flower Capital now! - CR}Hey, get me a video feed\Nof the Flower Capital now!{Gaijin/Z}
+Dialogue: 55,0:26:55.46,0:26:57.55,Main-207+,,0,0,0,,{Get the Light-Scroll Snail ready! - CR}{Get a light-scroll snail ready! - Gaijin}Ready the light-scroll snail!{Z}
+Dialogue: 55,0:27:00.30,0:27:03.10,Main-207+,,0,0,0,,{The Light-Scroll Snail has been set up! - CR}{The light-scroll snail is in place! - Gaijin/Z}The light-scroll snail is set!{Z}
+Dialogue: 55,0:27:05.72,0:27:08.10,Main-207+,,0,0,0,,{Connect it to the Flower Capital! - CR}Show me the Flower Capital.{Gaijin}
+Dialogue: 55,0:27:09.48,0:27:11.10,Main-207+,,0,0,0,,{Is it a Video Transponder Snail? - CR}{Is that a video transponder snail? - Gaijin}A video transponder snail?{Z}
+Dialogue: 55,0:27:15.60,0:27:19.49,Main-207+,,0,0,0,,{What? That must be the Flower Capital. - CR}{Oh, it's the Flower Capital. - Gaijin/Z}What? So that's the Flower Capital.{Z - Luffy hasn't visited there yet.}
+Dialogue: 55,0:27:27.83,0:27:30.37,Main-207+,,0,0,0,,{Damn you Atamayama Thieves Brigade. - CR}Mount Atama Thieves,{Gaijin}
+Dialogue: 55,0:27:30.37,0:27:34.96,Main-207+,,0,0,0,,{How dare you steal all\Nof my food and weapons! - CR}{how dare you scum\Nsteal my weapons and provisions?! - Gaijin}how dare you scum steal\Nall of my food and weapons!{Z}
+Dialogue: 55,0:27:34.96,0:27:37.41,Main-207+,,0,0,0,,{Let's just sort it out! - CR}{I'll take care of you! - Gaijin}Let's settle this here and now!{Z}
+Dialogue: 55,0:27:41.55,0:27:44.72,Main-207+,,0,0,0,,{Take this Trick Mechanism Sword's attack! - CR}{Try my trick sword on for size! - Gaijin}I'll give you a taste of my trick sword!{Z}
+Dialogue: 55,0:27:46.08,0:27:50.18,Main-207+,,0,0,0,,{I'm here to destroy Atamayama! - CR}I'll devastate Mount Atama!{Gaijin/Z}
+Dialogue: 55,0:27:50.18,0:27:53.81,Main-207+,,0,0,0,,{This is the end of the\NAtamayama Thieves Brigade! - CR}This is the end of the Mount Atama Thieves.{Gaijin}
+Dialogue: 55,0:28:00.74,0:28:03.16,Main-207+,,0,0,0,,{Too late! The fire's spreading too fast! - CR}It's too late! The fire is spreading fast!{Gaijin/Z}
+Dialogue: 55,0:28:03.16,0:28:05.83,Main-207+,,0,0,0,,{It's impossible to extinguish \Nit, Shutenmaru-san! - CR}{There's no way we can put it out, Shutenmaru-san! - Gaijin}There's no extinguishing it, Shutenmaru!{Z}
+Dialogue: 55,0:28:07.83,0:28:10.45,Main-207+,,0,0,0,,{Damn Holdem! - CR}That bastard Holdem!{Gaijin}
+Dialogue: 55,0:28:10.45,0:28:12.58,Main-207+,,0,0,0,,{Let's go to Bakura Town! - CR}Head to Bakura Town!{Gaijin}
+Dialogue: 55,0:28:12.58,0:28:16.75,Main-207+,,0,0,0,,{Bakura Town?! Kaido's army will come after us! - CR}{Bakura Town?! Kaido's forces are on the way! - Gaijin}Bakura Town?! We'll have\Nto contend with Kaido's forces!{Z}
+Dialogue: 55,0:28:16.75,0:28:18.84,Main-207+,,0,0,0,,So what?!
+Dialogue: 55,0:28:19.46,0:28:22.63,Main-207+,,0,0,0,,{I'll kick all of their asses! - CR}I'll crush them all!{Gaijin/Z}
+Dialogue: 55,0:28:28.22,0:28:33.19,Main-207+,,0,0,0,,{I see... I feel sorry for Ashura Doji. - CR}{I see. I'm sorry to hear what happened to Ashura Doji. - Gaijin}I see. I feel sorry for what is\Nhappening to Ashura Doji.{Z}
+Dialogue: 55,0:28:33.19,0:28:36.23,Main-207+,,0,0,0,,Mm-hm... But we did it for the greater good.{CR}{Indeed, but it is for the greater good. - Gaijin}
+Dialogue: 55,0:28:37.21,0:28:38.65,Main-207+,,0,0,0,,{It cannot be helped. - CR}It was unavoidable.{Gaijin}
+Dialogue: 55,0:28:39.35,0:28:40.94,Main-207+,,0,0,0,,{Let's go to Bakura Town! - CR}We'll head to Bakura Town.{Gaijin}
+Dialogue: 55,0:28:42.24,0:28:46.32,Main-207+,,0,0,0,,{Our plan is foiled\Nand we do not know what to do yet... - CR}Our plan was foiled,\Nand we have no solution in sight.{Gaijin}
+Dialogue: 55,0:28:47.01,0:28:51.83,Main-207+,,0,0,0,,{But for the time being, we need Ashura to be\Nhostile towards the Animal Kingdom Pirates. - CR}For now, we'll get Ashura to see\Nthe Beast Pirates as his enemy.{Gaijin}
+Dialogue: 55,0:28:51.83,0:28:56.54,Main-207+,,0,0,0,,{Because we definitely need him! - CR}{He is crucial to our cause. - Gaijin}{Joining us is crucial to our cause! - Z}His joining us is crucial to our cause!{PJ}
+Dialogue: 55,0:29:02.30,0:29:04.47,Main-207+,,0,0,0,,{I'm back... - CR}{I'm here– H-H-[/i1]Huh[/i0]...? - Gaijin}Here I am... Wh-Wh-{\i1}What{\i0}?!{Z}
 Dialogue: 55,0:29:04.47,0:29:06.89,Main-207+,,0,0,0,,What?!
-Dialogue: 55,0:29:11.47,0:29:14.43,Main-207+,,0,0,0,,Who is this?! {\i1}What{\i0}{'s} is this?!
-Dialogue: 55,0:29:14.43,0:29:16.85,Main-207+,,0,0,0,,{Wh-Wh-What's going on?!}Wh-Wh-What's the story here?!
-Dialogue: 55,0:29:17.88,0:29:23.28,Main-207+,,0,0,0,,Brook? What's wrong with you?\NWhy are you here? Hm?
-Dialogue: 55,0:29:24.11,0:29:28.60,Main-207+,,0,0,0,,Zoro-{\i1}san{\i0}, my eyes are popping\Nout of my skull {to see you like that!}just seeing you like that!
-Dialogue: 55,0:29:28.60,0:29:32.31,Main-207+,,0,0,0,,{Though, I'm a skeleton}I'm a skeleton, though, \N{so I don't have eyes!}so having eyes isn't really my thing...
-Dialogue: 55,0:29:33.44,0:29:36.67,Main-207+,,0,0,0,,{I'm sorry for having disturbed you.}So sorry for the interruption!
-Dialogue: 55,0:29:37.51,0:29:40.49,Main-207+,,0,0,0,,Hey, don't get the wrong idea!\NGet back in here!
-Dialogue: 55,0:29:40.49,0:29:44.47,Main-207+,,0,0,0,,Oh? Well... {if you say so}you don't say...\NIf it's no trouble, I'd be happy to.
-Dialogue: 55,0:29:46.43,0:29:48.59,Main-207+,,0,0,0,,Wow, {how exquisite!}I'm smitten!
-Dialogue: 55,0:29:48.59,0:29:53.52,Main-207+,,0,0,0,,{If you would allow me,\Ncould I see your panties?}If you would be so obliged, \Nmay I see your panties?
+Dialogue: 55,0:29:11.47,0:29:14.43,Main-207+,,0,0,0,,{Who are you?! What is this?! - CR}Who is this?! {\i1}What{\i0} is this?!{Gaijin}
+Dialogue: 55,0:29:14.43,0:29:16.85,Main-207+,,0,0,0,,{Wh-Wh-What's going on?! - CR}Wh-Wh-What's the story here?!{Z}
+Dialogue: 55,0:29:17.88,0:29:23.28,Main-207+,,0,0,0,,{Oh, Brook... What's up with you?\NWhy are you here? - CR}Brook? What's wrong with you?\NWhy are you here? Hm?{Gaijin}
+Dialogue: 55,0:29:24.11,0:29:28.60,Main-207+,,0,0,0,,{Zoro-san! You're almost making my eyes pop out! - CR}{Zoro-san, my eyes are popping\Nout of my skull to see you like that! - Gaijin}Zoro, my eyes are popping\Nout of my skull just seeing you like that!{Z}
+Dialogue: 55,0:29:28.60,0:29:32.31,Main-207+,,0,0,0,,{I mean, if I had eyes to begin with! - CR}{Though, I'm a skeleton, so I don't have eyes! - Gaijin}I'm a skeleton, though,\Nso having eyes isn't really my thing!{Z}
+Dialogue: 55,0:29:33.44,0:29:36.67,Main-207+,,0,0,0,,{I'm sorry to interrupt you! - CR}{I'm sorry for having disturbed you. - Gaijin}So sorry for the interruption!{Z}
+Dialogue: 55,0:29:37.51,0:29:40.49,Main-207+,,0,0,0,,{Hey, you got the wrong idea! Come back in! - CR}Hey, don't get the wrong idea!\NGet back in here!{Gaijin}
+Dialogue: 55,0:29:40.49,0:29:44.47,Main-207+,,0,0,0,,{What? Oh, okay... If you say so... - CR}{Oh? Well... if you say so... If it's no trouble, I'd be happy to. - Gaijin}Oh? Well, okay... If it's\Nno trouble, I'd be happy to.{Z}
+Dialogue: 55,0:29:46.43,0:29:48.59,Main-207+,,0,0,0,,{Whoa, how beautiful! - CR}{Wow, how exquisite! - Gaijin}Wow, I'm smitten!{Z}
+Dialogue: 55,0:29:48.59,0:29:53.52,Main-207+,,0,0,0,,{I'm sorry, but may I see your panties? - CR}{If you would allow me,\Ncould I see your panties? - Gaijin}If you would be so obliged,\Nmay I see your panties?{Z}
 Dialogue: 55,0:30:00.73,0:30:03.61,Main-207+,,0,0,0,,A ghost!
-Dialogue: 55,0:30:03.61,0:30:06.11,Main-207+,,0,0,0,,Wait, he's with me!
-Dialogue: 55,0:30:08.53,0:30:12.79,Main-207+,,0,0,0,,I'm so hungry. Woe is me!
-Dialogue: 55,0:30:14.23,0:30:16.21,Main-207+,,0,0,0,,How scary!
-Dialogue: 55,0:30:16.91,0:30:21.71,Main-207+,,0,0,0,,{Kin'emon}Kin'emon-{\i1}san{\i0} {told me I should say that here.}tasked me \Nwith saying that around here.
-Dialogue: 55,0:30:21.71,0:30:23.34,Main-207+,,0,0,0,,Oh, I see.
-Dialogue: 55,0:30:23.34,0:30:26.80,Main-207+,,0,0,0,,That's why there are\Nso many offerings out there.{Now all the offerings outside make sense.}
-Dialogue: 55,0:30:26.80,0:30:31.52,Main-207+,,0,0,0,,At any rate, it's hard to believe \Nyou're Momonosuke-{\i1}san{\i0}'s little sister.
-Dialogue: 55,0:30:31.52,0:30:35.98,Main-207+,,0,0,0,,You're as beautiful as an {\i1}oiran{\i0}.
-Dialogue: 55,0:30:36.67,0:30:38.60,Main-207+,,0,0,0,,She sure is.\NI mean, she {\i1}is{\i0} an {\i1}oiran{\i0}.
-Dialogue: 55,0:30:38.60,0:30:43.57,Main-207+,,0,0,0,,I'm jealous, Zoro-{\i1}san{\i0}. How'd you get\Nsomeone like this to tend to you?!
-Dialogue: 55,0:30:43.57,0:30:46.82,Main-207+,,0,0,0,,I just went to sleep.\NThat's all.
-Dialogue: 55,0:30:46.82,0:30:51.41,Main-207+,,0,0,0,,I am so sorry.\NYou just looked like you were cold.
-Dialogue: 55,0:30:51.41,0:30:56.74,Main-207+,,0,0,0,,Truth be told, \Neveryone {gets love-struck lying next to me!}longs to lie with me!
-Dialogue: 55,0:30:56.74,0:31:00.60,Main-207+,,0,0,0,,Did it make you happy?\N{I'm sure it did!}It definitely did!
-Dialogue: 55,0:31:00.60,0:31:03.59,Main-207+,,0,0,0,,{You're looking pretty damn energized!}You're just dripping with conceit!
-Dialogue: 55,0:31:02.60,0:31:03.59,Secondary-207+,,0,0,0,,{Yep}I am!
-Dialogue: 55,0:31:03.59,0:31:08.05,Main-207+,,0,0,0,,Anyway, I have no idea\Nwhere Nami-{\i1}san{\i0} and the others went.
-Dialogue: 55,0:31:08.05,0:31:10.39,Main-207+,,0,0,0,,Yesterday, they went to the bathhouse,
-Dialogue: 55,0:31:10.39,0:31:14.01,Main-207+,,0,0,0,,but {I couldn't find them when I went to get them.}they weren't there\Nwhen I arrived to retrieve them.
-Dialogue: 55,0:31:14.01,0:31:18.35,Main-207+,,0,0,0,,Oh, that reminds me.\NThe Flower Capital is in an absolute frenzy.
-Dialogue: 55,0:31:19.14,0:31:25.27,Main-207+,,0,0,0,,I heard that today is the funeral for\NKomurasaki, Wano's most beautiful {\i1}oiran{\i0}.
-Dialogue: 55,0:31:26.65,0:31:32.49,Main-207+,,0,0,0,,Plus, they caught {Kozo Ushimitsu}Ushimitsu Kozo, the master\Nthief who shared his spoils with the poor!
-Dialogue: 55,0:31:32.49,0:31:34.16,Main-207+,,0,0,0,,{That news caused an even bigger commotion!}{\i1}That{\i0} was bigger news than the first!
-Dialogue: 55,0:31:34.16,0:31:36.58,Main-207+,,0,0,0,,{Kozo Ushimitsu}Ushimitsu Kozo?! Are you sure?!
-Dialogue: 55,0:31:36.58,0:31:38.75,Main-207+,,0,0,0,,Yes, I'm positive.
-Dialogue: 55,0:31:38.75,0:31:41.33,Main-207+,,0,0,0,,Look, here's the extra edition on it.
-Dialogue: 55,0:31:41.33,0:31:46.55,Main-207+,,0,0,0,,It says that he will be executed in the capital\Ntoday. They even discovered his true identity.
-Dialogue: 55,0:31:47.05,0:31:49.92,Main-207+,,0,0,0,,It appears he is someone\Nrenowned in Ebisu Town.
-Dialogue: 55,0:31:49.92,0:31:51.59,Main-207+,,0,0,0,,In Ebisu Town?
-Dialogue: 55,0:31:51.59,0:31:55.16,Main-207+,,0,0,0,,Yes, his name was something like...
-Dialogue: 55,0:31:55.16,0:31:57.47,Main-207+,,0,0,0,,I'm fairly sure it was something like Yasu-{\i1}san{\i0}.
+Dialogue: 55,0:30:03.61,0:30:06.11,Main-207+,,0,0,0,,{Wait! He's safe! - CR}Wait, he's with me!{Gaijin}
+Dialogue: 55,0:30:08.53,0:30:12.79,Main-207+,,0,0,0,,{I'm hungry. A curse on you! - CR}{I'm so hungry. Woe is me! - Gaijin}I'm so hungry... A curse on you!{Z}
+Dialogue: 55,0:30:14.23,0:30:16.21,Main-207+,,0,0,0,,{I'm scared! - CR}How scary!{Gaijin}
+Dialogue: 55,0:30:16.91,0:30:21.71,Main-207+,,0,0,0,,{Kin'emon-san  told me to\Nstay here and say that to people... - CR}{Kin'emon-san told me I should say that here. - Gaijin}Kin'emon tasked me with\Nsaying that around here.{Z}
+Dialogue: 55,0:30:21.71,0:30:23.34,Main-207+,,0,0,0,,{Oh, that's why... - CR}Oh, I see.{Gaijin}
+Dialogue: 55,0:30:23.34,0:30:26.80,Main-207+,,0,0,0,,{there are so many offerings out front. - CR}That's why there are\Nso many offerings out there.{Gaijin}{Now all the offerings outside make sense. - Z}
+Dialogue: 55,0:30:26.80,0:30:31.52,Main-207+,,0,0,0,,{Well, I can't believe that\Nyou're Momonosuke-san's sister! - CR}At any rate, it's hard to believe\Nyou're Momonosuke's little sister.{Gaijin}
+Dialogue: 55,0:30:31.52,0:30:35.98,Main-207+,,0,0,0,,{You're as lovely as the Oirans! - CR}You're as beautiful as an {\i1}oiran{\i0}.{Gaijin}
+Dialogue: 55,0:30:36.67,0:30:38.60,Main-207+,,0,0,0,,{Of course! Because she's an Oiran! - CR}She sure is. I mean, she {\i1}is{\i0} an {\i1}oiran{\i0}.{Gaijin}
+Dialogue: 55,0:30:38.60,0:30:43.57,Main-207+,,0,0,0,,{It must be so nice to have someone like her by your side.\NI wish I were you! - CR}I'm jealous, Zoro. How'd you get\Nsomeone like this to tend to you?!{Gaijin}
+Dialogue: 55,0:30:43.57,0:30:46.82,Main-207+,,0,0,0,,{I was just sleeping, but she... - CR}I just went to sleep. That's all.{Gaijin}
+Dialogue: 55,0:30:46.82,0:30:51.41,Main-207+,,0,0,0,,{I'm sorry! I thought you were really cold... - CR}I am so sorry. You just\Nlooked like you were cold.{Gaijin}
+Dialogue: 55,0:30:51.41,0:30:56.74,Main-207+,,0,0,0,,{But I always make men drool\Nwhenever I sleep alongside them! - CR}Truth be told, everyone gets\Nlove-struck lying next to me!{Gaijin}
+Dialogue: 55,0:30:56.74,0:31:00.60,Main-207+,,0,0,0,,{Did you like it? Well, I know you loved it! - CR}{Did it make you happy?\NI'm sure it did! - Gaijin}Did you like it? No, certainly you loved it!{Z}
+Dialogue: 55,0:31:00.60,0:31:03.59,Main-207+,,0,0,0,,{You're pretty straightforward... - CR}{You're looking pretty damn energized! - Gaijin}Awful straightforward of you...!{Z}
+Dialogue: 55,0:31:02.60,0:31:03.59,Secondary-207+,,0,0,0,,{Yes! - CR}{Yep! - Gaijin}Of course!{Z}
+Dialogue: 55,0:31:03.59,0:31:08.05,Main-207+,,0,0,0,,{Anyway, I wonder where\NNami-san and the others are... - CR}Anyway, I have no idea where\NNami and the others went.{Gaijin}
+Dialogue: 55,0:31:08.05,0:31:10.39,Main-207+,,0,0,0,,{They went to a bathhouse yesterday, - CR}Yesterday, they went to the bathhouse,{Gaijin}
+Dialogue: 55,0:31:10.39,0:31:14.01,Main-207+,,0,0,0,,{so I tried to go meet them, but I couldn't find them... - CR}{but I couldn't find them when I went to get them. - Gaijin}but they weren't there\Nwhen I went to meet them.{Z}
+Dialogue: 55,0:31:14.01,0:31:18.35,Main-207+,,0,0,0,,{Oh, by the way, the Flower Capital is\Nin total chaos now! - CR}Oh, that reminds me. The Flower Capital\Nis in an absolute frenzy.{Gaijin}
+Dialogue: 55,0:31:19.14,0:31:25.27,Main-207+,,0,0,0,,{Today is the funeral of Komurasaki-san the Oiran,\Nthe most beautiful woman in the Land of Wano...- CR}I heard that today is the funeral for\NKomurasaki, Wano's most beautiful {\i1}oiran{\i0}.{Gaijin}
+Dialogue: 55,0:31:26.65,0:31:32.49,Main-207+,,0,0,0,,{On top of that, Ushimitsu Kozo the great thief\Nwho spread the money he stole to the poor got caught, - CR}{\q2}Plus, they caught the Witching Hour Boy,\Nthe master thief who shared his spoils with the poor!{Gaijin}
+Dialogue: 55,0:31:32.49,0:31:34.16,Main-207+,,0,0,0,,{and that's causing a fuss, too! - CR}{That news caused an even bigger commotion! - Gaijin}That news is causing a fuss too!{Z}
+Dialogue: 55,0:31:34.16,0:31:36.58,Main-207+,,0,0,0,,{Ushimitsu Kozo got caught?! No way! - CR}{The Witching Hour Boy?! Are you sure?! - Gaijin}Ther Witching Hour Boy?!\NBut he couldn't have!{Z}
+Dialogue: 55,0:31:36.58,0:31:38.75,Main-207+,,0,0,0,,But it's true.{CR}{Yes, I'm positive. - Gaijin}
+Dialogue: 55,0:31:38.75,0:31:41.33,Main-207+,,0,0,0,,{Look, it's written in the broadsheet. - CR}{Look, here's the extra edition on it. - Gaijin}Look, it's right here on this broadsheet.{Z}
+Dialogue: 55,0:31:41.33,0:31:46.55,Main-207+,,0,0,0,,{He'll be executed in the capital today...\NAnd they found out his identity. - CR}{\q2}It says that he will be executed in the capital today.\NThey even discovered his true identity.{Gaijin}
+Dialogue: 55,0:31:47.05,0:31:49.92,Main-207+,,0,0,0,,{I think he's popular in Ebisu Town... - CR}{It appears he is someone\Nrenowned in Ebisu Town. - Gaijin}He seems to be well known in Ebisu Town...{Z}
+Dialogue: 55,0:31:49.92,0:31:51.59,Main-207+,,0,0,0,,You said Ebisu Town?!{CR}{In Ebisu Town?! - Gaijin}
+Dialogue: 55,0:31:51.59,0:31:55.16,Main-207+,,0,0,0,,{Yes. And his name is, um... - CR}Yes, his name was something like...{Gaijin}
+Dialogue: 55,0:31:55.16,0:31:57.47,Main-207+,,0,0,0,,{Yasu-something... - CR}I'm fairly sure it was something like Yasu...{Gaijin}
 Dialogue: 55,0:31:57.47,0:31:58.43,Main-207+,,0,0,0,,Tonoyasu?!
-Dialogue: 55,0:31:58.43,0:32:01.23,Main-207+,,0,0,0,,Ah, yes, that's him.
+Dialogue: 55,0:31:58.43,0:32:01.23,Main-207+,,0,0,0,,{Yes, that's the name! - CR}Ah, yes, that's him.{Gaijin}
 Dialogue: 55,0:32:03.79,0:32:04.69,Main-207+,,0,0,0,,Toko!
-Dialogue: 55,0:32:15.53,0:32:17.08,Main-207+,,0,0,0,,Hey, what's wrong?!
+Dialogue: 55,0:32:15.53,0:32:17.08,Main-207+,,0,0,0,,{Hey! What's the matter?! - CR}Hey, what's wrong?!{Gaijin}
 Dialogue: 55,0:32:17.08,0:32:18.08,Main-207+,,0,0,0,,Wait, Toko!
-Dialogue: 55,0:32:21.00,0:32:25.50,Main-207+,,0,0,0,,Thank you for yesterday.\NI will be forever in your debt.
-Dialogue: 55,0:32:25.50,0:32:26.75,Main-207+,,0,0,0,,Wait, you idiot!
-Dialogue: 55,0:32:26.75,0:32:29.13,Main-207+,,0,0,0,,You {couldn't}can't protect her on your own!
-Dialogue: 55,0:32:30.05,0:32:34.13,Main-207+,,0,0,0,,{What's this crap?!\NI just got back!}Whaaat?! What the heck?!\NI only {\i1}just{\i0} made it back here!
-Dialogue: 55,0:32:34.13,0:32:38.14,Main-207+,,0,0,0,,Wait for me! Hey, you guys!
-Dialogue: 55,0:32:50.60,0:32:51.78,Main-207+,,0,0,0,,Daddy!
-Dialogue: 55,0:32:51.78,0:32:53.40,Main-207+,,0,0,0,,Hey, {time to go.}get up.
-Dialogue: 55,0:32:54.30,0:32:59.12,Main-207+,,0,0,0,,You're here for me?\N{How very kind of you.}How nice of you to drop by.
-Dialogue: 55,0:33:12.88,0:33:14.68,Main-207+,,0,0,0,,It... It can't be.
-Dialogue: 55,0:33:15.31,0:33:17.05,Main-207+,,0,0,0,,He looks like...
-Dialogue: 55,0:33:23.48,0:33:27.81,Main-207+,,0,0,0,,Where are you going?!\NThey want your head!
-Dialogue: 55,0:33:29.20,0:33:32.61,Main-207+,,0,0,0,,Let me go! \N{I've got to go!}I need to go!
-Dialogue: 55,0:33:32.61,0:33:35.45,Main-207+,,0,0,0,,Hey, just relax!
-Dialogue: 55,0:33:35.45,0:33:37.28,Main-207+,,0,0,0,,Let me go!
-Dialogue: 55,0:33:38.09,0:33:39.53,Main-207+,,0,0,0,,{What's wrong with her?}Is she okay?
+Dialogue: 55,0:32:21.00,0:32:25.50,Main-207+,,0,0,0,,{Thank you for saving us yesterday!\NWe will not forget your kindness! - CR}Thank you for yesterday.\NI will be forever in your debt.{Gaijin}
+Dialogue: 55,0:32:25.50,0:32:26.75,Main-207+,,0,0,0,,{Wait, you fool! - CR}Wait, you idiot!{Gaijin}
+Dialogue: 55,0:32:26.75,0:32:29.13,Main-207+,,0,0,0,,{You couldn't protect her yesterday! - CR}{You can't protect her on your own! - Gaijin/Z}You couldn't even protect her yesterday!{Z}
+Dialogue: 55,0:32:30.05,0:32:34.13,Main-207+,,0,0,0,,{What?! I've just come back! - CR}{What's this crap?!\NI just got back! - Gaijin}Whaaat?! I only {\i1}just{\i0} made it back here!{Z}
+Dialogue: 55,0:32:34.13,0:32:38.14,Main-207+,,0,0,0,,{Please wait! Hey! - CR}Wait for me! Hey, you guys!{Gaijin}
+Dialogue: 55,0:32:50.60,0:32:51.78,Main-207+,,0,0,0,,Daddy...
+Dialogue: 55,0:32:51.78,0:32:53.40,Main-207+,,0,0,0,,{Hey, let's go! - CR}{Hey, time to go. - Gaijin}Hey, get up.{Z}
+Dialogue: 55,0:32:54.30,0:32:59.12,Main-207+,,0,0,0,,{Oh, you came to escort me?\NThat's very generous. - CR}{You're here for me?\NHow very kind of you. - Gaijin}You're here to escort me? How nice of you...{Z}
+Dialogue: 55,0:33:12.88,0:33:14.68,Main-207+,,0,0,0,,{N-No way... - CR}It... It can't be.{Gaijin}
+Dialogue: 55,0:33:15.31,0:33:17.05,Main-207+,,0,0,0,,{That man is... - CR}He looks like...{Gaijin}
+Dialogue: 55,0:33:23.48,0:33:27.81,Main-207+,,0,0,0,,{Where do you think you're going?!\NYour life is in danger! - CR}Where are you going?! They want your head!{Gaijin}
+Dialogue: 55,0:33:29.20,0:33:32.61,Main-207+,,0,0,0,,{Let go of me! I've got to go! - CR}{Let me go! I've got to go! - Gaijin}Let me go! I need to go!{Z}
+Dialogue: 55,0:33:32.61,0:33:35.45,Main-207+,,0,0,0,,{Hey! Get yourself together! - CR}{Hey, just relax! - Gaijin}Hey, pull it together!{Z}
+Dialogue: 55,0:33:35.45,0:33:37.28,Main-207+,,0,0,0,,{Let go of me! - CR}Let me go!{Gaijin}
+Dialogue: 55,0:33:38.09,0:33:39.53,Main-207+,,0,0,0,,What's going on?!{CR}{What's wrong with her? - Gaijin}
 Dialogue: 55,0:33:39.53,0:33:40.78,Main-207+,,0,0,0,,Toko!
-Dialogue: 55,0:33:40.78,0:33:43.02,Main-207+,,0,0,0,,They're gonna execute him!
-Dialogue: 55,0:33:43.91,0:33:46.12,Main-207+,,0,0,0,,Let me go!
-Dialogue: 55,0:33:46.12,0:33:48.25,Main-207+,,0,0,0,,They{'ll kill him!}'re gonna kill him!
-Dialogue: 55,0:33:48.50,0:33:50.88,Main-207+,,0,0,0,,{\fad(0,350)}He's my dad{dy}!
+Dialogue: 55,0:33:40.78,0:33:43.02,Main-207+,,0,0,0,,{He'll be executed! - CR}They're gonna execute him!{Gaijin}
+Dialogue: 55,0:33:43.91,0:33:46.12,Main-207+,,0,0,0,,{Let go of me! - CR}Let me go!{Gaijin}
+Dialogue: 55,0:33:46.12,0:33:48.25,Main-207+,,0,0,0,,{He'll be killed! - CR}{They'll kill him! - Gaijin}They're gonna kill him!{Z}
+Dialogue: 55,0:33:48.50,0:33:50.88,Main-207+,,0,0,0,,{He's my father! - CR}{\fad(0,350)}He's my daddy!{Gaijin}
 Dialogue: 55,0:33:54.84,0:33:56.18,Main-207+,,0,0,0,,Toko...
-Dialogue: 55,0:33:56.18,0:33:57.84,Main-207+,,0,0,0,,What'd you say?!
-Dialogue: 55,0:34:04.04,0:34:09.81,Main-207+,,0,0,0,,Looks like another beautiful day\Nin the Flower Capital.
-Dialogue: 0,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(384,669)\blur0.3\bord3.4\fscx83\fscy88\fsp2\c&H000000&}Video Editing
-Dialogue: 1,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(384,669)\blur0.4\bord0\fscx83\fscy88\fsp2\4a&HFF&}Video Editing
-Dialogue: 0,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(419,720)\blur0.3\bord4\fscx130\fscy130\c&H000000&}Meggo
-Dialogue: 1,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(419,720)\blur0.4\bord0\fscx130\fscy130\4a&HFF&}Meggo
-Dialogue: 2,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(419,720)\blur0.4\bord0\fscx130\fscy130\4a&HFF&}Meggo
-Dialogue: 0,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(387,620)\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&}Timing
-Dialogue: 1,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(387,620)\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&}Timing
-Dialogue: 0,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(422,676)\blur0.3\bord4\fscx110\fscy110\c&H000000&}PhosCity
-Dialogue: 1,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(422,676)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}PhosCity
-Dialogue: 2,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(422,676)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}PhosCity
-Dialogue: 0,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1229,440)\blur0.3\bord3.4\fscx83\fscy88\fsp2\c&H000000&}Quality Control
-Dialogue: 1,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1229,440)\blur0.4\bord0\fscx83\fscy88\fsp2\4a&HFF&}Quality Control
-Dialogue: 0,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1264,496)\blur0.3\bord4\fscx105\fscy105\c&H000000&}Galaxy 9000\NPepperjack\NTaylor Lindise
-Dialogue: 1,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1264,496)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}Galaxy 9000\NPepperjack\NTaylor Lindise
-Dialogue: 2,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1264,496)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}Galaxy 9000\NPepperjack\NTaylor Lindise
-Dialogue: 0,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,142)\blur0.3\bord4\fscx110\fscy110\c&H000000&}Soundtracking
-Dialogue: 1,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,142)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Soundtracking
-Dialogue: 2,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,142)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Soundtracking
-Dialogue: 0,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,207)\blur0.3\bord4\fscx110\fscy110\c&H000000&}Halee
-Dialogue: 1,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,207)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Halee
-Dialogue: 2,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,207)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Halee
-Dialogue: 0,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(428,816)\blur0.3\bord3.4\fscx83\fscy88\fsp2\c&H000000&}Graphics
-Dialogue: 1,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(428,816)\blur0.4\bord0\fscx83\fscy88\fsp2\4a&HFF&}Graphics
-Dialogue: 0,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(463,872)\blur0.3\bord4\fscx110\fscy110\c&H000000&}Datenshi
-Dialogue: 1,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(463,872)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Datenshi
-Dialogue: 2,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(463,872)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Datenshi
-Dialogue: 0,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1193,671)\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&}Karaoke
-Dialogue: 1,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1193,671)\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&}Karaoke
-Dialogue: 0,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1228,724.2)\blur0.3\bord4\fscx105\fscy105\c&H000000&}KaitouYahiko
-Dialogue: 1,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1228,724.2)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}KaitouYahiko
-Dialogue: 2,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1228,724.2)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}KaitouYahiko
-Dialogue: 0,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(387,743)\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&}Subtitle Editing
-Dialogue: 1,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(387,743)\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&}Subtitle Editing
-Dialogue: 0,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(422,799)\blur0.3\bord4\fscx118\fscy118\c&H000000&}Zenef
-Dialogue: 1,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(422,799)\blur0.4\bord0\fscx118\fscy118\4a&HFF&}Zenef
-Dialogue: 2,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(422,799)\blur0.4\bord0\fscx118\fscy118\4a&HFF&}Zenef
-Dialogue: 0,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1259,578)\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&}Translation
-Dialogue: 1,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1259,578)\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&}Translation
-Dialogue: 0,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1294,634)\blur0.3\bord4\fscx120\fscy120\c&H000000&}Gaijin
-Dialogue: 1,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1294,634)\blur0.4\bord0\fscx120\fscy120\4a&HFF&}Gaijin
-Dialogue: 2,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1294,634)\blur0.4\bord0\fscx120\fscy120\4a&HFF&}Gaijin
+Dialogue: 55,0:33:56.18,0:33:57.84,Main-207+,,0,0,0,,{What did you say?! - CR}What'd you say?!{Gaijin}
+Dialogue: 55,0:34:04.04,0:34:09.81,Main-207+,,0,0,0,,{Seems like it will be a lovely day\Nin the Flower Capital today... - CR}Looks like another beautiful day\Nin the Flower Capital...{Gaijin}
 Dialogue: 0,0:01:57.76,0:02:02.60,Title-207+,,0,0,0,,{\bord2.7\c&H000000&\1a&HFF&\blur0.9\fad(400,0)\t(355,400,\1a&H00&)}Sparks of Rebellion
 Dialogue: 1,0:01:57.76,0:02:02.60,Title-207+,,0,0,0,,{\bord0\c&HFDF7F6&\4a&HFF&\blur0.9\fad(400,0)}Sparks of Rebellion
 Dialogue: 0,0:03:39.65,0:03:39.69,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1690.5,1056)\fscx102\fscy102\frz11.79\c&H9CBCDB&\blur0.9}Bungo\NAn Arsonist
@@ -556,38 +517,38 @@ Dialogue: 0,0:03:40.36,0:03:40.40,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1702.365,10
 Dialogue: 0,0:03:40.40,0:03:40.44,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1702.41,1023.48)\fscx102.01\fscy102.01\frz11.79\c&H9CBCDB&\blur0.9}Bungo\NAn Arsonist
 Dialogue: 0,0:03:40.44,0:03:40.49,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1702.35,1023.525)\fscx102.01\fscy102.01\frz11.78\c&H9CBCDB&\blur0.9}Bungo\NAn Arsonist
 Dialogue: 0,0:03:40.49,0:03:42.86,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1702.365,1023.51)\fscx102.01\fscy102.01\frz11.78\c&H9CBCDB&\blur0.9}Bungo\NAn Arsonist
-Dialogue: 0,0:03:57.42,0:03:57.46,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.5,1024.5)\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.46,0:03:57.50,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.16,1018.47)\fscx100.12\fscy100.12\frz-0.02\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.50,0:03:57.54,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.145,1023.465)\fscx100.11\fscy100.11\frz-0.02\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.54,0:03:57.59,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.535,1019.445)\fscx99.99\fscy99.99\frz0.01\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.59,0:03:57.63,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.68,1022.895)\fscx100.14\fscy100.14\frz-0.03\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.63,0:03:57.67,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.1,1020.255)\fscx100.09\fscy100.09\frz-0.03\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.67,0:03:57.71,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.04,1022.28)\fscx100.1\fscy100.1\frz-0.03\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.71,0:03:57.75,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.175,1020.885)\fscx100.14\fscy100.14\frz-0.04\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.75,0:03:57.80,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.16,1022.04)\fscx100.16\fscy100.16\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.80,0:03:57.84,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.995,1021.29)\fscx100.18\fscy100.18\frz-0.05\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.84,0:03:57.88,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.785,1022.07)\fscx100.19\fscy100.19\frz-0.08\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.88,0:03:57.92,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.83,1021.605)\fscx100.2\fscy100.2\frz-0.07\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:03:57.92,0:04:00.38,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.86,1021.65)\fscx100.18\fscy100.18\frz-0.06\c&H129BBC&\blur0.9}Bongo \NA Lumber Dealer
-Dialogue: 0,0:04:13.48,0:04:13.52,Sign-Bingoh_Brothers,,0,0,0,,{\pos(477.15,1114.485)\fscx99.98\fscy99.98\frz356.78\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.52,0:04:13.56,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.385,1010.835)\fscx100.08\fscy100.08\frz356.76\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.56,0:04:13.60,Sign-Bingoh_Brothers,,0,0,0,,{\pos(461.565,1092.9)\fscx99.94\fscy99.94\frz356.76\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.60,0:04:13.64,Sign-Bingoh_Brothers,,0,0,0,,{\pos(467.64,1027.485)\fscx99.98\fscy99.98\frz356.78\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.64,0:04:13.69,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.5,1084.5)\frz356.8\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.69,0:04:13.73,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.43,1043.085)\fscx100.06\fscy100.06\frz356.83\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.73,0:04:13.77,Sign-Bingoh_Brothers,,0,0,0,,{\pos(468.51,1072.575)\fscx100.11\fscy100.11\frz356.64\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.77,0:04:13.81,Sign-Bingoh_Brothers,,0,0,0,,{\pos(462.015,1051.545)\fscx100.1\fscy100.1\frz356.64\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.81,0:04:13.85,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.415,1067.205)\fscx100.08\fscy100.08\frz356.67\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.85,0:04:13.89,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.885,1055.22)\fscx100.08\fscy100.08\frz356.66\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.89,0:04:13.94,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.44,1064.145)\fscx100.06\fscy100.06\frz356.74\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.94,0:04:13.98,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.805,1056.87)\fscx100.05\fscy100.05\frz356.69\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:13.98,0:04:14.02,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.03,1062.465)\fscx100.04\fscy100.04\frz356.71\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:14.02,0:04:14.06,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.095,1058.46)\fscx100.04\fscy100.04\frz356.73\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:14.06,0:04:14.10,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.2,1060.86)\fscx99.98\fscy99.98\frz356.82\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:14.10,0:04:14.14,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.395,1058.955)\frz356.77\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:14.14,0:04:14.19,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.245,1060.515)\fscx100.03\fscy100.03\frz356.78\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:14.19,0:04:14.23,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.945,1060.23)\fscx100.08\fscy100.08\frz356.76\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
-Dialogue: 0,0:04:14.23,0:04:16.02,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.93,1060.215)\fscx100.08\fscy100.08\frz356.76\c&H19B1E4&\blur0.9}Bingo \NA Priest and Cooper
+Dialogue: 0,0:03:57.42,0:03:57.46,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.5,1024.5)\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.46,0:03:57.50,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.16,1018.47)\fscx100.12\fscy100.12\frz-0.02\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.50,0:03:57.54,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.145,1023.465)\fscx100.11\fscy100.11\frz-0.02\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.54,0:03:57.59,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.535,1019.445)\fscx99.99\fscy99.99\frz0.01\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.59,0:03:57.63,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.68,1022.895)\fscx100.14\fscy100.14\frz-0.03\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.63,0:03:57.67,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.1,1020.255)\fscx100.09\fscy100.09\frz-0.03\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.67,0:03:57.71,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.04,1022.28)\fscx100.1\fscy100.1\frz-0.03\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.71,0:03:57.75,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.175,1020.885)\fscx100.14\fscy100.14\frz-0.04\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.75,0:03:57.80,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1592.16,1022.04)\fscx100.16\fscy100.16\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.80,0:03:57.84,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.995,1021.29)\fscx100.18\fscy100.18\frz-0.05\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.84,0:03:57.88,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.785,1022.07)\fscx100.19\fscy100.19\frz-0.08\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.88,0:03:57.92,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.83,1021.605)\fscx100.2\fscy100.2\frz-0.07\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:03:57.92,0:04:00.38,Sign-Bingoh_Brothers,,0,0,0,,{\pos(1591.86,1021.65)\fscx100.18\fscy100.18\frz-0.06\c&H129BBC&\blur0.9}Bongo\NA Lumber Dealer
+Dialogue: 0,0:04:13.48,0:04:13.52,Sign-Bingoh_Brothers,,0,0,0,,{\pos(477.15,1114.485)\fscx99.98\fscy99.98\frz356.78\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.52,0:04:13.56,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.385,1010.835)\fscx100.08\fscy100.08\frz356.76\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.56,0:04:13.60,Sign-Bingoh_Brothers,,0,0,0,,{\pos(461.565,1092.9)\fscx99.94\fscy99.94\frz356.76\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.60,0:04:13.64,Sign-Bingoh_Brothers,,0,0,0,,{\pos(467.64,1027.485)\fscx99.98\fscy99.98\frz356.78\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.64,0:04:13.69,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.5,1084.5)\frz356.8\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.69,0:04:13.73,Sign-Bingoh_Brothers,,0,0,0,,{\pos(468.51,1072.575)\fscx100.11\fscy100.11\frz356.64\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.73,0:04:13.77,Sign-Bingoh_Brothers,,0,0,0,,{\pos(468.51,1072.575)\fscx100.11\fscy100.11\frz356.64\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.77,0:04:13.81,Sign-Bingoh_Brothers,,0,0,0,,{\pos(462.015,1051.545)\fscx100.1\fscy100.1\frz356.64\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.81,0:04:13.85,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.415,1067.205)\fscx100.08\fscy100.08\frz356.67\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.85,0:04:13.89,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.885,1055.22)\fscx100.08\fscy100.08\frz356.66\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.89,0:04:13.94,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.44,1064.145)\fscx100.06\fscy100.06\frz356.74\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.94,0:04:13.98,Sign-Bingoh_Brothers,,0,0,0,,{\pos(464.805,1056.87)\fscx100.05\fscy100.05\frz356.69\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:13.98,0:04:14.02,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.03,1062.465)\fscx100.04\fscy100.04\frz356.71\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:14.02,0:04:14.06,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.095,1058.46)\fscx100.04\fscy100.04\frz356.73\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:14.06,0:04:14.10,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.2,1060.86)\fscx99.98\fscy99.98\frz356.82\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:14.10,0:04:14.14,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.395,1058.955)\frz356.77\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:14.14,0:04:14.19,Sign-Bingoh_Brothers,,0,0,0,,{\pos(466.245,1060.515)\fscx100.03\fscy100.03\frz356.78\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:14.19,0:04:14.23,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.945,1060.23)\fscx100.08\fscy100.08\frz356.76\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
+Dialogue: 0,0:04:14.23,0:04:16.02,Sign-Bingoh_Brothers,,0,0,0,,{\pos(465.93,1060.215)\fscx100.08\fscy100.08\frz356.76\c&H19B1E4&\blur0.9}Bingo\NA Priest and Undertaker
 Dialogue: 0,0:08:25.73,0:08:29.69,Captions Wano,,0,0,0,,{\an2\pos(1528.5,295.5)\fs127.5\bord3.75\c&H0F0F10&\3c&H0F0F10&\blur15\alpha&H50&}RYUO
 Dialogue: 1,0:08:25.73,0:08:29.69,Captions Wano,,0,0,0,,{\an2\pos(1528.5,295.5)\fs127.5\bord3\4a&HFF&\blur1.5}RYUO
 Dialogue: 2,0:08:25.73,0:08:29.69,Captions Wano,,0,0,0,,{\an2\pos(1528.5,295.5)\fs127.5\bord0\c&H99BB57&\4a&HFF&\blur0.9\clip(1320,171,1743,174)}RYUO
@@ -632,23 +593,20 @@ Dialogue: 1,0:20:16.24,0:20:21.78,Captions Wano,,0,0,0,,{\pos(315,673.5)\fscx87\
 Dialogue: 2,0:20:52.77,0:20:55.94,T3,,0,0,0,,{\pos(945,831.72)\fscx150\fscy150\bord6.3\c&HEAEAEC&\3c&HEAEAEC&\1a&HFF&\blur1.5\fad(600,0)\t(555,600,\1a&H00&)}Flower Capital
 Dialogue: 3,0:20:52.77,0:20:55.94,T3,,0,0,0,,{\pos(945,831.72)\fscx150\fscy150\bord1.05\c&H010103&\3c&H010103&\1a&HFF&\4a&HFF&\blur1.05\fad(600,0)\t(555,600,\1a&H00&)}Flower Capital
 Dialogue: 4,0:20:52.77,0:20:55.94,T3,,0,0,0,,{\pos(945,831.72)\fscx150\fscy150\bord0\c&H010103&\4a&HFF&\blur1.05\fad(600,0)}Flower Capital
-Dialogue: 0,0:25:02.18,0:25:04.77,T3,,0,0,0,,{\pos(1525.5,489)\bord4.5\c&HEAEAEC&\3c&HEAEAEC&\blur1.5}Prisoner Mining Camp\NUdon
-Dialogue: 1,0:25:02.18,0:25:04.77,T3,,0,0,0,,{\pos(1525.5,489)\bord0.9\c&H010103&\3c&H010103&\4a&HFF&\blur1.05}Prisoner Mining Camp\NUdon
-Dialogue: 2,0:25:02.18,0:25:04.77,T3,,0,0,0,,{\pos(1525.5,489)\bord0\c&H010103&\4a&HFF&\blur1.05}Prisoner Mining Camp\NUdon
-Dialogue: 0,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.5\fad(700,0)\pos(960,701.64)\fscx171\fscy171\bord5.4\3c&HF1F1F1&\1a&HFF&\t(655,700,\1a&H00&)}Mount Atama
-Dialogue: 1,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.05\fad(700,0)\pos(960,701.64)\fscx171\fscy171\bord0.9\c&H050506&\1a&HFF&\t(655,700,\1a&H00&)\4a&HFF&}Mount Atama
-Dialogue: 2,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.05\fad(700,0)\pos(960,701.64)\fscx171\fscy171\bord0\4a&HFF&}Mount Atama
-Dialogue: 0,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.5\fad(700,0)\pos(960,761.418)\fscx171\fscy171\bord5.4\3c&HF1F1F1&\1a&HFF&\t(655,700,\1a&H00&)}Kuri
-Dialogue: 1,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.05\fad(700,0)\pos(960,761.418)\fscx171\fscy171\bord0.9\c&H050506&\1a&HFF&\t(655,700,\1a&H00&)\4a&HFF&}Kuri
-Dialogue: 2,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.05\fad(700,0)\pos(960,761.418)\fscx171\fscy171\bord0\4a&HFF&}Kuri
+Dialogue: 0,0:25:02.18,0:25:04.77,T3,,0,0,0,,{\bord4.5\c&HEAEAEC&\3c&HEAEAEC&\blur1.5\pos(1525.5,441)}{Prisoner Mining Camp\NUdon}Udon's Prisoner Mining Camp
+Dialogue: 1,0:25:02.18,0:25:04.77,T3,,0,0,0,,{\bord0.9\c&H010103&\3c&H010103&\4a&HFF&\blur1.05\pos(1525.5,441)}{Prisoner Mining Camp\NUdon}Udon's Prisoner Mining Camp
+Dialogue: 2,0:25:02.18,0:25:04.77,T3,,0,0,0,,{\bord0\c&H010103&\4a&HFF&\blur1.05\pos(1525.5,441)}{Prisoner Mining Camp\NUdon}Udon's Prisoner Mining Camp
+Dialogue: 0,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.5\fad(700,0)\fscx200\fscy200\bord5.4\3c&HF1F1F1&\1a&HFF&\t(655,700,\1a&H00&)\pos(960,747.64)}Mount Atama, Kuri
+Dialogue: 1,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.05\fad(700,0)\fscx200\fscy200\bord0.9\c&H050506&\1a&HFF&\t(655,700,\1a&H00&)\4a&HFF&\pos(960,747.64)}Mount Atama, Kuri
+Dialogue: 2,0:27:20.82,0:27:23.62,T3,,0,0,0,,{\blur1.05\fad(700,0)\fscx200\fscy200\bord0\4a&HFF&\pos(960,747.64)}Mount Atama, Kuri
 Dialogue: 2,0:27:33.63,0:27:34.96,Sign-Letter,,0,0,0,,{\an3\move(1573.5,816,1605,826.5)\fscx110\frx14\fax0.4\blur1.05\t(\fscx115.85\fscy105.32)}The Mount Atama
 Dialogue: 2,0:27:33.63,0:27:34.96,Sign-Letter,,0,0,0,,{\an3\move(1615.5,900,1650,915)\fscx110\frx14\fax0.4\blur1.05\t(\fscx115.85\fscy105.32)}Thieves were {H}here.
 Dialogue: 2,0:27:33.63,0:27:34.96,Sign-Letter,,0,0,0,,{\an3\move(1642.5,970.5,1677,988.5)\fscx110\frz3.59\frx14\fax0.4\c&H414784&\blur1.05\t(\fscx115.85\fscy105.32)}Shutenmaru
-Dialogue: 0,0:28:24.56,0:28:28.22,T3,,0,0,0,,{\blur1.5\fscx120\fscy120\pos(1729.5,1078.5)\bord4.5\3c&HE6E4E4&}An Abandoned\NVillage\NKuri
-Dialogue: 1,0:28:24.56,0:28:28.22,T3,,0,0,0,,{\blur0.9\fscx120\fscy120\pos(1729.5,1078.5)\bord0.9\c&H050506&\4a&HFF&}An Abandoned\NVillage\NKuri
-Dialogue: 2,0:28:24.56,0:28:28.22,T3,,0,0,0,,{\blur0.9\fscx120\fscy120\pos(1729.5,1078.5)\bord0\4a&HFF&}An Abandoned\NVillage\NKuri
-Dialogue: 0,0:28:56.54,0:29:01.76,Captions Wano,,0,0,0,,{\blur0.9\pos(1701,858)\3c&HF4F1F4&\c&HF4F1F4&}Northern\NCemetery\NRingo
-Dialogue: 1,0:28:56.54,0:29:01.76,Captions Wano,,0,0,0,,{\bord0\blur0.9\pos(1701,858)\4a&HFF&}Northern\NCemetery\NRingo
+Dialogue: 0,0:28:24.56,0:28:28.22,T3,,0,0,0,,{\blur1.5\fscx120\fscy120\bord4.5\3c&HE6E4E4&\pos(1709.5,1028.5)}{An Abandoned\NVillage\NKuri}An Abandoned\NVillage in Kuri
+Dialogue: 1,0:28:24.56,0:28:28.22,T3,,0,0,0,,{\blur0.9\fscx120\fscy120\bord0.9\c&H050506&\4a&HFF&\pos(1709.5,1028.5)}{An Abandoned\NVillage\NKuri}An Abandoned\NVillage in Kuri
+Dialogue: 2,0:28:24.56,0:28:28.22,T3,,0,0,0,,{\blur0.9\fscx120\fscy120\bord0\4a&HFF&\pos(1709.5,1028.5)}{An Abandoned\NVillage\NKuri}An Abandoned\NVillage in Kuri
+Dialogue: 0,0:28:56.54,0:29:01.76,Captions Wano,,0,0,0,,{\blur0.9\pos(1701,858)\3c&HF4F1F4&\c&HF4F1F4&}{Northern\NCemetery\NRingo}Ringo's\NNorthern\NCemetery
+Dialogue: 1,0:28:56.54,0:29:01.76,Captions Wano,,0,0,0,,{\bord0\blur0.9\pos(1701,858)\4a&HFF&}{Northern\NCemetery\NRingo}Ringo's\NNorthern\NCemetery
 Dialogue: 0,0:31:41.33,0:31:41.37,Sign-News,,0,0,0,,{\an7\pos(930.015,800.205)\c&HC0C1C2&\blur1.5\fscx100\fscy100\p1}m -196.5 -232.5 b -64.5 -223.5 174 -232.5 297 -252 l 306 -52.5 -198 -43.5
 Dialogue: 0,0:31:41.37,0:31:41.42,Sign-News,,0,0,0,,{\an7\pos(930.015,803.7)\c&HC0C1C2&\blur1.5\p1}m -196.5 -232.5 b -64.5 -223.5 174 -232.5 297 -252 l 306 -52.5 -198 -43.5
 Dialogue: 0,0:31:41.42,0:31:41.46,Sign-News,,0,0,0,,{\an7\pos(930.015,806.715)\c&HC0C1C2&\blur1.5\p1}m -196.5 -232.5 b -64.5 -223.5 174 -232.5 297 -252 l 306 -52.5 -198 -43.5
@@ -740,327 +698,138 @@ Dialogue: 0,0:31:44.96,0:31:45.00,Sign-News,,0,0,0,,{\an7\pos(930,894.24)\c&HC0C
 Dialogue: 0,0:31:45.00,0:31:45.04,Sign-News,,0,0,0,,{\an7\pos(930,894.345)\c&HC0C1C2&\blur1.5\p1}m -196.5 -232.5 b -64.5 -223.5 174 -232.5 297 -252 l 306 -52.5 -198 -43.5
 Dialogue: 0,0:31:45.04,0:31:45.13,Sign-News,,0,0,0,,{\an7\pos(930,894.45)\c&HC0C1C2&\blur1.5\p1}m -196.5 -232.5 b -64.5 -223.5 174 -232.5 297 -252 l 306 -52.5 -198 -43.5
 Dialogue: 0,0:31:45.13,0:31:46.55,Sign-News,,0,0,0,,{\an7\pos(930,894.66)\c&HC0C1C2&\blur1.5\p1}m -196.5 -232.5 b -64.5 -223.5 174 -232.5 297 -252 l 306 -52.5 -198 -43.5
-Dialogue: 1,0:31:41.33,0:31:41.37,Sign-News,,0,0,0,,{\pos(960.015,746.925)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.37,0:31:41.42,Sign-News,,0,0,0,,{\pos(960.015,750.42)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.42,0:31:41.46,Sign-News,,0,0,0,,{\pos(960.015,753.435)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.46,0:31:41.50,Sign-News,,0,0,0,,{\pos(960.015,756.45)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.50,0:31:41.54,Sign-News,,0,0,0,,{\pos(960,759.225)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.54,0:31:41.58,Sign-News,,0,0,0,,{\pos(960,762)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.58,0:31:41.62,Sign-News,,0,0,0,,{\pos(960,764.67)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.62,0:31:41.67,Sign-News,,0,0,0,,{\pos(960,767.34)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.67,0:31:41.71,Sign-News,,0,0,0,,{\pos(960,769.68)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.71,0:31:41.75,Sign-News,,0,0,0,,{\pos(960,772.005)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.75,0:31:41.79,Sign-News,,0,0,0,,{\pos(960,774.3)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.79,0:31:41.83,Sign-News,,0,0,0,,{\pos(960,776.595)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.83,0:31:41.87,Sign-News,,0,0,0,,{\pos(960,778.665)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.87,0:31:41.92,Sign-News,,0,0,0,,{\pos(960,780.735)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.92,0:31:41.96,Sign-News,,0,0,0,,{\pos(960,782.715)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:41.96,0:31:42.00,Sign-News,,0,0,0,,{\pos(960,784.68)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.00,0:31:42.04,Sign-News,,0,0,0,,{\pos(960,786.48)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.04,0:31:42.08,Sign-News,,0,0,0,,{\pos(960,788.28)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.08,0:31:42.12,Sign-News,,0,0,0,,{\pos(960,790.035)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.12,0:31:42.17,Sign-News,,0,0,0,,{\pos(960,791.775)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.17,0:31:42.21,Sign-News,,0,0,0,,{\pos(960,793.395)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.21,0:31:42.25,Sign-News,,0,0,0,,{\pos(960,795)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.25,0:31:42.29,Sign-News,,0,0,0,,{\pos(960,796.62)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.29,0:31:42.33,Sign-News,,0,0,0,,{\pos(960,798.225)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.33,0:31:42.37,Sign-News,,0,0,0,,{\pos(960,799.62)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.37,0:31:42.42,Sign-News,,0,0,0,,{\pos(960,801.015)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.42,0:31:42.46,Sign-News,,0,0,0,,{\pos(960,802.395)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.46,0:31:42.50,Sign-News,,0,0,0,,{\pos(960,803.775)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.50,0:31:42.54,Sign-News,,0,0,0,,{\pos(960,805.05)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.54,0:31:42.58,Sign-News,,0,0,0,,{\pos(960,806.34)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.58,0:31:42.63,Sign-News,,0,0,0,,{\pos(960,807.57)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.63,0:31:42.67,Sign-News,,0,0,0,,{\pos(960,808.815)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.67,0:31:42.71,Sign-News,,0,0,0,,{\pos(960,810.015)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.71,0:31:42.75,Sign-News,,0,0,0,,{\pos(959.985,811.215)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.75,0:31:42.79,Sign-News,,0,0,0,,{\pos(959.985,812.28)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.79,0:31:42.83,Sign-News,,0,0,0,,{\pos(959.985,813.36)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.83,0:31:42.88,Sign-News,,0,0,0,,{\pos(960,814.38)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.88,0:31:42.92,Sign-News,,0,0,0,,{\pos(960,815.4)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.92,0:31:42.96,Sign-News,,0,0,0,,{\pos(960,816.42)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:42.96,0:31:43.00,Sign-News,,0,0,0,,{\pos(960,817.44)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.00,0:31:43.04,Sign-News,,0,0,0,,{\pos(960,818.37)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.04,0:31:43.08,Sign-News,,0,0,0,,{\pos(960,819.285)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.08,0:31:43.13,Sign-News,,0,0,0,,{\pos(960,820.23)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.13,0:31:43.17,Sign-News,,0,0,0,,{\pos(960,821.13)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.17,0:31:43.21,Sign-News,,0,0,0,,{\pos(960,821.955)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.21,0:31:43.25,Sign-News,,0,0,0,,{\pos(960,822.765)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.25,0:31:43.29,Sign-News,,0,0,0,,{\pos(960,823.59)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.29,0:31:43.33,Sign-News,,0,0,0,,{\pos(960,824.4)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.33,0:31:43.38,Sign-News,,0,0,0,,{\pos(960,825.15)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.38,0:31:43.42,Sign-News,,0,0,0,,{\pos(960,825.885)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.42,0:31:43.46,Sign-News,,0,0,0,,{\pos(960,826.635)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.46,0:31:43.50,Sign-News,,0,0,0,,{\pos(960,827.37)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.50,0:31:43.54,Sign-News,,0,0,0,,{\pos(960,828)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.54,0:31:43.58,Sign-News,,0,0,0,,{\pos(960,828.63)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.58,0:31:43.63,Sign-News,,0,0,0,,{\pos(960,829.26)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.63,0:31:43.67,Sign-News,,0,0,0,,{\pos(960,829.89)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.67,0:31:43.71,Sign-News,,0,0,0,,{\pos(960,830.475)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.71,0:31:43.75,Sign-News,,0,0,0,,{\pos(960,831.06)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.75,0:31:43.79,Sign-News,,0,0,0,,{\pos(960,831.645)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.79,0:31:43.83,Sign-News,,0,0,0,,{\pos(960,832.23)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.83,0:31:43.88,Sign-News,,0,0,0,,{\pos(960,832.725)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.88,0:31:43.92,Sign-News,,0,0,0,,{\pos(960,833.235)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.92,0:31:43.96,Sign-News,,0,0,0,,{\pos(960.015,833.73)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:43.96,0:31:44.00,Sign-News,,0,0,0,,{\pos(960.015,834.225)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.00,0:31:44.04,Sign-News,,0,0,0,,{\pos(960,834.645)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.04,0:31:44.08,Sign-News,,0,0,0,,{\pos(960,835.08)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.08,0:31:44.13,Sign-News,,0,0,0,,{\pos(960,835.515)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.13,0:31:44.17,Sign-News,,0,0,0,,{\pos(960,835.935)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.17,0:31:44.21,Sign-News,,0,0,0,,{\pos(960,836.31)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.21,0:31:44.25,Sign-News,,0,0,0,,{\pos(960,836.685)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.25,0:31:44.29,Sign-News,,0,0,0,,{\pos(960,837.06)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.29,0:31:44.34,Sign-News,,0,0,0,,{\pos(960,837.435)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.34,0:31:44.38,Sign-News,,0,0,0,,{\pos(960,837.75)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.38,0:31:44.42,Sign-News,,0,0,0,,{\pos(960,838.065)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.42,0:31:44.46,Sign-News,,0,0,0,,{\pos(960,838.395)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.46,0:31:44.50,Sign-News,,0,0,0,,{\pos(960,838.71)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.50,0:31:44.54,Sign-News,,0,0,0,,{\pos(960,838.965)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.54,0:31:44.59,Sign-News,,0,0,0,,{\pos(960,839.205)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.59,0:31:44.63,Sign-News,,0,0,0,,{\pos(960,839.46)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.63,0:31:44.67,Sign-News,,0,0,0,,{\pos(960,839.715)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.67,0:31:44.71,Sign-News,,0,0,0,,{\pos(960,839.895)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.71,0:31:44.75,Sign-News,,0,0,0,,{\pos(960,840.075)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.75,0:31:44.79,Sign-News,,0,0,0,,{\pos(959.985,840.255)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.79,0:31:44.84,Sign-News,,0,0,0,,{\pos(959.985,840.42)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.84,0:31:44.88,Sign-News,,0,0,0,,{\pos(959.985,840.555)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.88,0:31:44.92,Sign-News,,0,0,0,,{\pos(960,840.69)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.92,0:31:44.96,Sign-News,,0,0,0,,{\pos(960,840.825)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:44.96,0:31:45.00,Sign-News,,0,0,0,,{\pos(960,840.96)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:45.00,0:31:45.04,Sign-News,,0,0,0,,{\pos(960,841.065)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:45.04,0:31:45.09,Sign-News,,0,0,0,,{\pos(960,841.17)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 1,0:31:45.09,0:31:46.55,Sign-News,,0,0,0,,{\pos(960,841.275)\blur1.05}Ushimitsu Kozo\N{ Got Caught}Arrested
-Dialogue: 0,0:00:14.16,0:00:14.20,Sign-OP,,0,0,0,,{\pos(579.84,1178.115)\blur1.2}One Piece
-Dialogue: 0,0:00:14.20,0:00:14.24,Sign-OP,,0,0,0,,{\pos(579.99,1177.86)\fscx99.96\fscy99.96\blur1.2}One Piece
-Dialogue: 0,0:00:14.24,0:00:14.28,Sign-OP,,0,0,0,,{\pos(580.14,1177.605)\fscx99.92\fscy99.92\blur1.2}One Piece
-Dialogue: 0,0:00:14.28,0:00:14.32,Sign-OP,,0,0,0,,{\pos(580.305,1177.335)\fscx99.88\fscy99.88\blur1.2}One Piece
-Dialogue: 0,0:00:14.32,0:00:14.36,Sign-OP,,0,0,0,,{\pos(580.455,1177.065)\fscx99.84\fscy99.84\blur1.2}One Piece
-Dialogue: 0,0:00:14.36,0:00:14.41,Sign-OP,,0,0,0,,{\pos(580.62,1176.795)\fscx99.8\fscy99.8\blur1.2}One Piece
-Dialogue: 0,0:00:14.41,0:00:14.45,Sign-OP,,0,0,0,,{\pos(580.77,1176.54)\fscx99.76\fscy99.76\blur1.2}One Piece
-Dialogue: 0,0:00:14.45,0:00:14.49,Sign-OP,,0,0,0,,{\pos(580.92,1176.27)\fscx99.71\fscy99.71\blur1.2}One Piece
-Dialogue: 0,0:00:14.49,0:00:14.53,Sign-OP,,0,0,0,,{\pos(581.085,1176.015)\fscx99.67\fscy99.67\blur1.2}One Piece
-Dialogue: 0,0:00:14.53,0:00:14.57,Sign-OP,,0,0,0,,{\pos(581.235,1175.775)\fscx99.63\fscy99.63\blur1.2}One Piece
-Dialogue: 0,0:00:14.57,0:00:14.61,Sign-OP,,0,0,0,,{\pos(581.385,1175.505)\fscx99.59\fscy99.59\blur1.2}One Piece
-Dialogue: 0,0:00:14.61,0:00:14.66,Sign-OP,,0,0,0,,{\pos(581.535,1175.265)\fscx99.56\fscy99.56\blur1.2}One Piece
-Dialogue: 0,0:00:14.66,0:00:14.70,Sign-OP,,0,0,0,,{\pos(581.67,1175.04)\fscx99.52\fscy99.52\blur1.2}One Piece
-Dialogue: 0,0:00:14.70,0:00:14.74,Sign-OP,,0,0,0,,{\pos(581.805,1174.8)\fscx99.48\fscy99.48\blur1.2}One Piece
-Dialogue: 0,0:00:14.74,0:00:14.78,Sign-OP,,0,0,0,,{\pos(584.76,1185.765)\fscx99.44\fscy99.44\blur1.2}One Piece
-Dialogue: 0,0:00:14.78,0:00:14.82,Sign-OP,,0,0,0,,{\pos(583.53,1167.255)\fscx99.4\fscy99.4\blur1.2}One Piece
-Dialogue: 0,0:00:14.82,0:00:14.86,Sign-OP,,0,0,0,,{\pos(579.48,1179.63)\fscx99.36\fscy99.36\blur1.2}One Piece
-Dialogue: 0,0:00:14.86,0:00:14.91,Sign-OP,,0,0,0,,{\pos(583.845,1173.69)\fscx99.31\fscy99.31\blur1.2}One Piece
-Dialogue: 0,0:00:14.91,0:00:14.95,Sign-OP,,0,0,0,,{\pos(584.025,1177.605)\fscx99.27\fscy99.27\blur1.2}One Piece
-Dialogue: 0,0:00:14.95,0:00:14.99,Sign-OP,,0,0,0,,{\pos(584.145,1174.605)\fscx99.23\fscy99.23\blur1.2}One Piece
-Dialogue: 0,0:00:14.99,0:00:15.03,Sign-OP,,0,0,0,,{\pos(583.725,1173.555)\fscx99.19\fscy99.19\blur1.2}One Piece
-Dialogue: 0,0:00:15.03,0:00:15.07,Sign-OP,,0,0,0,,{\pos(583.095,1172.685)\fscx99.15\fscy99.15\blur1.2}One Piece
-Dialogue: 0,0:00:15.07,0:00:15.11,Sign-OP,,0,0,0,,{\pos(583.23,1172.445)\fscx99.11\fscy99.11\blur1.2}One Piece
-Dialogue: 0,0:00:15.11,0:00:15.16,Sign-OP,,0,0,0,,{\pos(583.38,1172.175)\fscx99.07\fscy99.07\blur1.2}One Piece
-Dialogue: 0,0:00:15.16,0:00:15.20,Sign-OP,,0,0,0,,{\pos(583.545,1171.92)\fscx99.03\fscy99.03\blur1.2}One Piece
-Dialogue: 0,0:00:15.20,0:00:15.24,Sign-OP,,0,0,0,,{\pos(583.695,1171.65)\fscx98.99\fscy98.99\blur1.2}One Piece
-Dialogue: 0,0:00:15.24,0:00:15.28,Sign-OP,,0,0,0,,{\pos(583.845,1171.365)\fscx98.95\fscy98.95\blur1.2}One Piece
-Dialogue: 0,0:00:15.28,0:00:15.32,Sign-OP,,0,0,0,,{\pos(584.1,1170.945)\fscx98.88\fscy98.88\blur1.2}One Piece
-Dialogue: 0,0:00:15.32,0:00:15.37,Sign-OP,,0,0,0,,{\pos(584.34,1170.54)\fscx98.82\fscy98.82\blur1.2}One Piece
-Dialogue: 0,0:00:15.37,0:00:15.41,Sign-OP,,0,0,0,,{\pos(584.61,1170.105)\fscx98.75\fscy98.75\blur1.2}One Piece
-Dialogue: 0,0:00:15.41,0:00:15.45,Sign-OP,,0,0,0,,{\pos(584.85,1169.685)\fscx98.68\fscy98.68\blur1.2}One Piece
-Dialogue: 0,0:00:15.45,0:00:15.49,Sign-OP,,0,0,0,,{\pos(585.12,1169.265)\fscx98.62\fscy98.62\blur1.2}One Piece
-Dialogue: 0,0:00:15.49,0:00:15.53,Sign-OP,,0,0,0,,{\pos(585.375,1168.815)\fscx98.55\fscy98.55\blur1.2}One Piece
-Dialogue: 0,0:00:15.53,0:00:15.57,Sign-OP,,0,0,0,,{\pos(585.63,1168.395)\fscx98.48\fscy98.48\blur1.2}One Piece
-Dialogue: 0,0:00:15.57,0:00:15.62,Sign-OP,,0,0,0,,{\pos(585.87,1167.945)\fscx98.41\fscy98.41\blur1.2}One Piece
-Dialogue: 0,0:00:15.62,0:00:15.66,Sign-OP,,0,0,0,,{\pos(586.125,1167.54)\fscx98.35\fscy98.35\blur1.2}One Piece
-Dialogue: 0,0:00:15.66,0:00:15.70,Sign-OP,,0,0,0,,{\pos(586.38,1167.105)\fscx98.28\fscy98.28\blur1.2}One Piece
-Dialogue: 0,0:00:15.70,0:00:15.74,Sign-OP,,0,0,0,,{\pos(586.635,1166.685)\fscx98.21\fscy98.21\blur1.2}One Piece
-Dialogue: 0,0:00:15.74,0:00:15.78,Sign-OP,,0,0,0,,{\pos(586.875,1166.265)\fscx98.15\fscy98.15\blur1.2}One Piece
-Dialogue: 0,0:00:15.78,0:00:15.82,Sign-OP,,0,0,0,,{\pos(587.13,1165.815)\fscx98.08\fscy98.08\blur1.2}One Piece
-Dialogue: 0,0:00:15.82,0:00:15.87,Sign-OP,,0,0,0,,{\pos(587.385,1165.41)\fscx98.01\fscy98.01\blur1.2}One Piece
-Dialogue: 0,0:00:15.87,0:00:15.91,Sign-OP,,0,0,0,,{\pos(587.64,1165.005)\fscx97.95\fscy97.95\blur1.2}One Piece
-Dialogue: 0,0:00:15.91,0:00:15.95,Sign-OP,,0,0,0,,{\pos(587.88,1164.57)\fscx97.88\fscy97.88\blur1.2}One Piece
-Dialogue: 0,0:00:15.95,0:00:15.99,Sign-OP,,0,0,0,,{\pos(588.135,1164.135)\fscx97.81\fscy97.81\blur1.2}One Piece
-Dialogue: 0,0:00:15.99,0:00:16.03,Sign-OP,,0,0,0,,{\pos(588.39,1163.715)\fscx97.75\fscy97.75\blur1.2}One Piece
-Dialogue: 0,0:00:16.03,0:00:16.07,Sign-OP,,0,0,0,,{\pos(588.645,1163.28)\fscx97.68\fscy97.68\blur1.2}One Piece
-Dialogue: 0,0:00:16.07,0:00:16.12,Sign-OP,,0,0,0,,{\pos(588.9,1162.875)\fscx97.62\fscy97.62\blur1.2}One Piece
-Dialogue: 0,0:00:16.12,0:00:16.16,Sign-OP,,0,0,0,,{\pos(589.14,1162.455)\fscx97.55\fscy97.55\blur1.2}One Piece
-Dialogue: 0,0:00:16.16,0:00:16.20,Sign-OP,,0,0,0,,{\pos(589.38,1162.05)\fscx97.48\fscy97.48\blur1.2}One Piece
-Dialogue: 0,0:00:16.20,0:00:16.24,Sign-OP,,0,0,0,,{\pos(589.635,1161.645)\fscx97.42\fscy97.42\blur1.2}One Piece
-Dialogue: 0,0:00:16.24,0:00:16.28,Sign-OP,,0,0,0,,{\pos(589.89,1161.225)\fscx97.35\fscy97.35\blur1.2}One Piece
-Dialogue: 0,0:00:16.28,0:00:16.32,Sign-OP,,0,0,0,,{\pos(590.145,1160.805)\fscx97.29\fscy97.29\blur1.2}One Piece
-Dialogue: 0,0:00:16.32,0:00:16.37,Sign-OP,,0,0,0,,{\pos(590.385,1160.385)\fscx97.23\fscy97.23\blur1.2}One Piece
-Dialogue: 0,0:00:16.37,0:00:16.41,Sign-OP,,0,0,0,,{\pos(590.61,1159.98)\fscx97.16\fscy97.16\blur1.2}One Piece
-Dialogue: 0,0:00:16.41,0:00:16.45,Sign-OP,,0,0,0,,{\pos(590.865,1159.56)\fscx97.1\fscy97.1\blur1.2}One Piece
-Dialogue: 0,0:00:16.45,0:00:16.49,Sign-OP,,0,0,0,,{\pos(591.12,1159.125)\fscx97.03\fscy97.03\blur1.2}One Piece
-Dialogue: 0,0:00:16.49,0:00:16.53,Sign-OP,,0,0,0,,{\pos(591.375,1158.72)\fscx96.97\fscy96.97\blur1.2}One Piece
-Dialogue: 0,0:00:16.53,0:00:16.57,Sign-OP,,0,0,0,,{\pos(591.615,1158.315)\fscx96.9\fscy96.9\blur1.2}One Piece
-Dialogue: 0,0:00:16.57,0:00:16.62,Sign-OP,,0,0,0,,{\pos(591.855,1157.895)\fscx96.83\fscy96.83\blur1.2}One Piece
-Dialogue: 0,0:00:16.62,0:00:16.66,Sign-OP,,0,0,0,,{\pos(592.11,1157.49)\fscx96.77\fscy96.77\blur1.2}One Piece
-Dialogue: 0,0:00:16.66,0:00:16.70,Sign-OP,,0,0,0,,{\pos(592.35,1157.085)\fscx96.71\fscy96.71\blur1.2}One Piece
-Dialogue: 0,0:00:16.70,0:00:16.74,Sign-OP,,0,0,0,,{\pos(592.59,1156.665)\fscx96.64\fscy96.64\blur1.2}One Piece
-Dialogue: 0,0:00:16.74,0:00:16.78,Sign-OP,,0,0,0,,{\pos(592.845,1156.245)\fscx96.57\fscy96.57\blur1.2}One Piece
-Dialogue: 0,0:00:16.78,0:00:16.82,Sign-OP,,0,0,0,,{\pos(593.085,1155.84)\fscx96.51\fscy96.51\blur1.2}One Piece
-Dialogue: 0,0:00:16.82,0:00:16.87,Sign-OP,,0,0,0,,{\pos(593.31,1155.435)\fscx96.45\fscy96.45\blur1.2}One Piece
-Dialogue: 0,0:00:16.87,0:00:16.91,Sign-OP,,0,0,0,,{\pos(593.565,1155.045)\fscx96.39\fscy96.39\blur1.2}One Piece
-Dialogue: 0,0:00:16.91,0:00:16.95,Sign-OP,,0,0,0,,{\pos(593.82,1154.61)\fscx96.32\fscy96.32\blur1.2}One Piece
-Dialogue: 0,0:00:16.95,0:00:16.99,Sign-OP,,0,0,0,,{\pos(594.06,1154.205)\fscx96.26\fscy96.26\blur1.2}One Piece
-Dialogue: 0,0:00:16.99,0:00:17.03,Sign-OP,,0,0,0,,{\pos(594.3,1153.8)\fscx96.19\fscy96.19\blur1.2}One Piece
-Dialogue: 0,0:00:17.03,0:00:17.08,Sign-OP,,0,0,0,,{\pos(594.54,1153.38)\fscx96.13\fscy96.13\blur1.2}One Piece
-Dialogue: 0,0:00:17.08,0:00:17.12,Sign-OP,,0,0,0,,{\pos(594.78,1152.99)\fscx96.07\fscy96.07\blur1.2}One Piece
-Dialogue: 0,0:00:17.12,0:00:17.16,Sign-OP,,0,0,0,,{\pos(595.035,1152.57)\fscx96\fscy96\blur1.2}One Piece
-Dialogue: 0,0:00:17.16,0:00:17.20,Sign-OP,,0,0,0,,{\pos(595.275,1152.165)\fscx95.94\fscy95.94\blur1.2}One Piece
-Dialogue: 0,0:00:17.20,0:00:17.24,Sign-OP,,0,0,0,,{\pos(595.515,1151.76)\fscx95.87\fscy95.87\blur1.2}One Piece
-Dialogue: 0,0:00:17.24,0:00:17.28,Sign-OP,,0,0,0,,{\pos(595.755,1151.355)\fscx95.81\fscy95.81\blur1.2}One Piece
-Dialogue: 0,0:00:17.28,0:00:17.33,Sign-OP,,0,0,0,,{\pos(596.01,1150.95)\fscx95.75\fscy95.75\blur1.2}One Piece
-Dialogue: 0,0:00:17.33,0:00:17.37,Sign-OP,,0,0,0,,{\pos(596.235,1150.545)\fscx95.69\fscy95.69\blur1.2}One Piece
-Dialogue: 0,0:00:17.37,0:00:17.41,Sign-OP,,0,0,0,,{\pos(596.475,1150.155)\fscx95.62\fscy95.62\blur1.2}One Piece
-Dialogue: 0,0:00:17.41,0:00:17.45,Sign-OP,,0,0,0,,{\pos(596.73,1149.75)\fscx95.56\fscy95.56\blur1.2}One Piece
-Dialogue: 0,0:00:17.45,0:00:17.49,Sign-OP,,0,0,0,,{\pos(596.97,1149.345)\fscx95.5\fscy95.5\blur1.2}One Piece
-Dialogue: 0,0:00:17.49,0:00:17.53,Sign-OP,,0,0,0,,{\pos(597.195,1148.955)\fscx95.43\fscy95.43\blur1.2}One Piece
-Dialogue: 0,0:00:17.53,0:00:17.58,Sign-OP,,0,0,0,,{\pos(597.435,1148.55)\fscx95.37\fscy95.37\blur1.2}One Piece
-Dialogue: 0,0:00:17.58,0:00:17.62,Sign-OP,,0,0,0,,{\pos(597.675,1148.145)\fscx95.31\fscy95.31\blur1.2}One Piece
-Dialogue: 0,0:00:17.62,0:00:17.66,Sign-OP,,0,0,0,,{\pos(597.9,1147.755)\fscx95.25\fscy95.25\blur1.2}One Piece
-Dialogue: 0,0:00:17.66,0:00:17.70,Sign-OP,,0,0,0,,{\pos(598.14,1147.335)\fscx95.18\fscy95.18\blur1.2}One Piece
-Dialogue: 0,0:00:17.70,0:00:17.74,Sign-OP,,0,0,0,,{\pos(598.395,1146.945)\fscx95.12\fscy95.12\blur1.2}One Piece
-Dialogue: 0,0:00:17.74,0:00:17.78,Sign-OP,,0,0,0,,{\pos(598.62,1146.525)\fscx95.06\fscy95.06\blur1.2}One Piece
-Dialogue: 0,0:00:17.78,0:00:17.83,Sign-OP,,0,0,0,,{\pos(598.86,1146.15)\fscx95\fscy95\blur1.2}One Piece
-Dialogue: 0,0:00:17.83,0:00:17.87,Sign-OP,,0,0,0,,{\pos(599.085,1145.775)\fscx94.93\fscy94.93\blur1.2}One Piece
-Dialogue: 0,0:00:17.87,0:00:17.91,Sign-OP,,0,0,0,,{\pos(599.34,1145.355)\fscx94.87\fscy94.87\blur1.2}One Piece
-Dialogue: 0,0:00:17.91,0:00:17.95,Sign-OP,,0,0,0,,{\pos(599.565,1144.965)\fscx94.81\fscy94.81\blur1.2}One Piece
-Dialogue: 0,0:00:17.95,0:00:17.99,Sign-OP,,0,0,0,,{\pos(599.805,1144.56)\fscx94.75\fscy94.75\blur1.2}One Piece
-Dialogue: 0,0:00:17.99,0:00:18.03,Sign-OP,,0,0,0,,{\pos(600.045,1144.155)\fscx94.68\fscy94.68\blur1.2}One Piece
-Dialogue: 0,0:00:18.03,0:00:18.08,Sign-OP,,0,0,0,,{\pos(600.27,1143.78)\fscx94.62\fscy94.62\blur1.2}One Piece
-Dialogue: 0,0:00:18.08,0:00:18.12,Sign-OP,,0,0,0,,{\pos(600.51,1143.375)\fscx94.56\fscy94.56\blur1.2}One Piece
-Dialogue: 0,0:00:18.12,0:00:18.16,Sign-OP,,0,0,0,,{\pos(600.735,1142.985)\fscx94.5\fscy94.5\blur1.2}One Piece
-Dialogue: 0,0:00:18.16,0:00:18.20,Sign-OP,,0,0,0,,{\pos(600.99,1142.565)\fscx94.44\fscy94.44\blur1.2}One Piece
-Dialogue: 0,0:00:18.20,0:00:18.24,Sign-OP,,0,0,0,,{\pos(601.215,1142.19)\fscx94.38\fscy94.38\blur1.2}One Piece
-Dialogue: 0,0:00:18.24,0:00:18.28,Sign-OP,,0,0,0,,{\pos(601.44,1141.815)\fscx94.32\fscy94.32\blur1.2}One Piece
-Dialogue: 0,0:00:18.28,0:00:18.33,Sign-OP,,0,0,0,,{\pos(601.68,1141.41)\fscx94.25\fscy94.25\blur1.2}One Piece
-Dialogue: 0,0:00:18.33,0:00:18.37,Sign-OP,,0,0,0,,{\pos(601.905,1141.02)\fscx94.19\fscy94.19\blur1.2}One Piece
-Dialogue: 0,0:00:18.37,0:00:18.41,Sign-OP,,0,0,0,,{\pos(602.145,1140.63)\fscx94.13\fscy94.13\blur1.2}One Piece
-Dialogue: 0,0:00:18.41,0:00:18.45,Sign-OP,,0,0,0,,{\pos(602.37,1140.24)\fscx94.07\fscy94.07\blur1.2}One Piece
-Dialogue: 0,0:00:18.45,0:00:18.49,Sign-OP,,0,0,0,,{\pos(602.595,1139.85)\fscx94.01\fscy94.01\blur1.2}One Piece
-Dialogue: 0,0:00:18.49,0:00:18.54,Sign-OP,,0,0,0,,{\pos(602.82,1139.475)\fscx93.95\fscy93.95\blur1.2}One Piece
-Dialogue: 0,0:00:18.54,0:00:18.58,Sign-OP,,0,0,0,,{\pos(603.075,1139.07)\fscx93.89\fscy93.89\blur1.2}One Piece
-Dialogue: 0,0:00:18.58,0:00:18.62,Sign-OP,,0,0,0,,{\pos(603.3,1138.68)\fscx93.83\fscy93.83\blur1.2}One Piece
-Dialogue: 0,0:00:18.62,0:00:18.66,Sign-OP,,0,0,0,,{\pos(603.525,1138.305)\fscx93.77\fscy93.77\blur1.2}One Piece
-Dialogue: 0,0:00:18.66,0:00:18.70,Sign-OP,,0,0,0,,{\pos(603.75,1137.945)\fscx93.71\fscy93.71\blur1.2}One Piece
-Dialogue: 0,0:00:18.70,0:00:18.74,Sign-OP,,0,0,0,,{\pos(603.99,1137.525)\fscx93.65\fscy93.65\blur1.2}One Piece
-Dialogue: 0,0:00:18.74,0:00:18.79,Sign-OP,,0,0,0,,{\pos(604.23,1137.165)\fscx93.59\fscy93.59\blur1.2}One Piece
-Dialogue: 0,0:00:18.79,0:00:18.83,Sign-OP,,0,0,0,,{\pos(604.455,1136.76)\fscx93.52\fscy93.52\blur1.2}One Piece
-Dialogue: 0,0:00:18.83,0:00:18.87,Sign-OP,,0,0,0,,{\pos(604.695,1136.385)\fscx93.46\fscy93.46\blur1.2}One Piece
-Dialogue: 0,0:00:18.87,0:00:18.91,Sign-OP,,0,0,0,,{\pos(604.92,1135.995)\fscx93.4\fscy93.4\blur1.2}One Piece
-Dialogue: 0,0:00:18.91,0:00:18.95,Sign-OP,,0,0,0,,{\pos(605.145,1135.59)\fscx93.34\fscy93.34\blur1.2}One Piece
-Dialogue: 0,0:00:18.95,0:00:18.99,Sign-OP,,0,0,0,,{\pos(605.355,1135.23)\fscx93.28\fscy93.28\blur1.2}One Piece
-Dialogue: 0,0:00:18.99,0:00:19.04,Sign-OP,,0,0,0,,{\pos(605.595,1134.825)\fscx93.22\fscy93.22\blur1.2}One Piece
-Dialogue: 0,0:00:19.04,0:00:19.08,Sign-OP,,0,0,0,,{\pos(605.82,1134.45)\fscx93.16\fscy93.16\blur1.2}One Piece
-Dialogue: 0,0:00:19.08,0:00:19.12,Sign-OP,,0,0,0,,{\pos(606.03,1134.075)\fscx93.1\fscy93.1\blur1.2}One Piece
-Dialogue: 0,0:00:19.12,0:00:19.16,Sign-OP,,0,0,0,,{\pos(606.285,1133.67)\fscx93.04\fscy93.04\blur1.2}One Piece
-Dialogue: 0,0:00:19.16,0:00:19.20,Sign-OP,,0,0,0,,{\pos(606.495,1133.34)\fscx92.99\fscy92.99\blur1.2}One Piece
-Dialogue: 0,0:00:19.20,0:00:19.24,Sign-OP,,0,0,0,,{\pos(606.735,1132.935)\fscx92.93\fscy92.93\blur1.2}One Piece
-Dialogue: 0,0:00:19.24,0:00:19.29,Sign-OP,,0,0,0,,{\pos(606.96,1132.545)\fscx92.87\fscy92.87\blur1.2}One Piece
-Dialogue: 0,0:00:19.29,0:00:19.33,Sign-OP,,0,0,0,,{\pos(607.17,1132.215)\fscx92.81\fscy92.81\blur1.2}One Piece
-Dialogue: 0,0:00:19.33,0:00:19.41,Sign-OP,,0,0,0,,{\pos(607.8,1131.15)\fscx92.65\fscy92.65\blur1.2}One Piece
-Dialogue: 0,0:00:14.99,0:00:15.03,Sign-Wano,,0,0,0,,{\pos(1583.595,1000.74)\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.03,0:00:15.07,Sign-Wano,,0,0,0,,{\pos(1582.56,999.915)\fscx99.96\fscy99.96\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.07,0:00:15.11,Sign-Wano,,0,0,0,,{\pos(1582.305,999.705)\fscx99.92\fscy99.92\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.11,0:00:15.16,Sign-Wano,,0,0,0,,{\pos(1582.065,999.495)\fscx99.88\fscy99.88\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.16,0:00:15.20,Sign-Wano,,0,0,0,,{\pos(1581.81,999.27)\fscx99.84\fscy99.84\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.20,0:00:15.24,Sign-Wano,,0,0,0,,{\pos(1581.54,999.045)\fscx99.8\fscy99.8\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.24,0:00:15.28,Sign-Wano,,0,0,0,,{\pos(1581.285,998.805)\fscx99.75\fscy99.75\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.28,0:00:15.32,Sign-Wano,,0,0,0,,{\pos(1580.865,998.445)\fscx99.69\fscy99.69\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.32,0:00:15.37,Sign-Wano,,0,0,0,,{\pos(1580.46,998.1)\fscx99.62\fscy99.62\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.37,0:00:15.41,Sign-Wano,,0,0,0,,{\pos(1580.025,997.74)\fscx99.55\fscy99.55\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.41,0:00:15.45,Sign-Wano,,0,0,0,,{\pos(1579.62,997.38)\fscx99.49\fscy99.49\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.45,0:00:15.49,Sign-Wano,,0,0,0,,{\pos(1579.23,997.005)\fscx99.42\fscy99.42\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.49,0:00:15.53,Sign-Wano,,0,0,0,,{\pos(1578.795,996.645)\fscx99.35\fscy99.35\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.53,0:00:15.57,Sign-Wano,,0,0,0,,{\pos(1578.375,996.285)\fscx99.28\fscy99.28\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.57,0:00:15.62,Sign-Wano,,0,0,0,,{\pos(1577.94,995.91)\fscx99.21\fscy99.21\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.62,0:00:15.66,Sign-Wano,,0,0,0,,{\pos(1577.535,995.565)\fscx99.15\fscy99.15\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.66,0:00:15.70,Sign-Wano,,0,0,0,,{\pos(1577.115,995.205)\fscx99.08\fscy99.08\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.70,0:00:15.74,Sign-Wano,,0,0,0,,{\pos(1576.695,994.845)\fscx99.01\fscy99.01\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.74,0:00:15.78,Sign-Wano,,0,0,0,,{\pos(1576.275,994.485)\fscx98.94\fscy98.94\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.78,0:00:15.82,Sign-Wano,,0,0,0,,{\pos(1575.855,994.11)\fscx98.87\fscy98.87\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.82,0:00:15.87,Sign-Wano,,0,0,0,,{\pos(1575.45,993.765)\fscx98.81\fscy98.81\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.87,0:00:15.91,Sign-Wano,,0,0,0,,{\pos(1575.045,993.42)\fscx98.74\fscy98.74\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.91,0:00:15.95,Sign-Wano,,0,0,0,,{\pos(1574.625,993.06)\fscx98.68\fscy98.68\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.95,0:00:15.99,Sign-Wano,,0,0,0,,{\pos(1574.205,992.685)\fscx98.61\fscy98.61\blur0.9}Wano Arc
-Dialogue: 0,0:00:15.99,0:00:16.03,Sign-Wano,,0,0,0,,{\pos(1573.8,992.325)\fscx98.54\fscy98.54\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.03,0:00:16.07,Sign-Wano,,0,0,0,,{\pos(1573.395,991.965)\fscx98.47\fscy98.47\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.07,0:00:16.12,Sign-Wano,,0,0,0,,{\pos(1573.005,991.62)\fscx98.41\fscy98.41\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.12,0:00:16.16,Sign-Wano,,0,0,0,,{\pos(1572.585,991.275)\fscx98.34\fscy98.34\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.16,0:00:16.20,Sign-Wano,,0,0,0,,{\pos(1572.18,990.915)\fscx98.28\fscy98.28\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.20,0:00:16.24,Sign-Wano,,0,0,0,,{\pos(1571.775,990.57)\fscx98.21\fscy98.21\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.24,0:00:16.28,Sign-Wano,,0,0,0,,{\pos(1571.385,990.225)\fscx98.15\fscy98.15\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.28,0:00:16.32,Sign-Wano,,0,0,0,,{\pos(1570.965,989.865)\fscx98.08\fscy98.08\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.32,0:00:16.37,Sign-Wano,,0,0,0,,{\pos(1570.575,989.52)\fscx98.02\fscy98.02\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.37,0:00:16.41,Sign-Wano,,0,0,0,,{\pos(1570.17,989.175)\fscx97.95\fscy97.95\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.41,0:00:16.45,Sign-Wano,,0,0,0,,{\pos(1569.765,988.815)\fscx97.89\fscy97.89\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.45,0:00:16.49,Sign-Wano,,0,0,0,,{\pos(1569.345,988.455)\fscx97.82\fscy97.82\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.49,0:00:16.53,Sign-Wano,,0,0,0,,{\pos(1568.97,988.11)\fscx97.75\fscy97.75\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.53,0:00:16.57,Sign-Wano,,0,0,0,,{\pos(1568.55,987.765)\fscx97.69\fscy97.69\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.57,0:00:16.62,Sign-Wano,,0,0,0,,{\pos(1568.145,987.405)\fscx97.62\fscy97.62\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.62,0:00:16.66,Sign-Wano,,0,0,0,,{\pos(1567.785,987.075)\fscx97.56\fscy97.56\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.66,0:00:16.70,Sign-Wano,,0,0,0,,{\pos(1567.365,986.715)\fscx97.49\fscy97.49\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.70,0:00:16.74,Sign-Wano,,0,0,0,,{\pos(1566.945,986.37)\fscx97.43\fscy97.43\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.74,0:00:16.78,Sign-Wano,,0,0,0,,{\pos(1566.525,986.01)\fscx97.36\fscy97.36\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.78,0:00:16.82,Sign-Wano,,0,0,0,,{\pos(1566.135,985.665)\fscx97.3\fscy97.3\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.82,0:00:16.87,Sign-Wano,,0,0,0,,{\pos(1565.745,985.335)\fscx97.23\fscy97.23\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.87,0:00:16.91,Sign-Wano,,0,0,0,,{\pos(1565.385,985.005)\fscx97.17\fscy97.17\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.91,0:00:16.95,Sign-Wano,,0,0,0,,{\pos(1564.965,984.63)\fscx97.11\fscy97.11\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.95,0:00:16.99,Sign-Wano,,0,0,0,,{\pos(1564.56,984.285)\fscx97.04\fscy97.04\blur0.9}Wano Arc
-Dialogue: 0,0:00:16.99,0:00:17.03,Sign-Wano,,0,0,0,,{\pos(1564.17,983.955)\fscx96.98\fscy96.98\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.03,0:00:17.08,Sign-Wano,,0,0,0,,{\pos(1563.765,983.595)\fscx96.91\fscy96.91\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.08,0:00:17.12,Sign-Wano,,0,0,0,,{\pos(1563.39,983.265)\fscx96.85\fscy96.85\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.12,0:00:17.16,Sign-Wano,,0,0,0,,{\pos(1562.97,982.905)\fscx96.78\fscy96.78\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.16,0:00:17.20,Sign-Wano,,0,0,0,,{\pos(1562.58,982.545)\fscx96.72\fscy96.72\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.20,0:00:17.24,Sign-Wano,,0,0,0,,{\pos(1562.19,982.215)\fscx96.65\fscy96.65\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.24,0:00:17.28,Sign-Wano,,0,0,0,,{\pos(1561.785,981.87)\fscx96.59\fscy96.59\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.28,0:00:17.33,Sign-Wano,,0,0,0,,{\pos(1561.425,981.54)\fscx96.53\fscy96.53\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.33,0:00:17.37,Sign-Wano,,0,0,0,,{\pos(1561.035,981.195)\fscx96.46\fscy96.46\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.37,0:00:17.41,Sign-Wano,,0,0,0,,{\pos(1560.63,980.865)\fscx96.4\fscy96.4\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.41,0:00:17.45,Sign-Wano,,0,0,0,,{\pos(1560.255,980.52)\fscx96.34\fscy96.34\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.45,0:00:17.49,Sign-Wano,,0,0,0,,{\pos(1559.865,980.175)\fscx96.27\fscy96.27\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.49,0:00:17.53,Sign-Wano,,0,0,0,,{\pos(1559.475,979.86)\fscx96.21\fscy96.21\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.53,0:00:17.58,Sign-Wano,,0,0,0,,{\pos(1559.07,979.515)\fscx96.15\fscy96.15\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.58,0:00:17.62,Sign-Wano,,0,0,0,,{\pos(1558.695,979.17)\fscx96.09\fscy96.09\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.62,0:00:17.66,Sign-Wano,,0,0,0,,{\pos(1558.305,978.84)\fscx96.02\fscy96.02\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.66,0:00:17.70,Sign-Wano,,0,0,0,,{\pos(1557.885,978.495)\fscx95.96\fscy95.96\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.70,0:00:17.74,Sign-Wano,,0,0,0,,{\pos(1557.51,978.15)\fscx95.89\fscy95.89\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.74,0:00:17.78,Sign-Wano,,0,0,0,,{\pos(1557.12,977.805)\fscx95.83\fscy95.83\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.78,0:00:17.83,Sign-Wano,,0,0,0,,{\pos(1556.745,977.475)\fscx95.77\fscy95.77\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.83,0:00:17.87,Sign-Wano,,0,0,0,,{\pos(1556.37,977.145)\fscx95.71\fscy95.71\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.87,0:00:17.91,Sign-Wano,,0,0,0,,{\pos(1555.965,976.8)\fscx95.64\fscy95.64\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.91,0:00:17.95,Sign-Wano,,0,0,0,,{\pos(1555.59,976.485)\fscx95.58\fscy95.58\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.95,0:00:17.99,Sign-Wano,,0,0,0,,{\pos(1555.215,976.125)\fscx95.52\fscy95.52\blur0.9}Wano Arc
-Dialogue: 0,0:00:17.99,0:00:18.03,Sign-Wano,,0,0,0,,{\pos(1554.81,975.795)\fscx95.46\fscy95.46\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.03,0:00:18.08,Sign-Wano,,0,0,0,,{\pos(1554.435,975.465)\fscx95.39\fscy95.39\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.08,0:00:18.12,Sign-Wano,,0,0,0,,{\pos(1554.045,975.135)\fscx95.33\fscy95.33\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.12,0:00:18.16,Sign-Wano,,0,0,0,,{\pos(1553.655,974.805)\fscx95.27\fscy95.27\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.16,0:00:18.20,Sign-Wano,,0,0,0,,{\pos(1553.295,974.445)\fscx95.21\fscy95.21\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.20,0:00:18.24,Sign-Wano,,0,0,0,,{\pos(1552.905,974.13)\fscx95.14\fscy95.14\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.24,0:00:18.28,Sign-Wano,,0,0,0,,{\pos(1552.53,973.8)\fscx95.08\fscy95.08\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.28,0:00:18.33,Sign-Wano,,0,0,0,,{\pos(1552.14,973.47)\fscx95.02\fscy95.02\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.33,0:00:18.37,Sign-Wano,,0,0,0,,{\pos(1551.765,973.14)\fscx94.96\fscy94.96\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.37,0:00:18.41,Sign-Wano,,0,0,0,,{\pos(1551.375,972.81)\fscx94.9\fscy94.9\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.41,0:00:18.45,Sign-Wano,,0,0,0,,{\pos(1550.985,972.495)\fscx94.83\fscy94.83\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.45,0:00:18.49,Sign-Wano,,0,0,0,,{\pos(1550.61,972.15)\fscx94.77\fscy94.77\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.49,0:00:18.54,Sign-Wano,,0,0,0,,{\pos(1550.235,971.835)\fscx94.71\fscy94.71\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.54,0:00:18.58,Sign-Wano,,0,0,0,,{\pos(1549.875,971.49)\fscx94.65\fscy94.65\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.58,0:00:18.62,Sign-Wano,,0,0,0,,{\pos(1549.485,971.16)\fscx94.59\fscy94.59\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.62,0:00:18.66,Sign-Wano,,0,0,0,,{\pos(1549.125,970.845)\fscx94.53\fscy94.53\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.66,0:00:18.70,Sign-Wano,,0,0,0,,{\pos(1548.765,970.545)\fscx94.47\fscy94.47\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.70,0:00:18.74,Sign-Wano,,0,0,0,,{\pos(1548.375,970.185)\fscx94.41\fscy94.41\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.74,0:00:18.79,Sign-Wano,,0,0,0,,{\pos(1548.015,969.885)\fscx94.35\fscy94.35\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.79,0:00:18.83,Sign-Wano,,0,0,0,,{\pos(1547.625,969.54)\fscx94.29\fscy94.29\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.83,0:00:18.87,Sign-Wano,,0,0,0,,{\pos(1547.265,969.21)\fscx94.23\fscy94.23\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.87,0:00:18.91,Sign-Wano,,0,0,0,,{\pos(1546.89,968.895)\fscx94.16\fscy94.16\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.91,0:00:18.95,Sign-Wano,,0,0,0,,{\pos(1546.515,968.55)\fscx94.1\fscy94.1\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.95,0:00:18.99,Sign-Wano,,0,0,0,,{\pos(1546.125,968.25)\fscx94.04\fscy94.04\blur0.9}Wano Arc
-Dialogue: 0,0:00:18.99,0:00:19.04,Sign-Wano,,0,0,0,,{\pos(1545.735,967.905)\fscx93.98\fscy93.98\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.04,0:00:19.08,Sign-Wano,,0,0,0,,{\pos(1545.345,967.575)\fscx93.92\fscy93.92\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.08,0:00:19.12,Sign-Wano,,0,0,0,,{\pos(1544.985,967.275)\fscx93.86\fscy93.86\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.12,0:00:19.16,Sign-Wano,,0,0,0,,{\pos(1544.61,966.915)\fscx93.8\fscy93.8\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.16,0:00:19.20,Sign-Wano,,0,0,0,,{\pos(1544.28,966.645)\fscx93.74\fscy93.74\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.20,0:00:19.24,Sign-Wano,,0,0,0,,{\pos(1543.905,966.315)\fscx93.68\fscy93.68\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.24,0:00:19.29,Sign-Wano,,0,0,0,,{\pos(1543.545,965.985)\fscx93.62\fscy93.62\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.29,0:00:19.33,Sign-Wano,,0,0,0,,{\pos(1543.215,965.685)\fscx93.57\fscy93.57\blur0.9}Wano Arc
-Dialogue: 0,0:00:19.33,0:00:19.41,Sign-Wano,,0,0,0,,{\pos(1542.195,964.785)\fscx93.4\fscy93.4\blur0.9}Wano Arc
+Dialogue: 1,0:31:41.33,0:31:41.37,Sign-News,,0,0,0,,{\pos(960.015,746.925)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.37,0:31:41.42,Sign-News,,0,0,0,,{\pos(960.015,750.42)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.42,0:31:41.46,Sign-News,,0,0,0,,{\pos(960.015,753.435)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.46,0:31:41.50,Sign-News,,0,0,0,,{\pos(960.015,756.45)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.50,0:31:41.54,Sign-News,,0,0,0,,{\pos(960,759.225)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.54,0:31:41.58,Sign-News,,0,0,0,,{\pos(960,762)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.58,0:31:41.62,Sign-News,,0,0,0,,{\pos(960,764.67)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.62,0:31:41.67,Sign-News,,0,0,0,,{\pos(960,767.34)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.67,0:31:41.71,Sign-News,,0,0,0,,{\pos(960,769.68)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.71,0:31:41.75,Sign-News,,0,0,0,,{\pos(960,772.005)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.75,0:31:41.79,Sign-News,,0,0,0,,{\pos(960,774.3)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.79,0:31:41.83,Sign-News,,0,0,0,,{\pos(960,776.595)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.83,0:31:41.87,Sign-News,,0,0,0,,{\pos(960,778.665)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.87,0:31:41.92,Sign-News,,0,0,0,,{\pos(960,780.735)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.92,0:31:41.96,Sign-News,,0,0,0,,{\pos(960,782.715)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:41.96,0:31:42.00,Sign-News,,0,0,0,,{\pos(960,784.68)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.00,0:31:42.04,Sign-News,,0,0,0,,{\pos(960,786.48)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.04,0:31:42.08,Sign-News,,0,0,0,,{\pos(960,788.28)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.08,0:31:42.12,Sign-News,,0,0,0,,{\pos(960,790.035)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.12,0:31:42.17,Sign-News,,0,0,0,,{\pos(960,791.775)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.17,0:31:42.21,Sign-News,,0,0,0,,{\pos(960,793.395)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.21,0:31:42.25,Sign-News,,0,0,0,,{\pos(960,795)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.25,0:31:42.29,Sign-News,,0,0,0,,{\pos(960,796.62)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.29,0:31:42.33,Sign-News,,0,0,0,,{\pos(960,798.225)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.33,0:31:42.37,Sign-News,,0,0,0,,{\pos(960,799.62)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.37,0:31:42.42,Sign-News,,0,0,0,,{\pos(960,801.015)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.42,0:31:42.46,Sign-News,,0,0,0,,{\pos(960,802.395)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.46,0:31:42.50,Sign-News,,0,0,0,,{\pos(960,803.775)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.50,0:31:42.54,Sign-News,,0,0,0,,{\pos(960,805.05)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.54,0:31:42.58,Sign-News,,0,0,0,,{\pos(960,806.34)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.58,0:31:42.63,Sign-News,,0,0,0,,{\pos(960,807.57)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.63,0:31:42.67,Sign-News,,0,0,0,,{\pos(960,808.815)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.67,0:31:42.71,Sign-News,,0,0,0,,{\pos(960,810.015)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.71,0:31:42.75,Sign-News,,0,0,0,,{\pos(959.985,811.215)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.75,0:31:42.79,Sign-News,,0,0,0,,{\pos(959.985,812.28)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.79,0:31:42.83,Sign-News,,0,0,0,,{\pos(959.985,813.36)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.83,0:31:42.88,Sign-News,,0,0,0,,{\pos(960,814.38)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.88,0:31:42.92,Sign-News,,0,0,0,,{\pos(960,815.4)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.92,0:31:42.96,Sign-News,,0,0,0,,{\pos(960,816.42)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:42.96,0:31:43.00,Sign-News,,0,0,0,,{\pos(960,817.44)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.00,0:31:43.04,Sign-News,,0,0,0,,{\pos(960,818.37)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.04,0:31:43.08,Sign-News,,0,0,0,,{\pos(960,819.285)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.08,0:31:43.13,Sign-News,,0,0,0,,{\pos(960,820.23)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.13,0:31:43.17,Sign-News,,0,0,0,,{\pos(960,821.13)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.17,0:31:43.21,Sign-News,,0,0,0,,{\pos(960,821.955)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.21,0:31:43.25,Sign-News,,0,0,0,,{\pos(960,822.765)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.25,0:31:43.29,Sign-News,,0,0,0,,{\pos(960,823.59)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.29,0:31:43.33,Sign-News,,0,0,0,,{\pos(960,824.4)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.33,0:31:43.38,Sign-News,,0,0,0,,{\pos(960,825.15)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.38,0:31:43.42,Sign-News,,0,0,0,,{\pos(960,825.885)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.42,0:31:43.46,Sign-News,,0,0,0,,{\pos(960,826.635)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.46,0:31:43.50,Sign-News,,0,0,0,,{\pos(960,827.37)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.50,0:31:43.54,Sign-News,,0,0,0,,{\pos(960,828)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.54,0:31:43.58,Sign-News,,0,0,0,,{\pos(960,828.63)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.58,0:31:43.63,Sign-News,,0,0,0,,{\pos(960,829.26)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.63,0:31:43.67,Sign-News,,0,0,0,,{\pos(960,829.89)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.67,0:31:43.71,Sign-News,,0,0,0,,{\pos(960,830.475)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.71,0:31:43.75,Sign-News,,0,0,0,,{\pos(960,831.06)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.75,0:31:43.79,Sign-News,,0,0,0,,{\pos(960,831.645)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.79,0:31:43.83,Sign-News,,0,0,0,,{\pos(960,832.23)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.83,0:31:43.88,Sign-News,,0,0,0,,{\pos(960,832.725)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.88,0:31:43.92,Sign-News,,0,0,0,,{\pos(960,833.235)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.92,0:31:43.96,Sign-News,,0,0,0,,{\pos(960.015,833.73)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:43.96,0:31:44.00,Sign-News,,0,0,0,,{\pos(960.015,834.225)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.00,0:31:44.04,Sign-News,,0,0,0,,{\pos(960,834.645)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.04,0:31:44.08,Sign-News,,0,0,0,,{\pos(960,835.08)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.08,0:31:44.13,Sign-News,,0,0,0,,{\pos(960,835.515)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.13,0:31:44.17,Sign-News,,0,0,0,,{\pos(960,835.935)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.17,0:31:44.21,Sign-News,,0,0,0,,{\pos(960,836.31)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.21,0:31:44.25,Sign-News,,0,0,0,,{\pos(960,836.685)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.25,0:31:44.29,Sign-News,,0,0,0,,{\pos(960,837.06)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.29,0:31:44.34,Sign-News,,0,0,0,,{\pos(960,837.435)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.34,0:31:44.38,Sign-News,,0,0,0,,{\pos(960,837.75)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.38,0:31:44.42,Sign-News,,0,0,0,,{\pos(960,838.065)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.42,0:31:44.46,Sign-News,,0,0,0,,{\pos(960,838.395)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.46,0:31:44.50,Sign-News,,0,0,0,,{\pos(960,838.71)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.50,0:31:44.54,Sign-News,,0,0,0,,{\pos(960,838.965)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.54,0:31:44.59,Sign-News,,0,0,0,,{\pos(960,839.205)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.59,0:31:44.63,Sign-News,,0,0,0,,{\pos(960,839.46)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.63,0:31:44.67,Sign-News,,0,0,0,,{\pos(960,839.715)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.67,0:31:44.71,Sign-News,,0,0,0,,{\pos(960,839.895)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.71,0:31:44.75,Sign-News,,0,0,0,,{\pos(960,840.075)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.75,0:31:44.79,Sign-News,,0,0,0,,{\pos(959.985,840.255)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.79,0:31:44.84,Sign-News,,0,0,0,,{\pos(959.985,840.42)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.84,0:31:44.88,Sign-News,,0,0,0,,{\pos(959.985,840.555)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.88,0:31:44.92,Sign-News,,0,0,0,,{\pos(960,840.69)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.92,0:31:44.96,Sign-News,,0,0,0,,{\pos(960,840.825)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:44.96,0:31:45.00,Sign-News,,0,0,0,,{\pos(960,840.96)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:45.00,0:31:45.04,Sign-News,,0,0,0,,{\pos(960,841.065)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:45.04,0:31:45.09,Sign-News,,0,0,0,,{\pos(960,841.17)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 1,0:31:45.09,0:31:46.55,Sign-News,,0,0,0,,{\pos(960,841.275)\blur1.05}{Ushimitsu Kozo}The Witching Hour\NBoy Arrested
+Dialogue: 0,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(384,669)\blur0.3\bord3.4\fscx83\fscy88\fsp2\c&H000000&}Video Editing
+Dialogue: 1,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(384,669)\blur0.4\bord0\fscx83\fscy88\fsp2\4a&HFF&}Video Editing
+Dialogue: 0,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(419,720)\blur0.3\bord4\fscx130\fscy130\c&H000000&}Meggo
+Dialogue: 1,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(419,720)\blur0.4\bord0\fscx130\fscy130\4a&HFF&}Meggo
+Dialogue: 2,0:00:26.19,0:00:30.13,Credits-207+,,0,0,0,,{\pos(419,720)\blur0.4\bord0\fscx130\fscy130\4a&HFF&}Meggo
+Dialogue: 0,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(387,620)\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&}Timing
+Dialogue: 1,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(387,620)\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&}Timing
+Dialogue: 0,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(422,676)\blur0.3\bord4\fscx110\fscy110\c&H000000&}PhosCity
+Dialogue: 1,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(422,676)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}PhosCity
+Dialogue: 2,0:00:30.21,0:00:34.63,Credits-207+,,0,0,0,,{\pos(422,676)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}PhosCity
+Dialogue: 0,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1229,440)\blur0.3\bord3.4\fscx83\fscy88\fsp2\c&H000000&}Quality Control
+Dialogue: 1,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1229,440)\blur0.4\bord0\fscx83\fscy88\fsp2\4a&HFF&}Quality Control
+Dialogue: 0,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1264,496)\blur0.3\bord4\fscx105\fscy105\c&H000000&}Galaxy 9000\NPepperjack
+Dialogue: 1,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1264,496)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}Galaxy 9000\NPepperjack
+Dialogue: 2,0:00:34.95,0:00:38.51,Credits-207+,,0,0,0,,{\pos(1264,496)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}Galaxy 9000\NPepperjack
+Dialogue: 0,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,142)\blur0.3\bord4\fscx110\fscy110\c&H000000&}Soundtracking
+Dialogue: 1,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,142)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Soundtracking
+Dialogue: 2,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,142)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,207)\blur0.3\bord4\fscx110\fscy110\c&H000000&}Halee
+Dialogue: 1,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,207)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Halee
+Dialogue: 2,0:00:38.66,0:00:43.60,Credits-207+,,0,0,0,,{\an5\pos(973,207)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Halee
+Dialogue: 0,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(428,816)\blur0.3\bord3.4\fscx83\fscy88\fsp2\c&H000000&}Graphics
+Dialogue: 1,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(428,816)\blur0.4\bord0\fscx83\fscy88\fsp2\4a&HFF&}Graphics
+Dialogue: 0,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(463,872)\blur0.3\bord4\fscx110\fscy110\c&H000000&}Datenshi
+Dialogue: 1,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(463,872)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Datenshi
+Dialogue: 2,0:00:47.73,0:00:50.80,Credits-207+,,0,0,0,,{\pos(463,872)\blur0.4\bord0\fscx110\fscy110\4a&HFF&}Datenshi
+Dialogue: 0,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1193,671)\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&}Karaoke
+Dialogue: 1,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1193,671)\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&}Karaoke
+Dialogue: 0,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1228,724.2)\blur0.3\bord4\fscx105\fscy105\c&H000000&}KaitouYahiko
+Dialogue: 1,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1228,724.2)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}KaitouYahiko
+Dialogue: 2,0:00:50.88,0:00:54.72,Credits-207+,,0,0,0,,{\pos(1228,724.2)\blur0.4\bord0\fscx105\fscy105\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(387,743)\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&}Subtitle Editing
+Dialogue: 1,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(387,743)\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&}Subtitle Editing
+Dialogue: 0,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(422,799)\blur0.3\bord4\fscx118\fscy118\c&H000000&}Zenef
+Dialogue: 1,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(422,799)\blur0.4\bord0\fscx118\fscy118\4a&HFF&}Zenef
+Dialogue: 2,0:00:54.78,0:00:56.61,Credits-207+,,0,0,0,,{\pos(422,799)\blur0.4\bord0\fscx118\fscy118\4a&HFF&}Zenef
+Dialogue: 0,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1259,578)\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&}Translation
+Dialogue: 1,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1259,578)\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&}Translation
+Dialogue: 0,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1294,634)\blur0.3\bord4\fscx120\fscy120\c&H000000&}Crunchyroll\NGaijin
+Dialogue: 1,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1294,634)\blur0.4\bord0\fscx120\fscy120\4a&HFF&}Crunchyroll\NGaijin
+Dialogue: 2,0:00:58.14,0:01:01.16,Credits-207+,,0,0,0,,{\pos(1294,634)\blur0.4\bord0\fscx120\fscy120\4a&HFF&}Crunchyroll\NGaijin
 Dialogue: 0,0:00:14.17,0:00:14.21,Sign-OP,,0,0,0,,{\pos(579.84,1178.115)\blur1\c&H15171A&}One Piece
 Dialogue: 0,0:00:14.21,0:00:14.25,Sign-OP,,0,0,0,,{\pos(579.99,1177.86)\blur1\fscx99.96\fscy99.96\c&H15171A&}One Piece
 Dialogue: 0,0:00:14.25,0:00:14.29,Sign-OP,,0,0,0,,{\pos(580.14,1177.605)\blur1\fscx99.92\fscy99.92\c&H15171A&}One Piece
