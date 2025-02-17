@@ -58,6 +58,7 @@ subs {
   val desubs = getPrefix() + "desubs"
   val itsubs = getPrefix() + "itsubs"
   val ptsubs = getPrefix() + "ptsubs"
+  val plsubs = getPrefix() + "plsubs"
   val video = getPrefix() + "video"
   val muxfile = getPrefix() + "muxfile"
   val torrentfile = getPrefix() + "torrentfile"
@@ -416,6 +417,21 @@ subs {
     //    includeExtensions("ttf", "otf")
     //  }
     //}
+
+    // Polish Subtitles
+    if (file(get(plsubs)).exists()) {
+     from(get(plsubs)) {
+       tracks {
+         name("Polish")
+         lang("pl")
+         default(false)
+       }
+     }
+
+     attach(get("plfonts")) {
+       includeExtensions("ttf", "otf")
+     }
+    }
 
     // German Subtitles
     if (file(get(desubs)).exists()) {
