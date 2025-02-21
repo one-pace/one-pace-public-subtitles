@@ -404,19 +404,19 @@ subs {
     }
 
     // Arabic Subtitles
-    //if (file(get("arsubs")).exists()) {
-    //  from(get("arsubs")) {
-    //    tracks {
-    //      name("Arabic")
-    //      lang("ar")
-    //      default(false)
-    //    }
-    //  }
+    if (file(get(arsubs)).exists()) {
+     from(get(arsubs)) {
+       tracks {
+         name("Arabic")
+         lang("ar")
+         default(false)
+       }
+     }
 
-    //  attach(get("arfonts")) {
-    //    includeExtensions("ttf", "otf")
-    //  }
-    //}
+     attach(get("arfonts")) {
+       includeExtensions("ttf", "otf")
+     }
+    }
 
     // Polish Subtitles
     if (file(get(plsubs)).exists()) {
