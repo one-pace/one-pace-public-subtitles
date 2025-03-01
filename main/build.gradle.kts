@@ -65,9 +65,11 @@ subs {
   val chapter = getPrefix() + "chapters"
 
   val mergefile = getPrefix() + "mergefile"
+  val mergefile_ar = getPrefix() + "mergefile_ar"
   val mergefile_en_cc = getPrefix() + "mergefile_en_cc"
   val mergefile_de = getPrefix() + "mergefile_de"
   val mergefile_pt = getPrefix() + "mergefile_pt"
+  val mergefile_pl = getPrefix() + "mergefile_pl"
   val mergefile_it = getPrefix() + "mergefile_it"
 
   val increaseLayer by task<ASS> {
@@ -220,6 +222,32 @@ subs {
     }
   }
 
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Arabic subs)
+  val increaseLayer_ar by task<ASS> {
+    from(get(arsubs))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Polish subs)
+  val increaseLayer_pl by task<ASS> {
+    from(get(plsubs))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+
   // Merge subs with karaoke (German subs)
   val merge_de by task<Merge> {
     from(increaseLayer_de.item())
@@ -295,6 +323,56 @@ subs {
     out(get(mergefile_it))
   }
 
+  // Merge subs with karaoke (Arabic subs)
+  val merge_ar by task<Merge> {
+    from(increaseLayer_ar.item())
+
+    if (propertyExists("OP_ar") && !propertyExists("noOP")) {
+      from(get("OP_ar")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_ar") && !propertyExists("noED")) {
+      from(get("ED_ar")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get(mergefile_ar))
+  }
+
+  // Merge subs with karaoke (Polish subs)
+  val merge_pl by task<Merge> {
+    from(increaseLayer_pl.item())
+
+    if (propertyExists("OP_pl") && !propertyExists("noOP")) {
+      from(get("OP_pl")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_pl") && !propertyExists("noED")) {
+      from(get("ED_pl")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get(mergefile_pl))
+  }
+
   // Helper task to merge all language subs needing merging and output to Final Subs folder
   val mergeAll by task<DefaultSubTask> {
     dependsOn(merge.item())
@@ -306,6 +384,12 @@ subs {
     }
     if (file(get(itsubs)).exists()) {
       dependsOn(merge_it.item())
+    }
+    if (file(get(arsubs)).exists()) {
+      dependsOn(merge_ar.item())
+    }
+    if (file(get(plsubs)).exists()) {
+      dependsOn(merge_pl.item())
     }
   }
 
@@ -405,7 +489,7 @@ subs {
 
     // Arabic Subtitles
     if (file(get(arsubs)).exists()) {
-     from(get(arsubs)) {
+     from(merge_ar.item()) {
        tracks {
          name("Arabic")
          lang("ar")
@@ -420,7 +504,7 @@ subs {
 
     // Polish Subtitles
     if (file(get(plsubs)).exists()) {
-     from(get(plsubs)) {
+     from(merge_pl.item()) {
        tracks {
          name("Polish")
          lang("pl")
