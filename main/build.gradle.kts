@@ -59,6 +59,7 @@ subs {
   val itsubs = getPrefix() + "itsubs"
   val ptsubs = getPrefix() + "ptsubs"
   val plsubs = getPrefix() + "plsubs"
+  val trsubs = getPrefix() + "trsubs"
   val video = getPrefix() + "video"
   val muxfile = getPrefix() + "muxfile"
   val torrentfile = getPrefix() + "torrentfile"
@@ -71,6 +72,7 @@ subs {
   val mergefile_pt = getPrefix() + "mergefile_pt"
   val mergefile_pl = getPrefix() + "mergefile_pl"
   val mergefile_it = getPrefix() + "mergefile_it"
+  val mergefile_tr = getPrefix() + "mergefile_tr"
 
   val increaseLayer by task<ASS> {
     from(get(ensubs))
@@ -248,6 +250,19 @@ subs {
     }
   }
 
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Turkish subs)
+  val increaseLayer_tr by task<ASS> {
+    from(get(trsubs))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+
   // Merge subs with karaoke (German subs)
   val merge_de by task<Merge> {
     from(increaseLayer_de.item())
@@ -373,6 +388,31 @@ subs {
     out(get(mergefile_pl))
   }
 
+  // Merge subs with karaoke (Turkish subs)
+  val merge_tr by task<Merge> {
+    from(increaseLayer_tr.item())
+
+    if (propertyExists("OP_tr") && !propertyExists("noOP")) {
+      from(get("OP_tr")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_tr") && !propertyExists("noED")) {
+      from(get("ED_tr")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get(mergefile_tr))
+  }
+
   // Helper task to merge all language subs needing merging and output to Final Subs folder
   val mergeAll by task<DefaultSubTask> {
     dependsOn(merge.item())
@@ -390,6 +430,9 @@ subs {
     }
     if (file(get(plsubs)).exists()) {
       dependsOn(merge_pl.item())
+    }
+    if (file(get(trsubs)).exists()) {
+      dependsOn(merge_tr.item())
     }
   }
 
@@ -580,6 +623,18 @@ subs {
         includeExtensions("ttf", "otf")
       }
     }
+
+    // Turkish Subtitles
+    if (file(get(trsubs)).exists()) {
+      from(merge_tr.item()) {
+        tracks {
+          name("Turkish")
+          lang("tr")
+          default(false)
+        }
+      }
+    }
+
 
     chapters(chapters.item()) {
       lang("eng")
