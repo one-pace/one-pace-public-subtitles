@@ -37,6 +37,7 @@ jobs:
           # TRIGGER WARNING: Horrible shell oneliner below. Reader discretion is advised.
           echo mergeTasks=$(find [0-9][0-9]* -type f -name '*en.ass' | sort \
             | grep -v ' extended ' \
+            | grep -v ' alternate ' \
             | sed -e '/^00/s/\/[a-zA-Z ]* en.ass$/ en.ass/' -e 's|00 Cover Stories and Specials/|00/00/specials |' \
             | cut -d '/' -f 3 \
             | sed -e 's/^/mergeAll./' -e 's/ en.ass$//' -e 's/ /_/' \
