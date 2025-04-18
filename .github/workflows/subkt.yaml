@@ -48,6 +48,12 @@ jobs:
             | sed -e 's/^/mergeAll./' -e 's/ extended en.ass$//' -e 's/ /_/' \
             | paste -s -d ' ') >> $GITHUB_ENV
 
+          echo mergeTasksAlternate=$(find [0-9][0-9]* -type f -name '*alternate en.ass' | sort \
+            | sed -e '/^00/s/\/[a-zA-Z ]* en.ass$/ en.ass/' -e 's|00 Cover Stories and Specials/|00/00/specials |' \
+            | cut -d '/' -f 3 \
+            | sed -e 's/^/mergeAll./' -e 's/ alternate en.ass$//' -e 's/ /_/' \
+            | paste -s -d ' ') >> $GITHUB_ENV
+
       - name: Merge with SubKt
         uses: gradle/gradle-build-action@v2
         with:
@@ -58,6 +64,12 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: -Pex ${{ env.mergeTasksExtended }}
+          build-root-directory: main
+
+      - name: Merge with SubKt (Alternate Versions)
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: -Pex ${{ env.mergeTasksAlternate }}
           build-root-directory: main
 
       - name: Push Subs
