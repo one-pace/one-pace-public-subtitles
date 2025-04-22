@@ -70,7 +70,7 @@ jobs:
       - name: Merge with SubKt (Alternate Versions)
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: -Pex ${{ env.mergeTasksAlternate }}
+          arguments: -Palt ${{ env.mergeTasksAlternate }}
           build-root-directory: main
 
       - name: Push Subs
