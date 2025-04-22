@@ -3,428 +3,466 @@ Title: Default Aegisub file
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-YCbCr Matrix: TV.601
-PlayResX: 640
-PlayResY: 480
+YCbCr Matrix: TV.709
+PlayResX: 1440
+PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Main-207-,Impress BT Pace,36,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1.69,1.69,2,80,80,12,1
-Style: Secondary-207-,Impress BT Pace,36,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1.69,1.69,2,80,80,12,1
-Style: Flashbacks-207-,Impress BT Pace,36,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,1.69,1.69,2,80,80,12,1
-Style: Thoughts-207-,Impress BT Pace,36,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,1.96,1.69,2,80,80,12,1
-Style: Captions-207-,Roboto,44,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.51,0,2,7,7,12,1
-Style: Title-207-,M+ 1c,42,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.11,0,2,7,7,170,1
-Style: Credits-207-,FOT-Greco Std B Strp,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,95,100,0.711,0,1,1.33,0,7,7,7,7,1
-Style: Warning,Impress BT Pace,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.89,0.89,2,4,4,4,1
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Notes-207-,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,3,8,180,180,27,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
-Dialogue: 0,0:01:50.01,0:02:00.01,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
-Dialogue: 50,0:02:04.22,0:02:08.85,Flashbacks-207-,,0,0,0,,You! How dare you\Nmake a fool of me...
-Dialogue: 50,0:02:08.85,0:02:13.33,Flashbacks-207-,,0,0,0,,insulting me for having\Nthe blood of a pirate!
-Dialogue: 50,0:02:13.33,0:02:15.99,Flashbacks-207-,,0,0,0,,Stop, Usopp{-san}!
-Dialogue: 50,0:02:39.72,0:02:41.58,Main-207-,,0,0,0,,Klahadore...
-Dialogue: 50,0:02:42.47,0:02:43.93,Main-207-,,0,0,0,,Are you there, Klahadore?
-Dialogue: 50,0:02:45.49,0:02:47.14,Main-207-,,0,0,0,,Klahadore...
-Dialogue: 50,0:02:50.15,0:02:52.11,Main-207-,,0,0,0,,M-Merry!
-Dialogue: 50,0:02:52.11,0:02:53.70,Main-207-,,0,0,0,,Merry!
-Dialogue: 50,0:02:54.73,0:02:56.69,Main-207-,,0,0,0,,What's wrong?! What happened?!
-Dialogue: 50,0:02:56.69,0:02:58.85,Main-207-,,0,0,0,,Open your eyes, Merry!
-Dialogue: 50,0:02:59.67,0:03:01.58,Main-207-,,0,0,0,,Please don't die!
-Dialogue: 50,0:03:01.58,0:03:02.90,Main-207-,,0,0,0,,M-Miss...
-Dialogue: 50,0:03:02.90,0:03:05.74,Main-207-,,0,0,0,,Thank goodness, you're all right...
-Dialogue: 50,0:03:05.74,0:03:07.42,Main-207-,,0,0,0,,Merry!
-Dialogue: 50,0:03:10.81,0:03:14.18,Main-207-,,0,0,0,,Merry? Wh-Who did this?!
-Dialogue: 50,0:03:14.18,0:03:18.67,Main-207-,,0,0,0,,Klahadore! He... attacked me!
-Dialogue: 50,0:03:20.51,0:03:21.88,Main-207-,,0,0,0,,He...
-Dialogue: 50,0:03:21.88,0:03:25.79,Main-207-,,0,0,0,,He was a pirate all along!
-Dialogue: 50,0:03:25.79,0:03:28.56,Main-207-,,0,0,0,,Wh-What are you talking about...?
-Dialogue: 50,0:03:28.56,0:03:35.02,Main-207-,,0,0,0,,He got close to you\Nso he could get your fortune...
-Dialogue: 50,0:03:48.29,0:03:53.08,Main-207-,,0,0,0,,Then... what Usopp{-san}\Nsaid yesterday was...
-Dialogue: 50,0:03:54.67,0:03:57.99,Main-207-,,0,0,0,,Yes. Now that I think about it,
-Dialogue: 50,0:03:57.99,0:04:02.94,Main-207-,,0,0,0,,he tried his hardest to help\Nus when he learned the truth!
-Dialogue: 50,0:04:02.94,0:04:09.10,Main-207-,,0,0,0,,Yet, not a single one of us\Neven tried to hear him out!
-Dialogue: 50,0:04:09.89,0:04:13.52,Flashbacks-207-,,0,0,0,,You gotta run, Kaya!\NThey're gonna kill you!{SV02 @13:32}
-Dialogue: 50,0:04:15.28,0:04:17.36,Flashbacks-207-,,0,0,0,,But you gotta escape for now!{SV02 @15:30}
-Dialogue: 50,0:04:19.70,0:04:25.21,Main-207-,,0,0,0,,We protected a {\i1}real{\i} villain\Nand drove off that brave lad...
-Dialogue: 50,0:04:25.21,0:04:30.64,Main-207-,,0,0,0,,who ran about with\Ndesperate resolve...
-Dialogue: 50,0:04:30.64,0:04:33.36,Main-207-,,0,0,0,,all for the villagers' sake!
-Dialogue: 50,0:04:37.24,0:04:39.30,Main-207-,,0,0,0,,S-Someone help! Merry is...!
-Dialogue: 50,0:04:39.30,0:04:41.76,Main-207-,,0,0,0,,It's no use, Miss!
-Dialogue: 50,0:04:43.67,0:04:48.26,Main-207-,,0,0,0,,The staff has been\Non leave since yesterday.
-Dialogue: 50,0:04:48.26,0:04:51.79,Main-207-,,0,0,0,,What?! Then I'll...
-Dialogue: 50,0:04:51.79,0:04:53.91,Main-207-,,0,0,0,,You mustn't get flustered!
-Dialogue: 50,0:04:54.64,0:04:57.24,Main-207-,,0,0,0,,The incident hasn't happened yet!
-Dialogue: 50,0:04:57.24,0:05:01.57,Main-207-,,0,0,0,,You must think calmly about\Nwhat you need to do now!
-Dialogue: 50,0:05:02.49,0:05:06.78,Main-207-,,0,0,0,,If Klahadore's goal is your\Nfortune and mansion,
-Dialogue: 50,0:05:06.78,0:05:09.66,Main-207-,,0,0,0,,then just let him have it all!
-Dialogue: 50,0:05:09.66,0:05:12.90,Main-207-,,0,0,0,,They're not worth\Nprotecting with your life!
-Dialogue: 50,0:05:15.00,0:05:16.75,Main-207-,,0,0,0,,You're right.
-Dialogue: 50,0:05:16.75,0:05:18.47,Main-207-,,0,0,0,,Cruel as it may be,
-Dialogue: 50,0:05:18.47,0:05:22.38,Main-207-,,0,0,0,,you are the only one who\Ncan stop Klahadore now.
-Dialogue: 50,0:05:24.38,0:05:26.10,Main-207-,,0,0,0,,Can you do it?
-Dialogue: 50,0:05:26.10,0:05:29.51,Main-207-,,0,0,0,,This isn't your responsibility, but...
-Dialogue: 50,0:05:30.40,0:05:35.39,Main-207-,,0,0,0,,Even I know this isn't\Na situation I can run from...
-Dialogue: 50,0:05:36.17,0:05:37.89,Main-207-,,0,0,0,,I understand that fully!
-Dialogue: 50,0:05:40.11,0:05:43.44,Main-207-,,0,0,0,,I'll talk things over with Klahadore!
-Dialogue: 50,0:05:46.47,0:05:50.07,Main-207-,,0,0,0,,What?! That butler Klahadore\Nwent to the shore?!
-Dialogue: 50,0:05:50.07,0:05:53.24,Main-207-,,0,0,0,,Yeah! And he had a scary\Nlook on his face!
-Dialogue: 50,0:05:54.79,0:05:56.54,Main-207-,,0,0,0,,Hey! Quit sleeping!
-Dialogue: 50,0:05:58.12,0:06:00.84,Main-207-,,0,0,0,,But I should still be in bed...
-Dialogue: 50,0:06:00.84,0:06:02.92,Main-207-,,0,0,0,,This is no time to be sleeping!
-Dialogue: 50,0:06:02.92,0:06:05.13,Main-207-,,0,0,0,,We could be in trouble!
-Dialogue: 50,0:06:05.13,0:06:06.47,Main-207-,,0,0,0,,Huh?
-Dialogue: 50,0:06:07.70,0:06:10.76,Main-207-,,0,0,0,,I think pirates really\N{\i1}are{\i0} going to attack us.
-Dialogue: 50,0:06:10.76,0:06:15.22,Main-207-,,0,0,0,,Our captain said he was lying,\Nbut I think that was a lie!
-Dialogue: 50,0:06:15.22,0:06:16.85,Main-207-,,0,0,0,,I think so too!
-Dialogue: 50,0:06:17.64,0:06:21.77,Main-207-,,0,0,0,,Me too! Something just wasn't\Nright about our captain yesterday!
-Dialogue: 50,0:06:21.77,0:06:23.53,Main-207-,,0,0,0,,{It's Kaya-san!}It's Miss Kaya!
-Dialogue: 50,0:06:23.53,0:06:24.92,Main-207-,,0,0,0,,She's alright!
-Dialogue: 50,0:06:36.87,0:06:39.97,Main-207-,,0,0,0,,It looks like something has her worried!
-Dialogue: 50,0:06:39.97,0:06:43.14,Main-207-,,0,0,0,,{Kaya-san, walking outside\Nall by herself...}Miss Kaya, walking outside\Nall by herself...
-Dialogue: 50,0:06:43.14,0:06:44.68,Main-207-,,0,0,0,,Something's up!
-Dialogue: 50,0:06:44.68,0:06:47.44,Main-207-,,0,0,0,,Something's {\i1}gotta{\i} be up!
-Dialogue: 50,0:06:57.83,0:07:00.52,Main-207-,,0,0,0,,You called, Captain Jango?
-Dialogue: 50,0:07:02.10,0:07:03.81,Main-207-,,0,0,0,,You called?
-Dialogue: 50,0:07:03.81,0:07:05.20,Main-207-,,0,0,0,,Sham...
-Dialogue: 50,0:07:05.20,0:07:06.34,Main-207-,,0,0,0,,...and Buchi!
-Dialogue: 50,0:07:06.34,0:07:10.20,Main-207-,,0,0,0,,{\q2}Together, we are the Meowban Brothers!
-Dialogue: 50,0:07:13.03,0:07:14.98,Main-207-,,0,0,0,,Buchi! Sham!
-Dialogue: 50,0:07:14.98,0:07:19.08,Main-207-,,0,0,0,,We absolutely {\i1}must{\i} get past this hill...
-Dialogue: 50,0:07:19.08,0:07:21.37,Main-207-,,0,0,0,,but an obstacle is in the way.
-Dialogue: 50,0:07:21.37,0:07:23.00,Main-207-,,0,0,0,,Get rid of it.
-Dialogue: 50,0:07:23.75,0:07:27.02,Main-207-,,0,0,0,,W-We can't possibly do that!
-Dialogue: 50,0:07:27.02,0:07:28.55,Main-207-,,0,0,0,,Right, Buchi?!
-Dialogue: 50,0:07:28.55,0:07:31.34,Main-207-,,0,0,0,,Yeah, he looks strong!
-Dialogue: 50,0:07:31.34,0:07:32.76,Main-207-,,0,0,0,,Huh?
-Dialogue: 50,0:07:32.76,0:07:36.47,Main-207-,,0,0,0,,And besides, we're just\Nsupposed to guard the ship!
-Dialogue: 50,0:07:36.47,0:07:40.31,Main-207-,,0,0,0,,Yeah! This isn't really\Nour place to fight...
-Dialogue: 50,0:07:40.31,0:07:45.23,Main-207-,,0,0,0,,W-What? They're {\i1}not{\i}\Ntheir trump card?!
-Dialogue: 50,0:07:45.23,0:07:48.03,Main-207-,,0,0,0,,Sham! Get going already!
-Dialogue: 50,0:07:48.03,0:07:49.74,Main-207-,,0,0,0,,What?! M-Me?!
-Dialogue: 50,0:07:49.74,0:07:50.71,Main-207-,,0,0,0,,Hurry!
-Dialogue: 50,0:07:50.71,0:07:53.32,Main-207-,,0,0,0,,O-Okay, okay! I'll go!
-Dialogue: 50,0:07:53.32,0:07:57.30,Main-207-,,0,0,0,,He's in tears! What's he trying to do?!
-Dialogue: 50,0:07:58.39,0:08:00.57,Main-207-,,0,0,0,,Why's he making {\i1}him{\i} fight?
-Dialogue: 50,0:08:00.57,0:08:03.20,Main-207-,,0,0,0,,Hey, you! Get ready!
-Dialogue: 50,0:08:03.20,0:08:06.39,Main-207-,,0,0,0,,I'm gonna scratch you good\Nwith these claws!
-Dialogue: 50,0:08:07.46,0:08:10.34,Main-207-,,0,0,0,,What am I supposed to do?!
-Dialogue: 50,0:08:10.34,0:08:13.13,Main-207-,,0,0,0,,Hey, you! Stop or I'll kill you!
-Dialogue: 50,0:08:15.22,0:08:17.14,Main-207-,,0,0,0,,If you can!
-Dialogue: 50,0:08:16.31,0:08:17.14,Secondary-207-,,0,0,0,,What?!
-Dialogue: 50,0:08:21.48,0:08:22.41,Thoughts-207-,,0,0,0,,What the hell?!
-Dialogue: 50,0:08:22.41,0:08:26.36,Main-207-,,0,0,0,,You! You just underestimated\Nme, didn't you?!
-Dialogue: 50,0:08:26.36,0:08:31.11,Main-207-,,0,0,0,,I'm impressed you could block that\Nafter my innocent cat act!
-Dialogue: 50,0:08:31.96,0:08:33.75,Main-207-,,0,0,0,,You seem to have a little skill,
-Dialogue: 50,0:08:33.75,0:08:37.95,Main-207-,,0,0,0,,but I wouldn't underestimate\NSham of the Meowban Brothers!
-Dialogue: 50,0:08:41.68,0:08:46.08,Main-207-,,0,0,0,,Missing something?\NDon't look at me, though...
-Dialogue: 50,0:08:46.65,0:08:47.88,Main-207-,,0,0,0,,There it is...
-Dialogue: 50,0:08:47.88,0:08:49.21,Main-207-,,0,0,0,,"Cat Burglar"...
-Dialogue: 50,0:08:49.21,0:08:51.62,Main-207-,,0,0,0,,Give those swords back!
-Dialogue: 50,0:08:51.62,0:08:56.14,Main-207-,,0,0,0,,Give them back?\NBut you already have a sword.
-Dialogue: 50,0:08:58.98,0:09:01.93,Main-207-,,0,0,0,,These are just in the way.
-Dialogue: 50,0:09:08.15,0:09:11.48,Main-207-,,0,0,0,,Alright! Now I'm much lighter!
-Dialogue: 50,0:09:11.48,0:09:15.15,Main-207-,,0,0,0,,You're supposed to take good\Ncare of other people's things!
-Dialogue: 50,0:09:19.24,0:09:20.99,Main-207-,,0,0,0,,Bastard!
-Dialogue: 50,0:09:23.12,0:09:24.50,Main-207-,,0,0,0,,What?!
-Dialogue: 50,0:09:24.50,0:09:26.79,Main-207-,,0,0,0,,What did you cut?!
-Dialogue: 50,0:09:26.79,0:09:28.79,Main-207-,,0,0,0,,I can bend like a cat!
-Dialogue: 50,0:09:31.55,0:09:34.17,Main-207-,,0,0,0,,You're up, Buchi! Get 'im!
-Dialogue: 50,0:09:34.17,0:09:36.05,Main-207-,,0,0,0,,Right, Sham!
-Dialogue: 50,0:09:36.67,0:09:39.05,Main-207-,,0,0,0,,{\fad(150,150)}Cat...
-Dialogue: 50,0:09:41.72,0:09:43.46,Main-207-,,0,0,0,,{\fad(150,150)}Astrophe!
-Dialogue: 50,0:09:45.38,0:09:47.12,Main-207-,,0,0,0,,Damn!
-Dialogue: 50,0:09:47.12,0:09:48.65,Main-207-,,0,0,0,,He got away!
-Dialogue: 50,0:09:48.65,0:09:51.51,Main-207-,,0,0,0,,Hey! Hold him down, Sham!
-Dialogue: 50,0:09:51.51,0:09:52.71,Main-207-,,0,0,0,,My bad!
-Dialogue: 50,0:09:52.71,0:09:55.86,Main-207-,,0,0,0,,The bastard's way\Nstronger than I thought!
-Dialogue: 50,0:09:56.58,0:09:58.28,Thoughts-207-,,0,0,0,,What the hell?!
-Dialogue: 50,0:09:58.28,0:10:03.03,Thoughts-207-,,0,0,0,,One hit from that would turn\Nevery bone in my body to powder!
-Dialogue: 50,0:10:03.79,0:10:05.67,Main-207-,,0,0,0,,He's not getting away this time!
-Dialogue: 50,0:10:05.67,0:10:06.96,Main-207-,,0,0,0,,That's right!
-Dialogue: 50,0:10:07.67,0:10:10.58,Main-207-,,0,0,0,,I'm not that great at\Nthe one-sword style, but...
-Dialogue: 50,0:10:12.98,0:10:14.84,Main-207-,,0,0,0,,Let's go, Buchi!
-Dialogue: 50,0:10:14.84,0:10:17.05,Main-207-,,0,0,0,,Okay! Let's do it, Sham!
-Dialogue: 50,0:10:17.05,0:10:20.97,Main-207-,,0,0,0,,{\fad(150,150)}– Pussy Willow March!\N– Pussy Willow March!
-Dialogue: 50,0:10:30.02,0:10:32.94,Main-207-,,0,0,0,,Oh no! They got Zoro\Non the defensive!
-Dialogue: 50,0:10:36.19,0:10:37.63,Main-207-,,0,0,0,,What're you doing?!
-Dialogue: 50,0:10:37.63,0:10:41.53,Main-207-,,0,0,0,,He's not gonna get anywhere\Njust blocking those two guys' attacks!
-Dialogue: 50,0:10:41.53,0:10:43.08,Main-207-,,0,0,0,,I'm gonna help him out!
-Dialogue: 50,0:10:43.08,0:10:44.70,Main-207-,,0,0,0,,Take this!
-Dialogue: 50,0:10:44.70,0:10:45.91,Main-207-,,0,0,0,,{\fad(150,150)}Lead Star!
-Dialogue: 50,0:10:52.08,0:10:53.92,Main-207-,,0,0,0,,Gotcha!
-Dialogue: 50,0:10:59.05,0:11:02.31,Main-207-,,0,0,0,,Why're you attacking\Na guy on {\i1}our{\i} side?!
-Dialogue: 50,0:11:03.07,0:11:04.51,Main-207-,,0,0,0,,No, it's not like that!
-Dialogue: 50,0:11:04.51,0:11:08.10,Main-207-,,0,0,0,,It seemed like he let it\Nhit him on purpose...
-Dialogue: 50,0:11:08.10,0:11:10.48,Main-207-,,0,0,0,,Huh? On purpose?!
-Dialogue: 50,0:11:11.94,0:11:13.94,Main-207-,,0,0,0,,Usopp, you dumbass!
-Dialogue: 50,0:11:13.94,0:11:15.19,Main-207-,,0,0,0,,Do you {\i1}want{\i} to die?!
-Dialogue: 50,0:11:19.66,0:11:21.41,Main-207-,,0,0,0,,You don't suppose...
-Dialogue: 50,0:11:21.41,0:11:24.23,Main-207-,,0,0,0,,{\i1}we're{\i0} the ones who just got saved?
-Dialogue: 50,0:11:24.23,0:11:28.37,Main-207-,,0,0,0,,Had you hit them with that slingshot...
-Dialogue: 50,0:11:28.37,0:11:32.21,Main-207-,,0,0,0,,those two probably would've\Ncome after us instead!
-Dialogue: 50,0:11:32.21,0:11:33.56,Main-207-,,0,0,0,,He...
-Dialogue: 50,0:11:34.04,0:11:36.17,Main-207-,,0,0,0,,But this is no time for that!
-Dialogue: 50,0:11:39.26,0:11:44.05,Thoughts-207-,,0,0,0,,Damn it! If I just had another sword!
-Dialogue: 50,0:11:48.30,0:11:50.24,Main-207-,,0,0,0,,I'm gonna get his swords!
-Dialogue: 50,0:11:50.24,0:11:52.51,Main-207-,,0,0,0,,If I give 'em back to Zoro,\Nhe'll win for sure!
-Dialogue: 50,0:11:52.51,0:11:53.73,Main-207-,,0,0,0,,In that case, I'll do it!
-Dialogue: 50,0:11:54.75,0:11:58.07,Main-207-,,0,0,0,,Don't push yourself!\NYou can barely even stand!
-Dialogue: 50,0:11:59.69,0:12:00.78,Main-207-,,0,0,0,,Hey! Nami!
-Dialogue: 50,0:12:20.97,0:12:22.01,Main-207-,,0,0,0,,Nami!
-Dialogue: 50,0:12:22.01,0:12:24.58,Main-207-,,0,0,0,,What do you need swords for?
-Dialogue: 50,0:12:38.32,0:12:43.86,Main-207-,,0,0,0,,Uhh! I-I can explain!
-Dialogue: 50,0:12:47.74,0:12:51.72,Main-207-,,0,0,0,,Night is long gone now...
-Dialogue: 50,0:12:51.72,0:12:56.25,Main-207-,,0,0,0,,so it seemed odd that the plan\Nwasn't making any progress.
-Dialogue: 50,0:12:56.79,0:12:59.18,Main-207-,,0,0,0,,C-Captain Kuro!
-Dialogue: 50,0:12:59.18,0:13:00.75,Main-207-,,0,0,0,,W-We're dead!
-Dialogue: 50,0:13:07.15,0:13:08.64,Main-207-,,0,0,0,,This can't get any worse!
-Dialogue: 50,0:13:22.53,0:13:26.49,Main-207-,,0,0,0,,What the hell is all this?!
-Dialogue: 50,0:13:40.88,0:13:45.24,Main-207-,,0,0,0,,To think that these brats\Nhave held you back...
-Dialogue: 50,0:13:45.24,0:13:48.34,Main-207-,,0,0,0,,How the Black Cat\NPirates have fallen...
-Dialogue: 50,0:13:48.34,0:13:50.47,Main-207-,,0,0,0,,Right...
-Dialogue: 50,0:13:50.47,0:13:52.93,Main-207-,,0,0,0,,Jango?!
-Dialogue: 50,0:13:56.93,0:14:01.46,Main-207-,,0,0,0,,B-B-But...
-Dialogue: 50,0:14:01.46,0:14:06.77,Main-207-,,0,0,0,,you said letting that kid go\Nwouldn't cause any problems!
-Dialogue: 50,0:14:08.78,0:14:11.12,Main-207-,,0,0,0,,Yes, I did say that.
-Dialogue: 50,0:14:11.91,0:14:19.45,Main-207-,,0,0,0,,But so what? We knew he was\Ngoing to try to stand up to us.
-Dialogue: 50,0:14:19.45,0:14:22.00,Main-207-,,0,0,0,,The only thing I didn't count on...
-Dialogue: 50,0:14:22.00,0:14:25.21,Main-207-,,0,0,0,,was your guys' feebleness!
-Dialogue: 50,0:14:25.21,0:14:28.01,Main-207-,,0,0,0,,Us, f-feeble?
-Dialogue: 50,0:14:28.01,0:14:30.01,Main-207-,,0,0,0,,Who're you calling feeble?!
-Dialogue: 50,0:14:30.01,0:14:33.01,Main-207-,,0,0,0,,Watch what you say, Captain Kuro!
-Dialogue: 50,0:14:34.61,0:14:37.14,Main-207-,,0,0,0,,Yeah, you were strong before!
-Dialogue: 50,0:14:37.14,0:14:39.68,Main-207-,,0,0,0,,But that was three years ago!
-Dialogue: 50,0:14:39.68,0:14:44.96,Main-207-,,0,0,0,,It's not like we partied while you\Nlived the easy life in this village!
-Dialogue: 50,0:14:44.96,0:14:50.78,Main-207-,,0,0,0,,That's right! We've attacked lots of\Ntowns and sunk lots of pirates!
-Dialogue: 50,0:14:52.33,0:14:54.54,Main-207-,,0,0,0,,Your point being...
-Dialogue: 50,0:14:55.27,0:14:58.54,Main-207-,,0,0,0,,You've done nothing for three years!
-Dialogue: 50,0:14:58.54,0:15:02.96,Main-207-,,0,0,0,,There's no way you can beat\Nthe Meowban Brothers of today!
-Dialogue: 50,0:15:05.92,0:15:08.88,Main-207-,,0,0,0,,S-Stop! Buchi! Sham!
-Dialogue: 50,0:15:14.26,0:15:17.56,Main-207-,,0,0,0,,You're not our captain anymore!
-Dialogue: 50,0:15:17.56,0:15:20.02,Main-207-,,0,0,0,,Sorry, but we're gonna kill ya!
-Dialogue: 50,0:15:32.32,0:15:37.24,Main-207-,,0,0,0,,Wh-When did he get behind them?!\NAnd those weapons...
-Dialogue: 50,0:15:39.00,0:15:41.46,Main-207-,,0,0,0,,{\i1}Who{\i0} are you going to kill?!
-Dialogue: 50,0:15:42.52,0:15:43.30,Main-207-,,0,0,0,,He snuck...
-Dialogue: 50,0:15:43.30,0:15:44.63,Main-207-,,0,0,0,,...behind us!
-Dialogue: 50,0:15:48.44,0:15:50.63,Main-207-,,0,0,0,,Huh?! He's gone!
-Dialogue: 50,0:15:55.32,0:15:57.76,Main-207-,,0,0,0,,There it is!\NThe Pussy Foot Maneuver...
-Dialogue: 50,0:16:02.73,0:16:04.99,Main-207-,,0,0,0,,You're right.
-Dialogue: 50,0:16:09.30,0:16:12.91,Main-207-,,0,0,0,,I do feel a bit of sluggishness.
-Dialogue: 50,0:16:13.69,0:16:15.24,Thoughts-207-,,0,0,0,,He's handling them like kids,
-Dialogue: 50,0:16:15.24,0:16:18.91,Thoughts-207-,,0,0,0,,after they had the upper hand\Nagainst Zoro and his one sword!
-Dialogue: 50,0:16:19.81,0:16:24.28,Thoughts-207-,,0,0,0,,That man's "Pussy Foot Maneuver"\Nis a silent movement technique.
-Dialogue: 50,0:16:25.08,0:16:30.21,Thoughts-207-,,0,0,0,,Even a group of fifty assassins would\Nbe killed before sensing him!
-Dialogue: 50,0:16:31.22,0:16:35.34,Thoughts-207-,,0,0,0,,There's no way we\Ncan escape his plan!
-Dialogue: 50,0:16:35.99,0:16:42.36,Thoughts-207-,,0,0,0,,And I got chills after seeing that\Nhabit of his again three years after!
-Dialogue: 50,0:16:42.36,0:16:46.21,Thoughts-207-,,0,0,0,,His odd way of lifting his glasses\Nto avoid cutting his own face
-Dialogue: 50,0:16:46.21,0:16:48.47,Thoughts-207-,,0,0,0,,with those cat claws...
-Dialogue: 50,0:16:48.47,0:16:51.40,Thoughts-207-,,0,0,0,,clear proof that he hasn't\Nforgotten how to fight!
-Dialogue: 50,0:16:59.66,0:17:02.96,Main-207-,,0,0,0,,It seems I've grown\Na bit good-natured myself...
-Dialogue: 50,0:17:02.96,0:17:07.92,Main-207-,,0,0,0,,during my last\Nthree years on dry land...
-Dialogue: 50,0:17:08.77,0:17:11.05,Main-207-,,0,0,0,,I'll give you five minutes.
-Dialogue: 50,0:17:12.42,0:17:16.79,Main-207-,,0,0,0,,If you can't take care\Nof things here in five minutes...
-Dialogue: 50,0:17:18.60,0:17:21.72,Main-207-,,0,0,0,,then I'll kill every last one of you...
-Dialogue: 50,0:17:24.89,0:17:27.56,Main-207-,,0,0,0,,with my own two hands!
-Dialogue: 50,0:17:35.68,0:17:37.96,Main-207-,,0,0,0,,F-Five minutes...
-Dialogue: 50,0:17:37.96,0:17:39.99,Main-207-,,0,0,0,,Five minutes should be enough!
-Dialogue: 50,0:17:40.73,0:17:48.13,Main-207-,,0,0,0,,H-Him! If we just beat him,\Nwe can get past this hill!
-Dialogue: 50,0:17:55.42,0:17:58.51,Main-207-,,0,0,0,,We had the upper hand\Nagainst him just now!
-Dialogue: 50,0:17:58.51,0:18:00.39,Main-207-,,0,0,0,,We'll cut him up in five minutes!
-Dialogue: 50,0:18:00.39,0:18:04.61,Main-207-,,0,0,0,,We're counting on you,\NMeowban Brothers!
-Dialogue: 50,0:18:07.06,0:18:09.44,Main-207-,,0,0,0,,Zoro!
-Dialogue: 50,0:18:12.36,0:18:13.78,Main-207-,,0,0,0,,What?!
-Dialogue: 50,0:18:13.78,0:18:18.32,Main-207-,,0,0,0,,H-Hey! You're kicking\Nmy swords now?!
-Dialogue: 50,0:18:18.32,0:18:20.24,Main-207-,,0,0,0,,Where's my "thanks"?
-Dialogue: 50,0:18:21.37,0:18:23.20,Main-207-,,0,0,0,,Yeah...
-Dialogue: 50,0:18:23.20,0:18:25.45,Main-207-,,0,0,0,,Thanks!
-Dialogue: 50,0:18:27.87,0:18:30.71,Main-207-,,0,0,0,,It's no use! Three swords\Nwon't help you!
-Dialogue: 50,0:18:30.71,0:18:32.50,Main-207-,,0,0,0,,Your skill's still the same!
-Dialogue: 50,0:18:34.10,0:18:35.21,Main-207-,,0,0,0,,{\fad(150,150)}Tiger...
-Dialogue: 50,0:18:38.46,0:18:40.72,Main-207-,,0,0,0,,You don't get it, do you?
-Dialogue: 50,0:18:41.47,0:18:43.25,Main-207-,,0,0,0,,{\fad(150,150)}...Trap!
-Dialogue: 50,0:18:47.43,0:18:50.35,Main-207-,,0,0,0,,Four minutes.
-Dialogue: 50,0:18:53.04,0:18:56.65,Main-207-,,0,0,0,,Just having three swords is different...
-Dialogue: 50,0:18:56.65,0:18:59.15,Main-207-,,0,0,0,,from knowing the three-sword style!
-Dialogue: 50,0:19:04.28,0:19:06.54,Main-207-,,0,0,0,,He's strong...
-Dialogue: 50,0:19:09.96,0:19:11.79,Main-207-,,0,0,0,,One hit...
-Dialogue: 50,0:19:20.63,0:19:24.39,Main-207-,,0,0,0,,H-He beat the Meowban\NBrothers in one hit!
-Dialogue: 50,0:19:35.30,0:19:36.98,Main-207-,,0,0,0,,Don't worry!
-Dialogue: 50,0:19:38.03,0:19:44.66,Main-207-,,0,0,0,,I'll crush every last one of you\Nbefore your five minutes are up!
-Dialogue: 50,0:20:00.18,0:20:02.76,Main-207-,,0,0,0,,Two minutes.
-Dialogue: 50,0:20:08.93,0:20:12.69,Main-207-,,0,0,0,,I-I'll... Slaughter him...
-Dialogue: 50,0:20:15.83,0:20:18.23,Main-207-,,0,0,0,,C-Captain...
-Dialogue: 50,0:20:18.23,0:20:21.36,Main-207-,,0,0,0,,H-Hypnotize me...
-Dialogue: 50,0:20:22.53,0:20:25.91,Main-207-,,0,0,0,,P-Please, Captain!
-Dialogue: 50,0:20:25.91,0:20:29.62,Main-207-,,0,0,0,,He's alive. You do sloppy work.
-Dialogue: 50,0:20:32.44,0:20:35.38,Main-207-,,0,0,0,,His tough fat saved him, huh...?
-Dialogue: 50,0:20:56.84,0:20:59.15,Main-207-,,0,0,0,,Get 'im, Buchi!
-Dialogue: 50,0:21:03.61,0:21:06.82,Main-207-,,0,0,0,,More hypnosis?!
-Dialogue: 50,0:21:10.28,0:21:14.66,Main-207-,,0,0,0,,This guy means trouble! He could\Nalready crack the ground apart!
-Dialogue: 50,0:21:17.62,0:21:20.38,Main-207-,,0,0,0,,What happens when he's powered up?!
-Dialogue: 50,0:21:29.30,0:21:30.56,Main-207-,,0,0,0,,This is my chance!
-Dialogue: 50,0:21:31.01,0:21:34.48,Main-207-,,0,0,0,,I gotta wake him up while I still can!
-Dialogue: 50,0:21:34.48,0:21:37.81,Main-207-,,0,0,0,,What is that crafty girl...
-Dialogue: 50,0:21:37.81,0:21:39.77,Main-207-,,0,0,0,,up to now?
-Dialogue: 50,0:21:39.77,0:21:43.44,Main-207-,,0,0,0,,Everyone's seriously hurt,\Nand he's just sleeping!
-Dialogue: 50,0:21:44.79,0:21:46.24,Main-207-,,0,0,0,,Die!
-Dialogue: 50,0:21:52.66,0:21:54.20,Main-207-,,0,0,0,,Get up!
-Dialogue: 50,0:21:54.20,0:21:56.08,Main-207-,,0,0,0,,Nami! Look out!
-Dialogue: 50,0:22:00.13,0:22:02.00,Main-207-,,0,0,0,,Split in two!
-Dialogue: 50,0:22:02.88,0:22:04.67,Main-207-,,0,0,0,,Dodge it!
-Dialogue: 50,0:22:06.30,0:22:08.64,Main-207-,,0,0,0,,Wh-What the?!
-Dialogue: 50,0:22:09.26,0:22:13.52,Thoughts-207-,,0,0,0,,A chakram! It wasn't\Njust a hypnosis tool?!
-Dialogue: 50,0:22:14.52,0:22:19.56,Main-207-,,0,0,0,,Nami! How dare you\Nstomp on my face!
-Dialogue: 50,0:22:21.31,0:22:24.07,Main-207-,,0,0,0,,H-He's alive?!
-Dialogue: 50,0:22:24.07,0:22:29.61,Main-207-,,0,0,0,,Can't tell if he has\Ngood or bad timing...
-Dialogue: 50,0:22:31.83,0:22:33.37,Main-207-,,0,0,0,,L-Luffy...
-Dialogue: 50,0:22:38.59,0:22:40.33,Main-207-,,0,0,0,,Luffy!
-Dialogue: 50,0:22:40.33,0:22:42.78,Main-207-,,0,0,0,,Oww...
-Dialogue: 50,0:22:43.30,0:22:46.05,Main-207-,,0,0,0,,Oww!
-Dialogue: 50,0:22:46.05,0:22:48.70,Main-207-,,0,0,0,,H-He's alive again!
-Dialogue: 50,0:22:48.70,0:22:50.77,Main-207-,,0,0,0,,This is bad!
-Dialogue: 50,0:22:50.77,0:22:53.35,Main-207-,,0,0,0,,Five minutes is impossible now!
-Dialogue: 50,0:22:54.01,0:22:57.32,Main-207-,,0,0,0,,Nami! That hurts, you jerk!
-Dialogue: 50,0:22:57.32,0:22:59.44,Main-207-,,0,0,0,,That wasn't me!
-Dialogue: 50,0:22:59.44,0:23:01.68,Main-207-,,0,0,0,,It wasn't me...
-Dialogue: 50,0:23:04.46,0:23:08.26,Main-207-,,0,0,0,,N-Nami! Did you hurt your shoulder?
-Dialogue: 50,0:23:08.26,0:23:11.70,Main-207-,,0,0,0,,I-It's nothing. I'm fine...
-Dialogue: 50,0:23:11.70,0:23:15.16,Main-207-,,0,0,0,,I've done everything I can for now...
-Dialogue: 50,0:23:15.16,0:23:17.37,Main-207-,,0,0,0,,so I leave the rest to you...
-Dialogue: 50,0:23:18.30,0:23:21.88,Main-207-,,0,0,0,,We absolutely can't\Nafford to lose this fight...
-Dialogue: 50,0:23:21.88,0:23:23.17,Main-207-,,0,0,0,,Yeah!
-Dialogue: 50,0:23:24.59,0:23:28.63,Main-207-,,0,0,0,,Try hard! For my treasure!
-Dialogue: 50,0:23:28.63,0:23:31.80,Main-207-,,0,0,0,,Okay! That sounds like you, alright!
-Dialogue: 50,0:23:32.39,0:23:34.76,Main-207-,,0,0,0,,One minute.
-Dialogue: 50,0:23:37.14,0:23:39.19,Main-207-,,0,0,0,,You can't be serious!
-Dialogue: 50,0:23:39.19,0:23:41.31,Main-207-,,0,0,0,,Not even Captain Jango and Buchi{-san}...
-Dialogue: 50,0:23:41.31,0:23:45.11,Main-207-,,0,0,0,,...can finish them in one minute!
-Dialogue: 50,0:24:00.08,0:24:03.29,Main-207-,,0,0,0,,Buchi! There's no time to think!
-Dialogue: 50,0:24:03.29,0:24:06.25,Main-207-,,0,0,0,,Kill that bellyband bastard!
-Dialogue: 50,0:24:06.25,0:24:10.47,Main-207-,,0,0,0,,And I'll handle that weird kid...
-Dialogue: 50,0:24:16.35,0:24:19.60,Main-207-,,0,0,0,,I'll kill Straw Hat!
-Dialogue: 50,0:24:24.77,0:24:28.45,Main-207-,,0,0,0,,It's about time for\Neveryone to die now.
-Dialogue: 50,0:24:41.58,0:24:45.13,Main-207-,,0,0,0,,Huh? That bad butler is here too!
-Dialogue: 50,0:24:57.68,0:24:59.64,Main-207-,,0,0,0,,Don't approach me...
-Dialogue: 50,0:25:02.77,0:25:05.15,Main-207-,,0,0,0,,from behind!
-Dialogue: 50,0:25:06.06,0:25:07.98,Main-207-,,0,0,0,,Kaya!
-Dialogue: 50,0:25:24.81,0:25:27.11,Main-207-,,0,0,0,,Usopp{-san}! Are you okay?!
-Dialogue: 50,0:25:27.11,0:25:30.03,Main-207-,,0,0,0,,K-Kaya... What are you doing here?!
-Dialogue: 50,0:25:30.03,0:25:32.60,Main-207-,,0,0,0,,I'm so sorry, Usopp{-san}...
-Dialogue: 50,0:25:32.60,0:25:38.09,Main-207-,,0,0,0,,I know you may not accept my\Napology, but I just couldn't believe it...
-Dialogue: 50,0:25:38.09,0:25:41.19,Main-207-,,0,0,0,,K-Klahadore, a pirate...
-Dialogue: 50,0:25:41.19,0:25:42.94,Main-207-,,0,0,0,,Never mind that!
-Dialogue: 50,0:25:42.94,0:25:46.45,Main-207-,,0,0,0,,Why are you here?!\NI told you to run away!
-Dialogue: 50,0:25:46.45,0:25:48.71,Main-207-,,0,0,0,,Your life is in danger!
-Dialogue: 50,0:25:48.71,0:25:52.53,Main-207-,,0,0,0,,But you're fighting!
-Dialogue: 50,0:25:53.99,0:25:57.89,Main-207-,,0,0,0,,Even after I treated you so horribly\Nand you've been hurt so much...
-Dialogue: 50,0:25:57.89,0:26:01.79,Main-207-,,0,0,0,,you're still fighting for me! So I...
-Dialogue: 50,0:26:01.79,0:26:03.95,Main-207-,,0,0,0,,Miss Kaya...
-Dialogue: 50,0:26:04.56,0:26:06.96,Main-207-,,0,0,0,,Why are you here?
-Dialogue: 50,0:26:09.47,0:26:12.38,Main-207-,,0,0,0,,S-Stop this...
-Dialogue: 50,0:26:14.63,0:26:19.09,Main-207-,,0,0,0,,Stop this, Klahadore!
-Dialogue: 50,0:26:25.24,0:26:28.39,Main-207-,,0,0,0,,Merry told me everything.
-Dialogue: 50,0:26:31.15,0:26:33.57,Main-207-,,0,0,0,,Isn't that the girl from the mansion?
-Dialogue: 50,0:26:33.57,0:26:37.02,Main-207-,,0,0,0,,Meaning she's the plan's final target?!
-Dialogue: 50,0:26:37.02,0:26:39.59,Main-207-,,0,0,0,,Then there's no need to\Ngo to the village now?
-Dialogue: 50,0:26:39.59,0:26:41.91,Main-207-,,0,0,0,,We just need to kill her, right?!
-Dialogue: 50,0:26:44.86,0:26:50.21,Main-207-,,0,0,0,,Klahadore, please! If you want\Nmy fortune, you can have it all!
-Dialogue: 50,0:26:50.21,0:26:53.39,Main-207-,,0,0,0,,Just please leave\Nthis village! Right now!
-Dialogue: 50,0:26:53.39,0:26:57.84,Main-207-,,0,0,0,,I will gladly accept it, but...
-Dialogue: 50,0:26:57.84,0:27:02.97,Main-207-,,0,0,0,,there's one other thing\NI want, you see...
-Dialogue: 50,0:27:04.97,0:27:07.41,Main-207-,,0,0,0,,What I want...
-Dialogue: 50,0:27:08.94,0:27:11.40,Main-207-,,0,0,0,,is peace of mind.
-Dialogue: 50,0:27:11.40,0:27:13.65,Main-207-,,0,0,0,,Peace...?
-Dialogue: 50,0:27:14.33,0:27:18.11,Main-207-,,0,0,0,,Yes. I want simple peace.
-Dialogue: 50,0:27:19.03,0:27:23.24,Main-207-,,0,0,0,,I find the villagers' trust that I've\Nfostered these past three years
-Dialogue: 50,0:27:23.24,0:27:28.58,Main-207-,,0,0,0,,to be nice and comfortable now.
-Dialogue: 50,0:27:28.58,0:27:34.83,Main-207-,,0,0,0,,So I want to have that\Npeace of mind forever...
-Dialogue: 50,0:27:42.14,0:27:44.50,Main-207-,,0,0,0,,And I...
-Dialogue: 50,0:27:44.50,0:27:50.39,Main-207-,,0,0,0,,And I {\i1}will{\i} have that peace!\N{\i1}And{\i} your fortune...
-Dialogue: 50,0:27:50.39,0:27:53.40,Main-207-,,0,0,0,,In short, pirates {\i1}will{\i}\Ncome to the village!
-Dialogue: 50,0:27:56.32,0:27:57.44,Main-207-,,0,0,0,,And...
-Dialogue: 50,0:27:57.44,0:28:01.15,Main-207-,,0,0,0,,you will leave your will and die!
-Dialogue: 50,0:28:01.15,0:28:04.95,Main-207-,,0,0,0,,These two things are absolute.
-Dialogue: 50,0:28:04.95,0:28:07.45,Main-207-,,0,0,0,,N-No...
-Dialogue: 50,0:28:08.79,0:28:10.66,Main-207-,,0,0,0,,Y-You're not...
-Dialogue: 50,0:28:11.28,0:28:11.92,Main-207-,,0,0,0,,Run!
-Dialogue: 50,0:28:11.92,0:28:16.54,Main-207-,,0,0,0,,Run away, Kaya! There's no use\Ntalking to him! Run away!
-Dialogue: 50,0:28:16.54,0:28:19.51,Main-207-,,0,0,0,,Y-You're not Klahadore...
-Dialogue: 50,0:28:19.51,0:28:22.10,Main-207-,,0,0,0,,You're not Klahadore!
-Dialogue: 50,0:28:23.01,0:28:24.34,Main-207-,,0,0,0,,Kaya...
-Dialogue: 50,0:28:24.34,0:28:27.56,Main-207-,,0,0,0,,Leave this village! Leave this minute!
-Dialogue: 50,0:28:27.56,0:28:33.60,Main-207-,,0,0,0,,I see. You've certainly grown\Na lot these past three years...
-Dialogue: 50,0:28:34.48,0:28:36.38,Main-207-,,0,0,0,,Miss Kaya.
-Dialogue: 50,0:28:37.61,0:28:42.99,Main-207-,,0,0,0,,Do you remember? So much\Nhas happened in three years...
-Dialogue: 50,0:28:44.11,0:28:48.33,Main-207-,,0,0,0,,We spent so much time together...
-Dialogue: 50,0:28:48.33,0:28:53.05,Main-207-,,0,0,0,,even before your parents passed\Naway and you became bedridden...
-Dialogue: 50,0:28:53.05,0:28:54.79,Main-207-,,0,0,0,,So much time...
-Dialogue: 50,0:28:58.33,0:29:00.07,Main-207-,,0,0,0,,So many memories...
-Dialogue: 50,0:29:00.07,0:29:04.55,Main-207-,,0,0,0,,Together we suffered,\Ntogether we rejoiced...
-Dialogue: 50,0:29:04.55,0:29:07.51,Main-207-,,0,0,0,,K-Klahadore...
-Dialogue: 50,0:29:08.41,0:29:10.56,Main-207-,,0,0,0,,I would visit the city with you...
-Dialogue: 50,0:29:11.21,0:29:14.06,Main-207-,,0,0,0,,and whenever you had a fever,\NI constantly looked after you...
-Dialogue: 50,0:29:14.91,0:29:19.07,Main-207-,,0,0,0,,You listened to my\Nstories so happily...
-Dialogue: 50,0:29:21.32,0:29:24.24,Main-207-,,0,0,0,,I devoted myself to you...
-Dialogue: 50,0:29:25.17,0:29:27.23,Main-207-,,0,0,0,,For so long...
-Dialogue: 50,0:29:27.23,0:29:29.45,Main-207-,,0,0,0,,Yes, for so long...
-Dialogue: 50,0:29:29.45,0:29:31.93,Main-207-,,0,0,0,,I endured it...
-Dialogue: 50,0:29:33.41,0:29:40.63,Main-207-,,0,0,0,,Yes, it was all so that\NI could kill you today!
-Dialogue: 50,0:29:47.40,0:29:51.43,Main-207-,,0,0,0,,I, a man once known as Captain Kuro,
-Dialogue: 50,0:29:51.43,0:29:55.47,Main-207-,,0,0,0,,had to smile humbly\Nfor some snot-nosed girl!
-Dialogue: 50,0:29:56.64,0:30:00.90,Main-207-,,0,0,0,,I went against my nature\Nand sucked up to you...!
-Dialogue: 50,0:30:05.62,0:30:07.28,Main-207-,,0,0,0,,Damn you...
-Dialogue: 50,0:30:07.28,0:30:11.24,Main-207-,,0,0,0,,Do you understand these daily insults?
-Dialogue: 50,0:30:12.02,0:30:16.96,Main-207-,,0,0,0,,Do you understand this man once\Nknown as Captain Kuro?!
-Dialogue: 50,0:30:24.30,0:30:28.13,Main-207-,,0,0,0,,Kuro!
-Dialogue: 50,0:30:32.35,0:30:34.77,Main-207-,,0,0,0,,Come to think of it...
-Dialogue: 50,0:30:37.07,0:30:40.44,Main-207-,,0,0,0,,I still owe you for hitting me.
-Dialogue: 50,0:30:40.92,0:30:42.65,Main-207-,,0,0,0,,Usopp{-san}!
-Dialogue: 50,0:30:42.65,0:30:47.40,Main-207-,,0,0,0,,You hit me with all your\Nmight, as I recall...
-Dialogue: 50,0:31:10.53,0:31:15.38,Main-207-,,0,0,0,,If you hate getting hit that much,\NI got a hundred more punches for you!
-Dialogue: 0,0:01:50.84,0:01:55.09,Title-207-,,0,0,0,,{\fad(1200,550)}The Silent Man
-Dialogue: 0,0:07:04.45,0:07:10.15,Captions-207-,,0,0,0,,{\fad(850,450)\fnRoboto\fs30\pos(529,290)}Sham\N{\fs25}Ship Guard
-Dialogue: 0,0:07:04.45,0:07:10.15,Captions-207-,,0,0,0,,{\fad(850,450)\fnRoboto\fs30\pos(99,290)}Buchi\N{\fs25}Ship Guard
-Dialogue: 0,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Video Editing
-Dialogue: 1,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Video Editing
-Dialogue: 0,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Feeso
-Dialogue: 1,0:00:01.73,0:00:03.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}Feeso
-Dialogue: 0,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Timing
-Dialogue: 1,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Timing
-Dialogue: 0,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Lance
-Dialogue: 1,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}Lance
-Dialogue: 0,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,106.667)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Typesetting
-Dialogue: 1,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,106.667)\fad(600,200)\4a&HFF&}Typesetting
-Dialogue: 0,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,125.778)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}
-Dialogue: 1,0:00:03.73,0:00:05.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,125.778)\fad(600,200)\fscx115\fscy120\4a&HFF&}
-Dialogue: 0,0:00:05.73,0:00:09.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3800,3845,\1a&HFF&)}Quality Control
-Dialogue: 1,0:00:05.73,0:00:09.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Quality Control
-Dialogue: 0,0:00:05.73,0:00:09.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3800,3845,\1a&HFF&)}Galaxy 9000\NGrug\NMr. Luffy\NPepperjack\NZenef
-Dialogue: 1,0:00:05.73,0:00:09.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}Galaxy 9000\NGrug\NMr. Luffy\NPepperjack\NZenef
-Dialogue: 0,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Soundtracking
-Dialogue: 1,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Soundtracking
-Dialogue: 0,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Halee
-Dialogue: 1,0:00:09.73,0:00:11.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}Halee
-Dialogue: 0,0:00:11.73,0:00:13.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Graphics
-Dialogue: 1,0:00:11.73,0:00:13.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Graphics
-Dialogue: 0,0:00:11.73,0:00:13.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Datenshi
-Dialogue: 1,0:00:11.73,0:00:13.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}Datenshi
-Dialogue: 0,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Karaoke
-Dialogue: 1,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Karaoke
-Dialogue: 0,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}KaitouYahiko
-Dialogue: 1,0:00:13.73,0:00:15.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}KaitouYahiko
-Dialogue: 0,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Subtitle Editing
-Dialogue: 1,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Subtitle Editing
-Dialogue: 0,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}
-Dialogue: 1,0:00:15.73,0:00:17.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}
-Dialogue: 0,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Translation
-Dialogue: 1,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Translation
-Dialogue: 0,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Funimation
-Dialogue: 1,0:00:17.73,0:00:19.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}Funimation
-Dialogue: 0,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\blur0.267\pos(26.667,17.778)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2800,2845,\1a&HFF&)}Raws
-Dialogue: 1,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(26.667,17.778)\fad(600,200)\4a&HFF&}Raws
-Dialogue: 0,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2800,2845,\1a&HFF&)}df68
-Dialogue: 1,0:00:19.73,0:00:22.73,Credits-207-,,0,0,0,,{\bord0\blur0.267\pos(40,36.889)\fad(600,200)\fscx115\fscy120\4a&HFF&}df68
+Dialogue: 0,0:01:50.01,0:02:00.00,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 50,0:02:03.65,0:02:05.02,Flashbacks-207-,,0,0,0,,You!
+Dialogue: 50,0:02:05.02,0:02:08.40,Flashbacks-207-,,0,0,0,,{How dare you make a fool of me... - Funi}You made a fool of me...{WF}
+Dialogue: 50,0:02:08.98,0:02:13.07,Flashbacks-207-,,0,0,0,,{insulting me for having\Nthe blood of a pirate! - Funi}{by mocking me for my pirate blood! - Polly+WF}How dare you mock\Nmy pirate blood?!{WF}
+Dialogue: 50,0:02:13.07,0:02:15.45,Flashbacks-207-,,0,0,0,,{Stop, Usopp-san! - Funi}{Ustopp! - Polly (NOT gab)}Stop it, Usopp!{Polly}
+Dialogue: 50,0:02:36.18,0:02:37.72,Main-207-,,0,0,0,,Klahadore...
+Dialogue: 50,0:02:38.60,0:02:40.10,Main-207-,,0,0,0,,Are you there, Klahadore?
+Dialogue: 50,0:02:41.60,0:02:43.23,Main-207-,,0,0,0,,Klahadore...
+Dialogue: 50,0:02:46.23,0:02:48.19,Main-207-,,0,0,0,,M-Merry!
+Dialogue: 50,0:02:48.82,0:02:49.90,Main-207-,,0,0,0,,Merry!
+Dialogue: 50,0:02:50.69,0:02:53.03,Main-207-,,0,0,0,,What's wrong?! What happened?!
+Dialogue: 50,0:02:53.03,0:02:54.40,Main-207-,,0,0,0,,Open your eyes, Merry!{Funi}{Polly - This is what she's saying so we don't have to change it, but she says the same thing and even in the manga she can't even actually see his eyes yet, so what the hell? lol}
+Dialogue: 50,0:02:55.91,0:02:57.66,Main-207-,,0,0,0,,Please don't die!{Funi}{I don't want you to die! - Nikki}
+Dialogue: 50,0:02:57.66,0:02:59.41,Main-207-,,0,0,0,,{M-Miss... - Funi}M-Miss Kaya...{Polly}
+Dialogue: 50,0:02:59.41,0:03:01.87,Main-207-,,0,0,0,,Thank goodness you're all right...
+Dialogue: 50,0:03:02.33,0:03:03.25,Main-207-,,0,0,0,,Merry...!
+Dialogue: 50,0:03:07.29,0:03:10.50,Main-207-,,0,0,0,,Merry? Wh-Who did this?!
+Dialogue: 50,0:03:10.50,0:03:11.88,Main-207-,,0,0,0,,Klahadore!
+Dialogue: 50,0:03:11.88,0:03:14.80,Main-207-,,0,0,0,,He... attacked me!
+Dialogue: 50,0:03:16.72,0:03:21.22,Main-207-,,0,0,0,,He... He was a pirate all along!
+Dialogue: 50,0:03:21.97,0:03:24.81,Main-207-,,0,0,0,,Wh-What are you talking about...?
+Dialogue: 50,0:03:24.81,0:03:30.57,Main-207-,,0,0,0,,{\t(5650,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)}{He got close to you\Nso he could get your fortune... - Funi}He only got close to you\Nso he could steal your estate...{Polly+Nikki}
+Dialogue: 50,0:03:44.70,0:03:45.62,Main-207-,,0,0,0,,Then...
+Dialogue: 50,0:03:46.29,0:03:49.21,Main-207-,,0,0,0,,{what Usopp-san said yesterday was... - Funi}{\q2}what Usopp said yesterday was true...{Polly}
+Dialogue: 50,0:03:50.75,0:03:53.71,Main-207-,,0,0,0,,{Yes. Now that I think about it... - Funi}Yes, come to think of it...{Polly}
+Dialogue: 50,0:03:54.21,0:03:59.26,Main-207-,,0,0,0,,{he tried his hardest to help us\Nwhen he learned the truth! - Funi}When he learned the truth,\Nhe did his best to help us!{WF/Polly/Z}{changed "tried his hardest" to "did his best" to reduce redundancy with next line}
+Dialogue: 50,0:03:59.26,0:04:05.18,Main-207-,,0,0,0,,Yet, not a single one of us\Neven tried to hear him out!{Funi}{Yet, not a single one of us\Neven tried to heed his words! - Nikki+Polly}
+Dialogue: 50,0:04:06.52,0:04:08.31,Flashbacks-207-,,0,0,0,,You gotta run, Kaya!{SV02 @13:37}
+Dialogue: 50,0:04:08.31,0:04:09.60,Flashbacks-207-,,0,0,0,,They're gonna kill you!
+Dialogue: 50,0:04:11.61,0:04:13.48,Flashbacks-207-,,0,0,0,,But you gotta escape for now!{SV02 @15:34}
+Dialogue: 50,0:04:15.90,0:04:21.53,Main-207-,,0,0,0,,{We protected a [/i1]real[/i] villain\Nand drove off that brave lad... - Funi}{We defended a true villain\Nwhile driving off that brave lad... - Polly}We gave shelter to the true villain\Nwhile we spurned that brave lad!{Polly+Nikki}
+Dialogue: 50,0:04:21.53,0:04:26.37,Main-207-,,0,0,0,,{who ran about with\Ndesperate resolve... - Funi}{even while he ran himself ragged... - Polly}{even though he was\Nrunning himself ragged... - Polly}{That lad who ran himself ragged\Nfor the sake of our village... - Polly+Nikki}He ran himself ragged\Nfor the sake of the village...{Polly+Nikki+WF}
+Dialogue: 50,0:04:27.33,0:04:29.58,Main-207-,,0,0,0,,{all for the villagers' sake! - Funi}{all for the sake of the village! - Polly}{We drove him out! - Polly+Nikki}and we drove him away...!{Polly+Nikki+WF}
+Dialogue: 50,0:04:33.46,0:04:36.76,Main-207-,,0,0,0,,S-Someone help! Merry is...!
+Dialogue: 50,0:04:35.38,0:04:36.76,Secondary-207-,,0,0,0,,{Miss! - Funi}Miss Kaya!{Polly}
+Dialogue: 50,0:04:36.76,0:04:37.97,Main-207-,,0,0,0,,It's no use...
+Dialogue: 50,0:04:39.88,0:04:44.39,Main-207-,,0,0,0,,{The staff has been\Non leave since yesterday. - Funi}{Everyone in the villa has been\Non leave since yesterday. - Polly+Nikki}The rest of the staff has been\Non leave since yesterday.{Z - calling it a "villa" is a bit odd when it's just the mansion}
+Dialogue: 50,0:04:45.01,0:04:46.68,Main-207-,,0,0,0,,{What?! - Funi}No...{Z}
+Dialogue: 50,0:04:46.68,0:04:47.93,Main-207-,,0,0,0,,{Then I'l– - Funi}Then I'll...{Polly}
+Dialogue: 50,0:04:47.93,0:04:50.02,Main-207-,,0,0,0,,{You mustn't get flustered! - Funi}You must remain calm!{Polly}
+Dialogue: 50,0:04:50.73,0:04:53.36,Main-207-,,0,0,0,,{The incident hasn't happened yet! - Funi}They haven't enacted their plan yet!{Polly}
+Dialogue: 50,0:04:53.36,0:04:58.03,Main-207-,,0,0,0,,{You must think calmly about\Nwhat you need to do now! - Funi}You must think\Nthings through carefully!{Polly}
+Dialogue: 50,0:04:58.03,0:05:02.37,Main-207-,,0,0,0,,{If Klahadore's goal is your\Nfortune and mansion, - Funi}If Klahadore wants your\Nmansion and your fortune...{Polly}
+Dialogue: 50,0:05:02.37,0:05:05.24,Main-207-,,0,0,0,,{then just let him have it all! - CR}then just hand it over to him!{Z}
+Dialogue: 50,0:05:05.24,0:05:08.62,Main-207-,,0,0,0,,{They're not worth\Nprotecting with your life! - Funi}None of it is worth risking your life!{Polly+Nikki}
+Dialogue: 50,0:05:11.21,0:05:12.21,Main-207-,,0,0,0,,You're right.
+Dialogue: 50,0:05:12.58,0:05:14.00,Main-207-,,0,0,0,,Cruel as it may be,
+Dialogue: 50,0:05:14.00,0:05:17.96,Main-207-,,0,0,0,,{you are the only one who\Ncan stop Klahadore now. - Funi}you're the only one who\Ncan stop Klahadore now.{Polly}
+Dialogue: 50,0:05:19.47,0:05:21.05,Main-207-,,0,0,0,,Can you do it?{Funi}{Will you do it? - Z}
+Dialogue: 50,0:05:21.05,0:05:24.60,Main-207-,,0,0,0,,This isn't your responsibility, but...
+Dialogue: 50,0:05:25.43,0:05:30.39,Main-207-,,0,0,0,,{Even I know this isn't\Na situation I can run from... - Funi}Even I know this isn't just\Nsomething I can run away from...{Polly+Z}
+Dialogue: 50,0:05:31.27,0:05:33.02,Main-207-,,0,0,0,,I understand that fully!{Funi}{I understand that completely! - Polly}
+Dialogue: 50,0:05:34.36,0:05:37.78,Main-207-,,0,0,0,,I'll talk things over with Klahadore!
+Dialogue: 50,0:05:41.03,0:05:44.45,Main-207-,,0,0,0,,{What?! That butler Klahadore\Nwent to the shore?! - Funi}{\q2}What?! That butler went to the shore?!{Polly}
+Dialogue: 50,0:05:44.45,0:05:47.54,Main-207-,,0,0,0,,Yeah! And he had a scary\Nlook on his face!
+Dialogue: 50,0:05:49.33,0:05:50.87,Main-207-,,0,0,0,,{Hey! Quit sleeping! - Funi}Hey, wake up!{Polly}
+Dialogue: 50,0:05:52.25,0:05:54.96,Main-207-,,0,0,0,,But I should still be in bed...
+Dialogue: 50,0:05:54.96,0:05:57.34,Main-207-,,0,0,0,,This is no time to be sleeping!
+Dialogue: 50,0:05:57.34,0:05:59.30,Main-207-,,0,0,0,,We could be in trouble!
+Dialogue: 50,0:05:59.30,0:06:00.67,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:06:02.30,0:06:04.93,Main-207-,,0,0,0,,I think pirates really\Nare going to attack us.
+Dialogue: 50,0:06:05.68,0:06:09.39,Main-207-,,0,0,0,,Our captain said he was lying,\Nbut I think {\i1}that{\i0} was a lie!
+Dialogue: 50,0:06:09.89,0:06:11.02,Main-207-,,0,0,0,,I think so too!
+Dialogue: 50,0:06:12.02,0:06:15.98,Main-207-,,0,0,0,,{Me too! Something just wasn't\Nright about our captain yesterday! - Funi}{Me too! Something just wasn't\Nright about the captain yesterday! - WF}Me too! Something was kinda off\Nabout the captain yesterday!{Z}
+Dialogue: 50,0:06:15.98,0:06:17.69,Main-207-,,0,0,0,,{It's Kaya-san! - Funi}Oh, it's Miss Kaya!{gab}
+Dialogue: 50,0:06:17.69,0:06:19.19,Main-207-,,0,0,0,,She's alright!
+Dialogue: 50,0:06:29.66,0:06:32.58,Main-207-,,0,0,0,,{It looks like something has her worried! - Funi}She looks worried about something.{Polly}
+Dialogue: 50,0:06:32.58,0:06:35.58,Main-207-,,0,0,0,,{Kaya-san, walking outside\Nall by herself...}{\q2}Miss Kaya, walking outside\Nall by herself...{Z?}
+Dialogue: 50,0:06:35.58,0:06:37.13,Main-207-,,0,0,0,,Something's up!
+Dialogue: 50,0:06:37.13,0:06:39.71,Main-207-,,0,0,0,,Something's {\i1}gotta{\i} be up!
+Dialogue: 50,0:06:43.26,0:06:45.72,Main-207-,,0,0,0,,Come forth, Meowban Brothers!{Syrup 03 - 24:00}
+Dialogue: 50,0:06:49.93,0:06:52.39,Main-207-,,0,0,0,,You called, Captain Jango?
+Dialogue: 50,0:06:54.27,0:06:55.69,Main-207-,,0,0,0,,You called?
+Dialogue: 50,0:06:55.69,0:06:57.19,Main-207-,,0,0,0,,Sham...
+Dialogue: 50,0:06:57.19,0:06:58.11,Main-207-,,0,0,0,,...and Buchi!
+Dialogue: 50,0:06:58.11,0:07:02.07,Main-207-,,0,0,0,,{\q2}– Together, we are the Meowban Brothers!\N– Together, we are the Meowban Brothers!
+Dialogue: 50,0:07:05.40,0:07:06.91,Main-207-,,0,0,0,,Buchi! Sham!
+Dialogue: 50,0:07:06.91,0:07:11.41,Main-207-,,0,0,0,,{We absolutely [/i1]must[/i] get past this hill... - Funi}We need to get up\Nthis hill no matter what...{Polly/Z}
+Dialogue: 50,0:07:11.41,0:07:13.29,Main-207-,,0,0,0,,{but an obstacle is in the way. - Funi}{But as you can see,\Nsomeone's in the way. - Nikki}but someone's in the way.{Nikki/Z}
+Dialogue: 50,0:07:13.75,0:07:14.91,Main-207-,,0,0,0,,{Get rid of it. - Funi}Get rid of him.{Polly}
+Dialogue: 50,0:07:15.71,0:07:18.83,Main-207-,,0,0,0,,{W-We can't possibly do that! - Funi}Th-There's no way {\i1}we{\i0} can do that!{Polly+Nikki}
+Dialogue: 50,0:07:18.83,0:07:20.46,Main-207-,,0,0,0,,Right, Buchi?!
+Dialogue: 50,0:07:20.46,0:07:23.17,Main-207-,,0,0,0,,Yeah, he looks strong!
+Dialogue: 50,0:07:23.51,0:07:24.59,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:07:25.05,0:07:28.34,Main-207-,,0,0,0,,{And besides, we're just\Nsupposed to guard the ship! - Funi}Besides, we're just\Nsupposed to guard the ship!{Polly}
+Dialogue: 50,0:07:28.34,0:07:32.18,Main-207-,,0,0,0,,{Yeah! This isn't really\Nour place to fight... - Funi}{Yeah, that's right! We're not\Nsupposed to actually fight! - Polly}Yeah, that's right! I'm not sure\Nwhy you'd make us fight...{Z}
+Dialogue: 50,0:07:32.18,0:07:36.60,Main-207-,,0,0,0,,{W-What? They're [/i1]not[/i]\Ntheir trump card?! - Funi}H-Huh? I thought he said\Nthis was their trump card...{Polly}
+Dialogue: 50,0:07:36.60,0:07:39.06,Main-207-,,0,0,0,,Sham! Get going already!
+Dialogue: 50,0:07:39.06,0:07:40.94,Main-207-,,0,0,0,,What?! M-Me?!
+Dialogue: 50,0:07:40.94,0:07:41.94,Main-207-,,0,0,0,,{Hurry! - Funi}Now!{Polly}
+Dialogue: 50,0:07:41.94,0:07:44.40,Main-207-,,0,0,0,,{O-Okay, okay! I'll go! - Funi}A-Alright, I'll do it!{Polly}
+Dialogue: 50,0:07:44.78,0:07:46.65,Main-207-,,0,0,0,,{He's in tears! - Funi}He's crying!{Polly/WF}
+Dialogue: 50,0:07:46.65,0:07:48.41,Main-207-,,0,0,0,,{What's he trying to do?! - Funi}What's his game plan?{Polly}
+Dialogue: 50,0:07:49.66,0:07:51.66,Main-207-,,0,0,0,,{Why's he making [/i1]him[/i] fight? - Funi}Why make this poor guy fight?{Polly}
+Dialogue: 50,0:07:51.66,0:07:52.99,Main-207-,,0,0,0,,Hey, you!
+Dialogue: 50,0:07:52.99,0:07:54.16,Main-207-,,0,0,0,,Get ready!
+Dialogue: 50,0:07:54.16,0:07:57.16,Main-207-,,0,0,0,,{I'm gonna scratch you good\Nwith these claws! - Funi}I'm gonna scratch you up\Nreal good with these claws!{Polly}
+Dialogue: 50,0:07:59.46,0:08:01.46,Main-207-,,0,0,0,,{What am I supposed to do?! - Funi}What the hell are you up to?!{Polly+Nikki}
+Dialogue: 50,0:08:01.92,0:08:04.26,Main-207-,,0,0,0,,{Hey, you! Stop or I'll kill you! - Funi}Hey, you! Stop or I'll cut you in half!{Polly}
+Dialogue: 50,0:08:06.34,0:08:07.47,Main-207-,,0,0,0,,{If you can! - Funi}Good luck with that!{Polly}
+Dialogue: 50,0:08:07.47,0:08:08.47,Main-207-,,0,0,0,,What?!
+Dialogue: 50,0:08:12.60,0:08:13.43,Thoughts-207-,,0,0,0,,What the hell?!
+Dialogue: 50,0:08:13.43,0:08:14.47,Main-207-,,0,0,0,,You!
+Dialogue: 50,0:08:15.27,0:08:17.52,Main-207-,,0,0,0,,{You just underestimated\Nme, didn't you?! - Funi}{You're not taking\Nme seriously, are you?! - Polly}I got you to drop\Nyour guard, didn't I?{Z - "underestimate" will be redundant with 08:24}
+Dialogue: 50,0:08:17.52,0:08:22.27,Main-207-,,0,0,0,,{I'm impressed you could block that\Nafter my innocent cat act! - Funi}I'm impressed you could still block\Nafter my poor-little-kitty-cat routine!{Polly}
+Dialogue: 50,0:08:23.11,0:08:24.78,Main-207-,,0,0,0,,{You seem to have a little skill, - Funi}You might have a bit of skill,{Polly}
+Dialogue: 50,0:08:24.78,0:08:28.82,Main-207-,,0,0,0,,but I wouldn't underestimate\NSham of the Meowban Brothers!
+Dialogue: 50,0:08:32.99,0:08:37.20,Main-207-,,0,0,0,,{Missing something?\NDon't look at me, though... - Funi}Missing something?\NWell, don't look at me!{Polly}
+Dialogue: 50,0:08:37.91,0:08:38.91,Main-207-,,0,0,0,,There it is...
+Dialogue: 50,0:08:38.91,0:08:40.37,Main-207-,,0,0,0,,{"Cat Burglar"... - Funi}Cat Burglary...{Polly - this is a pun on 猫ばば (nekobaba), which is something like pickpocketing}
+Dialogue: 50,0:08:40.79,0:08:42.88,Main-207-,,0,0,0,,Give those swords back!{Funi}{Give me those swords back! - WF}{probably best to match the words with the response on the next line}
+Dialogue: 50,0:08:42.88,0:08:47.30,Main-207-,,0,0,0,,Give them back?\NBut you already have a sword.
+Dialogue: 50,0:08:50.34,0:08:52.47,Main-207-,,0,0,0,,These are just in the way.
+Dialogue: 50,0:08:59.27,0:09:00.56,Main-207-,,0,0,0,,{Alright! - Funi}Perfect!{Polly}
+Dialogue: 50,0:09:00.56,0:09:02.65,Main-207-,,0,0,0,,{Now I'm much lighter! - Funi}That lightened the load!{Z+Polly}
+Dialogue: 50,0:09:02.65,0:09:06.32,Main-207-,,0,0,0,,{You're supposed to take good\Ncare of other people's things! - Funi}Show a little respect\Nfor other people's stuff!{Polly}
+Dialogue: 50,0:09:10.40,0:09:12.16,Main-207-,,0,0,0,,Bastard!
+Dialogue: 50,0:09:14.28,0:09:14.95,Main-207-,,0,0,0,,What?!
+Dialogue: 50,0:09:16.16,0:09:17.95,Main-207-,,0,0,0,,{What did you cut?! - Funi}{You'll have to be quicker than that! - Polly}I wonder what you actually cut!{Z}
+Dialogue: 50,0:09:17.95,0:09:19.96,Main-207-,,0,0,0,,{I can bend like a cat! - Funi}I'm as limber as a cat!{Z+WF}
+Dialogue: 50,0:09:22.71,0:09:24.42,Main-207-,,0,0,0,,You're up, Buchi!
+Dialogue: 50,0:09:24.42,0:09:25.34,Main-207-,,0,0,0,,Get 'im!
+Dialogue: 50,0:09:25.34,0:09:27.21,Main-207-,,0,0,0,,{Right, Sham! - Funi}{I got it, Sham! - Polly}On it, Sham!{Z}
+Dialogue: 50,0:09:27.92,0:09:30.22,Main-207-,,0,0,0,,{\fad(150,150)}Cat...
+Dialogue: 50,0:09:32.89,0:09:34.72,Main-207-,,0,0,0,,{\fad(150,150)}Astrophe!
+Dialogue: 50,0:09:36.89,0:09:38.52,Main-207-,,0,0,0,,Damn!
+Dialogue: 50,0:09:38.52,0:09:39.85,Main-207-,,0,0,0,,He got away!
+Dialogue: 50,0:09:39.85,0:09:42.60,Main-207-,,0,0,0,,{Hey! Hold him down, Sham! - Funi}{Hey! Hold him still, Sham! - Polly}Hey! Hold him down better, Sham!{Polly+Nikki}
+Dialogue: 50,0:09:42.60,0:09:43.98,Main-207-,,0,0,0,,My bad!
+Dialogue: 50,0:09:43.98,0:09:47.02,Main-207-,,0,0,0,,{The bastard's way\Nstronger than I thought! - Funi}This {asshole's}meathead is way\Nstronger than I thought!{Polly/PJ}
+Dialogue: 50,0:09:47.78,0:09:49.53,Thoughts-207-,,0,0,0,,What the hell?!
+Dialogue: 50,0:09:49.53,0:09:54.20,Thoughts-207-,,0,0,0,,{One hit from that would turn\Nevery bone in my body to powder! - Funi}{One hit from that guy would turn\Nevery bone in my body to dust! - Polly}One hit from that guy would\Npulverize every bone in my body!{WF}
+Dialogue: 50,0:09:54.95,0:09:56.83,Main-207-,,0,0,0,,He's not getting away this time!
+Dialogue: 50,0:09:56.83,0:09:58.12,Main-207-,,0,0,0,,That's right!
+Dialogue: 50,0:09:58.62,0:10:01.75,Main-207-,,0,0,0,,{I'm not that great at\Nthe one-sword style, but... - Funi}One-sword style isn't really\Nmy specialty, but...{Z}
+Dialogue: 50,0:10:02.79,0:10:04.75,Main-207-,,0,0,0,,Let's go, Buchi!
+Dialogue: 50,0:10:05.17,0:10:06.96,Main-207-,,0,0,0,,{Okay! Let's do it, Sham! - Funi}Yeah! Let's do it, Sham!{Polly}
+Dialogue: 50,0:10:06.96,0:10:10.67,Main-207-,,0,0,0,,{\fad(150,150)}– Pussy Willow March!\N– Pussy Willow March!
+Dialogue: 50,0:10:18.10,0:10:20.56,Main-207-,,0,0,0,,{Oh no! They got Zoro\Non the defensive! - Funi}This is bad! They have Zoro\Non the defensive!{Polly+Z}
+Dialogue: 50,0:10:23.81,0:10:25.31,Main-207-,,0,0,0,,{What're you doing?! - Funi}What are you doing?!{Polly}
+Dialogue: 50,0:10:25.31,0:10:29.07,Main-207-,,0,0,0,,{He's not gonna get anywhere\Njust blocking those two guys' attacks! - Funi}He's not gonna get anywhere\Njust blocking their attacks!{Polly}
+Dialogue: 50,0:10:29.07,0:10:30.65,Main-207-,,0,0,0,,I'm gonna help him out!
+Dialogue: 50,0:10:30.65,0:10:32.28,Main-207-,,0,0,0,,Take this!
+Dialogue: 50,0:10:32.28,0:10:33.49,Main-207-,,0,0,0,,{\fad(150,150)}Lead Star!
+Dialogue: 50,0:10:39.70,0:10:40.87,Main-207-,,0,0,0,,Gotcha!
+Dialogue: 50,0:10:46.88,0:10:49.88,Main-207-,,0,0,0,,{Why're you attacking\Na guy on [/i1]our[/i] side?! - Funi}Hey, why are you hitting {\i1}him{\i0}?!\NHe's on {\i1}our{\i0} side!{WF/Polly/Z}
+Dialogue: 50,0:10:50.63,0:10:52.09,Main-207-,,0,0,0,,{No, it's not like that! - Funi}{No, it's not that! - Polly}No, that's not it!{WF}
+Dialogue: 50,0:10:52.09,0:10:55.63,Main-207-,,0,0,0,,{It seemed like he let it\Nhit him on purpose... - Funi}{It seemed like he got hit on purpose... - Polly}It's almost like he got\Nhit on purpose...{WF}
+Dialogue: 50,0:10:55.63,0:10:57.51,Main-207-,,0,0,0,,Huh? On purpose?!
+Dialogue: 50,0:10:59.56,0:11:01.56,Main-207-,,0,0,0,,Usopp, you dumbass!
+Dialogue: 50,0:11:01.56,0:11:02.77,Main-207-,,0,0,0,,Do you {\i1}want{\i} to die?!
+Dialogue: 50,0:11:07.27,0:11:08.98,Main-207-,,0,0,0,,You don't suppose...
+Dialogue: 50,0:11:09.48,0:11:11.98,Main-207-,,0,0,0,,we're the ones who just got saved?
+Dialogue: 50,0:11:11.98,0:11:15.99,Main-207-,,0,0,0,,{Had you hit them with that slingshot... - Funi}If you had hit them with\Nyour slingshot...{Polly/Z}
+Dialogue: 50,0:11:15.99,0:11:19.12,Main-207-,,0,0,0,,{those two probably would've\Ncome after us instead! - Funi}they probably would've\Ncome after us instead!{Polly}
+Dialogue: 50,0:11:19.78,0:11:20.99,Main-207-,,0,0,0,,{He... - Funi}{Zoro... - Polly}So he...{Z}
+Dialogue: 50,0:11:21.54,0:11:23.75,Main-207-,,0,0,0,,{But this is no time for that! - Funi}This is no time for that!{Polly}
+Dialogue: 50,0:11:27.00,0:11:28.29,Thoughts-207-,,0,0,0,,Damn it!
+Dialogue: 50,0:11:28.29,0:11:31.63,Thoughts-207-,,0,0,0,,{If I just had another sword! - Funi}If I just had one more sword...!{Nikki+Polly}
+Dialogue: 50,0:11:33.88,0:11:35.67,Main-207-,,0,0,0,,I'm gonna get his swords!
+Dialogue: 50,0:11:35.67,0:11:37.76,Main-207-,,0,0,0,,{If I give 'em back to Zoro,\Nhe'll win for sure! - Funi}If I get them back to him,\Nhe'll win for sure!{Polly}
+Dialogue: 50,0:11:37.76,0:11:39.22,Main-207-,,0,0,0,,In that case, I'll do it!
+Dialogue: 50,0:11:40.10,0:11:41.60,Main-207-,,0,0,0,,Don't push yourself!
+Dialogue: 50,0:11:41.60,0:11:43.43,Main-207-,,0,0,0,,You can barely even stand!
+Dialogue: 50,0:11:45.18,0:11:46.14,Main-207-,,0,0,0,,{Hey! Nami! - Funi}Wait! Nami!{Polly}
+Dialogue: 50,0:12:06.33,0:12:07.37,Main-207-,,0,0,0,,Nami!
+Dialogue: 50,0:12:07.71,0:12:10.00,Main-207-,,0,0,0,,What do you need swords for?
+Dialogue: 50,0:12:24.97,0:12:29.23,Main-207-,,0,0,0,,{Uhh! I-I can explain! - Funi}Er... I-I can explain!{Polly}
+Dialogue: 50,0:12:33.15,0:12:37.24,Main-207-,,0,0,0,,{Night is long gone now... - Funi}{Night has long since passed... - Polly}Dawn has long since passed...{Polly+Nikki+PJ}
+Dialogue: 50,0:12:37.24,0:12:41.62,Main-207-,,0,0,0,,so it seemed odd that the plan\Nwasn't making any progress.
+Dialogue: 50,0:12:42.16,0:12:44.49,Main-207-,,0,0,0,,C-Captain Kuro!
+Dialogue: 50,0:12:44.49,0:12:46.12,Main-207-,,0,0,0,,W-We're dead!
+Dialogue: 50,0:12:52.58,0:12:54.04,Main-207-,,0,0,0,,{This can't get any worse! - Funi}Things can't get any worse!{Polly}
+Dialogue: 50,0:13:07.89,0:13:11.52,Main-207-,,0,0,0,,{What the hell is all this?! - Funi}What in the hell is going on here?!{WF}
+Dialogue: 50,0:13:14.23,0:13:18.07,Main-207-,,0,0,0,,{To think that these brats\Nhave held you back... - Funi}{To think that mere children have\Ngiven you a run for your money... - Z+Polly}To think that mere children\Nhave kept you from progressing...{Z+Polly}
+Dialogue: 50,0:13:18.69,0:13:21.66,Main-207-,,0,0,0,,{\q2}How the Black Cat Pirates have fallen...
+Dialogue: 50,0:13:22.49,0:13:23.74,Main-207-,,0,0,0,,{Right... - Funi}Don't you think...{Polly}
+Dialogue: 50,0:13:24.62,0:13:26.20,Main-207-,,0,0,0,,Jango?!
+Dialogue: 50,0:13:30.50,0:13:33.63,Main-207-,,0,0,0,,B-B-But...
+Dialogue: 50,0:13:34.71,0:13:39.21,Main-207-,,0,0,0,,you said letting that kid go\Nwouldn't cause any problems!
+Dialogue: 50,0:13:42.30,0:13:44.14,Main-207-,,0,0,0,,Yes, I did say that.
+Dialogue: 50,0:13:44.14,0:13:45.22,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:13:45.60,0:13:47.81,Main-207-,,0,0,0,,{But so what? - Funi}And what of it?{Polly}
+Dialogue: 50,0:13:47.81,0:13:52.73,Main-207-,,0,0,0,,{We knew he was going\Nto try to stand up to us. - Funi}He was obviously going\Nto try and make a stand.{Polly}
+Dialogue: 50,0:13:52.73,0:13:55.48,Main-207-,,0,0,0,,{The only thing I didn't count on... - Funi}The one thing I failed to account for...{Polly}
+Dialogue: 50,0:13:55.48,0:13:58.61,Main-207-,,0,0,0,,{was your guys' feebleness! - Funi}was how pathetic all of you are!{Polly - this word (pathetic) gets used in the next two lines as well}
+Dialogue: 50,0:13:58.61,0:14:01.49,Main-207-,,0,0,0,,{Us, f-feeble? - Funi}We're... pathetic?{Polly - for some reason, sham says this in the manga instead of jango...}
+Dialogue: 50,0:14:01.49,0:14:03.74,Main-207-,,0,0,0,,{Wh-Who're you calling feeble?! - Funi}Wh-Who are you calling pathetic?!{Polly}
+Dialogue: 50,0:14:03.74,0:14:05.41,Main-207-,,0,0,0,,{Watch what you say, Captain Kuro! - Funi}Watch your tongue, Captain Kuro!{Polly}
+Dialogue: 50,0:14:08.20,0:14:10.45,Main-207-,,0,0,0,,{Yeah, you were strong before! - Funi}Yeah, you used to be fearsome,{Polly}
+Dialogue: 50,0:14:10.95,0:14:13.21,Main-207-,,0,0,0,,but that was three years ago!
+Dialogue: 50,0:14:13.21,0:14:18.13,Main-207-,,0,0,0,,{It's not like we partied while you\Nlived the easy life in this village! - Funi}It's not like we were taking catnaps\Nwhile you lazed around the village!{Polly+Nikki}
+Dialogue: 50,0:14:18.13,0:14:19.59,Main-207-,,0,0,0,,That's right!
+Dialogue: 50,0:14:19.59,0:14:24.05,Main-207-,,0,0,0,,{We've attacked lots of towns\Nand sunk lots of pirates! - Funi}{We raided lots of towns\Nand sunk tons of pirates! - Polly}{\q2}We raided tons of towns and sent\Nloads of pirates to the bottom of the sea!{Polly+WF}
+Dialogue: 50,0:14:26.01,0:14:27.81,Main-207-,,0,0,0,,Your point being...?
+Dialogue: 50,0:14:28.72,0:14:31.73,Main-207-,,0,0,0,,You've done nothing for three years!
+Dialogue: 50,0:14:31.73,0:14:35.10,Main-207-,,0,0,0,,{There's no way you can beat\Nthe Meowban Brothers of today! - Funi}There's no way you can beat\Nthe Meowban Brothers anymore!{Polly}
+Dialogue: 50,0:14:39.19,0:14:42.15,Main-207-,,0,0,0,,{S-Stop! Buchi! Sham! - Funi}Buchi, Sham, stop!{Polly}
+Dialogue: 50,0:14:47.99,0:14:50.49,Main-207-,,0,0,0,,You're not our captain anymore!
+Dialogue: 50,0:14:50.49,0:14:53.41,Main-207-,,0,0,0,,{Sorry, but we're gonna kill ya! - Funi}Sorry, but it's time to die!{Z}
+Dialogue: 50,0:15:05.93,0:15:08.35,Main-207-,,0,0,0,,Wh-When did he get behind them?!
+Dialogue: 50,0:15:08.93,0:15:10.56,Main-207-,,0,0,0,,And those weapons...
+Dialogue: 50,0:15:12.47,0:15:14.73,Main-207-,,0,0,0,,{[/i1]Who[/i0] are you going to kill?! - Funi}{You two need to pick your battles. - Polly}What's that about dying?{Z}
+Dialogue: 50,0:15:15.98,0:15:17.94,Main-207-,,0,0,0,,– He snuck...\N– ...behind us!
+Dialogue: 50,0:15:22.03,0:15:24.07,Main-207-,,0,0,0,,Huh?! He's gone!
+Dialogue: 50,0:15:28.78,0:15:31.12,Main-207-,,0,0,0,,There it is! The Pussyfoot Maneuver...
+Dialogue: 50,0:15:35.96,0:15:38.04,Main-207-,,0,0,0,,You're right.
+Dialogue: 50,0:15:42.75,0:15:46.22,Main-207-,,0,0,0,,{I do feel a bit of sluggishness. - Funi}I suppose I have gotten a bit slower.{Polly}
+Dialogue: 50,0:15:47.03,0:15:52.22,Thoughts-207-,,0,0,0,,{He's handling them like kids, after they had the upper hand against Zoro and his one sword! - Funi}{Zoro struggled with them, but this guy dances around\Nthem like they're kittens! - Polly}{\q2}Zoro struggled with one sword, but this\Nguy handles them like they're kittens!{Polly/Z}
+Dialogue: 50,0:15:53.47,0:15:57.81,Thoughts-207-,,0,0,0,,{That man's "Pussyfoot Maneuver"\Nis a silent movement technique. - Funi}{Kuro's "Pussyfoot Maneuver"\Nis a silent movement technique. - Polly}The Pussyfoot Maneuver\Nallows him to move about silently.{Z+Polly}
+Dialogue: 50,0:15:58.56,0:16:03.44,Thoughts-207-,,0,0,0,,{Even a group of fifty assassins would\Nbe killed before sensing him! - Funi}{He could wipe out fifty assassins\Nbefore they even caught a glance! - Polly}He could wipe out fifty assassins\Nbefore they even knew he was there!{Polly+Z}
+Dialogue: 50,0:16:04.65,0:16:08.66,Thoughts-207-,,0,0,0,,{There's no way we\Ncan escape his plan! - Funi}We have no choice\Nbut to carry out his plan!{Polly}
+Dialogue: 50,0:16:09.53,0:16:15.37,Thoughts-207-,,0,0,0,,{And I got chills after seeing that\Nhabit of his again three years after! - Funi}{I tensed up when I saw that habit\Nof his after these three years. - Polly}I got chills when I saw\Nthat habit of his three years later.{Z/Polly}
+Dialogue: 50,0:16:16.00,0:16:21.96,Thoughts-207-,,0,0,0,,{His odd way of lifting his glasses\Nto avoid cutting his own face - Funi}{\q2}The strange way he lifts his glasses to avoid\Ncutting his own face with those cat claws...{Polly/Z}
+Dialogue: 50,0:16:21.96,0:16:24.76,Thoughts-207-,,0,0,0,,{clear proof that he hasn't\Nforgotten how to fight! - Funi}is clear proof that he still\Nknows how to fight!{Polly+Nikki}
+Dialogue: 50,0:16:33.06,0:16:36.23,Main-207-,,0,0,0,,{It seems I've grown\Na bit good-natured myself... - Funi}I suppose I've gotten\Na bit soft myself...{Polly}
+Dialogue: 50,0:16:36.73,0:16:40.31,Main-207-,,0,0,0,,{during my last\Nthree years on dry land... - Funi}Three years on dry land\Nwill do that to you...{Polly}
+Dialogue: 50,0:16:42.23,0:16:44.32,Main-207-,,0,0,0,,{I'll give you five minutes. - Funi}So, I'll give you five minutes.{WF}
+Dialogue: 50,0:16:46.44,0:16:50.24,Main-207-,,0,0,0,,{If you can't take care\Nof things here in five minutes... - Funi}If you can't clean up this mess\Nin the next five minutes...{Polly}
+Dialogue: 50,0:16:52.24,0:16:54.99,Main-207-,,0,0,0,,{then I'll kill every last one of you... - Funi}I'll kill every last one of you...{Polly}
+Dialogue: 50,0:16:55.74,0:16:58.41,Main-207-,,0,0,0,,with my own two hands!{Funi}{with these claws of mine! - Z}
+Dialogue: 50,0:17:07.59,0:17:08.47,Main-207-,,0,0,0,,Five minutes...
+Dialogue: 50,0:17:09.22,0:17:10.80,Main-207-,,0,0,0,,Five minutes should be enough!
+Dialogue: 50,0:17:11.76,0:17:13.47,Main-207-,,0,0,0,,H-Him!
+Dialogue: 50,0:17:13.47,0:17:18.56,Main-207-,,0,0,0,,If we just beat him,\Nwe can get past this hill!
+Dialogue: 50,0:17:26.65,0:17:29.07,Main-207-,,0,0,0,,We had the upper hand\Nagainst him just now!
+Dialogue: 50,0:17:29.07,0:17:31.20,Main-207-,,0,0,0,,{We'll cut him up in five minutes! - Funi}{We'll shred him up in five minutes! - Polly}We'll rip him to shreds in five minutes!{Z}
+Dialogue: 50,0:17:31.70,0:17:35.41,Main-207-,,0,0,0,,We're counting on you,\NMeowban Brothers!
+Dialogue: 50,0:17:38.33,0:17:39.20,Main-207-,,0,0,0,,Zoro!
+Dialogue: 50,0:17:43.67,0:17:44.63,Main-207-,,0,0,0,,What?!
+Dialogue: 50,0:17:44.63,0:17:46.09,Main-207-,,0,0,0,,H-Hey!
+Dialogue: 50,0:17:46.09,0:17:48.63,Main-207-,,0,0,0,,You're kicking my swords now?!
+Dialogue: 50,0:17:49.59,0:17:51.05,Main-207-,,0,0,0,,{Where's my thanks? - Funi}How about a "thank you"?{WF}
+Dialogue: 50,0:17:52.30,0:17:53.14,Main-207-,,0,0,0,,Yeah...
+Dialogue: 50,0:17:54.64,0:17:56.26,Main-207-,,0,0,0,,Thanks!
+Dialogue: 50,0:17:58.77,0:18:00.02,Main-207-,,0,0,0,,It's no use!
+Dialogue: 50,0:18:00.02,0:18:01.52,Main-207-,,0,0,0,,{Three swords won't help you! - Funi}Three swords won't help...{Polly+Nikki}
+Dialogue: 50,0:18:01.52,0:18:03.31,Main-207-,,0,0,0,,{Your skill's still the same! - Funi}{...if you can't even use 'em! - Polly}...if you don't know how to use 'em!{Polly}
+Dialogue: 50,0:18:05.36,0:18:06.06,Main-207-,,0,0,0,,{\fad(150,0)}Tiger...
+Dialogue: 50,0:18:09.61,0:18:11.53,Main-207-,,0,0,0,,You don't get it, do you?
+Dialogue: 50,0:18:12.28,0:18:13.82,Main-207-,,0,0,0,,{\fad(150,150)}...Trap!
+Dialogue: 50,0:18:18.58,0:18:21.16,Main-207-,,0,0,0,,Four minutes.
+Dialogue: 50,0:18:24.17,0:18:27.96,Main-207-,,0,0,0,,{Just having three swords is different... - Funi}Just having three swords\Nmeans nothing...{Polly}
+Dialogue: 50,0:18:27.96,0:18:29.96,Main-207-,,0,0,0,,{from knowing the three-sword style! - Funi}{\q2}if you don't know the three-sword style!{Polly}
+Dialogue: 50,0:18:35.68,0:18:36.55,Main-207-,,0,0,0,,So...{Z}
+Dialogue: 50,0:18:39.81,0:18:41.27,Main-207-,,0,0,0,,{He's strong... - Funi}So strong...{Polly}
+Dialogue: 50,0:18:45.56,0:18:47.15,Main-207-,,0,0,0,,One hit...
+Dialogue: 50,0:18:55.91,0:18:59.28,Main-207-,,0,0,0,,H-He beat the Meowban\NBrothers in one hit!
+Dialogue: 50,0:19:10.46,0:19:12.01,Main-207-,,0,0,0,,Don't worry!
+Dialogue: 50,0:19:12.92,0:19:19.51,Main-207-,,0,0,0,,{I'll crush every last one of you\Nbefore your five minutes are up! - Funi}I'll take care of every last one of you\Nbefore your five minutes are up!{Polly}
+Dialogue: 50,0:19:33.82,0:19:36.57,Main-207-,,0,0,0,,{Two minutes. - Funi}Three minutes.{Nikki}{Polly - funi is literally just wrong here, he blatantly says san}
+Dialogue: 50,0:19:40.37,0:19:44.25,Main-207-,,0,0,0,,I-I'll... slaughter him...
+Dialogue: 50,0:19:47.54,0:19:49.67,Main-207-,,0,0,0,,C-Captain...
+Dialogue: 50,0:19:49.67,0:19:52.84,Main-207-,,0,0,0,,H-Hypnotize me...
+Dialogue: 50,0:19:54.84,0:19:57.30,Main-207-,,0,0,0,,P-Please, Captain!
+Dialogue: 50,0:19:57.84,0:19:59.43,Main-207-,,0,0,0,,He's alive.
+Dialogue: 50,0:19:59.43,0:20:01.01,Main-207-,,0,0,0,,{You do sloppy work. - Funi}You barely even scratched him.{Z}{Nikki - sigh, another pun. It's a saying that more or less means what it says in the [original] line, but the first word is phonetically identical to nails/claws. Oda uses the less common spelling with [that] first word all in katakana instead of the standard kanji+hiragana, so it's definitely intentional}
+Dialogue: 50,0:20:03.89,0:20:06.85,Main-207-,,0,0,0,,{His tough fat saved him, huh...? - Funi}Guess his extra padding saved him...{Polly}
+Dialogue: 50,0:20:28.37,0:20:30.58,Main-207-,,0,0,0,,{Get 'im, Buchi! - Funi}Get him, Buchi!{WF}
+Dialogue: 50,0:20:35.05,0:20:38.26,Main-207-,,0,0,0,,{More hypnosis?! - Funi}Hypnosis again?!{Polly}
+Dialogue: 50,0:20:42.01,0:20:43.26,Main-207-,,0,0,0,,{This guy means trouble! - Funi}This guy's a pain.{Polly}
+Dialogue: 50,0:20:43.76,0:20:46.73,Main-207-,,0,0,0,,{He could already crack\Nthe ground apart! - Funi}He was already strong enough\Nto crack the ground.{Polly}
+Dialogue: 50,0:20:49.35,0:20:51.86,Main-207-,,0,0,0,,What happens\Nwhen he's powered up?!
+Dialogue: 50,0:21:00.99,0:21:02.45,Main-207-,,0,0,0,,{This is my chance! - Funi}Now's my chance!{Polly}
+Dialogue: 50,0:21:02.45,0:21:05.91,Main-207-,,0,0,0,,I gotta wake him up while I still can!
+Dialogue: 50,0:21:05.91,0:21:08.54,Main-207-,,0,0,0,,{What is that crafty girl... - Funi}What are you up to now...?{Polly}
+Dialogue: 50,0:21:09.58,0:21:11.29,Main-207-,,0,0,0,,{up to now? - Funi}Meddlesome girl...{Polly}
+Dialogue: 50,0:21:11.71,0:21:14.92,Main-207-,,0,0,0,,{Everyone's seriously hurt,\Nand he's just sleeping! - Funi}Everyone else is getting their\Nass kicked while he takes a nap!{Polly}
+Dialogue: 50,0:21:16.30,0:21:17.63,Main-207-,,0,0,0,,Die!
+Dialogue: 50,0:21:21.68,0:21:23.22,Main-207-,,0,0,0,,Get up!
+Dialogue: 50,0:21:23.22,0:21:25.10,Main-207-,,0,0,0,,Nami! Look out!
+Dialogue: 50,0:21:29.56,0:21:31.06,Main-207-,,0,0,0,,Split in two!
+Dialogue: 50,0:21:32.44,0:21:33.69,Main-207-,,0,0,0,,{Dodge it! - Funi}{Duck! - Polly}Dodge!{Z}
+Dialogue: 50,0:21:35.36,0:21:37.65,Main-207-,,0,0,0,,Wh-What the?!
+Dialogue: 50,0:21:38.65,0:21:40.07,Thoughts-207-,,0,0,0,,A {\i1}chakram{\i0}!
+Dialogue: 50,0:21:40.07,0:21:42.53,Thoughts-207-,,0,0,0,,{It wasn't just a hypnosis tool?! - Funi}It wasn't just for hypnosis?!{Polly}
+Dialogue: 50,0:21:43.74,0:21:48.58,Main-207-,,0,0,0,,Nami! How dare you\Nstomp on my face!{Funi}{Polly - in the manga, Luffy actually catches the chakram with the back of his head instead!}
+Dialogue: 50,0:21:50.37,0:21:51.92,Main-207-,,0,0,0,,H-He's alive?!
+Dialogue: 50,0:21:53.08,0:21:56.92,Main-207-,,0,0,0,,Can't tell if he has\Ngood or bad timing...
+Dialogue: 50,0:22:01.22,0:22:02.38,Main-207-,,0,0,0,,L-Luffy...
+Dialogue: 50,0:22:07.81,0:22:09.35,Main-207-,,0,0,0,,Luffy!
+Dialogue: 50,0:22:09.35,0:22:12.27,Main-207-,,0,0,0,,Ow...
+Dialogue: 50,0:22:12.64,0:22:15.02,Main-207-,,0,0,0,,Owww!
+Dialogue: 50,0:22:15.44,0:22:17.90,Main-207-,,0,0,0,,{H-He's alive again! - Funi}H-He came back to life!{Z}
+Dialogue: 50,0:22:17.90,0:22:19.73,Main-207-,,0,0,0,,This is bad!
+Dialogue: 50,0:22:19.73,0:22:22.40,Main-207-,,0,0,0,,{Five minutes is impossible now! - Funi}No way five minutes is enough now!{Polly}
+Dialogue: 50,0:22:23.32,0:22:26.49,Main-207-,,0,0,0,,{Nami! That hurts, you jerk! - Funi}Nami! That hurt, you jerk!{Polly}
+Dialogue: 50,0:22:26.49,0:22:28.45,Main-207-,,0,0,0,,That wasn't me!
+Dialogue: 50,0:22:28.45,0:22:30.00,Main-207-,,0,0,0,,{It wasn't me... - Funi}It wasn't...{Polly}
+Dialogue: 50,0:22:33.46,0:22:34.79,Main-207-,,0,0,0,,N-Nami?
+Dialogue: 50,0:22:34.79,0:22:37.21,Main-207-,,0,0,0,,Did you hurt your shoulder?
+Dialogue: 50,0:22:38.25,0:22:40.67,Main-207-,,0,0,0,,I-It's nothing. I'm fine...
+Dialogue: 50,0:22:40.67,0:22:44.13,Main-207-,,0,0,0,,I've done everything I can for now...
+Dialogue: 50,0:22:44.13,0:22:46.43,Main-207-,,0,0,0,,so I leave the rest to you...
+Dialogue: 50,0:22:47.47,0:22:51.56,Main-207-,,0,0,0,,{We absolutely can't\Nafford to lose this fight... - Funi}We can't lose this fight\Nno matter what...{Polly}
+Dialogue: 50,0:22:51.56,0:22:52.35,Main-207-,,0,0,0,,Yeah!
+Dialogue: 50,0:22:53.64,0:22:57.02,Main-207-,,0,0,0,,{Try hard! For my treasure! - Funi}Do your best for the sake\Nof my treasure!{Polly}
+Dialogue: 50,0:22:57.02,0:23:00.23,Main-207-,,0,0,0,,{Okay! That sounds like you, alright! - Funi}Alright! That sounds more like you!{Polly}
+Dialogue: 50,0:23:01.44,0:23:03.78,Main-207-,,0,0,0,,One minute.
+Dialogue: 50,0:23:06.11,0:23:07.91,Main-207-,,0,0,0,,You can't be serious!
+Dialogue: 50,0:23:07.91,0:23:10.33,Main-207-,,0,0,0,,Not even Captain Jango and Buchi{-san}...
+Dialogue: 50,0:23:10.66,0:23:14.16,Main-207-,,0,0,0,,...can finish them in one minute!
+Dialogue: 50,0:23:24.51,0:23:27.34,Main-207-,,0,0,0,,Buchi! There's no time to think!
+Dialogue: 50,0:23:28.09,0:23:30.31,Main-207-,,0,0,0,,{Kill that bellyband bastard! - Funi}Butcher that bellyband bastard!{Polly}
+Dialogue: 50,0:23:30.31,0:23:34.52,Main-207-,,0,0,0,,{And I'll handle that weird kid... - Funi}I'll handle the weird brat...{Polly+Nikki}
+Dialogue: 50,0:23:41.07,0:23:42.86,Main-207-,,0,0,0,,{I'll kill Straw Hat! - Funi}Straw Hat is mine!{Polly}
+Dialogue: 50,0:23:45.45,0:23:48.37,Main-207-,,0,0,0,,{Huh? That bad butler is here too! - Funi}{Huh? That nasty butler is here too! - Polly}Huh? That butt-ler is here too!{Z}
+Dialogue: 50,0:23:49.32,0:23:51.03,Main-207-,,0,0,0,,{Isn't he... - Funi}Isn't that...{Polly}
+Dialogue: 50,0:23:51.03,0:23:53.75,Main-207-,,0,0,0,,Didn't he fall off that cliff and die?
+Dialogue: 50,0:23:55.50,0:23:56.79,Main-207-,,0,0,0,,No matter.
+Dialogue: 50,0:24:09.26,0:24:10.85,Main-207-,,0,0,0,,{Don't approach me... - Funi}Do not approach me...{Polly}
+Dialogue: 50,0:24:14.31,0:24:16.43,Main-207-,,0,0,0,,from behind!
+Dialogue: 50,0:24:17.27,0:24:19.23,Main-207-,,0,0,0,,Kaya!
+Dialogue: 50,0:24:36.20,0:24:38.12,Main-207-,,0,0,0,,Usopp{-san}! Are you okay?!
+Dialogue: 50,0:24:38.12,0:24:39.46,Main-207-,,0,0,0,,K-Kaya...
+Dialogue: 50,0:24:39.46,0:24:41.13,Main-207-,,0,0,0,,What are you doing here?!
+Dialogue: 50,0:24:41.84,0:24:44.09,Main-207-,,0,0,0,,I'm so sorry, Usopp{-san}...
+Dialogue: 50,0:24:44.09,0:24:46.92,Main-207-,,0,0,0,,I know you may not\Naccept my apology...
+Dialogue: 50,0:24:46.92,0:24:49.30,Main-207-,,0,0,0,,but I just couldn't believe it...!
+Dialogue: 50,0:24:49.30,0:24:52.22,Main-207-,,0,0,0,,K-Klahadore, a pirate...
+Dialogue: 50,0:24:52.22,0:24:54.18,Main-207-,,0,0,0,,{Never mind that! - Funi}Forget about that!{Polly}
+Dialogue: 50,0:24:54.18,0:24:55.64,Main-207-,,0,0,0,,Why are you here?!
+Dialogue: 50,0:24:55.64,0:24:57.68,Main-207-,,0,0,0,,I told you to run away!
+Dialogue: 50,0:24:57.68,0:24:59.89,Main-207-,,0,0,0,,Your life is in danger!
+Dialogue: 50,0:24:59.89,0:25:03.73,Main-207-,,0,0,0,,{But you're fighting! - Funi}But... you're here fighting!{Polly}
+Dialogue: 50,0:25:05.23,0:25:09.03,Main-207-,,0,0,0,,{Even after I treated you so horribly\Nand you've been hurt so much... - Funi}Even after I treated you so horribly\Nand you've been hurt so badly,{Polly}
+Dialogue: 50,0:25:09.03,0:25:12.24,Main-207-,,0,0,0,,you're still fighting for me!
+Dialogue: 50,0:25:12.24,0:25:13.03,Main-207-,,0,0,0,,{So I... - Funi}That's why...{Polly}
+Dialogue: 50,0:25:13.03,0:25:14.62,Main-207-,,0,0,0,,Miss Kaya...
+Dialogue: 50,0:25:15.70,0:25:18.16,Main-207-,,0,0,0,,Why are you here?
+Dialogue: 50,0:25:20.83,0:25:23.59,Main-207-,,0,0,0,,S-Stop this...
+Dialogue: 50,0:25:26.76,0:25:30.26,Main-207-,,0,0,0,,Stop this, Klahadore!
+Dialogue: 50,0:25:36.68,0:25:39.64,Main-207-,,0,0,0,,Merry told me everything.
+Dialogue: 50,0:25:42.48,0:25:44.81,Main-207-,,0,0,0,,Isn't that the girl from the mansion?
+Dialogue: 50,0:25:45.27,0:25:48.15,Main-207-,,0,0,0,,{Meaning she's the plan's final target?! - Funi}So she's the target of the plan?!{Polly}
+Dialogue: 50,0:25:48.15,0:25:50.90,Main-207-,,0,0,0,,{Then there's no need\Nto go to the village now? - Funi}So we don't have to\Ngo to the village now?{Polly}
+Dialogue: 50,0:25:50.90,0:25:53.11,Main-207-,,0,0,0,,We just need to kill her, right?!
+Dialogue: 50,0:25:56.24,0:25:57.99,Main-207-,,0,0,0,,Klahadore, please!
+Dialogue: 50,0:25:57.99,0:26:01.46,Main-207-,,0,0,0,,If you want my fortune,\Nyou can have it all!
+Dialogue: 50,0:26:01.46,0:26:03.25,Main-207-,,0,0,0,,{Just please leave this village! - Funi}Just leave this village!{Polly}
+Dialogue: 50,0:26:03.25,0:26:04.88,Main-207-,,0,0,0,,{Right now! - Funi}At once!{Polly}
+Dialogue: 50,0:26:04.88,0:26:09.09,Main-207-,,0,0,0,,{I will gladly accept it, but... - Funi}I'm more than happy to accept, but...{Polly}
+Dialogue: 50,0:26:09.59,0:26:14.22,Main-207-,,0,0,0,,there's one other thing\NI want, you see...
+Dialogue: 50,0:26:16.18,0:26:18.77,Main-207-,,0,0,0,,What I want...
+Dialogue: 50,0:26:20.31,0:26:22.64,Main-207-,,0,0,0,,is peace of mind.
+Dialogue: 50,0:26:23.14,0:26:24.85,Main-207-,,0,0,0,,{Peace...? - Funi}Peace of mind...?{Polly}
+Dialogue: 50,0:26:25.61,0:26:29.32,Main-207-,,0,0,0,,{Yes. I want simple peace. - Funi}Yes. I want to be at peace.{Polly+Z}
+Dialogue: 50,0:26:30.53,0:26:34.53,Main-207-,,0,0,0,,{I find the villagers' trust that I've\Nfostered these past three years - Funi}I've spent three years earning\Nthe trust of the villagers here.{Polly}
+Dialogue: 50,0:26:34.53,0:26:39.79,Main-207-,,0,0,0,,{\t(4859,0,1,\c&HFFFFFF&\3c&HFFFFFF&\4c&HFFFFFF&)}{to be nice and comfortable now. - Funi}The funny thing is, I've come\Nto take great comfort in that.{Polly}
+Dialogue: 50,0:26:39.79,0:26:46.33,Main-207-,,0,0,0,,{So I want to have that\Npeace of mind forever... - Funi}I want to have that sort\Nof peace forever...{Polly}
+Dialogue: 50,0:26:53.34,0:26:55.05,Main-207-,,0,0,0,,{And I... - Funi}And so...{Polly}
+Dialogue: 50,0:26:55.80,0:26:59.18,Main-207-,,0,0,0,,{And I [/i1]will[/i] have that peace! - Funi}And so I shall be given that peace!{Polly+Nikki}
+Dialogue: 50,0:26:59.18,0:27:01.64,Main-207-,,0,0,0,,{[/i1]And[/i] your fortune... - Funi}As well as your fortune...{Polly}
+Dialogue: 50,0:27:02.27,0:27:04.60,Main-207-,,0,0,0,,In short, pirates {\i1}will{\i}\Ncome to the village!
+Dialogue: 50,0:27:07.73,0:27:08.65,Main-207-,,0,0,0,,{And... - Funi}Not only that...{Polly}
+Dialogue: 50,0:27:09.23,0:27:12.36,Main-207-,,0,0,0,,{you will leave your will and die! - Funi}but you will die\Nand leave behind your will!{Polly}
+Dialogue: 50,0:27:12.74,0:27:16.16,Main-207-,,0,0,0,,These two things are absolute.{Funi}{Absolutey nothing\Nwill change these truths. - Polly}{Absolutely nothing will change that. - Polly}
+Dialogue: 50,0:27:16.74,0:27:18.66,Main-207-,,0,0,0,,N-No...
+Dialogue: 50,0:27:19.66,0:27:21.87,Main-207-,,0,0,0,,Y-You're not...
+Dialogue: 50,0:27:22.54,0:27:26.37,Main-207-,,0,0,0,,Run! Run away, Kaya!\NThere's no use talking to him!
+Dialogue: 50,0:27:26.37,0:27:27.75,Main-207-,,0,0,0,,Run away!
+Dialogue: 50,0:27:27.75,0:27:30.71,Main-207-,,0,0,0,,Y-You're not Klahadore...
+Dialogue: 50,0:27:30.71,0:27:32.96,Main-207-,,0,0,0,,You're not Klahadore!
+Dialogue: 50,0:27:34.17,0:27:35.68,Main-207-,,0,0,0,,Kaya...
+Dialogue: 50,0:27:36.09,0:27:37.51,Main-207-,,0,0,0,,Leave this village!
+Dialogue: 50,0:27:37.51,0:27:38.93,Main-207-,,0,0,0,,{Leave this minute! - Funi}Right this second!{Polly}
+Dialogue: 50,0:27:39.26,0:27:40.89,Main-207-,,0,0,0,,I see.
+Dialogue: 50,0:27:40.89,0:27:44.85,Main-207-,,0,0,0,,You've certainly grown\Na lot these past three years...
+Dialogue: 50,0:27:45.73,0:27:47.69,Main-207-,,0,0,0,,Miss Kaya.
+Dialogue: 50,0:27:48.86,0:27:51.19,Main-207-,,0,0,0,,Do you remember?
+Dialogue: 50,0:27:51.19,0:27:54.28,Main-207-,,0,0,0,,So much has happened\Nin three years...
+Dialogue: 50,0:27:55.32,0:27:59.53,Main-207-,,0,0,0,,{We spent so much time together... - Funi}We've spent so much time together...{Polly}
+Dialogue: 50,0:27:59.53,0:28:03.41,Main-207-,,0,0,0,,Even before your parents passed\Naway and you became bedridden...
+Dialogue: 50,0:28:04.50,0:28:06.00,Main-207-,,0,0,0,,So much time...
+Dialogue: 50,0:28:09.71,0:28:11.13,Main-207-,,0,0,0,,So many memories...
+Dialogue: 50,0:28:11.13,0:28:15.76,Main-207-,,0,0,0,,Together we suffered,\Ntogether we rejoiced...
+Dialogue: 50,0:28:16.26,0:28:18.76,Main-207-,,0,0,0,,K-Klahadore...
+Dialogue: 50,0:28:19.76,0:28:21.76,Main-207-,,0,0,0,,{I would visit the city with you... - Funi}We would visit the city together...{Polly}
+Dialogue: 50,0:28:22.51,0:28:25.27,Main-207-,,0,0,0,,{and whenever you had a fever,\NI constantly looked after you... - Funi}and I would always look after you\Nwhen you had a fever...{Polly}
+Dialogue: 50,0:28:26.27,0:28:30.27,Main-207-,,0,0,0,,{You listened to my\Nstories so happily... - Funi}You listened to my stories\Nwith a smile on your face...{Polly/Z}
+Dialogue: 50,0:28:32.36,0:28:35.44,Main-207-,,0,0,0,,I devoted myself to you...
+Dialogue: 50,0:28:36.65,0:28:38.45,Main-207-,,0,0,0,,For so long...
+Dialogue: 50,0:28:38.45,0:28:40.66,Main-207-,,0,0,0,,Yes, for so long...
+Dialogue: 50,0:28:41.07,0:28:43.33,Main-207-,,0,0,0,,{I endured it... - Funi}I endured it all...{Polly+Z}
+Dialogue: 50,0:28:44.99,0:28:51.83,Main-207-,,0,0,0,,{Yes, it was all so that\NI could kill you today! - Funi}{Yes, I endured it all so that\NI could finally kill you today! - Polly}Yes, I endured it all for this\Nvery day when I could finally kill you!{Nikki}
+Dialogue: 50,0:28:58.84,0:29:02.64,Main-207-,,0,0,0,,{I, a man once known as Captain Kuro, - Funi}I, the man once known\Nas Captain Kuro,{Polly}
+Dialogue: 50,0:29:02.97,0:29:06.93,Main-207-,,0,0,0,,{had to smile humbly\Nfor some snot-nosed girl! - Funi}{had to debase myself\Nbefore some snot-nosed girl! - Polly}had to debase myself and put on\Na smile for some snot-nosed girl!{Polly+Nikki}
+Dialogue: 50,0:29:07.85,0:29:12.06,Main-207-,,0,0,0,,{I went against my nature\Nand sucked up to you...! - Funi}I cast aside my nature\Nand ingratiated myself to you!{Polly}
+Dialogue: 50,0:29:16.90,0:29:18.49,Main-207-,,0,0,0,,Damn you...
+Dialogue: 50,0:29:19.07,0:29:22.45,Main-207-,,0,0,0,,{Do you understand these daily insults? - Funi}Do you understand how humiliating\Nit was, day in and day out?{Polly}
+Dialogue: 50,0:29:23.37,0:29:28.16,Main-207-,,0,0,0,,{Do you understand this man once\Nknown as Captain Kuro?! - Funi}{\q2}Do you understand what that meant\Nfor the man once known as Captain Kuro?!{Polly}
+Dialogue: 50,0:29:35.55,0:29:38.59,Main-207-,,0,0,0,,Kuro!
+Dialogue: 50,0:29:44.26,0:29:46.64,Main-207-,,0,0,0,,Come to think of it...
+Dialogue: 50,0:29:48.98,0:29:52.31,Main-207-,,0,0,0,,I still owe you for hitting me.
+Dialogue: 50,0:29:52.85,0:29:54.52,Main-207-,,0,0,0,,Usopp{-san}!
+Dialogue: 50,0:29:54.86,0:29:59.32,Main-207-,,0,0,0,,{You hit me with all your\Nmight, as I recall... - Funi}As I recall, you struck me\Nwith everything you had...{Polly}
+Dialogue: 50,0:30:22.55,0:30:27.39,Main-207-,,0,0,0,,{\q2}If you hate getting hit that much,\NI got a hundred more punches for you!
+Dialogue: 0,0:01:50.05,0:01:57.68,Title-207-,,0,0,0,,{\blur0.5\fad(561,1022)\3c&H1E1E1E&\c&H1E1E1E&\bord2.3\1a&HFF&\t(519,561,\1a&H00&)\t(6608,6650,\1a&HFF&)}The Silent Man
+Dialogue: 0,0:01:50.05,0:01:57.68,Title-207-,,0,0,0,,{\blur0.5\fad(561,1022)\c&HE7E6E6&\bord0\4a&HFF&}The Silent Man
+Dialogue: 0,0:06:49.39,0:06:52.39,Captions-207-,,0,0,0,,{\fnChinacat\fscx90\fscy90\pos(720,350)\fad(518,0)\blur0.8\bord3.5\c&H0B0C0A&\3c&H0B0C0A&\1a&HFF&\t(476,518,\1a&H00&)}{Sham\NShip Guard - Funi}Sham\NShip Guard\NBlack Cat Pirates{Polly}
+Dialogue: 1,0:06:49.39,0:06:52.39,Captions-207-,,0,0,0,,{\fnChinacat\fscx90\fscy90\pos(720,350)\fad(518,0)\blur0.8\bord0\c&HE6E6E6&\4a&HFF&}{Sham\NShip Guard - Funi\c&HE6E6E6&}Sham\NShip Guard\NBlack Cat Pirates{Polly}
+Dialogue: 1,0:06:49.39,0:06:52.39,Captions-207-,,0,0,0,,{\fnChinacat\fscx90\fscy90\pos(720,350)\fad(518,0)\blur0.8\bord0\c&HE6E6E6&\4a&HFF&}{Sham\NShip Guard - Funi\c&HE6E6E6&}Sham\NShip Guard\NBlack Cat Pirates{Polly}
+Dialogue: 0,0:06:52.56,0:06:55.69,Captions-207-,,0,0,0,,{\fnChinacat\fscx90\fscy90\pos(720,675)\fad(518,0)\blur0.8\bord3.5\c&H0B0C0A&\3c&H0B0C0A&\1a&HFF&\t(476,518,\1a&H00&)}{Buchi\NShip Guard - Funi}Buchi\NShip Guard\NBlack Cat Pirates{Polly}
+Dialogue: 1,0:06:52.56,0:06:55.69,Captions-207-,,0,0,0,,{\fnChinacat\fscx90\fscy90\pos(720,675)\fad(518,0)\blur0.8\bord0\c&HE6E6E6&\4a&HFF&}{Buchi\NShip Guard - Funi\c&HE6E6E6&}Buchi\NShip Guard\NBlack Cat Pirates{Polly}
+Dialogue: 1,0:06:52.56,0:06:55.69,Captions-207-,,0,0,0,,{\fnChinacat\fscx90\fscy90\pos(720,675)\fad(518,0)\blur0.8\bord0\c&HE6E6E6&\4a&HFF&}{Buchi\NShip Guard - Funi\c&HE6E6E6&}Buchi\NShip Guard\NBlack Cat Pirates{Polly}
+Dialogue: 0,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord3\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Video Editing
+Dialogue: 1,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord0\4a&HFF&}Video Editing
+Dialogue: 0,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Feeso\NGalaxy 9000
+Dialogue: 1,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Feeso\NGalaxy 9000
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Soundtracking
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord0\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Halee
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Halee
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Graphics
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Datenshi
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Datenshi
+Dialogue: 0,0:00:06.78,0:00:10.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,603)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(3397,3439,\1a&HFF&)}Quality Control
+Dialogue: 1,0:00:06.78,0:00:10.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,603)\blur0.6\bord0\4a&HFF&}Quality Control
+Dialogue: 0,0:00:06.78,0:00:10.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,603)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(3397,3439,\1a&HFF&)}FishyBusyness\NGab\NGalaxy 9000\NGol D. Rocks\NGrug\NMr. Luffy\NPepperjack\NStanMan\NWestfal\NZenef
+Dialogue: 1,0:00:06.78,0:00:10.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,603)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}FishyBusyness\NGab\NGalaxy 9000\NGol D. Rocks\NGrug\NMr. Luffy\NPepperjack\NStanMan\NWestfal\NZenef
+Dialogue: 0,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Karaoke
+Dialogue: 1,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord0\4a&HFF&}Karaoke
+Dialogue: 0,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}KaitouYahiko
+Dialogue: 1,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Timing
+Dialogue: 1,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord0\4a&HFF&}Timing
+Dialogue: 0,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Gab
+Dialogue: 1,0:00:10.78,0:00:13.28,Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Gab
+Dialogue: 0,0:00:13.28,0:00:16.79,Credits-207-,,0,0,0,,{\pos(90,225)\fad(609,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(567,609,\1a&H00&)\t(2903,2945,\1a&HFF&)}Subtitle Editing
+Dialogue: 1,0:00:13.28,0:00:16.79,Credits-207-,,0,0,0,,{\pos(90,225)\fad(609,607)\blur0.6\bord0\4a&HFF&}Subtitle Editing
+Dialogue: 0,0:00:13.28,0:00:16.79,Credits-207-,,0,0,0,,{\pos(130,270)\fad(609,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(567,609,\1a&H00&)\t(2903,2945,\1a&HFF&)}Pollychan\NZenef
+Dialogue: 1,0:00:13.28,0:00:16.79,Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Pollychan\NZenef
+Dialogue: 0,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Raws
+Dialogue: 1,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,0)\blur0.6\bord0\4a&HFF&}Raws
+Dialogue: 0,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Neo-Raws
+Dialogue: 1,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Neo-Raws
+Dialogue: 0,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,350)\fad(602,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Translation
+Dialogue: 1,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,350)\fad(602,0)\blur0.6\bord0\4a&HFF&}Translation
+Dialogue: 0,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,395)\fad(602,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Funimation\NNikki
+Dialogue: 1,0:00:16.79,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,395)\fad(602,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Funimation\NNikki
 

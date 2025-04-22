@@ -9,14 +9,18 @@ PlayResY: 1080
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H000019FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
 Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
 Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
 Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
-Style: Captions-207-,Chinacat,59,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,16,16,16,1
-Style: Credits-207-,FOT-Greco Std B Strp,46,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
-Style: Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Title-207-,M+ 1c Pace,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
 Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Notes-207-,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,3,8,180,180,27,1
 Style: Roger-Monologue-furigana,Impress BT Pace,41,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1.9,1.9,2,180,180,27,1
 Style: Kanji-furigana,Duality,36,&H00DC8F37,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,2.95,0,8,23,23,146,1
 Style: Karaoke-furigana,Duality,36,&H00DC8F37,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,2.95,0,8,23,23,23,1
@@ -28,285 +32,314 @@ Style: Roger-Monologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H780
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)}Il lettore multimediale non supporta il formato dei sottotitoli di questo episodio.\NÈ probabile che i sottotitoli non funzionino correttamente.\NSi prega di usare uno dei lettori raccomandati, preferibilmente mpv:\Nhttps://mpv.io
-Dialogue: 0,0:01:59.99,0:02:09.98,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)}Il lettore multimediale non supporta il formato dei sottotitoli di questo episodio.\NÈ probabile che i sottotitoli non funzionino correttamente.\NSi prega di usare uno dei lettori raccomandati, preferibilmente mpv:\Nhttps://mpv.io
-Dialogue: 50,0:02:03.18,0:02:04.86,Main-207-,,0,0,0,,{Che noia... -crunchy}{Wow... -angy}Caspita...
-Dialogue: 50,0:02:22.33,0:02:24.10,Main-207-,,0,0,0,,{Sto coso è proprio pesante -crunchy}{coso fa schifo -angy}È proprio pesante.
-Dialogue: 50,0:02:24.10,0:02:28.60,Main-207-,,0,0,0,,Sembra un barile pieno di liquore!
-Dialogue: 50,0:02:28.60,0:02:29.42,Main-207-,,0,0,0,,Ed ora è nostro!{itadaki è più un l'abbiamo preso vedi tu -angy}{va bene così -4eyes}
-Dialogue: 50,0:02:41.30,0:02:42.97,Main-207-,,0,0,0,,{Nave dietro di noi, a dritta! -crunchy}Nave dietro di noi, a tribordo!{Tecnicamente più corretto -Tony}{approvo - 4eyes}
-Dialogue: 50,0:02:42.97,0:02:45.70,Main-207-,,0,0,0,,{\q2}Sull'albero sventola un Jolly Roger!{sarò onesta, vedere Jolly Roger in italiano non mi piace. So che si usa, ma non mi piace. sarebbe bandiera pirata, anche in jp}{per evitare la ripetizione con dopo ci sta -Tony}{meglio jolly roger, si addice di più -4eyes}
-Dialogue: 50,0:02:45.70,0:02:49.52,Main-207-,,0,0,0,,{\q2}È una nave pirata!\NAttacco nemico! Attacco nemico!
-Dialogue: 50,0:03:13.31,0:03:14.79,Main-207-,,0,0,0,,Koby!
-Dialogue: 50,0:03:15.49,0:03:16.35,Main-207-,,0,0,0,,{\an8}S-Sì?!
-Dialogue: 50,0:03:16.35,0:03:20.01,Main-207-,,0,0,0,,{Chi è la più bella di tutti i mari? -crunchy}{\an8}Chi è la più bella di questo mare?{dice "kono umi" questo mare, non tutti -angy}
-Dialogue: 50,0:03:20.01,0:03:24.39,Main-207-,,0,0,0,,{I-Il capitano di questa nave,\NAlvida, ovviamente! -crunchy}{\an8}N-Naturalmente, il capitano di \Nquesta nave, la signora Alvida. {anche ovviamente andava bene, ma mi piace di più naturalmente -angy}{lasciamola così -4eyes}
-Dialogue: 50,0:03:30.49,0:03:32.09,Main-207-,,0,0,0,,{Ben detto -crunchy}{Ben fatto! -angy}{lo so che è più bello ben detto, ma ben detto è "yoku itta" invece lei dice "yoku dekita" e dekita è verbo fare -angy}{\an8}Ben detto!{ho rimesso ben detto perché ha più senso con il contesto, visto che koby non ha "fatto" niente -Tony}{Non avrà pure fatto niente, ma effettivamente non gli dice ben fatto -angy}{meglio non tradurre letteralmente qui, usiamo "ben detto" -4eyes}
-Dialogue: 50,0:03:32.09,0:03:33.72,Main-207-,,0,0,0,,{\an8}G-Grazie mille!
-Dialogue: 50,0:03:33.72,0:03:34.91,Main-207-,,0,0,0,,{\an8}Capitano Alvida.
-Dialogue: 50,0:03:34.91,0:03:36.79,Main-207-,,0,0,0,,{\an8}{\q2}Finalmente una preda, dopo tanto tempo.{"Era da un bel po' che non\Ntrovavamo una nuova preda." alternativa ma lunga -angy}
-Dialogue: 50,0:03:36.79,0:03:38.09,Main-207-,,0,0,0,,{Proprio così! -crunchy}{Infatti! -angy}{\an8}Vero!{Tony}
-Dialogue: 50,0:03:38.09,0:03:40.93,Main-207-,,0,0,0,,{Bene! Cominciate a bombardarla! -crunchy}{Bene! Muovetevi a raggiungerla! - non parlano per niente di bombardarla nonostante i fatti di ciò che accade -angy}Bene! Preparatevi all'arrembaggio!{Tony}
-Dialogue: 50,0:04:05.93,0:04:11.23,Main-207-,,0,0,0,,{Uomini!Instillate in loro il terrore di\NAlvida Mazza di Ferro, Signora dei Pirati! -crunchy}{\q2}Uomini! Mostrategli il terrore della\N donna pirata, Alvida Mazza Chiodata!{va bene anche mazza di ferro eh, ma mi ispira di più mazza chiodata. -angy}
-Dialogue: 50,0:04:21.61,0:04:23.89,Main-207-,,0,0,0,,Koby! Che stai facendo?! {volendo anche "che fai"-angy}
-Dialogue: 50,0:04:23.89,0:04:26.20,Main-207-,,0,0,0,,{N-N-Non sono molto bravo in queste cose... - crunchy}Q-Queste cose non fanno per me... {non che crunchyroll sia sbagliato, son gusti -angy}{mi piace -Tony}
-Dialogue: 50,0:04:26.20,0:04:30.12,Main-207-,,0,0,0,,{Hmm?! Come osi rispondermi\Nin modo così insolente?! - crunchy}{\q2}Hmm?! Stai per caso cercando di ribattere?!{è più giusto così -angy}
-Dialogue: 50,0:04:31.29,0:04:34.84,Main-207-,,0,0,0,,{\q2}L-La prego, non la mazza chiodata...!{[/q2]L-La prego, tutto tranne la mazza! - crunchy}{dice la cosa completa, kanabou, mazza chiodata/di ferro. anche "tutto ma non la mazza chiodata". Cerco di tenere breve per via del formato 4:3 -angy}
-Dialogue: 50,0:04:34.84,0:04:37.50,Main-207-,,0,0,0,,{E allora muoviti! - crunchy}{Allora vai, veloce! - だったら さっさとお行きーっ, さっさと è velocemente -angy}Allora vai! Muoviti!{Corazon}
-Dialogue: 50,0:04:58.48,0:05:03.49,Main-207-,,0,0,0,,{Non vi uccideremo,\Nma ci prenderemo ogni oggetto di valore! - crunchy}Non abbiamo intenzione di uccidervi,\Nma ci prenderemo tutto il vostro oro.{dice 金めのもん, oggetti d'oro. -angy}
-Dialogue: 50,0:05:03.49,0:05:08.32,Main-207-,,0,0,0,,{Chiunque provi a ribellarsi\Nfinirà sul fondo dell'oceano! - crunchy}{\q2}Quelli che si opporranno,\N finiranno in fondo all'oceano!{teoricamente dice più "diventeranno alghe dell'oceano", ma non penso si dica in italiano-angy}
-Dialogue: 50,0:05:08.79,0:05:11.00,Main-207-,,0,0,0,,Salve...
-Dialogue: 50,0:05:12.70,0:05:15.65,Main-207-,,0,0,0,,{Non c'è nessuno qui, giusto? - crunchy}Qui non c'è nessuno, giusto?{solo perché dice prima "koko", qui-angy}
-Dialogue: 50,0:05:16.56,0:05:18.28,Main-207-,,0,0,0,,Meno male...
-Dialogue: 50,0:05:20.81,0:05:23.84,Main-207-,,0,0,0,,{Quel barile è bello grosso... - crunchy}{È proprio un barile grande... -angy}È un barile bello grosso... {Tony}
-Dialogue: 50,0:05:30.50,0:05:31.85,Main-207-,,0,0,0,,Ehi, codardo!
-Dialogue: 50,0:05:31.85,0:05:34.72,Main-207-,,0,0,0,,{Ti stai di nuovo nascondendo qui?! - crunchy}{Sei nuovamente nascosto in un posto come questo a perdere tempo? - dice "stai di nuovo vendendo olio", è un modo per dire "perdere tempo"-angy}{Ti sei nascosto di nuovo in un posto come questo a perdere tempo? - Corazon}{suggerirei di accorciare la frase a "stai perdendo tempo di nuovo?" o "ancora a girarti i pollici di nascosto?" (girarsi i pollici indica comunque perdere tempo) -4eyes}Ti sei nascosto di nuovo in un posto come questo a perdere tempo? {angy}
-Dialogue: 50,0:05:34.72,0:05:39.80,Main-207-,,0,0,0,,{N-No! Ho pensato sarebbe stato meglio\Nspostare questo grosso barile di liquore... - crunchy}Vi sbagliate! Stavo pensando di trasportare questo barile...!{angy}
-Dialogue: 50,0:05:39.80,0:05:42.00,Main-207-,,0,0,0,,{Ci pensiamo noi ad alleggerirlo! -crunchy}{Lo alleggeriamo noi! -angy}{sono più diretti di quello che pensa crunchyroll -angy}Ci pensiamo noi ad alleggerirlo!{è diretto anche crunchyroll, non dicono "pensiamo di alleggerirlo" ma "ci pensiamo noi ad alleggerirlo" che è esattamente quello che intende la tua versione. mi sa che stavolta rimetto quello di cr -Tony}{non mi piace il ci pensiamo. Anche perché in giapponese "ci pensiamo" è una forma che usano spesso e sti tizi non la stanno usando}{Corazon decidi tu -Tony}
-Dialogue: 50,0:05:42.00,0:05:43.47,Main-207-,,0,0,0,,Avevo giusto sete!
-Dialogue: 50,0:05:43.47,0:05:46.82,Main-207-,,0,0,0,,{Non potete farlo!\NIl capitano Alvida ci ammazza se lo scopre! - crunchy}Oh no! Se il capitano Alvida \Nlo venisse a sapere, ci ucciderebbe!{"sonna" è molto più un esclamazione che altro, esclamazione di stupore. Per come lo dice, poi, il resto è più con il tempo verbale che ho messo io rispetto a quello di crunchy -angy}
-Dialogue: 50,0:05:46.82,0:05:49.50,Main-207-,,0,0,0,,{Allora non devi far altro\Nche chiudere il becco! -crunchy}{Se tu taci, non succederà! -angy}{vanno abbastanza bene entrambi, in sostanza se Koby sta zitto, alvida non lo scopre e nessuno viene ucciso-angy}Allora non devi far altro\Nche chiudere il becco!{cr mi sembrava più minaccioso -Tony}
-Dialogue: 50,0:05:49.50,0:05:51.33,Main-207-,,0,0,0,,{Dico bene, Koby? -crunchy}Giusto, Koby?{angy}
-Dialogue: 50,0:05:52.16,0:05:54.91,Main-207-,,0,0,0,,S-Sì! Hai ragione...
-Dialogue: 50,0:05:54.91,0:05:56.10,Main-207-,,0,0,0,,{Pesa una tonnellata! - crunchy}È piuttosto pesante!{crunchy si è preso più libertà artistiche -angy}
-Dialogue: 50,0:05:56.10,0:05:57.79,Main-207-,,0,0,0,,Non vedo l'ora! {teoricamente è più "non riesco a resistere" -angy}
-Dialogue: 50,0:05:57.79,0:06:01.25,Main-207-,,0,0,0,,{Tranquilli! Ve lo apro subito! - crunchy}Non preoccuparti, te lo apro subito!{per me sta parlando con il tizio che non riesce a resistere-angy}
-Dialogue: 50,0:06:18.84,0:06:25.15,Main-207-,,0,0,0,,Che bella dormita! {o anche "Ho dormito proprio bene!" più letterale -angy}
-Dialogue: 50,0:06:29.70,0:06:30.90,Main-207-,,0,0,0,,{Eh? - crunchy}Ma che?{"nanda" è tipo "che è", "che succede", "cosa è successo" -angy}
-Dialogue: 50,0:06:34.58,0:06:35.45,Main-207-,,0,0,0,,{E voi chi siete? -crunchy}{Chi siete? -angy}{ci sta anche quello di crunchy se lo preferisci -angy}E voi chi siete?
-Dialogue: 50,0:06:35.45,0:06:37.40,Main-207-,,0,0,0,,{– No, la domanda è chi sei tu?!\N– No, la domanda è chi sei tu?! - crunchy}{– Piuttosto, tu chi sei?!\N– Piuttosto, tu chi sei?! -angy}{volendo si può essere anche più aggressivi con "chi diamine sei?", son scelte -angy}– Chi diamine sei {\i1}tu{\i0}?!\N– Chi diamine sei {\i1}tu{\i0}?! {concordo con chi diamine sei -4eyes}
-Dialogue: 50,0:06:37.40,0:06:39.55,Main-207-,,0,0,0,,{Quel tipo si prenderà un raffreddore\Nse dorme lì per terra. - crunchy}Se quello dorme lì, si prenderà un raffreddore.{non dice per terra e come ordine è più come la mia -angy}
-Dialogue: 50,0:06:39.55,0:06:41.17,Main-207-,,0,0,0,,{– Ma l'hai steso tu!\N– Ma l'hai steso tu! - crunchy}{direbbero "sei stato tu"/"l'hai fatto tu!" -angy}– Ma è colpa tua!\N– Ma è colpa tua!
-Dialogue: 50,0:06:42.59,0:06:47.67,Main-207-,,0,0,0,,{Maledetto, ci prendi in giro\Nanche se sai che siamo pirati?! - crunchy}Bastardo! Anche se sai che siamo pirati, ci prendi in giro?!{non capisco perché a crunchy piace girare la frase -angy}
-Dialogue: 50,0:06:47.67,0:06:49.90,Main-207-,,0,0,0,,{[/q2]Cavolo, che fame! Hai qualcosa da mangiare? - crunchy}Mi è venuta fame, c'è del cib-{lo interrompono -angy}
-Dialogue: 50,0:06:49.90,0:06:51.64,Main-207-,,0,0,0,,Ascolta quando la gente ti parla!
-Dialogue: 50,0:06:52.01,0:06:54.14,Main-207-,,0,0,0,,{Dannato ragazzino! - crunchy}Dannato moccioso!{non si capisce quasi neanche che direbbe una versione di "gaki"... la prima parola è un po' per esagerare -angy}
-Dialogue: 50,0:06:56.39,0:06:57.77,Main-207-,,0,0,0,,Muori!
-Dialogue: 50,0:07:14.19,0:07:16.20,Main-207-,,0,0,0,,{Ma che vi è preso? - crunchy}Ma che fate, così all'improvviso?{sarebbe la versione letterale -angy}
-Dialogue: 50,0:07:16.56,0:07:18.40,Main-207-,,0,0,0,,C-Chi sei tu?!
-Dialogue: 50,0:07:18.40,0:07:19.16,Main-207-,,0,0,0,,Io?
-Dialogue: 50,0:07:19.70,0:07:23.68,Main-207-,,0,0,0,,{Mi chiamo Monkey D. Luffy.\NPiacere di conoscervi! - crunchy}Sono Monkey D. Luffy. Piacere!{"ore wa xx" è "sono xx". "mi chiamo" sarebbe "(ore no)namae wa xx"-angy}
-Dialogue: 50,0:07:31.01,0:07:33.50,Main-207-,,0,0,0,,{[/q2]Ma cosa... Cos'è appena successo? - crunchy}Ma cosa... cos'è successo?
-Dialogue: 50,0:07:33.50,0:07:35.30,Main-207-,,0,0,0,,{Ma che problema hanno? - crunchy}Che gli è preso?{van bene entrambe abbastanza... -angy}
-Dialogue: 50,0:07:35.90,0:07:36.93,Main-207-,,0,0,0,,{S-Scappa, presto! - crunchy}Veloce, scappi!{ordine -angy}{forse è meglio usare "scappi" per la scelta di dare a Luffy del lei e darebbe più senso a "la uccideranno" a seguire}
-Dialogue: 50,0:07:36.93,0:07:40.01,Main-207-,,0,0,0,,{Se tornano insieme ai\Nloro compagni, sei morto! - crunchy}Se tornano insieme ad altri compagni, la uccideranno!{angy}
-Dialogue: 50,0:07:40.01,0:07:42.40,Main-207-,,0,0,0,,{Io però ho davvero tanta fame... - crunchy}Comunque, ho proprio fame!{del tipo se ne frega altamente di koby, manco lo ascolta -angy}{"io però ho davvero fame" sarebbe migliore come frase per "controbattere" -4eyes}
-Dialogue: 50,0:07:42.40,0:07:45.21,Main-207-,,0,0,0,,{[/q2]Come puoi essere così incosciente?! - crunchy}Come può essere così spensierato?!{"nonki" è proprio spensierato -angy}
-Dialogue: 50,0:07:45.21,0:07:48.50,Main-207-,,0,0,0,,Ce ne sono molti altri sul ponte!
-Dialogue: 50,0:07:48.50,0:07:51.58,Main-207-,,0,0,0,,{Forza! Da questa parte! - crunchy}V-Venga di qua!{non dice forza per niente tipo -angy}
-Dialogue: 50,0:07:51.58,0:07:55.91,Main-207-,,0,0,0,,{D-dai, n-non per di qua! -angy}A-A-Aspetti! Non di qua! {-Tony}{anche aspetta ci può stare, mi pare esprima meglio il concetto dai. Nel senso, dai, non andare di là-angy}
-Dialogue: 50,0:08:00.62,0:08:04.36,Main-207-,,0,0,0,,{Cibo! Cibo! Cibo! Evvai! Cibo! - crunchy}Cibo! Cibo! Cibo! Cibo! Evviva! Cibo!{evviva, evvai, same same, gusti-angy}
-Dialogue: 50,0:08:04.36,0:08:08.59,Main-207-,,0,0,0,,{Però in effetti non credo\Nche ci troveranno qui. - crunchy}{\q2}Però qua dentro{Se stiamo qui}, anche se tornano,\Ndubito che ci troveranno.{più preciso -angy}
-Dialogue: 50,0:08:09.10,0:08:12.55,Main-207-,,0,0,0,,{Quale dovrei scegliere?\NQuesta cassa? Oh, bingo! - crunchy}Quale sceglierò~?\NQuesta cassa? Oh, bingo!{~ per me esprime la spensieratezza di Luffy, dimmi se ti piace-angy}{mi piace molto -Tony}
-Dialogue: 50,0:08:12.55,0:08:14.60,Main-207-,,0,0,0,,{Questi sembrano buonissimi! - crunchy}Sembrano buonissimi!{a quanto pare crunchy pensa che quelli che guardano sono scemi -angy}
-Dialogue: 50,0:08:14.60,0:08:18.60,Main-207-,,0,0,0,,{I-Io sono Koby.\NTu ti chiami Luffy, giusto? - crunchy}I-io mi chiamo Koby.\NLei è il signor Luffy, giusto?{angy}
-Dialogue: 50,0:08:18.60,0:08:21.56,Main-207-,,0,0,0,,{Prima sei stato davvero pazzesco! Come ci sei riuscito?! - crunchy}Prima è stato fantastico! Come ha fatto?
-Dialogue: 50,0:08:22.21,0:08:23.52,Main-207-,,0,0,0,,{Sono davvero buoni! - crunchy}Son proprio buoni questi!{Per una volta che dice questi, crunchy non lo mette-angy}
-Dialogue: 50,0:08:25.09,0:08:26.91,Main-207-,,0,0,0,,Questa è una nave pirata?
-Dialogue: 50,0:08:26.91,0:08:33.91,Main-207-,,0,0,0,,{No, è una nave passeggeri che sta\Nvenendo saccheggiata dal capitano Alvida. - crunchy}No, non questa nave. È una crociera che il capitano Alvida sta attaccando.{nave passeggeri è giusto, solo crociera è più corto e si capisce uguale. "osotteru" è attaccare -angy}
-Dialogue: 50,0:08:33.91,0:08:35.71,Main-207-,,0,0,0,,{Beh, non ha importanza. - crunchy}Beh, non mi importa.{o anche "chi se ne frega", "non mi interessa", ecc-angy}{Meglio Bah, rispecchia di più il menefreghismo di Luffy}
-Dialogue: 50,0:08:35.71,0:08:37.89,Main-207-,,0,0,0,,{Sai se ci sono delle scialuppe a bordo? - crunchy}{Che ci siano scialuppe in questa nave? }{non gli chiede "sai", è una domanda e basta...-angy}Che ci siano delle scialuppe a bordo?{Ci sono scialuppe in questa nave? -4eyes}
-Dialogue: 50,0:08:37.89,0:08:40.20,Main-207-,,0,0,0,,{C-Credo di sì... - crunchy}P-Penso di sì, ma... {kedo è ma... lascia in sospeso... Penso/credo, uguale -angy}
-Dialogue: 50,0:08:40.20,0:08:43.01,Main-207-,,0,0,0,,{La mia nave è stata inghiottita\Nda quel mulinello gigante... - crunchy}{\q2}La mia barca è stata inghiottita da un vortice.{non mi sembrava giusto devinire "nave" la barchetta che stava usando luffy. e oouzu è vortice-angy}{ho solo aggiunto q2 - angy}{metterei inghiottita al posto di divorata -4eyes}
-Dialogue: 50,0:08:43.01,0:08:46.50,Main-207-,,0,0,0,,{[/q2][/i1]Quel[/i0] mulinello?!\NMa nessuno avrebbe potuto sopravvivere! - crunchy}Eh?! Da {\i1}quel{\i0} vortice?\N Normalmente, saresti morto!{"futsuu shinimasuyo" è "normalmente saresti morto", se si trova un alternativa che non sia quella di crunchy meglio -angy}{ci dobbiamo tornare, per ora non mi viene niente -Tony}{non riesco a pensare di meglio, direi di darla buona così - 4eyes}
-Dialogue: 50,0:08:46.50,0:08:49.96,Main-207-,,0,0,0,,{[/q2]Già, mi sono preso un bello spavento! - crunchy}Già! In effetti mi ha proprio sorpreso!{la prima esclamazione di luffy non è proprio traducibile -angy}
-Dialogue: 50,0:08:51.40,0:08:54.05,Main-207-,,0,0,0,,{Fai parte anche tu della ciurma pirata? - crunchy}{\q2}Anche tu fai parte di quella ciurma pirata?{gusti di nuovo, è uguale quasi-angy}
-Dialogue: 50,0:08:58.90,0:09:01.97,Main-207-,,0,0,0,,{\q2}Tutto è cominciato quel fatidico giorno...{non è perfetto, ma ci sta abbastanza anche quello di crunchy -angy}{fatidico non mi suona troppo bene, sarebbe meglio "dannato" -4eyes}
-Dialogue: 50,0:09:02.61,0:09:08.20,Main-207-,,0,0,0,,{[/q2]Quel giorno, sono salito su una barca\Nai margini della città per andare a pescare... - crunchy}{\q2}Quel giorno, volevo andare a pescare e \Nsono andato nella periferia della città...{angy}
-Dialogue: 50,0:09:13.32,0:09:19.79,Main-207-,,0,0,0,,{[/q2]Ma poi è venuto fuori che quella scialuppa\Nera diretta verso una nave pirata. - crunchy}{\q2}ma non so come, sono finito su una \Nscialuppa diretta verso una nave pirata!{la storia è più precisa con quello che ho messo io... probabilmente si può un po' adattare -angy}
-Dialogue: 50,0:09:19.79,0:09:21.49,Main-207-,,0,0,0,,Sono passati due anni da allora...
-Dialogue: 50,0:09:21.49,0:09:25.99,Main-207-,,0,0,0,,{In cambio della mia vita, mi hanno\Ncostretto a lavorare come mozzo. -crunchy}{teoricamente direbbe "in cambio al non uccidermi", ma è meglio l'adattamento in questo caso -angy}{\q2}Mi hanno risparmiato, ma in cambio\Nmi hanno costretto a lavorare come mozzo{Corazon}
-Dialogue: 50,0:09:25.99,0:09:28.40,Main-207-,,0,0,0,,{Certo che sei davvero stupido! - crunchy}{Sei proprio goffo e stupido!}{va bene uguale eh, ma doji è goffo e baka come sanno tutti è stupido -angy}Certo che sei proprio stupido!{ho fatto un mix -Tony}
-Dialogue: 50,0:09:28.40,0:09:30.29,Main-207-,,0,0,0,,E tu sei fin troppo diretto...
-Dialogue: 50,0:09:30.29,0:09:31.84,Main-207-,,0,0,0,,{Se non ti piace stare qui, scappa! - crunchy}Se non ti piace, basta che scappi, no?{stare qui? 1) non lo dice 2) non sono sulla nave pirata...-angy}
-Dialogue: 50,0:09:31.84,0:09:34.30,Main-207-,,0,0,0,,{N-Non posso farlo!\NNon posso! Non posso! - crunchy}{I-impossibile! Impossibile! Impossibile! -angy}{"muri" è impossibile... -angy}{Non ce la farei mai! Impossibile! Impossibile! -Tony}{\q2}S-Sarebbe impossibile! Impossibile! Impossibile!{Tony}
-Dialogue: 50,0:09:34.30,0:09:38.07,Main-207-,,0,0,0,,{[/q2]Il solo pensiero che il capitano Alvida\Nlo scopra mi terrorizza e mi fa tremare le gamb— - crunchy}{Solo pensare che il capitano Alvida mi scopra,\N mi fa tremare le gambe e mi fa paura- - ordine di nuovo, il concetto ovviamente è lo stesso... poi è un po' interrotta la frase alla fine -angy}{\q2}Il solo pensiero che il capitano Alvida \Nlo scopra, mi fa tremare le gambe e mi terror-{Tony}{ho spostato il \N e anche corretto perché stava scritto "lo scoprami" -angy}{ops -Tony}
-Dialogue: 50,0:09:38.39,0:09:41.01,Main-207-,,0,0,0,,{Oh, quindi sei anche un fifone? - crunchy}{Ma dai, quindi sei anche senza coraggio? -angy}{konjo nashi è senza coraggio... -angy}{\q2}Ma dai, quindi sei anche un fifone?{fifone, almeno in italiano, è praticamente un sinonimo, lo terrei -Tony}{per me fifone vuol dire uno che a paura di tutto, non è proprio uguale come concetto nella mia mente, ma vedete voi -angy}
-Dialogue: 50,0:09:41.01,0:09:44.31,Main-207-,,0,0,0,,{Odio i tipi come te! - crunchy}Io ti odio{detesto} proprio!{non amo usare "io", ma in sto caso ci sta perché Luffy lo sottolinea. E dice proprio che odia Koby, non quelli come lui -angy}{Tony ha messo detesto, ma non mi pare troppo una parola da Luffy -angy}{Cora scegli tu tra odio e detesto -Tony}
-Dialogue: 50,0:09:45.47,0:09:48.27,Main-207-,,0,0,0,,{Su, forza!\NSmettetela di battere la fiacca! - crunchy}{Dai, dai! Non battete la fiacca! - siccome dice due volte la stessa parola, per me è meglio "dai dai"-angy}Forza, forza! Non battete la fiacca!{-Tony}
-Dialogue: 50,0:09:48.27,0:09:51.02,Main-207-,,0,0,0,,{[/q2]Portate via tutto prima che arrivi la Marina! - crunchy}{Prima che arrivi la Marina,\Ndovete prendere tutto! -angy}{vanno bene entrambe, solo di nuovo ordine-angy}Prima che arrivi la Marina,\Ndovete ripulire tutto! {libertà creativa, secondo me suonava meglio -Tony}{ok -angy}
-Dialogue: 50,0:09:51.99,0:09:55.95,Main-207-,,0,0,0,,{[/q2]Chiunque sarà sorpreso a bighellonare\Nassaggerà la mia mazza! - crunchy}{\q2}Se sarete sorpresi a bighellonare, \Nassaggerete la mia mazza chiodata!{angy}
-Dialogue: 50,0:09:54.69,0:09:55.95,Secondary-207-,,0,0,0,,{Che colpaccio! - crunchy}{Ce n'è tanto!}{si intente tanto oro... qua abbiamo anche un problema di righe... non so come sia in inglese, volendo possiamo mettere questa riga in alto con an8 -angy}Quanto oro!
-Dialogue: 50,0:10:01.80,0:10:03.08,Main-207-,,0,0,0,,– Capitano Alvida!\N– Capitano Alvida!
-Dialogue: 50,0:10:04.29,0:10:05.75,Main-207-,,0,0,0,,{– C'è un problema!\N– C'è un problema! - crunchy}– È terribile! \N– È terribile!{"taihen" è un po' una parola jolly, è usata in più o meno un miliardo di contesti diversi... sono un po' gusti, va bene anche l'opzione di crunchyroll-angy}
-Dialogue: 50,0:10:05.75,0:10:07.21,Main-207-,,0,0,0,,{[/q2]Di che si tratta?! Mi state disturbando! - crunchy}Che c'è?! Siete fastidiosi!{gli dice che sono fastidiosi in teoria... e per me è meglio "che c'è" di "di che si tratta?" per il tono-angy}
-Dialogue: 50,0:10:07.21,0:10:08.72,Main-207-,,0,0,0,,Un b-b-barile!
-Dialogue: 50,0:10:09.50,0:10:10.53,Main-207-,,0,0,0,,{M-M-Mostro! - crunchy}U-Un mostro!{angy}
-Dialogue: 50,0:10:10.53,0:10:11.46,Main-207-,,0,0,0,,Eh?!
-Dialogue: 50,0:10:13.21,0:10:15.42,Main-207-,,0,0,0,,{[/q2]Chi è che avete appena chiamato "mostro"?! - crunchy}Chi è che sarebbe il mostro?!{no comment per crunchyroll, perché allungare...-angy}
-Dialogue: 50,0:10:22.81,0:10:27.64,Main-207-,,0,0,0,,{N-No... Un tizio strano\Nè sbucato fuori da un barile... -crunchy}{S-si sbaglia... D-dal barile è uscito un tizio strano...}{N-No... Un tizio strano\Nè sbucato fuori da un barile... - "si sbaglia" suona un po' insolente, anche se è quello che dicono -Tony}{a me non piace sostituire si sbaglia con no, ma fate voi -angy}N-Non lei... Un tizio strano\Nè sbucato fuori da un barile...{Corazon}
-Dialogue: 50,0:10:27.64,0:10:31.31,Main-207-,,0,0,0,,Potrebbe essere...\Nun cacciatore di taglie...
-Dialogue: 50,0:10:31.31,0:10:32.94,Main-207-,,0,0,0,,Cosa?!
-Dialogue: 50,0:10:33.90,0:10:37.30,Main-207-,,0,0,0,,Già, proprio così.
-Dialogue: 50,0:10:37.30,0:10:41.49,Main-207-,,0,0,0,,{Se solo avessi il coraggio\Ndi affrontare l'oceano in un barile... - crunchy}{Se solo avessi anch'io il coraggio di affrontare il mare in un barile... - "漂流する" è andare alla deriva, se per caso vuoi essere più letterale -angy}Se solo avessi anch'io il coraggio di andare alla deriva in un barile...{Corazon}
-Dialogue: 50,0:10:41.49,0:10:44.75,Main-207-,,0,0,0,,{[/q2]In effetti c'è una cosa che vorrei fare... - crunchy}{\q2}In realtà, ci sarebbe \Nuna cosa che vorrei fare.{mi piace di più la mia -angy}
-Dialogue: 50,0:10:45.53,0:10:50.29,Main-207-,,0,0,0,,{S-Senti... Cosa ti ha spinto\Na partire per mare, Luffy? - crunchy}E-Ecco, come mai è partito per il mare, signor Luffy?{gli chiede un po' come mai è partito e cosa vorrebbe fare -angy}
-Dialogue: 50,0:10:50.85,0:10:53.09,Main-207-,,0,0,0,,Io... diventerò il Re dei Pirati!
-Dialogue: 50,0:10:55.21,0:10:57.89,Main-207-,,0,0,0,,Il R-R-Re dei Pirati?!
-Dialogue: 50,0:10:57.27,0:10:57.89,Secondary-207-,,0,0,0,,Sì.
-Dialogue: 50,0:10:57.89,0:10:59.50,Main-207-,,0,0,0,,{Dici sul serio?! - crunchy}{È serio?! - angy}Dice sul serio?!{Corazon}
-Dialogue: 50,0:10:58.79,0:10:59.50,Secondary-207-,,0,0,0,,{Già. - crunchy}Sì.{angy}
-Dialogue: 50,0:10:59.50,0:11:02.30,Main-207-,,0,0,0,,{[/q2]Un momento, quindi tu sei un pirata, Luffy?! - crunchy}{\q2}Quindi lei è un pirata, signor Luffy?!
-Dialogue: 50,0:11:02.30,0:11:03.20,Main-207-,,0,0,0,,Sì.
-Dialogue: 50,0:11:03.20,0:11:04.36,Main-207-,,0,0,0,,{E la tua ciurma?!  - crunchy}E i suoi compagni?!{angy}
-Dialogue: 50,0:11:04.36,0:11:06.47,Main-207-,,0,0,0,,{Non ne ho una.\NLa sto appunto cercando. - crunchy}Non ne ho. Sto andando a cercarli.{angy}
-Dialogue: 50,0:11:11.69,0:11:17.24,Main-207-,,0,0,0,,{[/q2]"R-R-Re dei Pirati" è il titolo concesso\Nalla persona che ottiene tutto da questo mondo! - crunchy}{\q2}"R-R-Re dei Pirati" è il titolo concesso a chi\Nottiene tutto ciò che il mondo ha da offrire!{il concetto è quello -angy}{l'ho cambiato per renderlo più simile al discorso della sigla -Tony}
-Dialogue: 50,0:11:17.24,0:11:20.91,Main-207-,,0,0,0,,{[/q2]Ciò significa cercare il grande tesoro\Ndi ricchezza, fama e potere... - crunchy}{Significa puntare al tesoro fatto di ricchezza, fama e potere,}Significa puntare al grande tesoro di ricchezza, fama e potere,
-Dialogue: 50,0:11:20.91,0:11:23.63,Main-207-,,0,0,0,,il One Piece!
-Dialogue: 50,0:11:23.63,0:11:24.50,Main-207-,,0,0,0,,Già!
-Dialogue: 50,0:11:24.50,0:11:28.51,Main-207-,,0,0,0,,"Già"?! Lo stanno cercando\Ni pirati di tutto il mondo!{"Sì"?! Tutti i pirati del mondo lo stanno cercando!}{a scelta-angy}{qua ho scelto cr, tutti i pirati del mondo non è vero, anzi la maggior parte non sono neanche nella Grand Line -Tony}
-Dialogue: 50,0:11:28.51,0:11:29.58,Main-207-,,0,0,0,,{E anch'io! - crunchy}Anch'io!{angy}
-Dialogue: 50,0:11:29.58,0:11:33.41,Main-207-,,0,0,0,,{[/q2]Non è possibile! No, no, no!\NÈ impossibile! Non succederà mai! - crunchy}{\q2}È impossibile! Impossibile! Assolutamente\N impossibile! Certamente impossibile!{ho dovuto tagliare due impossibile perché non ci stanno -angy}
-Dialogue: 50,0:11:33.41,0:11:37.20,Main-207-,,0,0,0,,{[/q2]Non è possibile che tu riesca a raggiungere\Nl'apice di questa Grande Era dei Pirati! - crunchy}{Non è possibile riuscire ad essere il migliore\N in questa Grande Era dei Pirati!}{è più generico qui Koby -angy}{\q2}Non è possibile riuscire a raggiungere\Nl'apice di questa Grande Era dei Pirati!{mix -Tony}
-Dialogue: 50,0:11:37.20,0:11:38.62,Main-207-,,0,0,0,,{Impossibile, impossibile! - crunchy}Impossibile! Impossibile!{angy}
-Dialogue: 50,0:11:40.48,0:11:42.74,Main-207-,,0,0,0,,{Uguale a 19:34}{Perché mi hai colpito? - crunchy}Perché mi ha colpito?{se fosse al tu "perché mi colpisci?", ma con il lei è un po' più difficile-angy}
-Dialogue: 50,0:11:42.74,0:11:44.08,Main-207-,,0,0,0,,{Uguale a 19:36}{Così, tanto per. -crunchy}Perché mi andava.{è un po' difficile spiegare "nantonaku"... è tipo un sentimento di l'ho fatto perché mi sentivo di farlo, non ho un vero motivo -angy}
-Dialogue: 50,0:11:44.80,0:11:47.66,Main-207-,,0,0,0,,{Non fa niente.\NTanto mi ci sono abituato ormai... - crunchy}Ma va bene così... Ci sono abituato.{-angy}{Va bene così, tanto ci sono abituato... -4eyes}
-Dialogue: 50,0:11:51.50,0:11:54.00,Main-207-,,0,0,0,,{Non si tratta di cosa posso o non posso fare. - crunchy}Non è questione di riuscirci o meno.{angy}
-Dialogue: 50,0:11:53.28,0:11:54.00,Secondary-207-,,0,0,0,,Eh?
-Dialogue: 50,0:11:54.00,0:11:55.56,Main-207-,,0,0,0,,{[/q2]Ci riuscirò perché è ciò che voglio. - crunchy}Lo diventerò perché {\i1}voglio{\i0} diventarlo.{lo so che è una ripetizione, ma anche in giapponese lo è "naritai kara naru nda", naru è il verbo diventare, tai è volere diventare, nda è solo una conferma. -angy}
-Dialogue: 50,0:11:58.53,0:12:01.79,Main-207-,,0,0,0,,{\q2}{Ho deciso che diventerò il Re dei Pirati, -crunchy}Ho deciso {\i1}io{\i0} di diventare il Re dei Pirati{mi spiace ma in questo caso l'io è importante. Vuole sottolineare che ha deciso proprio lui -angy}
-Dialogue: 50,0:12:01.79,0:12:05.12,Main-207-,,0,0,0,,{simile a "Le avventure di Koby-Meppo" a 3:20}{perciò, se morirò combattendo\Nper questo sogno, mi sta bene. - crunchy}{Se dovessi combattere e morire provandoci, va bene così.}{sicuramente adattabile, ma non dice del sogno. -angy}{\q2}perciò se morirò combattendo, mi sta bene.{mi piace il discorso un po' più diretto, luffy non è tipo da condizionali -Tony}
-Dialogue: 50,0:12:08.12,0:12:12.30,Main-207-,,0,0,0,,{[/q2]Bene, e adesso... visto che ho la pancia piena,\Nvado a cercarmi una barca! - crunchy}{\q2}Bene. Ora che ho la pancia piena,\Nvado a cercarmi una barca.{dice moratte, che implica che non ha intenzione di rubarla se può -angy}{tanto lo specifica subito dopo -Tony}
-Dialogue: 50,0:12:12.30,0:12:13.89,Main-207-,,0,0,0,,{Chissà se me la daranno... - crunchy}Chissà se chiedendo, me la daranno...{angy}
-Dialogue: 50,0:12:13.89,0:12:16.31,Main-207-,,0,0,0,,Speriamo siano generosi. {Spero siano generosi.}{angy}{ho tenuto il plurale come abbiamo fatto alla fine di Romance Dawn 01 -Tony}
-Dialogue: 50,0:12:17.18,0:12:19.84,Main-207-,,0,0,0,,Non ci avevo mai pensato...
-Dialogue: 50,0:12:21.22,0:12:24.01,Main-207-,,0,0,0,,{[/q2]Quindi credi che anch'io potrei farcela? - crunchy}Chissà se posso riuscirci anch'io...{angy}
-Dialogue: 50,0:12:24.01,0:12:25.90,Main-207-,,0,0,0,,{[/q2]Se fossi pronto a morire per il mio sogno? - crunchy}Se fossi pronto a morire...{questa e la precedente non so perché crunchyroll le allunghi -angy}
-Dialogue: 50,0:12:25.90,0:12:26.89,Main-207-,,0,0,0,,{Fare cosa? - crunchy}Cosa?{angy}
-Dialogue: 50,0:12:27.54,0:12:31.44,Main-207-,,0,0,0,,{Pensi... che persino io potrei\Narruolarmi nella Marina? - crunchy}Uno come me... riuscirà mai\Nad arruolarsi nella Marina?{non chiede a luffy se lo pensa -angy}
-Dialogue: 50,0:12:32.18,0:12:33.08,Main-207-,,0,0,0,,La Marina?
-Dialogue: 50,0:12:33.08,0:12:36.90,Main-207-,,0,0,0,,{\q2}Esatto! Il mio sogno è catturare i cattivi!
-Dialogue: 50,0:12:36.90,0:12:41.00,Main-207-,,0,0,0,,{[/q2]E lo è sin da quando ero bambino!\NPensi che io possa riuscirci?! - crunchy}{È il mio sogno sin da quando ero bambino! Pensa potrei farcela?}{in giapponese ripete sogno -angy}{vabbè -Tony}{\q2}E lo è sin da quando ero bambino!\NPensi che io possa riuscirci? {da qui in poi gli facciamo dare del tu, libertà creativa -Tony}{in teoria non cambia il modo in cui parla, ma ok -angy}
-Dialogue: 50,0:12:41.00,0:12:42.50,Main-207-,,0,0,0,,{E come faccio a saperlo? - crunchy}{Non lo so.}{angy}Non ne ho idea.{-Tony}
-Dialogue: 50,0:12:42.50,0:12:45.68,Main-207-,,0,0,0,,{[/q2]No! Ce la farò! Se vogliono farmi fare\Nil mozzo per il resto della mia vita, - crunchy}{No, lo farò! Piuttosto di essere per sempre un mozzo, -angy}{No! Ce la farò! Piuttosto di fare il mozzo per il resto della mia vita, -Tony}No, lo farò! Piuttosto di essere per sempre un mozzo,  {per i cps -angy}
-Dialogue: 50,0:12:45.68,0:12:50.37,Main-207-,,0,0,0,,{[/q2]allora meglio scappare di qui e poi arrestare\Nil capitano Alvida... anzi, Alvida e basta! - crunchy}{scapperò di qui e catturerò il capitano Al- no, catturerò Alvida! -angy}scapperò di qui e catturerò il capitano Alvid- no, Alvida e basta! {meglio sottolineare alvida e basta, in italiano non passa il concetto di onorifici -Tony}
-Dialogue: 50,0:12:57.05,0:13:02.30,Main-207-,,0,0,0,,{Vuoi fare comunella con lui\Nper arrestare chi, di preciso?! - crunchy}{\q2}Vorresti unirti a lui per\N catturare {\i1}chi{\i0}, di preciso?!{bah, sì può sicuramente scrivere meglio, anche perché catturare x2 -angy}
-Dialogue: 50,0:13:02.30,0:13:05.39,Main-207-,,0,0,0,,Eh, Koby?!
-Dialogue: 50,0:13:23.20,0:13:25.90,Main-207-,,0,0,0,,Non mi sembri proprio\NZoro, il cacciatore di pirati.{\q2}{Non sembri essere\N Zoro, il cacciatore di pirati.}{vanno bene entrambe -angy}
-Dialogue: 50,0:13:26.82,0:13:27.80,Main-207-,,0,0,0,,Zoro?
-Dialogue: 50,0:13:27.80,0:13:29.37,Main-207-,,0,0,0,,Koby!
-Dialogue: 50,0:13:29.37,0:13:33.67,Main-207-,,0,0,0,,{Chi è la più bella di tutti i mari?! - crunchy}Chi è la più bella di questo mare?!{stessa storia di prima, dice questo mare-angy}
-Dialogue: 50,0:13:34.83,0:13:36.79,Main-207-,,0,0,0,,{O-Ovviamente la risposta è- - crunchy}N-Naturalmente, è-{angy}
-Dialogue: 50,0:13:37.45,0:13:39.25,Main-207-,,0,0,0,,{Chi è questa cicciona? - crunchy}Chi è questa vecchia grassona?{non sono troppo una fan, perché ごつい vorrebbe dire robusta, ma Luffy mi sembra abbastanza uno fuori dai denti. Poi la chiama oba-san che viene usato per riferirsi (alla zia e) a donne più vecchie di sè stessi-angy}
-Dialogue: 50,0:13:45.69,0:13:46.56,Main-207-,,0,0,0,,{"Cicciona"? - crunchy}"Grassona"?{angy}
-Dialogue: 50,0:13:46.56,0:13:47.68,Main-207-,,0,0,0,,{Non si mette bene... - crunchy}{Oddio...}{nantekoto è proprio un'esclamazione di stupore... -angy}Lo ha detto davvero...
-Dialogue: 50,0:13:50.47,0:13:53.64,Main-207-,,0,0,0,,{Dannato moscerino! - crunchy}Moccioso!{angy}
-Dialogue: 50,0:13:56.76,0:13:57.56,Main-207-,,0,0,0,,Andiamo!
-Dialogue: 50,0:14:05.82,0:14:07.29,Main-207-,,0,0,0,,Maledetto!{o se ti piace di più bastardo... se fosse inglese, metterei semplicemente "you-!", ma in italiano non si applica bene.-angy}
-Dialogue: 50,0:14:13.87,0:14:15.83,Main-207-,,0,0,0,,{Oplà! - Ops!}{è proprio ops -angy}{non sono sicuro si usi in questo senso in italiano -Tony}{continua a farmi schifo oplà ed è pure sbagliato -angy}{vada per Ops! -4eyes}Ops!{angy}
-Dialogue: 50,0:14:27.63,0:14:30.89,Main-207-,,0,0,0,,{Attaccare alle spalle è scorretto! -crunchy}{Attaccare da dietro è da codardi! -ci stanno entrambi eh -angy}Attaccare alle spalle è da codardi!{Corazon}
-Dialogue: 50,0:14:37.81,0:14:42.48,Main-207-,,0,0,0,,{E pure attaccarmi tutti insieme! - crunchy}{Waah! Anche attaccare tutti insieme è da codardi!}{in jp ripete -angy}{Anche attaccare tutti insieme è scorretto! -Tony}{\q2}Anche attaccare tutti insieme è da codardi!
-Dialogue: 50,0:14:51.85,0:14:52.78,Main-207-,,0,0,0,,{Fregati! - crunchy}Scherzetto~!{di nuovo ~, per me ci sta-angy}{lo adoro -Tony}
-Dialogue: 50,0:14:54.66,0:14:58.64,Main-207-,,0,0,0,,{\fad(150,150)}Gum Gum...
-Dialogue: 50,0:15:01.55,0:15:04.95,Main-207-,,0,0,0,,{\fad(150,150)}Rocket!
-Dialogue: 50,0:15:05.67,0:15:07.42,Main-207-,,0,0,0,,Eh?!
-Dialogue: 50,0:15:12.46,0:15:15.63,Main-207-,,0,0,0,,S-Signor Luffy... ma cosa sei?
-Dialogue: 50,0:15:15.63,0:15:16.22,Main-207-,,0,0,0,,Io?
-Dialogue: 50,0:15:17.07,0:15:18.68,Main-207-,,0,0,0,,Sono un uomo di gomma!
-Dialogue: 50,0:15:19.33,0:15:23.19,Main-207-,,0,0,0,,{Un uomo di gomma?\NNon puoi dire sul serio! - crunchy}Un uomo di gomma? Non può essere...{non so perché crunchy lo rende così energico -angy}
-Dialogue: 50,0:15:26.27,0:15:28.94,Main-207-,,0,0,0,,{[/q2]Hai mangiato un Frutto del Diavolo,\Nnon è così? - crunchy}Tu! Hai mangiato un Frutto del Diavolo, vero?{a me piace di più la mia -angy}
-Dialogue: 50,0:15:29.80,0:15:31.86,Main-207-,,0,0,0,,{Sì! Il frutto Gum Gum. - crunchy}Sì, ho mangiato il Frutto Gum Gum.{non so cosa vogliamo fare con le maiuscole... ditemi voi-angy}
-Dialogue: 50,0:15:31.86,0:15:34.41,Main-207-,,0,0,0,,{[/q2]Oh, quindi sei anche tu un pirata, eh?! - crunchy}Ah sì?! E sei un pirata anche tu?!{angy}
-Dialogue: 50,0:15:34.92,0:15:39.12,Main-207-,,0,0,0,,{Questo significa che io e te\Nsiamo rivali - nemici, o sbaglio? - crunchy}{Allora siamo rivali, giusto? - angy}Allora io e te siamo rivali, giusto?{Corazon}
-Dialogue: 50,0:15:39.72,0:15:42.49,Main-207-,,0,0,0,,{L-Luffy! Andiamocene di qui! - crunchy}S-Signor Luffy, scappiamo!{angy}
-Dialogue: 50,0:15:41.69,0:15:42.49,Secondary-207-,,0,0,0,,Perché?
-Dialogue: 50,0:15:42.49,0:15:44.87,Main-207-,,0,0,0,,{[/q2]Ma l'hai vista la potenza di quella mazza? - crunchy}Hai visto la potenza di quella mazza chiodata?{angy}
-Dialogue: 50,0:15:44.87,0:15:48.09,Main-207-,,0,0,0,,{Questa signora è la più for-}{si interrompe su "tsuyoi" aka forte -angy}{In queste acque, lei è la più- - Tony}In queste acque, lei è la più for-{Corazon}
-Dialogue: 50,0:15:50.30,0:15:53.60,Flashbacks-207-,,0,0,0,,{Ho deciso che diventerò il Re dei Pirati,}{\q2}Ho deciso io di diventare il Re dei Pirati{same as before -angy}
-Dialogue: 50,0:15:53.60,0:15:57.01,Flashbacks-207-,,0,0,0,,{perciò, se morirò combattendo\Nper questo sogno, mi sta bene. - crunchy}{\q2}perciò se morirò combattendo, mi sta bene.{vedi sopra. -angy}
-Dialogue: 50,0:16:00.02,0:16:02.81,Main-207-,,0,0,0,,{Sono la più... cosa?! - crunchy}La più... cosa?{angy}
-Dialogue: 50,0:16:02.81,0:16:05.56,Main-207-,,0,0,0,,L-L-La...
-Dialogue: 50,0:16:06.36,0:16:12.24,Main-207-,,0,0,0,,{[/q2]La più brutta e vecchia strega che esista! - crunchy}La più vecchia e brutta strega{cattiva} che esista!{angy}
-Dialogue: 50,0:16:24.50,0:16:26.08,Main-207-,,0,0,0,,{Che cosa hai detto?! - crunchy}Cos'hai detto?!{ho abbrevviato con cos'hai -angy}
-Dialogue: 50,0:16:26.75,0:16:29.10,Main-207-,,0,0,0,,{Io... Io mi arruolerò nella Marina! - crunchy}I-Io mi arruolerò nella Marina!{teoricamente dice entrerò comunque-angy}
-Dialogue: 50,0:16:29.10,0:16:31.91,Main-207-,,0,0,0,,{E manderò i pirati in galera! - crunchy}{Dopodiché, sconfiggerò i pirati! - letteralmente direbbe che li prenderà a calci-angy}Dopodiché, prenderò a calci i pirati!{Corazon}
-Dialogue: 50,0:16:31.91,0:16:34.60,Main-207-,,0,0,0,,{\q2}Ti rendi conto di cosa stai dicendo?!{Sai quello che stai dicendo?!}{sostanzialmente è uguale il concetto -angy}{Toglierei il Ma -4eyes}
-Dialogue: 50,0:16:34.60,0:16:38.10,Main-207-,,0,0,0,,Sì! Farò ciò che {\i1}voglio{\i0} fare!
-Dialogue: 50,0:16:38.10,0:16:40.10,Main-207-,,0,0,0,,{[/q2]Io... Io mi arruolerò nella Marina... - crunchy}Entrerò in Marina... Entrerò in Marina{lo ripete-angy}
-Dialogue: 50,0:16:40.10,0:16:43.27,Main-207-,,0,0,0,,{e arresterò quel tuo brutto muso! - crunchy}e ti catturerò!{sì gli da del tu qua, non parla pià formale con Alvida -angy}
-Dialogue: 50,0:16:43.27,0:16:45.80,Main-207-,,0,0,0,,Dannato moccioso!
-Dialogue: 50,0:16:45.80,0:16:50.30,Thoughts-207-,,0,0,0,,{\q2}Non ho rimpianti! Non ho rimpianti! L'ho \Ndetto! Mi sono battuto! Per il mio sogno!
-Dialogue: 50,0:16:50.30,0:16:51.40,Main-207-,,0,0,0,,Ben detto!
-Dialogue: 50,0:17:04.00,0:17:05.29,Main-207-,,0,0,0,,{Non funziona con me! - crunchy}Non funziona!
-Dialogue: 50,0:17:05.29,0:17:06.50,Main-207-,,0,0,0,,Cosa?!
-Dialogue: 50,0:17:06.50,0:17:08.04,Main-207-,,0,0,0,,Perché sono di gomma!
-Dialogue: 50,0:17:10.42,0:17:14.37,Main-207-,,0,0,0,,{\fad(150,150)}Gum Gum...
-Dialogue: 50,0:17:15.70,0:17:21.14,Main-207-,,0,0,0,,{\fad(150,150)}Pistol!
-Dialogue: 50,0:17:39.06,0:17:41.91,Main-207-,,0,0,0,,Il cielo è così blu...
-Dialogue: 50,0:17:53.38,0:17:54.49,Main-207-,,0,0,0,,Ehi!
-Dialogue: 50,0:17:54.49,0:17:55.30,Main-207-,,0,0,0,,– Sì?!\N– Sì?!
-Dialogue: 50,0:17:55.64,0:17:58.14,Main-207-,,0,0,0,,Date una scialuppa a Koby!
-Dialogue: 50,0:17:58.14,0:18:01.60,Main-207-,,0,0,0,,{/q2}{Si arruolerà nella Marina.\NChiudete il becco e lasciatelo andare. - Si arruolerà in Marina. Non dite niente e lasciatelo libero. - anche Luffy direbbe "entrerà in marina"-angy}Entrerà in Marina.\NNon dite niente e lasciatelo libero.{Corazon}
-Dialogue: 50,0:18:02.39,0:18:04.06,Main-207-,,0,0,0,,{V-Va bene! - crunchy}– Sissignore!\N– Sissignore!
-Dialogue: 50,0:18:05.81,0:18:07.34,Main-207-,,0,0,0,,Signor Luffy!
-Dialogue: 50,0:18:14.20,0:18:16.39,Main-207-,,0,0,0,,{È la Marina! - crunchy}Quella è la Marina!{are ha... è quella è-angy}
-Dialogue: 50,0:18:16.39,0:18:20.81,Main-207-,,0,0,0,,{Oh, tempismo perfetto!\NDovresti andare da loro! - crunchy}Oh! Che tempismo!\NChe ne dici di andare da loro?{glielo domanda... -angy}
-Dialogue: 50,0:18:20.81,0:18:22.19,Main-207-,,0,0,0,,{Io però sono un pirata, meglio andare! - crunchy}Io però sono un pirata! Scappo!{angy}
-Dialogue: 50,0:18:22.19,0:18:23.30,Main-207-,,0,0,0,,Non dirai sul serio!
-Dialogue: 50,0:18:23.30,0:18:27.32,Main-207-,,0,0,0,,{Non posso mica arruolarmi così!\NMi arresteranno! - crunchy}Se provassi ad arruolarmi ora,\Nmi arresterebbero!{angy}
-Dialogue: 50,0:18:39.80,0:18:42.05,Main-207-,,0,0,0,,{[/q2]A quanto pare siamo riusciti a scappare... - crunchy}{\q2}In qualche modo, siamo riusciti a scappare, eh?{angy}
-Dialogue: 50,0:18:42.05,0:18:45.30,Main-207-,,0,0,0,,{Ahh, è stato davvero divertente! - crunchy}Ah, è stato divertente!{angy}
-Dialogue: 50,0:18:45.30,0:18:47.59,Main-207-,,0,0,0,,{Ehm, Luffy. - crunchy}{Ehm, Signor Luffy? -angy} Ehm, Luffy?{qua ora che ci penso possiamo farlo cambiare da "signor Luffy" a "Luffy", ancora, libertà creativa -Tony}
-Dialogue: 50,0:18:47.59,0:18:52.32,Main-207-,,0,0,0,,{[/q2]Se stai cercando il One Piece, significa\Nche sei diretto verso la Rotta Maggiore, giusto? - crunchy}Se punti al One Piece,\Nandrai nella Grand Line, giusto?{mezasu è puntare, avere come obiettivo -angy}
-Dialogue: 50,0:18:52.32,0:18:52.88,Main-207-,,0,0,0,,Sì.
-Dialogue: 50,0:18:52.88,0:18:56.09,Main-207-,,0,0,0,,{Guarda che la chiamano\Nanche cimitero dei pirati. - crunchy}Quel posto è conosciuto anche\Ncome il "Cimitero dei pirati".{va beh, siamo lì-angy}
-Dialogue: 50,0:18:56.09,0:18:58.90,Main-207-,,0,0,0,,{Lo so. Per questo ho bisogno\Ndi una ciurma forte. - crunchy}Lo so. Per questo mi servono dei compagni forti!{angy}
-Dialogue: 50,0:18:59.41,0:19:02.74,Main-207-,,0,0,0,,{[/q2]Che mi dici di quel cacciatore di pirati?\NChe tipo è? - crunchy}{\q2}Coso, il cacciatore di pirati, che tipo è?{"kaizoku gari no nantoka", Luffy si è dimenticato il nome di Zoro. Per me coso ci sta -angy} {mi piace molto -Tony}{confermo -4eyes}
-Dialogue: 50,0:19:03.31,0:19:08.50,Main-207-,,0,0,0,,{[/q2]Intendi Zoro? Ho sentito che lo tengono\Nprigioniero in una base della Marina. - crunchy}{\q2}Dici Zoro? Ho sentito che al momento \Nè imprigionato in una base della Marina.{angy}
-Dialogue: 50,0:19:08.50,0:19:10.41,Main-207-,,0,0,0,,Ma come, quindi è scarso?
-Dialogue: 50,0:19:10.41,0:19:15.58,Main-207-,,0,0,0,,{[/q2]Niente del genere!\NÈ spaventoso quanto un demone! - crunchy}Assolutamente no! \NÈ temibile quanto un demone!{angy}
-Dialogue: 50,0:19:16.95,0:19:18.84,Main-207-,,0,0,0,,{[/q2]Ma perché mi stai chiedendo di lui? - crunchy}Perché me lo stai chiedendo?
-Dialogue: 50,0:19:19.90,0:19:22.80,Main-207-,,0,0,0,,{[/q2]Pensavo che potrei chiedergli di unirsi\Nalla mia ciurma se è una brava persona! - crunchy}Se è una brava persona, pensavo di prenderlo come compagno.{angy}
-Dialogue: 50,0:19:24.18,0:19:26.30,Main-207-,,0,0,0,,{Ancora più incosciente! - crunchy}Un'altra cosa assurda!{sarebbe avventata, ma assurda si capisce meglio -angy}
-Dialogue: 50,0:19:26.30,0:19:28.21,Main-207-,,0,0,0,,{[/q2]Dai, potrebbe essere una brava persona! - crunchy}{\q2}Potrebbe essere una brava persona, no?!{angy}
-Dialogue: 50,0:19:28.21,0:19:30.41,Main-207-,,0,0,0,,{[/q2]È stato arrestato perché è cattivo! - crunchy}L'hanno catturato perché non lo è!{angy}
-Dialogue: 50,0:19:30.41,0:19:34.35,Main-207-,,0,0,0,,{[/q2]No! Impossibile, impossibile, impossibile!\NNon è assolutamen- - crunchy}È impossibile! Impossibile! Impossibile! Assolutamente imposs-{angy}
-Dialogue: 50,0:19:34.35,0:19:36.61,Main-207-,,0,0,0,,{Perché mi hai colpito? - Uguale a 11:40}Perché mi hai colpito?
-Dialogue: 50,0:19:36.61,0:19:37.73,Main-207-,,0,0,0,,{Così, tanto per!  - Uguale a 11:42}Perché mi andava!{angy}
-Dialogue: 0,0:00:00.44,0:00:02.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Montaggio
-Dialogue: 1,0:00:00.44,0:00:02.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Montaggio
-Dialogue: 0,0:00:00.44,0:00:02.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Feeso\NGalaxy 9000
-Dialogue: 1,0:00:00.44,0:00:02.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Feeso\NGalaxy 9000
-Dialogue: 0,0:00:02.44,0:00:04.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Grafiche
-Dialogue: 1,0:00:02.44,0:00:04.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Grafiche
-Dialogue: 0,0:00:02.44,0:00:04.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Datenshi
-Dialogue: 1,0:00:02.44,0:00:04.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Datenshi
-Dialogue: 0,0:00:04.44,0:00:06.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Soundtracking
-Dialogue: 1,0:00:04.44,0:00:06.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Soundtracking
-Dialogue: 0,0:00:04.44,0:00:06.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Halee
-Dialogue: 1,0:00:04.44,0:00:06.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Halee
-Dialogue: 0,0:00:06.44,0:00:09.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2400,2445,\1a&HFF&)}Controllo qualità
-Dialogue: 1,0:00:06.44,0:00:09.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Controllo qualità
-Dialogue: 0,0:00:06.44,0:00:09.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2400,2445,\1a&HFF&)}Pepperjack\NTheFVGuy
-Dialogue: 1,0:00:06.44,0:00:09.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Pepperjack\NTheFVGuy
-Dialogue: 0,0:00:09.44,0:00:11.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Karaoke
-Dialogue: 1,0:00:09.44,0:00:11.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Karaoke
-Dialogue: 0,0:00:09.44,0:00:11.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}KaitouYahiko
-Dialogue: 1,0:00:09.44,0:00:11.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko
-Dialogue: 0,0:00:11.44,0:00:13.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Timing
-Dialogue: 1,0:00:11.44,0:00:13.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Timing
-Dialogue: 0,0:00:11.44,0:00:13.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}PhosCity
-Dialogue: 1,0:00:11.44,0:00:13.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}PhosCity
-Dialogue: 0,0:00:13.44,0:00:15.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Sottotitoli italiani
-Dialogue: 1,0:00:13.44,0:00:15.44,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Sottotitoli italiani
-Dialogue: 0,0:00:13.44,0:00:15.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Tony\Nangy8\NCorazon\N4eyes
-Dialogue: 1,0:00:13.44,0:00:15.44,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Tony\Nangy8\NCorazon\N4eyes
-Dialogue: 0,0:00:15.44,0:00:17.45,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1410,1455,\1a&HFF&)}Traduzione italiana
-Dialogue: 1,0:00:15.44,0:00:17.45,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Traduzione italiana
-Dialogue: 0,0:00:15.44,0:00:17.45,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1410,1455,\1a&HFF&)}angy8\NCrunchyroll
-Dialogue: 1,0:00:15.44,0:00:17.45,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}angy8\NCrunchyroll
-Dialogue: 0,0:00:17.45,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord3\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1200,1245,\1a&HFF&)}Fonte video
-Dialogue: 1,0:00:17.45,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,90)\fad(600,600)\blur0.6\bord0\4a&HFF&}Fonte video
-Dialogue: 0,0:00:17.45,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1200,1245,\1a&HFF&)}df68
-Dialogue: 1,0:00:17.45,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,136)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}df68
-Dialogue: 0,0:01:50.21,0:01:57.47,Title-207-,,0,0,0,,{\q2\pos(720,702)\fad(1000,1000)\blur0.6\bord2.1\fscx85\fscy85\fsp-2\c&H000000&\1a&HFF&\t(955,1000,\1a&H00&)\t(6260,6305,\1a&HFF&)}Lo chiamano “Luffy Cappello di Paglia”
-Dialogue: 1,0:01:50.21,0:01:57.47,Title-207-,,0,0,0,,{\q2\pos(720,702)\fad(1000,1000)\blur0.6\bord0\fscx85\fscy85\fsp-2\c&HE5E5E6&\4a&HFF&}Lo chiamano “Luffy Cappello di Paglia”
-Dialogue: 0,0:03:14.84,0:03:19.39,Captions-207-,,0,0,0,,{\pos(1006,1051)\fad(480,525)\blur0.5\bord4\fscx140\fscy140\fnDFPGiHi-W7-Strp\fsp2\c&H030705&\3c&H030705&\1a&HFF&\b0\t(435,480,\1a&H00&)\t(4025,4070,\1a&HFF&)}Koby - Mozzo{teoricamente è mozzo della nave pirata}
-Dialogue: 1,0:03:14.84,0:03:19.39,Captions-207-,,0,0,0,,{\pos(1006,1051)\fad(480,525)\blur0.5\bord0\fscx140\fscy140\fnDFPGiHi-W7-Strp\fsp2\c&HE5E7E5&\4a&HFF&\b0}Koby - Mozzo
-Dialogue: 0,0:03:29.48,0:03:34.99,Captions-207-,,0,0,0,,{\q2\pos(720,1058)\fad(480,750)\blur0.5\bord5\fscx110\fscy110\fnDFPGiHi-W7-Strp\fsp2\c&H000000&\1a&HFF&\b0\t(435,480,\1a&H00&)\t(4760,4805,\1a&HFF&)}{\q2}Donna Pirata, Alvida "Mazza Chiodata"
-Dialogue: 1,0:03:29.48,0:03:34.99,Captions-207-,,0,0,0,,{\q2\pos(720,1058)\fad(480,750)\blur0.5\bord0.3\fscx110\fscy110\fnDFPGiHi-W7-Strp\fsp2\c&HE6E6E6&\3c&HE1E5E0&\1a&H00&\4a&HFF&\b0\t(435,480,\1a&H00&)\t(4760,4805,\1a&HFF&)}{\q2}Donna Pirata, Alvida "Mazza Chiodata"
-Dialogue: 2,0:03:29.48,0:03:34.99,Captions-207-,,0,0,0,,{\q2\pos(720,1058)\fad(480,750)\blur0.5\bord0\fscx110\fscy110\fnDFPGiHi-W7-Strp\fsp2\c&HE6E6E6&\4a&HFF&\b0}{\q2}Donna Pirata, Alvida "Mazza Chiodata"
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Il lettore multimediale non supporta il formato dei sottotitoli di questo episodio.\NI sottotitoli probabilmente non funzioneranno correttamente.\NSi prega di utilizzare uno dei lettori video consigliati, preferibilmente mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:50.17,0:02:00.17,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Il lettore multimediale non supporta il formato dei sottotitoli di questo episodio.\NI sottotitoli probabilmente non funzioneranno correttamente.\NSi prega di utilizzare uno dei lettori video consigliati, preferibilmente mpv:\Nhttps://mpv.io
+Dialogue: 50,0:02:02.31,0:02:04.08,Main-207-,,0,0,0,,Caspita...
+Dialogue: 50,0:02:13.11,0:02:14.61,Main-207-,,0,0,0,,Va bene!{eh, usato tipo per caricarsi -angy}
+Dialogue: 50,0:02:17.03,0:02:19.41,Main-207-,,0,0,0,,{Ancora... - nel senso, ha sbagliato di nuovo -angy}Di nuovo...{Cora}
+Dialogue: 50,0:02:19.41,0:02:20.62,Main-207-,,0,0,0,,{\q2\an8\fs70}Nota: Espressione usata nel baseball \Nper dire che il battitore è fuori.
+Dialogue: 50,0:02:19.41,0:02:20.62,Main-207-,,0,0,0,,{\i1}Batter out!{\i0}{lo dice così, è usato pare tipo in baseball per dire che il battitore è fuori, non so se volete tradurre o meno -angy}
+Dialogue: 50,0:02:20.62,0:02:22.25,Main-207-,,0,0,0,,Che stai facendo?{angy}
+Dialogue: 50,0:02:22.25,0:02:23.64,Main-207-,,0,0,0,,Che incapace!{fai schifo -angy}
+Dialogue: 50,0:02:30.88,0:02:32.63,Main-207-,,0,0,0,,È proprio pesante.
+Dialogue: 50,0:02:32.63,0:02:36.34,Main-207-,,0,0,0,,Sembra un barile pieno di liquore!
+Dialogue: 50,0:02:47.31,0:02:49.07,Main-207-,,0,0,0,,Nave dietro di noi, a tribordo!
+Dialogue: 50,0:02:49.40,0:02:51.73,Main-207-,,0,0,0,,Sull'albero sventola un Jolly Roger!
+Dialogue: 50,0:02:51.73,0:02:55.61,Main-207-,,0,0,0,,È una nave pirata!\NAttacco nemico! Attacco nemico!
+Dialogue: 50,0:03:19.39,0:03:20.89,Main-207-,,0,0,0,,Koby!
+Dialogue: 50,0:03:21.14,0:03:22.35,Main-207-,,0,0,0,,{\an8}S-Sì?!
+Dialogue: 50,0:03:22.35,0:03:25.89,Main-207-,,0,0,0,,{\an8}Chi è la più bella di questo mare?
+Dialogue: 50,0:03:25.89,0:03:30.61,Main-207-,,0,0,0,,{\an8}N-Naturalmente, il capitano di \Nquesta nave, la signora Alvida.
+Dialogue: 50,0:03:36.65,0:03:37.82,Main-207-,,0,0,0,,{\an8}Ben detto!
+Dialogue: 50,0:03:37.82,0:03:39.82,Main-207-,,0,0,0,,{\an8}G-Grazie mille!
+Dialogue: 50,0:03:39.82,0:03:42.45,Main-207-,,0,0,0,,{\q2\an8}Capitano Alvida! Finalmente una preda,\N dopo tanto tempo.
+Dialogue: 50,0:03:42.45,0:03:43.54,Main-207-,,0,0,0,,{\an8}Vero!
+Dialogue: 50,0:03:44.04,0:03:46.66,Main-207-,,0,0,0,,{\q2}Bene! \NPreparatevi all'arrembaggio!
+Dialogue: 50,0:03:46.66,0:03:48.89,Main-207-,,0,0,0,,– Sì!\N– Sì!{aggiunta}
+Dialogue: 50,0:04:12.02,0:04:17.32,Main-207-,,0,0,0,,{\q2}Uomini! Mostrategli il terrore della\N donna pirata, Alvida Mazza Chiodata!
+Dialogue: 50,0:04:27.66,0:04:29.92,Main-207-,,0,0,0,,{\q2}Koby! \NChe stai facendo?!
+Dialogue: 50,0:04:29.92,0:04:32.29,Main-207-,,0,0,0,,Q-Queste cose non fanno per me...
+Dialogue: 50,0:04:32.29,0:04:33.54,Main-207-,,0,0,0,,Eh?!{modificata -angy}
+Dialogue: 50,0:04:33.54,0:04:36.21,Main-207-,,0,0,0,,Stai per caso cercando di ribattere?!
+Dialogue: 50,0:04:37.05,0:04:39.97,Main-207-,,0,0,0,,{\q2}L-La prego, non la mazza chiodata...!
+Dialogue: 50,0:04:40.93,0:04:43.60,Main-207-,,0,0,0,,{\q2}Allora vai! Muoviti!
+Dialogue: 50,0:05:04.45,0:05:09.62,Main-207-,,0,0,0,,Non abbiamo intenzione di uccidervi,\Nma ci prenderemo tutto il vostro oro.
+Dialogue: 50,0:05:09.62,0:05:14.42,Main-207-,,0,0,0,,{\q2}Quelli che si opporranno,\N finiranno in fondo all'oceano!
+Dialogue: 50,0:05:14.84,0:05:17.21,Main-207-,,0,0,0,,Salve...
+Dialogue: 50,0:05:18.84,0:05:22.05,Main-207-,,0,0,0,,Qui non c'è nessuno, giusto?
+Dialogue: 50,0:05:22.68,0:05:24.80,Main-207-,,0,0,0,,Meno male...
+Dialogue: 50,0:05:26.89,0:05:29.93,Main-207-,,0,0,0,,È un barile bello grosso...
+Dialogue: 50,0:05:36.32,0:05:37.94,Main-207-,,0,0,0,,Ehi, codardo!
+Dialogue: 50,0:05:37.94,0:05:40.61,Main-207-,,0,0,0,,Ti sei nascosto di nuovo in un posto come questo a perdere tempo?
+Dialogue: 50,0:05:40.61,0:05:44.82,Main-207-,,0,0,0,,{\q2}Vi sbagliate! \NStavo pensando di trasportare questo barile...!
+Dialogue: 50,0:05:45.95,0:05:47.95,Main-207-,,0,0,0,,Ci pensiamo noi ad alleggerirlo!
+Dialogue: 50,0:05:47.95,0:05:49.45,Main-207-,,0,0,0,,Avevo giusto sete!
+Dialogue: 50,0:05:49.45,0:05:52.92,Main-207-,,0,0,0,,Oh no! Se il capitano Alvida \Nlo venisse a sapere, ci ucciderebbe!
+Dialogue: 50,0:05:52.92,0:05:55.67,Main-207-,,0,0,0,,Allora non devi far altro\Nche chiudere il becco!
+Dialogue: 50,0:05:55.67,0:05:57.42,Main-207-,,0,0,0,,Giusto, Koby?
+Dialogue: 50,0:05:57.42,0:06:00.88,Main-207-,,0,0,0,,{\q2}S-Sì! Hai ragione...
+Dialogue: 50,0:06:00.88,0:06:02.17,Main-207-,,0,0,0,,È piuttosto pesante!
+Dialogue: 50,0:06:02.17,0:06:03.34,Main-207-,,0,0,0,,Non vedo l'ora!
+Dialogue: 50,0:06:03.34,0:06:05.47,Main-207-,,0,0,0,,Non preoccuparti, te lo apro subito!{Cora}
+Dialogue: 50,0:06:15.06,0:06:22.65,Main-207-,,0,0,0,,Che bella dormita!
+Dialogue: 50,0:06:25.95,0:06:26.74,Main-207-,,0,0,0,,Ma che...?
+Dialogue: 50,0:06:30.87,0:06:31.70,Main-207-,,0,0,0,,E voi chi siete?
+Dialogue: 50,0:06:31.70,0:06:33.62,Main-207-,,0,0,0,,– Chi diamine sei {\i1}tu{\i0}?!\N– Chi diamine sei {\i1}tu{\i0}?!
+Dialogue: 50,0:06:33.62,0:06:35.63,Main-207-,,0,0,0,,{\q2}Se quello dorme lì, \Nsi prenderà un raffreddore.
+Dialogue: 50,0:06:35.63,0:06:37.46,Main-207-,,0,0,0,,– Ma è colpa tua!\N– Ma è colpa tua!
+Dialogue: 50,0:06:39.13,0:06:43.97,Main-207-,,0,0,0,,Bastardo! Anche se sai che siamo pirati, ci prendi in giro lo stesso?!
+Dialogue: 50,0:06:44.26,0:06:47.93,Main-207-,,0,0,0,,Mi è venuta fame, c'è del cib–
+Dialogue: 50,0:06:45.89,0:06:47.93,Secondary-207-,,0,0,0,,Ascolta quando la gente ti parla!
+Dialogue: 50,0:06:48.30,0:06:50.43,Main-207-,,0,0,0,,Dannato moccioso!
+Dialogue: 50,0:06:52.68,0:06:54.06,Main-207-,,0,0,0,,Die!
+Dialogue: 50,0:07:10.41,0:07:12.50,Main-207-,,0,0,0,,Ma che fate, così all'improvviso?
+Dialogue: 50,0:07:12.83,0:07:14.71,Main-207-,,0,0,0,,C-Chi sei tu?!
+Dialogue: 50,0:07:14.71,0:07:15.46,Main-207-,,0,0,0,,Io?
+Dialogue: 50,0:07:16.00,0:07:19.71,Main-207-,,0,0,0,,{\q2}Sono Monkey D. Luffy! Piacere!
+Dialogue: 50,0:07:27.39,0:07:29.64,Main-207-,,0,0,0,,Ma cosa... cos'è successo?
+Dialogue: 50,0:07:29.64,0:07:31.39,Main-207-,,0,0,0,,Che gli è preso?
+Dialogue: 50,0:07:31.39,0:07:33.02,Main-207-,,0,0,0,,Veloce, scappi!
+Dialogue: 50,0:07:33.02,0:07:36.02,Main-207-,,0,0,0,,Se tornano insieme ad altri compagni, la uccideranno!
+Dialogue: 50,0:07:36.02,0:07:38.02,Main-207-,,0,0,0,,Comunque, ho proprio fame!
+Dialogue: 50,0:07:38.02,0:07:41.02,Main-207-,,0,0,0,,Come può essere così spensierato?!
+Dialogue: 50,0:07:41.02,0:07:44.61,Main-207-,,0,0,0,,Ce ne sono molti altri sul ponte!
+Dialogue: 50,0:07:44.61,0:07:47.36,Main-207-,,0,0,0,,V-Venga di qua!
+Dialogue: 50,0:07:47.36,0:07:48.82,Main-207-,,0,0,0,,A-A-Aspetti!
+Dialogue: 50,0:07:48.82,0:07:51.78,Main-207-,,0,0,0,,Non di qua!
+Dialogue: 50,0:07:56.96,0:08:00.33,Main-207-,,0,0,0,,Cibo! Cibo! Cibo! Cibo! Evviva! Cibo!
+Dialogue: 50,0:08:00.33,0:08:04.67,Main-207-,,0,0,0,,Però qua dentro{Se stiamo qui}, anche se tornano,\Ndubito che ci troveranno.
+Dialogue: 50,0:08:05.21,0:08:08.63,Main-207-,,0,0,0,,Quale sceglierò~?\NQuesta cassa? Oh, bingo!
+Dialogue: 50,0:08:08.63,0:08:10.39,Main-207-,,0,0,0,,Sembrano buonissimi!
+Dialogue: 50,0:08:10.39,0:08:13.01,Main-207-,,0,0,0,,I-Io mi chiamo Koby.
+Dialogue: 50,0:08:13.01,0:08:14.77,Main-207-,,0,0,0,,Lei è il signor Luffy, giusto?
+Dialogue: 50,0:08:14.77,0:08:17.64,Main-207-,,0,0,0,,Prima è stato fantastico! Come ha fatto?
+Dialogue: 50,0:08:18.39,0:08:19.60,Main-207-,,0,0,0,,Son proprio buoni questi!
+Dialogue: 50,0:08:21.23,0:08:22.98,Main-207-,,0,0,0,,Questa è una nave pirata?
+Dialogue: 50,0:08:22.98,0:08:29.95,Main-207-,,0,0,0,,{\q2}No, non questa nave perlomeno. È una \Ncrociera che il capitano Alvida sta attaccando.
+Dialogue: 50,0:08:29.95,0:08:31.74,Main-207-,,0,0,0,,Beh, non mi importa.
+Dialogue: 50,0:08:31.74,0:08:33.95,Main-207-,,0,0,0,,Ci sono delle scialuppe a bordo?
+Dialogue: 50,0:08:33.95,0:08:36.50,Main-207-,,0,0,0,,P-Penso di sì, ma...
+Dialogue: 50,0:08:36.50,0:08:38.96,Main-207-,,0,0,0,,{\q2}La mia barca è stata inghiottita da un vortice.
+Dialogue: 50,0:08:38.96,0:08:42.59,Main-207-,,0,0,0,,Eh?! Da {\i1}quel{\i0} vortice?\N Normalmente, saresti morto!
+Dialogue: 50,0:08:42.59,0:08:46.05,Main-207-,,0,0,0,,Già! In effetti mi ha proprio sorpreso!
+Dialogue: 50,0:08:47.42,0:08:50.43,Main-207-,,0,0,0,,{\q2}Anche tu fai parte di quella ciurma pirata?
+Dialogue: 50,0:08:49.68,0:08:50.43,Secondary-207-,,0,0,0,,{Hm?}Uhm?{Cora}
+Dialogue: 50,0:08:53.89,0:08:56.97,Main-207-,,0,0,0,,{\q2}Tutto è cominciato quel fatidico giorno...
+Dialogue: 50,0:08:57.48,0:09:02.94,Main-207-,,0,0,0,,{\fad(0,485)}{\q2}Quel giorno, volevo andare a pescare e \Nsono andato nella periferia della città...
+Dialogue: 50,0:09:08.32,0:09:14.74,Main-207-,,0,0,0,,{\fad(0,898)}{\q2}ma non so come, sono finito su una \Nscialuppa diretta verso una nave pirata!
+Dialogue: 50,0:09:14.74,0:09:16.62,Main-207-,,0,0,0,,Sono passati due anni da allora...
+Dialogue: 50,0:09:16.62,0:09:20.54,Main-207-,,0,0,0,,{\q2}Mi hanno risparmiato, ma in cambio\Nmi hanno costretto a lavorare come mozzo.
+Dialogue: 50,0:09:21.08,0:09:23.21,Main-207-,,0,0,0,,Certo che sei proprio scemo!
+Dialogue: 50,0:09:23.21,0:09:25.25,Main-207-,,0,0,0,,E tu sei fin troppo diretto...
+Dialogue: 50,0:09:25.25,0:09:26.50,Main-207-,,0,0,0,,{Se non ti piace, basta che scappi, no?}Ma basta che scappi, no?{Cambiato il timing ho dovuto accorciarla -Cora}
+Dialogue: 50,0:09:26.50,0:09:29.30,Main-207-,,0,0,0,,{\q2}S-Sarebbe impossibile! \NImpossibile! Impossibile!
+Dialogue: 50,0:09:29.30,0:09:33.05,Main-207-,,0,0,0,,{\q2}Il solo pensiero che il capitano Alvida lo scopra, \Nmi fa tremare le gambe e mi terror-
+Dialogue: 50,0:09:33.30,0:09:35.93,Main-207-,,0,0,0,,{\q2}Ma dai, quindi sei anche un fifone?
+Dialogue: 50,0:09:35.93,0:09:38.81,Main-207-,,0,0,0,,Io non ti sopporto proprio!
+Dialogue: 50,0:09:40.52,0:09:43.15,Main-207-,,0,0,0,,{\q2}Forza, forza! Non battete la fiacca!
+Dialogue: 50,0:09:43.15,0:09:46.02,Main-207-,,0,0,0,,Prima che arrivi la Marina,\Ndovete ripulire tutto!
+Dialogue: 50,0:09:46.98,0:09:50.95,Main-207-,,0,0,0,,Se sarete sorpresi a battere la fiacca, \Nassaggerete la mia mazza chiodata!
+Dialogue: 50,0:09:49.69,0:09:50.95,Secondary-207-,,0,0,0,,Quanto oro!
+Dialogue: 50,0:09:56.87,0:09:58.08,Main-207-,,0,0,0,,– Capitano Alvida!\N– Capitano Alvida!
+Dialogue: 50,0:09:59.37,0:10:00.04,Main-207-,,0,0,0,,– È terribile! \N– È terribile!
+Dialogue: 50,0:10:00.41,0:10:02.21,Main-207-,,0,0,0,,{\q2}Che c'è?! \NSiete fastidiosi!
+Dialogue: 50,0:10:02.21,0:10:03.62,Main-207-,,0,0,0,,Un b-b-barile!
+Dialogue: 50,0:10:03.62,0:10:05.42,Main-207-,,0,0,0,,U-Un mostro!
+Dialogue: 50,0:10:05.42,0:10:06.46,Main-207-,,0,0,0,,Eh?!
+Dialogue: 50,0:10:08.30,0:10:10.42,Main-207-,,0,0,0,,Chi è che sarebbe il mostro?!
+Dialogue: 50,0:10:17.93,0:10:19.68,Main-207-,,0,0,0,,N-Non lei...
+Dialogue: 50,0:10:19.68,0:10:22.64,Main-207-,,0,0,0,,Un tizio strano è sbucato fuori da un barile...
+Dialogue: 50,0:10:22.64,0:10:26.31,Main-207-,,0,0,0,,Potrebbe essere...\Nun cacciatore di taglie...
+Dialogue: 50,0:10:26.31,0:10:27.94,Main-207-,,0,0,0,,Cosa?!
+Dialogue: 50,0:10:28.98,0:10:30.32,Main-207-,,0,0,0,,Già...
+Dialogue: 50,0:10:30.57,0:10:31.82,Main-207-,,0,0,0,,proprio così.
+Dialogue: 50,0:10:31.82,0:10:36.32,Main-207-,,0,0,0,,Se solo avessi anch'io il coraggio di andare alla deriva in un barile...
+Dialogue: 50,0:10:36.32,0:10:40.33,Main-207-,,0,0,0,,{\q2}In realtà, ci sarebbe \Nuna cosa che vorrei fare.
+Dialogue: 50,0:10:40.33,0:10:44.58,Main-207-,,0,0,0,,E-Ecco, come mai è partito per il mare, signor Luffy? Cosa vuole fare?
+Dialogue: 50,0:10:44.58,0:10:45.29,Main-207-,,0,0,0,,Mmh?
+Dialogue: 50,0:10:45.79,0:10:48.09,Main-207-,,0,0,0,,Io... diventerò il Re dei Pirati!
+Dialogue: 50,0:10:50.21,0:10:52.34,Main-207-,,0,0,0,,Il R-R-Re dei Pirati?!
+Dialogue: 50,0:10:52.34,0:10:52.76,Main-207-,,0,0,0,,Già.
+Dialogue: 50,0:10:52.76,0:10:53.84,Main-207-,,0,0,0,,Dice sul serio?!
+Dialogue: 50,0:10:53.84,0:10:54.47,Main-207-,,0,0,0,,Sì.
+Dialogue: 50,0:10:54.47,0:10:57.26,Main-207-,,0,0,0,,Quindi lei è un pirata, signor Luffy?!
+Dialogue: 50,0:10:57.26,0:10:58.22,Main-207-,,0,0,0,,Già.
+Dialogue: 50,0:10:58.22,0:10:59.10,Main-207-,,0,0,0,,E i suoi compagni?
+Dialogue: 50,0:10:59.10,0:11:01.27,Main-207-,,0,0,0,,{\q2}Non ne ho. \NSto andando a cercarli.
+Dialogue: 50,0:11:05.85,0:11:11.98,Main-207-,,0,0,0,,{\q2}"R-R-Re dei Pirati" è il titolo concesso a chi\Nottiene tutto ciò che il mondo ha da offrire!
+Dialogue: 50,0:11:11.98,0:11:15.91,Main-207-,,0,0,0,,{\q2}Significa puntare a ciò che \Nporta con sé ricchezza, fama e potere,
+Dialogue: 50,0:11:15.91,0:11:18.57,Main-207-,,0,0,0,,{One Piece! - OG}{the One Piece,\Nthe greatest hidden treasure! - arch/Raven}il grande tesoro: il One Piece!{La rivedrei perché gli inglesi non hanno proprio torto a volerla allungare -Cora}
+Dialogue: 50,0:11:18.57,0:11:19.07,Main-207-,,0,0,0,,Già!
+Dialogue: 50,0:11:19.07,0:11:23.54,Main-207-,,0,0,0,,"Già"?! Lo stanno cercando\Ni pirati di tutto il mondo!
+Dialogue: 50,0:11:23.54,0:11:24.58,Main-207-,,0,0,0,,Anch'io!
+Dialogue: 50,0:11:24.58,0:11:28.42,Main-207-,,0,0,0,,{\q2}È impossibile! Impossibile! Assolutamente\N impossibile! Certamente impossibile!
+Dialogue: 50,0:11:28.42,0:11:32.09,Main-207-,,0,0,0,,{\q2}Non è possibile riuscire a raggiungere\Nl'apice di questa Grande Era dei Pirati!
+Dialogue: 50,0:11:32.09,0:11:33.17,Main-207-,,0,0,0,,Impossibile! Impossibile!
+Dialogue: 50,0:11:35.51,0:11:37.64,Main-207-,,0,0,0,,Perché mi ha colpito?
+Dialogue: 50,0:11:37.64,0:11:39.01,Main-207-,,0,0,0,,Perché mi andava.
+Dialogue: 50,0:11:39.76,0:11:42.64,Main-207-,,0,0,0,,{\q2}Ma va bene così... Ci sono abituato.
+Dialogue: 50,0:11:46.23,0:11:48.10,Main-207-,,0,0,0,,Non è questione di riuscirci o meno...
+Dialogue: 50,0:11:48.10,0:11:48.73,Main-207-,,0,0,0,,Eh?
+Dialogue: 50,0:11:48.73,0:11:50.40,Main-207-,,0,0,0,,lo diventerò perché {\i1}voglio{\i0} diventarlo.
+Dialogue: 50,0:11:53.23,0:11:56.74,Main-207-,,0,0,0,,{\q2}Ho deciso {\i1}io{\i0} di diventare il Re dei Pirati...
+Dialogue: 50,0:11:56.74,0:11:59.95,Main-207-,,0,0,0,,{\q2}perciò se morirò combattendo, mi sta bene.
+Dialogue: 50,0:12:02.95,0:12:07.16,Main-207-,,0,0,0,,{\q2}Bene. Ora che ho la pancia piena,\Nvado a cercarmi una barca.
+Dialogue: 50,0:12:07.16,0:12:08.87,Main-207-,,0,0,0,,Chissà se chiedendo, me la daranno...
+Dialogue: 50,0:12:08.87,0:12:11.13,Main-207-,,0,0,0,,Speriamo siano generosi.
+Dialogue: 50,0:12:12.04,0:12:14.67,Main-207-,,0,0,0,,Non ci avevo mai pensato...
+Dialogue: 50,0:12:16.05,0:12:18.26,Main-207-,,0,0,0,,Chissà se posso riuscirci anch'io...
+Dialogue: 50,0:12:19.18,0:12:20.89,Main-207-,,0,0,0,,Se fossi pronto a morire...
+Dialogue: 50,0:12:20.89,0:12:21.72,Main-207-,,0,0,0,,Cosa?
+Dialogue: 50,0:12:22.39,0:12:23.51,Main-207-,,0,0,0,,Uno come me...
+Dialogue: 50,0:12:24.01,0:12:26.14,Main-207-,,0,0,0,,{\q2}riuscirà mai ad arruolarsi nella Marina?
+Dialogue: 50,0:12:27.10,0:12:27.94,Main-207-,,0,0,0,,La Marina?
+Dialogue: 50,0:12:27.94,0:12:31.73,Main-207-,,0,0,0,,{\q2}Esatto! \NIl mio sogno è catturare i cattivi!
+Dialogue: 50,0:12:31.98,0:12:34.19,Main-207-,,0,0,0,,{\q2}E lo è sin da quando ero bambino!
+Dialogue: 50,0:12:34.19,0:12:35.94,Main-207-,,0,0,0,,Pensi che io possa riuscirci?
+Dialogue: 50,0:12:35.94,0:12:37.07,Main-207-,,0,0,0,,Non ne ho idea.
+Dialogue: 50,0:12:37.07,0:12:38.57,Main-207-,,0,0,0,,No, ce la farò!
+Dialogue: 50,0:12:38.57,0:12:42.83,Main-207-,,0,0,0,,{\q2}Piuttosto di essere per sempre un mozzo, \Nscapperò di qui e catturerò il capitano Alvid-
+Dialogue: 50,0:12:42.83,0:12:45.20,Main-207-,,0,0,0,,no, Alvida e basta!
+Dialogue: 50,0:12:52.04,0:12:54.71,Main-207-,,0,0,0,,{\q2}Vorresti unirti a lui...
+Dialogue: 50,0:12:54.71,0:12:57.17,Main-207-,,0,0,0,,per catturare {\i1}chi{\i0}, di preciso?!
+Dialogue: 50,0:12:57.17,0:12:59.93,Main-207-,,0,0,0,,Eh, Koby?!
+Dialogue: 50,0:13:13.90,0:13:16.40,Main-207-,,0,0,0,,{\q2}Non mi sembri proprio\NZoro, il Cacciatore di Pirati.
+Dialogue: 50,0:13:17.40,0:13:18.19,Main-207-,,0,0,0,,Zoro?
+Dialogue: 50,0:13:18.19,0:13:19.86,Main-207-,,0,0,0,,Koby!
+Dialogue: 50,0:13:20.11,0:13:24.12,Main-207-,,0,0,0,,Chi è la più bella di questo mare?!
+Dialogue: 50,0:13:25.33,0:13:27.29,Main-207-,,0,0,0,,N-Naturalmente, è-
+Dialogue: 50,0:13:27.91,0:13:29.75,Main-207-,,0,0,0,,Chi è questa vecchia grassona?
+Dialogue: 50,0:13:36.21,0:13:37.05,Main-207-,,0,0,0,,"Grassona"?
+Dialogue: 50,0:13:37.05,0:13:38.17,Main-207-,,0,0,0,,Lo ha detto davvero...
+Dialogue: 50,0:13:40.97,0:13:44.14,Main-207-,,0,0,0,,Stupido moccioso!
+Dialogue: 50,0:13:47.10,0:13:48.06,Main-207-,,0,0,0,,Andiamo!
+Dialogue: 50,0:13:56.57,0:13:57.69,Main-207-,,0,0,0,,Maledetto!
+Dialogue: 50,0:14:18.38,0:14:21.80,Main-207-,,0,0,0,,Attaccare alle spalle è da codardi!
+Dialogue: 50,0:14:28.93,0:14:32.98,Main-207-,,0,0,0,,{\q2}Anche attaccare tutti insieme è da codardi!
+Dialogue: 50,0:14:42.28,0:14:43.28,Main-207-,,0,0,0,,Scherzetto~!
+Dialogue: 50,0:14:45.16,0:14:50.41,Main-207-,,0,0,0,,{\fad(150,150)}Gum Gum...
+Dialogue: 50,0:14:51.75,0:14:55.25,Main-207-,,0,0,0,,{\fad(150,150)}Rocket!
+Dialogue: 50,0:14:56.17,0:14:57.75,Main-207-,,0,0,0,,Eh?!
+Dialogue: 50,0:15:03.05,0:15:06.26,Main-207-,,0,0,0,,S-Signor Luffy... ma {\i1}cosa{\i0} sei?
+Dialogue: 50,0:15:06.26,0:15:06.72,Main-207-,,0,0,0,,Io?
+Dialogue: 50,0:15:07.51,0:15:09.18,Main-207-,,0,0,0,,Sono un uomo di gomma!
+Dialogue: 50,0:15:09.81,0:15:13.68,Main-207-,,0,0,0,,Un uomo di gomma? Non può essere...
+Dialogue: 50,0:15:16.77,0:15:19.44,Main-207-,,0,0,0,,{\q2}Tu! Hai mangiato un \NFrutto del Diavolo, vero?
+Dialogue: 50,0:15:20.19,0:15:22.28,Main-207-,,0,0,0,,Sì, ho mangiato il Frutto Gum Gum.
+Dialogue: 50,0:15:22.53,0:15:24.28,Main-207-,,0,0,0,,Ah sì?!
+Dialogue: 50,0:15:24.28,0:15:29.49,Main-207-,,0,0,0,,{\q2}Ne avevo sentito parlare, \Nma non pensavo esistessero veramente.{esistesse? secondo me è riferito all'esistenza dei frutti in generale, non solo a quello di luffy -angy}
+Dialogue: 50,0:15:29.83,0:15:32.04,Main-207-,,0,0,0,,Sembri piuttosto abile.
+Dialogue: 50,0:15:32.04,0:15:33.41,Main-207-,,0,0,0,,Sei un cacciatore di taglie?{letterale -angy}
+Dialogue: 50,0:15:33.79,0:15:34.96,Main-207-,,0,0,0,,Sono un pirata!{non evidenzierei "io" qua -angy}
+Dialogue: 50,0:15:34.96,0:15:36.71,Main-207-,,0,0,0,,Un pirata! Ah!{quel "ha" è tipo un po' come "non ci credo mica sai"... -angy}
+Dialogue: 50,0:15:36.71,0:15:37.79,Main-207-,,0,0,0,,Tu, da solo?!{angy}
+Dialogue: 50,0:15:37.79,0:15:41.63,Main-207-,,0,0,0,,{\q2}Prima di tutto, devo trovare dei compagni.{angy}
+Dialogue: 50,0:15:41.63,0:15:44.47,Main-207-,,0,0,0,,Ne vorrei dieci...{per come trascina la voce, per me ... ci sta -angy}
+Dialogue: 50,0:15:44.47,0:15:48.43,Main-207-,,0,0,0,,Allora io e te siamo rivali, giusto?
+Dialogue: 50,0:15:48.43,0:15:50.80,Main-207-,,0,0,0,,Luffy, scappiamo!
+Dialogue: 50,0:15:50.80,0:15:51.31,Main-207-,,0,0,0,,Perché?
+Dialogue: 50,0:15:51.31,0:15:53.47,Main-207-,,0,0,0,,{\q2}Hai visto la potenza di \Nquella mazza chiodata?
+Dialogue: 50,0:15:53.85,0:15:56.69,Main-207-,,0,0,0,,In queste acque, lei è la più for-
+Dialogue: 50,0:15:59.15,0:16:02.90,Flashbacks-207-,,0,0,0,,{\q2}Ho deciso {\i1}io{\i0} di diventare il Re dei Pirati...
+Dialogue: 50,0:16:02.90,0:16:06.07,Flashbacks-207-,,0,0,0,,{\q2}perciò se morirò combattendo, mi sta bene.
+Dialogue: 50,0:16:09.36,0:16:11.87,Main-207-,,0,0,0,,La più... cosa?
+Dialogue: 50,0:16:11.87,0:16:14.62,Main-207-,,0,0,0,,L-L-La...
+Dialogue: 50,0:16:15.50,0:16:21.29,Main-207-,,0,0,0,,{\q2}La più vecchia e brutta strega che esista!
+Dialogue: 50,0:16:32.85,0:16:35.14,Main-207-,,0,0,0,,Cos'è che hai detto?!
+Dialogue: 50,0:16:35.77,0:16:38.14,Main-207-,,0,0,0,,I-Io mi arruolerò nella Marina!
+Dialogue: 50,0:16:38.14,0:16:41.15,Main-207-,,0,0,0,,Dopodiché, prenderò a calci i pirati!
+Dialogue: 50,0:16:41.15,0:16:43.52,Main-207-,,0,0,0,,{\q2}Ti rendi conto di cosa stai dicendo?!
+Dialogue: 50,0:16:43.52,0:16:47.15,Main-207-,,0,0,0,,Sì! Farò ciò che {\i1}voglio{\i0} fare!
+Dialogue: 50,0:16:47.15,0:16:49.15,Main-207-,,0,0,0,,Entrerò in Marina... Entrerò in Marina
+Dialogue: 50,0:16:49.15,0:16:51.82,Main-207-,,0,0,0,,e ti catturerò con le mie mani!
+Dialogue: 50,0:16:51.82,0:16:54.87,Main-207-,,0,0,0,,Dannato moccioso!
+Dialogue: 50,0:16:54.87,0:16:59.37,Thoughts-207-,,0,0,0,,{\q2}Non ho rimpianti! Non ho rimpianti! \NL'ho detto! Mi sono battuto! Per il mio sogno!
+Dialogue: 50,0:16:59.37,0:17:00.46,Main-207-,,0,0,0,,Ben detto!
+Dialogue: 50,0:17:13.01,0:17:14.35,Main-207-,,0,0,0,,Non funziona!
+Dialogue: 50,0:17:14.35,0:17:15.47,Main-207-,,0,0,0,,Cosa?!
+Dialogue: 50,0:17:15.47,0:17:17.10,Main-207-,,0,0,0,,Perché sono di gomma!
+Dialogue: 50,0:17:19.48,0:17:23.73,Main-207-,,0,0,0,,{\fad(150,150)}Gum Gum...
+Dialogue: 50,0:17:24.73,0:17:30.15,Main-207-,,0,0,0,,{\fad(150,150)}Pistol!
+Dialogue: 50,0:17:48.26,0:17:51.17,Main-207-,,0,0,0,,Il cielo è così blu...
+Dialogue: 50,0:18:02.85,0:18:03.52,Main-207-,,0,0,0,,Ehi!
+Dialogue: 50,0:18:03.52,0:18:04.40,Main-207-,,0,0,0,,– Sì?!\N– Sì?!
+Dialogue: 50,0:18:04.40,0:18:07.11,Main-207-,,0,0,0,,Date una scialuppa a Koby!
+Dialogue: 50,0:18:07.11,0:18:09.23,Main-207-,,0,0,0,,Entrerà in Marina.
+Dialogue: 50,0:18:09.23,0:18:10.69,Main-207-,,0,0,0,,Non dite niente e lasciatelo libero.
+Dialogue: 50,0:18:11.45,0:18:13.16,Main-207-,,0,0,0,,– Sissignore!\N– Sissignore!
+Dialogue: 50,0:18:14.87,0:18:16.20,Main-207-,,0,0,0,,Luffy{-san}...!
+Dialogue: 50,0:18:23.21,0:18:25.33,Main-207-,,0,0,0,,Quella è la Marina!
+Dialogue: 50,0:18:25.33,0:18:26.34,Main-207-,,0,0,0,,Oh!
+Dialogue: 50,0:18:26.59,0:18:29.38,Main-207-,,0,0,0,,Che tempismo!\NChe ne dici di andare da loro?
+Dialogue: 50,0:18:29.38,0:18:29.96,Main-207-,,0,0,0,,Eh?!
+Dialogue: 50,0:18:29.96,0:18:31.34,Main-207-,,0,0,0,,{\q2}Io però sono un pirata! Scappo!
+Dialogue: 50,0:18:31.34,0:18:32.34,Main-207-,,0,0,0,,Non dirai sul serio?!
+Dialogue: 50,0:18:32.34,0:18:36.05,Main-207-,,0,0,0,,Se provassi ad arruolarmi ora,\Nmi arresterebbero!
+Dialogue: 50,0:18:48.73,0:18:50.94,Main-207-,,0,0,0,,{\q2}In qualche modo, \Nsiamo riusciti a scappare, eh?
+Dialogue: 50,0:18:50.94,0:18:53.28,Main-207-,,0,0,0,,Aaah, è stato divertente!
+Dialogue: 50,0:18:54.28,0:18:55.66,Main-207-,,0,0,0,,Ehm, Luffy?
+Dialogue: 50,0:18:55.66,0:18:56.41,Main-207-,,0,0,0,,Sì?
+Dialogue: 50,0:18:56.41,0:19:01.20,Main-207-,,0,0,0,,Se punti al One Piece,\Nandrai nella Grand Line, giusto?
+Dialogue: 50,0:19:01.20,0:19:01.79,Main-207-,,0,0,0,,Già.
+Dialogue: 50,0:19:01.79,0:19:04.92,Main-207-,,0,0,0,,Quel posto è conosciuto anche\Ncome il Cimitero dei pirati.
+Dialogue: 50,0:19:04.92,0:19:07.79,Main-207-,,0,0,0,,{\q2}Lo so. Per questo mi \Nservono dei compagni forti!
+Dialogue: 50,0:19:08.25,0:19:10.50,Main-207-,,0,0,0,,{\q2}Coso, il Cacciatore di Pirati...
+Dialogue: 50,0:19:10.50,0:19:11.59,Main-207-,,0,0,0,,che tipo è?
+Dialogue: 50,0:19:12.17,0:19:13.67,Main-207-,,0,0,0,,{\q2}Dici Zoro?
+Dialogue: 50,0:19:13.67,0:19:17.34,Main-207-,,0,0,0,,{\q2}Ho sentito che al momento è \Nimprigionato in una base della Marina.
+Dialogue: 50,0:19:17.34,0:19:19.26,Main-207-,,0,0,0,,{\q2}Ma come? Quindi è scarso?
+Dialogue: 50,0:19:19.26,0:19:20.60,Main-207-,,0,0,0,,Assolutamente no!
+Dialogue: 50,0:19:20.60,0:19:24.39,Main-207-,,0,0,0,,È temibile quanto un demone!
+Dialogue: 50,0:19:25.35,0:19:27.69,Main-207-,,0,0,0,,Perché me lo stai chiedendo?
+Dialogue: 50,0:19:28.69,0:19:31.65,Main-207-,,0,0,0,,{\q2}Se è una brava persona, \Npensavo di prenderlo come compagno.
+Dialogue: 50,0:19:32.98,0:19:35.11,Main-207-,,0,0,0,,Un'altra cosa assurda!
+Dialogue: 50,0:19:35.11,0:19:36.86,Main-207-,,0,0,0,,Potrebbe essere una brava persona, no?!
+Dialogue: 50,0:19:36.86,0:19:39.12,Main-207-,,0,0,0,,{\q2}L'hanno catturato {\i1}proprio{\i0} perché non lo è!
+Dialogue: 50,0:19:39.12,0:19:42.08,Main-207-,,0,0,0,,È impossibile! Impossibile! Impossibile! Assolutamente imposs-
+Dialogue: 50,0:19:43.12,0:19:45.37,Main-207-,,0,0,0,,Perché mi hai colpito?
+Dialogue: 50,0:19:45.37,0:19:46.58,Main-207-,,0,0,0,,Perché mi andava!
+Dialogue: 0,0:01:50.21,0:01:57.47,Title-207-,,0,0,0,,{\q2\blur0.5\fad(984,979)\3c&H1E1E1E&\c&H1E1E1E&\bord2.3\1a&HFF&\t(943,984,\1a&H00&)\t(6281,6323,\1a&HFF&)\pos(720,700)\fscx90\fscy90\fs85}Lo chiamano “Luffy Cappello di Paglia”
+Dialogue: 1,0:01:50.21,0:01:57.47,Title-207-,,0,0,0,,{\q2\blur0.5\fad(984,979)\c&HE7E6E6&\bord0\4a&HFF&\pos(720,700)\fscx90\fscy90\fs85}Lo chiamano “Luffy Cappello di Paglia”
+Dialogue: 0,0:03:20.93,0:03:25.64,Captions-207-,,0,0,0,,{\blur0.7\fad(479,477)\an2\bord3.5\fnDFPGiHi-W7-Strp\fscx60\fscy65\pos(1026,675)\c&H000000&\3c&H000000&\1a&HFF&\t(437,479,\1a&H00&)\t(4233,4275,\1a&HFF&)}Koby - Mozzo
+Dialogue: 2,0:03:20.93,0:03:25.64,Captions-207-,,0,0,0,,{\blur0.7\fad(479,477)\an2\bord0\fnDFPGiHi-W7-Strp\fscx60\fscy65\pos(1026,675)\c&HE7E6E7&\4a&HFF&}Koby - Mozzo
+Dialogue: 0,0:03:35.57,0:03:39.78,Captions-207-,,0,0,0,,{\blur0.7\fad(479,478)\an8\bord4\fnDFPGiHi-W7-Strp\fscx75\fscy80\pos(720,127)\c&H000000&\3c&H000000&\1a&HFF&\t(437,479,\1a&H00&)\t(3732,3774,\1a&HFF&)}Alvida "Mazza Chiodata"\N Donna pirata
+Dialogue: 2,0:03:35.57,0:03:39.78,Captions-207-,,0,0,0,,{\blur0.7\fad(479,478)\an8\bord0\fnDFPGiHi-W7-Strp\fscx75\fscy80\pos(720,127)\c&HE7E6E7&\4a&HFF&}Alvida "Mazza Chiodata"\N Donna pirata
+Dialogue: 0,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord3\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Montaggio
+Dialogue: 1,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord0\4a&HFF&}Montaggio
+Dialogue: 0,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Feeso\NGalaxy 9000
+Dialogue: 1,0:00:01.77,0:00:04.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Feeso\NGalaxy 9000
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Soundtracking
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord0\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Halee
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Halee
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Grafiche
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord0\4a&HFF&}Grafiche
+Dialogue: 0,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Datenshi
+Dialogue: 1,0:00:04.28,0:00:06.78,Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Datenshi
+Dialogue: 0,0:00:06.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,604)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(2896,2938,\1a&HFF&)}Controllo qualità
+Dialogue: 1,0:00:06.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,604)\blur0.6\bord0\4a&HFF&}Controllo qualità
+Dialogue: 0,0:00:06.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,604)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(2896,2938,\1a&HFF&)}Gab\NGol D. Rocks\NPepperjack\NTheFVGuy\NWestfal\NVillager\NZenef
+Dialogue: 1,0:00:06.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,604)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Gab\NGol D. Rocks\NPepperjack\NTheFVGuy\NWestfal\NVillager\NZenef
+Dialogue: 0,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(564,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Karaoke
+Dialogue: 1,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord0\4a&HFF&}Karaoke
+Dialogue: 0,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(564,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}KaitouYahiko
+Dialogue: 1,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(564,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Timing
+Dialogue: 1,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord0\4a&HFF&}Timing
+Dialogue: 0,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(564,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Gab\NPhosCity
+Dialogue: 1,0:00:10.28,0:00:12.78,Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Gab\NPhosCity
+Dialogue: 0,0:00:12.78,0:00:15.29,Credits-207-,,0,0,0,,{\pos(90,225)\fad(608,609)\blur0.6\bord3\c&H000000&\1a&HFF&\t(567,608,\1a&H00&)\t(1901,1943,\1a&HFF&)}Sottotitoli italiani
+Dialogue: 1,0:00:12.78,0:00:15.29,Credits-207-,,0,0,0,,{\pos(90,225)\fad(608,609)\blur0.6\bord0\4a&HFF&}Sottotitoli italiani
+Dialogue: 0,0:00:12.78,0:00:15.29,Credits-207-,,0,0,0,,{\pos(130,270)\fad(608,609)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(567,608,\1a&H00&)\t(1901,1943,\1a&HFF&)}angy8\NCorazon\NTony\N4eyes
+Dialogue: 1,0:00:12.78,0:00:15.29,Credits-207-,,0,0,0,,{\pos(130,270)\fad(608,609)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}angy8\NCorazon\NTony\N4eyes
+Dialogue: 0,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,225)\fad(601,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(559,601,\1a&H00&)}Fonte video
+Dialogue: 1,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,225)\fad(601,0)\blur0.6\bord0\4a&HFF&}Fonte video
+Dialogue: 0,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,270)\fad(601,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(559,601,\1a&H00&)}Neo-Raws
+Dialogue: 1,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,270)\fad(601,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Neo-Raws
+Dialogue: 0,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,350)\fad(601,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(559,601,\1a&H00&)}Traduzione italiana
+Dialogue: 1,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(90,350)\fad(601,0)\blur0.6\bord0\4a&HFF&}Traduzione italiana
+Dialogue: 0,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,395)\fad(601,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(559,601,\1a&H00&)}angy8\NCrunchyroll
+Dialogue: 1,0:00:15.29,0:00:19.25,Credits-207-,,0,0,0,,{\pos(130,395)\fad(601,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}angy8\NCrunchyroll
 Dialogue: 0,0:00:01.52,0:00:03.65,Roger-Monologue,,0,0,0,,{\i1}Ricchezza, fama, potere...
 Dialogue: 0,0:00:03.65,0:00:07.82,Roger-Monologue,,0,0,0,,{\i1\q2}un uomo ottenne tutto ciò che questo mondo\N ha da offrire: il Re dei Pirati, Gold Roger.
 Dialogue: 0,0:00:07.82,0:00:11.66,Roger-Monologue,,0,0,0,,{\i1}Le sue ultime parole spinsero \Npersone da ogni dove verso il mare.
