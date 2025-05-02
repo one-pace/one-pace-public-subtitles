@@ -15,6 +15,7 @@ PlayResY: 1080
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
+Active Line: 4
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,14 +31,16 @@ Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Main-207+,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Main-207+,,0,0,0,,{=44}========================CHAPTERS AND OPENINGS=====================
 Comment: 0,0:00:00.00,0:00:00.02,Main-207+,chptr,0,0,0,,{Part A}
 Comment: 0,0:00:39.81,0:00:39.85,Main-207+,chptr,0,0,0,,{Opening}
 Comment: 0,0:02:09.90,0:02:09.94,Main-207+,chptr,0,0,0,,{Part B}
+Comment: 0,0:30:07.91,0:30:07.95,Main-207+,chptr,0,0,0,,{Ending}
 Comment: 0,0:00:48.36,0:00:48.40,Main-207+,OP,0,0,0,,
+Comment: 0,0:30:34.73,0:30:34.77,Main-207+,ED,0,0,0,,
 Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Der benutzte Mediaplayer unterstützt das in dieser Episode verwendete Untertitelformat nicht.\NDie Untertitel werden wahrscheinlich nicht korrekt angezeigt werden.\NBitte verwende einen der empfohlenen Videoplayer, vorzugsweise mpv:\Nhttps://mpv.io
 Dialogue: 0,0:02:09.90,0:02:19.89,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Der benutzte Mediaplayer unterstützt das in dieser Episode verwendete Untertitelformat nicht.\NDie Untertitel werden wahrscheinlich nicht korrekt angezeigt werden.\NBitte verwende einen der empfohlenen Videoplayer, vorzugsweise mpv:\Nhttps://mpv.io
-Comment: 0,0:00:00.00,0:00:00.00,Main-207+,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Main-207+,,0,0,0,,{=45}========================CHAPTERS AND OPENINGS=====================
 Comment: 0,0:00:00.00,0:00:00.00,Main-207+,,0,0,0,,{=38}===============================DIALOGUE============================
 Dialogue: 0,0:00:02.48,0:00:04.07,Main-207+,,0,0,0,,Stella!
 Dialogue: 0,0:00:04.07,0:00:05.78,Main-207+,,0,0,0,,Bist du hier?
@@ -546,3 +549,5 @@ Data: 40,_aegi_folddata,e0;0;2
 Data: 41,_aegi_folddata,e1;0;2
 Data: 42,_aegi_folddata,e0;0;4
 Data: 43,_aegi_folddata,e1;0;4
+Data: 44,_aegi_folddata,e0;0;1
+Data: 45,_aegi_folddata,e1;0;1
