@@ -39,7 +39,7 @@ fun escapeTitle (title: String) : String {
 
 subs {
   readProperties("sub.properties", "chapter.properties", "title.properties", "publicrepo.properties", "publish.properties")
-  episodes(getList("episodes"))
+  episodes(getList("episodes").get() + getList("extraepisodes").get())
 
   fun getPrefix(): String {
     return when {
