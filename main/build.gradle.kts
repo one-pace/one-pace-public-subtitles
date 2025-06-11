@@ -60,6 +60,7 @@ subs {
   val ptsubs = getPrefix() + "ptsubs"
   val plsubs = getPrefix() + "plsubs"
   val trsubs = getPrefix() + "trsubs"
+  val cssubs = getPrefix() + "cssubs"
   val video = getPrefix() + "video"
   val muxfile = getPrefix() + "muxfile"
   val torrentfile = getPrefix() + "torrentfile"
@@ -73,6 +74,7 @@ subs {
   val mergefile_pl = getPrefix() + "mergefile_pl"
   val mergefile_it = getPrefix() + "mergefile_it"
   val mergefile_tr = getPrefix() + "mergefile_tr"
+  val mergefile_cs = getPrefix() + "mergefile_cs"
 
   val increaseLayer by task<ASS> {
     from(get(ensubs))
@@ -263,6 +265,19 @@ subs {
     }
   }
 
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Czech subs)
+  val increaseLayer_cs by task<ASS> {
+    from(get(cssubs))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+
   // Merge subs with karaoke (German subs)
   val merge_de by task<Merge> {
     from(increaseLayer_de.item())
@@ -413,6 +428,32 @@ subs {
     out(get(mergefile_tr))
   }
 
+  // Merge subs with karaoke (Turkish subs)
+  val merge_cs by task<Merge> {
+    from(increaseLayer_cs.item())
+
+    if (propertyExists("OP_cs") && !propertyExists("noOP")) {
+      from(get("OP_cs")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_cs") && !propertyExists("noED")) {
+      from(get("ED_cs")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get(mergefile_cs))
+  }
+
+
   // Helper task to merge all language subs needing merging and output to Final Subs folder
   val mergeAll by task<DefaultSubTask> {
     dependsOn(merge.item())
@@ -433,6 +474,9 @@ subs {
     }
     if (file(get(trsubs)).exists()) {
       dependsOn(merge_tr.item())
+    }
+    if (file(get(cssubs)).exists()) {
+      dependsOn(merge_cs.item())
     }
   }
 
@@ -635,6 +679,16 @@ subs {
       }
     }
 
+    // Czech Subtitles
+    if (file(get(cssubs)).exists()) {
+      from(merge_cs.item()) {
+        tracks {
+          name("Czech")
+          lang("cs")
+          default(false)
+        }
+      }
+    }
 
     chapters(chapters.item()) {
       lang("eng")
