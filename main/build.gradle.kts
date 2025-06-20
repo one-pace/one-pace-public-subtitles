@@ -61,6 +61,7 @@ subs {
   val plsubs = getPrefix() + "plsubs"
   val trsubs = getPrefix() + "trsubs"
   val cssubs = getPrefix() + "cssubs"
+  val rusubs = getPrefix() + "rusubs"
   val video = getPrefix() + "video"
   val muxfile = getPrefix() + "muxfile"
   val torrentfile = getPrefix() + "torrentfile"
@@ -75,6 +76,7 @@ subs {
   val mergefile_it = getPrefix() + "mergefile_it"
   val mergefile_tr = getPrefix() + "mergefile_tr"
   val mergefile_cs = getPrefix() + "mergefile_cs"
+  val mergefile_ru = getPrefix() + "mergefile_ru"
 
   val increaseLayer by task<ASS> {
     from(get(ensubs))
@@ -278,6 +280,19 @@ subs {
     }
   }
 
+  // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Russian subs)
+  val increaseLayer_ru by task<ASS> {
+    from(get(rusubs))
+
+    ass {
+      events.lines.forEach {
+        if (it.isDialogue ()) {
+          it.layer += 50
+        }
+      }
+    }
+  }
+
   // Merge subs with karaoke (German subs)
   val merge_de by task<Merge> {
     from(increaseLayer_de.item())
@@ -428,7 +443,7 @@ subs {
     out(get(mergefile_tr))
   }
 
-  // Merge subs with karaoke (Turkish subs)
+  // Merge subs with karaoke (Czech subs)
   val merge_cs by task<Merge> {
     from(increaseLayer_cs.item())
 
@@ -451,6 +466,31 @@ subs {
     removeComments(true)
 
     out(get(mergefile_cs))
+  }
+
+  // Merge subs with karaoke (Russian subs)
+  val merge_ru by task<Merge> {
+    from(increaseLayer_ru.item())
+
+    if (propertyExists("OP_ru") && !propertyExists("noOP")) {
+      from(get("OP_ru")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("OP", EventLineAccessor.ACTOR)
+      }
+    }
+    if (propertyExists("ED_ru") && !propertyExists("noED")) {
+      from(get("ED_ru")) {
+        syncSourceLine("sync", EventLineAccessor.ACTOR)
+        syncTargetLine("ED", EventLineAccessor.ACTOR)
+      }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get(mergefile_ru))
   }
 
 
@@ -478,6 +518,9 @@ subs {
     if (file(get(cssubs)).exists()) {
       dependsOn(merge_cs.item())
     }
+    if (file(get(rusubs)).exists()) {
+      dependsOn(merge_ru.item())
+    }
   }
 
   mux {
@@ -498,15 +541,17 @@ subs {
               name("Japanese")
               trackOrder(1)
               default(true)
-            } else if (track.lang == "en") {
+          }
+	  if (track.lang == "en") {
                 name("English")
                 trackOrder(2)
                 default(false)
-            } else if (track.lang == "es") {
+          }
+	  if (track.lang == "es") {
                 name("Spanish")
                 trackOrder(3)
                 default(false)
-              }
+          }
         }
       includeChapters(false)
       attachments { include(false) }
@@ -688,6 +733,21 @@ subs {
           default(false)
         }
       }
+    }
+
+    // Russian Subtitles
+    if (file(get(rusubs)).exists()) {
+      from(merge_ru.item()) {
+        tracks {
+          name("Russian")
+          lang("ru")
+          default(false)
+        }
+      }
+
+     attach(get("rufonts")) {
+       includeExtensions("ttf", "otf")
+     }
     }
 
     chapters(chapters.item()) {
