@@ -52,8 +52,8 @@ subs {
   val ensubs = getPrefix() + "ensubs"
   val en_cc_subs = getPrefix() + "en_cc_subs"
   val frsubs = getPrefix() + "frsubs"
-  val essubs = getPrefix() + "essubs"
-  val esdubsubs = getPrefix() + "esdubsubs"
+  val spsubs = getPrefix() + "spsubs"
+  val spdubsubs = getPrefix() + "spdubsubs"
   val arsubs = getPrefix() + "arsubs"
   val desubs = getPrefix() + "desubs"
   val itsubs = getPrefix() + "itsubs"
@@ -683,8 +683,8 @@ subs {
     }
 
     // Spanish Subtitles
-    if (file(get(essubs)).exists()) {
-      from(get(essubs)) {
+    if (file(get(spsubs)).exists()) {
+      from(get(spsubs)) {
         tracks {
           name("Spanish")
           lang("es")
@@ -692,14 +692,14 @@ subs {
         }
       }
 
-      attach(get("esfonts")) {
+      attach(get("spfonts")) {
         includeExtensions("ttf", "otf")
       }
     }
 
     // Spanish Dub Subtitles
-    if (file(get(esdubsubs)).exists()) {
-      from(get(esdubsubs)) {
+    if (file(get(spdubsubs)).exists()) {
+      from(get(spdubsubs)) {
         tracks {
           name("Spanish Signs and Songs")
           lang("es")
@@ -708,7 +708,7 @@ subs {
         }
       }
 
-      attach(get("esfonts")) {
+      attach(get("spfonts")) {
         includeExtensions("ttf", "otf")
       }
     }
