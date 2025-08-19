@@ -2,7 +2,6 @@ import myaa.subkt.ass.*
 import myaa.subkt.tasks.*
 import myaa.subkt.tasks.Mux.*
 import myaa.subkt.tasks.utils.getMkvInfo
-//import myaa.subkt.tasks.Nyaa.*
 import java.awt.Color
 import java.time.*
 
@@ -35,6 +34,41 @@ fun escapeTitle (title: String) : String {
         return title.replace("\"", "\\\"");
     }
     return title;
+}
+
+fun ASS.createIncreaseLayerTask(subFile: String) {
+    from(get(subFile))
+    ass {
+        events.lines.forEach {
+            if (it.isDialogue()) {
+                it.layer += 50
+            }
+        }
+    }
+}
+
+fun Merge.createMergeKaraokeTask(subFile: TaskProvider<ASS>, openingProp: String, endingProp: String, outputName: String) {
+    from(subFile)
+
+    if (propertyExists(openingProp) && !propertyExists("noOP")) {
+        from(get(openingProp)) {
+            syncSourceLine("sync", EventLineAccessor.ACTOR)
+            syncTargetLine("OP", EventLineAccessor.ACTOR)
+        }
+    }
+    if (propertyExists(endingProp) && !propertyExists("noED")) {
+        from(get(endingProp)) {
+            syncSourceLine("sync", EventLineAccessor.ACTOR)
+            syncTargetLine("ED", EventLineAccessor.ACTOR)
+        }
+    }
+
+    onStyleConflict(ErrorMode.FAIL)
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+
+    out(get(outputName))
 }
 
 subs {
@@ -78,17 +112,7 @@ subs {
     val mergefile_cs = getPrefix() + "mergefile_cs"
     val mergefile_ru = getPrefix() + "mergefile_ru"
 
-    val increaseLayer by task<ASS> {
-        from(get(ensubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
+    val increaseLayer by task<ASS> {createIncreaseLayerTask(ensubs)}
 
     merge {
         from(increaseLayer.item())
@@ -151,173 +175,26 @@ subs {
         from(get(chapter))
     }
 
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (CC subs)
-    val increaseLayer_en_cc by task<ASS> {
-        from(get(en_cc_subs))
+    val increaseLayer_en_cc by task<ASS> {createIncreaseLayerTask(en_cc_subs)} // CC Subs
+    val increaseLayer_de by task<ASS> {createIncreaseLayerTask(desubs)} // German Subs
+    val increaseLayer_pt by task<ASS> {createIncreaseLayerTask(ptsubs)} // Portuguese Subs
+    val increaseLayer_it by task<ASS> {createIncreaseLayerTask(itsubs)} // Italian Subs
+    val increaseLayer_ar by task<ASS> {createIncreaseLayerTask(arsubs)} // Arabic Subs
+    val increaseLayer_pl by task<ASS> {createIncreaseLayerTask(plsubs)} // Polish Subs
+    val increaseLayer_tr by task<ASS> {createIncreaseLayerTask(trsubs)} // Turkish Subs
+    val increaseLayer_cs by task<ASS> {createIncreaseLayerTask(cssubs)} // Czech Subs
+    val increaseLayer_ru by task<ASS> {createIncreaseLayerTask(rusubs)} // Russian Subs
 
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Merge subs with karaoke (CC subs)
-    val merge_en_cc by task<Merge> {
-        from(increaseLayer_en_cc.item())
-
-        if (propertyExists("OP_en_cc") && !propertyExists("noOP")) {
-            from(get("OP_en_cc")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_en_cc") && !propertyExists("noED")) {
-            from(get("ED_en_cc")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_en_cc))
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (German subs)
-    val increaseLayer_de by task<ASS> {
-        from(get(desubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Portuguese subs)
-    val increaseLayer_pt by task<ASS> {
-        from(get(ptsubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Italian subs)
-    val increaseLayer_it by task<ASS> {
-        from(get(itsubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Arabic subs)
-    val increaseLayer_ar by task<ASS> {
-        from(get(arsubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Polish subs)
-    val increaseLayer_pl by task<ASS> {
-        from(get(plsubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Turkish subs)
-    val increaseLayer_tr by task<ASS> {
-        from(get(trsubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Czech subs)
-    val increaseLayer_cs by task<ASS> {
-        from(get(cssubs))
-
-        ass {
-            events.lines.forEach {
-            if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Increase the layer of dialogue lines by 50 to prevent sign overlapping the dialogues (Russian subs)
-    val increaseLayer_ru by task<ASS> {
-        from(get(rusubs))
-
-        ass {
-            events.lines.forEach {
-                if (it.isDialogue ()) {
-                    it.layer += 50
-                }
-            }
-        }
-    }
-
-    // Merge subs with karaoke (German subs)
-    val merge_de by task<Merge> {
-        from(increaseLayer_de.item())
-
-        if (propertyExists("OP_de") && !propertyExists("noOP")) {
-            from(get("OP_de")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_de") && !propertyExists("noED")) {
-            from(get("ED_de")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_de))
-    }
-
+    // Merge subs with karaoke
+    val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
+    val merge_de by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "OP_de", "ED_de", mergefile_de)} // German Subs
+    val merge_pt by task<Merge> {createMergeKaraokeTask(increaseLayer_pt.item(), "OP_pt", "ED_pt", mergefile_pt)} // Portuguese Subs
+    val merge_it by task<Merge> {createMergeKaraokeTask(increaseLayer_it.item(), "OP_it", "ED_it", mergefile_it)} // Italian Subs
+    val merge_ar by task<Merge> {createMergeKaraokeTask(increaseLayer_ar.item(), "OP_ar", "ED_ar", mergefile_ar)} // Arabic Subs
+    val merge_pl by task<Merge> {createMergeKaraokeTask(increaseLayer_pl.item(), "OP_pl", "ED_pl", mergefile_pl)} // Polish Subs
+    val merge_tr by task<Merge> {createMergeKaraokeTask(increaseLayer_tr.item(), "OP_tr", "ED_tr", mergefile_tr)} // Turkish Subs
+    val merge_cs by task<Merge> {createMergeKaraokeTask(increaseLayer_cs.item(), "OP_cs", "ED_cs", mergefile_cs)} // Czech Subs
+    val merge_ru by task<Merge> {createMergeKaraokeTask(increaseLayer_ru.item(), "OP_ru", "ED_ru", mergefile_ru)} // Russian Subs
 
     // Removes all the dialoge lines from German subs
     val dubWithKaraokeDe by task<ASS> {
@@ -341,182 +218,6 @@ subs {
         includeProjectGarbage(false)
         removeComments(true)
     }
-
-    // Merge subs with karaoke (Portuguese subs)
-    val merge_pt by task<Merge> {
-        from(increaseLayer_pt.item())
-
-        if (propertyExists("OP_pt") && !propertyExists("noOP")) {
-            from(get("OP_pt")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_pt") && !propertyExists("noED")) {
-            from(get("ED_pt")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_pt))
-    }
-
-    // Merge subs with karaoke (Italian subs)
-    val merge_it by task<Merge> {
-        from(increaseLayer_it.item())
-
-        if (propertyExists("OP_it") && !propertyExists("noOP")) {
-            from(get("OP_it")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_it") && !propertyExists("noED")) {
-            from(get("ED_it")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_it))
-    }
-
-    // Merge subs with karaoke (Arabic subs)
-    val merge_ar by task<Merge> {
-        from(increaseLayer_ar.item())
-
-        if (propertyExists("OP_ar") && !propertyExists("noOP")) {
-            from(get("OP_ar")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_ar") && !propertyExists("noED")) {
-            from(get("ED_ar")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_ar))
-    }
-
-    // Merge subs with karaoke (Polish subs)
-    val merge_pl by task<Merge> {
-        from(increaseLayer_pl.item())
-
-        if (propertyExists("OP_pl") && !propertyExists("noOP")) {
-            from(get("OP_pl")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_pl") && !propertyExists("noED")) {
-            from(get("ED_pl")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_pl))
-    }
-
-    // Merge subs with karaoke (Turkish subs)
-    val merge_tr by task<Merge> {
-        from(increaseLayer_tr.item())
-
-        if (propertyExists("OP_tr") && !propertyExists("noOP")) {
-            from(get("OP_tr")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_tr") && !propertyExists("noED")) {
-            from(get("ED_tr")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_tr))
-    }
-
-    // Merge subs with karaoke (Czech subs)
-    val merge_cs by task<Merge> {
-        from(increaseLayer_cs.item())
-
-        if (propertyExists("OP_cs") && !propertyExists("noOP")) {
-            from(get("OP_cs")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_cs") && !propertyExists("noED")) {
-            from(get("ED_cs")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_cs))
-    }
-
-    // Merge subs with karaoke (Russian subs)
-    val merge_ru by task<Merge> {
-        from(increaseLayer_ru.item())
-
-        if (propertyExists("OP_ru") && !propertyExists("noOP")) {
-            from(get("OP_ru")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("OP", EventLineAccessor.ACTOR)
-            }
-        }
-        if (propertyExists("ED_ru") && !propertyExists("noED")) {
-            from(get("ED_ru")) {
-                syncSourceLine("sync", EventLineAccessor.ACTOR)
-                syncTargetLine("ED", EventLineAccessor.ACTOR)
-            }
-        }
-
-        onStyleConflict(ErrorMode.FAIL)
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
-
-        out(get(mergefile_ru))
-    }
-
 
     // Helper task to merge all language subs needing merging and output to Final Subs folder
     val mergeAll by task<DefaultSubTask> {
