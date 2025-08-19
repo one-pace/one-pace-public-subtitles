@@ -318,6 +318,29 @@ subs {
     out(get(mergefile_de))
   }
 
+  // Removes all the dialoge lines from German subs
+  val dubWithKaraokeDe by task<ASS> {
+    from(merge_de.item())
+    ass {
+      events.lines.removeIf {
+        it.isDialogue ()
+      }
+    }
+  }
+
+  // Removes all the dialoge and karaoke lines from English subs
+  val dubWithoutKaraokeDe by task<ASS> {
+    from(get(desubs))
+    ass {
+      events.lines.removeIf {
+        it.isDialogue ()
+      }
+    }
+    includeExtraData(false)
+    includeProjectGarbage(false)
+    removeComments(true)
+  }
+
   // Merge subs with karaoke (Portuguese subs)
   val merge_pt by task<Merge> {
     from(increaseLayer_pt.item())
@@ -537,32 +560,31 @@ subs {
         trackOrder(0)
       }
       audio {
+          if (audio().size == 1 && track.lang != "jpn") {
+            throw GradleException("Japanese audio not found!")
+          }
           if (track.lang == "jpn") {
               name("Japanese")
               trackOrder(1)
               default(true)
+          } else if (track.lang == "eng") {
+              name("English")
+              trackOrder(2)
+              default(false)
+          } else if (track.lang == "spa") {
+              name("Spanish Dub")
+              val track_order = if (audio().size > 2) 3 else 2
+              trackOrder(track_order)
+              default(false)
+          } else if (track.lang == "ger") {
+              name("German Dub")
+              val track_order = if (audio().size > 3) 4 else if (audio().size > 2) 3 else 2
+              trackOrder(track_order)
+              default(false)
           }
-	  if (track.lang == "en") {
-                name("English")
-                trackOrder(2)
-                default(false)
-          }
-	  if (track.lang == "es") {
-                name("Spanish")
-                trackOrder(3)
-                default(false)
-          }
-        }
       includeChapters(false)
       attachments { include(false) }
       subtitles { include(false) }
-    }
-
-    from(merge.item()) {
-      tracks {
-        name("English")
-        lang("eng")
-        default(true)
       }
     }
 
@@ -576,6 +598,27 @@ subs {
         }
       }
     }
+
+    // Add german audio if it exists
+    if (file(get("deaudio")).exists()) {
+      from(get("deaudio")) {
+        tracks {
+          name("German Dub")
+          lang("de")
+          default(false)
+        }
+      }
+    }
+
+    // English Subtitle
+    from(merge.item()) {
+      tracks {
+        name("English")
+        lang("eng")
+        default(true)
+      }
+    }
+
 
     // Signs and Songs subtitle for English Dub if English dub exists
     val mkvInfo = getMkvInfo(file(get(video)))
@@ -658,6 +701,25 @@ subs {
           default(false)
         }
       }
+    }
+
+    // German Dub Subtitles
+    if (file(get("deaudio")).exists()) {
+      val signsSongsTaskDe =
+        if (propertyExists("removekaraokede"))
+          dubWithoutKaraokeDe
+        else
+          dubWithKaraokeDe
+
+      from(signsSongsTaskDe.item()) {
+          tracks {
+            name("German Dub")
+            lang("de")
+            default(false)
+            forced(true)
+          }
+      }
+
     }
 
     // Italian Subtitles
