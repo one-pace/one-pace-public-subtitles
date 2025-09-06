@@ -84,7 +84,7 @@ subs {
     }
 
     val ensubs = getPrefix() + "ensubs"
-    val en_cc_subs = getPrefix() + "en_cc_subs"
+    // val en_cc_subs = getPrefix() + "en_cc_subs"
     val frsubs = getPrefix() + "frsubs"
     val essubs = getPrefix() + "essubs"
     val esdubsubs = getPrefix() + "esdubsubs"
@@ -103,7 +103,7 @@ subs {
 
     val mergefile = getPrefix() + "mergefile"
     val mergefile_ar = getPrefix() + "mergefile_ar"
-    val mergefile_en_cc = getPrefix() + "mergefile_en_cc"
+    // val mergefile_en_cc = getPrefix() + "mergefile_en_cc"
     val mergefile_de = getPrefix() + "mergefile_de"
     val mergefile_pt = getPrefix() + "mergefile_pt"
     val mergefile_pl = getPrefix() + "mergefile_pl"
@@ -175,7 +175,7 @@ subs {
         from(get(chapter))
     }
 
-    val increaseLayer_en_cc by task<ASS> {createIncreaseLayerTask(en_cc_subs)} // CC Subs
+    // val increaseLayer_en_cc by task<ASS> {createIncreaseLayerTask(en_cc_subs)} // CC Subs
     val increaseLayer_de by task<ASS> {createIncreaseLayerTask(desubs)} // German Subs
     val increaseLayer_pt by task<ASS> {createIncreaseLayerTask(ptsubs)} // Portuguese Subs
     val increaseLayer_it by task<ASS> {createIncreaseLayerTask(itsubs)} // Italian Subs
@@ -186,7 +186,7 @@ subs {
     val increaseLayer_ru by task<ASS> {createIncreaseLayerTask(rusubs)} // Russian Subs
 
     // Merge subs with karaoke
-    val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
+    // val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
     val merge_de by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "OP_de", "ED_de", mergefile_de)} // German Subs
     val merge_pt by task<Merge> {createMergeKaraokeTask(increaseLayer_pt.item(), "OP_pt", "ED_pt", mergefile_pt)} // Portuguese Subs
     val merge_it by task<Merge> {createMergeKaraokeTask(increaseLayer_it.item(), "OP_it", "ED_it", mergefile_it)} // Italian Subs
@@ -341,15 +341,15 @@ subs {
             }
 
             // CC Subtitles
-            if (file(get(en_cc_subs)).exists()) {
-                from(merge_en_cc.item()) {
-                    tracks {
-                        name("CC")
-                        lang("eng")
-                        default(false)
-                    }
-                }
-            }
+            // if (file(get(en_cc_subs)).exists()) {
+            //     from(merge_en_cc.item()) {
+            //         tracks {
+            //             name("CC")
+            //             lang("eng")
+            //             default(false)
+            //         }
+            //     }
+            // }
 
         }
 
