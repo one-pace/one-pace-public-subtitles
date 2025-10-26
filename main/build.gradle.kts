@@ -36,6 +36,12 @@ fun escapeTitle (title: String) : String {
     return title;
 }
 
+// replace pattern: "{*}Hatchan{*Okta}" with "Okta"
+fun swapTerms(line: String): String {
+    val regex = Regex("""\{\*\}([^*]+)\{\*([^*]+)\}""")
+    return regex.replace(line, "$2")
+}
+
 fun ASS.createIncreaseLayerTask(subFile: String) {
     from(get(subFile))
     ass {
@@ -105,6 +111,7 @@ subs {
     val mergefile_ar = getPrefix() + "mergefile_ar"
     // val mergefile_en_cc = getPrefix() + "mergefile_en_cc"
     val mergefile_de = getPrefix() + "mergefile_de"
+    val mergefile_de_dub = getPrefix() + "mergefile_de_dub"
     val mergefile_pt = getPrefix() + "mergefile_pt"
     val mergefile_pl = getPrefix() + "mergefile_pl"
     val mergefile_it = getPrefix() + "mergefile_it"
@@ -188,6 +195,7 @@ subs {
     // Merge subs with karaoke
     // val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
     val merge_de by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "OP_de", "ED_de", mergefile_de)} // German Subs
+    val merge_de_no_op by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "noOp", "ED_de", mergefile_de_dub)} // German Subs without OP
     val merge_pt by task<Merge> {createMergeKaraokeTask(increaseLayer_pt.item(), "OP_pt", "ED_pt", mergefile_pt)} // Portuguese Subs
     val merge_it by task<Merge> {createMergeKaraokeTask(increaseLayer_it.item(), "OP_it", "ED_it", mergefile_it)} // Italian Subs
     val merge_ar by task<Merge> {createMergeKaraokeTask(increaseLayer_ar.item(), "OP_ar", "ED_ar", mergefile_ar)} // Arabic Subs
@@ -196,27 +204,27 @@ subs {
     val merge_cs by task<Merge> {createMergeKaraokeTask(increaseLayer_cs.item(), "OP_cs", "ED_cs", mergefile_cs)} // Czech Subs
     val merge_ru by task<Merge> {createMergeKaraokeTask(increaseLayer_ru.item(), "OP_ru", "ED_ru", mergefile_ru)} // Russian Subs
 
-    // Removes all the dialoge lines from German subs
-    val dubWithKaraokeDe by task<ASS> {
-        from(merge_de.item())
-            ass {
-                events.lines.removeIf {
-                    it.isDialogue ()
-            }
+    // Removes all the dialoge lines and opening karaoke lines (if "removekaraokede" is set) from German subs 
+    val signsSongsTaskDe by task<ASS> {
+        val source = if (propertyExists("removekaraokede")) {
+            merge_de_no_op.item()
+        } else {
+            merge_de.item()
         }
-    }
+        from(source)
 
-    // Removes all the dialoge and karaoke lines from German subs
-    val dubWithoutKaraokeDe by task<ASS> {
-        from(get(desubs))
         ass {
-            events.lines.removeIf {
-                it.isDialogue ()
+            events.lines.removeIf { line ->
+                // Keeps Dialogue line if "de_dub_keep" set in Effect
+                line.isDialogue() && !line.effect.trim().equals("de_dub_keep")
+            }
+
+            events.lines.forEach { line ->
+                line.text = swapTerms(line.text)
             }
         }
-        includeExtraData(false)
-        includeProjectGarbage(false)
-        removeComments(true)
+
+        out(get(mergefile_de_dub))
     }
 
     // Helper task to merge all language subs needing merging and output to Final Subs folder
@@ -407,12 +415,6 @@ subs {
 
         // German Dub Subtitles
         if (file(get("deaudio")).exists()) {
-            val signsSongsTaskDe =
-            if (propertyExists("removekaraokede"))
-            dubWithoutKaraokeDe
-            else
-            dubWithKaraokeDe
-
             from(signsSongsTaskDe.item()) {
                 tracks {
                     name("German Dub")
