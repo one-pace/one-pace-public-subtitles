@@ -1,9 +1,10 @@
 name: Merge with SubKt and upload merged subs
 
 on:
-  push:
-    branches:
-      # - main
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
 
 defaults:
   run:
