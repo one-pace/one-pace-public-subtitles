@@ -308,9 +308,11 @@ subs {
                 }
             }
         }
-
+        
+        val mkvInfo = getMkvInfo(file(get(video)))
+        val hasGermanAudioInVideo = mkvInfo.audio_tracks.any { it.properties?.language == "ger" }
         // Add german audio if it exists
-        if (file(get("deaudio")).exists()) {
+        if (file(get("deaudio")).exists() && !hasGermanAudioInVideo) {
             from(get("deaudio")) {
                 tracks {
                     name("German Dub")
@@ -331,7 +333,6 @@ subs {
 
 
         // Signs and Songs subtitle for English Dub if English dub exists
-        val mkvInfo = getMkvInfo(file(get(video)))
         if (mkvInfo.audio_tracks.size > 1) {
             val signsSongsTask =
             if (propertyExists("removekaraoke"))
@@ -413,7 +414,6 @@ subs {
             }
         }
 
-        val hasGermanAudioInVideo = mkvInfo.audio_tracks.any { it.properties?.language == "ger" }
         // German Dub Subtitles
         if (file(get("deaudio")).exists() || hasGermanAudioInVideo) {
             from(signsSongsTaskDe.item()) {
