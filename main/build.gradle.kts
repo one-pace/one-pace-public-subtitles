@@ -413,8 +413,9 @@ subs {
             }
         }
 
+        val hasGermanAudioInVideo = mkvInfo.audio_tracks.any { it.properties?.language == "ger" }
         // German Dub Subtitles
-        if (file(get("deaudio")).exists()) {
+        if (file(get("deaudio")).exists() || hasGermanAudioInVideo) {
             from(signsSongsTaskDe.item()) {
                 tracks {
                     name("German Dub")
