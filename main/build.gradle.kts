@@ -38,7 +38,7 @@ fun escapeTitle (title: String) : String {
 
 // replace pattern: "{*}Hatchan{*Okta}" with "Okta"
 fun swapTerms(line: String): String {
-    val regex = Regex("""\{\*\}([^*]+)\{\*([^*]+)\}""")
+    val regex = Regex("""\{\*de_dub\}([^*]+)\{\*([^*]+)\}""")
     return regex.replace(line, "$2")
 }
 
