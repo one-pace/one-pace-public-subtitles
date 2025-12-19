@@ -103,6 +103,7 @@ subs {
     val cssubs = getPrefix() + "cssubs"
     val rusubs = getPrefix() + "rusubs"
     val fisubs = getPrefix() + "fisubs"
+    val hesubs = getPrefix() + "hesubs"
     val video = getPrefix() + "video"
     val muxfile = getPrefix() + "muxfile"
     val torrentfile = getPrefix() + "torrentfile"
@@ -120,6 +121,7 @@ subs {
     val mergefile_cs = getPrefix() + "mergefile_cs"
     val mergefile_ru = getPrefix() + "mergefile_ru"
     val mergefile_fi = getPrefix() + "mergefile_fi"
+    val mergefile_he = getPrefix() + "mergefile_he"
 
     val increaseLayer by task<ASS> {createIncreaseLayerTask(ensubs)}
 
@@ -194,6 +196,7 @@ subs {
     val increaseLayer_cs by task<ASS> {createIncreaseLayerTask(cssubs)} // Czech Subs
     val increaseLayer_ru by task<ASS> {createIncreaseLayerTask(rusubs)} // Russian Subs
     val increaseLayer_fi by task<ASS> {createIncreaseLayerTask(fisubs)} // Finnish Subs
+    val increaseLayer_he by task<ASS> {createIncreaseLayerTask(hesubs)} // Hebrew Subs
 
     // Merge subs with karaoke
     // val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
@@ -207,6 +210,7 @@ subs {
     val merge_cs by task<Merge> {createMergeKaraokeTask(increaseLayer_cs.item(), "OP_cs", "ED_cs", mergefile_cs)} // Czech Subs
     val merge_ru by task<Merge> {createMergeKaraokeTask(increaseLayer_ru.item(), "OP_ru", "ED_ru", mergefile_ru)} // Russian Subs
     val merge_fi by task<Merge> {createMergeKaraokeTask(increaseLayer_fi.item(), "OP_fi", "ED_fi", mergefile_fi)} // Finnish Subs
+    val merge_he by task<Merge> {createMergeKaraokeTask(increaseLayer_he.item(), "OP_he", "ED_he", mergefile_he)} // Hebrew Subs
 
     // Removes all the dialoge lines and opening karaoke lines (if "removekaraokede" is set) from German subs 
     val signsSongsTaskDe by task<ASS> {
@@ -260,6 +264,9 @@ subs {
         }
         if (file(get(fisubs)).exists()) {
             dependsOn(merge_fi.item())
+        }
+        if (file(get(hesubs)).exists()) {
+            dependsOn(merge_he.item())
         }
     }
 
@@ -532,6 +539,21 @@ subs {
                     lang("fi")
                     default(false)
                 }
+            }
+        }
+
+        // Hebrew Subtitles
+        if (file(get(hesubs)).exists()) {
+            from(merge_he.item()) {
+                tracks {
+                    name("Hebrew")
+                    lang("he")
+                    default(false)
+                }
+            }
+
+            attach(get("hefonts")) {
+                includeExtensions("ttf", "otf")
             }
         }
 
