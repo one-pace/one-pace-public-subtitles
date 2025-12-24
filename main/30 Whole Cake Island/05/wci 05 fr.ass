@@ -12,20 +12,18 @@ PlayResY: 720
 [Aegisub Project Garbage]
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 1430
-Active Line: 1438
-Video Position: 45768
+Video Zoom Percent: 0.625000
+Active Line: 397
+Video Position: 26643
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Main,Impress BT,55,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.5,2.5,2,120,120,18,1
-Style: Flashbacks,Impress BT,55,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,2.5,2.5,2,120,120,18,1
-Style: Captions,Roboto,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,11,1
+Style: Main,Impress BT,50,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.2,2.2,2,120,120,45,1
+Style: Flashbacks,Impress BT,50,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,2.2,2.2,2,120,120,45,1
+Style: Captions,Fixedsys,39,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
 Style: Title,Agency FB,69,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.5,0,1,2,0,2,10,10,10,1
-Style: Narrator,Impress BT,56,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,2.5,2.5,8,120,120,18,1
+Style: Narrator,Impress BT,50,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,2.2,2.2,8,120,120,36,1
 Style: Credits,FOT-Greco Std B,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,95,100,1,0,1,2.2,0,7,10,10,10,1
-Style: Special-Captions,Times New Roman,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
 Style: Note,Impress BT,38,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,2.5,2.5,8,120,120,18,1
 Style: Foret,Agency FB,83,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.5,0,1,2,0,2,10,10,10,1
 Style: OP19-Credits,FOT-Greco Std B,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,95,100,1,0,1,2.2,0,1,80,10,100,1
@@ -34,32 +32,441 @@ Style: Karaoke,Duality,55,&H0098594E,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,10
 Style: Kanji,Duality,55,&H0098594E,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,100,1
 Style: Kanji-furigana,Duality,27.5,&H0098594E,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,80,1
 Style: Karaoke-furigana,Duality,27.5,&H0098594E,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
-Style: Lyrics-OP19,Kozuka Mincho Pro H,38,&H00FFFFFF,&H00FFFFFF,&H00030303,&H00000000,0,0,0,0,110,100,1,0,1,2.25,0,2,22,22,18,1
+Style: Lyrics-OP19,Kozuka Mincho Pro H,33,&H00FFFFFF,&H00FFFFFF,&H00030303,&H00000000,0,0,0,0,110,100,1,0,1,2.1,0,2,22,22,22,1
+Style: Secondary,Impress BT,50,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.2,2.2,2,120,120,45,1
+Style: Thoughts,Impress BT,50,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,2.2,2.2,2,120,120,45,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:00.58,0:00:03.43,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Je n'ai pas encore vu les confins
-Dialogue: 1,0:00:03.40,0:00:06.45,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}De notre monde de mes propres yeux
-Dialogue: 1,0:00:06.80,0:00:13.53,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}C'est pourquoi je pars en voyage à tes côtés, nous pouvons !
-Dialogue: 1,0:00:23.73,0:00:26.82,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Nous voguons encore et toujours d'une mer à l'autre
-Dialogue: 1,0:00:29.20,0:00:32.00,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Même si tout le monde ne cesse de se moquer de moi
-Dialogue: 1,0:00:32.00,0:00:37.93,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Il y a d'innombrables vérités à peine esquissées,
-Dialogue: 1,0:00:39.84,0:00:42.78,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Cesse de prétendre que tu ne vois pas
-Dialogue: 1,0:00:43.60,0:00:49.63,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Le sens commun n'est que l'apanage de la majorité !
-Dialogue: 1,0:00:51.32,0:00:53.85,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Je n'ai pas encore vu les confins
-Dialogue: 1,0:00:53.83,0:00:56.92,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}De notre monde de mes propres yeux
-Dialogue: 1,0:00:57.17,0:00:59.34,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}C'est pourquoi nous devons y aller,
-Dialogue: 1,0:00:59.34,0:01:01.92,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}"Capitaine vivant selon ses règles"
-Dialogue: 1,0:01:01.92,0:01:04.64,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Qui a proféré que c'était impossible ?
-Dialogue: 1,0:01:04.64,0:01:07.74,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Rien n'a encore commencé
-Dialogue: 1,0:01:08.00,0:01:10.60,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Je désire à présent tout savoir,
-Dialogue: 1,0:01:10.70,0:01:12.63,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}oui, nous en sommes capables !
-Dialogue: 1,0:01:12.73,0:01:16.00,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Oui, nous le pouvons ! Tu peux le faire !
-Dialogue: 1,0:01:16.00,0:01:18.81,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Cet instant,
-Dialogue: 1,0:01:18.82,0:01:21.30,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Nous le pouvons ! Je peux le faire !
-Dialogue: 1,0:01:21.41,0:01:24.16,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Ce sentiment exaltant
-Dialogue: 1,0:01:24.16,0:01:31.30,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}À cet instant, à cet instant, oui, nous pouvons le faire !
-Dialogue: 1,0:01:37.37,0:01:39.00,Lyrics-OP19,,0,0,0,fx,{\an5\pos(640,675)\fad(100,300)}Oui, nous le pouvons !
+Dialogue: 0,0:01:48.75,0:01:50.08,Main,,0,0,0,,En avant !
+Dialogue: 0,0:01:50.85,0:01:54.10,Main,,0,0,0,,– Ça me colle toujours des frissons !\N– À moi aussi.
+Dialogue: 0,0:01:54.45,0:01:56.27,Main,,0,0,0,,Channel 3 !
+Dialogue: 0,0:01:59.63,0:02:00.95,Main,,0,0,0,,Le voilà !
+Dialogue: 0,0:02:01.30,0:02:03.66,Main,,0,0,0,,Le Shark Submerge 3 !
+Dialogue: 0,0:02:13.71,0:02:17.03,Main,,0,0,0,,J'emmène donc Pedro avec moi.
+Dialogue: 0,0:02:17.35,0:02:19.09,Main,,0,0,0,,Désolé, Luffy.
+Dialogue: 0,0:02:19.35,0:02:21.65,Main,,0,0,0,,J'ai dit que j'y irai seul
+Dialogue: 0,0:02:21.85,0:02:24.12,Main,,0,0,0,,et finalement,\Nj'entraîne Brook là-dedans.
+Dialogue: 0,0:02:26.08,0:02:31.57,Main,,0,0,0,,Je saurai me rendre utile, Pedro.\NL'infiltration est ma spécialité !
+Dialogue: 0,0:02:32.15,0:02:36.00,Main,,0,0,0,,Nous rapporterons une copie\Ndu Ponéglyphe, promis !
+Dialogue: 0,0:02:36.35,0:02:39.38,Main,,0,0,0,,Ça roule !\NOn compte sur vous, Brook et Pedro.
+Dialogue: 0,0:02:39.92,0:02:43.51,Main,,0,0,0,,Une fois Sanji et Pudding retrouvés,\Non vous attendra dans le coin !
+Dialogue: 0,0:02:43.78,0:02:46.65,Main,,0,0,0,,Restez sur vos gardes, vous aussi.
+Dialogue: 0,0:02:47.00,0:02:49.35,Main,,0,0,0,,Gardons à l'esprit\Nle message de Pekoms.
+Dialogue: 0,0:02:51.35,0:02:54.30,Main,,0,0,0,,T'en fais pas.\NOn a décidé d'avancer.
+Dialogue: 0,0:02:54.50,0:02:55.80,Main,,0,0,0,,Pas le choix, on fonce.
+Dialogue: 0,0:02:55.95,0:02:59.03,Main,,0,0,0,,– On compte sur vous.\N– Bonne chance.
+Dialogue: 0,0:02:59.18,0:03:00.50,Main,,0,0,0,,Bon courage !
+Dialogue: 0,0:03:01.15,0:03:03.18,Main,,0,0,0,,À toute !
+Dialogue: 0,0:03:03.50,0:03:05.40,Main,,0,0,0,,Sur ce, allons-y.
+Dialogue: 0,0:03:41.23,0:03:45.53,Main,,0,0,0,,{\i1}Profondeur : 15 mètres. \NVisibilité : Bonne.{\i}
+Dialogue: 0,0:03:50.50,0:03:52.27,Main,,0,0,0,,Les choses se présentent bien.
+Dialogue: 0,0:03:54.92,0:03:58.88,Main,,0,0,0,,Nous n'avons qu'à remonter la rivière\Npour atteindre le château de Big Mom.
+Dialogue: 0,0:03:59.38,0:04:01.46,Main,,0,0,0,,J'espère que la rivière est assez profonde.
+Dialogue: 0,0:04:01.60,0:04:03.00,Main,,0,0,0,,À toi de jouer.
+Dialogue: 0,0:04:16.58,0:04:18.50,Main,,0,0,0,,Yahou !
+Dialogue: 0,0:04:19.80,0:04:23.99,Main,,0,0,0,,On y est !\NÎle de Big Mom, nous voilà !
+Dialogue: 0,0:04:34.25,0:04:37.12,Main,,0,0,0,,– Ça sent l'aventure !\N– Oublie !
+Dialogue: 0,0:04:37.35,0:04:39.75,Main,,0,0,0,,Dès qu'on a trouvé Sanji, on rentre.
+Dialogue: 0,0:04:40.60,0:04:45.10,Main,,0,0,0,,Ohé, Sanji ! Pudding !
+Dialogue: 0,0:04:45.45,0:04:48.68,Main,,0,0,0,,On est venus, comme prévu !
+Dialogue: 0,0:04:48.95,0:04:51.60,Main,,0,0,0,,Crie pas !\NOn va se faire repérer.
+Dialogue: 0,0:04:52.44,0:04:55.98,Main,,0,0,0,,Tu es bien sûr de les avoir vus, Luffy ?
+Dialogue: 0,0:04:56.22,0:04:58.54,Main,,0,0,0,,Ils étaient là ! J'en suis sûr.
+Dialogue: 0,0:04:58.80,0:05:02.57,Main,,0,0,0,,Mais, le temps qu'on regarde,\Nils avaient déjà disparu.
+Dialogue: 0,0:05:04.40,0:05:07.65,Main,,0,0,0,,C'est trop bon !\NNami, goûte au sol pour voir.
+Dialogue: 0,0:05:07.80,0:05:10.20,Main,,0,0,0,,– C'est une espèce de chantilly dure.\N– Hein ?
+Dialogue: 0,0:05:11.10,0:05:12.30,Main,,0,0,0,,J'adore !
+Dialogue: 0,0:05:14.30,0:05:16.62,Main,,0,0,0,,Ah, oui !\NC'est de la meringue.
+Dialogue: 0,0:05:16.80,0:05:19.20,Main,,0,0,0,,Cette île est bourrée\Nde sucreries aussi ?
+Dialogue: 0,0:05:20.03,0:05:22.13,Main,,0,0,0,,Je veux vivre ici !
+Dialogue: 0,0:05:24.20,0:05:25.48,Main,,0,0,0,,Ils étaient là !
+Dialogue: 0,0:05:27.01,0:05:29.58,Main,,0,0,0,,Je suis certain d'avoir vu\NSanji et Pudding.
+Dialogue: 0,0:05:29.72,0:05:32.61,Main,,0,0,0,,Mais ils ont disparu\Nquand j'ai tourné la tête.
+Dialogue: 0,0:05:33.30,0:05:36.85,Main,,0,0,0,,Nous sommes bien sur la côte sud-ouest.
+Dialogue: 0,0:05:36.99,0:05:38.95,Main,,0,0,0,,Et je sais que tu ne mentirais pas.
+Dialogue: 0,0:05:39.10,0:05:42.60,Main,,0,0,0,,Ce que je me demande,\Nc'est où ils sont passés.
+Dialogue: 0,0:05:42.70,0:05:45.15,Main,,0,0,0,,J'ai hâte de revoir Sanji.
+Dialogue: 0,0:05:49.15,0:05:50.00,Main,,0,0,0,,Tiens ?
+Dialogue: 0,0:05:59.20,0:06:01.02,Main,,0,0,0,,– Ohé !\N– Le voilà !
+Dialogue: 0,0:06:03.20,0:06:05.10,Main,,0,0,0,,Sanji !
+Dialogue: 0,0:06:12.70,0:06:14.43,Main,,0,0,0,,Sanji !
+Dialogue: 0,0:06:14.60,0:06:16.73,Main,,0,0,0,,– Quoi ?\N– Ohé !
+Dialogue: 0,0:06:17.70,0:06:18.52,Main,,0,0,0,,Vous allez où ?
+Dialogue: 0,0:06:18.78,0:06:20.70,Main,,0,0,0,,Sanji était juste là !
+Dialogue: 0,0:06:20.95,0:06:22.91,Main,,0,0,0,,Pourquoi il se cache comme ça ?
+Dialogue: 0,0:06:23.50,0:06:24.48,Main,,0,0,0,,Vraiment ?
+Dialogue: 0,0:06:35.05,0:06:35.58,Main,,0,0,0,,Tiens ?
+Dialogue: 0,0:06:36.17,0:06:37.20,Main,,0,0,0,,Sanji ?
+Dialogue: 0,0:06:37.47,0:06:39.60,Main,,0,0,0,,Hein ? Il est parti où ?
+Dialogue: 0,0:06:46.02,0:06:49.64,Main,,0,0,0,,On l'a encore perdu.\NN'empêche, tout a l'air délicieux.
+Dialogue: 0,0:06:49.80,0:06:51.88,Main,,0,0,0,,C'est une forêt pleine de sucreries.
+Dialogue: 0,0:06:52.00,0:06:53.60,Main,,0,0,0,,Ça sent tellement bon !
+Dialogue: 0,0:06:54.58,0:06:57.89,Main,,0,0,0,,Si vous l'avez vu tous les trois,\Nil n'y a pas de doute à avoir.
+Dialogue: 0,0:06:59.44,0:07:02.70,Main,,0,0,0,,Mais je me demande bien\Npourquoi il s'enfuit.
+Dialogue: 0,0:07:03.20,0:07:04.48,Main,,0,0,0,,Sanji...
+Dialogue: 0,0:07:05.85,0:07:07.90,Flashbacks,,0,0,0,,Je peux vous jurer une chose.
+Dialogue: 0,0:07:08.40,0:07:11.80,Flashbacks,,0,0,0,,Je n'avais pas l'intention\Nde vous faire des cachotteries.
+Dialogue: 0,0:07:13.18,0:07:15.91,Main,,0,0,0,,J'espère qu'il ne culpabilise pas.
+Dialogue: 0,0:07:16.43,0:07:21.17,Main,,0,0,0,,Ohé, Sanji ! Montre-toi.
+Dialogue: 0,0:07:21.52,0:07:24.38,Main,,0,0,0,,On est venus te chercher.
+Dialogue: 0,0:07:24.62,0:07:26.67,Main,,0,0,0,,Sanji !
+Dialogue: 0,0:07:34.50,0:07:36.81,Main,,0,0,0,,Bon !\NSéparons-nous pour le chercher.
+Dialogue: 0,0:07:37.20,0:07:40.90,Main,,0,0,0,,Moi, je vais là !\NVers le gros tas de gâteaux !
+Dialogue: 0,0:07:41.47,0:07:45.61,Main,,0,0,0,,Je vais tout droit.\NÇa sent le caramel, par là.
+Dialogue: 0,0:07:46.05,0:07:47.95,Main,,0,0,0,,Alors, je vais partir par là !
+Dialogue: 0,0:07:48.09,0:07:50.78,Main,,0,0,0,,C'est tout plein\Nde bonbons à la gélatine.
+Dialogue: 0,0:07:51.33,0:07:54.32,Main,,0,0,0,,Pas si vite !\NTâchons d'éviter une autre catastrophe.
+Dialogue: 0,0:07:54.68,0:07:57.10,Main,,0,0,0,,Quoi, encore ?\NOn vient de perdre Sanji de vue.
+Dialogue: 0,0:07:57.20,0:07:59.02,Main,,0,0,0,,Faut bien qu'on tente un truc !
+Dialogue: 0,0:07:59.20,0:08:01.64,Main,,0,0,0,,C'est comme ça\Nqu'on finit par se perdre.
+Dialogue: 0,0:08:01.85,0:08:06.08,Main,,0,0,0,,Et avouez ! Vous avez tous\Nune petite idée derrière la tête !
+Dialogue: 0,0:08:07.52,0:08:09.09,Main,,0,0,0,,Une petite idée ?
+Dialogue: 0,0:08:10.30,0:08:12.57,Main,,0,0,0,,Je vois pas de quoi tu parles.
+Dialogue: 0,0:08:13.50,0:08:14.84,Main,,0,0,0,,Gros menteurs !
+Dialogue: 0,0:08:15.05,0:08:18.10,Main,,0,0,0,,Bon, d'accord.\NCherchons-le tous ensemble.
+Dialogue: 0,0:08:18.25,0:08:22.06,Main,,0,0,0,,Surtout, ne vous éloignez pas de moi.
+Dialogue: 0,0:08:22.40,0:08:24.15,Main,,0,0,0,,Ça marche.
+Dialogue: 0,0:08:28.68,0:08:31.69,Main,,0,0,0,,– Des fleurs-bonbons !\N– C'est vrai ?
+Dialogue: 0,0:08:32.00,0:08:34.90,Main,,0,0,0,,L'odeur de caramel venait de là !
+Dialogue: 0,0:08:41.90,0:08:45.00,Main,,0,0,0,,C'est sucré.\NEt ça colle aux dents.
+Dialogue: 0,0:08:46.10,0:08:48.43,Main,,0,0,0,,Que du bonheur !
+Dialogue: 0,0:08:54.40,0:08:55.90,Main,,0,0,0,,Dites donc, vous tous.
+Dialogue: 0,0:08:56.00,0:08:57.40,Main,,0,0,0,,Vous avez oublié ?
+Dialogue: 0,0:08:57.52,0:09:00.20,Main,,0,0,0,,Nous sommes venus ici\Npour récupérer Sanji.
+Dialogue: 0,0:09:00.48,0:09:03.15,Main,,0,0,0,,Vous ne pensez plus qu'aux sucreries.
+Dialogue: 0,0:09:03.35,0:09:05.31,Main,,0,0,0,,On doit chercher Sanji !
+Dialogue: 0,0:09:05.51,0:09:07.15,Main,,0,0,0,,Ouais, ouais, on sait.
+Dialogue: 0,0:09:07.78,0:09:11.10,Main,,0,0,0,,Y a plein de bouffe partout,\Nc'est pas évident.
+Dialogue: 0,0:09:11.20,0:09:15.25,Main,,0,0,0,,Et ça ne vous paraît pas bizarre ?\NOn est en territoire ennemi, là.
+Dialogue: 0,0:09:15.60,0:09:16.95,Main,,0,0,0,,On cherche encore un peu
+Dialogue: 0,0:09:17.10,0:09:19.89,Main,,0,0,0,,mais si on ne trouve pas Sanji,\Non fait demi-tour.
+Dialogue: 0,0:09:20.00,0:09:21.41,Main,,0,0,0,,Hein ?
+Dialogue: 0,0:09:21.58,0:09:23.05,Main,,0,0,0,,Pourquoi on ferait ça ?
+Dialogue: 0,0:09:27.70,0:09:30.20,Main,,0,0,0,,La rivière verte,\Nc'est du jus de melon vert !
+Dialogue: 0,0:09:30.35,0:09:32.20,Main,,0,0,0,,Ah ouais ? Vas-y, donne-m'en !
+Dialogue: 0,0:09:32.40,0:09:35.34,Main,,0,0,0,,Le pont est en donuts, en fait !
+Dialogue: 0,0:09:35.55,0:09:38.40,Main,,0,0,0,,C'est pas bientôt fini, vos âneries ?
+Dialogue: 0,0:09:46.20,0:09:47.60,Main,,0,0,0,,Traversez le pont !
+Dialogue: 0,0:09:52.90,0:09:53.61,Main,,0,0,0,,Nami !
+Dialogue: 0,0:10:05.80,0:10:07.02,Main,,0,0,0,,Un crocodile ?
+Dialogue: 0,0:10:08.55,0:10:10.35,Main,,0,0,0,,On lui donne une leçon, Luffy ?
+Dialogue: 0,0:10:13.48,0:10:14.25,Main,,0,0,0,,Non.
+Dialogue: 0,0:10:19.15,0:10:21.26,Main,,0,0,0,,Zut... Ce sont des humains.
+Dialogue: 0,0:10:31.80,0:10:33.90,Main,,0,0,0,,Tu nous as pris pour quoi ?
+Dialogue: 0,0:10:34.00,0:10:35.20,Main,,0,0,0,,C'est pas la question !
+Dialogue: 0,0:10:35.45,0:10:38.65,Main,,0,0,0,,Le croco a parlé !\NIl a des habits et un bonnet !
+Dialogue: 0,0:10:38.93,0:10:41.70,Main,,0,0,0,,Cette forêt est louche, je le savais.\NÇa craint, ici !
+Dialogue: 0,0:10:42.61,0:10:46.08,Main,,0,0,0,,Des animaux habillés qui parlent,\Nça te choque ?
+Dialogue: 0,0:10:48.25,0:10:51.17,Main,,0,0,0,,Eux, c'est pas pareil.
+Dialogue: 0,0:11:06.40,0:11:10.25,Main,,0,0,0,,On devrait se fier à Pudding\Net attendre sur la côte.
+Dialogue: 0,0:11:10.45,0:11:12.85,Main,,0,0,0,,Elle va nous ramener Sanji.
+Dialogue: 0,0:11:13.20,0:11:16.15,Main,,0,0,0,,Regardez-moi ça !\NLa route du retour est coupée.
+Dialogue: 0,0:11:16.15,0:11:19.90,Main,,0,0,0,,C'est rien, ça.\NY a qu'à sauter par-dessus la rivière.
+Dialogue: 0,0:11:22.85,0:11:23.55,Main,,0,0,0,,Hein ?
+Dialogue: 0,0:11:25.68,0:11:26.40,Main,,0,0,0,,Hein ?
+Dialogue: 0,0:11:34.60,0:11:35.42,Main,,0,0,0,,Hein ?
+Dialogue: 0,0:11:36.10,0:11:38.72,Main,,0,0,0,,Il y a un autre Luffy ?
+Dialogue: 0,0:11:39.23,0:11:41.13,Main,,0,0,0,,Quoi ?
+Dialogue: 0,0:11:41.47,0:11:42.88,Main,,0,0,0,,T'es qui, toi ?
+Dialogue: 0,0:11:49.05,0:11:51.48,Main,,0,0,0,,Comment ça, qui je suis ?\NJe suis Luffy !
+Dialogue: 0,0:11:51.60,0:11:52.81,Main,,0,0,0,,Te fous pas de moi !
+Dialogue: 0,0:11:53.13,0:11:55.65,Main,,0,0,0,,Qu'est-ce qu'il se passe ?\NLequel est le vrai ?
+Dialogue: 0,0:11:55.80,0:11:58.53,Main,,0,0,0,,Ils font exactement la même chose !
+Dialogue: 0,0:11:58.78,0:12:00.49,Main,,0,0,0,,Non, il y a des différences.
+Dialogue: 0,0:12:06.03,0:12:08.40,Main,,0,0,0,,C'est comme un reflet dans un miroir.
+Dialogue: 0,0:12:08.55,0:12:11.94,Main,,0,0,0,,Sa cicatrice et sa ceinture\Nsont inversées.
+Dialogue: 0,0:12:13.30,0:12:16.59,Main,,0,0,0,,Tu as raison.\NMais alors, qui est l'autre ?
+Dialogue: 0,0:12:17.15,0:12:19.13,Main,,0,0,0,,T'es qui ?
+Dialogue: 0,0:12:19.33,0:12:22.85,Main,,0,0,0,,Elle te demande qui t'es !\NTu vas répondre, oui ?
+Dialogue: 0,0:12:26.25,0:12:28.26,Main,,0,0,0,,Regardez ! Sanji est là !
+Dialogue: 0,0:12:29.50,0:12:31.06,Main,,0,0,0,,Là-haut ! Dans l'arbre.
+Dialogue: 0,0:12:34.27,0:12:36.27,Main,,0,0,0,,Ohé, Sanji !
+Dialogue: 0,0:12:39.70,0:12:41.49,Main,,0,0,0,,Tu vas dégager, oui ?
+Dialogue: 0,0:12:41.65,0:12:44.57,Main,,0,0,0,,Sanji !\NQu'est-ce que tu fiches là-haut ?
+Dialogue: 0,0:12:46.25,0:12:48.95,Main,,0,0,0,,Il s'enfuit encore. Sanji ?
+Dialogue: 0,0:12:50.53,0:12:54.00,Main,,0,0,0,,Salopard ! Dégage !
+Dialogue: 0,0:12:59.80,0:13:01.78,Main,,0,0,0,,Bon sang.\NPartez devant !
+Dialogue: 0,0:13:01.90,0:13:02.76,Main,,0,0,0,,Rattrapez Sanji !
+Dialogue: 0,0:13:03.05,0:13:05.60,Main,,0,0,0,,– D'accord.\N– J'y vais aussi.
+Dialogue: 0,0:13:06.00,0:13:08.73,Main,,0,0,0,,Évitons à tout prix de nous séparer.\NChopper, Carrot !
+Dialogue: 0,0:13:09.00,0:13:10.80,Main,,0,0,0,,Cette forêt est vraiment louche.
+Dialogue: 0,0:13:10.93,0:13:12.68,Main,,0,0,0,,Qui sait ce qu'elle cache d'autre.
+Dialogue: 0,0:13:12.90,0:13:15.98,Main,,0,0,0,,Je sais bien, mais on ne doit pas\Nperdre Sanji de vue.
+Dialogue: 0,0:13:16.25,0:13:18.11,Main,,0,0,0,,Sanji !
+Dialogue: 0,0:13:18.25,0:13:20.00,Main,,0,0,0,,Nami, va avec eux.
+Dialogue: 0,0:13:20.35,0:13:22.48,Main,,0,0,0,,Je l'explose et je vous rejoins.
+Dialogue: 0,0:13:22.88,0:13:24.45,Main,,0,0,0,,OK, ça marche.
+Dialogue: 0,0:13:32.02,0:13:33.70,Main,,0,0,0,,Sanji !
+Dialogue: 0,0:13:34.10,0:13:35.69,Main,,0,0,0,,Sanji !
+Dialogue: 0,0:13:56.97,0:13:59.02,Main,,0,0,0,,{\fad(250,250)}Gum Gum...
+Dialogue: 0,0:13:59.30,0:14:01.86,Main,,0,0,0,,{\fad(250,250)}Gatling !
+Dialogue: 0,0:14:10.35,0:14:13.70,Main,,0,0,0,,T'es qui, à la fin ?
+Dialogue: 0,0:14:31.70,0:14:32.55,Main,,0,0,0,,Quoi ?
+Dialogue: 0,0:14:38.58,0:14:42.67,Main,,0,0,0,,C'est... C'est quoi, ce type immense\Nà moitié planté dans le sol ?
+Dialogue: 0,0:14:42.80,0:14:44.54,Main,,0,0,0,,C'est un géant ?
+Dialogue: 0,0:14:46.59,0:14:49.78,Main,,0,0,0,,– Vous m'avez fait peur...\N– C'est à nous de dire ça !
+Dialogue: 0,0:14:50.00,0:14:53.70,Main,,0,0,0,,Vous allez bien ?\NQui vous a fait ça ?
+Dialogue: 0,0:14:54.30,0:14:54.95,Main,,0,0,0,,Fait quoi ?
+Dialogue: 0,0:14:55.15,0:14:58.12,Main,,0,0,0,,Ben ça, là !\NVotre corps est enterré.
+Dialogue: 0,0:14:59.28,0:15:02.13,Main,,0,0,0,,J'aime bien être enterré, c'est tout.
+Dialogue: 0,0:15:02.30,0:15:06.50,Main,,0,0,0,,Sérieux ? Il est con ou quoi ?\NDire que je m'inquiétais pour lui !
+Dialogue: 0,0:15:07.07,0:15:08.60,Main,,0,0,0,,– Par contre...\N– Oui ?
+Dialogue: 0,0:15:09.85,0:15:12.68,Main,,0,0,0,,– Je boirais bien un peu de jus.\N– Je m'en fous !
+Dialogue: 0,0:15:14.85,0:15:19.39,Main,,0,0,0,,Laisse tomber, Chopper. Ne l'écoute pas.\NIl va te faire tourner en bourrique.
+Dialogue: 0,0:15:20.80,0:15:23.27,Main,,0,0,0,,Attendez ! Revenez.
+Dialogue: 0,0:15:23.95,0:15:25.55,Main,,0,0,0,,Il nous parle, je pense.
+Dialogue: 0,0:15:25.65,0:15:26.73,Main,,0,0,0,,Ignorons-le.
+Dialogue: 0,0:15:28.30,0:15:31.70,Main,,0,0,0,,J'adore le jus de pomme.
+Dialogue: 0,0:15:31.80,0:15:34.12,Main,,0,0,0,,– On s'en fou !\N– Ne l'écoute pas.
+Dialogue: 0,0:15:34.85,0:15:36.55,Main,,0,0,0,,Si vous prenez à gauche,
+Dialogue: 0,0:15:36.65,0:15:39.57,Main,,0,0,0,,vous tomberez\Nsur une cascade de jus de pomme.
+Dialogue: 0,0:15:40.25,0:15:42.33,Main,,0,0,0,,Et justement, j'adore ça.
+Dialogue: 0,0:15:42.60,0:15:46.89,Main,,0,0,0,,Rappelle-toi ce que nous a dit Luffy.\NNous devons chercher Sanji.
+Dialogue: 0,0:15:48.73,0:15:51.26,Main,,0,0,0,,Franchement...\NC'est un mauvais rêve ?
+Dialogue: 0,0:15:52.10,0:15:56.30,Main,,0,0,0,,Vous cherchez quelqu'un, pas vrai ?\NIl est passé par ici.
+Dialogue: 0,0:15:56.45,0:15:58.22,Main,,0,0,0,,Vraiment ? Il a vu Sanji ?
+Dialogue: 0,0:15:58.42,0:16:01.50,Main,,0,0,0,,Je t'ai dit de ne pas l'écouter !
+Dialogue: 0,0:16:02.28,0:16:06.40,Main,,0,0,0,,Si vous me donnez du jus de pomme,\Nje vous dirai où il est allé.
+Dialogue: 0,0:16:06.65,0:16:07.86,Main,,0,0,0,,Mais bien sûr !
+Dialogue: 0,0:16:12.15,0:16:14.28,Main,,0,0,0,,Attention ! Nami, Chopper !
+Dialogue: 0,0:16:31.45,0:16:32.33,Main,,0,0,0,,Un lapin ?
+Dialogue: 0,0:16:35.43,0:16:37.10,Main,,0,0,0,,Non, fuyons.
+Dialogue: 0,0:16:59.55,0:17:01.70,Main,,0,0,0,,Des arbres\Net des crocodiles qui parlent...
+Dialogue: 0,0:17:01.85,0:17:05.25,Main,,0,0,0,,Et un lapin qui veut notre peau.
+Dialogue: 0,0:17:05.55,0:17:09.40,Main,,0,0,0,,Cette forêt est vraiment trop louche.\NAllons retrouver Luffy.
+Dialogue: 0,0:17:09.65,0:17:12.09,Main,,0,0,0,,Repartons avant de nous perdre\Npour de bon.
+Dialogue: 0,0:17:12.30,0:17:14.07,Main,,0,0,0,,Et Sanji, alors ?
+Dialogue: 0,0:17:14.32,0:17:17.21,Main,,0,0,0,,On ne sait même pas si c'est bien lui.
+Dialogue: 0,0:17:18.18,0:17:21.72,Main,,0,0,0,,Il reste perché sur sa branche\Nalors qu'on le retrouve enfin ?
+Dialogue: 0,0:17:21.90,0:17:24.11,Main,,0,0,0,,Il n'a pas décroché un mot !
+Dialogue: 0,0:17:24.38,0:17:26.27,Main,,0,0,0,,Oui, c'est vrai.
+Dialogue: 0,0:17:26.50,0:17:29.36,Main,,0,0,0,,Tu crois vraiment\Nque Sanji nous laisserait
+Dialogue: 0,0:17:29.67,0:17:32.61,Main,,0,0,0,,galérer dans cette fichue forêt\Nsans réagir ?
+Dialogue: 0,0:17:33.00,0:17:34.94,Main,,0,0,0,,Tu as raison. On fait demi-tour.
+Dialogue: 0,0:17:37.50,0:17:38.84,Main,,0,0,0,,Les aiguilles s'affolent !
+Dialogue: 0,0:17:39.95,0:17:41.74,Main,,0,0,0,,C'est pareil pour les horloges.
+Dialogue: 0,0:17:48.33,0:17:51.21,Main,,0,0,0,,Cette forêt est vraiment trop bizarre.
+Dialogue: 0,0:18:17.43,0:18:18.68,Main,,0,0,0,,{\i1}Vous avez entendu, ça ?{\i0}
+Dialogue: 0,0:18:18.94,0:18:20.28,Main,,0,0,0,,{\i1}Nous avons entendu{\i0}
+Dialogue: 0,0:18:20.58,0:18:21.95,Main,,0,0,0,,{\i1}Cachons{\i0}
+Dialogue: 0,0:18:22.15,0:18:23.40,Main,,0,0,0,,{\i1}Cachons{\i0}
+Dialogue: 0,0:18:23.58,0:18:26.78,Main,,0,0,0,,{\i1}Arbre, arbre, arbre, arbre{\i0}
+Dialogue: 0,0:18:26.98,0:18:29.85,Main,,0,0,0,,{\i1}Cachons la sortie{\i0}
+Dialogue: 0,0:18:30.43,0:18:36.43,Main,,0,0,0,,{\i1}Fleurs ! Fleurs ! Fleurs !{\i0}
+Dialogue: 0,0:18:36.75,0:18:38.12,Main,,0,0,0,,{\i1}Jouons{\i0}
+Dialogue: 0,0:18:38.25,0:18:39.68,Main,,0,0,0,,{\i1}Jouons{\i0}
+Dialogue: 0,0:18:39.92,0:18:43.06,Main,,0,0,0,,{\i1}Jouons à les tuer{\i0}
+Dialogue: 0,0:18:47.72,0:18:51.80,Main,,0,0,0,,– Chopper, plus vite !\N– Je suis à fond, là !
+Dialogue: 0,0:18:52.45,0:18:53.30,Main,,0,0,0,,Il est là ?
+Dialogue: 0,0:18:53.55,0:18:55.65,Main,,0,0,0,,Oui, il nous suit toujours.
+Dialogue: 0,0:18:55.80,0:18:59.05,Main,,0,0,0,,– On doit sortir d'ici, et vite !\N– Oui.
+Dialogue: 0,0:18:59.30,0:19:01.32,Main,,0,0,0,,Ce lapin est très fort.
+Dialogue: 0,0:19:04.05,0:19:06.16,Main,,0,0,0,,Mais, ce n'est pas un Mink.
+Dialogue: 0,0:19:06.30,0:19:08.88,Main,,0,0,0,,– Tu es sûre ?\N– Il a mangé un Fruit ?
+Dialogue: 0,0:19:12.00,0:19:13.05,Main,,0,0,0,,{\i1}Ils ont compris{\i0}
+Dialogue: 0,0:19:13.12,0:19:17.89,Main,,0,0,0,,{\i1}Les chapeaux de paille ont compris{\i0}
+Dialogue: 0,0:19:18.40,0:19:20.01,Main,,0,0,0,,{\i1}Ils nous ont démasqués{\i0}
+Dialogue: 0,0:19:20.19,0:19:23.22,Main,,0,0,0,,{\i1}– Mais non ils n'ont pas compris\N– Que quelque chose clochait{\i0}
+Dialogue: 0,0:19:23.40,0:19:24.68,Main,,0,0,0,,{\i1}Ils ont compris{\i0}
+Dialogue: 0,0:19:24.82,0:19:27.97,Main,,0,0,0,,{\i1}– Mme Brûlée...\N– Les manipule à sa guise{\i0}
+Dialogue: 0,0:19:28.12,0:19:30.70,Main,,0,0,0,,{\i1}De qui seront-ils les proies ?{\i0}
+Dialogue: 0,0:19:31.10,0:19:33.82,Main,,0,0,0,,{\i1}On va en faire des smoothies{\i0}
+Dialogue: 0,0:19:33.95,0:19:37.41,Main,,0,0,0,,{\i1}Pour se régaler{\i0}
+Dialogue: 0,0:20:03.30,0:20:05.70,Main,,0,0,0,,Je le savais !\NIl n'a pas l'Électro.
+Dialogue: 0,0:20:06.80,0:20:08.51,Main,,0,0,0,,Prends ça !
+Dialogue: 0,0:20:10.05,0:20:12.52,Main,,0,0,0,,– Carrot, reste avec nous !\N– J'arrive.
+Dialogue: 0,0:20:12.85,0:20:14.27,Main,,0,0,0,,Pardon, M. l'oiseau.
+Dialogue: 0,0:20:31.15,0:20:32.75,Main,,0,0,0,,– Sa lance !\N– Attention !
+Dialogue: 0,0:20:48.30,0:20:51.81,Narrator,,0,0,0,,Le château de Whole Cake,\Nla demeure de Big Mom.
+Dialogue: 0,0:20:52.45,0:20:56.19,Narrator,,0,0,0,,Et juste derrière, on trouve le lac Abricot.
+Dialogue: 0,0:21:04.55,0:21:08.37,Main,,0,0,0,,Ici le navire Germa.\NNous demandons la permission d'entrer.
+Dialogue: 0,0:21:08.75,0:21:10.51,Main,,0,0,0,,Accordée !
+Dialogue: 0,0:21:12.94,0:21:15.42,Narrator,,0,0,0,,Seuls les navires des équipages\Nsoumis à Big Mom
+Dialogue: 0,0:21:15.55,0:21:20.21,Narrator,,0,0,0,,et ceux de ses futurs alliés\Nont l'autorisation d'entrer.
+Dialogue: 0,0:21:20.40,0:21:22.92,Main,,0,0,0,,C'est bon ! La voie est libre !
+Dialogue: 0,0:21:35.90,0:21:38.48,Main,,0,0,0,,Continuez...
+Dialogue: 0,0:21:38.73,0:21:41.30,Main,,0,0,0,,Et... Stop !
+Dialogue: 0,0:21:41.78,0:21:43.87,Main,,0,0,0,,Parés à l'accostage.
+Dialogue: 0,0:21:52.90,0:21:54.25,Narrator,,0,0,0,,Le Germa.
+Dialogue: 0,0:21:54.58,0:21:56.50,Narrator,,0,0,0,,Ne possédant pas\Nla moindre parcelle de terre,
+Dialogue: 0,0:21:56.60,0:21:59.87,Narrator,,0,0,0,,il représente le seul et unique\Nroyaume naval au monde.
+Dialogue: 0,0:22:00.70,0:22:03.38,Narrator,,0,0,0,,Ses nombreux navires\Nsillonnent les mers de manière autonome
+Dialogue: 0,0:22:03.50,0:22:07.93,Narrator,,0,0,0,,et se regroupent parfois\Npour former un grand pays flottant.
+Dialogue: 0,0:22:17.72,0:22:18.90,Narrator,,0,0,0,,À sa tête,
+Dialogue: 0,0:22:19.15,0:22:24.58,Narrator,,0,0,0,,la dynastie qui a jadis conquis\NNorth Blue par les armes, les Vinsmoke.
+Dialogue: 0,0:22:25.40,0:22:27.70,Narrator,,0,0,0,,Aujourd'hui encore,
+Dialogue: 0,0:22:28.15,0:22:31.48,Narrator,,0,0,0,,ce royaume continue\Nde faire trembler le monde entier.
+Dialogue: 0,0:22:31.63,0:22:33.70,Narrator,,0,0,0,,La population de ce royaume
+Dialogue: 0,0:22:33.77,0:22:38.11,Narrator,,0,0,0,,est composée en majorité d'hommes,\Nqui forment l'armée des Germa 66.
+Dialogue: 0,0:22:48.70,0:22:52.97,Narrator,,0,0,0,,Ils s'entraînent sans relâche,\Njour après jour, nuit après nuit.
+Dialogue: 0,0:23:07.85,0:23:10.00,Main,,0,0,0,,Tu vas rester ici longtemps ?
+Dialogue: 0,0:23:11.45,0:23:13.20,Main,,0,0,0,,Tu es méchant avec ta pauvre sœur.
+Dialogue: 0,0:23:13.90,0:23:16.24,Main,,0,0,0,,Dire qu'on se retrouve enfin,\Naprès 13 ans.
+Dialogue: 0,0:23:21.78,0:23:23.75,Main,,0,0,0,,Je dois vous le dire combien de fois ?
+Dialogue: 0,0:23:23.92,0:23:27.96,Main,,0,0,0,,J'ai coupé les ponts\Navec cette maudite famille.
+Dialogue: 0,0:23:28.60,0:23:32.47,Main,,0,0,0,,Faut vraiment avoir un grain\Npour avoir une déco pareille.
+Dialogue: 0,0:23:46.80,0:23:50.70,Main,,0,0,0,,C'est pour célébrer la victoire\Nsur les quatre rois de North Blue.
+Dialogue: 0,0:23:51.10,0:23:52.92,Main,,0,0,0,,Lors du Massacre des 4 nations.
+Dialogue: 0,0:23:54.75,0:24:00.42,Main,,0,0,0,,Le rêve de père est de revoir flotter\Nl'étendard du Germa 66 sur North Blue.
+Dialogue: 0,0:24:01.30,0:24:02.58,Main,,0,0,0,,Je ne le blâme pas.
+Dialogue: 0,0:24:02.92,0:24:06.29,Main,,0,0,0,,Les hommes sont obnubilés\Npar la puissance et la renommée.
+Dialogue: 0,0:24:07.60,0:24:10.67,Main,,0,0,0,,Plutôt que de rester\Ndans un équipage minable,
+Dialogue: 0,0:24:11.05,0:24:14.27,Main,,0,0,0,,viens donc profiter des privilèges\Ndus à quelqu'un de ton rang.
+Dialogue: 0,0:24:14.80,0:24:16.51,Main,,0,0,0,,Te fous pas de moi.
+Dialogue: 0,0:24:16.71,0:24:17.70,Main,,0,0,0,,Regarde.
+Dialogue: 0,0:24:18.05,0:24:21.85,Main,,0,0,0,,Ces dix servantes sont prêtes à assouvir\Nle moindre de tes désirs.
+Dialogue: 0,0:24:22.30,0:24:24.81,Main,,0,0,0,,Tout ce que vous voudrez, Prince.
+Dialogue: 0,0:24:27.60,0:24:29.86,Main,,0,0,0,,Tout ça,\Ncar tu es de sang royal.
+Dialogue: 0,0:24:30.30,0:24:33.25,Main,,0,0,0,,Tant que des pays en guerre\Nauront besoin de nos mercenaires,
+Dialogue: 0,0:24:33.40,0:24:35.78,Main,,0,0,0,,nous ne manquerons pas d'argent.
+Dialogue: 0,0:24:36.12,0:24:38.28,Main,,0,0,0,,Tu n'auras même pas besoin de te battre.
+Dialogue: 0,0:24:40.00,0:24:41.50,Main,,0,0,0,,L'idée ne te plaît pas ?
+Dialogue: 0,0:24:43.20,0:24:45.95,Main,,0,0,0,,C'est pourtant ainsi\Nque nous autres Vinsmoke
+Dialogue: 0,0:24:46.15,0:24:49.06,Main,,0,0,0,,avons amassé notre fortune :\Npar les armes.
+Dialogue: 0,0:24:50.98,0:24:53.41,Main,,0,0,0,,Ce sang coule également dans tes veines.
+Dialogue: 0,0:24:53.80,0:24:55.26,Main,,0,0,0,,C'est plus mon problème.
+Dialogue: 0,0:24:55.72,0:24:57.32,Main,,0,0,0,,J'ai aucune envie de me marier.
+Dialogue: 0,0:24:57.50,0:25:00.56,Main,,0,0,0,,Pudding est une brave petite.\NJe l'aime beaucoup.
+Dialogue: 0,0:25:02.54,0:25:04.20,Main,,0,0,0,,Général, où allez-vous ?
+Dialogue: 0,0:25:04.35,0:25:06.27,Main,,0,0,0,,Je vais voir Sanji.
+Dialogue: 0,0:25:06.52,0:25:07.67,Main,,0,0,0,,Ne me dérangez pas.
+Dialogue: 0,0:25:21.44,0:25:24.04,Main,,0,0,0,,Père ? Qu'est-ce qui vous amène ?
+Dialogue: 0,0:25:31.67,0:25:33.98,Main,,0,0,0,,Encore en train de geindre ?
+Dialogue: 0,0:25:34.60,0:25:36.30,Main,,0,0,0,,Toi...
+Dialogue: 0,0:25:42.05,0:25:43.89,Main,,0,0,0,,Mon fils.
+Dialogue: 0,0:25:44.22,0:25:45.69,Main,,0,0,0,,M'appelle pas comme ça.
+Dialogue: 0,0:25:45.80,0:25:49.27,Main,,0,0,0,,Je me suis choisi un autre père,\Nt'es rien pour moi.
+Dialogue: 0,0:25:54.12,0:25:58.91,Main,,0,0,0,,Qu'as-tu fait à Yonji ?\NIl est pourtant sacrément fort.
+Dialogue: 0,0:25:59.12,0:26:01.37,Main,,0,0,0,,Eh bien, je suis plus fort.\NC'est tout.
+Dialogue: 0,0:26:08.85,0:26:11.15,Main,,0,0,0,,Allons nous expliquer dehors.
+Dialogue: 0,0:26:13.02,0:26:15.92,Main,,0,0,0,,Les hommes règlent les différents\Navec leurs poings.
+Dialogue: 0,0:26:25.05,0:26:27.14,Main,,0,0,0,,Chopper, Carrot, écartez-vous !
+Dialogue: 0,0:26:27.30,0:26:28.23,Main,,0,0,0,,OK !
+Dialogue: 0,0:26:32.40,0:26:34.38,Main,,0,0,0,,C'est quoi tout ce boucan, derrière ?
+Dialogue: 0,0:26:38.44,0:26:40.66,Main,,0,0,0,,Il est pratique, comme point de repère.
+Dialogue: 0,0:26:40.88,0:26:44.83,Main,,0,0,0,,Oh, c'est encore vous !
+Dialogue: 0,0:26:50.95,0:26:52.71,Main,,0,0,0,,Le champ de sucettes !
+Dialogue: 0,0:26:53.00,0:26:56.17,Main,,0,0,0,,Luffy est juste après.
+Dialogue: 0,0:26:57.85,0:27:01.01,Main,,0,0,0,,Enfoiré.\NDégage de mon chemin !
+Dialogue: 0,0:27:05.81,0:27:08.77,Main,,0,0,0,,– Il se bat encore ?\N– Luffy !
+Dialogue: 0,0:27:08.95,0:27:10.98,Main,,0,0,0,,Retournons sur le rivage !
+Dialogue: 0,0:27:11.77,0:27:13.98,Main,,0,0,0,,Hein ? Vous revenez déjà ?
+Dialogue: 0,0:27:14.24,0:27:16.78,Main,,0,0,0,,Dépêche-toi !\NOn t'expliquera après.
+Dialogue: 0,0:27:17.00,0:27:19.60,Main,,0,0,0,,Cette forêt est pleine\Nde drôles de pièges.
+Dialogue: 0,0:27:19.86,0:27:20.90,Main,,0,0,0,,Ça marche.
+Dialogue: 0,0:27:23.72,0:27:27.20,Main,,0,0,0,,On a de la compagnie,\Nil faut foncer vers la sortie.
+Dialogue: 0,0:27:36.20,0:27:38.67,Main,,0,0,0,,C'est la rivière du crocodile qui parle.
+Dialogue: 0,0:27:38.98,0:27:42.90,Main,,0,0,0,,La sortie est juste après\Nla rivière au jus de melon.
+Dialogue: 0,0:27:43.04,0:27:45.43,Main,,0,0,0,,Il faut bondir par-dessus.
+Dialogue: 0,0:27:45.64,0:27:48.14,Main,,0,0,0,,Allons-y.
+Dialogue: 0,0:27:50.20,0:27:53.64,Main,,0,0,0,,Attendez, les amis !\NC'est pas moi !
+Dialogue: 0,0:27:54.25,0:27:56.25,Main,,0,0,0,,T'as dit quoi, Luffy ?
+Dialogue: 0,0:27:56.44,0:27:57.36,Main,,0,0,0,,Rien !
+Dialogue: 0,0:28:01.72,0:28:05.25,Main,,0,0,0,,On fonce tout droit\Net surtout on ne ralentit pas.
+Dialogue: 0,0:28:05.40,0:28:06.33,Main,,0,0,0,,OK !
+Dialogue: 0,0:28:07.35,0:28:08.62,Main,,0,0,0,,Et Sanji ?
+Dialogue: 0,0:28:08.92,0:28:12.98,Main,,0,0,0,,Il s'enfuit dès qu'on approche\Net il ne revient pas.
+Dialogue: 0,0:28:13.40,0:28:15.18,Main,,0,0,0,,C'est vraiment bizarre.
+Dialogue: 0,0:28:15.30,0:28:17.63,Main,,0,0,0,,On dirait pourtant\Nque c'est lui, mais...
+Dialogue: 0,0:28:17.85,0:28:20.19,Main,,0,0,0,,On en parlera une fois sortis d'ici.
+Dialogue: 0,0:28:20.30,0:28:23.23,Main,,0,0,0,,Oui. Heureusement\Nqu'on se souvient encore du chemin.
+Dialogue: 0,0:28:23.87,0:28:25.68,Main,,0,0,0,,Le rivage est juste derrière.
+Dialogue: 0,0:28:25.88,0:28:26.68,Main,,0,0,0,,Ouais.
+Dialogue: 0,0:28:30.65,0:28:31.18,Main,,0,0,0,,Oh ?
+Dialogue: 0,0:28:31.47,0:28:33.35,Main,,0,0,0,,– Hein ?\N– Quoi ?
+Dialogue: 0,0:28:39.43,0:28:42.61,Main,,0,0,0,,Quoi ? Comment ça se fait ?
+Dialogue: 0,0:28:43.75,0:28:46.07,Main,,0,0,0,,Encore vous ?
+Dialogue: 0,0:28:46.27,0:28:49.43,Main,,0,0,0,,Vous voulez pas me retirer\Nle machin que je me suis pris ?
+Dialogue: 0,0:28:49.53,0:28:53.50,Main,,0,0,0,,On a pourtant repris le même chemin\Nqu'à l'aller !
+Dialogue: 0,0:28:53.77,0:28:56.58,Main,,0,0,0,,Qu'est-ce que tu fais là, toi ?
+Dialogue: 0,0:28:57.80,0:29:01.30,Main,,0,0,0,,Arrêtez de crier, vous me faites peur.
+Dialogue: 0,0:29:01.70,0:29:03.85,Main,,0,0,0,,Et comment ça, ce que je fiche ici ?
+Dialogue: 0,0:29:03.96,0:29:08.01,Main,,0,0,0,,J'ai pas bougé d'un pouce, moi.
+Dialogue: 0,0:29:08.52,0:29:13.82,Main,,0,0,0,,C'est vous, qui êtes partis et revenus.
+Dialogue: 0,0:29:14.14,0:29:16.94,Main,,0,0,0,,– Chopper, essayons encore une fois.\N– Ouais.
+Dialogue: 0,0:29:18.12,0:29:21.73,Main,,0,0,0,,Ohé ! Et le truc que j'ai\Nde piqué dans le crâne ?
+Dialogue: 0,0:29:26.40,0:29:28.57,Main,,0,0,0,,On traverse le champ de sucettes.
+Dialogue: 0,0:29:34.75,0:29:36.62,Main,,0,0,0,,On franchit la rivière au croco.
+Dialogue: 0,0:29:40.57,0:29:42.51,Main,,0,0,0,,Et cette fois, on devrait être bons.
+Dialogue: 0,0:29:47.88,0:29:49.51,Main,,0,0,0,,Vous m'avez fait peur...
+Dialogue: 0,0:29:50.33,0:29:53.00,Main,,0,0,0,,Dites, vous allez revenir\Ncombien de fois ?
+Dialogue: 0,0:29:53.18,0:29:54.40,Main,,0,0,0,,Encore ?
+Dialogue: 0,0:29:55.15,0:29:57.90,Main,,0,0,0,,Le Log Pose s'affole, mais quand même !
+Dialogue: 0,0:29:58.08,0:30:02.07,Main,,0,0,0,,C'est une route droite,\Non ne devrait pas se perdre !
+Dialogue: 0,0:30:04.90,0:30:06.65,Main,,0,0,0,,Si on suit cette route, on devrait...
+Dialogue: 0,0:30:06.90,0:30:10.50,Main,,0,0,0,,Doucement, doucement...
+Dialogue: 0,0:30:12.58,0:30:13.41,Main,,0,0,0,,Oups.
+Dialogue: 0,0:30:14.15,0:30:15.25,Main,,0,0,0,,Mince !
+Dialogue: 0,0:30:15.47,0:30:18.12,Main,,0,0,0,,Quoi ?\NLes arbres et les fleurs bougent !
+Dialogue: 0,0:30:18.33,0:30:20.75,Main,,0,0,0,,Hop ! Hop !
+Dialogue: 0,0:30:20.99,0:30:23.42,Main,,0,0,0,,Le sol parle et bouge aussi !
+Dialogue: 0,0:30:24.17,0:30:27.10,Main,,0,0,0,,C'est quoi, cette histoire ?\NIl se passe quoi ?
+Dialogue: 0,0:30:27.22,0:30:28.72,Main,,0,0,0,,C'est quoi, cette forêt ?
+Dialogue: 0,0:30:28.85,0:30:31.97,Main,,0,0,0,,– On est repérés.\N– Nous voilà démasqués.
+Dialogue: 0,0:30:32.13,0:30:35.72,Main,,0,0,0,,{\i1}Fleur ! Fleur !{\i0}
+Dialogue: 0,0:30:35.85,0:30:39.58,Main,,0,0,0,,Le chemin n'a jamais existé.
+Dialogue: 0,0:30:40.75,0:30:43.40,Main,,0,0,0,,Eh bien ! Il vous aura fallu le temps.
+Dialogue: 0,0:30:43.80,0:30:48.24,Main,,0,0,0,,– Vous commencez à avoir peur ?\N– Luffy, à quoi tu joues ?
+Dialogue: 0,0:30:49.05,0:30:52.46,Main,,0,0,0,,Vous êtes dans la Forêt Tentatrice.
+Dialogue: 0,0:30:52.80,0:30:55.00,Main,,0,0,0,,Nami ! C'est pas Luffy.
+Dialogue: 0,0:31:06.65,0:31:08.38,Main,,0,0,0,,Qui es-tu ?
+Dialogue: 0,0:31:09.10,0:31:10.64,Main,,0,0,0,,Qui je suis ?
+Dialogue: 0,0:31:14.88,0:31:18.06,Main,,0,0,0,,Allons, on se connaît bien.\NJe vous suis depuis le début.
+Dialogue: 0,0:31:19.20,0:31:21.25,Main,,0,0,0,,Fuir ne vous mènera nulle part.
+Dialogue: 0,0:31:21.40,0:31:24.05,Main,,0,0,0,,Vous ne sortirez jamais d'ici.
+Dialogue: 0,0:31:25.15,0:31:26.59,Main,,0,0,0,,Jamais...
+Dialogue: 0,0:31:27.05,0:31:29.32,Main,,0,0,0,,Pas avant de mourir !
+Dialogue: 0,0:31:29.85,0:31:31.48,Main,,0,0,0,,{\an8}Lâche-moi !
+Dialogue: 0,0:31:31.80,0:31:35.28,Main,,0,0,0,,{\an8}Arrête de gigoter, demoiselle.
+Dialogue: 0,0:31:35.68,0:31:37.30,Main,,0,0,0,,{\an8}Tu as vu ?
+Dialogue: 0,0:31:37.45,0:31:39.75,Main,,0,0,0,,{\an8}Je suis défigurée par une cicatrice.
+Dialogue: 0,0:31:39.90,0:31:41.21,Main,,0,0,0,,{\an8}Horrible, n'est-ce pas ?
+Dialogue: 0,0:31:41.47,0:31:43.67,Main,,0,0,0,,T'es quoi ? Un arbre ?
+Dialogue: 0,0:31:43.84,0:31:47.05,Main,,0,0,0,,Je ne suis pas un arbre !\NJe suis la grande Brûlée.
+Dialogue: 0,0:31:47.37,0:31:48.44,Main,,0,0,0,,Brûlée ?
+Dialogue: 0,0:31:48.88,0:31:53.72,Main,,0,0,0,,Une adorable petite lapine\Net une jolie fille.
+Dialogue: 0,0:31:53.88,0:31:55.40,Main,,0,0,0,,Merveilleux.
+Dialogue: 0,0:31:55.55,0:31:58.40,Main,,0,0,0,,Quand je vois d'aussi jolis minois,
+Dialogue: 0,0:31:58.60,0:32:00.18,Main,,0,0,0,,je n'ai qu'une envie.
+Dialogue: 0,0:32:02.00,0:32:05.31,Main,,0,0,0,,Les lacérer de mes griffes !
+Dialogue: 0,0:01:43.64,0:01:48.14,Captions,,0,0,0,,{\fad(500,0)\bord2\fs42\pos(640,545)}Whole Cake Island
+Dialogue: 0,0:01:48.23,0:01:50.64,Title,,0,0,0,,{\blur0.2\bord1.8\fs73.5\fad(750,750)\pos(643,515)}Aventure dans la forêt enchantée
+Dialogue: 0,0:02:49.65,0:02:51.15,Captions,,0,0,0,,{\pos(640,70)}REBROUSSEZ CHEMIN
+Dialogue: 0,0:04:12.89,0:04:16.40,Captions,,0,0,0,,{\fad(500,0)\bord2\fs42\pos(640,545)}Côte sud-ouest
+Dialogue: 0,0:18:23.64,0:18:30.19,Captions,,0,0,0,,{\fad(800,750)\bord3.5\fs73\pos(640,360)}Forêt Tentatrice
+Dialogue: 0,0:18:23.64,0:18:30.19,Captions,,0,0,0,,{\fad(800,750)\fnTimes New Roman\bord2\fs44.5\pos(640,420)}Côte sud-ouest de Whole Cake Island
+Dialogue: 0,0:20:18.23,0:20:22.64,Captions,,0,0,0,,{\fad(250,400)\bord2\fs37\pos(645,480)}Randolph  –  "Combattant sur Grue"
+Dialogue: 0,0:20:18.23,0:20:22.64,Captions,,0,0,0,,{\fad(250,400)\bord2\fs35\pos(645,710)}Pirates de Big Mom
+Dialogue: 0,0:25:26.04,0:25:31.67,Captions,,0,0,0,,{\fad(600,0)\bord2\fs37\pos(645,450)}Vinsmoke Judge  –  Roi du Royaume Germa
+Dialogue: 0,0:25:26.04,0:25:31.67,Captions,,0,0,0,,{\fad(600,0)\bord2\fs35\pos(645,710)}Général du Germa 66
+Dialogue: 0,0:26:20.68,0:26:23.85,Captions,,0,0,0,,{\fad(250,300)\bord2\fs42\pos(640,545)}Forêt Tentatrice
+Dialogue: 0,0:31:36.23,0:31:41.21,Captions,,0,0,0,,{\fad(500,0)\bord2\fs45\pos(645,480)}Charlotte Brûlée
+Dialogue: 0,0:31:36.23,0:31:41.21,Captions,,0,0,0,,{\fad(500,0)\bord2\fs35\pos(645,710)}8ᵉ fille de la famille Charlotte
+Dialogue: 1,0:00:00.90,0:00:03.57,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Les confins de ce monde,
+Dialogue: 1,0:00:03.67,0:00:06.80,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Je ne les ai jamais vus de mes propres yeux.
+Dialogue: 1,0:00:06.92,0:00:09.40,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}C’est pour ça que je pars en voyage,
+Dialogue: 0,0:00:09.58,0:00:11.55,Lyrics-OP19,,0,0,0,,{\be1\fad(100,100)}Avec toi,
+Dialogue: 0,0:00:11.60,0:00:14.00,Lyrics-OP19,,0,0,0,,{\be1\fad(100,100)\i1}We can !{\i0}
+Dialogue: 1,0:00:23.91,0:00:26.92,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}De mer en mer, nous traçons notre route,
+Dialogue: 1,0:00:29.25,0:00:31.86,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Peu importe, si l'on rit de nous.
+Dialogue: 1,0:00:32.00,0:00:38.63,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Il y a encore plein de vérités à découvrir.
+Dialogue: 1,0:00:40.02,0:00:42.87,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Ne détourne pas le regard,
+Dialogue: 1,0:00:43.65,0:00:50.00,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Le « bon sens » n’est que le reflet de la majorité.
+Dialogue: 1,0:00:51.45,0:00:53.95,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Les confins de ce monde,
+Dialogue: 1,0:00:54.06,0:00:57.16,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Je ne les ai jamais vus de mes yeux.
+Dialogue: 1,0:00:57.35,0:01:01.92,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Alors allons-y, cher capitaine rebelle !
+Dialogue: 1,0:01:02.05,0:01:04.64,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Qui a dit que c'était impossible ?
+Dialogue: 1,0:01:04.73,0:01:07.74,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Rien n’a encore commencé,
+Dialogue: 1,0:01:08.00,0:01:11.34,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Et je veux tout découvrir maintenant !
+Dialogue: 1,0:01:11.34,0:01:12.63,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)\i1}Yes, we can !{\i0}
+Dialogue: 1,0:01:12.73,0:01:15.95,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)\i1}Yes, we can ! You can !{\i0}
+Dialogue: 1,0:01:16.05,0:01:18.84,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Ce moment même,
+Dialogue: 1,0:01:19.02,0:01:21.30,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)\i1}We can ! I can !{\i0}
+Dialogue: 1,0:01:21.43,0:01:24.18,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}Ce frisson-là,
+Dialogue: 1,0:01:24.34,0:01:26.48,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)}C’est maintenant !
+Dialogue: 1,0:01:26.70,0:01:31.30,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)\i1}Oh, yes, we can !{\i0}
+Dialogue: 1,0:01:37.39,0:01:39.00,Lyrics-OP19,,0,0,0,fx,{\be1\fad(100,100)\i1}Yes, we can !{\i0}
 Dialogue: 0,0:00:00.52,0:00:00.82,Karaoke,,0,0,0,fx,{\an5\move(429,23,429,38,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H98594E&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 0,0:00:00.55,0:00:00.82,Karaoke,,0,0,0,fx,{\an5\move(429,23,429,38,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H98594E&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}
 Dialogue: 0,0:00:00.58,0:00:01.12,Karaoke,,0,0,0,fx,{\an5\move(453,23,453,38,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H98594E&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}Ko
@@ -1079,412 +1486,3 @@ Dialogue: 0,0:01:37.13,0:01:37.76,Kanji,,0,0,0,fx,{\an5\move(628,113,628,128,0,3
 Dialogue: 1,0:01:37.76,0:01:38.19,Kanji,,0,0,0,fx,{\an5\pos(628,128)\bord4\blur0}{\t(0,50,\fsc110\frz2)\t(50,100,\fsc105\frz-2)\t(100,150,\fsc110\frz2)\t(150,200,\fsc105\frz-2)\t(200,250,\fsc110\frz2)\t(250,300,\fsc105\frz-2)\t(300,350,\fsc110\frz2)\t(350,400,\fsc105\frz-2)\t(400,450,\fsc110\frz2)\fscx110\fscy110\1c&HFFFFFF&\3c&HC29189&\fad(0,300)}ウィー
 Dialogue: 0,0:01:37.16,0:01:37.89,Kanji,,0,0,0,fx,{\an5\move(758,113,758,128,0,300)\fad(100,0)\3c&HFFFFFF&\1c&H98594E&\bord3\blur0\shad0\frx180\t(0,200,\frx0)}キャン！
 Dialogue: 1,0:01:37.89,0:01:38.94,Kanji,,0,0,0,fx,{\an5\pos(758,128)\bord4\blur0}{\t(0,50,\fsc110\frz2)\t(50,100,\fsc105\frz-2)\t(100,150,\fsc110\frz2)\t(150,200,\fsc105\frz-2)\t(200,250,\fsc110\frz2)\t(250,300,\fsc105\frz-2)\t(300,350,\fsc110\frz2)\t(350,400,\fsc105\frz-2)\t(400,450,\fsc110\frz2)\t(450,500,\fsc105\frz-2)\t(500,550,\fsc110\frz2)\t(550,600,\fsc105\frz-2)\t(600,650,\fsc110\frz2)\t(650,700,\fsc105\frz-2)\t(700,750,\fsc110\frz2)\t(750,800,\fsc105\frz-2)\t(800,850,\fsc110\frz2)\t(850,900,\fsc105\frz-2)\t(900,950,\fsc110\frz2)\t(950,1000,\fsc105\frz-2)\t(1000,1050,\fsc110\frz2)\fscx110\fscy110\1c&HFFFFFF&\3c&HC29189&\fad(0,300)}キャン！
-Dialogue: 0,0:01:43.64,0:01:48.14,Captions,,0,0,0,,{\fad(500,0)}Whole Cake Island
-Dialogue: 0,0:01:48.23,0:01:50.71,Title,,0,0,230,,{\fad(800,800)}Aventure dans une Mystérieuse Forêt
-Dialogue: 0,0:01:48.75,0:01:50.08,Main,,0,0,0,,En avant !
-Dialogue: 0,0:01:50.85,0:01:54.10,Main,,0,0,0,,– Ça me colle toujours des frissons !\N– À moi aussi.
-Dialogue: 0,0:01:54.45,0:01:56.27,Main,,0,0,0,,Channel 3 !
-Dialogue: 0,0:01:59.63,0:02:00.95,Main,,0,0,0,,Le voilà !
-Dialogue: 0,0:02:01.30,0:02:03.66,Main,,0,0,0,,Le Shark Submerge 3 !
-Dialogue: 0,0:02:13.71,0:02:17.03,Main,,0,0,0,,J'emmène donc Pedro avec moi.
-Dialogue: 0,0:02:17.35,0:02:19.09,Main,,0,0,0,,Désolé, Luffy.
-Dialogue: 0,0:02:19.35,0:02:21.65,Main,,0,0,0,,J'ai dit que j'y irai seul
-Dialogue: 0,0:02:21.85,0:02:24.12,Main,,0,0,0,,et finalement,\Nj'entraîne Brook là-dedans.
-Dialogue: 0,0:02:26.08,0:02:31.57,Main,,0,0,0,,Je saurai me rendre utile, Pedro.\NL'infiltration est ma spécialité !
-Dialogue: 0,0:02:32.15,0:02:36.00,Main,,0,0,0,,Nous rapporterons une copie\Ndu Ponéglyphe, promis !
-Dialogue: 0,0:02:36.35,0:02:39.38,Main,,0,0,0,,Ça roule !\NOn compte sur vous, Brook et Pedro.
-Dialogue: 0,0:02:39.92,0:02:43.51,Main,,0,0,0,,Une fois Sanji et Pudding retrouvés,\Non vous attendra dans le coin !
-Dialogue: 0,0:02:43.78,0:02:46.65,Main,,0,0,0,,Restez sur vos gardes, vous aussi.
-Dialogue: 0,0:02:47.00,0:02:49.35,Main,,0,0,0,,Gardons à l'esprit\Nle message de Pekoms.
-Dialogue: 0,0:02:49.65,0:02:51.15,Note,,0,0,0,,Rebroussez chemin
-Dialogue: 0,0:02:51.35,0:02:54.30,Main,,0,0,0,,T'en fais pas.\NOn a décidé d'avancer.
-Dialogue: 0,0:02:54.50,0:02:55.80,Main,,0,0,0,,Pas le choix, on fonce.
-Dialogue: 0,0:02:55.95,0:02:59.03,Main,,0,0,0,,– On compte sur vous.\N– Bonne chance.
-Dialogue: 0,0:02:59.18,0:03:00.50,Main,,0,0,0,,Bon courage !
-Dialogue: 0,0:03:01.15,0:03:03.18,Main,,0,0,0,,À toute !
-Dialogue: 0,0:03:03.50,0:03:05.40,Main,,0,0,0,,Sur ce, allons-y.
-Dialogue: 0,0:03:41.23,0:03:45.53,Main,,0,0,0,,{\i1}Profondeur : 15 mètres. \NVisibilité : Bonne.{\i}
-Dialogue: 0,0:03:50.50,0:03:52.27,Main,,0,0,0,,Les choses se présentent bien.
-Dialogue: 0,0:03:54.92,0:03:58.88,Main,,0,0,0,,Nous n'avons qu'à remonter la rivière\Npour atteindre le château de Big Mom.
-Dialogue: 0,0:03:59.38,0:04:01.46,Main,,0,0,0,,J'espère que la rivière est assez profonde.
-Dialogue: 0,0:04:01.60,0:04:03.00,Main,,0,0,0,,À toi de jouer.
-Dialogue: 0,0:04:12.89,0:04:16.40,Captions,,0,0,0,,{\fad(500,0)}Côte Sud-Ouest
-Dialogue: 0,0:04:16.58,0:04:18.50,Main,,0,0,0,,Yahou !
-Dialogue: 0,0:04:19.80,0:04:23.99,Main,,0,0,0,,On y est !\NÎle de Big Mom, nous voilà !
-Dialogue: 0,0:04:34.25,0:04:37.12,Main,,0,0,0,,– Ça sent l'aventure !\N– Oublie !
-Dialogue: 0,0:04:37.35,0:04:39.75,Main,,0,0,0,,Dès qu'on a trouvé Sanji, on rentre.
-Dialogue: 0,0:04:40.60,0:04:45.10,Main,,0,0,0,,Ohé, Sanji ! Pudding !
-Dialogue: 0,0:04:45.45,0:04:48.68,Main,,0,0,0,,On est venus, comme prévu !
-Dialogue: 0,0:04:48.95,0:04:51.60,Main,,0,0,0,,Crie pas !\NOn va se faire repérer.
-Dialogue: 0,0:04:52.44,0:04:55.98,Main,,0,0,0,,Tu es bien sûr de les avoir vus, Luffy ?
-Dialogue: 0,0:04:56.22,0:04:58.54,Main,,0,0,0,,Ils étaient là ! J'en suis sûr.
-Dialogue: 0,0:04:58.80,0:05:02.57,Main,,0,0,0,,Mais, le temps qu'on regarde,\Nils avaient déjà disparu.
-Dialogue: 0,0:05:04.40,0:05:07.65,Main,,0,0,0,,C'est trop bon !\NNami, goûte au sol pour voir.
-Dialogue: 0,0:05:07.80,0:05:10.20,Main,,0,0,0,,– C'est une espèce de chantilly dure.\N– Hein ?
-Dialogue: 0,0:05:11.10,0:05:12.30,Main,,0,0,0,,J'adore !
-Dialogue: 0,0:05:14.30,0:05:16.62,Main,,0,0,0,,Ah, oui !\NC'est de la meringue.
-Dialogue: 0,0:05:16.80,0:05:19.20,Main,,0,0,0,,Cette île est bourrée\Nde sucreries aussi ?
-Dialogue: 0,0:05:20.03,0:05:22.13,Main,,0,0,0,,Je veux vivre ici !
-Dialogue: 0,0:05:24.20,0:05:25.48,Main,,0,0,0,,Ils étaient là !
-Dialogue: 0,0:05:27.01,0:05:29.58,Main,,0,0,0,,Je suis certain d'avoir vu\NSanji et Pudding.
-Dialogue: 0,0:05:29.72,0:05:32.61,Main,,0,0,0,,Mais ils ont disparu\Nquand j'ai tourné la tête.
-Dialogue: 0,0:05:33.30,0:05:36.85,Main,,0,0,0,,Nous sommes bien sur la côte sud-ouest.
-Dialogue: 0,0:05:36.99,0:05:38.95,Main,,0,0,0,,Et je sais que tu ne mentirais pas.
-Dialogue: 0,0:05:39.10,0:05:42.60,Main,,0,0,0,,Ce que je me demande,\Nc'est où ils sont passés.
-Dialogue: 0,0:05:42.70,0:05:45.15,Main,,0,0,0,,J'ai hâte de revoir Sanji.
-Dialogue: 0,0:05:49.15,0:05:50.00,Main,,0,0,0,,Tiens ?
-Dialogue: 0,0:05:59.20,0:06:01.02,Main,,0,0,0,,– Ohé !\N– Le voilà !
-Dialogue: 0,0:06:03.20,0:06:05.10,Main,,0,0,0,,Sanji !
-Dialogue: 0,0:06:12.70,0:06:14.43,Main,,0,0,0,,Sanji !
-Dialogue: 0,0:06:14.60,0:06:16.73,Main,,0,0,0,,– Quoi ?\N– Ohé !
-Dialogue: 0,0:06:17.70,0:06:18.52,Main,,0,0,0,,Vous allez où ?
-Dialogue: 0,0:06:18.78,0:06:20.70,Main,,0,0,0,,Sanji était juste là !
-Dialogue: 0,0:06:20.95,0:06:22.91,Main,,0,0,0,,Pourquoi il se cache comme ça ?
-Dialogue: 0,0:06:23.50,0:06:24.48,Main,,0,0,0,,Vraiment ?
-Dialogue: 0,0:06:35.05,0:06:35.58,Main,,0,0,0,,Tiens ?
-Dialogue: 0,0:06:36.17,0:06:37.20,Main,,0,0,0,,Sanji ?
-Dialogue: 0,0:06:37.47,0:06:39.60,Main,,0,0,0,,Hein ? Il est parti où ?
-Dialogue: 0,0:06:46.02,0:06:49.64,Main,,0,0,0,,On l'a encore perdu.\NN'empêche, tout a l'air délicieux.
-Dialogue: 0,0:06:49.80,0:06:51.88,Main,,0,0,0,,C'est une forêt pleine de sucreries.
-Dialogue: 0,0:06:52.00,0:06:53.60,Main,,0,0,0,,Ça sent tellement bon !
-Dialogue: 0,0:06:54.58,0:06:57.89,Main,,0,0,0,,Si vous l'avez vu tous les trois,\Nil n'y a pas de doute à avoir.
-Dialogue: 0,0:06:59.44,0:07:02.70,Main,,0,0,0,,Mais je me demande bien\Npourquoi il s'enfuit.
-Dialogue: 0,0:07:03.20,0:07:04.48,Main,,0,0,0,,Sanji...
-Dialogue: 0,0:07:05.85,0:07:07.90,Flashbacks,,0,0,0,,Je peux vous jurer une chose.
-Dialogue: 0,0:07:08.40,0:07:11.80,Flashbacks,,0,0,0,,Je n'avais pas l'intention\Nde vous faire des cachotteries.
-Dialogue: 0,0:07:13.18,0:07:15.91,Main,,0,0,0,,J'espère qu'il ne culpabilise pas.
-Dialogue: 0,0:07:16.43,0:07:21.17,Main,,0,0,0,,Ohé, Sanji ! Montre-toi.
-Dialogue: 0,0:07:21.52,0:07:24.38,Main,,0,0,0,,On est venus te chercher.
-Dialogue: 0,0:07:24.62,0:07:26.67,Main,,0,0,0,,Sanji !
-Dialogue: 0,0:07:34.50,0:07:36.81,Main,,0,0,0,,Bon !\NSéparons-nous pour le chercher.
-Dialogue: 0,0:07:37.20,0:07:40.90,Main,,0,0,0,,Moi, je vais là !\NVers le gros tas de gâteaux !
-Dialogue: 0,0:07:41.47,0:07:45.61,Main,,0,0,0,,Je vais tout droit.\NÇa sent le caramel, par là.
-Dialogue: 0,0:07:46.05,0:07:47.95,Main,,0,0,0,,Alors, je vais partir par là !
-Dialogue: 0,0:07:48.09,0:07:50.78,Main,,0,0,0,,C'est tout plein\Nde bonbons à la gélatine.
-Dialogue: 0,0:07:51.33,0:07:54.32,Main,,0,0,0,,Pas si vite !\NTâchons d'éviter une autre catastrophe.
-Dialogue: 0,0:07:54.68,0:07:57.10,Main,,0,0,0,,Quoi, encore ?\NOn vient de perdre Sanji de vue.
-Dialogue: 0,0:07:57.20,0:07:59.02,Main,,0,0,0,,Faut bien qu'on tente un truc !
-Dialogue: 0,0:07:59.20,0:08:01.64,Main,,0,0,0,,C'est comme ça\Nqu'on finit par se perdre.
-Dialogue: 0,0:08:01.85,0:08:06.08,Main,,0,0,0,,Et avouez ! Vous avez tous\Nune petite idée derrière la tête !
-Dialogue: 0,0:08:07.52,0:08:09.09,Main,,0,0,0,,Une petite idée ?
-Dialogue: 0,0:08:10.30,0:08:12.57,Main,,0,0,0,,Je vois pas de quoi tu parles.
-Dialogue: 0,0:08:13.50,0:08:14.84,Main,,0,0,0,,Gros menteurs !
-Dialogue: 0,0:08:15.05,0:08:18.10,Main,,0,0,0,,Bon, d'accord.\NCherchons-le tous ensemble.
-Dialogue: 0,0:08:18.25,0:08:22.06,Main,,0,0,0,,Surtout, ne vous éloignez pas de moi.
-Dialogue: 0,0:08:22.40,0:08:24.15,Main,,0,0,0,,Ça marche.
-Dialogue: 0,0:08:28.68,0:08:31.69,Main,,0,0,0,,– Des fleurs-bonbons !\N– C'est vrai ?
-Dialogue: 0,0:08:32.00,0:08:34.90,Main,,0,0,0,,L'odeur de caramel venait de là !
-Dialogue: 0,0:08:41.90,0:08:45.00,Main,,0,0,0,,C'est sucré.\NEt ça colle aux dents.
-Dialogue: 0,0:08:46.10,0:08:48.43,Main,,0,0,0,,Que du bonheur !
-Dialogue: 0,0:08:54.40,0:08:55.90,Main,,0,0,0,,Dites donc, vous tous.
-Dialogue: 0,0:08:56.00,0:08:57.40,Main,,0,0,0,,Vous avez oublié ?
-Dialogue: 0,0:08:57.52,0:09:00.20,Main,,0,0,0,,Nous sommes venus ici\Npour récupérer Sanji.
-Dialogue: 0,0:09:00.48,0:09:03.15,Main,,0,0,0,,Vous ne pensez plus qu'aux sucreries.
-Dialogue: 0,0:09:03.35,0:09:05.31,Main,,0,0,0,,On doit chercher Sanji !
-Dialogue: 0,0:09:05.51,0:09:07.15,Main,,0,0,0,,Ouais, ouais, on sait.
-Dialogue: 0,0:09:07.78,0:09:11.10,Main,,0,0,0,,Y a plein de bouffe partout,\Nc'est pas évident.
-Dialogue: 0,0:09:11.20,0:09:15.25,Main,,0,0,0,,Et ça ne vous paraît pas bizarre ?\NOn est en territoire ennemi, là.
-Dialogue: 0,0:09:15.60,0:09:16.95,Main,,0,0,0,,On cherche encore un peu
-Dialogue: 0,0:09:17.10,0:09:19.89,Main,,0,0,0,,mais si on ne trouve pas Sanji,\Non fait demi-tour.
-Dialogue: 0,0:09:20.00,0:09:21.41,Main,,0,0,0,,Hein ?
-Dialogue: 0,0:09:21.58,0:09:23.05,Main,,0,0,0,,Pourquoi on ferait ça ?
-Dialogue: 0,0:09:27.70,0:09:30.20,Main,,0,0,0,,La rivière verte,\Nc'est du jus de melon vert !
-Dialogue: 0,0:09:30.35,0:09:32.20,Main,,0,0,0,,Ah ouais ? Vas-y, donne-m'en !
-Dialogue: 0,0:09:32.40,0:09:35.34,Main,,0,0,0,,Le pont est en donuts, en fait !
-Dialogue: 0,0:09:35.55,0:09:38.40,Main,,0,0,0,,C'est pas bientôt fini, vos âneries ?
-Dialogue: 0,0:09:46.20,0:09:47.60,Main,,0,0,0,,Traversez le pont !
-Dialogue: 0,0:09:52.90,0:09:53.61,Main,,0,0,0,,Nami !
-Dialogue: 0,0:10:05.80,0:10:07.02,Main,,0,0,0,,Un crocodile ?
-Dialogue: 0,0:10:08.55,0:10:10.35,Main,,0,0,0,,On lui donne une leçon, Luffy ?
-Dialogue: 0,0:10:13.48,0:10:14.25,Main,,0,0,0,,Non.
-Dialogue: 0,0:10:19.15,0:10:21.26,Main,,0,0,0,,Zut... Ce sont des humains.
-Dialogue: 0,0:10:31.80,0:10:33.90,Main,,0,0,0,,Tu nous as pris pour quoi ?
-Dialogue: 0,0:10:34.00,0:10:35.20,Main,,0,0,0,,C'est pas la question !
-Dialogue: 0,0:10:35.45,0:10:38.65,Main,,0,0,0,,Le croco a parlé !\NIl a des habits et un bonnet !
-Dialogue: 0,0:10:38.93,0:10:41.70,Main,,0,0,0,,Cette forêt est louche, je le savais.\NÇa craint, ici !
-Dialogue: 0,0:10:42.61,0:10:46.08,Main,,0,0,0,,Des animaux habillés qui parlent,\Nça te choque ?
-Dialogue: 0,0:10:48.25,0:10:51.17,Main,,0,0,0,,Eux, c'est pas pareil.
-Dialogue: 0,0:11:06.40,0:11:10.25,Main,,0,0,0,,On devrait se fier à Pudding\Net attendre sur la côte.
-Dialogue: 0,0:11:10.45,0:11:12.85,Main,,0,0,0,,Elle va nous ramener Sanji.
-Dialogue: 0,0:11:13.20,0:11:16.15,Main,,0,0,0,,Regardez-moi ça !\NLa route du retour est coupée.
-Dialogue: 0,0:11:16.15,0:11:19.90,Main,,0,0,0,,C'est rien, ça.\NY a qu'à sauter par-dessus la rivière.
-Dialogue: 0,0:11:22.85,0:11:23.55,Main,,0,0,0,,Hein ?
-Dialogue: 0,0:11:25.68,0:11:26.40,Main,,0,0,0,,Hein ?
-Dialogue: 0,0:11:34.60,0:11:35.42,Main,,0,0,0,,Hein ?
-Dialogue: 0,0:11:36.10,0:11:38.72,Main,,0,0,0,,Il y a un autre Luffy ?
-Dialogue: 0,0:11:39.23,0:11:41.13,Main,,0,0,0,,Quoi ?
-Dialogue: 0,0:11:41.47,0:11:42.88,Main,,0,0,0,,T'es qui, toi ?
-Dialogue: 0,0:11:49.05,0:11:51.48,Main,,0,0,0,,Comment ça, qui je suis ?\NJe suis Luffy !
-Dialogue: 0,0:11:51.60,0:11:52.81,Main,,0,0,0,,Te fous pas de moi !
-Dialogue: 0,0:11:53.13,0:11:55.65,Main,,0,0,0,,Qu'est-ce qu'il se passe ?\NLequel est le vrai ?
-Dialogue: 0,0:11:55.80,0:11:58.53,Main,,0,0,0,,Ils font exactement la même chose !
-Dialogue: 0,0:11:58.78,0:12:00.49,Main,,0,0,0,,Non, il y a des différences.
-Dialogue: 0,0:12:06.03,0:12:08.40,Main,,0,0,0,,C'est comme un reflet dans un miroir.
-Dialogue: 0,0:12:08.55,0:12:11.94,Main,,0,0,0,,Sa cicatrice et sa ceinture\Nsont inversées.
-Dialogue: 0,0:12:13.30,0:12:16.59,Main,,0,0,0,,Tu as raison.\NMais alors, qui est l'autre ?
-Dialogue: 0,0:12:17.15,0:12:19.13,Main,,0,0,0,,T'es qui ?
-Dialogue: 0,0:12:19.33,0:12:22.85,Main,,0,0,0,,Elle te demande qui t'es !\NTu vas répondre, oui ?
-Dialogue: 0,0:12:26.25,0:12:28.26,Main,,0,0,0,,Regardez ! Sanji est là !
-Dialogue: 0,0:12:29.50,0:12:31.06,Main,,0,0,0,,Là-haut ! Dans l'arbre.
-Dialogue: 0,0:12:34.27,0:12:36.27,Main,,0,0,0,,Ohé, Sanji !
-Dialogue: 0,0:12:39.70,0:12:41.49,Main,,0,0,0,,Tu vas dégager, oui ?
-Dialogue: 0,0:12:41.65,0:12:44.57,Main,,0,0,0,,Sanji !\NQu'est-ce que tu fiches là-haut ?
-Dialogue: 0,0:12:46.25,0:12:48.95,Main,,0,0,0,,Il s'enfuit encore. Sanji ?
-Dialogue: 0,0:12:50.53,0:12:54.00,Main,,0,0,0,,Salopard ! Dégage !
-Dialogue: 0,0:12:59.80,0:13:01.78,Main,,0,0,0,,Bon sang.\NPartez devant !
-Dialogue: 0,0:13:01.90,0:13:02.76,Main,,0,0,0,,Rattrapez Sanji !
-Dialogue: 0,0:13:03.05,0:13:05.60,Main,,0,0,0,,– D'accord.\N– J'y vais aussi.
-Dialogue: 0,0:13:06.00,0:13:08.73,Main,,0,0,0,,Évitons à tout prix de nous séparer.\NChopper, Carrot !
-Dialogue: 0,0:13:09.00,0:13:10.80,Main,,0,0,0,,Cette forêt est vraiment louche.
-Dialogue: 0,0:13:10.93,0:13:12.68,Main,,0,0,0,,Qui sait ce qu'elle cache d'autre.
-Dialogue: 0,0:13:12.90,0:13:15.98,Main,,0,0,0,,Je sais bien, mais on ne doit pas\Nperdre Sanji de vue.
-Dialogue: 0,0:13:16.25,0:13:18.11,Main,,0,0,0,,Sanji !
-Dialogue: 0,0:13:18.25,0:13:20.00,Main,,0,0,0,,Nami, va avec eux.
-Dialogue: 0,0:13:20.35,0:13:22.48,Main,,0,0,0,,Je l'explose et je vous rejoins.
-Dialogue: 0,0:13:22.88,0:13:24.45,Main,,0,0,0,,OK, ça marche.
-Dialogue: 0,0:13:32.02,0:13:33.70,Main,,0,0,0,,Sanji !
-Dialogue: 0,0:13:34.10,0:13:35.69,Main,,0,0,0,,Sanji !
-Dialogue: 0,0:13:56.97,0:13:59.02,Main,,0,0,0,,{\fad(250,250)}Gum Gum...
-Dialogue: 0,0:13:59.30,0:14:01.86,Main,,0,0,0,,{\fad(250,250)}Gatling !
-Dialogue: 0,0:14:10.35,0:14:13.70,Main,,0,0,0,,T'es qui, à la fin ?
-Dialogue: 0,0:14:31.70,0:14:32.55,Main,,0,0,0,,Quoi ?
-Dialogue: 0,0:14:38.58,0:14:42.67,Main,,0,0,0,,C'est... C'est quoi, ce type immense\Nà moitié planté dans le sol ?
-Dialogue: 0,0:14:42.80,0:14:44.54,Main,,0,0,0,,C'est un géant ?
-Dialogue: 0,0:14:46.59,0:14:49.78,Main,,0,0,0,,– Vous m'avez fait peur...\N– C'est à nous de dire ça !
-Dialogue: 0,0:14:50.00,0:14:53.70,Main,,0,0,0,,Vous allez bien ?\NQui vous a fait ça ?
-Dialogue: 0,0:14:54.30,0:14:54.95,Main,,0,0,0,,Fait quoi ?
-Dialogue: 0,0:14:55.15,0:14:58.12,Main,,0,0,0,,Ben ça, là !\NVotre corps est enterré.
-Dialogue: 0,0:14:59.28,0:15:02.13,Main,,0,0,0,,J'aime bien être enterré, c'est tout.
-Dialogue: 0,0:15:02.30,0:15:06.50,Main,,0,0,0,,Sérieux ? Il est con ou quoi ?\NDire que je m'inquiétais pour lui !
-Dialogue: 0,0:15:07.07,0:15:08.60,Main,,0,0,0,,– Par contre...\N– Oui ?
-Dialogue: 0,0:15:09.85,0:15:12.68,Main,,0,0,0,,– Je boirais bien un peu de jus.\N– Je m'en fous !
-Dialogue: 0,0:15:14.85,0:15:19.39,Main,,0,0,0,,Laisse tomber, Chopper. Ne l'écoute pas.\NIl va te faire tourner en bourrique.
-Dialogue: 0,0:15:20.80,0:15:23.27,Main,,0,0,0,,Attendez ! Revenez.
-Dialogue: 0,0:15:23.95,0:15:25.55,Main,,0,0,0,,Il nous parle, je pense.
-Dialogue: 0,0:15:25.65,0:15:26.73,Main,,0,0,0,,Ignorons-le.
-Dialogue: 0,0:15:28.30,0:15:31.70,Main,,0,0,0,,J'adore le jus de pomme.
-Dialogue: 0,0:15:31.80,0:15:34.12,Main,,0,0,0,,– On s'en fou !\N– Ne l'écoute pas.
-Dialogue: 0,0:15:34.85,0:15:36.55,Main,,0,0,0,,Si vous prenez à gauche,
-Dialogue: 0,0:15:36.65,0:15:39.57,Main,,0,0,0,,vous tomberez\Nsur une cascade de jus de pomme.
-Dialogue: 0,0:15:40.25,0:15:42.33,Main,,0,0,0,,Et justement, j'adore ça.
-Dialogue: 0,0:15:42.60,0:15:46.89,Main,,0,0,0,,Rappelle-toi ce que nous a dit Luffy.\NNous devons chercher Sanji.
-Dialogue: 0,0:15:48.73,0:15:51.26,Main,,0,0,0,,Franchement...\NC'est un mauvais rêve ?
-Dialogue: 0,0:15:52.10,0:15:56.30,Main,,0,0,0,,Vous cherchez quelqu'un, pas vrai ?\NIl est passé par ici.
-Dialogue: 0,0:15:56.45,0:15:58.22,Main,,0,0,0,,Vraiment ? Il a vu Sanji ?
-Dialogue: 0,0:15:58.42,0:16:01.50,Main,,0,0,0,,Je t'ai dit de ne pas l'écouter !
-Dialogue: 0,0:16:02.28,0:16:06.40,Main,,0,0,0,,Si vous me donnez du jus de pomme,\Nje vous dirai où il est allé.
-Dialogue: 0,0:16:06.65,0:16:07.86,Main,,0,0,0,,Mais bien sûr !
-Dialogue: 0,0:16:12.15,0:16:14.28,Main,,0,0,0,,Attention ! Nami, Chopper !
-Dialogue: 0,0:16:31.45,0:16:32.33,Main,,0,0,0,,Un lapin ?
-Dialogue: 0,0:16:35.43,0:16:37.10,Main,,0,0,0,,Non, fuyons.
-Dialogue: 0,0:16:59.55,0:17:01.70,Main,,0,0,0,,Des arbres\Net des crocodiles qui parlent...
-Dialogue: 0,0:17:01.85,0:17:05.25,Main,,0,0,0,,Et un lapin qui veut notre peau.
-Dialogue: 0,0:17:05.55,0:17:09.40,Main,,0,0,0,,Cette forêt est vraiment trop louche.\NAllons retrouver Luffy.
-Dialogue: 0,0:17:09.65,0:17:12.09,Main,,0,0,0,,Repartons avant de nous perdre\Npour de bon.
-Dialogue: 0,0:17:12.30,0:17:14.07,Main,,0,0,0,,Et Sanji, alors ?
-Dialogue: 0,0:17:14.32,0:17:17.21,Main,,0,0,0,,On ne sait même pas si c'est bien lui.
-Dialogue: 0,0:17:18.18,0:17:21.72,Main,,0,0,0,,Il reste perché sur sa branche\Nalors qu'on le retrouve enfin ?
-Dialogue: 0,0:17:21.90,0:17:24.11,Main,,0,0,0,,Il n'a pas décroché un mot !
-Dialogue: 0,0:17:24.38,0:17:26.27,Main,,0,0,0,,Oui, c'est vrai.
-Dialogue: 0,0:17:26.50,0:17:29.36,Main,,0,0,0,,Tu crois vraiment\Nque Sanji nous laisserait
-Dialogue: 0,0:17:29.67,0:17:32.61,Main,,0,0,0,,galérer dans cette fichue forêt\Nsans réagir ?
-Dialogue: 0,0:17:33.00,0:17:34.94,Main,,0,0,0,,Tu as raison. On fait demi-tour.
-Dialogue: 0,0:17:37.50,0:17:38.84,Main,,0,0,0,,Les aiguilles s'affolent !
-Dialogue: 0,0:17:39.95,0:17:41.74,Main,,0,0,0,,C'est pareil pour les horloges.
-Dialogue: 0,0:17:48.33,0:17:51.21,Main,,0,0,0,,Cette forêt est vraiment trop bizarre.
-Dialogue: 0,0:18:17.43,0:18:18.64,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Vous avez entendu, ça ?{\i}♪
-Dialogue: 0,0:18:18.94,0:18:20.28,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Nous avons entendu{\i}♪
-Dialogue: 0,0:18:20.58,0:18:21.95,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Cachons{\i}♪
-Dialogue: 0,0:18:22.15,0:18:23.58,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Cachons{\i}♪
-Dialogue: 0,0:18:23.58,0:18:26.78,Lyrics-OP19,,0,0,650,,{\fad(100,100)}♪{\i1}Arbre, arbre, arbre, arbre{\i}♪
-Dialogue: 0,0:18:23.64,0:18:30.19,Special-Captions,,0,0,300,,{\fad(1000,1000)}Côte Sud-Ouest de l'Île Whole Cake
-Dialogue: 0,0:18:26.98,0:18:30.21,Lyrics-OP19,,0,0,650,,{\fad(100,100)}♪{\i1}Cachons la sortie{\i} ♪
-Dialogue: 0,0:18:23.58,0:18:30.19,Foret,,0,0,350,,{\fad(1000,1000)}Forêt Tentatrice
-Dialogue: 0,0:18:30.43,0:18:36.43,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Fleurs ! Fleurs ! Fleurs ! {\i}♪
-Dialogue: 0,0:18:36.75,0:18:38.12,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Jouons{\i} ♪
-Dialogue: 0,0:18:38.25,0:18:39.68,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Jouons{\i} ♪
-Dialogue: 0,0:18:39.92,0:18:43.06,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Jouons à les tuer{\i} ♪
-Dialogue: 0,0:18:47.72,0:18:51.80,Main,,0,0,0,,– Chopper, plus vite !\N– Je suis à fond, là !
-Dialogue: 0,0:18:52.45,0:18:53.30,Main,,0,0,0,,Il est là ?
-Dialogue: 0,0:18:53.55,0:18:55.65,Main,,0,0,0,,Oui, il nous suit toujours.
-Dialogue: 0,0:18:55.80,0:18:59.05,Main,,0,0,0,,– On doit sortir d'ici, et vite !\N– Oui.
-Dialogue: 0,0:18:59.30,0:19:01.32,Main,,0,0,0,,Ce lapin est très fort.
-Dialogue: 0,0:19:04.05,0:19:06.16,Main,,0,0,0,,Mais, ce n'est pas un Mink.
-Dialogue: 0,0:19:06.30,0:19:08.88,Main,,0,0,0,,– Tu es sûre ?\N– Il a mangé un Fruit ?
-Dialogue: 0,0:19:12.00,0:19:13.05,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Ils ont compris{\i} ♪
-Dialogue: 0,0:19:13.12,0:19:18.07,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Les chapeaux de paille ont compris{\i} ♪
-Dialogue: 0,0:19:18.40,0:19:20.01,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Ils nous ont démasqués{\i} ♪
-Dialogue: 0,0:19:20.01,0:19:23.22,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}– Mais non ils n'ont pas compris\N– Que quelque chose clochait{\i}♪
-Dialogue: 0,0:19:23.22,0:19:24.74,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Ils ont compris{\i} ♪
-Dialogue: 0,0:19:24.80,0:19:27.97,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}– Mme Brûlée...\N– Les manipule à sa guise{\i} ♪
-Dialogue: 0,0:19:28.07,0:19:30.70,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}De qui seront-ils les proies ?{\i} ♪
-Dialogue: 0,0:19:31.10,0:19:33.82,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}On va en faire des smoothies{\i} ♪
-Dialogue: 0,0:19:33.95,0:19:37.41,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪{\i1}Pour se régaler{\i} ♪
-Dialogue: 0,0:20:03.30,0:20:05.70,Main,,0,0,0,,Je le savais !\NIl n'a pas l'Électro.
-Dialogue: 0,0:20:06.80,0:20:08.51,Main,,0,0,0,,Prends ça !
-Dialogue: 0,0:20:10.05,0:20:12.52,Main,,0,0,0,,– Carrot, reste avec nous !\N– J'arrive.
-Dialogue: 0,0:20:12.85,0:20:14.27,Main,,0,0,0,,Pardon, M. l'oiseau.
-Dialogue: 0,0:20:18.25,0:20:22.64,Captions,,0,0,0,,{\pos(643,482)\fad(250,350)}Randolph "Crane Rider" Pirates de Big Mom
-Dialogue: 0,0:20:31.15,0:20:32.75,Main,,0,0,0,,– Sa lance !\N– Attention !
-Dialogue: 0,0:20:48.30,0:20:51.81,Narrator,,0,0,0,,Le château de Whole Cake,\Nla demeure de Big Mom.
-Dialogue: 0,0:20:52.45,0:20:56.19,Narrator,,0,0,0,,Et juste derrière, on trouve le lac Abricot.
-Dialogue: 0,0:21:04.55,0:21:08.37,Main,,0,0,0,,Ici le navire Germa.\NNous demandons la permission d'entrer.
-Dialogue: 0,0:21:08.75,0:21:10.51,Main,,0,0,0,,Accordée !
-Dialogue: 0,0:21:12.94,0:21:15.42,Narrator,,0,0,0,,Seuls les navires des équipages\Nsoumis à Big Mom
-Dialogue: 0,0:21:15.55,0:21:20.21,Narrator,,0,0,0,,et ceux de ses futurs alliés\Nont l'autorisation d'entrer.
-Dialogue: 0,0:21:20.40,0:21:22.92,Main,,0,0,0,,C'est bon ! La voie est libre !
-Dialogue: 0,0:21:35.90,0:21:38.48,Main,,0,0,0,,Continuez...
-Dialogue: 0,0:21:38.73,0:21:41.30,Main,,0,0,0,,Et... Stop !
-Dialogue: 0,0:21:41.78,0:21:43.87,Main,,0,0,0,,Parés à l'accostage.
-Dialogue: 0,0:21:52.90,0:21:54.25,Narrator,,0,0,0,,Le Germa.
-Dialogue: 0,0:21:54.58,0:21:56.50,Narrator,,0,0,0,,Ne possédant pas\Nla moindre parcelle de terre,
-Dialogue: 0,0:21:56.60,0:21:59.87,Narrator,,0,0,0,,il représente le seul et unique\Nroyaume naval au monde.
-Dialogue: 0,0:22:00.70,0:22:03.38,Narrator,,0,0,0,,Ses nombreux navires\Nsillonnent les mers de manière autonome
-Dialogue: 0,0:22:03.50,0:22:07.93,Narrator,,0,0,0,,et se regroupent parfois\Npour former un grand pays flottant.
-Dialogue: 0,0:22:17.72,0:22:18.90,Narrator,,0,0,0,,À sa tête,
-Dialogue: 0,0:22:19.15,0:22:24.58,Narrator,,0,0,0,,la dynastie qui a jadis conquis\NNorth Blue par les armes, les Vinsmoke.
-Dialogue: 0,0:22:25.40,0:22:27.70,Narrator,,0,0,0,,Aujourd'hui encore,
-Dialogue: 0,0:22:28.15,0:22:31.48,Narrator,,0,0,0,,ce royaume continue\Nde faire trembler le monde entier.
-Dialogue: 0,0:22:31.63,0:22:33.70,Narrator,,0,0,0,,La population de ce royaume
-Dialogue: 0,0:22:33.77,0:22:38.11,Narrator,,0,0,0,,est composée en majorité d'hommes,\Nqui forment l'armée des Germa 66.
-Dialogue: 0,0:22:48.70,0:22:52.97,Narrator,,0,0,0,,Ils s'entraînent sans relâche,\Njour après jour, nuit après nuit.
-Dialogue: 0,0:23:07.85,0:23:10.00,Main,,0,0,0,,Tu vas rester ici longtemps ?
-Dialogue: 0,0:23:11.45,0:23:13.20,Main,,0,0,0,,Tu es méchant avec ta pauvre sœur.
-Dialogue: 0,0:23:13.90,0:23:16.24,Main,,0,0,0,,Dire qu'on se retrouve enfin,\Naprès 13 ans.
-Dialogue: 0,0:23:21.78,0:23:23.75,Main,,0,0,0,,Je dois vous le dire combien de fois ?
-Dialogue: 0,0:23:23.92,0:23:27.96,Main,,0,0,0,,J'ai coupé les ponts\Navec cette maudite famille.
-Dialogue: 0,0:23:28.60,0:23:32.47,Main,,0,0,0,,Faut vraiment avoir un grain\Npour avoir une déco pareille.
-Dialogue: 0,0:23:46.80,0:23:50.70,Main,,0,0,0,,C'est pour célébrer la victoire\Nsur les quatre rois de North Blue.
-Dialogue: 0,0:23:51.10,0:23:52.92,Main,,0,0,0,,Lors du Massacre des 4 nations.
-Dialogue: 0,0:23:54.75,0:24:00.42,Main,,0,0,0,,Le rêve de père est de revoir flotter\Nl'étendard du Germa 66 sur North Blue.
-Dialogue: 0,0:24:01.30,0:24:02.58,Main,,0,0,0,,Je ne le blâme pas.
-Dialogue: 0,0:24:02.92,0:24:06.29,Main,,0,0,0,,Les hommes sont obnubilés\Npar la puissance et la renommée.
-Dialogue: 0,0:24:07.60,0:24:10.67,Main,,0,0,0,,Plutôt que de rester\Ndans un équipage minable,
-Dialogue: 0,0:24:11.05,0:24:14.27,Main,,0,0,0,,viens donc profiter des privilèges\Ndus à quelqu'un de ton rang.
-Dialogue: 0,0:24:14.80,0:24:16.51,Main,,0,0,0,,Te fous pas de moi.
-Dialogue: 0,0:24:16.71,0:24:17.70,Main,,0,0,0,,Regarde.
-Dialogue: 0,0:24:18.05,0:24:21.85,Main,,0,0,0,,Ces dix servantes sont prêtes à assouvir\Nle moindre de tes désirs.
-Dialogue: 0,0:24:22.30,0:24:24.81,Main,,0,0,0,,Tout ce que vous voudrez, Prince.
-Dialogue: 0,0:24:27.60,0:24:29.86,Main,,0,0,0,,Tout ça,\Ncar tu es de sang royal.
-Dialogue: 0,0:24:30.30,0:24:33.25,Main,,0,0,0,,Tant que des pays en guerre\Nauront besoin de nos mercenaires,
-Dialogue: 0,0:24:33.40,0:24:35.78,Main,,0,0,0,,nous ne manquerons pas d'argent.
-Dialogue: 0,0:24:36.12,0:24:38.28,Main,,0,0,0,,Tu n'auras même pas besoin de te battre.
-Dialogue: 0,0:24:40.00,0:24:41.50,Main,,0,0,0,,L'idée ne te plaît pas ?
-Dialogue: 0,0:24:43.20,0:24:45.95,Main,,0,0,0,,C'est pourtant ainsi\Nque nous autres Vinsmoke
-Dialogue: 0,0:24:46.15,0:24:49.06,Main,,0,0,0,,avons amassé notre fortune :\Npar les armes.
-Dialogue: 0,0:24:50.98,0:24:53.41,Main,,0,0,0,,Ce sang coule également dans tes veines.
-Dialogue: 0,0:24:53.80,0:24:55.26,Main,,0,0,0,,C'est plus mon problème.
-Dialogue: 0,0:24:55.72,0:24:57.32,Main,,0,0,0,,J'ai aucune envie de me marier.
-Dialogue: 0,0:24:57.50,0:25:00.56,Main,,0,0,0,,Pudding est une brave petite.\NJe l'aime beaucoup.
-Dialogue: 0,0:25:02.54,0:25:04.20,Main,,0,0,0,,Général, où allez-vous ?
-Dialogue: 0,0:25:04.35,0:25:06.27,Main,,0,0,0,,Je vais voir Sanji.
-Dialogue: 0,0:25:06.52,0:25:07.67,Main,,0,0,0,,Ne me dérangez pas.
-Dialogue: 0,0:25:21.44,0:25:24.04,Main,,0,0,0,,Père ? Qu'est-ce qui vous amène ?
-Dialogue: 0,0:25:26.06,0:25:31.67,Captions,,0,0,0,,{\pos(642,453)\fad(600,0)}Vinsmoke Judge - Roi du Royaume Germa\NLe Général du Germa 66
-Dialogue: 0,0:25:31.67,0:25:33.98,Main,,0,0,0,,Encore en train de geindre ?
-Dialogue: 0,0:25:34.60,0:25:36.30,Main,,0,0,0,,Toi...
-Dialogue: 0,0:25:42.05,0:25:43.89,Main,,0,0,0,,Mon fils.
-Dialogue: 0,0:25:44.22,0:25:45.69,Main,,0,0,0,,M'appelle pas comme ça.
-Dialogue: 0,0:25:45.80,0:25:49.27,Main,,0,0,0,,Je me suis choisi un autre père,\Nt'es rien pour moi.
-Dialogue: 0,0:25:54.12,0:25:58.91,Main,,0,0,0,,Qu'as-tu fait à Yonji ?\NIl est pourtant sacrément fort.
-Dialogue: 0,0:25:59.12,0:26:01.37,Main,,0,0,0,,Eh bien, je suis plus fort.\NC'est tout.
-Dialogue: 0,0:26:08.85,0:26:11.15,Main,,0,0,0,,Allons nous expliquer dehors.
-Dialogue: 0,0:26:13.02,0:26:15.92,Main,,0,0,0,,Les hommes règlent les différents\Navec leurs poings.
-Dialogue: 0,0:26:20.70,0:26:23.85,Captions,,0,0,0,,{\pos(640,545)\fad(100,250)}La Forêt Tentatrice
-Dialogue: 0,0:26:25.05,0:26:27.14,Main,,0,0,0,,Chopper, Carrot, écartez-vous !
-Dialogue: 0,0:26:27.30,0:26:28.23,Main,,0,0,0,,OK !
-Dialogue: 0,0:26:32.40,0:26:34.38,Main,,0,0,0,,C'est quoi tout ce boucan, derrière ?
-Dialogue: 0,0:26:38.44,0:26:40.66,Main,,0,0,0,,Il est pratique, comme point de repère.
-Dialogue: 0,0:26:40.88,0:26:44.83,Main,,0,0,0,,Oh, c'est encore vous !
-Dialogue: 0,0:26:50.95,0:26:52.71,Main,,0,0,0,,Le champ de sucettes !
-Dialogue: 0,0:26:53.00,0:26:56.17,Main,,0,0,0,,Luffy est juste après.
-Dialogue: 0,0:26:57.85,0:27:01.01,Main,,0,0,0,,Enfoiré.\NDégage de mon chemin !
-Dialogue: 0,0:27:05.81,0:27:08.77,Main,,0,0,0,,– Il se bat encore ?\N– Luffy !
-Dialogue: 0,0:27:08.95,0:27:10.98,Main,,0,0,0,,Retournons sur le rivage !
-Dialogue: 0,0:27:11.77,0:27:13.98,Main,,0,0,0,,Hein ? Vous revenez déjà ?
-Dialogue: 0,0:27:14.24,0:27:16.78,Main,,0,0,0,,Dépêche-toi !\NOn t'expliquera après.
-Dialogue: 0,0:27:17.00,0:27:19.60,Main,,0,0,0,,Cette forêt est pleine\Nde drôles de pièges.
-Dialogue: 0,0:27:19.86,0:27:20.90,Main,,0,0,0,,Ça marche.
-Dialogue: 0,0:27:23.72,0:27:27.20,Main,,0,0,0,,On a de la compagnie,\Nil faut foncer vers la sortie.
-Dialogue: 0,0:27:36.20,0:27:38.67,Main,,0,0,0,,C'est la rivière du crocodile qui parle.
-Dialogue: 0,0:27:38.98,0:27:42.90,Main,,0,0,0,,La sortie est juste après\Nla rivière au jus de melon.
-Dialogue: 0,0:27:43.04,0:27:45.43,Main,,0,0,0,,Il faut bondir par-dessus.
-Dialogue: 0,0:27:45.64,0:27:48.14,Main,,0,0,0,,Allons-y.
-Dialogue: 0,0:27:50.20,0:27:53.64,Main,,0,0,0,,Attendez, les amis !\NC'est pas moi !
-Dialogue: 0,0:27:54.25,0:27:56.25,Main,,0,0,0,,T'as dit quoi, Luffy ?
-Dialogue: 0,0:27:56.44,0:27:57.36,Main,,0,0,0,,Rien !
-Dialogue: 0,0:28:01.72,0:28:05.25,Main,,0,0,0,,On fonce tout droit\Net surtout on ne ralentit pas.
-Dialogue: 0,0:28:05.40,0:28:06.33,Main,,0,0,0,,OK !
-Dialogue: 0,0:28:07.35,0:28:08.62,Main,,0,0,0,,Et Sanji ?
-Dialogue: 0,0:28:08.92,0:28:12.98,Main,,0,0,0,,Il s'enfuit dès qu'on approche\Net il ne revient pas.
-Dialogue: 0,0:28:13.40,0:28:15.18,Main,,0,0,0,,C'est vraiment bizarre.
-Dialogue: 0,0:28:15.30,0:28:17.63,Main,,0,0,0,,On dirait pourtant\Nque c'est lui, mais...
-Dialogue: 0,0:28:17.85,0:28:20.19,Main,,0,0,0,,On en parlera une fois sortis d'ici.
-Dialogue: 0,0:28:20.30,0:28:23.23,Main,,0,0,0,,Oui. Heureusement\Nqu'on se souvient encore du chemin.
-Dialogue: 0,0:28:23.87,0:28:25.68,Main,,0,0,0,,Le rivage est juste derrière.
-Dialogue: 0,0:28:25.88,0:28:26.68,Main,,0,0,0,,Ouais.
-Dialogue: 0,0:28:30.65,0:28:31.18,Main,,0,0,0,,Oh ?
-Dialogue: 0,0:28:31.47,0:28:33.35,Main,,0,0,0,,– Hein ?\N– Quoi ?
-Dialogue: 0,0:28:39.43,0:28:42.61,Main,,0,0,0,,Quoi ? Comment ça se fait ?
-Dialogue: 0,0:28:43.75,0:28:46.07,Main,,0,0,0,,Encore vous ?
-Dialogue: 0,0:28:46.27,0:28:49.43,Main,,0,0,0,,Vous voulez pas me retirer\Nle machin que je me suis pris ?
-Dialogue: 0,0:28:49.53,0:28:53.50,Main,,0,0,0,,On a pourtant repris le même chemin\Nqu'à l'aller !
-Dialogue: 0,0:28:53.77,0:28:56.58,Main,,0,0,0,,Qu'est-ce que tu fais là, toi ?
-Dialogue: 0,0:28:57.80,0:29:01.30,Main,,0,0,0,,Arrêtez de crier, vous me faites peur.
-Dialogue: 0,0:29:01.70,0:29:03.85,Main,,0,0,0,,Et comment ça, ce que je fiche ici ?
-Dialogue: 0,0:29:03.96,0:29:08.01,Main,,0,0,0,,J'ai pas bougé d'un pouce, moi.
-Dialogue: 0,0:29:08.52,0:29:13.82,Main,,0,0,0,,C'est vous, qui êtes partis et revenus.
-Dialogue: 0,0:29:14.14,0:29:16.94,Main,,0,0,0,,– Chopper, essayons encore une fois.\N– Ouais.
-Dialogue: 0,0:29:18.12,0:29:21.73,Main,,0,0,0,,Ohé ! Et le truc que j'ai\Nde piqué dans le crâne ?
-Dialogue: 0,0:29:26.40,0:29:28.57,Main,,0,0,0,,On traverse le champ de sucettes.
-Dialogue: 0,0:29:34.75,0:29:36.62,Main,,0,0,0,,On franchit la rivière au croco.
-Dialogue: 0,0:29:40.57,0:29:42.51,Main,,0,0,0,,Et cette fois, on devrait être bons.
-Dialogue: 0,0:29:47.88,0:29:49.51,Main,,0,0,0,,Vous m'avez fait peur...
-Dialogue: 0,0:29:50.33,0:29:53.00,Main,,0,0,0,,Dites, vous allez revenir\Ncombien de fois ?
-Dialogue: 0,0:29:53.18,0:29:54.40,Main,,0,0,0,,Encore ?
-Dialogue: 0,0:29:55.15,0:29:57.90,Main,,0,0,0,,Le Log Pose s'affole, mais quand même !
-Dialogue: 0,0:29:58.08,0:30:02.07,Main,,0,0,0,,C'est une route droite,\Non ne devrait pas se perdre !
-Dialogue: 0,0:30:04.90,0:30:06.65,Main,,0,0,0,,Si on suit cette route, on devrait...
-Dialogue: 0,0:30:06.90,0:30:10.50,Main,,0,0,0,,Doucement, doucement...
-Dialogue: 0,0:30:12.58,0:30:13.41,Main,,0,0,0,,Oups.
-Dialogue: 0,0:30:14.15,0:30:15.25,Main,,0,0,0,,Mince !
-Dialogue: 0,0:30:15.47,0:30:18.12,Main,,0,0,0,,Quoi ?\NLes arbres et les fleurs bougent !
-Dialogue: 0,0:30:18.33,0:30:20.75,Main,,0,0,0,,Hop ! Hop !
-Dialogue: 0,0:30:20.99,0:30:23.42,Main,,0,0,0,,Le sol parle et bouge aussi !
-Dialogue: 0,0:30:24.17,0:30:27.10,Main,,0,0,0,,C'est quoi, cette histoire ?\NIl se passe quoi ?
-Dialogue: 0,0:30:27.22,0:30:28.72,Main,,0,0,0,,C'est quoi, cette forêt ?
-Dialogue: 0,0:30:28.85,0:30:31.97,Main,,0,0,0,,– On est repérés.\N– Nous voilà démasqués.
-Dialogue: 0,0:30:32.13,0:30:35.72,Lyrics-OP19,,0,0,0,,{\fad(100,100)}♪ {\i1}Fleur ! Fleur !{\i0} ♪
-Dialogue: 0,0:30:35.85,0:30:39.58,Main,,0,0,0,,Le chemin n'a jamais existé.
-Dialogue: 0,0:30:40.75,0:30:43.40,Main,,0,0,0,,Eh bien ! Il vous aura fallu le temps.
-Dialogue: 0,0:30:43.80,0:30:48.24,Main,,0,0,0,,– Vous commencez à avoir peur ?\N– Luffy, à quoi tu joues ?
-Dialogue: 0,0:30:49.05,0:30:52.46,Main,,0,0,0,,Vous êtes dans la Forêt Tentatrice.
-Dialogue: 0,0:30:52.80,0:30:55.00,Main,,0,0,0,,Nami ! C'est pas Luffy.
-Dialogue: 0,0:31:06.65,0:31:08.38,Main,,0,0,0,,Qui es-tu ?
-Dialogue: 0,0:31:09.10,0:31:10.64,Main,,0,0,0,,Qui je suis ?
-Dialogue: 0,0:31:14.88,0:31:18.06,Main,,0,0,0,,Allons, on se connaît bien.\NJe vous suis depuis le début.
-Dialogue: 0,0:31:19.20,0:31:21.25,Main,,0,0,0,,Fuir ne vous mènera nulle part.
-Dialogue: 0,0:31:21.40,0:31:24.05,Main,,0,0,0,,Vous ne sortirez jamais d'ici.
-Dialogue: 0,0:31:25.15,0:31:26.59,Main,,0,0,0,,Jamais...
-Dialogue: 0,0:31:27.05,0:31:29.32,Main,,0,0,0,,Pas avant de mourir !
-Dialogue: 0,0:31:29.85,0:31:31.48,Main,,0,0,0,,Lâche-moi !
-Dialogue: 0,0:31:31.80,0:31:35.28,Main,,0,0,0,,Arrête de gigoter, demoiselle.
-Dialogue: 0,0:31:35.68,0:31:37.30,Main,,0,0,5,,Tu as vu ?
-Dialogue: 0,0:31:37.45,0:31:39.80,Main,,0,0,5,,Je suis défigurée par une cicatrice.
-Dialogue: 0,0:31:36.23,0:31:41.21,Captions,,0,0,0,,{\pos(639,482)\fad(500,0)}Charlotte Brûlée\N8e fille de la Famille Charlotte
-Dialogue: 0,0:31:39.90,0:31:41.21,Main,,0,0,5,,Horrible, n'est-ce pas ?
-Dialogue: 0,0:31:41.47,0:31:43.67,Main,,0,0,0,,T'es quoi ? Un arbre ?
-Dialogue: 0,0:31:43.84,0:31:47.05,Main,,0,0,0,,Je ne suis pas un arbre !\NJe suis la grande Brûlée.
-Dialogue: 0,0:31:47.37,0:31:48.44,Main,,0,0,0,,Brûlée ?
-Dialogue: 0,0:31:48.88,0:31:53.72,Main,,0,0,0,,Une adorable petite lapine\Net une jolie fille.
-Dialogue: 0,0:31:53.88,0:31:55.40,Main,,0,0,0,,Merveilleux.
-Dialogue: 0,0:31:55.55,0:31:58.40,Main,,0,0,0,,Quand je vois d'aussi jolis minois,
-Dialogue: 0,0:31:58.60,0:32:00.18,Main,,0,0,0,,je n'ai qu'une envie.
-Dialogue: 0,0:32:02.00,0:32:05.31,Main,,0,0,0,,Les lacérer de mes griffes !
-Dialogue: 0,0:00:31.90,0:00:35.53,OP19-Credits,,0,0,0,,{\fad(300,200)}Editing:\N{\fs34}Feeso\NGalaxy 9000
-Dialogue: 0,0:00:35.53,0:00:39.80,OP19-Credits,,0,0,0,,{\fad(300,200)}Quality Control:\N{\fs34}TrixJoestar\NClamia
-Dialogue: 0,0:00:39.80,0:00:42.54,OP19-Credits,,0,0,0,,{\fad(300,200)}Soundtracking:\N{\fs34}Halee
-Dialogue: 0,0:00:42.84,0:00:45.07,OP19-Credits,,0,0,0,,{\fad(300,200)}Timing:\N{\fs34}Halee,\NSewil\NZorohack
-Dialogue: 0,0:00:45.21,0:00:47.68,OP19-Credits,,0,0,0,,{\fad(300,200)}Karaoke:\N{\fs34}Yibis
-Dialogue: 0,0:00:50.28,0:00:51.45,OP19-Credits,,0,0,0,,{\fad(300,200)}Graphics:\N{\fs34}Datenshi
-Dialogue: 0,0:00:47.80,0:00:50.28,OP19-Credits,,0,0,0,,{\fad(300,200)}Translation:\N{\fs34}TrixJoestar\NADN
