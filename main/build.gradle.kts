@@ -426,6 +426,10 @@ subs {
                     default(false)
                 }
             }
+
+            attach(get("defonts")) {
+                includeExtensions("ttf", "otf")
+            }
         }
 
         // German Dub Subtitles
@@ -439,6 +443,9 @@ subs {
                 }
             }
 
+            attach(get("defonts")) {
+                includeExtensions("ttf", "otf")
+            }
         }
 
         // Italian Subtitles
