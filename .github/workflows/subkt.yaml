@@ -14,19 +14,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: Set up JDK 11
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654 # v5.2.0
         with:
           java-version: '11'
           distribution: 'temurin'
 
       - name: Validate Gradle wrapper
-        uses: gradle/wrapper-validation-action@v1
+        uses: gradle/wrapper-validation-action@f9c9c575b8b21b6485636a91ffecd10e558c62f6 # v3.5.0
 
       - name: Cache gradle
-        uses: actions/cache@v3
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: main/.gradle
           key: ${{ runner.os }}-1-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
@@ -57,19 +57,19 @@ jobs:
             | paste -s -d ' ') >> $GITHUB_ENV
 
       - name: Merge with SubKt
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@ac2d340dc04d9e1113182899e983b5400c17cda1 # v3.5.0
         with:
           arguments: ${{ env.mergeTasks }}
           build-root-directory: main
 
       - name: Merge with SubKt (Extended Versions)
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@ac2d340dc04d9e1113182899e983b5400c17cda1 # v3.5.0
         with:
           arguments: -Pex ${{ env.mergeTasksExtended }}
           build-root-directory: main
 
       - name: Merge with SubKt (Alternate Versions)
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@ac2d340dc04d9e1113182899e983b5400c17cda1 # v3.5.0
         with:
           arguments: -Palt ${{ env.mergeTasksAlternate }}
           build-root-directory: main
