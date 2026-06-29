@@ -97,6 +97,7 @@ subs {
     val arsubs = getPrefix() + "arsubs"
     val desubs = getPrefix() + "desubs"
     val itsubs = getPrefix() + "itsubs"
+    val jasubs = getPrefix() + "jasubs"
     val ptsubs = getPrefix() + "ptsubs"
     val plsubs = getPrefix() + "plsubs"
     val trsubs = getPrefix() + "trsubs"
@@ -117,6 +118,7 @@ subs {
     val mergefile_pt = getPrefix() + "mergefile_pt"
     val mergefile_pl = getPrefix() + "mergefile_pl"
     val mergefile_it = getPrefix() + "mergefile_it"
+    val mergefile_ja = getPrefix() + "mergefile_ja"
     val mergefile_tr = getPrefix() + "mergefile_tr"
     val mergefile_cs = getPrefix() + "mergefile_cs"
     val mergefile_ru = getPrefix() + "mergefile_ru"
@@ -190,6 +192,7 @@ subs {
     val increaseLayer_de by task<ASS> {createIncreaseLayerTask(desubs)} // German Subs
     val increaseLayer_pt by task<ASS> {createIncreaseLayerTask(ptsubs)} // Portuguese Subs
     val increaseLayer_it by task<ASS> {createIncreaseLayerTask(itsubs)} // Italian Subs
+    val increaseLayer_ja by task<ASS> {createIncreaseLayerTask(jasubs)} // Japanese Subs
     val increaseLayer_ar by task<ASS> {createIncreaseLayerTask(arsubs)} // Arabic Subs
     val increaseLayer_pl by task<ASS> {createIncreaseLayerTask(plsubs)} // Polish Subs
     val increaseLayer_tr by task<ASS> {createIncreaseLayerTask(trsubs)} // Turkish Subs
@@ -204,6 +207,7 @@ subs {
     val merge_de_no_op by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "noOp", "ED_de", mergefile_de_dub)} // German Subs without OP
     val merge_pt by task<Merge> {createMergeKaraokeTask(increaseLayer_pt.item(), "OP_pt", "ED_pt", mergefile_pt)} // Portuguese Subs
     val merge_it by task<Merge> {createMergeKaraokeTask(increaseLayer_it.item(), "OP_it", "ED_it", mergefile_it)} // Italian Subs
+    val merge_ja by task<Merge> {createMergeKaraokeTask(increaseLayer_ja.item(), "OP_ja", "ED_ja", mergefile_ja)} // Japanese Subs
     val merge_ar by task<Merge> {createMergeKaraokeTask(increaseLayer_ar.item(), "OP_ar", "ED_ar", mergefile_ar)} // Arabic Subs
     val merge_pl by task<Merge> {createMergeKaraokeTask(increaseLayer_pl.item(), "OP_pl", "ED_pl", mergefile_pl)} // Polish Subs
     val merge_tr by task<Merge> {createMergeKaraokeTask(increaseLayer_tr.item(), "OP_tr", "ED_tr", mergefile_tr)} // Turkish Subs
@@ -246,6 +250,9 @@ subs {
         }
         if (file(get(itsubs)).exists()) {
             dependsOn(merge_it.item())
+        }
+        if (file(get(jasubs)).exists()) {
+            dependsOn(merge_ja.item())
         }
         if (file(get(arsubs)).exists()) {
             dependsOn(merge_ar.item())
@@ -456,6 +463,21 @@ subs {
                     lang("it")
                     default(false)
                 }
+            }
+        }
+
+        // Japanese Subtitles
+        if (file(get(jasubs)).exists()) {
+            from(merge_ja.item()) {
+                tracks {
+                    name("Japanese")
+                    lang("ja")
+                    default(false)
+                }
+            }
+
+            attach(get("jafonts")) {
+                includeExtensions("ttf", "otf")
             }
         }
 
