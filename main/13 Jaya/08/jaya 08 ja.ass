@@ -14,10 +14,10 @@ PlayResY: 1080
 [Aegisub Project Garbage]
 Video AR Mode: 4
 Video AR Value: 1.333333
-Video Zoom Percent: 0.750000
-Scroll Position: 290
-Active Line: 326
-Video Position: 27374
+Video Zoom Percent: 0.500000
+Scroll Position: 25
+Active Line: 327
+Video Position: 25527
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -46,13 +46,13 @@ Style: Lyrics Main,Duality,70,&H00D8933F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=37}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=21}========================CHAPTERS AND OPENINGS=====================
 Comment: 0,0:00:00.00,0:00:00.02,Main-207-,chptr,0,0,0,,{Opening}
 Comment: 0,0:01:49.71,0:01:49.76,Main-207-,chptr,0,0,0,,{Episode}
 Comment: 0,0:00:25.42,0:00:25.46,Main-207-,OP,0,0,0,,
 Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
 Dialogue: 0,0:01:49.71,0:01:59.71,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
-Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=38}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=22}========================CHAPTERS AND OPENINGS=====================
 Comment: 0,0:00:00.00,0:00:00.00,Karaoke Main,,0,0,0,,{=39}=======================WE ARE TEMPLATE =============================
 Comment: 0,0:00:00.00,0:00:00.00,Karaoke Main,,0,0,0,code syl all,fxgroup.sakura = (line.actor == "sakura")
 Comment: 0,0:00:00.00,0:00:00.00,Karaoke Main,Get Scr Resolution,0,0,0,code once,xres, yres = _G.aegisub.video_size() if xres == nil  then x_rat = 1 y_rat = 1 else x_rat = xres/720 y_rat = x_rat end if (xres and xres ~= meta.res_x) or (yres and yres ~= meta.res_y) then _G.aegisub.debug.out(2, "Warning: script resolution %dx%d does not match with loaded video resolution %dx%d resample script resolution", meta.res_x, meta.res_y, xres, yres) end
@@ -68,7 +68,7 @@ Comment: 2,0:00:00.00,0:00:00.00,Karaoke Main,hilight text,0,0,0,template furi,!
 Comment: 0,0:00:00.00,0:00:00.01,Lyrics Main,,0,0,0,,
 Comment: 0,0:17:44.71,0:17:49.96,Karaoke Main,,0,0,0,karaoke,{\k8}{\k9}あ{\k9}り{\k19}った{\k20}け{\k52}の{\k34}夢｜ゆ{\k20}#｜め{\k96}を{\k31}{\k14}か{\k19}き{\k28}集｜あ{\k22}#｜つ{\k143}め
 Comment: 0,0:17:50.17,0:17:55.76,Karaoke Main,,0,0,0,karaoke,{\k13}{\k22}捜｜さ{\k13}#｜が{\k23}し{\k22}物｜も{\k15}#｜の{\k29}を{\k42}捜｜さ{\k9}#｜が{\k62}し{\k36}に{\k36}行｜ゆ{\k33}く{\k26}の{\k180}さ
-Comment: 0,0:17:56.09,0:17:57.01,Karaoke Main,,0,0,0,karaoke,{\k13}{\k35}ONE {\k42}PIECE
+Comment: 0,0:17:56.09,0:17:57.01,Karaoke Main,,0,0,0,karaoke,{\k13}{\k35}One {\k42}Piece!
 Comment: 0,0:18:02.22,0:18:07.02,Karaoke Main,,0,0,0,karaoke,{\k11}{\k20}羅｜ら{\k34}針｜!しん{\k20}盤｜!ば{\k31}#｜ん{\k36}なん{\k24}て{\k117}{\k38}渋｜じゅう{\k35}滞｜!たい{\k35}の{\k37}も{\k43}と
 Comment: 0,0:18:07.90,0:18:12.82,Karaoke Main,,0,0,0,karaoke,{\k10}{\k22}熱｜ね{\k15}#｜つ{\k17}に{\k18}う{\k32}か{\k42}さ{\k23}れ{\k44}{\k38}舵｜か{\k37}｜じ{\k71}を{\k18}と{\k17}る{\k14}の{\k73}さ
 Comment: 0,0:18:13.65,0:18:18.86,Karaoke Main,,0,0,0,karaoke,{\k9}{\k25}ホ{\k10}コ{\k19}リ{\k17}か{\k37}ぶ{\k32}って{\k26}た{\k84}{\k18}宝｜<た{\k15}#｜か{\k37}#｜ら{\k32}の{\k42}地｜ち{\k18}図｜!ず{\k99}も
@@ -79,11 +79,11 @@ Comment: 0,0:18:36.72,0:18:38.55,Karaoke Main,,0,0,0,karaoke,{\k7}{\k17}思｜�
 Comment: 0,0:18:40.43,0:18:45.72,Karaoke Main,,0,0,0,karaoke,{\k7}{\k9}あ{\k9}り{\k19}った{\k20}け{\k52}の{\k34}夢｜ゆ{\k20}#｜め{\k96}を{\k31}{\k14}か{\k19}き{\k28}集｜あ{\k22}#｜つ{\k152}め
 Comment: 0,0:18:45.93,0:18:51.31,Karaoke Main,,0,0,0,karaoke,{\k7}{\k22}捜｜さ{\k13}#｜が{\k23}し{\k22}物｜も{\k15}#｜の{\k29}を{\k42}捜｜さ{\k9}#｜が{\k62}し{\k36}に{\k36}行｜ゆ{\k33}く{\k26}の{\k161}さ
 Comment: 0,0:18:51.65,0:18:54.36,Karaoke Main,,0,0,0,karaoke,{\k9}{\k18}ポ{\k37}ケ{\k57}ット{\k52}の{\k28}コ{\k72}イン
-Comment: 0,0:18:54.36,0:18:57.57,Karaoke Main,,0,0,0,karaoke,{\k20}{\k24}そ{\k18}れ{\k11}と{\k26}You {\k14}wan{\k19}na {\k36}be {\k30}my {\k121}friend?
+Comment: 0,0:18:54.36,0:18:57.57,Karaoke Main,,0,0,0,karaoke,{\k20}{\k24}そ{\k18}れ{\k11}と{\k26}You {\k14}wan{\k19}na {\k36}be {\k30}my {\k121}Friend?
 Comment: 0,0:18:57.86,0:19:02.45,Karaoke Main,,0,0,0,karaoke,{\k12}{\k54}We {\k91}are, {\k53}We {\k50}are {\k20}on {\k17}the {\k160}cruise!
 Comment: 0,0:19:03.24,0:19:04.08,Karaoke Main,,0,0,0,karaoke,{\k7}{\k34}ウィー{\k87}アー！
 Comment: 0,0:00:00.00,0:00:00.00,Karaoke Main,,0,0,0,,{=40}======================= WE ARE TEMPLATE ===========================
-Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=6}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=41}===============================DIALOGUE============================
 Dialogue: 0,0:01:54.76,0:01:58.72,Main-207-,,0,0,0,,何やってんのよあいつったらもう… \N朝も　もう朝！
 Dialogue: 0,0:01:59.43,0:02:04.48,Main-207-,,0,0,0,,約束の時間から46分オーバーしてるわ\N海流に乗れなくなるわよ
 Dialogue: 0,0:02:04.48,0:02:08.73,Main-207-,,0,0,0,,大体帰りは金塊持ってるんだから\N重くて遅くなるでしょ
@@ -345,7 +345,7 @@ Dialogue: 0,0:18:46.61,0:18:49.51,Main-207-,,0,0,0,,あるとすれば\Nあの�
 Dialogue: 0,0:18:51.03,0:18:52.36,Main-207-,,0,0,0,,雲の上か…
 Dialogue: 0,0:18:52.64,0:18:55.32,Main-207-,,0,0,0,,あの上に一体何があるんだ？
 Dialogue: 0,0:18:55.70,0:18:58.37,Main-207-,,0,0,0,,積帝雲に突っ込むぞー！
-Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=7}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=42}===============================DIALOGUE============================
 Comment: 0,0:00:00.00,0:00:00.00,Main-207-,,0,0,0,,{=33}============================SIGNS AND TITLE=========================
 Comment: 0,0:01:49.76,0:01:54.76,Title-207-,,0,0,0,,{\blur0.8\fad(725,0)\bord1.8\c&H000000&\1a&HFF&\t(684,725,\1a&H00&)}The Knock-Up Stream
 Comment: 1,0:01:49.76,0:01:54.76,Title-207-,,0,0,0,,{\blur0.8\fad(725,0)\c&HE7E5E6&\bord0\4a&HFF&}The Knock-Up Stream
@@ -449,10 +449,10 @@ Dialogue: 1,0:17:55.59,0:17:56.04,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos
 Dialogue: 2,0:17:56.04,0:17:56.29,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(30,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,0,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}
 Dialogue: 1,0:17:55.64,0:17:56.04,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(30,80)\fad(300,0)}
 Dialogue: 2,0:17:56.04,0:17:56.42,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(30,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,130,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}
-Dialogue: 1,0:17:55.69,0:17:56.17,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(100,80)\fad(300,0)}ONE
-Dialogue: 2,0:17:56.17,0:17:56.77,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(100,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,350,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}ONE
-Dialogue: 1,0:17:55.74,0:17:56.52,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(299,80)\fad(300,0)}PIECE
-Dialogue: 2,0:17:56.52,0:17:57.19,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(299,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,420,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}PIECE
+Dialogue: 1,0:17:55.69,0:17:56.17,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(94,80)\fad(300,0)}One
+Dialogue: 2,0:17:56.17,0:17:56.77,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(94,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,350,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}One
+Dialogue: 1,0:17:55.74,0:17:56.52,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(286,80)\fad(300,0)}Piece!
+Dialogue: 2,0:17:56.52,0:17:57.19,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(286,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,420,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}Piece!
 Dialogue: 1,0:18:01.72,0:18:02.17,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(30,80)\fad(300,0)}
 Dialogue: 2,0:18:02.17,0:18:02.42,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(30,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,0,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}
 Dialogue: 1,0:18:01.77,0:18:02.17,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(30,80)\fad(300,0)}
@@ -811,8 +811,8 @@ Dialogue: 1,0:18:54.26,0:18:55.63,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos
 Dialogue: 2,0:18:55.63,0:18:56.24,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(653,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,360,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}be
 Dialogue: 1,0:18:54.31,0:18:55.99,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(773,80)\fad(300,0)}my
 Dialogue: 2,0:18:55.99,0:18:56.54,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(773,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,300,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}my
-Dialogue: 1,0:18:54.36,0:18:56.29,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(968,80)\fad(300,0)}friend?
-Dialogue: 2,0:18:56.29,0:18:57.75,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(968,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,1210,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}friend?
+Dialogue: 1,0:18:54.36,0:18:56.29,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(975,80)\fad(300,0)}Friend?
+Dialogue: 2,0:18:56.29,0:18:57.75,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(975,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,1210,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}Friend?
 Dialogue: 1,0:18:57.36,0:18:57.81,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(30,80)\fad(300,0)}
 Dialogue: 2,0:18:57.81,0:18:58.06,Karaoke Main,,0,0,0,fx,{\an5\blur0\pos(30,80)\bord3\t(0,100,\1c&HF8D4A1&\3c&HFFFFFF&\fscx130\fscy130)\t(100,0,\fscx100\fscy100\3c&H00FFFFFF&)\fad(0,200)}
 Dialogue: 1,0:18:57.41,0:18:57.81,Karaoke Main,,0,0,0,fx,{\an5\bord2.6\blur0\pos(30,80)\fad(300,0)}
@@ -860,3 +860,5 @@ Data: 37,_aegi_folddata,e0;0;1
 Data: 38,_aegi_folddata,e1;0;1
 Data: 39,_aegi_folddata,e0;0;5
 Data: 40,_aegi_folddata,e1;0;5
+Data: 41,_aegi_folddata,e0;1;2
+Data: 42,_aegi_folddata,e1;1;2
