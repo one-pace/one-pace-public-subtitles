@@ -231,6 +231,11 @@ subs {
                 line.isDialogue() && !line.effect.trim().equals("de_dub_keep")
             }
 
+            events.lines.removeIf { line ->
+                // Removes specific lines for karaoke, OP2 has spoken dialogue in addition to karaoke
+                line.effect.trim().equals("de_dub_remove")
+            }
+
             events.lines.forEach { line ->
                 line.text = swapTerms(line.text)
             }
