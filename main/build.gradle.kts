@@ -345,13 +345,48 @@ subs {
 
         // English Subtitle
         from(merge.item()) {
+            // The English credits record whether the script received a full
+            // editing pass ("Subtitle Editing") or light edits ("Subtitle Checks":
+            // polished for consistency, readability and timing, with a
+            // line-by-line review still pending). Carry that on the English track
+            // so it can be read off a release without the source repository.
+            // Credit layouts vary (heading alone, heading plus names, several
+            // roles in one event, sometimes kept as Comment events), so only the
+            // heading text on Credits-styled events is matched, not the layout.
+            val ensubsCreditText = Regex("""^(?:Dialogue|Comment):(?:[^,]*,){3}Credits[^,]*,(?:[^,]*,){5}(.*)$""", RegexOption.MULTILINE)
+                .findAll(file(get(ensubs)).readText())
+                .joinToString("\n") { it.groupValues[1].replace(Regex("""\{[^}]*\}"""), "") }
+            val editScopeByHeading = mapOf("Subtitle Editing" to "full", "Subtitle Checks" to "light")
+            val ensubsEditScopes = editScopeByHeading.filterKeys { it in ensubsCreditText }.values
+            val ensubsEditScope = ensubsEditScopes.singleOrNull() ?: throw GradleException(
+                "Cannot determine subtitle edit scope for ${get(ensubs).get()}: " +
+                        "expected exactly one of ${editScopeByHeading.keys.joinToString(" / ") { "\"$it\"" }} in the credits, " +
+                        "found ${ensubsEditScopes.ifEmpty { "none" }}"
+            )
+
+            // mkvmerge only reads tags from an XML file, so write one per task.
+            val tagsFile = temporaryDir.resolve("subtitle-edit-scope-en.xml")
+            tagsFile.writeText("""
+                <?xml version="1.0" encoding="UTF-8"?>
+                <!DOCTYPE Tags SYSTEM "matroskatags.dtd">
+                <Tags>
+                  <Tag>
+                    <Targets><TargetTypeValue>50</TargetTypeValue></Targets>
+                    <Simple>
+                      <Name>_SUBTITLE_EDIT_SCOPE</Name>
+                      <String>$ensubsEditScope</String>
+                    </Simple>
+                  </Tag>
+                </Tags>
+            """.trimIndent() + "\n")
+            fileOptions.addAll("--tags", "0:" + tagsFile.absolutePath)
+
             tracks {
-                name("English")
+                name(if (ensubsEditScope == "light") "English (light edits)" else "English")
                 lang("eng")
                 default(true)
             }
         }
-
 
         // Signs and Songs subtitle for English Dub if English dub exists
         if (mkvInfo.audio_tracks.size > 1) {
