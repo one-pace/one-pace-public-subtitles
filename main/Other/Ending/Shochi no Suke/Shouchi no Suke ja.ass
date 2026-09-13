@@ -13,8 +13,8 @@ YCbCr Matrix: TV.709
 Video AR Mode: 4
 Video AR Value: 1.333333
 Video Zoom Percent: 0.375000
-Active Line: 9
-Video Position: 1064
+Active Line: 1
+Video Position: 1619
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -23,11 +23,11 @@ Style: Ending Romaji Luffy,Klee One,65,&H00FFFFFF,&H0039A6DD,&H1F39A6DD,&HC70000
 Style: Ending Romaji Zoro,Klee One,65,&H00FFFFFF,&H00278853,&H00278853,&HBB000000,-1,0,0,0,100,100,0,0,1,0,3,9,0,55,35,1
 Style: Ending Romaji Ussop,Klee One,65,&H00FFFFFF,&H00328190,&H00328190,&HCF000000,-1,0,0,0,100,100,0,0,1,0,3,9,10,55,35,1
 Style: Ending Romaji Sanji,Klee One,65,&H00FFFFFF,&H004BB9C3,&H004BB9C3,&HB0000000,-1,0,0,0,100,100,0,0,1,0,3,7,55,10,35,1
-Style: Ending Translation,Bougan Book SSi,60,&H00FFFFFF,&H005455BE,&H1F5455BE,&HC7000000,-1,0,0,0,100,100,0,0,1,0,3,2,135,23,35,1
-Style: Ending Translation Luffy,Bougan Book SSi,60,&H00FFFFFF,&H0039A6DD,&H1F39A6DD,&HC7000000,-1,0,0,0,100,100,0,0,1,0,2,1,55,23,35,1
-Style: Ending Translation Zoro,Bougan Book SSi,60,&H00FFFFFF,&H00278853,&H00278853,&HBB000000,-1,0,0,0,100,100,0,0,1,0,3,3,0,55,35,1
-Style: Ending Translation Ussop,Bougan Book SSi,60,&H00FFFFFF,&H00328190,&H00328190,&HCF000000,-1,0,0,0,100,100,0,0,1,0,3,3,10,55,35,1
-Style: Ending Translation Sanji,Bougan Book SSi,60,&H00FFFFFF,&H004BB9C3,&H004BB9C3,&HB0000000,-1,0,0,0,100,100,0,0,1,0,3,1,55,10,35,1
+Style: Ending Romaji - furigana,Klee One,32,&H00FFFFFF,&H005455BE,&H1F5455BE,&HC7000000,-1,0,0,0,100,100,0,0,1,0,3,8,135,23,35,1
+Style: Ending Romaji Luffy - furi,Klee One,32,&H00FFFFFF,&H0039A6DD,&H1F39A6DD,&HC7000000,-1,0,0,0,100,100,0,0,1,0,3,7,55,23,35,1
+Style: Ending Romaji Zoro - furi,Klee One,32,&H00FFFFFF,&H00278853,&H00278853,&HBB000000,-1,0,0,0,100,100,0,0,1,0,3,9,0,55,35,1
+Style: Ending Romaji Ussop - furi,Klee One,32,&H00FFFFFF,&H00328190,&H00328190,&HCF000000,-1,0,0,0,100,100,0,0,1,0,3,9,10,55,35,1
+Style: Ending Romaji Sanji - furi,Klee One,32,&H00FFFFFF,&H004BB9C3,&H004BB9C3,&HB0000000,-1,0,0,0,100,100,0,0,1,0,3,7,55,10,35,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -58,7 +58,22 @@ Dialogue: 1,0:00:04.37,0:00:04.57,Ending Romaji Luffy,,0000,0000,0000,,{\kf20\an
 Dialogue: 0,0:00:04.57,0:00:05.19,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(391.797,67.500)}く
 Dialogue: 0,0:00:01.82,0:00:04.57,Ending Romaji Luffy,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(459.156,67.500,436.703,67.500,0,240)}て
 Dialogue: 1,0:00:04.57,0:00:05.19,Ending Romaji Luffy,,0000,0000,0000,,{\kf62\an5\pos(436.703,67.500)\blur2\bord3}て
-Dialogue: 0,0:00:05.19,0:00:05.19,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(436.703,67.500)}て
+Dialogue: 0,0:00:05.18,0:00:05.19,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(436.703,67.500)}て
+Dialogue: 0,0:00:01.62,0:00:01.86,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(88.653,29.000,77.453,29.000,0,240)}せ
+Dialogue: 1,0:00:01.86,0:00:02.26,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf40\an5\pos(77.453,29.000)\blur2\bord3}せ
+Dialogue: 0,0:00:02.26,0:00:05.19,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(77.453,29.000)}せ
+Dialogue: 0,0:00:01.65,0:00:02.26,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(122.333,29.000,111.133,29.000,0,240)}か
+Dialogue: 1,0:00:02.26,0:00:02.70,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf44\an5\pos(111.133,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:02.70,0:00:05.19,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(111.133,29.000)}か
+Dialogue: 0,0:00:01.67,0:00:02.70,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(144.786,29.000,133.586,29.000,0,240)}い
+Dialogue: 1,0:00:02.70,0:00:02.91,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf21\an5\pos(133.586,29.000)\blur2\bord3}い
+Dialogue: 0,0:00:02.91,0:00:05.19,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(133.586,29.000)}い
+Dialogue: 0,0:00:01.70,0:00:03.95,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(346.864,29.000,335.664,29.000,0,240)}ひ
+Dialogue: 1,0:00:03.95,0:00:04.16,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf21\an5\pos(335.664,29.000)\blur2\bord3}ひ
+Dialogue: 0,0:00:04.16,0:00:05.19,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(335.664,29.000)}ひ
+Dialogue: 0,0:00:01.72,0:00:04.16,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(369.317,29.000,358.117,29.000,0,240)}ろ
+Dialogue: 1,0:00:04.16,0:00:04.37,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf21\an5\pos(358.117,29.000)\blur2\bord3}ろ
+Dialogue: 0,0:00:04.37,0:00:05.19,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,100)\blur2\bord3\pos(358.117,29.000)}ろ
 Dialogue: 0,0:00:05.15,0:00:05.39,Ending Romaji Luffy,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(99.906,67.500,77.453,67.500,0,240)}ど
 Dialogue: 1,0:00:05.39,0:00:05.61,Ending Romaji Luffy,,0000,0000,0000,,{\kf22\an5\pos(77.453,67.500)\blur2\bord3}ど
 Dialogue: 0,0:00:05.61,0:00:08.54,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(77.453,67.500)}ど
@@ -85,7 +100,16 @@ Dialogue: 1,0:00:07.66,0:00:07.87,Ending Romaji Luffy,,0000,0000,0000,,{\kf21\an
 Dialogue: 0,0:00:07.87,0:00:08.54,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(414.250,67.500)}って
 Dialogue: 0,0:00:05.35,0:00:07.87,Ending Romaji Luffy,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(504.062,67.500,481.609,67.500,0,240)}も
 Dialogue: 1,0:00:07.87,0:00:08.54,Ending Romaji Luffy,,0000,0000,0000,,{\kf67\an5\pos(481.609,67.500)\blur2\bord3}も
-Dialogue: 0,0:00:08.54,0:00:08.54,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(481.609,67.500)}も
+Dialogue: 0,0:00:08.53,0:00:08.54,Ending Romaji Luffy,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(481.609,67.500)}も
+Dialogue: 0,0:00:05.15,0:00:06.25,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(245.878,29.000,234.678,29.000,0,240)}た
+Dialogue: 1,0:00:06.25,0:00:06.46,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf21\an5\pos(234.678,29.000)\blur2\bord3}た
+Dialogue: 0,0:00:06.46,0:00:08.54,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(234.678,29.000)}た
+Dialogue: 0,0:00:05.18,0:00:06.46,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(268.278,29.000,257.078,29.000,0,240)}か
+Dialogue: 1,0:00:06.46,0:00:06.70,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf24\an5\pos(257.078,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:06.70,0:00:08.54,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(257.078,29.000)}か
+Dialogue: 0,0:00:05.20,0:00:06.70,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\c&H39A6DD&\fad(240,0)\blur1\bord1\move(290.678,29.000,279.478,29.000,0,240)}ら
+Dialogue: 1,0:00:06.70,0:00:07.03,Ending Romaji Luffy - furi,,0000,0000,0000,,{\kf33\an5\pos(279.478,29.000)\blur2\bord3}ら
+Dialogue: 0,0:00:07.03,0:00:08.54,Ending Romaji Luffy - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(279.478,29.000)}ら
 Dialogue: 0,0:00:08.49,0:00:08.73,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1160.469,67.500,1138.016,67.500,0,240)}天
 Dialogue: 1,0:00:08.73,0:00:09.41,Ending Romaji Zoro,,0000,0000,0000,,{\kf68\an5\pos(1138.016,67.500)\blur2\bord3}天
 Dialogue: 0,0:00:09.41,0:00:11.83,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1138.016,67.500)}天
@@ -103,7 +127,40 @@ Dialogue: 1,0:00:10.64,0:00:11.07,Ending Romaji Zoro,,0000,0000,0000,,{\kf43\an5
 Dialogue: 0,0:00:11.07,0:00:11.83,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1317.641,67.500)}確
 Dialogue: 0,0:00:08.62,0:00:11.07,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1385.000,67.500,1362.547,67.500,0,240)}率
 Dialogue: 1,0:00:11.07,0:00:11.83,Ending Romaji Zoro,,0000,0000,0000,,{\kf76\an5\pos(1362.547,67.500)\blur2\bord3}率
-Dialogue: 0,0:00:11.83,0:00:11.83,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1362.547,67.500)}率
+Dialogue: 0,0:00:11.82,0:00:11.83,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1362.547,67.500)}率
+Dialogue: 0,0:00:08.49,0:00:08.73,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1137.989,29.000,1126.789,29.000,0,240)}て
+Dialogue: 1,0:00:08.73,0:00:08.97,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf24\an5\pos(1126.789,29.000)\blur2\bord3}て
+Dialogue: 0,0:00:08.97,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1126.789,29.000)}て
+Dialogue: 0,0:00:08.52,0:00:08.97,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1160.442,29.000,1149.242,29.000,0,240)}ん
+Dialogue: 1,0:00:08.97,0:00:09.41,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf44\an5\pos(1149.242,29.000)\blur2\bord3}ん
+Dialogue: 0,0:00:09.41,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1149.242,29.000)}ん
+Dialogue: 0,0:00:08.54,0:00:09.41,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1205.322,29.000,1182.922,29.000,0,240)}もん
+Dialogue: 1,0:00:09.41,0:00:09.60,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf19\an5\pos(1182.922,29.000)\blur2\bord3}もん
+Dialogue: 0,0:00:09.60,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1182.922,29.000)}もん
+Dialogue: 0,0:00:08.57,0:00:09.60,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1227.802,29.000,1216.602,29.000,0,240)}が
+Dialogue: 1,0:00:09.60,0:00:09.78,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf18\an5\pos(1216.602,29.000)\blur2\bord3}が
+Dialogue: 0,0:00:09.78,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1216.602,29.000)}が
+Dialogue: 0,0:00:08.59,0:00:09.78,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1250.255,29.000,1239.055,29.000,0,240)}く
+Dialogue: 1,0:00:09.78,0:00:09.99,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf21\an5\pos(1239.055,29.000)\blur2\bord3}く
+Dialogue: 0,0:00:09.99,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1239.055,29.000)}く
+Dialogue: 0,0:00:08.62,0:00:09.99,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1272.708,29.000,1261.508,29.000,0,240)}て
+Dialogue: 1,0:00:09.99,0:00:10.40,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf41\an5\pos(1261.508,29.000)\blur2\bord3}て
+Dialogue: 0,0:00:10.40,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1261.508,29.000)}て
+Dialogue: 0,0:00:08.64,0:00:10.40,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1295.161,29.000,1283.961,29.000,0,240)}き
+Dialogue: 1,0:00:10.40,0:00:10.64,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf24\an5\pos(1283.961,29.000)\blur2\bord3}き
+Dialogue: 0,0:00:10.64,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1283.961,29.000)}き
+Dialogue: 0,0:00:08.67,0:00:10.64,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1317.614,29.000,1306.414,29.000,0,240)}か
+Dialogue: 1,0:00:10.64,0:00:10.84,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf20\an5\pos(1306.414,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:10.84,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1306.414,29.000)}か
+Dialogue: 0,0:00:08.69,0:00:10.84,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1340.067,29.000,1328.867,29.000,0,240)}く
+Dialogue: 1,0:00:10.84,0:00:11.07,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf23\an5\pos(1328.867,29.000)\blur2\bord3}く
+Dialogue: 0,0:00:11.07,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1328.867,29.000)}く
+Dialogue: 0,0:00:08.72,0:00:11.07,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1362.520,29.000,1351.320,29.000,0,240)}り
+Dialogue: 1,0:00:11.07,0:00:11.26,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf19\an5\pos(1351.320,29.000)\blur2\bord3}り
+Dialogue: 0,0:00:11.26,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1351.320,29.000)}り
+Dialogue: 0,0:00:08.74,0:00:11.26,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1384.973,29.000,1373.773,29.000,0,240)}つ
+Dialogue: 1,0:00:11.26,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf57\an5\pos(1373.773,29.000)\blur2\bord3}つ
+Dialogue: 0,0:00:11.82,0:00:11.83,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,130)\blur2\bord3\pos(1373.773,29.000)}つ
 Dialogue: 0,0:00:11.85,0:00:12.09,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(758.109,67.500,735.656,67.500,0,240)}偶
 Dialogue: 1,0:00:12.09,0:00:12.45,Ending Romaji Zoro,,0000,0000,0000,,{\kf36\an5\pos(735.656,67.500)\blur2\bord3}偶
 Dialogue: 0,0:00:12.45,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(735.656,67.500)}偶
@@ -117,29 +174,50 @@ Dialogue: 0,0:00:11.93,0:00:12.99,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H2
 Dialogue: 1,0:00:12.99,0:00:13.73,Ending Romaji Zoro,,0000,0000,0000,,{\kf74\an5\pos(870.375,67.500)\blur2\bord3}頼
 Dialogue: 0,0:00:13.73,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(870.375,67.500)}頼
 Dialogue: 0,0:00:11.95,0:00:13.73,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(982.641,67.500,937.734,67.500,0,240)}って
-Dialogue: 1,0:00:13.73,0:00:13.92,Ending Romaji Zoro,,0000,0000,0000,,{\kf19\an5\pos(937.734,67.500)\blur2\bord3}って
-Dialogue: 0,0:00:13.92,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(937.734,67.500)}って
-Dialogue: 0,0:00:11.98,0:00:13.92,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1027.547,67.500,1005.094,67.500,0,240)}い
-Dialogue: 1,0:00:13.92,0:00:14.15,Ending Romaji Zoro,,0000,0000,0000,,{\kf23\an5\pos(1005.094,67.500)\blur2\bord3}い
+Dialogue: 1,0:00:13.73,0:00:14.00,Ending Romaji Zoro,,0000,0000,0000,,{\kf27\an5\pos(937.734,67.500)\blur2\bord3}って
+Dialogue: 0,0:00:14.00,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(937.734,67.500)}って
+Dialogue: 0,0:00:11.98,0:00:14.00,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1027.547,67.500,1005.094,67.500,0,240)}い
+Dialogue: 1,0:00:14.00,0:00:14.15,Ending Romaji Zoro,,0000,0000,0000,,{\kf15\an5\pos(1005.094,67.500)\blur2\bord3}い
 Dialogue: 0,0:00:14.15,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1005.094,67.500)}い
 Dialogue: 0,0:00:12.00,0:00:14.15,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1072.453,67.500,1050.000,67.500,0,240)}た
 Dialogue: 1,0:00:14.15,0:00:14.54,Ending Romaji Zoro,,0000,0000,0000,,{\kf39\an5\pos(1050.000,67.500)\blur2\bord3}た
 Dialogue: 0,0:00:14.54,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1050.000,67.500)}た
 Dialogue: 0,0:00:12.03,0:00:14.54,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1162.266,67.500,1117.359,67.500,0,240)}って
-Dialogue: 1,0:00:14.54,0:00:14.73,Ending Romaji Zoro,,0000,0000,0000,,{\kf19\an5\pos(1117.359,67.500)\blur2\bord3}って
-Dialogue: 0,0:00:14.73,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1117.359,67.500)}って
-Dialogue: 0,0:00:12.05,0:00:14.73,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1207.172,67.500,1184.719,67.500,0,240)}始
-Dialogue: 1,0:00:14.73,0:00:15.11,Ending Romaji Zoro,,0000,0000,0000,,{\kf38\an5\pos(1184.719,67.500)\blur2\bord3}始
-Dialogue: 0,0:00:15.11,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1184.719,67.500)}始
-Dialogue: 0,0:00:12.08,0:00:15.11,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1252.078,67.500,1229.625,67.500,0,240)}ま
-Dialogue: 1,0:00:15.11,0:00:15.36,Ending Romaji Zoro,,0000,0000,0000,,{\kf25\an5\pos(1229.625,67.500)\blur2\bord3}ま
-Dialogue: 0,0:00:15.36,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1229.625,67.500)}ま
-Dialogue: 0,0:00:12.10,0:00:15.36,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1296.984,67.500,1274.531,67.500,0,240)}ら
-Dialogue: 1,0:00:15.36,0:00:15.58,Ending Romaji Zoro,,0000,0000,0000,,{\kf22\an5\pos(1274.531,67.500)\blur2\bord3}ら
-Dialogue: 0,0:00:15.58,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1274.531,67.500)}ら
-Dialogue: 0,0:00:12.13,0:00:15.58,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1386.797,67.500,1341.891,67.500,0,240)}ない
-Dialogue: 1,0:00:15.58,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\kf35\an5\pos(1341.891,67.500)\blur2\bord3}ない
-Dialogue: 0,0:00:15.93,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1341.891,67.500)}ない
+Dialogue: 1,0:00:14.54,0:00:14.80,Ending Romaji Zoro,,0000,0000,0000,,{\kf26\an5\pos(1117.359,67.500)\blur2\bord3}って
+Dialogue: 0,0:00:14.80,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1117.359,67.500)}って
+Dialogue: 0,0:00:12.05,0:00:14.80,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1207.172,67.500,1184.719,67.500,0,240)}始
+Dialogue: 1,0:00:14.80,0:00:15.21,Ending Romaji Zoro,,0000,0000,0000,,{\kf41\an5\pos(1184.719,67.500)\blur2\bord3}始
+Dialogue: 0,0:00:15.21,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1184.719,67.500)}始
+Dialogue: 0,0:00:12.08,0:00:15.21,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1252.078,67.500,1229.625,67.500,0,240)}ま
+Dialogue: 1,0:00:15.21,0:00:15.45,Ending Romaji Zoro,,0000,0000,0000,,{\kf24\an5\pos(1229.625,67.500)\blur2\bord3}ま
+Dialogue: 0,0:00:15.45,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1229.625,67.500)}ま
+Dialogue: 0,0:00:12.10,0:00:15.45,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1296.984,67.500,1274.531,67.500,0,240)}ら
+Dialogue: 1,0:00:15.45,0:00:15.66,Ending Romaji Zoro,,0000,0000,0000,,{\kf21\an5\pos(1274.531,67.500)\blur2\bord3}ら
+Dialogue: 0,0:00:15.66,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1274.531,67.500)}ら
+Dialogue: 0,0:00:12.13,0:00:15.66,Ending Romaji Zoro,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1386.797,67.500,1341.891,67.500,0,240)}ない
+Dialogue: 1,0:00:15.66,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\kf27\an5\pos(1341.891,67.500)\blur2\bord3}ない
+Dialogue: 0,0:00:15.92,0:00:15.93,Ending Romaji Zoro,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1341.891,67.500)}ない
+Dialogue: 0,0:00:11.85,0:00:12.09,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(735.630,29.000,724.430,29.000,0,240)}ぐ
+Dialogue: 1,0:00:12.09,0:00:12.33,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf24\an5\pos(724.430,29.000)\blur2\bord3}ぐ
+Dialogue: 0,0:00:12.33,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(724.430,29.000)}ぐ
+Dialogue: 0,0:00:11.88,0:00:12.33,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(758.083,29.000,746.883,29.000,0,240)}う
+Dialogue: 1,0:00:12.33,0:00:12.45,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf12\an5\pos(746.883,29.000)\blur2\bord3}う
+Dialogue: 0,0:00:12.45,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(746.883,29.000)}う
+Dialogue: 0,0:00:11.90,0:00:12.45,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(802.962,29.000,780.562,29.000,0,240)}ぜん
+Dialogue: 1,0:00:12.45,0:00:12.82,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf37\an5\pos(780.562,29.000)\blur2\bord3}ぜん
+Dialogue: 0,0:00:12.82,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(780.562,29.000)}ぜん
+Dialogue: 0,0:00:11.93,0:00:12.99,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(870.348,29.000,859.148,29.000,0,240)}た
+Dialogue: 1,0:00:12.99,0:00:13.29,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf30\an5\pos(859.148,29.000)\blur2\bord3}た
+Dialogue: 0,0:00:13.29,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(859.148,29.000)}た
+Dialogue: 0,0:00:11.95,0:00:13.29,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(892.802,29.000,881.602,29.000,0,240)}よ
+Dialogue: 1,0:00:13.29,0:00:13.73,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf44\an5\pos(881.602,29.000)\blur2\bord3}よ
+Dialogue: 0,0:00:13.73,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(881.602,29.000)}よ
+Dialogue: 0,0:00:11.98,0:00:14.80,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1184.692,29.000,1173.492,29.000,0,240)}は
+Dialogue: 1,0:00:14.80,0:00:14.97,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf17\an5\pos(1173.492,29.000)\blur2\bord3}は
+Dialogue: 0,0:00:14.97,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1173.492,29.000)}は
+Dialogue: 0,0:00:12.00,0:00:14.97,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\c&H278853&\fad(240,0)\blur1\bord1\move(1207.145,29.000,1195.945,29.000,0,240)}じ
+Dialogue: 1,0:00:14.97,0:00:15.21,Ending Romaji Zoro - furi,,0000,0000,0000,,{\kf24\an5\pos(1195.945,29.000)\blur2\bord3}じ
+Dialogue: 0,0:00:15.21,0:00:15.93,Ending Romaji Zoro - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1195.945,29.000)}じ
 Dialogue: 0,0:00:17.97,0:00:18.21,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(753.547,67.500,731.094,67.500,0,240)}だ
 Dialogue: 1,0:00:18.21,0:00:18.50,Ending Romaji,,0000,0000,0000,,{\kf29\an5\pos(731.094,67.500)\blur2\bord3}だ
 Dialogue: 0,0:00:18.50,0:00:19.10,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(731.094,67.500)}だ
@@ -148,7 +226,7 @@ Dialogue: 1,0:00:18.50,0:00:18.73,Ending Romaji,,0000,0000,0000,,{\kf23\an5\pos(
 Dialogue: 0,0:00:18.73,0:00:19.10,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(776.000,67.500)}か
 Dialogue: 0,0:00:18.02,0:00:18.73,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(843.359,67.500,820.906,67.500,0,240)}ら
 Dialogue: 1,0:00:18.73,0:00:19.10,Ending Romaji,,0000,0000,0000,,{\kf37\an5\pos(820.906,67.500)\blur2\bord3}ら
-Dialogue: 0,0:00:19.10,0:00:19.10,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(820.906,67.500)}ら
+Dialogue: 0,0:00:19.09,0:00:19.10,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(820.906,67.500)}ら
 Dialogue: 0,0:00:21.84,0:00:22.08,Ending Romaji Ussop,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1025.750,67.500,1003.297,67.500,0,240)}誰
 Dialogue: 1,0:00:22.08,0:00:22.94,Ending Romaji Ussop,,0000,0000,0000,,{\kf86\an5\pos(1003.297,67.500)\blur2\bord3}誰
 Dialogue: 0,0:00:22.94,0:00:25.13,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(1003.297,67.500)}誰
@@ -172,10 +250,19 @@ Dialogue: 1,0:00:24.19,0:00:24.81,Ending Romaji Ussop,,0000,0000,0000,,{\kf62\an
 Dialogue: 0,0:00:24.81,0:00:25.13,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(1272.734,67.500)}た
 Dialogue: 0,0:00:22.02,0:00:24.81,Ending Romaji Ussop,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1385.000,67.500,1340.094,67.500,0,240)}って
 Dialogue: 1,0:00:24.81,0:00:25.13,Ending Romaji Ussop,,0000,0000,0000,,{\kf32\an5\pos(1340.094,67.500)\blur2\bord3}って
-Dialogue: 0,0:00:25.13,0:00:25.13,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(1340.094,67.500)}って
-Dialogue: 0,0:00:25.18,0:00:25.42,Ending Romaji Ussop,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1070.656,67.500,1048.203,67.500,0,240)}陰
-Dialogue: 1,0:00:25.42,0:00:26.28,Ending Romaji Ussop,,0000,0000,0000,,{\kf86\an5\pos(1048.203,67.500)\blur2\bord3}陰
-Dialogue: 0,0:00:26.28,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1048.203,67.500)}陰
+Dialogue: 0,0:00:25.12,0:00:25.13,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(1340.094,67.500)}って
+Dialogue: 0,0:00:21.84,0:00:22.08,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1003.270,29.000,992.070,29.000,0,240)}だ
+Dialogue: 1,0:00:22.08,0:00:22.31,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf23\an5\pos(992.070,29.000)\blur2\bord3}だ
+Dialogue: 0,0:00:22.31,0:00:25.13,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(992.070,29.000)}だ
+Dialogue: 0,0:00:21.87,0:00:22.31,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1025.723,29.000,1014.523,29.000,0,240)}れ
+Dialogue: 1,0:00:22.31,0:00:22.94,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf63\an5\pos(1014.523,29.000)\blur2\bord3}れ
+Dialogue: 0,0:00:22.94,0:00:25.13,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(1014.523,29.000)}れ
+Dialogue: 0,0:00:21.89,0:00:23.25,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1104.309,29.000,1093.109,29.000,0,240)}と
+Dialogue: 1,0:00:23.25,0:00:23.57,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf32\an5\pos(1093.109,29.000)\blur2\bord3}と
+Dialogue: 0,0:00:23.57,0:00:25.13,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,145)\blur2\bord3\pos(1093.109,29.000)}と
+Dialogue: 0,0:00:25.18,0:00:25.42,Ending Romaji Ussop,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1070.656,67.500,1048.203,67.500,0,240)}影
+Dialogue: 1,0:00:25.42,0:00:26.28,Ending Romaji Ussop,,0000,0000,0000,,{\kf86\an5\pos(1048.203,67.500)\blur2\bord3}影
+Dialogue: 0,0:00:26.28,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1048.203,67.500)}影
 Dialogue: 0,0:00:25.21,0:00:26.28,Ending Romaji Ussop,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1115.562,67.500,1093.109,67.500,0,240)}で
 Dialogue: 1,0:00:26.28,0:00:26.64,Ending Romaji Ussop,,0000,0000,0000,,{\kf36\an5\pos(1093.109,67.500)\blur2\bord3}で
 Dialogue: 0,0:00:26.64,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1093.109,67.500)}で
@@ -193,7 +280,19 @@ Dialogue: 1,0:00:27.51,0:00:28.07,Ending Romaji Ussop,,0000,0000,0000,,{\kf56\an
 Dialogue: 0,0:00:28.07,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1272.734,67.500)}た
 Dialogue: 0,0:00:25.33,0:00:28.07,Ending Romaji Ussop,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1385.000,67.500,1340.094,67.500,0,240)}って
 Dialogue: 1,0:00:28.07,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\kf45\an5\pos(1340.094,67.500)\blur2\bord3}って
-Dialogue: 0,0:00:28.52,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1340.094,67.500)}って
+Dialogue: 0,0:00:28.51,0:00:28.52,Ending Romaji Ussop,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1340.094,67.500)}って
+Dialogue: 0,0:00:25.18,0:00:25.42,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1048.177,29.000,1036.977,29.000,0,240)}か
+Dialogue: 1,0:00:25.42,0:00:25.64,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf22\an5\pos(1036.977,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:25.64,0:00:28.52,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1036.977,29.000)}か
+Dialogue: 0,0:00:25.21,0:00:25.64,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1070.630,29.000,1059.430,29.000,0,240)}げ
+Dialogue: 1,0:00:25.64,0:00:26.28,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf64\an5\pos(1059.430,29.000)\blur2\bord3}げ
+Dialogue: 0,0:00:26.28,0:00:28.52,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1059.430,29.000)}げ
+Dialogue: 0,0:00:25.23,0:00:26.64,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1137.989,29.000,1126.789,29.000,0,240)}わ
+Dialogue: 1,0:00:26.64,0:00:26.89,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf25\an5\pos(1126.789,29.000)\blur2\bord3}わ
+Dialogue: 0,0:00:26.89,0:00:28.52,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1126.789,29.000)}わ
+Dialogue: 0,0:00:25.26,0:00:26.89,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\c&H328190&\fad(240,0)\blur1\bord1\move(1160.442,29.000,1149.242,29.000,0,240)}ら
+Dialogue: 1,0:00:26.89,0:00:27.09,Ending Romaji Ussop - furi,,0000,0000,0000,,{\kf20\an5\pos(1149.242,29.000)\blur2\bord3}ら
+Dialogue: 0,0:00:27.09,0:00:28.52,Ending Romaji Ussop - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1149.242,29.000)}ら
 Dialogue: 0,0:00:28.50,0:00:28.74,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(99.906,67.500,77.453,67.500,0,240)}船
 Dialogue: 1,0:00:28.74,0:00:29.54,Ending Romaji Sanji,,0000,0000,0000,,{\kf80\an5\pos(77.453,67.500)\blur2\bord3}船
 Dialogue: 0,0:00:29.54,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(77.453,67.500)}船
@@ -215,84 +314,114 @@ Dialogue: 0,0:00:31.61,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad
 Dialogue: 0,0:00:28.65,0:00:31.61,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(369.344,67.500,346.891,67.500,0,240)}よ
 Dialogue: 1,0:00:31.61,0:00:31.88,Ending Romaji Sanji,,0000,0000,0000,,{\kf27\an5\pos(346.891,67.500)\blur2\bord3}よ
 Dialogue: 0,0:00:31.88,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(346.891,67.500)}よ
-Dialogue: 0,0:00:28.68,0:00:31.88,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(480.859,67.500,432.969,67.500,0,240)}BON
-Dialogue: 1,0:00:31.88,0:00:32.31,Ending Romaji Sanji,,0000,0000,0000,,{\kf43\an5\pos(432.969,67.500)\blur2\bord3}BON
-Dialogue: 0,0:00:32.31,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(432.969,67.500)}BON
-Dialogue: 0,0:00:28.70,0:00:32.31,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(557.891,67.500,527.242,67.500,0,240)}VO
-Dialogue: 1,0:00:32.31,0:00:32.71,Ending Romaji Sanji,,0000,0000,0000,,{\kf40\an5\pos(527.242,67.500)\blur2\bord3}VO
-Dialogue: 0,0:00:32.71,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(527.242,67.500)}VO
-Dialogue: 0,0:00:28.73,0:00:32.71,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(615.828,67.500,586.859,67.500,0,240)}YA
-Dialogue: 1,0:00:32.71,0:00:33.55,Ending Romaji Sanji,,0000,0000,0000,,{\kf84\an5\pos(586.859,67.500)\blur2\bord3}YA
-Dialogue: 0,0:00:33.55,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(586.859,67.500)}YA
-Dialogue: 0,0:00:28.75,0:00:33.55,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(693.984,67.500,654.906,67.500,0,240)}GE!
-Dialogue: 1,0:00:33.55,0:00:34.10,Ending Romaji Sanji,,0000,0000,0000,,{\kf55\an5\pos(654.906,67.500)\blur2\bord3}GE!
-Dialogue: 0,0:00:34.10,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(654.906,67.500)}GE!
+Dialogue: 0,0:00:28.68,0:00:31.88,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(465.922,67.500,425.500,67.500,0,240)}Bon
+Dialogue: 1,0:00:31.88,0:00:32.31,Ending Romaji Sanji,,0000,0000,0000,,{\kf43\an5\pos(425.500,67.500)\blur2\bord3}Bon
+Dialogue: 0,0:00:32.31,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(425.500,67.500)}Bon
+Dialogue: 0,0:00:28.70,0:00:32.31,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(534.750,67.500,508.203,67.500,0,240)}Vo
+Dialogue: 1,0:00:32.31,0:00:32.71,Ending Romaji Sanji,,0000,0000,0000,,{\kf40\an5\pos(508.203,67.500)\blur2\bord3}Vo
+Dialogue: 0,0:00:32.71,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(508.203,67.500)}Vo
+Dialogue: 0,0:00:28.73,0:00:32.71,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(583.031,67.500,558.891,67.500,0,240)}ya
+Dialogue: 1,0:00:32.71,0:00:33.55,Ending Romaji Sanji,,0000,0000,0000,,{\kf84\an5\pos(558.891,67.500)\blur2\bord3}ya
+Dialogue: 0,0:00:33.55,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(558.891,67.500)}ya
+Dialogue: 0,0:00:28.75,0:00:33.55,Ending Romaji Sanji,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(649.203,67.500,616.117,67.500,0,240)}ge!
+Dialogue: 1,0:00:33.55,0:00:34.10,Ending Romaji Sanji,,0000,0000,0000,,{\kf55\an5\pos(616.117,67.500)\blur2\bord3}ge!
+Dialogue: 0,0:00:34.00,0:00:34.01,Ending Romaji Sanji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(616.117,67.500)}ge!
+Dialogue: 0,0:00:28.50,0:00:28.74,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(77.427,29.000,66.227,29.000,0,240)}ふ
+Dialogue: 1,0:00:28.74,0:00:28.94,Ending Romaji Sanji - furi,,0000,0000,0000,,{\kf20\an5\pos(66.227,29.000)\blur2\bord3}ふ
+Dialogue: 0,0:00:28.94,0:00:34.01,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(66.227,29.000)}ふ
+Dialogue: 0,0:00:28.53,0:00:28.94,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(99.880,29.000,88.680,29.000,0,240)}ね
+Dialogue: 1,0:00:28.94,0:00:29.54,Ending Romaji Sanji - furi,,0000,0000,0000,,{\kf60\an5\pos(88.680,29.000)\blur2\bord3}ね
+Dialogue: 0,0:00:29.54,0:00:34.01,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(88.680,29.000)}ね
+Dialogue: 0,0:00:28.55,0:00:29.95,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(167.239,29.000,156.039,29.000,0,240)}ま
+Dialogue: 1,0:00:29.95,0:00:30.16,Ending Romaji Sanji - furi,,0000,0000,0000,,{\kf21\an5\pos(156.039,29.000)\blur2\bord3}ま
+Dialogue: 0,0:00:30.16,0:00:34.01,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(156.039,29.000)}ま
+Dialogue: 0,0:00:28.58,0:00:30.16,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(189.692,29.000,178.492,29.000,0,240)}え
+Dialogue: 1,0:00:30.16,0:00:30.37,Ending Romaji Sanji - furi,,0000,0000,0000,,{\kf21\an5\pos(178.492,29.000)\blur2\bord3}え
+Dialogue: 0,0:00:30.37,0:00:34.01,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(178.492,29.000)}え
+Dialogue: 0,0:00:28.60,0:00:30.69,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(257.052,29.000,245.852,29.000,0,240)}す
+Dialogue: 1,0:00:30.69,0:00:30.88,Ending Romaji Sanji - furi,,0000,0000,0000,,{\kf19\an5\pos(245.852,29.000)\blur2\bord3}す
+Dialogue: 0,0:00:30.88,0:00:34.01,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(245.852,29.000)}す
+Dialogue: 0,0:00:28.63,0:00:30.88,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\c&H4BB9C3&\fad(240,0)\blur1\bord1\move(279.505,29.000,268.305,29.000,0,240)}す
+Dialogue: 1,0:00:30.88,0:00:31.21,Ending Romaji Sanji - furi,,0000,0000,0000,,{\kf33\an5\pos(268.305,29.000)\blur2\bord3}す
+Dialogue: 0,0:00:31.21,0:00:34.01,Ending Romaji Sanji - furi,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(268.305,29.000)}す
 Dialogue: 0,0:00:33.77,0:00:34.01,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(687.078,67.500,664.625,67.500,0,240)}ほ
 Dialogue: 1,0:00:34.01,0:00:34.32,Ending Romaji,,0000,0000,0000,,{\kf31\an5\pos(664.625,67.500)\blur2\bord3}ほ
-Dialogue: 0,0:00:34.32,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(664.625,67.500)}ほ
+Dialogue: 0,0:00:34.32,0:00:35.70,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(664.625,67.500)}ほ
 Dialogue: 0,0:00:33.80,0:00:34.32,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(776.891,67.500,731.984,67.500,0,240)}っと
 Dialogue: 1,0:00:34.32,0:00:34.50,Ending Romaji,,0000,0000,0000,,{\kf18\an5\pos(731.984,67.500)\blur2\bord3}っと
-Dialogue: 0,0:00:34.50,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(731.984,67.500)}っと
+Dialogue: 0,0:00:34.50,0:00:35.70,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(731.984,67.500)}っと
 Dialogue: 0,0:00:33.82,0:00:34.50,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(821.797,67.500,799.344,67.500,0,240)}い
 Dialogue: 1,0:00:34.50,0:00:34.73,Ending Romaji,,0000,0000,0000,,{\kf23\an5\pos(799.344,67.500)\blur2\bord3}い
-Dialogue: 0,0:00:34.73,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(799.344,67.500)}い
+Dialogue: 0,0:00:34.73,0:00:35.70,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(799.344,67.500)}い
 Dialogue: 0,0:00:33.85,0:00:34.73,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(866.703,67.500,844.250,67.500,0,240)}て
-Dialogue: 1,0:00:34.73,0:00:34.94,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(844.250,67.500)\blur2\bord3}て
-Dialogue: 0,0:00:34.94,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(844.250,67.500)}て
-Dialogue: 0,0:00:33.87,0:00:34.94,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(911.609,67.500,889.156,67.500,0,240)}よ
-Dialogue: 1,0:00:34.94,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\kf45\an5\pos(889.156,67.500)\blur2\bord3}よ
-Dialogue: 0,0:00:35.39,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(889.156,67.500)}よ
-Dialogue: 0,0:00:35.15,0:00:35.39,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(372.289,67.500,349.836,67.500,0,240)}馬
-Dialogue: 1,0:00:35.39,0:00:35.60,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(349.836,67.500)\blur2\bord3}馬
-Dialogue: 0,0:00:35.60,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(349.836,67.500)}馬
-Dialogue: 0,0:00:35.18,0:00:35.60,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(417.195,67.500,394.742,67.500,0,240)}鹿
-Dialogue: 1,0:00:35.60,0:00:36.02,Ending Romaji,,0000,0000,0000,,{\kf42\an5\pos(394.742,67.500)\blur2\bord3}鹿
-Dialogue: 0,0:00:36.02,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(394.742,67.500)}鹿
-Dialogue: 0,0:00:35.20,0:00:36.02,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(462.102,67.500,439.648,67.500,0,240)}は
-Dialogue: 1,0:00:36.02,0:00:36.34,Ending Romaji,,0000,0000,0000,,{\kf32\an5\pos(439.648,67.500)\blur2\bord3}は
-Dialogue: 0,0:00:36.34,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(439.648,67.500)}は
-Dialogue: 0,0:00:35.23,0:00:36.34,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(551.914,67.500,507.008,67.500,0,240)}しょ
-Dialogue: 1,0:00:36.34,0:00:36.67,Ending Romaji,,0000,0000,0000,,{\kf33\an5\pos(507.008,67.500)\blur2\bord3}しょ
-Dialogue: 0,0:00:36.67,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(507.008,67.500)}しょ
-Dialogue: 0,0:00:35.25,0:00:36.67,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(596.820,67.500,574.367,67.500,0,240)}う
-Dialogue: 1,0:00:36.67,0:00:37.00,Ending Romaji,,0000,0000,0000,,{\kf33\an5\pos(574.367,67.500)\blur2\bord3}う
-Dialogue: 0,0:00:37.00,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(574.367,67.500)}う
-Dialogue: 0,0:00:35.28,0:00:37.00,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(641.727,67.500,619.273,67.500,0,240)}ち
-Dialogue: 1,0:00:37.00,0:00:37.45,Ending Romaji,,0000,0000,0000,,{\kf45\an5\pos(619.273,67.500)\blur2\bord3}ち
-Dialogue: 0,0:00:37.45,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(619.273,67.500)}ち
-Dialogue: 0,0:00:35.30,0:00:37.45,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(686.633,67.500,664.180,67.500,0,240)}の
-Dialogue: 1,0:00:37.45,0:00:37.76,Ending Romaji,,0000,0000,0000,,{\kf31\an5\pos(664.180,67.500)\blur2\bord3}の
-Dialogue: 0,0:00:37.76,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(664.180,67.500)}の
-Dialogue: 0,0:00:35.33,0:00:37.76,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(731.539,67.500,709.086,67.500,0,240)}す
-Dialogue: 1,0:00:37.76,0:00:38.29,Ending Romaji,,0000,0000,0000,,{\kf53\an5\pos(709.086,67.500)\blur2\bord3}す
-Dialogue: 0,0:00:38.29,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(709.086,67.500)}す
-Dialogue: 0,0:00:35.35,0:00:38.29,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(776.445,67.500,753.992,67.500,0,240)}け
-Dialogue: 1,0:00:38.29,0:00:38.51,Ending Romaji,,0000,0000,0000,,{\kf22\an5\pos(753.992,67.500)\blur2\bord3}け
-Dialogue: 0,0:00:38.51,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(753.992,67.500)}け
-Dialogue: 0,0:00:35.38,0:00:38.51,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(821.352,67.500,798.898,67.500,0,240)}だ
-Dialogue: 1,0:00:38.51,0:00:38.65,Ending Romaji,,0000,0000,0000,,{\kf14\an5\pos(798.898,67.500)\blur2\bord3}だ
-Dialogue: 0,0:00:38.65,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(798.898,67.500)}だ
-Dialogue: 0,0:00:35.40,0:00:38.65,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(866.258,67.500,843.805,67.500,0,240)}よ
-Dialogue: 1,0:00:38.65,0:00:39.35,Ending Romaji,,0000,0000,0000,,{\kf70\an5\pos(843.805,67.500)\blur2\bord3}よ
-Dialogue: 0,0:00:39.35,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(843.805,67.500)}よ
-Dialogue: 0,0:00:35.43,0:00:39.35,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(911.164,67.500,888.711,67.500,0,240)}行
-Dialogue: 1,0:00:39.35,0:00:39.72,Ending Romaji,,0000,0000,0000,,{\kf37\an5\pos(888.711,67.500)\blur2\bord3}行
-Dialogue: 0,0:00:39.72,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(888.711,67.500)}行
-Dialogue: 0,0:00:35.45,0:00:39.72,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(956.070,67.500,933.617,67.500,0,240)}か
-Dialogue: 1,0:00:39.72,0:00:39.97,Ending Romaji,,0000,0000,0000,,{\kf25\an5\pos(933.617,67.500)\blur2\bord3}か
-Dialogue: 0,0:00:39.97,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(933.617,67.500)}か
-Dialogue: 0,0:00:35.48,0:00:39.97,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1045.883,67.500,1000.977,67.500,0,240)}にゃ
-Dialogue: 1,0:00:39.97,0:00:40.37,Ending Romaji,,0000,0000,0000,,{\kf40\an5\pos(1000.977,67.500)\blur2\bord3}にゃ
-Dialogue: 0,0:00:40.37,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1000.977,67.500)}にゃ
-Dialogue: 0,0:00:35.50,0:00:40.37,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1090.789,67.500,1068.336,67.500,0,240)}な
-Dialogue: 1,0:00:40.37,0:00:40.79,Ending Romaji,,0000,0000,0000,,{\kf42\an5\pos(1068.336,67.500)\blur2\bord3}な
-Dialogue: 0,0:00:40.79,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1068.336,67.500)}な
-Dialogue: 0,0:00:35.53,0:00:40.79,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1135.695,67.500,1113.242,67.500,0,240)}ら
-Dialogue: 1,0:00:40.79,0:00:41.01,Ending Romaji,,0000,0000,0000,,{\kf22\an5\pos(1113.242,67.500)\blur2\bord3}ら
-Dialogue: 0,0:00:41.01,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1113.242,67.500)}ら
-Dialogue: 0,0:00:35.55,0:00:41.01,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1225.508,67.500,1180.602,67.500,0,240)}兵衛
-Dialogue: 1,0:00:41.01,0:00:41.77,Ending Romaji,,0000,0000,0000,,{\kf76\an5\pos(1180.602,67.500)\blur2\bord3}兵衛
-Dialogue: 0,0:00:41.77,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1180.602,67.500)}兵衛
+Dialogue: 1,0:00:34.73,0:00:35.02,Ending Romaji,,0000,0000,0000,,{\kf29\an5\pos(844.250,67.500)\blur2\bord3}て
+Dialogue: 0,0:00:35.02,0:00:35.70,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(844.250,67.500)}て
+Dialogue: 0,0:00:33.87,0:00:35.02,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(911.609,67.500,889.156,67.500,0,240)}よ
+Dialogue: 1,0:00:35.02,0:00:35.19,Ending Romaji,,0000,0000,0000,,{\kf17\an5\pos(889.156,67.500)\blur2\bord3}よ
+Dialogue: 0,0:00:35.19,0:00:35.70,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(889.156,67.500)}よ
+Dialogue: 0,0:00:35.46,0:00:35.70,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(364.422,67.500,341.969,67.500,0,240)}馬
+Dialogue: 1,0:00:35.70,0:00:35.91,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(341.969,67.500)\blur2\bord3}馬
+Dialogue: 0,0:00:35.91,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(341.969,67.500)}馬
+Dialogue: 0,0:00:35.49,0:00:35.91,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(409.328,67.500,386.875,67.500,0,240)}鹿
+Dialogue: 1,0:00:35.91,0:00:36.33,Ending Romaji,,0000,0000,0000,,{\kf42\an5\pos(386.875,67.500)\blur2\bord3}鹿
+Dialogue: 0,0:00:36.33,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(386.875,67.500)}鹿
+Dialogue: 0,0:00:35.51,0:00:36.33,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(454.234,67.500,431.781,67.500,0,240)}は
+Dialogue: 1,0:00:36.33,0:00:36.65,Ending Romaji,,0000,0000,0000,,{\kf32\an5\pos(431.781,67.500)\blur2\bord3}は
+Dialogue: 0,0:00:36.65,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(431.781,67.500)}は
+Dialogue: 0,0:00:35.54,0:00:36.65,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(544.047,67.500,499.141,67.500,0,240)}しょ
+Dialogue: 1,0:00:36.65,0:00:36.98,Ending Romaji,,0000,0000,0000,,{\kf33\an5\pos(499.141,67.500)\blur2\bord3}しょ
+Dialogue: 0,0:00:36.98,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(499.141,67.500)}しょ
+Dialogue: 0,0:00:35.56,0:00:36.98,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(588.953,67.500,566.500,67.500,0,240)}う
+Dialogue: 1,0:00:36.98,0:00:37.31,Ending Romaji,,0000,0000,0000,,{\kf33\an5\pos(566.500,67.500)\blur2\bord3}う
+Dialogue: 0,0:00:37.31,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(566.500,67.500)}う
+Dialogue: 0,0:00:35.59,0:00:37.31,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(633.859,67.500,611.406,67.500,0,240)}ち
+Dialogue: 1,0:00:37.31,0:00:37.76,Ending Romaji,,0000,0000,0000,,{\kf45\an5\pos(611.406,67.500)\blur2\bord3}ち
+Dialogue: 0,0:00:37.76,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(611.406,67.500)}ち
+Dialogue: 0,0:00:35.61,0:00:37.76,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(678.766,67.500,656.312,67.500,0,240)}の
+Dialogue: 1,0:00:37.76,0:00:38.07,Ending Romaji,,0000,0000,0000,,{\kf31\an5\pos(656.312,67.500)\blur2\bord3}の
+Dialogue: 0,0:00:38.07,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(656.312,67.500)}の
+Dialogue: 0,0:00:35.64,0:00:38.07,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(723.672,67.500,701.219,67.500,0,240)}す
+Dialogue: 1,0:00:38.07,0:00:38.60,Ending Romaji,,0000,0000,0000,,{\kf53\an5\pos(701.219,67.500)\blur2\bord3}す
+Dialogue: 0,0:00:38.60,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(701.219,67.500)}す
+Dialogue: 0,0:00:35.66,0:00:38.60,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(768.578,67.500,746.125,67.500,0,240)}け
+Dialogue: 1,0:00:38.60,0:00:38.82,Ending Romaji,,0000,0000,0000,,{\kf22\an5\pos(746.125,67.500)\blur2\bord3}け
+Dialogue: 0,0:00:38.82,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(746.125,67.500)}け
+Dialogue: 0,0:00:35.69,0:00:38.82,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(813.484,67.500,791.031,67.500,0,240)}だ
+Dialogue: 1,0:00:38.82,0:00:38.96,Ending Romaji,,0000,0000,0000,,{\kf14\an5\pos(791.031,67.500)\blur2\bord3}だ
+Dialogue: 0,0:00:38.96,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(791.031,67.500)}だ
+Dialogue: 0,0:00:35.71,0:00:38.96,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(858.391,67.500,835.938,67.500,0,240)}よ
+Dialogue: 1,0:00:38.96,0:00:39.66,Ending Romaji,,0000,0000,0000,,{\kf70\an5\pos(835.938,67.500)\blur2\bord3}よ
+Dialogue: 0,0:00:39.66,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(835.938,67.500)}よ
+Dialogue: 0,0:00:35.74,0:00:39.66,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(919.031,67.500,896.578,67.500,0,240)}行
+Dialogue: 1,0:00:39.66,0:00:40.03,Ending Romaji,,0000,0000,0000,,{\kf37\an5\pos(896.578,67.500)\blur2\bord3}行
+Dialogue: 0,0:00:40.03,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(896.578,67.500)}行
+Dialogue: 0,0:00:35.76,0:00:40.03,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(963.938,67.500,941.484,67.500,0,240)}か
+Dialogue: 1,0:00:40.03,0:00:40.28,Ending Romaji,,0000,0000,0000,,{\kf25\an5\pos(941.484,67.500)\blur2\bord3}か
+Dialogue: 0,0:00:40.28,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(941.484,67.500)}か
+Dialogue: 0,0:00:35.79,0:00:40.28,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1053.750,67.500,1008.844,67.500,0,240)}にゃ
+Dialogue: 1,0:00:40.28,0:00:40.68,Ending Romaji,,0000,0000,0000,,{\kf40\an5\pos(1008.844,67.500)\blur2\bord3}にゃ
+Dialogue: 0,0:00:40.68,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1008.844,67.500)}にゃ
+Dialogue: 0,0:00:35.81,0:00:40.68,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1098.656,67.500,1076.203,67.500,0,240)}な
+Dialogue: 1,0:00:40.68,0:00:41.10,Ending Romaji,,0000,0000,0000,,{\kf42\an5\pos(1076.203,67.500)\blur2\bord3}な
+Dialogue: 0,0:00:41.10,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1076.203,67.500)}な
+Dialogue: 0,0:00:35.84,0:00:41.10,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1143.562,67.500,1121.109,67.500,0,240)}ら
+Dialogue: 1,0:00:41.10,0:00:41.32,Ending Romaji,,0000,0000,0000,,{\kf22\an5\pos(1121.109,67.500)\blur2\bord3}ら
+Dialogue: 0,0:00:41.32,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1121.109,67.500)}ら
+Dialogue: 0,0:00:35.86,0:00:41.32,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1233.375,67.500,1188.469,67.500,0,240)}兵衛
+Dialogue: 1,0:00:41.32,0:00:42.08,Ending Romaji,,0000,0000,0000,,{\kf76\an5\pos(1188.469,67.500)\blur2\bord3}兵衛
+Dialogue: 0,0:00:41.81,0:00:41.82,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1188.469,67.500)}兵衛
+Dialogue: 0,0:00:35.46,0:00:35.70,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(353.169,29.000,341.969,29.000,0,240)}ば
+Dialogue: 1,0:00:35.70,0:00:35.91,Ending Romaji - furigana,,0000,0000,0000,,{\kf21\an5\pos(341.969,29.000)\blur2\bord3}ば
+Dialogue: 0,0:00:35.91,0:00:41.82,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(341.969,29.000)}ば
+Dialogue: 0,0:00:35.49,0:00:35.91,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(398.075,29.000,386.875,29.000,0,240)}か
+Dialogue: 1,0:00:35.91,0:00:36.33,Ending Romaji - furigana,,0000,0000,0000,,{\kf42\an5\pos(386.875,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:36.33,0:00:41.82,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(386.875,29.000)}か
+Dialogue: 0,0:00:35.51,0:00:39.66,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(907.778,29.000,896.578,29.000,0,240)}い
+Dialogue: 1,0:00:39.66,0:00:40.03,Ending Romaji - furigana,,0000,0000,0000,,{\kf37\an5\pos(896.578,29.000)\blur2\bord3}い
+Dialogue: 0,0:00:40.03,0:00:41.82,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(896.578,29.000)}い
+Dialogue: 0,0:00:35.54,0:00:41.32,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1210.869,29.000,1188.469,29.000,0,240)}べえ
+Dialogue: 1,0:00:41.32,0:00:42.08,Ending Romaji - furigana,,0000,0000,0000,,{\kf76\an5\pos(1188.469,29.000)\blur2\bord3}べえ
+Dialogue: 0,0:00:41.81,0:00:41.82,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,125)\blur2\bord3\pos(1188.469,29.000)}べえ
 Dialogue: 0,0:00:41.83,0:00:42.07,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(506.562,67.500,484.109,67.500,0,240)}無
 Dialogue: 1,0:00:42.07,0:00:42.29,Ending Romaji,,0000,0000,0000,,{\kf22\an5\pos(484.109,67.500)\blur2\bord3}無
 Dialogue: 0,0:00:42.29,0:00:48.40,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(484.109,67.500)}無
@@ -328,49 +457,88 @@ Dialogue: 1,0:00:46.03,0:00:46.45,Ending Romaji,,0000,0000,0000,,{\kf42\an5\pos(
 Dialogue: 0,0:00:46.45,0:00:48.40,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(1022.984,67.500)}野
 Dialogue: 0,0:00:42.11,0:00:46.45,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1090.344,67.500,1067.891,67.500,0,240)}望
 Dialogue: 1,0:00:46.45,0:00:48.40,Ending Romaji,,0000,0000,0000,,{\kf195\an5\pos(1067.891,67.500)\blur2\bord3}望
-Dialogue: 0,0:00:48.40,0:00:48.40,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(1067.891,67.500)}望
-Dialogue: 0,0:00:48.51,0:00:48.75,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(484.555,67.500,462.102,67.500,0,240)}馬
-Dialogue: 1,0:00:48.75,0:00:48.96,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(462.102,67.500)\blur2\bord3}馬
-Dialogue: 0,0:00:48.96,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(462.102,67.500)}馬
-Dialogue: 0,0:00:48.54,0:00:48.96,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(529.461,67.500,507.008,67.500,0,240)}鹿
-Dialogue: 1,0:00:48.96,0:00:49.37,Ending Romaji,,0000,0000,0000,,{\kf41\an5\pos(507.008,67.500)\blur2\bord3}鹿
-Dialogue: 0,0:00:49.37,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(507.008,67.500)}鹿
-Dialogue: 0,0:00:48.56,0:00:49.37,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(574.367,67.500,551.914,67.500,0,240)}は
-Dialogue: 1,0:00:49.37,0:00:49.72,Ending Romaji,,0000,0000,0000,,{\kf35\an5\pos(551.914,67.500)\blur2\bord3}は
-Dialogue: 0,0:00:49.72,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(551.914,67.500)}は
-Dialogue: 0,0:00:48.59,0:00:49.72,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(664.180,67.500,619.273,67.500,0,240)}しょ
-Dialogue: 1,0:00:49.72,0:00:50.01,Ending Romaji,,0000,0000,0000,,{\kf29\an5\pos(619.273,67.500)\blur2\bord3}しょ
-Dialogue: 0,0:00:50.01,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(619.273,67.500)}しょ
-Dialogue: 0,0:00:48.61,0:00:50.01,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(709.086,67.500,686.633,67.500,0,240)}う
-Dialogue: 1,0:00:50.01,0:00:50.39,Ending Romaji,,0000,0000,0000,,{\kf38\an5\pos(686.633,67.500)\blur2\bord3}う
-Dialogue: 0,0:00:50.39,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(686.633,67.500)}う
-Dialogue: 0,0:00:48.64,0:00:50.39,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(753.992,67.500,731.539,67.500,0,240)}ち
-Dialogue: 1,0:00:50.39,0:00:50.83,Ending Romaji,,0000,0000,0000,,{\kf44\an5\pos(731.539,67.500)\blur2\bord3}ち
-Dialogue: 0,0:00:50.83,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(731.539,67.500)}ち
-Dialogue: 0,0:00:48.66,0:00:50.83,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(798.898,67.500,776.445,67.500,0,240)}の
-Dialogue: 1,0:00:50.83,0:00:51.13,Ending Romaji,,0000,0000,0000,,{\kf30\an5\pos(776.445,67.500)\blur2\bord3}の
-Dialogue: 0,0:00:51.13,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(776.445,67.500)}の
-Dialogue: 0,0:00:48.69,0:00:51.13,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(843.805,67.500,821.352,67.500,0,240)}す
-Dialogue: 1,0:00:51.13,0:00:51.67,Ending Romaji,,0000,0000,0000,,{\kf54\an5\pos(821.352,67.500)\blur2\bord3}す
-Dialogue: 0,0:00:51.67,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(821.352,67.500)}す
-Dialogue: 0,0:00:48.71,0:00:51.67,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(888.711,67.500,866.258,67.500,0,240)}け
-Dialogue: 1,0:00:51.67,0:00:51.88,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(866.258,67.500)\blur2\bord3}け
-Dialogue: 0,0:00:51.88,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(866.258,67.500)}け
-Dialogue: 0,0:00:48.74,0:00:51.88,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(933.617,67.500,911.164,67.500,0,240)}だ
-Dialogue: 1,0:00:51.88,0:00:52.09,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(911.164,67.500)\blur2\bord3}だ
-Dialogue: 0,0:00:52.09,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(911.164,67.500)}だ
-Dialogue: 0,0:00:48.76,0:00:52.09,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(978.523,67.500,956.070,67.500,0,240)}よ
-Dialogue: 1,0:00:52.09,0:00:52.71,Ending Romaji,,0000,0000,0000,,{\kf62\an5\pos(956.070,67.500)\blur2\bord3}よ
-Dialogue: 0,0:00:52.71,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(956.070,67.500)}よ
-Dialogue: 0,0:00:48.79,0:00:52.71,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1023.430,67.500,1000.977,67.500,0,240)}闘
-Dialogue: 1,0:00:52.71,0:00:54.15,Ending Romaji,,0000,0000,0000,,{\kf144\an5\pos(1000.977,67.500)\blur2\bord3}闘
-Dialogue: 0,0:00:54.15,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1000.977,67.500)}闘
-Dialogue: 0,0:00:48.81,0:00:54.15,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1068.336,67.500,1045.883,67.500,0,240)}う
-Dialogue: 1,0:00:54.15,0:00:54.38,Ending Romaji,,0000,0000,0000,,{\kf23\an5\pos(1045.883,67.500)\blur2\bord3}う
-Dialogue: 0,0:00:54.38,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1045.883,67.500)}う
-Dialogue: 0,0:00:48.84,0:00:54.38,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1113.242,67.500,1090.789,67.500,0,240)}三
-Dialogue: 1,0:00:54.38,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\kf74\an5\pos(1090.789,67.500)\blur2\bord3}三
-Dialogue: 0,0:00:55.12,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1090.789,67.500)}三
+Dialogue: 0,0:00:48.39,0:00:48.40,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(1067.891,67.500)}望
+Dialogue: 0,0:00:41.83,0:00:42.07,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(495.309,29.000,484.109,29.000,0,240)}む
+Dialogue: 1,0:00:42.07,0:00:42.29,Ending Romaji - furigana,,0000,0000,0000,,{\kf22\an5\pos(484.109,29.000)\blur2\bord3}む
+Dialogue: 0,0:00:42.29,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(484.109,29.000)}む
+Dialogue: 0,0:00:41.86,0:00:42.29,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(540.216,29.000,529.016,29.000,0,240)}り
+Dialogue: 1,0:00:42.29,0:00:42.71,Ending Romaji - furigana,,0000,0000,0000,,{\kf42\an5\pos(529.016,29.000)\blur2\bord3}り
+Dialogue: 0,0:00:42.71,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(529.016,29.000)}り
+Dialogue: 0,0:00:41.88,0:00:43.06,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(618.802,29.000,607.602,29.000,0,240)}ゆ
+Dialogue: 1,0:00:43.06,0:00:43.32,Ending Romaji - furigana,,0000,0000,0000,,{\kf26\an5\pos(607.602,29.000)\blur2\bord3}ゆ
+Dialogue: 0,0:00:43.32,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(607.602,29.000)}ゆ
+Dialogue: 0,0:00:41.91,0:00:43.32,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(641.255,29.000,630.055,29.000,0,240)}め
+Dialogue: 1,0:00:43.32,0:00:43.74,Ending Romaji - furigana,,0000,0000,0000,,{\kf42\an5\pos(630.055,29.000)\blur2\bord3}め
+Dialogue: 0,0:00:43.74,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(630.055,29.000)}め
+Dialogue: 0,0:00:41.93,0:00:46.03,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1034.184,29.000,1022.984,29.000,0,240)}や
+Dialogue: 1,0:00:46.03,0:00:46.45,Ending Romaji - furigana,,0000,0000,0000,,{\kf42\an5\pos(1022.984,29.000)\blur2\bord3}や
+Dialogue: 0,0:00:46.45,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(1022.984,29.000)}や
+Dialogue: 0,0:00:41.96,0:00:46.45,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1067.864,29.000,1056.664,29.000,0,240)}ぼ
+Dialogue: 1,0:00:46.45,0:00:47.08,Ending Romaji - furigana,,0000,0000,0000,,{\kf63\an5\pos(1056.664,29.000)\blur2\bord3}ぼ
+Dialogue: 0,0:00:47.08,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(1056.664,29.000)}ぼ
+Dialogue: 0,0:00:41.98,0:00:47.08,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1090.317,29.000,1079.117,29.000,0,240)}う
+Dialogue: 1,0:00:47.08,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\kf132\an5\pos(1079.117,29.000)\blur2\bord3}う
+Dialogue: 0,0:00:48.39,0:00:48.40,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,175)\blur2\bord3\pos(1079.117,29.000)}う
+Dialogue: 0,0:00:48.51,0:00:48.75,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(476.688,67.500,454.234,67.500,0,240)}馬
+Dialogue: 1,0:00:48.75,0:00:48.96,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(454.234,67.500)\blur2\bord3}馬
+Dialogue: 0,0:00:48.96,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(454.234,67.500)}馬
+Dialogue: 0,0:00:48.54,0:00:48.96,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(521.594,67.500,499.141,67.500,0,240)}鹿
+Dialogue: 1,0:00:48.96,0:00:49.37,Ending Romaji,,0000,0000,0000,,{\kf41\an5\pos(499.141,67.500)\blur2\bord3}鹿
+Dialogue: 0,0:00:49.37,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(499.141,67.500)}鹿
+Dialogue: 0,0:00:48.56,0:00:49.37,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(566.500,67.500,544.047,67.500,0,240)}は
+Dialogue: 1,0:00:49.37,0:00:49.72,Ending Romaji,,0000,0000,0000,,{\kf35\an5\pos(544.047,67.500)\blur2\bord3}は
+Dialogue: 0,0:00:49.72,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(544.047,67.500)}は
+Dialogue: 0,0:00:48.59,0:00:49.72,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(656.312,67.500,611.406,67.500,0,240)}しょ
+Dialogue: 1,0:00:49.72,0:00:50.01,Ending Romaji,,0000,0000,0000,,{\kf29\an5\pos(611.406,67.500)\blur2\bord3}しょ
+Dialogue: 0,0:00:50.01,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(611.406,67.500)}しょ
+Dialogue: 0,0:00:48.61,0:00:50.01,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(701.219,67.500,678.766,67.500,0,240)}う
+Dialogue: 1,0:00:50.01,0:00:50.39,Ending Romaji,,0000,0000,0000,,{\kf38\an5\pos(678.766,67.500)\blur2\bord3}う
+Dialogue: 0,0:00:50.39,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(678.766,67.500)}う
+Dialogue: 0,0:00:48.64,0:00:50.39,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(746.125,67.500,723.672,67.500,0,240)}ち
+Dialogue: 1,0:00:50.39,0:00:50.83,Ending Romaji,,0000,0000,0000,,{\kf44\an5\pos(723.672,67.500)\blur2\bord3}ち
+Dialogue: 0,0:00:50.83,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(723.672,67.500)}ち
+Dialogue: 0,0:00:48.66,0:00:50.83,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(791.031,67.500,768.578,67.500,0,240)}の
+Dialogue: 1,0:00:50.83,0:00:51.13,Ending Romaji,,0000,0000,0000,,{\kf30\an5\pos(768.578,67.500)\blur2\bord3}の
+Dialogue: 0,0:00:51.13,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(768.578,67.500)}の
+Dialogue: 0,0:00:48.69,0:00:51.13,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(835.938,67.500,813.484,67.500,0,240)}す
+Dialogue: 1,0:00:51.13,0:00:51.67,Ending Romaji,,0000,0000,0000,,{\kf54\an5\pos(813.484,67.500)\blur2\bord3}す
+Dialogue: 0,0:00:51.67,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(813.484,67.500)}す
+Dialogue: 0,0:00:48.71,0:00:51.67,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(880.844,67.500,858.391,67.500,0,240)}け
+Dialogue: 1,0:00:51.67,0:00:51.88,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(858.391,67.500)\blur2\bord3}け
+Dialogue: 0,0:00:51.88,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(858.391,67.500)}け
+Dialogue: 0,0:00:48.74,0:00:51.88,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(925.750,67.500,903.297,67.500,0,240)}だ
+Dialogue: 1,0:00:51.88,0:00:52.09,Ending Romaji,,0000,0000,0000,,{\kf21\an5\pos(903.297,67.500)\blur2\bord3}だ
+Dialogue: 0,0:00:52.09,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(903.297,67.500)}だ
+Dialogue: 0,0:00:48.76,0:00:52.09,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(970.656,67.500,948.203,67.500,0,240)}よ
+Dialogue: 1,0:00:52.09,0:00:52.71,Ending Romaji,,0000,0000,0000,,{\kf62\an5\pos(948.203,67.500)\blur2\bord3}よ
+Dialogue: 0,0:00:52.71,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(948.203,67.500)}よ
+Dialogue: 0,0:00:48.79,0:00:52.71,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1031.297,67.500,1008.844,67.500,0,240)}闘
+Dialogue: 1,0:00:52.71,0:00:54.15,Ending Romaji,,0000,0000,0000,,{\kf144\an5\pos(1008.844,67.500)\blur2\bord3}闘
+Dialogue: 0,0:00:54.15,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1008.844,67.500)}闘
+Dialogue: 0,0:00:48.81,0:00:54.15,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1076.203,67.500,1053.750,67.500,0,240)}う
+Dialogue: 1,0:00:54.15,0:00:54.38,Ending Romaji,,0000,0000,0000,,{\kf23\an5\pos(1053.750,67.500)\blur2\bord3}う
+Dialogue: 0,0:00:54.38,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1053.750,67.500)}う
+Dialogue: 0,0:00:48.84,0:00:54.38,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1121.109,67.500,1098.656,67.500,0,240)}三
+Dialogue: 1,0:00:54.38,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\kf74\an5\pos(1098.656,67.500)\blur2\bord3}三
+Dialogue: 0,0:00:55.11,0:00:55.12,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1098.656,67.500)}三
+Dialogue: 0,0:00:48.51,0:00:48.75,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(465.434,29.000,454.234,29.000,0,240)}ば
+Dialogue: 1,0:00:48.75,0:00:48.96,Ending Romaji - furigana,,0000,0000,0000,,{\kf21\an5\pos(454.234,29.000)\blur2\bord3}ば
+Dialogue: 0,0:00:48.96,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(454.234,29.000)}ば
+Dialogue: 0,0:00:48.54,0:00:48.96,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(510.341,29.000,499.141,29.000,0,240)}か
+Dialogue: 1,0:00:48.96,0:00:49.37,Ending Romaji - furigana,,0000,0000,0000,,{\kf41\an5\pos(499.141,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:49.37,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(499.141,29.000)}か
+Dialogue: 0,0:00:48.56,0:00:52.71,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(997.644,29.000,986.444,29.000,0,240)}た
+Dialogue: 1,0:00:52.71,0:00:53.12,Ending Romaji - furigana,,0000,0000,0000,,{\kf41\an5\pos(986.444,29.000)\blur2\bord3}た
+Dialogue: 0,0:00:53.12,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(986.444,29.000)}た
+Dialogue: 0,0:00:48.59,0:00:53.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1020.044,29.000,1008.844,29.000,0,240)}た
+Dialogue: 1,0:00:53.12,0:00:53.75,Ending Romaji - furigana,,0000,0000,0000,,{\kf63\an5\pos(1008.844,29.000)\blur2\bord3}た
+Dialogue: 0,0:00:53.75,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1008.844,29.000)}た
+Dialogue: 0,0:00:48.61,0:00:53.75,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1042.444,29.000,1031.244,29.000,0,240)}か
+Dialogue: 1,0:00:53.75,0:00:54.15,Ending Romaji - furigana,,0000,0000,0000,,{\kf40\an5\pos(1031.244,29.000)\blur2\bord3}か
+Dialogue: 0,0:00:54.15,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1031.244,29.000)}か
+Dialogue: 0,0:00:48.64,0:00:54.38,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1121.056,29.000,1098.656,29.000,0,240)}ぞう
+Dialogue: 1,0:00:54.38,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\kf74\an5\pos(1098.656,29.000)\blur2\bord3}ぞう
+Dialogue: 0,0:00:55.11,0:00:55.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,135)\blur2\bord3\pos(1098.656,29.000)}ぞう
 Dialogue: 0,0:00:55.15,0:00:55.39,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(551.469,67.500,529.016,67.500,0,240)}遠
 Dialogue: 1,0:00:55.39,0:00:56.03,Ending Romaji,,0000,0000,0000,,{\kf64\an5\pos(529.016,67.500)\blur2\bord3}遠
 Dialogue: 0,0:00:56.03,0:01:01.79,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(529.016,67.500)}遠
@@ -403,7 +571,31 @@ Dialogue: 1,0:00:59.38,0:00:59.99,Ending Romaji,,0000,0000,0000,,{\kf61\an5\pos(
 Dialogue: 0,0:00:59.99,0:01:01.79,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(978.078,67.500)}天
 Dialogue: 0,0:00:55.40,0:00:59.99,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1045.438,67.500,1022.984,67.500,0,240)}国
 Dialogue: 1,0:00:59.99,0:01:01.79,Ending Romaji,,0000,0000,0000,,{\kf180\an5\pos(1022.984,67.500)\blur2\bord3}国
-Dialogue: 0,0:01:01.79,0:01:01.79,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1022.984,67.500)}国
+Dialogue: 0,0:01:01.78,0:01:01.79,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1022.984,67.500)}国
+Dialogue: 0,0:00:55.15,0:00:55.39,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(528.989,29.000,517.789,29.000,0,240)}と
+Dialogue: 1,0:00:55.39,0:00:55.63,Ending Romaji - furigana,,0000,0000,0000,,{\kf24\an5\pos(517.789,29.000)\blur2\bord3}と
+Dialogue: 0,0:00:55.63,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(517.789,29.000)}と
+Dialogue: 0,0:00:55.18,0:00:55.63,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(551.442,29.000,540.242,29.000,0,240)}お
+Dialogue: 1,0:00:55.63,0:00:56.03,Ending Romaji - furigana,,0000,0000,0000,,{\kf40\an5\pos(540.242,29.000)\blur2\bord3}お
+Dialogue: 0,0:00:56.03,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(540.242,29.000)}お
+Dialogue: 0,0:00:55.20,0:00:56.46,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(618.802,29.000,607.602,29.000,0,240)}う
+Dialogue: 1,0:00:56.46,0:00:56.68,Ending Romaji - furigana,,0000,0000,0000,,{\kf22\an5\pos(607.602,29.000)\blur2\bord3}う
+Dialogue: 0,0:00:56.68,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(607.602,29.000)}う
+Dialogue: 0,0:00:55.23,0:00:56.68,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(641.255,29.000,630.055,29.000,0,240)}み
+Dialogue: 1,0:00:56.68,0:00:57.09,Ending Romaji - furigana,,0000,0000,0000,,{\kf41\an5\pos(630.055,29.000)\blur2\bord3}み
+Dialogue: 0,0:00:57.09,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(630.055,29.000)}み
+Dialogue: 0,0:00:55.25,0:00:59.38,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(978.052,29.000,966.852,29.000,0,240)}て
+Dialogue: 1,0:00:59.38,0:00:59.79,Ending Romaji - furigana,,0000,0000,0000,,{\kf41\an5\pos(966.852,29.000)\blur2\bord3}て
+Dialogue: 0,0:00:59.79,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(966.852,29.000)}て
+Dialogue: 0,0:00:55.28,0:00:59.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1000.505,29.000,989.305,29.000,0,240)}ん
+Dialogue: 1,0:00:59.79,0:00:59.99,Ending Romaji - furigana,,0000,0000,0000,,{\kf20\an5\pos(989.305,29.000)\blur2\bord3}ん
+Dialogue: 0,0:00:59.99,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(989.305,29.000)}ん
+Dialogue: 0,0:00:55.30,0:00:59.99,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1022.958,29.000,1011.758,29.000,0,240)}ご
+Dialogue: 1,0:00:59.99,0:01:00.39,Ending Romaji - furigana,,0000,0000,0000,,{\kf40\an5\pos(1011.758,29.000)\blur2\bord3}ご
+Dialogue: 0,0:01:00.39,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1011.758,29.000)}ご
+Dialogue: 0,0:00:55.33,0:01:00.39,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1045.411,29.000,1034.211,29.000,0,240)}く
+Dialogue: 1,0:01:00.39,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\kf140\an5\pos(1034.211,29.000)\blur2\bord3}く
+Dialogue: 0,0:01:01.78,0:01:01.79,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(1034.211,29.000)}く
 Dialogue: 0,0:01:02.14,0:01:02.38,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(506.562,67.500,484.109,67.500,0,240)}や
 Dialogue: 1,0:01:02.38,0:01:02.56,Ending Romaji,,0000,0000,0000,,{\kf18\an5\pos(484.109,67.500)\blur2\bord3}や
 Dialogue: 0,0:01:02.56,0:01:07.50,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(484.109,67.500)}や
@@ -443,18 +635,39 @@ Dialogue: 0,0:01:05.95,0:01:07.50,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\
 Dialogue: 0,0:01:02.44,0:01:05.95,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1091.234,67.500,1068.781,67.500,0,240)}も
 Dialogue: 1,0:01:05.95,0:01:07.39,Ending Romaji,,0000,0000,0000,,{\kf144\an5\pos(1068.781,67.500)\blur2\bord3}も
 Dialogue: 0,0:01:07.39,0:01:07.50,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(1068.781,67.500)}も
-Dialogue: 0,0:01:07.26,0:01:07.50,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(709.086,67.500,664.180,67.500,0,240)}ちょ
-Dialogue: 1,0:01:07.50,0:01:07.94,Ending Romaji,,0000,0000,0000,,{\kf44\an5\pos(664.180,67.500)\blur2\bord3}ちょ
-Dialogue: 0,0:01:07.94,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(664.180,67.500)}ちょ
-Dialogue: 0,0:01:07.29,0:01:07.94,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(798.898,67.500,753.992,67.500,0,240)}っと
-Dialogue: 1,0:01:07.94,0:01:08.13,Ending Romaji,,0000,0000,0000,,{\kf19\an5\pos(753.992,67.500)\blur2\bord3}っと
-Dialogue: 0,0:01:08.13,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(753.992,67.500)}っと
-Dialogue: 0,0:01:07.31,0:01:08.13,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(843.805,67.500,821.352,67.500,0,240)}近
-Dialogue: 1,0:01:08.13,0:01:08.56,Ending Romaji,,0000,0000,0000,,{\kf43\an5\pos(821.352,67.500)\blur2\bord3}近
-Dialogue: 0,0:01:08.56,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(821.352,67.500)}近
-Dialogue: 0,0:01:07.34,0:01:08.56,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(888.711,67.500,866.258,67.500,0,240)}ず
-Dialogue: 1,0:01:08.56,0:01:08.81,Ending Romaji,,0000,0000,0000,,{\kf25\an5\pos(866.258,67.500)\blur2\bord3}ず
-Dialogue: 0,0:01:08.81,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(866.258,67.500)}ず
-Dialogue: 0,0:01:07.36,0:01:08.81,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(933.617,67.500,911.164,67.500,0,240)}く
-Dialogue: 1,0:01:08.81,0:01:09.41,Ending Romaji,,0000,0000,0000,,{\kf60\an5\pos(911.164,67.500)\blur2\bord3}く
-Dialogue: 0,0:01:09.41,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(911.164,67.500)}く
+Dialogue: 0,0:01:02.14,0:01:04.42,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(934.036,29.000,922.836,29.000,0,240)}す
+Dialogue: 1,0:01:04.42,0:01:04.71,Ending Romaji - furigana,,0000,0000,0000,,{\kf29\an5\pos(922.836,29.000)\blur2\bord3}す
+Dialogue: 0,0:01:04.71,0:01:07.50,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(922.836,29.000)}す
+Dialogue: 0,0:01:02.17,0:01:04.71,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(956.489,29.000,945.289,29.000,0,240)}い
+Dialogue: 1,0:01:04.71,0:01:04.90,Ending Romaji - furigana,,0000,0000,0000,,{\kf19\an5\pos(945.289,29.000)\blur2\bord3}い
+Dialogue: 0,0:01:04.90,0:01:07.50,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(945.289,29.000)}い
+Dialogue: 0,0:01:02.19,0:01:04.90,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(978.942,29.000,967.742,29.000,0,240)}へ
+Dialogue: 1,0:01:04.90,0:01:05.12,Ending Romaji - furigana,,0000,0000,0000,,{\kf22\an5\pos(967.742,29.000)\blur2\bord3}へ
+Dialogue: 0,0:01:05.12,0:01:07.50,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(967.742,29.000)}へ
+Dialogue: 0,0:01:02.22,0:01:05.12,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1001.395,29.000,990.195,29.000,0,240)}い
+Dialogue: 1,0:01:05.12,0:01:05.28,Ending Romaji - furigana,,0000,0000,0000,,{\kf16\an5\pos(990.195,29.000)\blur2\bord3}い
+Dialogue: 0,0:01:05.28,0:01:07.50,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(990.195,29.000)}い
+Dialogue: 0,0:01:02.24,0:01:05.28,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(1046.275,29.000,1023.875,29.000,0,240)}せん
+Dialogue: 1,0:01:05.28,0:01:05.95,Ending Romaji - furigana,,0000,0000,0000,,{\kf67\an5\pos(1023.875,29.000)\blur2\bord3}せん
+Dialogue: 0,0:01:05.95,0:01:07.50,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,0)\blur2\bord3\pos(1023.875,29.000)}せん
+Dialogue: 0,0:01:07.26,0:01:07.50,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(708.641,67.500,663.734,67.500,0,240)}ちょ
+Dialogue: 1,0:01:07.50,0:01:07.94,Ending Romaji,,0000,0000,0000,,{\kf44\an5\pos(663.734,67.500)\blur2\bord3}ちょ
+Dialogue: 0,0:01:07.94,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(663.734,67.500)}ちょ
+Dialogue: 0,0:01:07.29,0:01:07.94,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(798.453,67.500,753.547,67.500,0,240)}っと
+Dialogue: 1,0:01:07.94,0:01:08.13,Ending Romaji,,0000,0000,0000,,{\kf19\an5\pos(753.547,67.500)\blur2\bord3}っと
+Dialogue: 0,0:01:08.13,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(753.547,67.500)}っと
+Dialogue: 0,0:01:07.31,0:01:08.13,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(843.359,67.500,820.906,67.500,0,240)}近
+Dialogue: 1,0:01:08.13,0:01:08.56,Ending Romaji,,0000,0000,0000,,{\kf43\an5\pos(820.906,67.500)\blur2\bord3}近
+Dialogue: 0,0:01:08.56,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(820.906,67.500)}近
+Dialogue: 0,0:01:07.34,0:01:08.56,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(888.266,67.500,865.812,67.500,0,240)}づ
+Dialogue: 1,0:01:08.56,0:01:08.81,Ending Romaji,,0000,0000,0000,,{\kf25\an5\pos(865.812,67.500)\blur2\bord3}づ
+Dialogue: 0,0:01:08.81,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(865.812,67.500)}づ
+Dialogue: 0,0:01:07.36,0:01:08.81,Ending Romaji,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(933.172,67.500,910.719,67.500,0,240)}く
+Dialogue: 1,0:01:08.81,0:01:09.41,Ending Romaji,,0000,0000,0000,,{\kf60\an5\pos(910.719,67.500)\blur2\bord3}く
+Dialogue: 0,0:01:09.29,0:01:09.30,Ending Romaji,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(910.719,67.500)}く
+Dialogue: 0,0:01:07.26,0:01:08.13,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(820.880,29.000,809.680,29.000,0,240)}ち
+Dialogue: 1,0:01:08.13,0:01:08.35,Ending Romaji - furigana,,0000,0000,0000,,{\kf22\an5\pos(809.680,29.000)\blur2\bord3}ち
+Dialogue: 0,0:01:08.35,0:01:09.30,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(809.680,29.000)}ち
+Dialogue: 0,0:01:07.29,0:01:08.35,Ending Romaji - furigana,,0000,0000,0000,,{\an5\c&H5455BE&\fad(240,0)\blur1\bord1\move(843.333,29.000,832.133,29.000,0,240)}か
+Dialogue: 1,0:01:08.35,0:01:08.56,Ending Romaji - furigana,,0000,0000,0000,,{\kf21\an5\pos(832.133,29.000)\blur2\bord3}か
+Dialogue: 0,0:01:08.56,0:01:09.30,Ending Romaji - furigana,,0000,0000,0000,,{\an5\fad(0,240)\blur2\bord3\pos(832.133,29.000)}か
