@@ -89,6 +89,10 @@ subs {
         }
     }
 
+    fun resolveAudioVariant(language: String): String {
+        return if (arg("ex") != null) "extended_${language}audio" else if (arg("alt") != null) "alternate_${language}audio" else "${language}audio"
+    }
+
     val ensubs = getPrefix() + "ensubs"
     // val en_cc_subs = getPrefix() + "en_cc_subs"
     val frsubs = getPrefix() + "frsubs"
@@ -337,9 +341,9 @@ subs {
         
         val mkvInfo = getMkvInfo(file(get(video)))
         val hasGermanAudioInVideo = mkvInfo.audio_tracks.any { it.properties?.language == "ger" }
-        // Add german audio if it exists
-        if (file(get("deaudio")).exists() && !hasGermanAudioInVideo) {
-            from(get("deaudio")) {
+        val deAudio = resolveAudioVariant("de")
+        if (file(get(deAudio)).exists() && !hasGermanAudioInVideo) {
+            from(get(deAudio)) {
                 tracks {
                     name("German Dub")
                     lang("de")
@@ -480,7 +484,7 @@ subs {
         }
 
         // German Dub Subtitles
-        if (file(get("deaudio")).exists() || hasGermanAudioInVideo) {
+        if (file(get(deAudio)).exists() || hasGermanAudioInVideo) {
             from(signsSongsTaskDe.item()) {
                 tracks {
                     name("German Dub")
