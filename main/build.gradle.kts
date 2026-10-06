@@ -668,6 +668,10 @@ subs {
                     default(false)
                 }
             }
+
+            attach(get("zhhansfonts")) {
+                includeExtensions("ttf", "otf")
+            }
         }
 
         // Chinese (Traditional) Subtitles
