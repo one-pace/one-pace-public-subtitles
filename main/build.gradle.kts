@@ -109,6 +109,8 @@ subs {
     val rusubs = getPrefix() + "rusubs"
     val fisubs = getPrefix() + "fisubs"
     val hesubs = getPrefix() + "hesubs"
+    val zhhanssubs = getPrefix() + "zhhanssubs"
+    val zhhantsubs = getPrefix() + "zhhantsubs"
     val video = getPrefix() + "video"
     val muxfile = getPrefix() + "muxfile"
     val torrentfile = getPrefix() + "torrentfile"
@@ -128,6 +130,8 @@ subs {
     val mergefile_ru = getPrefix() + "mergefile_ru"
     val mergefile_fi = getPrefix() + "mergefile_fi"
     val mergefile_he = getPrefix() + "mergefile_he"
+    val mergefile_zh_hans = getPrefix() + "mergefile_zh_hans"
+    val mergefile_zh_hant = getPrefix() + "mergefile_zh_hant"
 
     val increaseLayer by task<ASS> {createIncreaseLayerTask(ensubs)}
 
@@ -204,6 +208,8 @@ subs {
     val increaseLayer_ru by task<ASS> {createIncreaseLayerTask(rusubs)} // Russian Subs
     val increaseLayer_fi by task<ASS> {createIncreaseLayerTask(fisubs)} // Finnish Subs
     val increaseLayer_he by task<ASS> {createIncreaseLayerTask(hesubs)} // Hebrew Subs
+    val increaseLayer_zh_hans by task<ASS> {createIncreaseLayerTask(zhhanssubs)} // Chinese (Simplified) Subs
+    val increaseLayer_zh_hant by task<ASS> {createIncreaseLayerTask(zhhantsubs)} // Chinese (Traditional) Subs
 
     // Merge subs with karaoke
     // val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
@@ -219,6 +225,8 @@ subs {
     val merge_ru by task<Merge> {createMergeKaraokeTask(increaseLayer_ru.item(), "OP_ru", "ED_ru", mergefile_ru)} // Russian Subs
     val merge_fi by task<Merge> {createMergeKaraokeTask(increaseLayer_fi.item(), "OP_fi", "ED_fi", mergefile_fi)} // Finnish Subs
     val merge_he by task<Merge> {createMergeKaraokeTask(increaseLayer_he.item(), "OP_he", "ED_he", mergefile_he)} // Hebrew Subs
+    val merge_zh_hans by task<Merge> {createMergeKaraokeTask(increaseLayer_zh_hans.item(), "OP_zh_hans", "ED_zh_hans", mergefile_zh_hans)} // Chinese (Simplified) Subs
+    val merge_zh_hant by task<Merge> {createMergeKaraokeTask(increaseLayer_zh_hant.item(), "OP_zh_hant", "ED_zh_hant", mergefile_zh_hant)} // Chinese (Traditional) Subs
 
     // Removes all the dialoge lines and opening karaoke lines (if "removekaraokede" is set) from German subs 
     val signsSongsTaskDe by task<ASS> {
@@ -283,6 +291,12 @@ subs {
         }
         if (file(get(hesubs)).exists()) {
             dependsOn(merge_he.item())
+        }
+        if (file(get(zhhanssubs)).exists()) {
+            dependsOn(merge_zh_hans.item())
+        }
+        if (file(get(zhhantsubs)).exists()) {
+            dependsOn(merge_zh_hant.item())
         }
     }
 
@@ -627,6 +641,28 @@ subs {
 
             attach(get("hefonts")) {
                 includeExtensions("ttf", "otf")
+            }
+        }
+
+        // Chinese (Simplified) Subtitles
+        if (file(get(zhhanssubs)).exists()) {
+            from(merge_zh_hans.item()) {
+                tracks {
+                    name("Chinese (Simplified)")
+                    lang("zh-Hans")
+                    default(false)
+                }
+            }
+        }
+
+        // Chinese (Traditional) Subtitles
+        if (file(get(zhhantsubs)).exists()) {
+            from(merge_zh_hant.item()) {
+                tracks {
+                    name("Chinese (Traditional)")
+                    lang("zh-Hant")
+                    default(false)
+                }
             }
         }
 
