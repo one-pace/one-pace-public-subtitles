@@ -301,6 +301,21 @@ subs {
     }
 
     mux {
+        // A subtitle file is only muxed if it exists under its exact name. On case-sensitive
+        // filesystems a file differing only in case (" He.ass" for " he.ass") is skipped silently.
+        doFirst {
+            val subsKeys = listOf(ensubs, frsubs, essubs, esdubsubs, arsubs, desubs, itsubs, jasubs, ptsubs,
+                plsubs, trsubs, cssubs, rusubs, fisubs, hesubs, zhhanssubs, zhhantsubs)
+            for (key in subsKeys) {
+                val expected = file(get(key))
+                if (expected.exists()) continue
+                val misnamed = expected.parentFile.listFiles()?.find { it.name.equals(expected.name, ignoreCase = true) }
+                if (misnamed != null) {
+                    logger.warn("WARNING: \"${misnamed.name}\" is not muxed: the expected name is \"${expected.name}\"")
+                }
+            }
+        }
+
         skipUnusedFonts(true)
         // Uncomment this line if the script stops due to font missing some glyphs or try to use other fonts.
         onMissingGlyphs(ErrorMode.WARN)
@@ -543,8 +558,8 @@ subs {
         if (file(get(ptsubs)).exists()) {
             from(merge_pt.item()) {
                 tracks {
-                    name("Portuguese")
-                    lang("pt")
+                    name("Portuguese (Brazil)")
+                    lang("pt-BR")
                     default(false)
                 }
             }
@@ -554,8 +569,8 @@ subs {
         if (file(get(essubs)).exists()) {
             from(get(essubs)) {
                 tracks {
-                    name("Spanish")
-                    lang("es")
+                    name("Spanish (Latin America)")
+                    lang("es-419")
                     default(false)
                 }
             }
@@ -569,8 +584,8 @@ subs {
         if (file(get(esdubsubs)).exists()) {
             from(get(esdubsubs)) {
                 tracks {
-                    name("Spanish Signs and Songs")
-                    lang("es")
+                    name("Spanish (Latin America) Signs and Songs")
+                    lang("es-419")
                     default(false)
                     forced(true)
                 }
