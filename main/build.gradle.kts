@@ -317,7 +317,11 @@ subs {
         }
 
         skipUnusedFonts(true)
-        // Uncomment this line if the script stops due to font missing some glyphs or try to use other fonts.
+        // Agent's choice: synthesized bold/italic and weight mismatches are not reported. They are
+        // long-standing in the shared typesetting fonts and repeat for every language track, burying
+        // missing glyphs and unknown styles. WARN would keep them visible at that cost.
+        onFaux(ErrorMode.IGNORE)
+        onStyleMismatch(ErrorMode.IGNORE)
         onMissingGlyphs(ErrorMode.WARN)
 
         title(escapeTitle(get("title").get()))
