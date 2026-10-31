@@ -94,6 +94,7 @@ subs {
     }
 
     val ensubs = getPrefix() + "ensubs"
+    val endubsubs = getPrefix() + "endubsubs"
     // val en_cc_subs = getPrefix() + "en_cc_subs"
     val frsubs = getPrefix() + "frsubs"
     val essubs = getPrefix() + "essubs"
@@ -118,6 +119,7 @@ subs {
 
     val mergefile = getPrefix() + "mergefile"
     val mergefile_ar = getPrefix() + "mergefile_ar"
+    val mergefile_endub = getPrefix() + "mergefile_endub"
     // val mergefile_en_cc = getPrefix() + "mergefile_en_cc"
     val mergefile_de = getPrefix() + "mergefile_de"
     val mergefile_de_dub = getPrefix() + "mergefile_de_dub"
@@ -197,6 +199,7 @@ subs {
     }
 
     // val increaseLayer_en_cc by task<ASS> {createIncreaseLayerTask(en_cc_subs)} // CC Subs
+    val increaseLayer_endub by task<ASS> {createIncreaseLayerTask(endubsubs)} // English Dubtitles
     val increaseLayer_de by task<ASS> {createIncreaseLayerTask(desubs)} // German Subs
     val increaseLayer_pt by task<ASS> {createIncreaseLayerTask(ptsubs)} // Portuguese Subs
     val increaseLayer_it by task<ASS> {createIncreaseLayerTask(itsubs)} // Italian Subs
@@ -213,6 +216,7 @@ subs {
 
     // Merge subs with karaoke
     // val merge_en_cc by task<Merge> {createMergeKaraokeTask(increaseLayer_en_cc.item(), "OP_en_cc", "ED_en_cc", mergefile_en_cc)} // CC Subs
+    val merge_endub by task<Merge> {createMergeKaraokeTask(increaseLayer_endub.item(), "OP_endub", "ED_endub", mergefile_endub)} // English Dubtitles
     val merge_de by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "OP_de", "ED_de", mergefile_de)} // German Subs
     val merge_de_no_op by task<Merge> {createMergeKaraokeTask(increaseLayer_de.item(), "noOp", "ED_de", mergefile_de_dub)} // German Subs without OP
     val merge_pt by task<Merge> {createMergeKaraokeTask(increaseLayer_pt.item(), "OP_pt", "ED_pt", mergefile_pt)} // Portuguese Subs
@@ -259,6 +263,9 @@ subs {
     // Helper task to merge all language subs needing merging and output to Final Subs folder
     val mergeAll by task<DefaultSubTask> {
         dependsOn(merge.item())
+        if (file(get(endubsubs)).exists()) {
+            dependsOn(merge_endub.item())
+        }
         if (file(get(desubs)).exists()) {
             dependsOn(merge_de.item())
         }
@@ -304,7 +311,7 @@ subs {
         // A subtitle file is only muxed if it exists under its exact name. On case-sensitive
         // filesystems a file differing only in case (" He.ass" for " he.ass") is skipped silently.
         doFirst {
-            val subsKeys = listOf(ensubs, frsubs, essubs, esdubsubs, arsubs, desubs, itsubs, jasubs, ptsubs,
+            val subsKeys = listOf(ensubs, endubsubs, frsubs, essubs, esdubsubs, arsubs, desubs, itsubs, jasubs, ptsubs,
                 plsubs, trsubs, cssubs, rusubs, fisubs, hesubs, zhhanssubs, zhhantsubs)
             for (key in subsKeys) {
                 val expected = file(get(key))
@@ -458,6 +465,17 @@ subs {
             //     }
             // }
 
+        }
+
+	// English Dubtitles
+        if (file(get(endubsubs)).exists()) {
+            from(merge_endub.item()) {
+                tracks {
+                    name("English Dubtitles")
+                    lang("eng")
+                    default(false)
+                }
+            }
         }
 
         // French Subtitles
