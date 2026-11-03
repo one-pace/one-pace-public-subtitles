@@ -1,0 +1,663 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Translation,Duality,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,30,1
+Style: Dedication,Complete in Him ESP,120,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+Style: Episode-Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
+Style: Episode-Credits-207-,FOT-Greco Std B Strp,50,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,3,0,7,16,16,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:50.01,0:02:00.01,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Main-207-,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:50.01,0:01:50.05,Main-207-,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:03.07,0:00:03.11,Main-207-,OP,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 0,0:00:39.22,0:00:41.72,Main-207-,,0,0,0,,[NARRATOR]\NWith only one hour\Nleft until Eneru's deadline,
+Dialogue: 0,0:02:03.68,0:02:05.47,Main-207-,,0,0,0,,Almost there.
+Dialogue: 50,0:02:05.56,0:02:07.27,Main-207-,,0,0,0,,I can't wait to see the\Nlook on all their faces
+Dialogue: 50,0:02:07.35,0:02:11.36,Main-207-,,0,0,0,,when they find out\NI discovered the gold first.
+Dialogue: 50,0:02:16.59,0:02:18.76,Main-207-,,0,0,0,,Look at those ruins.
+Dialogue: 50,0:02:26.42,0:02:27.96,Main-207-,,0,0,0,,[CHOPPER]\NWhat's up with this place?
+Dialogue: 50,0:02:27.96,0:02:30.00,Main-207-,,0,0,0,,The ground's all crooked.
+Dialogue: 50,0:02:30.00,0:02:31.88,Main-207-,,0,0,0,,Guess I'll go this way.
+Dialogue: 0,0:02:38.05,0:02:40.31,Main-207-,,0,0,0,,Gold! Gold!
+Dialogue: 0,0:02:40.91,0:02:43.08,Main-207-,,0,0,0,,[growling]
+Dialogue: 0,0:02:43.15,0:02:45.94,Main-207-,,0,0,0,,[OHM]\NNo Holy. Stay.
+Dialogue: 50,0:02:46.09,0:02:47.88,Main-207-,,0,0,0,,I said stay!
+Dialogue: 0,0:02:52.01,0:02:58.83,Main-207-,,0,0,0,,[screams]
+Dialogue: 0,0:02:58.83,0:02:59.92,Thoughts-207-,,0,0,0,,[CHOPPER]\NWhat was I thinking?
+Dialogue: 50,0:03:00.00,0:03:02.04,Thoughts-207-,,0,0,0,,I'm too little to do\Nthis all by myself!
+Dialogue: 50,0:03:02.13,0:03:04.59,Thoughts-207-,,0,0,0,,I should've gone back!
+Dialogue: 50,0:03:06.88,0:03:08.51,Main-207-,,0,0,0,,[OHM]\NInteresting.
+Dialogue: 50,0:03:08.59,0:03:12.14,Main-207-,,0,0,0,,You're the third one\Nto make it this far today.
+Dialogue: 0,0:03:12.21,0:03:13.17,Main-207-,,0,0,0,,[CHOPPER]\NWho are you?
+Dialogue: 0,0:03:14.34,0:03:15.38,Main-207-,,0,0,0,,[OHM]\NI can't believe
+Dialogue: 50,0:03:15.39,0:03:18.14,Main-207-,,0,0,0,,that spider-headed fool\Nwas so careless.
+Dialogue: 50,0:03:18.23,0:03:20.89,Main-207-,,0,0,0,,You killed Gedatsu, didn't you?
+Dialogue: 50,0:03:21.43,0:03:23.77,Thoughts-207-,,0,0,0,,[CHOPPER]\NI guess he\Nmeans that guy from earlier.
+Dialogue: 50,0:03:25.72,0:03:27.60,Main-207-,,0,0,0,,[OHM]\NI suppose it's for the best.
+Dialogue: 50,0:03:27.68,0:03:30.18,Main-207-,,0,0,0,,The world is better off\Nwith one less imbecile.
+Dialogue: 50,0:03:30.19,0:03:31.52,Main-207-,,0,0,0,,Wouldn't you agree?
+Dialogue: 50,0:03:43.16,0:03:44.95,Main-207-,,0,0,0,,What the...? I tripped over...
+Dialogue: 0,0:03:48.23,0:03:51.95,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:03:52.03,0:03:53.49,Main-207-,,0,0,0,,[OHM]\NCalm yourself.
+Dialogue: 50,0:03:53.57,0:03:56.70,Main-207-,,0,0,0,,There's no need to be so afraid\Nof Holy, he's merely a pet.
+Dialogue: 50,0:03:56.95,0:03:57.87,Main-207-,,0,0,0,,He won't bite you.
+Dialogue: 50,0:03:57.95,0:03:59.04,Main-207-,,0,0,0,,[CHOPPER]\NBut what about this guy?
+Dialogue: 50,0:03:59.04,0:04:01.33,Main-207-,,0,0,0,,It looks like he's been\Nchewed up and spit out!
+Dialogue: 0,0:04:01.58,0:04:03.50,Main-207-,,0,0,0,,[OHM]\NHeh. I assure you.
+Dialogue: 50,0:04:03.58,0:04:05.63,Main-207-,,0,0,0,,Holy is a very well-trained dog.
+Dialogue: 50,0:04:05.75,0:04:07.88,Main-207-,,0,0,0,,He would never bite anyone.
+Dialogue: 50,0:04:08.03,0:04:10.66,Main-207-,,0,0,0,,It was I who attacked that man.
+Dialogue: 50,0:04:10.74,0:04:11.87,Main-207-,,0,0,0,,Huh?!
+Dialogue: 0,0:04:11.95,0:04:13.12,Main-207-,,0,0,0,,Are you crazy?
+Dialogue: 50,0:04:14.38,0:04:15.68,Main-207-,,0,0,0,,Why would you\Ndo something like that?
+Dialogue: 50,0:04:15.84,0:04:17.38,Main-207-,,0,0,0,,I am Sky Breeder Ohm.
+Dialogue: 50,0:04:17.46,0:04:20.05,Secondary-207-,,0,0,0,,{\an8}Now would you please be quiet!
+Dialogue: 50,0:04:21.18,0:04:22.18,Main-207-,,0,0,0,,[OHM]\NDo you think I'm not saddened
+Dialogue: 50,0:04:22.18,0:04:23.85,Main-207-,,0,0,0,,by what's taken place here?
+Dialogue: 0,0:04:23.93,0:04:25.93,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:04:25.98,0:04:27.69,Main-207-,,0,0,0,,[OHM]\NI don't understand.
+Dialogue: 50,0:04:27.77,0:04:29.86,Main-207-,,0,0,0,,Why do men choose to fight?
+Dialogue: 50,0:04:29.98,0:04:32.77,Main-207-,,0,0,0,,when they must know\Nhow fragile their lives are?
+Dialogue: 50,0:04:32.86,0:04:34.53,Main-207-,,0,0,0,,I'm not really sure.
+Dialogue: 50,0:04:34.61,0:04:37.28,Main-207-,,0,0,0,,[OHM]\NMan was put here\Nto find happiness.
+Dialogue: 50,0:04:37.36,0:04:40.57,Main-207-,,0,0,0,,Yet time after time, they\Nthrow themselves into battle,
+Dialogue: 50,0:04:40.66,0:04:42.28,Main-207-,,0,0,0,,only to lose their lives along
+Dialogue: 50,0:04:42.35,0:04:45.56,Main-207-,,0,0,0,,with the joy they've\Nstruggled so hard to find.
+Dialogue: 50,0:04:45.65,0:04:50.44,Main-207-,,0,0,0,,What a strange and tragic\Nthing is man's nature!
+Dialogue: 50,0:04:50.50,0:04:53.42,Main-207-,,0,0,0,,There's only\None way to be redeemed!
+Dialogue: 50,0:04:54.49,0:04:56.16,Main-207-,,0,0,0,,And that is for all men to die!
+Dialogue: 50,0:04:56.20,0:04:57.53,Main-207-,,0,0,0,,Ah!
+Dialogue: 50,0:04:57.62,0:04:59.37,Main-207-,,0,0,0,,Oh, please, sir, you don't\Nreally mean that, do you?
+Dialogue: 0,0:04:59.45,0:05:01.54,Main-207-,,0,0,0,,This is bad!
+Dialogue: 50,0:05:01.62,0:05:04.00,Main-207-,,0,0,0,,[OHM]\NWhat have you come here for?
+Dialogue: 50,0:05:04.08,0:05:06.46,Main-207-,,0,0,0,,Oh. I was just trying\Nto find the city of gold!
+Dialogue: 50,0:05:06.54,0:05:08.42,Main-207-,,0,0,0,,[OHM]\NGreed only leads to ruin!
+Dialogue: 0,0:05:08.52,0:05:09.48,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:05:09.56,0:05:11.48,Main-207-,,0,0,0,,[OHM]\NYou must be rescued.
+Dialogue: 50,0:05:11.59,0:05:14.76,Main-207-,,0,0,0,,You wanna rescue... me?
+Dialogue: 50,0:05:19.02,0:05:20.68,Main-207-,,0,0,0,,Only losing your\Nlife will save you
+Dialogue: 50,0:05:20.77,0:05:22.27,Main-207-,,0,0,0,,from all your earthly desires!
+Dialogue: 0,0:05:22.35,0:05:24.15,Main-207-,,0,0,0,,[CHOPPER gasps]
+Dialogue: 50,0:05:24.23,0:05:26.98,Thoughts-207-,,0,0,0,,He doesn't want\Nto resuce me at all!
+Dialogue: 0,0:05:35.12,0:05:36.45,Main-207-,,0,0,0,,[LAKI]\NBut why?
+Dialogue: 0,0:05:40.12,0:05:41.58,Main-207-,,0,0,0,,[LAKI]\NYes!
+Dialogue: 0,0:05:43.45,0:05:46.79,Main-207-,,0,0,0,,[KAMAKIRI]\NGo. Get out of here, Laki!
+Dialogue: 0,0:05:46.87,0:05:49.42,Main-207-,,0,0,0,,Why? Tell me.
+Dialogue: 50,0:05:50.58,0:05:55.46,Main-207-,,0,0,0,,[KAMAKIRI]\NWyper,\Nhe's headed for god's shrine.
+Dialogue: 50,0:05:55.46,0:05:58.25,Main-207-,,0,0,0,,But Eneru isn't there!
+Dialogue: 50,0:05:58.68,0:06:01.81,Main-207-,,0,0,0,,There's still time Laki.
+Dialogue: 0,0:06:01.90,0:06:04.28,Main-207-,,0,0,0,,Stop Wyper.
+Dialogue: 50,0:06:04.36,0:06:05.53,Main-207-,,0,0,0,,All right.
+Dialogue: 0,0:06:05.61,0:06:07.91,Main-207-,,0,0,0,,I understand.\NNow quiet, save your strength.
+Dialogue: 50,0:06:11.20,0:06:14.58,Main-207-,,0,0,0,,{\t(2852,0,1,\c&H181614&\3c&H181614&\4c&H181614&)}Nobody can beat Eneru.
+Dialogue: 50,0:06:15.57,0:06:18.07,Flashbacks-207-,,0,0,0,,{\c&H181614&\3c&H181614&\4c&H181614&\t(0,1270,1,\c&HFFFFFF&\3c&H525252&\4c&H000000&)}[ENERU]\NI am living lightning.
+Dialogue: 0,0:06:18.15,0:06:21.45,Main-207-,,0,0,0,,[laughs]
+Dialogue: 50,0:06:25.09,0:06:26.21,Main-207-,,0,0,0,,Laki.
+Dialogue: 0,0:06:26.30,0:06:27.76,Main-207-,,0,0,0,,Hear me!
+Dialogue: 50,0:06:29.55,0:06:31.59,Main-207-,,0,0,0,,[KAMAKIRI]\NHe comes as lightning.
+Dialogue: 50,0:06:31.67,0:06:34.34,Main-207-,,0,0,0,,An element that man has\Nfeared from the beginning
+Dialogue: 50,0:06:34.43,0:06:36.39,Main-207-,,0,0,0,,and rightly so.
+Dialogue: 50,0:06:36.46,0:06:39.47,Main-207-,,0,0,0,,He can't be conquered.
+Dialogue: 0,0:06:39.50,0:06:41.17,Main-207-,,0,0,0,,[LAKI]\NDon't worry, I'll stop Wyper.
+Dialogue: 50,0:06:41.77,0:06:44.10,Main-207-,,0,0,0,,You just wait here\Nand save your energy.
+Dialogue: 50,0:06:44.19,0:06:46.48,Main-207-,,0,0,0,,I'm going to leave\NAisa's bag with you.
+Dialogue: 50,0:06:58.45,0:07:01.16,Flashbacks-207-,,0,0,0,,[KAMAKIRI]\NNobody can beat Eneru.
+Dialogue: 50,0:07:01.25,0:07:03.75,Flashbacks-207-,,0,0,0,,He can't be conquered.
+Dialogue: 0,0:07:03.84,0:07:09.43,Thoughts-207-,,0,0,0,,[LAKI]\NKamakiri is so strong,\Nyet his will has been broken.
+Dialogue: 50,0:07:09.50,0:07:10.84,Thoughts-207-,,0,0,0,,If what he said is true,
+Dialogue: 50,0:07:10.92,0:07:13.34,Thoughts-207-,,0,0,0,,then Eneru's eaten\Na Logia-type devil fruit.
+Dialogue: 50,0:07:13.43,0:07:15.47,Thoughts-207-,,0,0,0,,The most powerful kind of all!
+Dialogue: 50,0:07:15.56,0:07:18.44,Thoughts-207-,,0,0,0,,I've got to stop Wyper\Nbefore its too late!
+Dialogue: 0,0:07:22.93,0:07:23.63,Main-207-,,0,0,0,,[ZORO]\NHmm...
+Dialogue: 50,0:07:23.64,0:07:24.98,Main-207-,,0,0,0,,I've been here.
+Dialogue: 50,0:07:25.06,0:07:27.77,Main-207-,,0,0,0,,It looks familiar.
+Dialogue: 0,0:07:27.83,0:07:30.08,Main-207-,,0,0,0,,Or have I?
+Dialogue: 50,0:07:30.17,0:07:31.17,Main-207-,,0,0,0,,Maybe.
+Dialogue: 50,0:07:31.25,0:07:33.38,Main-207-,,0,0,0,,Or maybe not.
+Dialogue: 0,0:07:33.46,0:07:36.46,Main-207-,,0,0,0,,Huh. I'm not sure.
+Dialogue: 0,0:07:38.47,0:07:41.05,Main-207-,,0,0,0,,[GIANT SOUTHBIRD]\NPfft.
+Dialogue: 0,0:07:41.14,0:07:43.30,Main-207-,,0,0,0,,Are you laughing at me, huh?
+Dialogue: 0,0:07:43.39,0:07:45.43,Main-207-,,0,0,0,,[squawks]
+Dialogue: 50,0:07:45.51,0:07:47.06,Main-207-,,0,0,0,,What are you so\Nworked up for anyway?
+Dialogue: 50,0:07:47.14,0:07:48.85,Main-207-,,0,0,0,,The only reason you came\Nalong in the first place
+Dialogue: 50,0:07:48.93,0:07:50.00,Main-207-,,0,0,0,,is to get some food.
+Dialogue: 50,0:07:50.00,0:07:52.46,Main-207-,,0,0,0,,My bad sense of\Ndirection shouldn't matter!
+Dialogue: 50,0:07:52.54,0:07:53.88,Main-207-,,0,0,0,,Ya dummy!
+Dialogue: 0,0:07:59.49,0:08:00.62,Main-207-,,0,0,0,,No! No! No!
+Dialogue: 0,0:08:02.48,0:08:03.44,Main-207-,,0,0,0,,Hey!
+Dialogue: 50,0:08:03.49,0:08:05.32,Main-207-,,0,0,0,,Let go, you big\Nfeatherbrained jerk.
+Dialogue: 50,0:08:05.41,0:08:07.12,Main-207-,,0,0,0,,There's no more food in there.
+Dialogue: 0,0:08:07.20,0:08:09.12,Main-207-,,0,0,0,,Hey!
+Dialogue: 50,0:08:09.20,0:08:11.87,Main-207-,,0,0,0,,{\fad(0,1650)}Where are you taking us?
+Dialogue: 50,0:08:13.79,0:08:15.73,Main-207-,,0,0,0,,[LUFFY]\NOf all the\Nweird places to end up.
+Dialogue: 0,0:08:15.73,0:08:17.65,Main-207-,,0,0,0,,Ooo. Huh?
+Dialogue: 50,0:08:19.19,0:08:21.15,Main-207-,,0,0,0,,{\fad(0,650)}[LUFFY]\NIt's a dead end.
+Dialogue: 0,0:08:22.19,0:08:23.49,Main-207-,,0,0,0,,[LUFFY]\NHmm...
+Dialogue: 0,0:08:23.57,0:08:25.28,Main-207-,,0,0,0,,Huh?
+Dialogue: 0,0:08:25.28,0:08:28.57,Main-207-,,0,0,0,,You can't be serious;\NI walked all this way.
+Dialogue: 0,0:08:29.66,0:08:31.20,Main-207-,,0,0,0,,Maybe...
+Dialogue: 0,0:08:31.29,0:08:34.16,Main-207-,,0,0,0,,Maybe it's a trick door.
+Dialogue: 50,0:08:34.25,0:08:36.13,Main-207-,,0,0,0,,Let's find out.
+Dialogue: 50,0:08:36.21,0:08:39.71,Main-207-,,0,0,0,,I can always try busting\Nthrough the stupid thing.
+Dialogue: 0,0:08:39.80,0:08:41.92,Main-207-,,0,0,0,,{\fad(150,150)}Gum-gum...
+Dialogue: 0,0:08:42.01,0:08:43.92,Main-207-,,0,0,0,,{\fad(150,150)}...Bazooka!
+Dialogue: 0,0:08:49.93,0:08:51.72,Main-207-,,0,0,0,,But it... it didn't even budge.
+Dialogue: 0,0:08:52.43,0:08:58.44,Main-207-,,0,0,0,,[rumbling]
+Dialogue: 0,0:08:58.71,0:09:01.92,Main-207-,,0,0,0,,Not again!
+Dialogue: 0,0:09:03.95,0:09:09.96,Main-207-,,0,0,0,,[CHOPPER panting]
+Dialogue: 50,0:09:19.59,0:09:20.88,Main-207-,,0,0,0,,He didn't follow me.
+Dialogue: 0,0:09:20.97,0:09:22.93,Main-207-,,0,0,0,,I'm okay.
+Dialogue: 50,0:09:25.15,0:09:27.28,Main-207-,,0,0,0,,I bet he's a Priest too,
+Dialogue: 50,0:09:27.36,0:09:29.95,Main-207-,,0,0,0,,but it looks like there's a lot\Nof places to hide around here.
+Dialogue: 50,0:09:30.03,0:09:32.08,Main-207-,,0,0,0,,If I can just stay hidden\Nlong enough to escape,
+Dialogue: 50,0:09:32.16,0:09:34.62,Main-207-,,0,0,0,,I can try to meet up\Nwith the others.
+Dialogue: 50,0:09:37.04,0:09:38.79,Main-207-,,0,0,0,,I have to make sure\Nhe doesn't see me.
+Dialogue: 50,0:09:38.87,0:09:39.96,Main-207-,,0,0,0,,He looked like a swordsman,
+Dialogue: 50,0:09:40.04,0:09:43.05,Main-207-,,0,0,0,,so if I keep my distance\NI should be okay.
+Dialogue: 50,0:09:44.98,0:09:46.82,Main-207-,,0,0,0,,[OHM]\NHe's run quite a long way.
+Dialogue: 50,0:09:47.53,0:09:50.57,Main-207-,,0,0,0,,But running from\Nsalvation is futile.
+Dialogue: 50,0:09:51.14,0:09:56.48,Main-207-,,0,0,0,,Attachment to this life\Nis a result of evil desires.
+Dialogue: 0,0:09:56.56,0:09:58.89,Main-207-,,0,0,0,,Therefore...
+Dialogue: 50,0:10:14.83,0:10:19.50,Main-207-,,0,0,0,,{\fad(0,441)}...the path to peace,\Nleads to but one place.
+Dialogue: 50,0:10:19.58,0:10:21.12,Main-207-,,0,0,0,,This is the Ordeal of Iron!
+Dialogue: 50,0:10:21.21,0:10:23.67,Main-207-,,0,0,0,,The survival rate is zero!
+Dialogue: 50,0:10:27.11,0:10:28.61,Main-207-,,0,0,0,,I've gotta go find Laki!
+Dialogue: 50,0:10:28.70,0:10:30.24,Main-207-,,0,0,0,,[NAMI]\NOh, no, you don't!
+Dialogue: 0,0:10:31.32,0:10:33.16,Main-207-,,0,0,0,,Wait! Aisa!
+Dialogue: 0,0:10:33.24,0:10:35.33,Main-207-,,0,0,0,,[NAMI groans]
+Dialogue: 0,0:10:37.83,0:10:38.79,Main-207-,,0,0,0,,Get back here!
+Dialogue: 50,0:10:39.93,0:10:41.64,Main-207-,,0,0,0,,I've got to save Laki! Let go!
+Dialogue: 50,0:10:41.73,0:10:43.31,Main-207-,,0,0,0,,I've gotta get out\Nof here right now!
+Dialogue: 0,0:10:43.40,0:10:44.19,Main-207-,,0,0,0,,Let go!
+Dialogue: 0,0:10:44.27,0:10:45.90,Main-207-,,0,0,0,,This isn't any of your business!
+Dialogue: 50,0:10:45.98,0:10:47.61,Main-207-,,0,0,0,,Maybe it's not\Nany of my business,
+Dialogue: 50,0:10:47.69,0:10:48.94,Main-207-,,0,0,0,,but there's no way\NI'm gonna sit back
+Dialogue: 50,0:10:49.03,0:10:50.86,Main-207-,,0,0,0,,and let a little kid\Nget herself killed!
+Dialogue: 50,0:10:50.94,0:10:52.15,Main-207-,,0,0,0,,I'm a warrior!
+Dialogue: 50,0:10:52.23,0:10:53.32,Main-207-,,0,0,0,,Yeah, yeah, I know.
+Dialogue: 50,0:10:53.40,0:10:54.94,Main-207-,,0,0,0,,Kid warrior.
+Dialogue: 50,0:10:55.03,0:10:58.20,Main-207-,,0,0,0,,Hey! Those dirty looks don't\Nscare me, so knock it off.
+Dialogue: 50,0:10:59.04,0:11:01.37,Main-207-,,0,0,0,,Nami? Is everything okay?
+Dialogue: 50,0:11:01.46,0:11:02.75,Main-207-,,0,0,0,,[NAMI]\NWe're fine.
+Dialogue: 50,0:11:02.83,0:11:05.00,Main-207-,,0,0,0,,All right, stop messing\Naround and get in the waver!
+Dialogue: 50,0:11:06.63,0:11:07.84,Main-207-,,0,0,0,,You don't understand!
+Dialogue: 50,0:11:07.92,0:11:09.76,Main-207-,,0,0,0,,You have to let me go,\Nso I can save my friends!
+Dialogue: 50,0:11:09.82,0:11:11.28,Main-207-,,0,0,0,,I have to help them!
+Dialogue: 50,0:11:11.36,0:11:13.66,Main-207-,,0,0,0,,You better knock it off right\Nnow, or I'm gonna slug you!
+Dialogue: 50,0:11:14.07,0:11:15.11,Main-207-,,0,0,0,,[NAMI]\NAnd no crying!
+Dialogue: 50,0:11:15.78,0:11:19.41,Main-207-,,0,0,0,,Look, you don't want to end up\Nlike Sanji and Usopp do you?
+Dialogue: 50,0:11:19.50,0:11:21.33,Main-207-,,0,0,0,,Well do you?
+Dialogue: 50,0:11:21.45,0:11:23.54,Main-207-,,0,0,0,,Come on, I'll help\Nyou in the boat.
+Dialogue: 0,0:11:25.40,0:11:27.19,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:11:37.24,0:11:38.70,Main-207-,,0,0,0,,Oh no!
+Dialogue: 0,0:11:45.32,0:11:47.57,Main-207-,,0,0,0,,[LUFFY coughs]
+Dialogue: 50,0:11:47.66,0:11:50.41,Main-207-,,0,0,0,,Okay. That was scary.
+Dialogue: 50,0:11:50.52,0:11:52.23,Main-207-,,0,0,0,,What's with this\Nlame cave anyhow?
+Dialogue: 0,0:11:52.87,0:11:58.33,Main-207-,,0,0,0,,First there was an earthquake,\Nthen a flood of ocean clouds!
+Dialogue: 50,0:11:58.42,0:12:00.09,Main-207-,,0,0,0,,I could've drowned!
+Dialogue: 50,0:12:00.17,0:12:01.17,Main-207-,,0,0,0,,You hear me?
+Dialogue: 50,0:12:01.25,0:12:03.17,Main-207-,,0,0,0,,Open up!
+Dialogue: 0,0:12:03.26,0:12:05.51,Main-207-,,0,0,0,,[roars]
+Dialogue: 0,0:12:05.59,0:12:07.51,Main-207-,,0,0,0,,[screaming]
+Dialogue: 0,0:12:07.59,0:12:09.22,Main-207-,,0,0,0,,Why's it going crazy?
+Dialogue: 0,0:12:09.35,0:12:10.81,Main-207-,,0,0,0,,[LUFFY roars]
+Dialogue: 50,0:12:10.85,0:12:12.72,Main-207-,,0,0,0,,Let me out of here!
+Dialogue: 50,0:12:12.81,0:12:14.31,Main-207-,,0,0,0,,{\fad(150,150)}Gum-gum...
+Dialogue: 0,0:12:14.39,0:12:16.39,Main-207-,,0,0,0,,{\fad(150,150)}...Gatling!
+Dialogue: 0,0:12:22.07,0:12:26.78,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:12:27.94,0:12:29.14,Main-207-,,0,0,0,,Nami, no!
+Dialogue: 50,0:12:29.14,0:12:31.15,Main-207-,,0,0,0,,That way leads to the forest!
+Dialogue: 0,0:12:31.21,0:12:33.25,Main-207-,,0,0,0,,[NAMI screams]
+Dialogue: 0,0:12:33.29,0:12:35.29,Main-207-,,0,0,0,,[CONIS]\NNami!
+Dialogue: 0,0:12:35.38,0:12:36.88,Main-207-,,0,0,0,,[PAGAYA moans]
+Dialogue: 50,0:12:37.00,0:12:38.13,Main-207-,,0,0,0,,[CONIS]\NWhat do we do?
+Dialogue: 50,0:12:38.21,0:12:40.42,Main-207-,,0,0,0,,They've gone into the forest!
+Dialogue: 50,0:12:46.18,0:12:47.14,Main-207-,,0,0,0,,Missed.
+Dialogue: 50,0:12:47.18,0:12:48.60,Main-207-,,0,0,0,,Ha!
+Dialogue: 50,0:12:48.72,0:12:50.23,Main-207-,,0,0,0,,You're lucky.
+Dialogue: 0,0:13:01.95,0:13:02.91,Main-207-,,0,0,0,,[distant rumble]
+Dialogue: 0,0:13:02.99,0:13:04.07,Main-207-,,0,0,0,,Huh?
+Dialogue: 0,0:13:04.72,0:13:05.56,Main-207-,,0,0,0,,[DIVINE SQUAD MEMBER]\NHmm? What's that?
+Dialogue: 0,0:13:08.64,0:13:09.48,Main-207-,,0,0,0,,Who's that?
+Dialogue: 50,0:13:09.83,0:13:10.62,Main-207-,,0,0,0,,I dunno.
+Dialogue: 50,0:13:10.70,0:13:12.33,Main-207-,,0,0,0,,Something's coming!
+Dialogue: 0,0:13:16.92,0:13:18.17,Main-207-,,0,0,0,,Go that way!
+Dialogue: 0,0:13:18.25,0:13:21.13,Main-207-,,0,0,0,,That way!
+Dialogue: 50,0:13:21.21,0:13:22.59,Main-207-,,0,0,0,,Lord of the Sky!
+Dialogue: 50,0:13:22.67,0:13:23.59,Main-207-,,0,0,0,,No way!
+Dialogue: 0,0:13:23.67,0:13:25.42,Main-207-,,0,0,0,,Aisa!
+Dialogue: 50,0:13:45.49,0:13:49.07,Main-207-,,0,0,0,,[NAMI]\NWe're inside the forest!
+Dialogue: 50,0:13:52.29,0:13:52.99,Main-207-,,0,0,0,,[ZORO]\NUm.
+Dialogue: 0,0:13:53.04,0:13:55.54,Main-207-,,0,0,0,,Hey! What's the idea?
+Dialogue: 50,0:13:55.62,0:13:57.79,Main-207-,,0,0,0,,Are you even listening to me?
+Dialogue: 0,0:13:57.88,0:13:59.59,Main-207-,,0,0,0,,Aww.
+Dialogue: 50,0:13:59.67,0:14:03.51,Main-207-,,0,0,0,,I gonna pluck you,\Nand cook you up in a stew!
+Dialogue: 0,0:14:05.30,0:14:08.85,Main-207-,,0,0,0,,[rumbling]
+Dialogue: 50,0:14:08.93,0:14:09.76,Main-207-,,0,0,0,,Huh?
+Dialogue: 0,0:14:09.76,0:14:11.22,Main-207-,,0,0,0,,Wha?
+Dialogue: 0,0:14:13.43,0:14:14.60,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:14:15.94,0:14:17.15,Main-207-,,0,0,0,,[ZORO]\NHey, come on!
+Dialogue: 50,0:14:17.24,0:14:18.20,Main-207-,,0,0,0,,Fly higher!
+Dialogue: 50,0:14:18.28,0:14:21.12,Main-207-,,0,0,0,,I don't wanna\Nbe giant snake food!
+Dialogue: 50,0:14:24.04,0:14:27.58,Main-207-,,0,0,0,,[ZORO]\NCan't you fly any\Nfaster you dumb bird?
+Dialogue: 50,0:14:28.83,0:14:30.92,Main-207-,,0,0,0,,[ZORO]\NIt's still coming after us!
+Dialogue: 50,0:14:30.95,0:14:33.62,Main-207-,,0,0,0,,Something must have\Nreally pissed it off!
+Dialogue: 0,0:14:51.18,0:14:52.14,Main-207-,,0,0,0,,Why you!
+Dialogue: 0,0:14:52.27,0:14:57.82,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:15:08.81,0:15:09.94,Main-207-,,0,0,0,,{\fad(0,652)}To make it to god's shrine,
+Dialogue: 50,0:15:10.04,0:15:13.59,Main-207-,,0,0,0,,{\fad(0,652)}I have to climb to\Nthe top of Giant Jack.
+Dialogue: 50,0:15:13.65,0:15:16.45,Main-207-,,0,0,0,,And if Eneru is there.
+Dialogue: 50,0:15:16.56,0:15:19.73,Main-207-,,0,0,0,,It's time I brought an end\Nto our terrible history,
+Dialogue: 50,0:15:19.81,0:15:21.65,Main-207-,,0,0,0,,once and for all!
+Dialogue: 0,0:15:23.37,0:15:25.49,Main-207-,,0,0,0,,Now.
+Dialogue: 0,0:15:38.50,0:15:39.50,Main-207-,,0,0,0,,Wyper.
+Dialogue: 0,0:15:39.55,0:15:40.89,Main-207-,,0,0,0,,If you climb that\Nvine any further,
+Dialogue: 0,0:15:40.97,0:15:44.22,Main-207-,,0,0,0,,you'll reach god's shrine.
+Dialogue: 50,0:15:44.31,0:15:48.10,Main-207-,,0,0,0,,What makes you think you\Nhave permission to pass?
+Dialogue: 0,0:15:48.19,0:15:51.27,Main-207-,,0,0,0,,[WYPER growls]\NDamn you.
+Dialogue: 50,0:15:51.71,0:15:53.08,Main-207-,,0,0,0,,It doesn't matter.
+Dialogue: 50,0:15:53.17,0:15:56.71,Main-207-,,0,0,0,,Heading for that shrine\Nis no longer useful.
+Dialogue: 0,0:15:56.79,0:15:58.92,Main-207-,,0,0,0,,[WYPER]\NGan fall?
+Dialogue: 50,0:16:00.55,0:16:03.51,Main-207-,,0,0,0,,What business do you have here?
+Dialogue: 50,0:16:03.59,0:16:06.64,Main-207-,,0,0,0,,Still can't let go\Nof your old position?
+Dialogue: 50,0:16:06.72,0:16:09.43,Main-207-,,0,0,0,,[GAN FALL]\NNo, but I still\Nhave responsibilities
+Dialogue: 50,0:16:09.51,0:16:11.18,Main-207-,,0,0,0,,I've yet to fulfill.
+Dialogue: 50,0:16:11.27,0:16:13.56,Main-207-,,0,0,0,,I thought you might be\Ninterested in knowing
+Dialogue: 50,0:16:13.64,0:16:17.06,Main-207-,,0,0,0,,I've recently come\Nfrom god's shrine.
+Dialogue: 50,0:16:20.47,0:16:25.01,Main-207-,,0,0,0,,It's tragic, the entire thing's\Nbeen utterly destroyed.
+Dialogue: 0,0:16:31.52,0:16:32.31,Main-207-,,0,0,0,,Naturally.
+Dialogue: 50,0:16:32.40,0:16:34.98,Main-207-,,0,0,0,,Eneru was nowhere to be found.
+Dialogue: 50,0:16:36.78,0:16:41.28,Main-207-,,0,0,0,,Perhaps it means he no\Nlonger has any need for it.
+Dialogue: 50,0:16:43.09,0:16:46.18,Flashbacks-207-,,0,0,0,,[ENERU]\NIt appears that their\Nyears of hard labor are over.
+Dialogue: 50,0:16:46.33,0:16:49.88,Flashbacks-207-,,0,0,0,,You see, this island is\Nno longer useful to me.
+Dialogue: 50,0:16:49.97,0:16:52.89,Flashbacks-207-,,0,0,0,,I've simply come\Nto bid you farewell.
+Dialogue: 50,0:16:57.02,0:16:58.27,Main-207-,,0,0,0,,I demand to know, Ohm!
+Dialogue: 50,0:16:58.35,0:17:01.56,Main-207-,,0,0,0,,What is it you and\Nyour master seek to do?
+Dialogue: 50,0:17:01.65,0:17:02.56,Main-207-,,0,0,0,,Hold on.
+Dialogue: 50,0:17:02.62,0:17:05.21,Main-207-,,0,0,0,,You saying Eneru's not up there?
+Dialogue: 0,0:17:05.29,0:17:09.92,Main-207-,,0,0,0,,[ZORO screams]
+Dialogue: 50,0:17:22.23,0:17:24.77,Main-207-,,0,0,0,,One of Straw Hat's friends?
+Dialogue: 0,0:17:25.19,0:17:25.90,Main-207-,,0,0,0,,[groans]
+Dialogue: 0,0:17:26.78,0:17:28.53,Main-207-,,0,0,0,,Ow. That bird's gonna pay.
+Dialogue: 50,0:17:29.36,0:17:30.86,Main-207-,,0,0,0,,[GAN FALL]\NIt's you!
+Dialogue: 50,0:17:33.37,0:17:34.45,Main-207-,,0,0,0,,Where am I?
+Dialogue: 0,0:17:40.08,0:17:42.62,Main-207-,,0,0,0,,[ZORO]\NMore ruins?
+Dialogue: 0,0:17:42.71,0:17:44.29,Main-207-,,0,0,0,,Hmm.
+Dialogue: 50,0:17:44.44,0:17:47.03,Main-207-,,0,0,0,,These guys all\Nlook pretty tough.
+Dialogue: 50,0:17:47.11,0:17:48.91,Main-207-,,0,0,0,,Oh well. Hey!
+Dialogue: 50,0:17:49.02,0:17:50.69,Main-207-,,0,0,0,,Hand over the gold!
+Dialogue: 50,0:17:50.77,0:17:52.57,Main-207-,,0,0,0,,[OHM]\NLook what we have here.
+Dialogue: 50,0:17:52.68,0:17:56.47,Main-207-,,0,0,0,,If it isn't another greedy\Ninfidel, seeking his salvation.
+Dialogue: 50,0:17:56.56,0:17:57.89,Main-207-,,0,0,0,,[WYPER]\NEnough!
+Dialogue: 50,0:17:57.98,0:18:00.69,Main-207-,,0,0,0,,Get out of my way, or I'll\Ndestroy every one of you!
+Dialogue: 50,0:18:00.77,0:18:02.57,Main-207-,,0,0,0,,[GAN FALL]\NThe time has come, Ohm.
+Dialogue: 50,0:18:02.65,0:18:06.53,Main-207-,,0,0,0,,Tell me where Eneru\Nand the Divine Squad are!
+Dialogue: 50,0:18:09.20,0:18:10.24,Main-207-,,0,0,0,,Ya stupid cave!
+Dialogue: 50,0:18:10.31,0:18:12.40,Main-207-,,0,0,0,,Just let me out!
+Dialogue: 0,0:18:23.70,0:18:24.83,Main-207-,,0,0,0,,[OHM]\NI'm sure you each feel
+Dialogue: 50,0:18:24.91,0:18:26.62,Main-207-,,0,0,0,,what you have\Nto say is important,
+Dialogue: 0,0:18:26.70,0:18:29.33,Main-207-,,0,0,0,,but there's only one way\Nfor your voice to be heard.
+Dialogue: 50,0:18:29.41,0:18:32.71,Main-207-,,0,0,0,,You must survive\Nor find salvation!
+Dialogue: 50,0:18:39.81,0:18:41.10,Main-207-,,0,0,0,,[OHM]\NHmph. Let's go, Holy.
+Dialogue: 50,0:18:41.10,0:18:42.85,Main-207-,,0,0,0,,Be as ferocious\Nas you want, Boy.
+Dialogue: 0,0:18:43.15,0:18:44.28,Main-207-,,0,0,0,,[barks]
+Dialogue: 50,0:18:44.36,0:18:46.45,Main-207-,,0,0,0,,That one is our target, Pierre!
+Dialogue: 50,0:18:46.53,0:18:48.03,Main-207-,,0,0,0,,Since he is the most powerful,
+Dialogue: 50,0:18:48.11,0:18:50.33,Main-207-,,0,0,0,,we must neutralize\NEneru's priest first!
+Dialogue: 0,0:18:50.41,0:18:52.41,Main-207-,,0,0,0,,Pi-e!
+Dialogue: 50,0:18:55.33,0:18:58.05,Main-207-,,0,0,0,,I'm really gettin'\Nsick of you, snake.
+Dialogue: 50,0:18:58.13,0:19:00.92,Main-207-,,0,0,0,,I mean, how the hell'd you\Nget way up here, anyway?
+Dialogue: 0,0:19:03.09,0:19:05.34,Main-207-,,0,0,0,,[LUFFY grunting]
+Dialogue: 50,0:19:05.43,0:19:08.60,Main-207-,,0,0,0,,[LUFFY]\NDammit!\NOne minute this place is up,
+Dialogue: 0,0:19:08.68,0:19:10.89,Main-207-,,0,0,0,,the other, it's down!
+Dialogue: 50,0:19:13.34,0:19:15.55,Main-207-,,0,0,0,,This is one messed-up cave!
+Dialogue: 0,0:19:15.90,0:19:18.15,Main-207-,,0,0,0,,[SNAKE growling]
+Dialogue: 50,0:19:19.19,0:19:21.53,Main-207-,,0,0,0,,Well I guess the three of you...
+Dialogue: 0,0:19:21.61,0:19:23.03,Main-207-,,0,0,0,,[ZORO]\NHm?
+Dialogue: 50,0:19:23.10,0:19:25.90,Main-207-,,0,0,0,,[WYPER]\N...will just\Nhave to die together!
+Dialogue: 0,0:19:25.98,0:19:26.98,Main-207-,,0,0,0,,[ZORO gasps]
+Dialogue: 0,0:19:30.82,0:19:33.90,Main-207-,,0,0,0,,[PIERRE squawks]
+Dialogue: 0,0:19:34.61,0:19:36.24,Main-207-,,0,0,0,,[WYPER]\NHuh?
+Dialogue: 0,0:19:36.32,0:19:38.12,Main-207-,,0,0,0,,Heh.
+Dialogue: 50,0:19:38.21,0:19:40.92,Main-207-,,0,0,0,,You need to work\Non your aim there, pal!
+Dialogue: 50,0:19:41.01,0:19:43.09,Main-207-,,0,0,0,,[WYPER]\NInsolent Blue Sea Dweller!
+Dialogue: 50,0:19:43.21,0:19:44.55,Main-207-,,0,0,0,,You think you can just\Ncome to this land
+Dialogue: 50,0:19:44.63,0:19:46.26,Main-207-,,0,0,0,,and take what's rightfully ours?
+Dialogue: 50,0:19:46.34,0:19:48.84,Main-207-,,0,0,0,,You have no idea how long\Nand hard we've struggled!
+Dialogue: 50,0:19:48.98,0:19:51.57,Main-207-,,0,0,0,,[ZORO]\NIf you Sky People want\Nto blow each other to pieces,
+Dialogue: 50,0:19:51.60,0:19:53.72,Main-207-,,0,0,0,,that's your business.
+Dialogue: 50,0:19:54.60,0:19:58.65,Main-207-,,0,0,0,,It's like I told that priest,\NI couldn't care less!
+Dialogue: 50,0:19:58.73,0:20:00.40,Main-207-,,0,0,0,,That figures!
+Dialogue: 50,0:20:04.44,0:20:07.32,Main-207-,,0,0,0,,[WYPER]\NI should have finished\Nyou from the start!
+Dialogue: 50,0:20:10.68,0:20:11.97,Main-207-,,0,0,0,,Damn.
+Dialogue: 50,0:20:14.65,0:20:17.11,Thoughts-207-,,0,0,0,,[ZORO]\NThis guy's actually\Ntougher than I thought.
+Dialogue: 0,0:20:18.98,0:20:22.03,Main-207-,,0,0,0,,[roars]
+Dialogue: 0,0:20:27.07,0:20:28.37,Main-207-,,0,0,0,,[ZORO grunts]
+Dialogue: 0,0:20:29.74,0:20:31.45,Main-207-,,0,0,0,,Now die!
+Dialogue: 0,0:20:33.54,0:20:34.75,Main-207-,,0,0,0,,[gasps]
+Dialogue: 0,0:20:35.49,0:20:37.54,Main-207-,,0,0,0,,[roars]
+Dialogue: 50,0:20:48.96,0:20:50.72,Main-207-,,0,0,0,,All right, note to self.
+Dialogue: 50,0:20:50.80,0:20:54.09,Main-207-,,0,0,0,,Gotta watch out for\Nthose poisonous fangs.
+Dialogue: 0,0:20:54.18,0:20:57.60,Main-207-,,0,0,0,,[HOLY growling]
+Dialogue: 0,0:20:57.68,0:20:59.10,Main-207-,,0,0,0,,[barks]
+Dialogue: 50,0:20:59.18,0:21:01.27,Main-207-,,0,0,0,,Speaking of fangs.
+Dialogue: 0,0:21:04.40,0:21:09.03,Main-207-,,0,0,0,,Whoa. I've never seen\Na dog move like that!
+Dialogue: 50,0:21:09.12,0:21:11.29,Main-207-,,0,0,0,,Not many people have, friend.
+Dialogue: 50,0:21:11.37,0:21:14.50,Main-207-,,0,0,0,,You'll find that Holy knows\Na great number of commands
+Dialogue: 50,0:21:14.57,0:21:16.66,Main-207-,,0,0,0,,beyond just "sit" and "stay."
+Dialogue: 50,0:21:16.74,0:21:20.29,Main-207-,,0,0,0,,I'm a Skybreeder renowned for\Nmy special animal training.
+Dialogue: 50,0:21:20.37,0:21:23.08,Main-207-,,0,0,0,,I've trained him how to\Nwalk upright on two legs
+Dialogue: 50,0:21:23.17,0:21:25.71,Main-207-,,0,0,0,,and to box just like a\Nchampion prizefighter.
+Dialogue: 0,0:21:25.79,0:21:27.75,Main-207-,,0,0,0,,Show him, Holy!
+Dialogue: 50,0:21:30.14,0:21:31.68,Main-207-,,0,0,0,,[ZORO]\NNice doggie...
+Dialogue: 0,0:21:32.89,0:21:33.89,Main-207-,,0,0,0,,[OHM]\NHuh?
+Dialogue: 0,0:21:37.31,0:21:39.32,Main-207-,,0,0,0,,[GAN FALL]\NHm?
+Dialogue: 50,0:21:39.49,0:21:40.78,Main-207-,,0,0,0,,Gan Fall.
+Dialogue: 50,0:21:41.39,0:21:43.35,Main-207-,,0,0,0,,You were already\Nbeaten by Shura!
+Dialogue: 50,0:21:43.42,0:21:45.05,Main-207-,,0,0,0,,Don't you know when to quit?
+Dialogue: 50,0:21:45.14,0:21:46.81,Main-207-,,0,0,0,,[OHM]\NWhat do you really hope to do?
+Dialogue: 50,0:21:46.89,0:21:48.69,Main-207-,,0,0,0,,I doubt you even have\Nenough strength left
+Dialogue: 50,0:21:48.77,0:21:50.52,Main-207-,,0,0,0,,to wield that spear!
+Dialogue: 50,0:21:50.60,0:21:52.81,Main-207-,,0,0,0,,[GAN FALL]\NI don't know\Nwhat Eneru is plotting,
+Dialogue: 50,0:21:52.90,0:21:56.82,Main-207-,,0,0,0,,but I will stop him with my\Ndying breath if need be.
+Dialogue: 50,0:21:58.40,0:22:00.65,Main-207-,,0,0,0,,[OHM]\NThere's no way a\Nwashed-up god like you
+Dialogue: 50,0:22:00.74,0:22:03.41,Main-207-,,0,0,0,,could ever understand\NEneru's noble thoughts.
+Dialogue: 50,0:22:03.46,0:22:06.08,Main-207-,,0,0,0,,Gan Fall, you're\Na foolish old man.
+Dialogue: 50,0:22:06.17,0:22:08.96,Main-207-,,0,0,0,,A man that doesn't\Nhave long to live.
+Dialogue: 50,0:22:15.90,0:22:17.69,Main-207-,,0,0,0,,[DIVINE SQUAD A]\NAfter them!
+Dialogue: 50,0:22:17.69,0:22:19.78,Main-207-,,0,0,0,,Don't let the\NShandorians escape!
+Dialogue: 0,0:22:19.85,0:22:21.19,Main-207-,,0,0,0,,[DIVINE SQUAD bleating]
+Dialogue: 0,0:22:23.61,0:22:24.73,Main-207-,,0,0,0,,What the...?
+Dialogue: 50,0:22:24.82,0:22:28.07,Main-207-,,0,0,0,,Hey! You hear that?\NIt sounded like goats!
+Dialogue: 50,0:22:28.15,0:22:31.36,Main-207-,,0,0,0,,The Divine Squad! If they\Ncatch us, they'll kill us!
+Dialogue: 50,0:22:31.45,0:22:33.41,Main-207-,,0,0,0,,The Divine Squad? Who are they?
+Dialogue: 0,0:22:33.49,0:22:36.66,Main-207-,,0,0,0,,They're Eneru's soldiers!\NGet us out of here, now!
+Dialogue: 50,0:22:36.74,0:22:39.58,Main-207-,,0,0,0,,[NAMI]\NUh, I'd love to, but in\Ncase you haven't noticed,
+Dialogue: 50,0:22:39.66,0:22:42.88,Main-207-,,0,0,0,,I have no idea\Nwhere we're going!
+Dialogue: 0,0:22:54.77,0:22:58.69,Main-207-,,0,0,0,,[ZORO]\NThat stupid snake!\NIt keeps getting in my way!
+Dialogue: 0,0:23:10.41,0:23:12.41,Main-207-,,0,0,0,,[ZORO]\NChopper! No!
+Dialogue: 0,0:23:12.50,0:23:14.58,Main-207-,,0,0,0,,I'm coming! Hang on!
+Dialogue: 50,0:23:17.58,0:23:19.84,Main-207-,,0,0,0,,I see. He was part of\Nyour Blue Sea crew.
+Dialogue: 50,0:23:21.59,0:23:24.05,Main-207-,,0,0,0,,Hey. Watch your step over there.
+Dialogue: 0,0:23:26.47,0:23:27.84,Main-207-,,0,0,0,,[groans]
+Dialogue: 0,0:23:32.13,0:23:33.71,Main-207-,,0,0,0,,What the...?
+Dialogue: 50,0:23:34.43,0:23:36.27,Main-207-,,0,0,0,,Barbed wire?
+Dialogue: 50,0:23:37.90,0:23:40.11,Main-207-,,0,0,0,,[WYPER]\NSo that's his ordeal?
+Dialogue: 0,0:23:41.01,0:23:43.43,Main-207-,,0,0,0,,[ZORO]\NChopper! Talk to me!
+Dialogue: 50,0:23:43.51,0:23:45.77,Main-207-,,0,0,0,,Say something! Why?
+Dialogue: 50,0:23:45.85,0:23:49.48,Main-207-,,0,0,0,,Why did you try and take\Nthis guy on? Come on!
+Dialogue: 50,0:23:49.56,0:23:51.77,Main-207-,,0,0,0,,[OHM]\NA shame, isn't it?
+Dialogue: 0,0:23:54.54,0:23:56.79,Main-207-,,0,0,0,,Those barbs? Iron Cloud.
+Dialogue: 50,0:23:57.28,0:23:59.82,Main-207-,,0,0,0,,They're light as a cloud,\Nbut hard as iron.
+Dialogue: 50,0:23:59.90,0:24:02.45,Main-207-,,0,0,0,,Blown into shape\Nby a milky dial.
+Dialogue: 50,0:24:02.55,0:24:04.64,Main-207-,,0,0,0,,I've rigged several of 'em\Nwith hidden triggers.
+Dialogue: 50,0:24:04.74,0:24:06.74,Main-207-,,0,0,0,,You and your little friend\Nfound out the hard way
+Dialogue: 50,0:24:06.83,0:24:09.46,Main-207-,,0,0,0,,what happens when\Nyou step on one.
+Dialogue: 50,0:24:09.54,0:24:12.42,Main-207-,,0,0,0,,This field is a weapon.\NI don't have to attack you.
+Dialogue: 0,0:24:12.50,0:24:16.84,Main-207-,,0,0,0,,I can sit back and watch your\Nown blundering do you in.
+Dialogue: 50,0:24:16.92,0:24:19.76,Main-207-,,0,0,0,,I'm partially responsible\Nfor that animal's defeat,
+Dialogue: 50,0:24:19.84,0:24:21.42,Main-207-,,0,0,0,,but he's also to blame.
+Dialogue: 50,0:24:21.53,0:24:25.32,Main-207-,,0,0,0,,He stumbled into my\Nordeal all by himself.
+Dialogue: 50,0:24:30.37,0:24:32.74,Main-207-,,0,0,0,,[OHM]\NI guess you'll want\Nto get revenge now, eh?
+Dialogue: 0,0:24:33.40,0:24:35.78,Main-207-,,0,0,0,,No.
+Dialogue: 50,0:24:35.86,0:24:37.28,Main-207-,,0,0,0,,Believe it or not,
+Dialogue: 50,0:24:37.37,0:24:40.46,Main-207-,,0,0,0,,I normally don't like fighting\Nfor that reason at all.
+Dialogue: 0,0:24:40.54,0:24:43.75,Main-207-,,0,0,0,,Oh. Heh. I'm actually impressed.
+Dialogue: 0,0:24:43.84,0:24:45.67,Main-207-,,0,0,0,,[ZORO]\NNormally.
+Dialogue: 50,0:24:47.84,0:24:51.18,Main-207-,,0,0,0,,But you've changed my mind.
+Dialogue: 50,0:25:03.56,0:25:05.81,Main-207-,,0,0,0,,[PAGAYA]\NWell, Conis,\NI think we've arrived.
+Dialogue: 50,0:25:05.89,0:25:08.23,Main-207-,,0,0,0,,This is the seashore\Nwhere our Blue Sea friends
+Dialogue: 50,0:25:08.31,0:25:09.85,Main-207-,,0,0,0,,are planning to meet, right?
+Dialogue: 50,0:25:09.94,0:25:11.27,Main-207-,,0,0,0,,[CONIS]\NYes, Father.
+Dialogue: 50,0:25:11.35,0:25:13.02,Main-207-,,0,0,0,,This is where Nami told me\Nthey'd be dropping anchor.
+Dialogue: 50,0:25:13.37,0:25:15.49,Main-207-,,0,0,0,,[PAGAYA]\NWell then,\Nwhat should we do now?
+Dialogue: 50,0:25:15.49,0:25:18.33,Main-207-,,0,0,0,,I really wasn't expecting\Nto look after their ship.
+Dialogue: 50,0:25:18.66,0:25:22.70,Main-207-,,0,0,0,,Nonetheless, we must protect it\Nat all costs until they return!
+Dialogue: 50,0:25:22.79,0:25:25.20,Main-207-,,0,0,0,,I'll sound the horn to\Nscare off any threats!
+Dialogue: 50,0:25:25.29,0:25:27.46,Main-207-,,0,0,0,,Right. Good idea, Father!
+Dialogue: 50,0:25:27.47,0:25:29.51,Main-207-,,0,0,0,,Let them hear our resolve!
+Dialogue: 0,0:25:29.58,0:25:34.29,Main-207-,,0,0,0,,[horn blares]
+Dialogue: 50,0:25:34.38,0:25:36.21,Main-207-,,0,0,0,,[PAGAYA]\NAh, perfect.
+Dialogue: 50,0:25:40.76,0:25:42.22,Main-207-,,0,0,0,,[PAGAYA]\NKeep your eyes open, Suu.
+Dialogue: 50,0:25:42.30,0:25:43.76,Main-207-,,0,0,0,,I'm counting on you\Nto keep watch.
+Dialogue: 0,0:25:44.80,0:25:47.80,Main-207-,,0,0,0,,[horn continues]
+Dialogue: 50,0:25:50.09,0:25:53.10,Main-207-,,0,0,0,,Hang on! I'll nurse both\Nof you back to health!
+Dialogue: 50,0:25:53.18,0:25:55.43,Main-207-,,0,0,0,,You'll be better in no time!
+Dialogue: 0,0:25:59.85,0:26:02.40,Main-207-,,0,0,0,,[horn continues]
+Dialogue: 0,0:26:02.48,0:26:05.03,Main-207-,,0,0,0,,[PAGAYA]\NPlease everyone, be safe.
+Dialogue: 50,0:26:05.11,0:26:08.24,Thoughts-207-,,0,0,0,,I'm sorry the sky\Nisland is like this.
+Dialogue: 0,0:26:10.82,0:26:16.25,Main-207-,,0,0,0,,[SHANDORIANS shouting]
+Dialogue: 50,0:26:17.47,0:26:21.01,Main-207-,,0,0,0,,[SHANDORIAN B]\NDon't stop\Nuntil we've taken Eneru's head!
+Dialogue: 0,0:26:21.07,0:26:22.37,Main-207-,,0,0,0,,[DIVINE SQUAD A]\NThe only heads that will roll
+Dialogue: 50,0:26:22.45,0:26:24.70,Main-207-,,0,0,0,,are yours, Shandorian!
+Dialogue: 50,0:26:24.84,0:26:27.63,Main-207-,,0,0,0,,[SHANDORIAN A]\NClimb up Giant Jack!
+Dialogue: 50,0:26:27.70,0:26:30.46,Main-207-,,0,0,0,,[DIVINE SQUAD A]\NDon't let\Nthem get to God's Shrine!
+Dialogue: 50,0:26:34.99,0:26:38.54,Thoughts-207-,,0,0,0,,[LAKI]\NWyper! Please don't\Nuse the Reject anymore!
+Dialogue: 50,0:26:39.51,0:26:43.64,Main-207-,,0,0,0,,Now, Divine Squad!\NLet's kill them all!
+Dialogue: 0,0:26:43.72,0:26:45.68,Main-207-,,0,0,0,,[DIVINE SQUAD B bleating]
+Dialogue: 50,0:26:53.13,0:26:55.34,Thoughts-207-,,0,0,0,,[LAKI]\NDon't challenge Eneru, Wyper!
+Dialogue: 0,0:27:01.79,0:27:05.92,Main-207-,,0,0,0,,[LAKI]\NHe can't be defeated.\NNo matter what we do.
+Dialogue: 0,0:27:15.47,0:27:19.19,Main-207-,,0,0,0,,[SHANDORIANS groaning]
+Dialogue: 0,0:27:20.26,0:27:22.27,Main-207-,,0,0,0,,[DIVINE SQUAD A grunts]
+Dialogue: 0,0:27:24.10,0:27:27.02,Main-207-,,0,0,0,,[laughing]
+Dialogue: 50,0:27:27.10,0:27:30.44,Main-207-,,0,0,0,,That's right. Those of you\Nstill in the game,
+Dialogue: 50,0:27:30.53,0:27:35.79,Main-207-,,0,0,0,,climb your way to the Upper\NRuins and destroy each other.
+Dialogue: 0,0:27:35.87,0:27:38.71,Main-207-,,0,0,0,,[SNAKE roars]
+Dialogue: 50,0:27:38.79,0:27:41.96,Main-207-,,0,0,0,,[ENERU]\NThere will only\Nbe five survivors.
+Dialogue: 50,0:27:44.14,0:27:48.90,Main-207-,,0,0,0,,[ENERU]\NMy words and\Nprophecies are absolute.
+Dialogue: 0,0:27:53.97,0:27:55.10,Main-207-,,0,0,0,,[GAN FALL]\NHm?
+Dialogue: 0,0:27:56.10,0:27:57.97,Main-207-,,0,0,0,,[PIERRE caws]
+Dialogue: 0,0:27:58.07,0:27:59.28,Main-207-,,0,0,0,,[WYPER grunts]
+Dialogue: 50,0:27:59.36,0:28:01.61,Main-207-,,0,0,0,,[GAN FALL]\NStop this insanity now, Wyper!
+Dialogue: 0,0:28:01.70,0:28:02.45,Main-207-,,0,0,0,,I'm not here to...
+Dialogue: 50,0:28:02.53,0:28:03.99,Main-207-,,0,0,0,,You're not what, Old Man?
+Dialogue: 50,0:28:04.04,0:28:06.25,Main-207-,,0,0,0,,You believe that\Nyou're not my enemy?
+Dialogue: 50,0:28:07.24,0:28:09.04,Main-207-,,0,0,0,,To the Shandorians,\Nthere's no difference
+Dialogue: 0,0:28:09.12,0:28:11.83,Main-207-,,0,0,0,,between you and Eneru!\NBoth of you must go!
+Dialogue: 50,0:28:11.92,0:28:14.17,Main-207-,,0,0,0,,[GAN FALL]\NQuit being stubborn!\NListen to reason!
+Dialogue: 0,0:28:14.25,0:28:16.75,Main-207-,,0,0,0,,[PIERRE caws]
+Dialogue: 50,0:28:17.50,0:28:18.63,Main-207-,,0,0,0,,[WYPER]\NHuh?
+Dialogue: 0,0:28:21.88,0:28:23.43,Main-207-,,0,0,0,,[WYPER]\NDamn you!
+Dialogue: 0,0:28:27.63,0:28:30.25,Main-207-,,0,0,0,,[SNAKE growling]
+Dialogue: 50,0:28:34.30,0:28:36.80,Main-207-,,0,0,0,,My Burn Bazooka didn't\Neven faze that thing.
+Dialogue: 0,0:28:36.89,0:28:39.10,Main-207-,,0,0,0,,What're those scales made of?
+Dialogue: 0,0:28:40.97,0:28:43.52,Main-207-,,0,0,0,,[screaming]
+Dialogue: 0,0:28:43.60,0:28:49.73,Main-207-,,0,0,0,,No! No more! I'm sick\Nof this stupid cave!
+Dialogue: 0,0:28:53.51,0:28:56.55,Main-207-,,0,0,0,,[ZORO gasping]
+Dialogue: 50,0:29:08.35,0:29:10.65,Main-207-,,0,0,0,,What... was that?
+Dialogue: 0,0:29:10.73,0:29:15.57,Main-207-,,0,0,0,,Hmph. Typical Blue Sea Dweller.\NYou didn't expect it.
+Dialogue: 50,0:29:15.65,0:29:19.61,Main-207-,,0,0,0,,You see This sword of mine\Nis also made of Iron Cloud.
+Dialogue: 50,0:29:19.70,0:29:21.58,Main-207-,,0,0,0,,In other words,
+Dialogue: 50,0:29:21.66,0:29:24.24,Main-207-,,0,0,0,,the blade itself is actually\NIron Cloud expelled
+Dialogue: 50,0:29:24.33,0:29:27.46,Main-207-,,0,0,0,,from a dial that's conveniently\Nembedded in the sword's hilt,
+Dialogue: 50,0:29:27.54,0:29:31.00,Main-207-,,0,0,0,,and it will hunt its prey\Nto the ends of the earth!
+Dialogue: 50,0:29:34.13,0:29:36.30,Main-207-,,0,0,0,,[OHM]\NWell, do you\Nunderstand it better now,
+Dialogue: 50,0:29:36.38,0:29:38.22,Main-207-,,0,0,0,,Swordsman from the Blue Sea?
+Dialogue: 50,0:29:38.30,0:29:40.14,Main-207-,,0,0,0,,Yeah, it's just like a whip.
+Dialogue: 50,0:29:40.22,0:29:42.64,Main-207-,,0,0,0,,I get it. You White\NWhite Sea people
+Dialogue: 50,0:29:42.72,0:29:46.31,Main-207-,,0,0,0,,are more circus performers\Nthan warriors!
+Dialogue: 0,0:29:46.39,0:29:47.68,Main-207-,,0,0,0,,[OHM]\NHm?
+Dialogue: 50,0:29:51.23,0:29:52.23,Main-207-,,0,0,0,,Holy.
+Dialogue: 50,0:29:53.19,0:29:55.98,Main-207-,,0,0,0,,We're going to have\Nto fight separately.
+Dialogue: 50,0:29:58.82,0:30:00.82,Main-207-,,0,0,0,,From the sound of things,
+Dialogue: 50,0:30:00.90,0:30:03.95,Main-207-,,0,0,0,,the Upper Ruins are\Nabout to get very busy.
+Dialogue: 0,0:30:04.03,0:30:05.24,Main-207-,,0,0,0,,[DIVINE SQUAD laughing]
+Dialogue: 0,0:30:05.32,0:30:06.36,Main-207-,,0,0,0,,[ZORO grunts]
+Dialogue: 50,0:30:17.50,0:30:21.09,Main-207-,,0,0,0,,[DIVINE SQUAD D]\NThe Sky Knight!\NI didn't expect him to be here.
+Dialogue: 50,0:30:21.17,0:30:23.76,Main-207-,,0,0,0,,[DIVINE SQUAD E]\NWe're here to\Nassist you, oh mighty Ohm!
+Dialogue: 0,0:30:23.84,0:30:25.67,Main-207-,,0,0,0,,[bleats]
+Dialogue: 0,0:30:27.88,0:30:30.39,Main-207-,,0,0,0,,Look who's here.
+Dialogue: 50,0:30:30.47,0:30:32.10,Main-207-,,0,0,0,,Well, you know what this means.
+Dialogue: 50,0:30:32.10,0:30:34.85,Main-207-,,0,0,0,,Yeah. It means we're\Nthe only ones left.
+Dialogue: 50,0:30:34.88,0:30:36.13,Main-207-,,0,0,0,,Don't worry, Wyper.
+Dialogue: 50,0:30:36.21,0:30:39.18,Main-207-,,0,0,0,,We'll help you get to Eneru\Nand take his head off!
+Dialogue: 0,0:30:39.26,0:30:43.14,Main-207-,,0,0,0,,[LUFFY grunting]
+Dialogue: 50,0:30:45.24,0:30:46.40,Main-207-,,0,0,0,,[LUFFY]\NHey, wait.
+Dialogue: 0,0:30:46.49,0:30:49.41,Main-207-,,0,0,0,,That should work.\NI'll just dig my way out.
+Dialogue: 0,0:30:49.44,0:30:51.60,Main-207-,,0,0,0,,[LUFFY grunting]
+Dialogue: 0,0:30:53.36,0:30:54.61,Main-207-,,0,0,0,,[roars]
+Dialogue: 0,0:30:54.69,0:30:56.19,Main-207-,,0,0,0,,[DIVINE SQUAD gasp]
+Dialogue: 50,0:30:56.28,0:30:58.19,Main-207-,,0,0,0,,That giant snake!
+Dialogue: 0,0:30:58.30,0:30:59.80,Main-207-,,0,0,0,,[ALL grunt]
+Dialogue: 0,0:30:59.90,0:31:02.61,Main-207-,,0,0,0,,[laughing]
+Dialogue: 0,0:31:02.72,0:31:04.89,Main-207-,,0,0,0,,{\q2}[MEN]\N– It's laughing?\N– It's laughing?
+Dialogue: 0,0:31:06.64,0:31:10.14,Main-207-,,0,0,0,,[NAMI screams]
+Dialogue: 0,0:31:10.23,0:31:12.14,Main-207-,,0,0,0,,[DIVINE SQUAD A]\NHold it!
+Dialogue: 50,0:31:13.60,0:31:17.11,Main-207-,,0,0,0,,[NAMI]\NWould you goats\Njust leave us alone!
+Dialogue: 0,0:31:17.19,0:31:18.07,Main-207-,,0,0,0,,Nami...
+Dialogue: 50,0:31:18.15,0:31:19.03,Main-207-,,0,0,0,,{\pos(580,1053)}Aisa!
+Dialogue: 50,0:31:19.11,0:31:20.53,Main-207-,,0,0,0,,{\pos(280,1053)}[GAN FALL]\NNo!
+Dialogue: 50,0:31:20.61,0:31:22.24,Main-207-,,0,0,0,,Kill them both!
+Dialogue: 0,0:31:22.37,0:31:24.21,Main-207-,,0,0,0,,[DIVINE SQUAD bleating]
+Dialogue: 0,0:31:30.29,0:31:33.87,Main-207-,,0,0,0,,[ALL groaning]
+Dialogue: 50,0:31:38.92,0:31:41.17,Main-207-,,0,0,0,,Aisa! What are you doing here?
+Dialogue: 50,0:31:41.56,0:31:44.40,Main-207-,,0,0,0,,What the...? Nami, what\Nare you doing here?
+Dialogue: 50,0:31:44.48,0:31:47.02,Main-207-,,0,0,0,,Hey, Zoro. What's happening?
+Dialogue: 50,0:31:47.11,0:31:48.44,Main-207-,,0,0,0,,Wyper!
+Dialogue: 50,0:31:48.53,0:31:51.95,Main-207-,,0,0,0,,What is it you're plotting\Nhere, Blue Sea Dweller?
+Dialogue: 50,0:31:52.03,0:31:53.82,Main-207-,,0,0,0,,Aisa! Get away from that woman!
+Dialogue: 50,0:31:53.88,0:31:55.17,Main-207-,,0,0,0,,[ZORO gasps]
+Dialogue: 0,0:31:56.46,0:31:57.79,Main-207-,,0,0,0,,[AISA gasps]
+Dialogue: 0,0:31:59.96,0:32:00.80,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:32:00.90,0:32:02.28,Main-207-,,0,0,0,,That was close...
+Dialogue: 0,0:32:02.28,0:32:05.49,Main-207-,,0,0,0,,Wyper! You're a monster!
+Dialogue: 50,0:32:05.86,0:32:08.49,Main-207-,,0,0,0,,[GAN FALL]\NWhy did you two come\Nto such a perilous place?
+Dialogue: 50,0:32:09.12,0:32:10.74,Main-207-,,0,0,0,,[NAMI]\NWe didn't mean to!
+Dialogue: 50,0:32:10.83,0:32:13.45,Main-207-,,0,0,0,,We were...\Nchased by this giant...
+Dialogue: 0,0:32:13.54,0:32:14.29,Main-207-,,0,0,0,,[SNAKE roars]
+Dialogue: 0,0:32:14.37,0:32:15.21,Main-207-,,0,0,0,,[NAMI]\N...snake.
+Dialogue: 0,0:32:15.29,0:32:16.79,Main-207-,,0,0,0,,[PIERRE squawks]
+Dialogue: 0,0:32:20.31,0:32:21.64,Main-207-,,0,0,0,,[gasping]
+Dialogue: 50,0:32:21.73,0:32:23.77,Main-207-,,0,0,0,,You idiot!
+Dialogue: 0,0:32:23.84,0:32:24.96,Main-207-,,0,0,0,,Aisa...
+Dialogue: 0,0:32:31.69,0:32:32.99,Main-207-,,0,0,0,,[ZORO, WYPER grunt]
+Dialogue: 0,0:32:34.07,0:32:35.53,Main-207-,,0,0,0,,[ALL gasp]
+Dialogue: 0,0:32:38.58,0:32:41.50,Main-207-,,0,0,0,,Wyper!
+Dialogue: 50,0:32:44.29,0:32:45.71,Main-207-,,0,0,0,,[OHM]\NYou were so distracted
+Dialogue: 50,0:32:45.79,0:32:49.09,Main-207-,,0,0,0,,that you neglected to\Nprotect yourselves.
+Dialogue: 50,0:32:49.17,0:32:52.30,Main-207-,,0,0,0,,Quit worryin' about\Nother people!
+Dialogue: 50,0:32:52.38,0:32:56.80,Main-207-,,0,0,0,,Accept it! There's nothing\Nyou can do to save them!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:01:50.05,0:01:53.13,Episode-Title-207-,,0,0,0,,{\blur0.8\fad(602,267)\bord2\c&HE8E6E7&\3c&H363635&\1a&HFF&\t(561,602,\1a&H00&)\t(2813,2854,\1a&HFF&)}Concerto
+Dialogue: 1,0:01:50.05,0:01:53.13,Episode-Title-207-,,0,0,0,,{\blur0.8\fad(602,267)\c&HE8E6E7&\bord0\4a&HFF&}Concerto
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 59,0:01:46.66,0:01:51.66,Dedication,,0,0,0,fx,{\an5\move(176.9,240,176.9,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4550,5000,\3a&HFF&\fscx145\fscy145\blur14)}M
+Dialogue: 60,0:01:46.66,0:01:51.66,Dedication,,0,0,0,fx,{\an5\move(176.9,240,176.9,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HB67EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H7A9EFF&)\t(1700,2800,\1c&H6BD3FF&)\t(2800,3900,\1c&HC2F07D&)\t(4550,5000,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}M
+Dialogue: 59,0:01:46.70,0:01:51.69,Dedication,,0,0,0,fx,{\an5\move(231.0,240,231.0,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4535,4985,\3a&HFF&\fscx145\fscy145\blur14)}a
+Dialogue: 60,0:01:46.70,0:01:51.69,Dedication,,0,0,0,fx,{\an5\move(231.0,240,231.0,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HB67EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H7A9EFF&)\t(1700,2800,\1c&H6BD3FF&)\t(2800,3900,\1c&HC2F07D&)\t(4535,4985,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}a
+Dialogue: 59,0:01:46.75,0:01:51.72,Dedication,,0,0,0,fx,{\an5\move(271.7,240,271.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4520,4970,\3a&HFF&\fscx145\fscy145\blur14)}d
+Dialogue: 60,0:01:46.75,0:01:51.72,Dedication,,0,0,0,fx,{\an5\move(271.7,240,271.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HB67EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H7A9EFF&)\t(1700,2800,\1c&H6BD3FF&)\t(2800,3900,\1c&HC2F07D&)\t(4520,4970,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}d
+Dialogue: 59,0:01:46.80,0:01:51.75,Dedication,,0,0,0,fx,{\an5\move(312.3,240,312.3,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4505,4955,\3a&HFF&\fscx145\fscy145\blur14)}e
+Dialogue: 60,0:01:46.80,0:01:51.75,Dedication,,0,0,0,fx,{\an5\move(312.3,240,312.3,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HB67EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H7A9EFF&)\t(1700,2800,\1c&H6BD3FF&)\t(2800,3900,\1c&HC2F07D&)\t(4505,4955,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}e
+Dialogue: 59,0:01:46.84,0:01:51.78,Dedication,,0,0,0,fx,{\an5\move(386.3,240,386.3,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4490,4940,\3a&HFF&\fscx145\fscy145\blur14)}f
+Dialogue: 60,0:01:46.84,0:01:51.78,Dedication,,0,0,0,fx,{\an5\move(386.3,240,386.3,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H7A9EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H6BD3FF&)\t(1700,2800,\1c&HC2F07D&)\t(2800,3900,\1c&HFFC87C&)\t(4490,4940,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}f
+Dialogue: 59,0:01:46.88,0:01:51.81,Dedication,,0,0,0,fx,{\an5\move(421.8,240,421.8,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4475,4925,\3a&HFF&\fscx145\fscy145\blur14)}o
+Dialogue: 60,0:01:46.88,0:01:51.81,Dedication,,0,0,0,fx,{\an5\move(421.8,240,421.8,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H7A9EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H6BD3FF&)\t(1700,2800,\1c&HC2F07D&)\t(2800,3900,\1c&HFFC87C&)\t(4475,4925,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}o
+Dialogue: 59,0:01:46.93,0:01:51.84,Dedication,,0,0,0,fx,{\an5\move(457.4,240,457.4,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4460,4910,\3a&HFF&\fscx145\fscy145\blur14)}r
+Dialogue: 60,0:01:46.93,0:01:51.84,Dedication,,0,0,0,fx,{\an5\move(457.4,240,457.4,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H7A9EFF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&H6BD3FF&)\t(1700,2800,\1c&HC2F07D&)\t(2800,3900,\1c&HFFC87C&)\t(4460,4910,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}r
+Dialogue: 59,0:01:46.98,0:01:51.87,Dedication,,0,0,0,fx,{\an5\move(547.1,240,547.1,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4445,4895,\3a&HFF&\fscx145\fscy145\blur14)}M
+Dialogue: 60,0:01:46.98,0:01:51.87,Dedication,,0,0,0,fx,{\an5\move(547.1,240,547.1,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H6BD3FF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HC2F07D&)\t(1700,2800,\1c&HFFC87C&)\t(2800,3900,\1c&HFF9CB7&)\t(4445,4895,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}M
+Dialogue: 59,0:01:47.02,0:01:51.90,Dedication,,0,0,0,fx,{\an5\move(599.0,240,599.0,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4430,4880,\3a&HFF&\fscx145\fscy145\blur14)}y
+Dialogue: 60,0:01:47.02,0:01:51.90,Dedication,,0,0,0,fx,{\an5\move(599.0,240,599.0,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H6BD3FF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HC2F07D&)\t(1700,2800,\1c&HFFC87C&)\t(2800,3900,\1c&HFF9CB7&)\t(4430,4880,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}y
+Dialogue: 59,0:01:47.06,0:01:51.93,Dedication,,0,0,0,fx,{\an5\move(675.2,240,675.2,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4415,4865,\3a&HFF&\fscx145\fscy145\blur14)}H
+Dialogue: 60,0:01:47.06,0:01:51.93,Dedication,,0,0,0,fx,{\an5\move(675.2,240,675.2,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H6BD3FF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HC2F07D&)\t(1700,2800,\1c&HFFC87C&)\t(2800,3900,\1c&HFF9CB7&)\t(4415,4865,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}H
+Dialogue: 59,0:01:47.11,0:01:51.96,Dedication,,0,0,0,fx,{\an5\move(718.7,240,718.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4400,4850,\3a&HFF&\fscx145\fscy145\blur14)}a
+Dialogue: 60,0:01:47.11,0:01:51.96,Dedication,,0,0,0,fx,{\an5\move(718.7,240,718.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&H6BD3FF&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HC2F07D&)\t(1700,2800,\1c&HFFC87C&)\t(2800,3900,\1c&HFF9CB7&)\t(4400,4850,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}a
+Dialogue: 59,0:01:47.16,0:01:51.99,Dedication,,0,0,0,fx,{\an5\move(757.1,240,757.1,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4385,4835,\3a&HFF&\fscx145\fscy145\blur14)}n
+Dialogue: 60,0:01:47.16,0:01:51.99,Dedication,,0,0,0,fx,{\an5\move(757.1,240,757.1,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HC2F07D&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFFC87C&)\t(1700,2800,\1c&HFF9CB7&)\t(2800,3900,\1c&HB67EFF&)\t(4385,4835,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}n
+Dialogue: 59,0:01:47.20,0:01:52.02,Dedication,,0,0,0,fx,{\an5\move(797.7,240,797.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4370,4820,\3a&HFF&\fscx145\fscy145\blur14)}d
+Dialogue: 60,0:01:47.20,0:01:52.02,Dedication,,0,0,0,fx,{\an5\move(797.7,240,797.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HC2F07D&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFFC87C&)\t(1700,2800,\1c&HFF9CB7&)\t(2800,3900,\1c&HB67EFF&)\t(4370,4820,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}d
+Dialogue: 59,0:01:47.24,0:01:52.05,Dedication,,0,0,0,fx,{\an5\move(835.5,240,835.5,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4355,4805,\3a&HFF&\fscx145\fscy145\blur14)}s
+Dialogue: 60,0:01:47.24,0:01:52.05,Dedication,,0,0,0,fx,{\an5\move(835.5,240,835.5,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HC2F07D&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFFC87C&)\t(1700,2800,\1c&HFF9CB7&)\t(2800,3900,\1c&HB67EFF&)\t(4355,4805,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}s
+Dialogue: 59,0:01:47.29,0:01:52.08,Dedication,,0,0,0,fx,{\an5\move(867.7,240,867.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4340,4790,\3a&HFF&\fscx145\fscy145\blur14)}o
+Dialogue: 60,0:01:47.29,0:01:52.08,Dedication,,0,0,0,fx,{\an5\move(867.7,240,867.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFFC87C&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFF9CB7&)\t(1700,2800,\1c&HB67EFF&)\t(2800,3900,\1c&H7A9EFF&)\t(4340,4790,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}o
+Dialogue: 59,0:01:47.34,0:01:52.11,Dedication,,0,0,0,fx,{\an5\move(911.7,240,911.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4325,4775,\3a&HFF&\fscx145\fscy145\blur14)}m
+Dialogue: 60,0:01:47.34,0:01:52.11,Dedication,,0,0,0,fx,{\an5\move(911.7,240,911.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFFC87C&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFF9CB7&)\t(1700,2800,\1c&HB67EFF&)\t(2800,3900,\1c&H7A9EFF&)\t(4325,4775,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}m
+Dialogue: 59,0:01:47.38,0:01:52.14,Dedication,,0,0,0,fx,{\an5\move(959.1,240,959.1,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4310,4760,\3a&HFF&\fscx145\fscy145\blur14)}e
+Dialogue: 60,0:01:47.38,0:01:52.14,Dedication,,0,0,0,fx,{\an5\move(959.1,240,959.1,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFFC87C&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFF9CB7&)\t(1700,2800,\1c&HB67EFF&)\t(2800,3900,\1c&H7A9EFF&)\t(4310,4760,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}e
+Dialogue: 59,0:01:47.42,0:01:52.17,Dedication,,0,0,0,fx,{\an5\move(1042.7,240,1042.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4295,4745,\3a&HFF&\fscx145\fscy145\blur14)}B
+Dialogue: 60,0:01:47.42,0:01:52.17,Dedication,,0,0,0,fx,{\an5\move(1042.7,240,1042.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFFC87C&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HFF9CB7&)\t(1700,2800,\1c&HB67EFF&)\t(2800,3900,\1c&H7A9EFF&)\t(4295,4745,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}B
+Dialogue: 59,0:01:47.47,0:01:52.20,Dedication,,0,0,0,fx,{\an5\move(1083.9,240,1083.9,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4280,4730,\3a&HFF&\fscx145\fscy145\blur14)}i
+Dialogue: 60,0:01:47.47,0:01:52.20,Dedication,,0,0,0,fx,{\an5\move(1083.9,240,1083.9,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFF9CB7&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HB67EFF&)\t(1700,2800,\1c&H7A9EFF&)\t(2800,3900,\1c&H6BD3FF&)\t(4280,4730,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}i
+Dialogue: 59,0:01:47.52,0:01:52.23,Dedication,,0,0,0,fx,{\an5\move(1115.5,240,1115.5,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4265,4715,\3a&HFF&\fscx145\fscy145\blur14)}r
+Dialogue: 60,0:01:47.52,0:01:52.23,Dedication,,0,0,0,fx,{\an5\move(1115.5,240,1115.5,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFF9CB7&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HB67EFF&)\t(1700,2800,\1c&H7A9EFF&)\t(2800,3900,\1c&H6BD3FF&)\t(4265,4715,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}r
+Dialogue: 59,0:01:47.56,0:01:52.26,Dedication,,0,0,0,fx,{\an5\move(1156.7,240,1156.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\1a&HFF&\3a&H70&\3c&HD9A3FF&\bord10\blur12\fad(180,0)\fscx0\fscy0\frz-25\t(0,180,\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(4250,4700,\3a&HFF&\fscx145\fscy145\blur14)}d
+Dialogue: 60,0:01:47.56,0:01:52.26,Dedication,,0,0,0,fx,{\an5\move(1156.7,240,1156.7,200,0,450)\fnComplete in Him ESP\fs120\b0\i0\shad0\alpha&HFF&\1c&HFF9CB7&\3c&HFFFFFF&\bord4\blur1.5\fscx0\fscy0\frz-25\t(0,180,\alpha&H00&\fscx130\fscy130\frz6)\t(180,380,\fscx100\fscy100\frz0)\t(600,1700,\1c&HB67EFF&)\t(1700,2800,\1c&H7A9EFF&)\t(2800,3900,\1c&H6BD3FF&)\t(4250,4700,\alpha&HFF&\fscx145\fscy145\blur9\frz12)}d
+Dialogue: 61,0:01:47.16,0:01:48.06,Dedication,,0,0,0,fx,{\an5\pos(477.4,129.2)\bord0\shad0\blur1\1c&HFFFFFF&\fscx0\fscy0\frz3\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz93)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:47.54,0:01:48.44,Dedication,,0,0,0,fx,{\an5\pos(992.9,130.4)\bord0\shad0\blur1\1c&HF9E2FF&\fscx0\fscy0\frz3\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz93)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:47.92,0:01:48.82,Dedication,,0,0,0,fx,{\an5\pos(364.3,127.7)\bord0\shad0\blur1\1c&HFFFFFF&\fscx0\fscy0\frz4\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz94)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:48.30,0:01:49.20,Dedication,,0,0,0,fx,{\an5\pos(235.9,257.4)\bord0\shad0\blur1\1c&HFFFFFF&\fscx0\fscy0\frz36\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz126)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:48.68,0:01:49.58,Dedication,,0,0,0,fx,{\an5\pos(1123.7,121.9)\bord0\shad0\blur1\1c&HFFFFFF&\fscx0\fscy0\frz25\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz115)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:49.06,0:01:49.96,Dedication,,0,0,0,fx,{\an5\pos(1153.5,122.7)\bord0\shad0\blur1\1c&H9CF3FF&\fscx0\fscy0\frz8\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz98)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:49.44,0:01:50.34,Dedication,,0,0,0,fx,{\an5\pos(576.2,122.2)\bord0\shad0\blur1\1c&HF9E2FF&\fscx0\fscy0\frz35\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz125)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:49.82,0:01:50.72,Dedication,,0,0,0,fx,{\an5\pos(329.1,130.1)\bord0\shad0\blur1\1c&HF9E2FF&\fscx0\fscy0\frz35\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz125)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:50.20,0:01:51.10,Dedication,,0,0,0,fx,{\an5\pos(206.9,120.2)\bord0\shad0\blur1\1c&HF9E2FF&\fscx0\fscy0\frz31\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz121)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:50.58,0:01:51.48,Dedication,,0,0,0,fx,{\an5\pos(692.9,273.6)\bord0\shad0\blur1\1c&H9CF3FF&\fscx0\fscy0\frz29\t(0,300,\fscx55\fscy55)\t(300,900,\fscx0\fscy0\frz119)\p1}m 68 52 b 53 52 53 74 68 74 b 82 74 82 52 68 52 m 78 61 l 134 63 l 78 65 m 58 61 l 0 63 l 58 65 m 65 52 l 68 0 l 70 52 m 65 74 l 68 126 l 70 74
+Dialogue: 61,0:01:47.76,0:01:52.29,Dedication,,0,0,0,fx,{\an5\pos(1248.1,200)\bord3\shad0\blur1\1c&HB67EFF&\3c&HFFFFFF&\fscx0\fscy0\frz-15\t(0,250,\fscx125\fscy125\frz0)\t(250,400,\fscx100\fscy100)\t(400,750,\fscx118\fscy118)\t(750,1100,\fscx100\fscy100)\t(1100,1450,\fscx118\fscy118)\t(1450,1800,\fscx100\fscy100)\t(1800,2150,\fscx118\fscy118)\t(2150,2500,\fscx100\fscy100)\t(2500,2850,\fscx118\fscy118)\t(2850,3200,\fscx100\fscy100)\t(3200,3550,\fscx118\fscy118)\t(3550,3900,\fscx100\fscy100)\t(4085,4535,\alpha&HFF&\fscx150\fscy150\blur8)\p1}m 50 25 b 50 5 20 -5 8 15 b -4 35 25 58 50 80 b 75 58 104 35 92 15 b 80 -5 50 5 50 25
+Dialogue: 0,0:00:46.23,0:00:50.41,Episode-Credits-207-,,0,0,0,,{\pos(540,579)\fscx100\fscy100\bord3}Video Editing
+Dialogue: 0,0:00:46.23,0:00:50.41,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(583.02,619.65)}Feeso
+Dialogue: 0,0:00:51.78,0:00:55.70,Episode-Credits-207-,,0,0,0,,{\pos(540,579)\fscx100\fscy100\bord3}Graphics
+Dialogue: 0,0:00:51.78,0:00:55.70,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(583.02,619.65)}Datenshi
+Dialogue: 0,0:00:56.79,0:01:01.04,Episode-Credits-207-,,0,0,0,,{\pos(540,579)\fscx100\fscy100\bord3}Quality Control
+Dialogue: 0,0:00:56.79,0:01:01.04,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(583.02,619.65)}Galaxy 9000\NPepperjack\NPhosCity\NScolines\NZenef
+Dialogue: 0,0:01:01.04,0:01:07.80,Episode-Credits-207-,,0,0,0,,{\fscx100\fscy100\pos(86.67,119)\bord3}Karaoke
+Dialogue: 0,0:01:01.04,0:01:07.80,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(129.69,159.65)}KaitouYahiko
+Dialogue: 0,0:01:07.80,0:01:11.80,Episode-Credits-207-,,0,0,0,,{\fscx100\fscy100\pos(86.67,119)\bord3}Soundtracking
+Dialogue: 0,0:01:07.80,0:01:11.80,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(129.69,159.65)}Halee
+Dialogue: 0,0:01:23.81,0:01:27.44,Episode-Credits-207-,,0,0,0,,{\fscx100\fscy100\pos(86.67,119)\bord3}Timing
+Dialogue: 0,0:01:23.81,0:01:27.44,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(129.69,159.65)}NateTheBird
+Dialogue: 0,0:01:27.44,0:01:31.49,Episode-Credits-207-,,0,0,0,,{\fscx100\fscy100\bord3\pos(24,113)}Closed Captioning
+Dialogue: 0,0:01:27.44,0:01:31.49,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(67.02,153.65)}NateTheBird
+Dialogue: 0,0:01:33.57,0:01:37.04,Episode-Credits-207-,,0,0,0,,{\fscx100\fscy100\bord3\pos(964,111.4)}Translation
+Dialogue: 0,0:01:33.57,0:01:37.04,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(1007.02,152.05)}Funimation\NPamkinPinguin
+Dialogue: 0,0:01:23.81,0:01:27.44,Episode-Credits-207-,,0,0,0,,{\fscx100\fscy100\pos(86.67,269)\bord3}Typesetting
+Dialogue: 0,0:01:23.81,0:01:27.44,Episode-Credits-207-,,0,0,0,,{\fscx120\fscy120\pos(129.69,309.65)}Gab
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
