@@ -1,0 +1,611 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Karaoke,Duality,68,&H00B95D1D,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2.25,0,1,4.5,0,8,23,23,23,1
+Style: Notes-207-,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,3,8,180,180,27,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=18}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,OP,0,0,0,,
+Comment: 0,0:00:24.35,0:00:24.38,Default,OP,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.02,Main-207-,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:49.71,0:01:49.76,Main-207-,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=19}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=20}===============================DIALOGUE============================
+Dialogue: 0,0:01:45.76,0:01:47.34,Main-207-,,0,0,0,,"Steer for the Clouds!
+Dialogue: 0,0:01:47.38,0:01:49.60,Main-207-,,0,0,0,,Capture the South Bird!"
+Dialogue: 50,0:01:54.60,0:01:57.06,Main-207-,,0,0,0,,What did you\Nwant to tell us, Old‐timer?
+Dialogue: 50,0:01:57.10,0:01:58.73,Main-207-,,0,0,0,,Listen up and listen good.
+Dialogue: 50,0:01:58.77,0:02:00.94,Main-207-,,0,0,0,,I've decided to tell you\Nguys everything I know
+Dialogue: 50,0:02:00.98,0:02:03.27,Main-207-,,0,0,0,,about the sky island.
+Dialogue: 50,0:02:03.32,0:02:05.07,Main-207-,,0,0,0,,Most of this is\Nrumor and hearsay,
+Dialogue: 50,0:02:05.13,0:02:06.51,Main-207-,,0,0,0,,so you'll have to\Nmake up your own minds
+Dialogue: 50,0:02:06.55,0:02:08.13,Main-207-,,0,0,0,,whether you believe it or not.
+Dialogue: 50,0:02:08.17,0:02:09.38,Main-207-,,0,0,0,,Mm. I believe it!
+Dialogue: 50,0:02:09.44,0:02:10.40,Main-207-,,0,0,0,,Quiet!
+Dialogue: 50,0:02:10.44,0:02:12.15,Main-207-,,0,0,0,,There's something\Nvery strange that happens
+Dialogue: 50,0:02:12.19,0:02:14.28,Main-207-,,0,0,0,,in this part of the ocean.
+Dialogue: 50,0:02:14.32,0:02:16.46,Main-207-,,0,0,0,,Everything will suddenly\Nturn black as night,
+Dialogue: 50,0:02:16.46,0:02:18.63,Main-207-,,0,0,0,,right in the middle\Nof the brightest day!
+Dialogue: 50,0:02:18.64,0:02:19.34,Main-207-,,0,0,0,,Hey, yeah!
+Dialogue: 50,0:02:19.34,0:02:21.17,Main-207-,,0,0,0,,The same thing happened to us!
+Dialogue: 0,0:02:21.22,0:02:22.01,Main-207-,,0,0,0,,Right?
+Dialogue: 50,0:02:22.10,0:02:23.77,Main-207-,,0,0,0,,Yeah! It was like\Nthe sun vanished
+Dialogue: 0,0:02:23.81,0:02:26.52,Main-207-,,0,0,0,,and then these enormous\Nmonsters showed up!
+Dialogue: 50,0:02:28.44,0:02:29.53,Main-207-,,0,0,0,,You saw the giants?
+Dialogue: 50,0:02:29.53,0:02:31.37,Main-207-,,0,0,0,,There's a tale about\Nwhere they come from,
+Dialogue: 0,0:02:31.37,0:02:34.20,Main-207-,,0,0,0,,but forget about 'em for now,\Nwe can go into it later.
+Dialogue: 50,0:02:34.24,0:02:37.16,Main-207-,,0,0,0,,Now, about this\Nstrange nightfall.
+Dialogue: 50,0:02:39.27,0:02:42.89,Main-207-,,0,0,0,,It's caused by the shadow\Nof an extremely dense cloud.
+Dialogue: 50,0:02:43.10,0:02:44.67,Main-207-,,0,0,0,,Cumulonimbus clouds?
+Dialogue: 50,0:02:44.67,0:02:47.38,Main-207-,,0,0,0,,But it was too dark for clouds,\Nit was like the sun went out!
+Dialogue: 0,0:02:47.38,0:02:52.28,Main-207-,,0,0,0,,{\q2}Yeah! It was more of an eclipse! Clouds\Non a cloudy day are just sort of cloudy!
+Dialogue: 50,0:02:52.28,0:02:53.56,Main-207-,,0,0,0,,Yeah, just sort of cloudy!
+Dialogue: 50,0:02:53.56,0:02:54.39,Main-207-,,0,0,0,,Yeah, cloudy!
+Dialogue: 50,0:02:54.39,0:02:56.48,Main-207-,,0,0,0,,Shut your gobs and listen!
+Dialogue: 50,0:02:56.52,0:02:59.23,Main-207-,,0,0,0,,This cloud is called\Na "cumuloregalis."
+Dialogue: 50,0:02:59.23,0:03:00.40,Main-207-,,0,0,0,,It forms high in the sky.
+Dialogue: 50,0:03:00.46,0:03:04.13,Main-207-,,0,0,0,,It has no internal air currents\Nand never turns to rain.
+Dialogue: 50,0:03:04.17,0:03:05.54,Main-207-,,0,0,0,,No light can reach the ground,
+Dialogue: 50,0:03:05.59,0:03:08.72,Main-207-,,0,0,0,,and a sunny afternoon\Nturns black as pitch.
+Dialogue: 50,0:03:08.76,0:03:11.14,Main-207-,,0,0,0,,It's like some\Ngiant hand reached up
+Dialogue: 50,0:03:11.14,0:03:13.17,Main-207-,,0,0,0,,and snuffed out the\Nsun like it was a candle.
+Dialogue: 50,0:03:13.56,0:03:17.15,Main-207-,,0,0,0,,Some say that cumuloregalis\Nclouds are floating fossils,
+Dialogue: 50,0:03:17.22,0:03:18.93,Main-207-,,0,0,0,,petrified clouds\Nthat hang in the sky
+Dialogue: 50,0:03:18.94,0:03:21.43,Main-207-,,0,0,0,,unchanged for\Nthousands of years.
+Dialogue: 50,0:03:21.44,0:03:23.32,Main-207-,,0,0,0,,You've gotta be kidding us!
+Dialogue: 50,0:03:23.36,0:03:26.28,Main-207-,,0,0,0,,A petrified cloud that drifts\Naround for centuries?
+Dialogue: 50,0:03:26.30,0:03:29.01,Main-207-,,0,0,0,,Hey, I'm just telling you\Nwhat people have told me.
+Dialogue: 50,0:03:29.06,0:03:31.56,Main-207-,,0,0,0,,Whether you believe it\Nor not is entirely up to you.
+Dialogue: 50,0:03:31.57,0:03:33.83,Main-207-,,0,0,0,,So it's a mystery cloud?
+Dialogue: 0,0:03:33.83,0:03:37.17,Main-207-,,0,0,0,,Yeah, I guess that sums it up\Nabout as well as anything else.
+Dialogue: 50,0:03:37.21,0:03:38.88,Main-207-,,0,0,0,,This is so awesome!
+Dialogue: 50,0:03:38.92,0:03:39.88,Main-207-,,0,0,0,,You see?
+Dialogue: 50,0:03:39.99,0:03:41.54,Main-207-,,0,0,0,,There's only one place\Nthis sky island can be
+Dialogue: 0,0:03:41.58,0:03:44.97,Main-207-,,0,0,0,,if it's real and that's on top\Nof one of those clouds!
+Dialogue: 50,0:03:44.97,0:03:46.14,Main-207-,,0,0,0,,Okay! Let's go!
+Dialogue: 50,0:03:46.14,0:03:47.85,Main-207-,,0,0,0,,We're on our way up\Nto the clouds!
+Dialogue: 50,0:03:47.89,0:03:49.31,Main-207-,,0,0,0,,Come on, Zoro, wake up!
+Dialogue: 0,0:03:49.38,0:03:52.97,Main-207-,,0,0,0,,What? Is it morning already?
+Dialogue: 50,0:03:53.01,0:03:54.97,Main-207-,,0,0,0,,Thanks for\Nall the information, Pops!
+Dialogue: 0,0:03:55.01,0:03:56.18,Main-207-,,0,0,0,,Set sail!
+Dialogue: 50,0:03:56.22,0:04:00.27,Main-207-,,0,0,0,,I told you idiots before,\Nwe don't know how to get there!
+Dialogue: 50,0:04:00.31,0:04:01.98,Main-207-,,0,0,0,,Yeah, that's gonna\Nbe the hard part,
+Dialogue: 50,0:04:02.02,0:04:04.11,Main-207-,,0,0,0,,'cause you'll be risking your\Nlives every minute!
+Dialogue: 50,0:04:04.15,0:04:05.90,Main-207-,,0,0,0,,Y'mean like now?
+Dialogue: 0,0:04:06.07,0:04:09.37,Main-207-,,0,0,0,,There's only one way to\Nget there: the Knock‐Up Stream.
+Dialogue: 50,0:04:09.41,0:04:11.83,Main-207-,,0,0,0,,It shoots straight up in the\Nair, so it could theoretically
+Dialogue: 50,0:04:11.88,0:04:14.09,Main-207-,,0,0,0,,take you into the\Nsky if you're lucky.
+Dialogue: 50,0:04:14.13,0:04:16.18,Main-207-,,0,0,0,,Wait a minute, are\Nyou trying to say this current
+Dialogue: 50,0:04:16.22,0:04:17.76,Main-207-,,0,0,0,,can actually send ships flying?
+Dialogue: 50,0:04:17.80,0:04:19.26,Main-207-,,0,0,0,,Great, then it'll be a snap!
+Dialogue: 50,0:04:19.41,0:04:22.25,Main-207-,,0,0,0,,All we have to do\Nis hitch a ride up! Haha!
+Dialogue: 0,0:04:22.29,0:04:24.54,Main-207-,,0,0,0,,Yahoo!
+Dialogue: 50,0:04:24.59,0:04:25.67,Main-207-,,0,0,0,,On an ocean current?
+Dialogue: 50,0:04:25.68,0:04:28.19,Main-207-,,0,0,0,,Except wouldn't we wind\Nup falling back into the ocean
+Dialogue: 50,0:04:28.19,0:04:30.36,Main-207-,,0,0,0,,and getting smashed into pieces?
+Dialogue: 50,0:04:30.41,0:04:31.74,Main-207-,,0,0,0,,Usually, that's true,
+Dialogue: 50,0:04:31.82,0:04:33.80,Main-207-,,0,0,0,,unless you can get\Nthe timing just right.
+Dialogue: 50,0:04:34.24,0:04:35.62,Main-207-,,0,0,0,,It's one thing to\Nsit here all comfy
+Dialogue: 50,0:04:35.66,0:04:38.83,Main-207-,,0,0,0,,and talk about riding\Nthe Knock‐Up Stream.
+Dialogue: 50,0:04:38.87,0:04:40.46,Main-207-,,0,0,0,,But if you think this\Ntrip is gonna be
+Dialogue: 50,0:04:40.50,0:04:41.75,Main-207-,,0,0,0,,some kind of pleasure cruise,
+Dialogue: 50,0:04:41.79,0:04:43.67,Main-207-,,0,0,0,,you're in for a\Nvery rude awakening.
+Dialogue: 0,0:04:43.67,0:04:46.13,Main-207-,,0,0,0,,Oh...
+Dialogue: 50,0:04:46.17,0:04:48.81,Main-207-,,0,0,0,,The Knock‐Up Stream is\Nas dangerous as any hurricane.
+Dialogue: 50,0:04:49.17,0:04:51.85,Main-207-,,0,0,0,,It should be avoided\Nat all costs!
+Dialogue: 50,0:04:53.55,0:04:55.64,Main-207-,,0,0,0,,But how exactly can\Na current of water rise up
+Dialogue: 50,0:04:55.68,0:04:57.39,Main-207-,,0,0,0,,in the air in the first place?
+Dialogue: 0,0:04:57.39,0:04:58.64,Main-207-,,0,0,0,,Come on.
+Dialogue: 50,0:04:58.68,0:05:01.39,Main-207-,,0,0,0,,We've never heard of anything\Nlike that before, right, guys?
+Dialogue: 50,0:05:03.90,0:05:05.65,Main-207-,,0,0,0,,I've heard a lot of\Ndifferent explanations
+Dialogue: 50,0:05:05.77,0:05:08.23,Main-207-,,0,0,0,,for the Knock‐Up Stream,\Nbut there's only been one
+Dialogue: 50,0:05:08.27,0:05:10.48,Main-207-,,0,0,0,,that's made any sense\Nto me, though so far
+Dialogue: 0,0:05:10.52,0:05:13.90,Main-207-,,0,0,0,,no one has been stupid\Nenough to try and confirm it.
+Dialogue: 0,0:05:14.15,0:05:16.65,Main-207-,,0,0,0,,It's like this.
+Dialogue: 50,0:05:19.49,0:05:20.66,Main-207-,,0,0,0,,Deep below the ocean floor
+Dialogue: 50,0:05:20.67,0:05:23.38,Main-207-,,0,0,0,,there are large cavities\Nfilled with air.
+Dialogue: 50,0:05:23.42,0:05:25.80,Main-207-,,0,0,0,,Cool seawater seeps\Ninto these air pockets
+Dialogue: 50,0:05:25.84,0:05:29.72,Main-207-,,0,0,0,,and geothermal energy heats\Nit until it becomes steam.
+Dialogue: 50,0:05:29.76,0:05:31.93,Main-207-,,0,0,0,,Over time, the pressure builds.
+Dialogue: 50,0:05:31.97,0:05:33.85,Main-207-,,0,0,0,,And when it finally\Nbecomes too great,
+Dialogue: 50,0:05:33.87,0:05:36.12,Main-207-,,0,0,0,,there's a tremendous explosion.
+Dialogue: 50,0:05:36.16,0:05:38.37,Main-207-,,0,0,0,,This explosion hurls\Nthe water into the air
+Dialogue: 50,0:05:38.42,0:05:41.54,Main-207-,,0,0,0,,and creates a\Ncurrent to the sky!
+Dialogue: 50,0:05:41.60,0:05:43.81,Main-207-,,0,0,0,,The effect lasts\Nfor about one minute.
+Dialogue: 50,0:05:43.82,0:05:46.49,Main-207-,,0,0,0,,Connecting the ocean\Nto the sky like a bridge.
+Dialogue: 50,0:05:46.53,0:05:47.44,Main-207-,,0,0,0,,One minute?
+Dialogue: 50,0:05:47.44,0:05:49.65,Main-207-,,0,0,0,,Do you realize how\Nenormous an explosion
+Dialogue: 50,0:05:49.69,0:05:51.00,Main-207-,,0,0,0,,like that would have to be?
+Dialogue: 50,0:05:51.24,0:05:53.45,Main-207-,,0,0,0,,The explosions occur in\Nwidely different locations
+Dialogue: 50,0:05:53.47,0:05:55.60,Main-207-,,0,0,0,,about five times a month.
+Dialogue: 50,0:05:55.64,0:05:59.22,Main-207-,,0,0,0,,We'd be blown into fish food\Nif we tried that, old man!
+Dialogue: 50,0:05:59.27,0:06:01.39,Main-207-,,0,0,0,,Anyway, you can't\Nreally explain something
+Dialogue: 50,0:06:01.43,0:06:03.56,Main-207-,,0,0,0,,like this with\Nwords and theories.
+Dialogue: 50,0:06:03.65,0:06:05.82,Main-207-,,0,0,0,,It's one of the great\Nmysteries of creation.
+Dialogue: 50,0:06:05.82,0:06:08.24,Main-207-,,0,0,0,,So... So then, we gotta\Nride this current
+Dialogue: 50,0:06:08.28,0:06:09.79,Main-207-,,0,0,0,,that shows up five times\Na month into the air
+Dialogue: 50,0:06:09.83,0:06:11.83,Main-207-,,0,0,0,,to reach some island in the sky
+Dialogue: 50,0:06:11.83,0:06:14.37,Main-207-,,0,0,0,,and just hope\Nit's waiting for us?
+Dialogue: 50,0:06:14.42,0:06:16.88,Main-207-,,0,0,0,,I'd say that\Nsums it up pretty well.
+Dialogue: 50,0:06:16.92,0:06:20.34,Main-207-,,0,0,0,,And if you miss you fall back\Ndown, slam into the ocean,
+Dialogue: 0,0:06:20.36,0:06:22.86,Main-207-,,0,0,0,,and get blown into fish food.
+Dialogue: 50,0:06:22.90,0:06:24.74,Main-207-,,0,0,0,,Just like you said.
+Dialogue: 50,0:06:27.50,0:06:30.16,Main-207-,,0,0,0,,Okay! So we're gonna\Nforget about sky island, right?
+Dialogue: 50,0:06:31.95,0:06:34.25,Main-207-,,0,0,0,,Because it's nuts, Luffy,\Nit's completely insane,
+Dialogue: 50,0:06:34.29,0:06:36.29,Main-207-,,0,0,0,,you'd have to be luckier\Nthan Mr. Lucky MacLuckluck
+Dialogue: 50,0:06:36.29,0:06:39.89,Main-207-,,0,0,0,,of Luckyland on his lucky day to\Npull off a stunt like this one!
+Dialogue: 0,0:06:42.29,0:06:44.13,Main-207-,,0,0,0,,It'll be okay! Let's go!
+Dialogue: 50,0:06:44.17,0:06:44.88,Main-207-,,0,0,0,,Naturally.
+Dialogue: 50,0:06:45.02,0:06:46.48,Main-207-,,0,0,0,,How can you say it'll be okay?
+Dialogue: 50,0:06:46.52,0:06:47.98,Main-207-,,0,0,0,,Think about it for a second!
+Dialogue: 50,0:06:48.02,0:06:49.90,Main-207-,,0,0,0,,And what about\Nthe poor Going Merry?
+Dialogue: 50,0:06:49.94,0:06:52.57,Main-207-,,0,0,0,,Did you even stop to\Nconsider the shape she's in?
+Dialogue: 50,0:06:52.57,0:06:54.57,Main-207-,,0,0,0,,The way she's suffering?
+Dialogue: 50,0:06:54.60,0:06:56.31,Main-207-,,0,0,0,,There's no way you can\Nexpect her to stand up
+Dialogue: 50,0:06:56.34,0:06:58.19,Main-207-,,0,0,0,,to a disaster like\Nthis in her condition!
+Dialogue: 50,0:06:58.50,0:07:00.67,Main-207-,,0,0,0,,He's absolutely right;\Nshe's worthless.
+Dialogue: 50,0:07:00.70,0:07:03.37,Main-207-,,0,0,0,,Even brand new that wreck\Nwouldn't stand a chance.
+Dialogue: 50,0:07:03.42,0:07:04.55,Main-207-,,0,0,0,,Say what?
+Dialogue: 50,0:07:04.55,0:07:06.55,Main-207-,,0,0,0,,Speed, weight, strength.
+Dialogue: 50,0:07:06.59,0:07:08.47,Main-207-,,0,0,0,,The explosion would blow\Nthat ship to pieces
+Dialogue: 50,0:07:08.51,0:07:11.56,Main-207-,,0,0,0,,before it had a\Nchance to get airborne.
+Dialogue: 50,0:07:11.58,0:07:12.78,Main-207-,,0,0,0,,Yeah.
+Dialogue: 50,0:07:12.82,0:07:13.61,Main-207-,,0,0,0,,See?
+Dialogue: 50,0:07:13.65,0:07:14.99,Main-207-,,0,0,0,,It's hopeless.
+Dialogue: 50,0:07:15.04,0:07:17.26,Main-207-,,0,0,0,,But don't worry, I think\NI can help you out there.
+Dialogue: 0,0:07:17.66,0:07:20.75,Main-207-,,0,0,0,,I'll have Masira and Shojo do\Na complete refit of your ship.
+Dialogue: 50,0:07:20.79,0:07:22.67,Main-207-,,0,0,0,,I'll also have them\Nreinforce the superstructure
+Dialogue: 50,0:07:22.73,0:07:23.94,Main-207-,,0,0,0,,to withstand the strain.
+Dialogue: 50,0:07:23.98,0:07:24.81,Main-207-,,0,0,0,,You bet!
+Dialogue: 50,0:07:24.90,0:07:26.90,Main-207-,,0,0,0,,Don't worry, guys,\Nwe're all over it!
+Dialogue: 50,0:07:26.94,0:07:28.48,Thoughts-207-,,0,0,0,,Thanks, fellas!
+Dialogue: 0,0:07:28.50,0:07:31.92,Main-207-,,0,0,0,,{\q2}– Yeah, thanks a lot.\N– Yeah, thanks a lot.
+Dialogue: 50,0:07:31.96,0:07:33.67,Main-207-,,0,0,0,,Have you really\Nthought about this?
+Dialogue: 50,0:07:33.80,0:07:34.96,Main-207-,,0,0,0,,What?
+Dialogue: 50,0:07:34.96,0:07:36.88,Main-207-,,0,0,0,,Well, about... Oh, yeah,\Nhow about the fact that at most,
+Dialogue: 50,0:07:36.92,0:07:39.34,Main-207-,,0,0,0,,we can only stay one\Nmore day on this island,
+Dialogue: 50,0:07:39.47,0:07:40.93,Main-207-,,0,0,0,,or did that slip your mind?
+Dialogue: 50,0:07:40.95,0:07:42.11,Main-207-,,0,0,0,,After that the\NLog Pose will lock
+Dialogue: 50,0:07:42.18,0:07:45.72,Main-207-,,0,0,0,,onto the next island's location,\Nand we'll have to move on.
+Dialogue: 0,0:07:45.84,0:07:47.77,Main-207-,,0,0,0,,That's right! That's right!
+Dialogue: 50,0:07:47.77,0:07:48.85,Main-207-,,0,0,0,,We gotta move on!
+Dialogue: 50,0:07:48.85,0:07:49.98,Main-207-,,0,0,0,,Hey, old man!
+Dialogue: 50,0:07:50.01,0:07:51.76,Main-207-,,0,0,0,,I realize you're not\Na fortune teller
+Dialogue: 50,0:07:51.80,0:07:53.60,Main-207-,,0,0,0,,and you probably don't\Nhave the vaguest idea,
+Dialogue: 50,0:07:53.63,0:07:55.38,Main-207-,,0,0,0,,but how many days will\Nit be until the next time
+Dialogue: 50,0:07:55.39,0:07:57.48,Main-207-,,0,0,0,,the Knock‐Up Stream lines up\Nwith the cumuloregalis,
+Dialogue: 0,0:07:57.52,0:08:00.60,Main-207-,,0,0,0,,or better yet, how may weeks, or\Nmonths, or years, or centuries?
+Dialogue: 0,0:08:00.63,0:08:02.05,Main-207-,,0,0,0,,Now, take your time,\NI'm in no hurry.
+Dialogue: 50,0:08:02.09,0:08:03.76,Main-207-,,0,0,0,,Can I lend you an abacus?
+Dialogue: 50,0:08:03.82,0:08:05.32,Main-207-,,0,0,0,,It'll be at around\Nnoon tomorrow,
+Dialogue: 50,0:08:05.35,0:08:07.02,Main-207-,,0,0,0,,so you better get ready.
+Dialogue: 50,0:08:07.06,0:08:08.94,Main-207-,,0,0,0,,Wait a minute,\Nyou mean we can make it?
+Dialogue: 50,0:08:08.98,0:08:10.02,Main-207-,,0,0,0,,Afraid so.
+Dialogue: 50,0:08:10.06,0:08:11.85,Main-207-,,0,0,0,,If you're scared, then don't go.
+Dialogue: 50,0:08:14.36,0:08:15.36,Main-207-,,0,0,0,,You're lying!
+Dialogue: 0,0:08:15.40,0:08:16.24,Main-207-,,0,0,0,,Hmm?
+Dialogue: 50,0:08:16.28,0:08:17.61,Main-207-,,0,0,0,,There's something\Nfishy about this!
+Dialogue: 50,0:08:17.66,0:08:19.52,Main-207-,,0,0,0,,We've known you\Nless than 24 hours!
+Dialogue: 50,0:08:19.52,0:08:21.43,Main-207-,,0,0,0,,Why are you being so helpful?
+Dialogue: 50,0:08:21.61,0:08:22.74,Main-207-,,0,0,0,,And what's more?
+Dialogue: 50,0:08:22.80,0:08:24.38,Main-207-,,0,0,0,,Now, hold on, Usopp!
+Dialogue: 50,0:08:24.43,0:08:26.01,Main-207-,,0,0,0,,You hold on 'til I finish!
+Dialogue: 50,0:08:26.04,0:08:28.50,Main-207-,,0,0,0,,This sky island,\Nthis legendary place
+Dialogue: 50,0:08:28.54,0:08:30.66,Main-207-,,0,0,0,,we don't even know the location\Nof is just gonna show up
+Dialogue: 50,0:08:30.66,0:08:33.61,Main-207-,,0,0,0,,out of the blue\Nat noon tomorrow?
+Dialogue: 50,0:08:33.61,0:08:34.78,Main-207-,,0,0,0,,And to help us get there.
+Dialogue: 50,0:08:34.83,0:08:38.67,Main-207-,,0,0,0,,You're gonna rebuild and\Nreinforce our ship for nothing?
+Dialogue: 50,0:08:38.71,0:08:41.66,Main-207-,,0,0,0,,When something looks too good\Nto be true, it probably is!
+Dialogue: 50,0:08:41.66,0:08:42.62,Main-207-,,0,0,0,,The infamous Liar Noland
+Dialogue: 50,0:08:42.62,0:08:45.06,Main-207-,,0,0,0,,is your great‐great\Ngrand whatever, right?
+Dialogue: 50,0:08:45.06,0:08:47.56,Main-207-,,0,0,0,,So how do we know\Nwe can trust you?
+Dialogue: 50,0:08:49.92,0:08:50.83,Main-207-,,0,0,0,,Hey, old man!
+Dialogue: 0,0:08:50.90,0:08:53.90,Main-207-,,0,0,0,,Soup's on, come\Nand get it while it's hot!
+Dialogue: 0,0:08:54.06,0:08:54.85,Main-207-,,0,0,0,,Move it!
+Dialogue: 0,0:08:54.85,0:08:57.06,Main-207-,,0,0,0,,Nami, din...
+Dialogue: 0,0:08:57.94,0:08:59.58,Main-207-,,0,0,0,,Hmm...
+Dialogue: 50,0:08:59.58,0:09:00.96,Main-207-,,0,0,0,,Wha‐What is it?
+Dialogue: 50,0:09:01.11,0:09:02.74,Main-207-,,0,0,0,,You wanna fight me?
+Dialogue: 50,0:09:02.78,0:09:05.66,Main-207-,,0,0,0,,Masira said whenever\Nthe "midday night" occurs
+Dialogue: 50,0:09:05.66,0:09:08.41,Main-207-,,0,0,0,,in this area,\Na cumuloregalis cloud appears
+Dialogue: 50,0:09:08.49,0:09:11.45,Main-207-,,0,0,0,,in the southern\Nsky the next day.
+Dialogue: 50,0:09:11.79,0:09:14.58,Main-207-,,0,0,0,,Based on its usual cycle\Nof five appearances a month
+Dialogue: 50,0:09:14.62,0:09:16.04,Main-207-,,0,0,0,,I'm guessing the\NKnock‐Up Stream
+Dialogue: 50,0:09:16.04,0:09:18.71,Main-207-,,0,0,0,,will also erupt\Ntomorrow at midday.
+Dialogue: 50,0:09:18.75,0:09:20.99,Main-207-,,0,0,0,,That will probably\Nalso be to the south.
+Dialogue: 50,0:09:21.01,0:09:22.72,Main-207-,,0,0,0,,I can't be 100 percent certain,
+Dialogue: 50,0:09:22.76,0:09:26.88,Main-207-,,0,0,0,,but there's a good chance\Nthe two events will coincide.
+Dialogue: 0,0:09:33.15,0:09:36.57,Main-207-,,0,0,0,,I'm proud to have met\Na bunch of brave fools like you.
+Dialogue: 50,0:09:36.58,0:09:38.09,Main-207-,,0,0,0,,You're true pirates.
+Dialogue: 50,0:09:39.17,0:09:41.71,Main-207-,,0,0,0,,Now then,\Nlet's go inside and eat.
+Dialogue: 50,0:09:41.76,0:09:46.34,Main-207-,,0,0,0,,Tonight, I want you to call\Nmy home your home, my friends.
+Dialogue: 50,0:09:49.00,0:09:50.66,Main-207-,,0,0,0,,Come on, Usopp. It's chow time!
+Dialogue: 50,0:09:50.66,0:09:52.37,Main-207-,,0,0,0,,Yeah, come on you guys!
+Dialogue: 50,0:09:52.39,0:09:54.10,Main-207-,,0,0,0,,Chopper, go get Robin!
+Dialogue: 0,0:09:54.66,0:09:56.50,Main-207-,,0,0,0,,You bet!
+Dialogue: 50,0:09:57.33,0:09:59.92,Main-207-,,0,0,0,,It looks like we're\Ngoing to this sky island,
+Dialogue: 50,0:09:59.96,0:10:01.71,Main-207-,,0,0,0,,whether we're ready or not.
+Dialogue: 50,0:10:01.74,0:10:04.00,Main-207-,,0,0,0,,Well let's just hope\Nour luck continues to hold.
+Dialogue: 50,0:10:04.04,0:10:07.21,Main-207-,,0,0,0,,Nami, do you think\NI'm a spineless little coward?
+Dialogue: 50,0:10:07.49,0:10:09.15,Main-207-,,0,0,0,,You forgot to mention "idiot."
+Dialogue: 50,0:10:09.49,0:10:10.99,Main-207-,,0,0,0,,And I know how you feel.
+Dialogue: 0,0:10:11.04,0:10:13.21,Main-207-,,0,0,0,,Now why not go apologize?
+Dialogue: 50,0:10:15.17,0:10:17.38,Main-207-,,0,0,0,,I'm sorry, Old‐timer!
+Dialogue: 50,0:10:17.44,0:10:18.40,Main-207-,,0,0,0,,{\fad(0,800)}What are you doing?
+Dialogue: 50,0:10:18.44,0:10:20.03,Main-207-,,0,0,0,,{\fad(0,800)}Don't wipe that nose on me!
+Dialogue: 50,0:10:20.03,0:10:21.53,Main-207-,,0,0,0,,{\fad(0,800)}It's disgusting!
+Dialogue: 50,0:10:21.53,0:10:22.65,Main-207-,,0,0,0,,{\fad(0,800)}Idiot!
+Dialogue: 0,0:10:25.01,0:10:26.09,Main-207-,,0,0,0,,Come over here, buddy.
+Dialogue: 0,0:10:26.09,0:10:27.72,Main-207-,,0,0,0,,Dance with me.
+Dialogue: 50,0:10:27.76,0:10:29.55,Main-207-,,0,0,0,,Oh, yeah, keep it coming.
+Dialogue: 50,0:10:29.59,0:10:31.01,Main-207-,,0,0,0,,That really hits the old spot!
+Dialogue: 0,0:10:31.05,0:10:33.10,Main-207-,,0,0,0,,Eat up, everyone,\NI'm just getting started.
+Dialogue: 50,0:10:33.14,0:10:34.72,Main-207-,,0,0,0,,There's plenty more on the way!
+Dialogue: 0,0:10:34.77,0:10:36.22,Main-207-,,0,0,0,,Here!
+Dialogue: 50,0:10:36.27,0:10:37.57,Main-207-,,0,0,0,,Gotcha, ape face!
+Dialogue: 50,0:10:37.57,0:10:38.37,Main-207-,,0,0,0,,Oh, yeah!
+Dialogue: 50,0:10:38.41,0:10:40.79,Main-207-,,0,0,0,,It was hot sauce!
+Dialogue: 0,0:10:40.83,0:10:41.87,Main-207-,,0,0,0,,Come here you squirrely,
+Dialogue: 50,0:10:41.87,0:10:43.41,Main-207-,,0,0,0,,goggle eyed, little freak!
+Dialogue: 50,0:10:43.53,0:10:44.24,Main-207-,,0,0,0,,Hey, good‐looking!
+Dialogue: 50,0:10:44.28,0:10:45.24,Main-207-,,0,0,0,,You wanna sit next to me?
+Dialogue: 50,0:10:45.28,0:10:46.45,Main-207-,,0,0,0,,Whoa, shift down\Na gear, old man,
+Dialogue: 50,0:10:46.49,0:10:49.75,Main-207-,,0,0,0,,you're about a hundred years\Ntoo old to be hitting on Nami!
+Dialogue: 50,0:10:58.17,0:11:00.63,Main-207-,,0,0,0,,The skull's right eye.
+Dialogue: 50,0:11:00.69,0:11:02.63,Main-207-,,0,0,0,,That's where I saw the gold.
+Dialogue: 0,0:11:02.63,0:11:03.93,Main-207-,,0,0,0,,Gold?
+Dialogue: 50,0:11:07.30,0:11:09.06,Main-207-,,0,0,0,,Those words, smeared with tears,
+Dialogue: 50,0:11:09.08,0:11:12.54,Main-207-,,0,0,0,,are the last ones Noland\Nwrote in his log book.
+Dialogue: 0,0:11:12.62,0:11:16.16,Main-207-,,0,0,0,,The skull's right eye,\Nthat's where I saw the gold.
+Dialogue: 50,0:11:16.21,0:11:19.20,Main-207-,,0,0,0,,That very same day,\NNoland was executed.
+Dialogue: 50,0:11:19.92,0:11:22.30,Main-207-,,0,0,0,,I still don't know\Nwhat he meant by that.
+Dialogue: 50,0:11:22.30,0:11:24.13,Main-207-,,0,0,0,,Does it refer\Nto the name of a city,
+Dialogue: 50,0:11:24.18,0:11:27.51,Main-207-,,0,0,0,,or some landmark that used\Nto exist on the island?
+Dialogue: 50,0:11:27.55,0:11:31.06,Main-207-,,0,0,0,,Or is it just a poetic allusion\Nto his own impending death?
+Dialogue: 50,0:11:31.10,0:11:34.14,Main-207-,,0,0,0,,The blank pages that\Nfollow give us no clue.
+Dialogue: 50,0:11:35.61,0:11:37.53,Main-207-,,0,0,0,,And that's the reason\Nwe continue to dive
+Dialogue: 50,0:11:37.57,0:11:39.16,Main-207-,,0,0,0,,to the bottom of the sea!
+Dialogue: 50,0:11:39.20,0:11:40.79,Main-207-,,0,0,0,,We dream!
+Dialogue: 0,0:11:41.54,0:11:43.12,Main-207-,,0,0,0,,Hooray for us!
+Dialogue: 0,0:11:45.12,0:11:48.00,Main-207-,,0,0,0,,We're gonna go flying! Ha!
+Dialogue: 50,0:11:48.04,0:11:50.63,Main-207-,,0,0,0,,Not if you keep\Neating like that, we won't!
+Dialogue: 50,0:11:54.09,0:11:56.41,Main-207-,,0,0,0,,Not if you keep\Neating like that, we won't!
+Dialogue: 50,0:11:56.41,0:11:58.54,Main-207-,,0,0,0,,but I can make out\Nthe shoreline.
+Dialogue: 50,0:11:58.54,0:11:59.46,Main-207-,,0,0,0,,It's clear.
+Dialogue: 50,0:11:59.50,0:12:01.88,Main-207-,,0,0,0,,Drop anchor and prepare to land.
+Dialogue: 50,0:12:01.88,0:12:06.67,Main-207-,,0,0,0,,Golden treasure shouldn't be\Nwasted on starry‐eyed dreamers.
+Dialogue: 50,0:12:08.98,0:12:12.06,Main-207-,,0,0,0,,"Log entry for May 21st, 1122.
+Dialogue: 50,0:12:12.10,0:12:15.23,Main-207-,,0,0,0,,Today I arrived on Jaya.
+Dialogue: 50,0:12:15.27,0:12:17.40,Main-207-,,0,0,0,,Shortly after making landfall,\Nwe were startled
+Dialogue: 50,0:12:17.44,0:12:20.19,Main-207-,,0,0,0,,by the peculiar cries of\Nsome strange bird from deep
+Dialogue: 0,0:12:20.24,0:12:22.24,Main-207-,,0,0,0,,in the forest,\Nas well as the tolling
+Dialogue: 50,0:12:22.28,0:12:25.12,Main-207-,,0,0,0,,of what seemed to\Nbe an enormous bell.
+Dialogue: 50,0:12:25.12,0:12:28.16,Main-207-,,0,0,0,,The ringing of that golden bell\Nresounded far and wide,
+Dialogue: 50,0:12:28.24,0:12:30.37,Main-207-,,0,0,0,,as if announcing the\Npresence of some great
+Dialogue: 50,0:12:30.52,0:12:32.90,Main-207-,,0,0,0,,and prosperous city of the past.
+Dialogue: 50,0:12:32.94,0:12:34.77,Main-207-,,0,0,0,,It's fleeting echoes\Nthe only reminder
+Dialogue: 50,0:12:34.82,0:12:38.78,Main-207-,,0,0,0,,that this land was once home\Nto a mighty civilization."
+Dialogue: 50,0:12:41.49,0:12:43.66,Main-207-,,0,0,0,,No land! No land!
+Dialogue: 50,0:12:43.70,0:12:44.95,Main-207-,,0,0,0,,"In our pride and our arrogance,
+Dialogue: 0,0:12:44.95,0:12:48.12,Main-207-,,0,0,0,,we thought we had seen and heard\Neverything in our short lives,
+Dialogue: 50,0:12:48.16,0:12:51.46,Main-207-,,0,0,0,,but the sound of that bell\Ntolling left us all speechless.
+Dialogue: 50,0:12:51.46,0:12:52.79,Main-207-,,0,0,0,,It was as if\Nthe clang of that bell
+Dialogue: 50,0:12:52.83,0:12:55.30,Main-207-,,0,0,0,,had struck us all\Ndumb with wonder!"
+Dialogue: 0,0:12:57.96,0:13:00.71,Main-207-,,0,0,0,,Attaway, Noland!
+Dialogue: 50,0:13:00.79,0:13:02.71,Main-207-,,0,0,0,,I just love stories\Nwith bells in them,
+Dialogue: 50,0:13:02.75,0:13:03.92,Main-207-,,0,0,0,,especially gold ones!
+Dialogue: 50,0:13:03.92,0:13:04.97,Main-207-,,0,0,0,,Hey, Old‐timer, it sounds like
+Dialogue: 50,0:13:05.01,0:13:08.30,Main-207-,,0,0,0,,you just might be little\Nfond of Noland after all!
+Dialogue: 50,0:13:09.75,0:13:10.45,Main-207-,,0,0,0,,Look at this!
+Dialogue: 0,0:13:10.45,0:13:12.77,Main-207-,,0,0,0,,Wow! A golden bell!
+Dialogue: 50,0:13:13.66,0:13:15.69,Main-207-,,0,0,0,,Huh. Doesn't seem\Ntoo enormous to me.
+Dialogue: 50,0:13:16.63,0:13:18.13,Main-207-,,0,0,0,,None of these is the one Noland
+Dialogue: 50,0:13:18.17,0:13:19.80,Main-207-,,0,0,0,,was writing about\Nin his logbook.
+Dialogue: 50,0:13:19.82,0:13:21.65,Main-207-,,0,0,0,,These are bell‐shaped\Ngolden ingots we found
+Dialogue: 50,0:13:21.69,0:13:23.49,Main-207-,,0,0,0,,on the ocean\Nfloor during a dive.
+Dialogue: 50,0:13:23.56,0:13:24.35,Main-207-,,0,0,0,,Golden ingots?
+Dialogue: 0,0:13:24.40,0:13:26.90,Main-207-,,0,0,0,,The city of gold.\NHah! It is real!
+Dialogue: 50,0:13:26.95,0:13:28.82,Main-207-,,0,0,0,,It's still not proof, though.
+Dialogue: 50,0:13:28.86,0:13:31.45,Main-207-,,0,0,0,,You could find golden relics\Nlike that lying around
+Dialogue: 50,0:13:31.51,0:13:33.56,Main-207-,,0,0,0,,in any old ruin in\Nthis part of the world.
+Dialogue: 50,0:13:33.60,0:13:34.68,Main-207-,,0,0,0,,Maybe so,\Nbut it does suggest
+Dialogue: 50,0:13:34.72,0:13:37.98,Main-207-,,0,0,0,,there was a civilization\Nhere some time in the past.
+Dialogue: 50,0:13:38.09,0:13:39.48,Main-207-,,0,0,0,,Ingots are made to divide gold
+Dialogue: 50,0:13:39.48,0:13:41.48,Main-207-,,0,0,0,,into standardized\Nunits of weight.
+Dialogue: 50,0:13:41.52,0:13:44.44,Main-207-,,0,0,0,,And that would indicate an\Nadvanced trading society.
+Dialogue: 50,0:13:44.46,0:13:46.50,Main-207-,,0,0,0,,Right, and you remember\Nthat peculiar bird call
+Dialogue: 50,0:13:46.60,0:13:48.24,Main-207-,,0,0,0,,he said they heard\Nwhen they landed?
+Dialogue: 0,0:13:48.24,0:13:49.74,Main-207-,,0,0,0,,Show it to them!
+Dialogue: 50,0:13:51.66,0:13:52.48,Main-207-,,0,0,0,,There's more gold?
+Dialogue: 50,0:13:52.48,0:13:54.48,Main-207-,,0,0,0,,Just look at the size of it!
+Dialogue: 50,0:13:54.59,0:13:55.59,Main-207-,,0,0,0,,That's the last of them.
+Dialogue: 50,0:13:55.63,0:13:57.27,Main-207-,,0,0,0,,It's gorgeous!
+Dialogue: 50,0:13:57.62,0:13:59.54,Main-207-,,0,0,0,,Golden bells and birds, huh?
+Dialogue: 50,0:13:59.56,0:14:00.72,Main-207-,,0,0,0,,Do you think\Nthey might be symbols
+Dialogue: 50,0:14:00.77,0:14:02.89,Main-207-,,0,0,0,,of some ancient\NJayan civilization?
+Dialogue: 50,0:14:02.93,0:14:05.64,Main-207-,,0,0,0,,I really couldn't say\Nfor certain, but I'm pretty sure
+Dialogue: 0,0:14:05.69,0:14:08.31,Main-207-,,0,0,0,,all these pieces were\Npart of the same casting.
+Dialogue: 50,0:14:08.45,0:14:10.53,Main-207-,,0,0,0,,This creature is\Ncalled a South Bird.
+Dialogue: 50,0:14:10.62,0:14:12.95,Main-207-,,0,0,0,,You can still find them\Non this island today.
+Dialogue: 50,0:14:12.95,0:14:15.04,Main-207-,,0,0,0,,Wow, and they\Nhave a peculiar call?
+Dialogue: 50,0:14:15.04,0:14:16.87,Main-207-,,0,0,0,,Uh‐huh. Just like\Nin the logbook.
+Dialogue: 50,0:14:16.91,0:14:18.75,Main-207-,,0,0,0,,Sailors have\Nused South Birds on ships
+Dialogue: 50,0:14:18.84,0:14:21.30,Main-207-,,0,0,0,,since ancient times\Nto help them nav...
+Dialogue: 0,0:14:24.15,0:14:25.73,Main-207-,,0,0,0,,{\q2}– Oh, no!\N– Oh, no!
+Dialogue: 50,0:14:25.78,0:14:26.47,Main-207-,,0,0,0,,What's wrong?
+Dialogue: 50,0:14:26.94,0:14:27.90,Main-207-,,0,0,0,,This is really bad!
+Dialogue: 50,0:14:27.94,0:14:28.81,Main-207-,,0,0,0,,You guys gotta get to the forest
+Dialogue: 50,0:14:28.81,0:14:30.89,Main-207-,,0,0,0,,on the south side of\Nthe island right away!
+Dialogue: 50,0:14:30.93,0:14:32.77,Main-207-,,0,0,0,,Huh? What do you mean?
+Dialogue: 50,0:14:32.77,0:14:33.73,Main-207-,,0,0,0,,Are you crazy?
+Dialogue: 50,0:14:33.77,0:14:34.81,Main-207-,,0,0,0,,Don't waste a minute,
+Dialogue: 50,0:14:34.82,0:14:36.66,Main-207-,,0,0,0,,you gotta capture one\Nof these birds and quickly!
+Dialogue: 50,0:14:36.68,0:14:37.90,Main-207-,,0,0,0,,How come? Why?
+Dialogue: 50,0:14:37.94,0:14:39.56,Main-207-,,0,0,0,,What do we need the bird for?
+Dialogue: 50,0:14:39.61,0:14:41.19,Main-207-,,0,0,0,,Now listen carefully!
+Dialogue: 50,0:14:41.23,0:14:43.48,Main-207-,,0,0,0,,Tomorrow you're going to\Nsail for the Knock‐Up Stream.
+Dialogue: 50,0:14:43.48,0:14:45.19,Main-207-,,0,0,0,,It lies directly south of here.
+Dialogue: 50,0:14:45.24,0:14:47.15,Main-207-,,0,0,0,,How are you going to get there?
+Dialogue: 50,0:14:49.62,0:14:52.20,Main-207-,,0,0,0,,We just sail the ship\Ndue south, of course.
+Dialogue: 50,0:14:52.26,0:14:53.97,Main-207-,,0,0,0,,Have you forgotten\Nthis is the Grand Line?
+Dialogue: 50,0:14:54.02,0:14:55.57,Main-207-,,0,0,0,,You're heading for open sea!
+Dialogue: 50,0:14:55.61,0:14:57.20,Main-207-,,0,0,0,,You won't be able\Nto get your bearings.
+Dialogue: 50,0:14:57.58,0:14:58.83,Main-207-,,0,0,0,,Wait, he's right.
+Dialogue: 50,0:14:58.87,0:15:01.87,Main-207-,,0,0,0,,Without a landmass to lock onto,\Nthe Log Pose will be useless,
+Dialogue: 50,0:15:02.07,0:15:03.51,Main-207-,,0,0,0,,and there'll be no way\Nfor us to navigate.
+Dialogue: 50,0:15:04.07,0:15:04.95,Main-207-,,0,0,0,,But there's got to be some way
+Dialogue: 50,0:15:04.95,0:15:07.36,Main-207-,,0,0,0,,we can figure out\Nwhich direction to sail.
+Dialogue: 50,0:15:07.41,0:15:10.47,Main-207-,,0,0,0,,There is if you can lay your\Nhands on one of these birds!
+Dialogue: 50,0:15:10.55,0:15:12.26,Main-207-,,0,0,0,,Certain animals\Nare known to have
+Dialogue: 50,0:15:12.30,0:15:14.43,Main-207-,,0,0,0,,a very accurate internal\Nsense of direction,
+Dialogue: 50,0:15:14.45,0:15:16.25,Main-207-,,0,0,0,,as if they're born\Nwith a natural compass.
+Dialogue: 50,0:15:17.67,0:15:19.96,Main-207-,,0,0,0,,That makes Zoro\Ndumber than an animal!
+Dialogue: 50,0:15:20.33,0:15:22.59,Main-207-,,0,0,0,,Oh yeah right, like\Nyou have any room to talk.
+Dialogue: 50,0:15:22.63,0:15:24.26,Main-207-,,0,0,0,,The South Bird\Nis a perfect example
+Dialogue: 50,0:15:24.30,0:15:25.84,Main-207-,,0,0,0,,of this kind of creature.
+Dialogue: 50,0:15:27.80,0:15:29.62,Main-207-,,0,0,0,,In the middle\Nof a vast, barren plain
+Dialogue: 0,0:15:29.62,0:15:30.66,Main-207-,,0,0,0,,or a trackless ocean,
+Dialogue: 0,0:15:30.66,0:15:34.66,Main-207-,,0,0,0,,its body will always point\Nin the same direction.
+Dialogue: 0,0:15:34.83,0:15:36.50,Main-207-,,0,0,0,,Ohhh...
+Dialogue: 50,0:15:36.54,0:15:37.54,Main-207-,,0,0,0,,You see?
+Dialogue: 50,0:15:37.54,0:15:38.96,Main-207-,,0,0,0,,If you don't get going\Nto that forest and catch
+Dialogue: 50,0:15:39.00,0:15:40.88,Main-207-,,0,0,0,,one of those birds right\Nnow, you'll have to kiss
+Dialogue: 50,0:15:40.88,0:15:42.96,Main-207-,,0,0,0,,you're only chance to get\Nto sky island goodbye!
+Dialogue: 0,0:15:43.00,0:15:44.26,Main-207-,,0,0,0,,Aaah!
+Dialogue: 50,0:15:44.30,0:15:46.72,Main-207-,,0,0,0,,And you're just\Ntelling us this now?
+Dialogue: 0,0:15:46.88,0:15:49.16,Main-207-,,0,0,0,,Quit your whining!
+Dialogue: 50,0:15:49.76,0:15:51.01,Main-207-,,0,0,0,,There's no time for that now!
+Dialogue: 50,0:15:51.05,0:15:51.89,Main-207-,,0,0,0,,Go!
+Dialogue: 50,0:15:51.93,0:15:52.97,Main-207-,,0,0,0,,Move it or lose it!
+Dialogue: 50,0:15:53.01,0:15:54.52,Main-207-,,0,0,0,,You expect us to go\Nstumbling through the forest
+Dialogue: 50,0:15:54.56,0:15:55.72,Main-207-,,0,0,0,,in the middle of the night?
+Dialogue: 50,0:15:55.74,0:15:57.40,Main-207-,,0,0,0,,Don't forget these!
+Dialogue: 0,0:15:58.82,0:16:00.66,Main-207-,,0,0,0,,The three of us are gonna\Nget started on the repairs
+Dialogue: 50,0:16:00.79,0:16:02.62,Main-207-,,0,0,0,,to your broken‐down ship.
+Dialogue: 50,0:16:02.67,0:16:03.83,Main-207-,,0,0,0,,You know,\Nnow that I think about it,
+Dialogue: 50,0:16:03.85,0:16:05.81,Main-207-,,0,0,0,,we probably shouldn't\Nhave had that party.
+Dialogue: 50,0:16:05.88,0:16:08.01,Main-207-,,0,0,0,,Oh, sure, now you tell us!
+Dialogue: 0,0:16:08.01,0:16:09.55,Main-207-,,0,0,0,,{\q2}Listen! The clock's ticking.
+Dialogue: 50,0:16:09.55,0:16:13.71,Main-207-,,0,0,0,,{\q2}You have until morning to catch a South Bird\Nor you can forget about the whole thing!
+Dialogue: 50,0:16:14.29,0:16:15.79,Main-207-,,0,0,0,,Whoa, it's pitch black!
+Dialogue: 50,0:16:15.83,0:16:18.21,Main-207-,,0,0,0,,Will you let\Ngo of me, you idiot?
+Dialogue: 50,0:16:21.15,0:16:23.44,Main-207-,,0,0,0,,My stomach's still\Nso stuffed from that dinner.
+Dialogue: 50,0:16:24.97,0:16:27.64,Main-207-,,0,0,0,,I couldn't catch\Na bird if I saw one.
+Dialogue: 0,0:16:27.68,0:16:29.68,Main-207-,,0,0,0,,So where are they?
+Dialogue: 50,0:16:30.14,0:16:32.77,Main-207-,,0,0,0,,Let's just catch one of\N'em and get back to drinkin'.
+Dialogue: 50,0:16:32.81,0:16:35.77,Main-207-,,0,0,0,,Will someone remind me how\Nwe ended up in this mess?
+Dialogue: 0,0:16:35.81,0:16:36.65,Main-207-,,0,0,0,,Move it!
+Dialogue: 50,0:16:36.65,0:16:37.98,Main-207-,,0,0,0,,Man, he couldn't\Ntell us in the daylight,
+Dialogue: 50,0:16:38.01,0:16:40.59,Main-207-,,0,0,0,,it had to be the\Nmiddle of the night.
+Dialogue: 50,0:16:40.63,0:16:41.51,Main-207-,,0,0,0,,Where are the birds?
+Dialogue: 50,0:16:41.62,0:16:43.12,Main-207-,,0,0,0,,If I had any idea\Nwhere the birds were,
+Dialogue: 50,0:16:43.17,0:16:45.46,Main-207-,,0,0,0,,do you think we'd out\Nhere looking for them?
+Dialogue: 50,0:16:45.50,0:16:47.75,Main-207-,,0,0,0,,All we know is this\Nthing's got a peculiar call.
+Dialogue: 50,0:16:47.75,0:16:48.67,Main-207-,,0,0,0,,Yeah, and it looks
+Dialogue: 50,0:16:48.74,0:16:50.70,Main-207-,,0,0,0,,just like that gold statue\Nhe showed us.
+Dialogue: 50,0:16:50.71,0:16:52.13,Main-207-,,0,0,0,,It's kinda hard\Nfor me to believe any bird
+Dialogue: 50,0:16:52.17,0:16:54.14,Main-207-,,0,0,0,,could be that screwy\Nlooking in real life.
+Dialogue: 50,0:16:54.18,0:16:56.97,Main-207-,,0,0,0,,Anyway, saying it has\Na peculiar call is too vague,
+Dialogue: 50,0:16:57.04,0:16:58.50,Main-207-,,0,0,0,,we can't I. D. it from that!
+Dialogue: 50,0:16:58.54,0:17:00.00,Main-207-,,0,0,0,,Well, the old coot\Ndidn't seem to think
+Dialogue: 50,0:17:00.06,0:17:01.77,Main-207-,,0,0,0,,we'd have any\Ntrouble finding one.
+Dialogue: 0,0:17:01.81,0:17:03.81,Main-207-,,0,0,0,,Duuuuu!
+Dialogue: 50,0:17:03.85,0:17:06.10,Main-207-,,0,0,0,,Hey! That sounded peculiar!
+Dialogue: 50,0:17:06.10,0:17:07.06,Main-207-,,0,0,0,,Oh, ya think?
+Dialogue: 50,0:17:07.10,0:17:08.19,Main-207-,,0,0,0,,Yeah!
+Dialogue: 50,0:17:08.23,0:17:10.56,Main-207-,,0,0,0,,Well, we're here. Let's do it\Nand get it over with!
+Dialogue: 50,0:17:10.57,0:17:11.72,Main-207-,,0,0,0,,Three nets, three teams.
+Dialogue: 50,0:17:11.72,0:17:13.10,Main-207-,,0,0,0,,Let's split up\Nand bag that bird!
+Dialogue: 50,0:17:13.12,0:17:14.33,Main-207-,,0,0,0,,{\q2}– Right!\N– Right!
+Dialogue: 50,0:17:14.36,0:17:15.06,Main-207-,,0,0,0,,Let's go!
+Dialogue: 50,0:17:15.06,0:17:18.35,Main-207-,,0,0,0,,We're gonna beat up a bird!
+Dialogue: 50,0:17:18.36,0:17:20.85,Main-207-,,0,0,0,,We're trying to catch it!
+Dialogue: 50,0:17:26.54,0:17:27.67,Main-207-,,0,0,0,,Don't worry, Nami‐baby,
+Dialogue: 50,0:17:27.80,0:17:30.51,Main-207-,,0,0,0,,no matter what we run into,\NI'm here to protect you.
+Dialogue: 50,0:17:30.55,0:17:31.75,Main-207-,,0,0,0,,Me too, Sanji‐lump?
+Dialogue: 50,0:17:31.75,0:17:34.38,Main-207-,,0,0,0,,Will you suck it up\Nand stop being such a wuss?
+Dialogue: 0,0:17:34.38,0:17:35.34,Main-207-,,0,0,0,,Come on, guys,
+Dialogue: 50,0:17:35.38,0:17:38.26,Main-207-,,0,0,0,,let's catch that bird\Nand get out of here!
+Dialogue: 50,0:17:38.30,0:17:39.22,Main-207-,,0,0,0,,Okay, let's all settle down
+Dialogue: 50,0:17:39.26,0:17:42.64,Main-207-,,0,0,0,,and see if we can hear\Nthat bird's call again.
+Dialogue: 0,0:17:42.68,0:17:44.27,Main-207-,,0,0,0,,Chee‐awww!
+Dialogue: 50,0:17:44.29,0:17:45.79,Main-207-,,0,0,0,,Hey, there it is!
+Dialogue: 0,0:17:45.83,0:17:47.38,Main-207-,,0,0,0,,Chee‐aw!
+Dialogue: 50,0:17:47.42,0:17:48.55,Main-207-,,0,0,0,,Come on out!
+Dialogue: 50,0:17:48.55,0:17:49.30,Main-207-,,0,0,0,,Moron!
+Dialogue: 0,0:17:49.35,0:17:51.31,Main-207-,,0,0,0,,Chee‐aaw!
+Dialogue: 50,0:17:51.35,0:17:52.89,Main-207-,,0,0,0,,Hey, why are you catching me?
+Dialogue: 50,0:17:52.97,0:17:55.43,Main-207-,,0,0,0,,Huh? Hey, nice\Naccessorizing there, Nami!
+Dialogue: 50,0:17:55.47,0:17:56.68,Main-207-,,0,0,0,,Where'd you get that thing?
+Dialogue: 0,0:17:56.72,0:17:59.65,Main-207-,,0,0,0,,What thing? Ah!
+Dialogue: 0,0:17:59.65,0:18:01.49,Main-207-,,0,0,0,,Spider!
+Dialogue: 50,0:18:02.95,0:18:04.74,Main-207-,,0,0,0,,What, it's just a spider.
+Dialogue: 50,0:18:04.78,0:18:06.37,Main-207-,,0,0,0,,Come here, you poor thing.
+Dialogue: 50,0:18:06.37,0:18:08.29,Main-207-,,0,0,0,,I hate spiders, you idiot!
+Dialogue: 50,0:18:08.33,0:18:09.92,Main-207-,,0,0,0,,Throw that thing away!
+Dialogue: 50,0:18:09.96,0:18:12.50,Main-207-,,0,0,0,,Get rid of it, Usopp,\Nit's gotta be poisonous!
+Dialogue: 50,0:18:12.54,0:18:15.25,Main-207-,,0,0,0,,Ahh! They're falling\Nfrom the trees!
+Dialogue: 50,0:18:15.40,0:18:17.41,Main-207-,,0,0,0,,This is, just, too nasty.
+Dialogue: 50,0:18:17.73,0:18:19.90,Main-207-,,0,0,0,,I bet you're a\Nspecies of tarantula!
+Dialogue: 50,0:18:19.95,0:18:22.08,Main-207-,,0,0,0,,Don't worry, you guys,\Nthey don't bite you
+Dialogue: 50,0:18:22.18,0:18:23.78,Main-207-,,0,0,0,,unless you make them\Nangry or frighten them.
+Dialogue: 50,0:18:24.01,0:18:26.22,Main-207-,,0,0,0,,I used to wrestle with spiders\Nlike this all the time.
+Dialogue: 50,0:18:26.33,0:18:27.75,Main-207-,,0,0,0,,Are you outta\Nyour tiny little mind?
+Dialogue: 50,0:18:27.79,0:18:30.25,Main-207-,,0,0,0,,Hairy bugs like that\Ncompletely freak me out!
+Dialogue: 50,0:18:30.30,0:18:31.17,Main-207-,,0,0,0,,Yeah, me too!
+Dialogue: 50,0:18:31.21,0:18:32.59,Main-207-,,0,0,0,,They make my flesh crawl!
+Dialogue: 50,0:18:32.64,0:18:34.26,Main-207-,,0,0,0,,Throw it away, I can't stand it!
+Dialogue: 50,0:18:34.26,0:18:35.13,Main-207-,,0,0,0,,Oh, really?
+Dialogue: 50,0:18:35.18,0:18:36.34,Main-207-,,0,0,0,,But you don't seem\Nto have any problem
+Dialogue: 0,0:18:36.39,0:18:39.60,Main-207-,,0,0,0,,with those centipedes and\Nmoths on the tree behind you.
+Dialogue: 50,0:18:46.58,0:18:47.92,Main-207-,,0,0,0,,I hate those things too!
+Dialogue: 50,0:18:50.41,0:18:52.75,Main-207-,,0,0,0,,Wait! Don't leave me here alone!
+Dialogue: 0,0:18:52.76,0:18:54.72,Main-207-,,0,0,0,,Wait!
+Dialogue: 50,0:18:54.73,0:18:56.57,Main-207-,,0,0,0,,That sounded like\Nsomeone screaming.
+Dialogue: 50,0:18:56.64,0:18:57.89,Main-207-,,0,0,0,,Really?
+Dialogue: 0,0:19:02.52,0:19:05.36,Main-207-,,0,0,0,,A centipede, and a big one.
+Dialogue: 50,0:19:05.40,0:19:07.57,Main-207-,,0,0,0,,You don't have to kill every\Nliving thing we meet,
+Dialogue: 50,0:19:07.61,0:19:08.94,Main-207-,,0,0,0,,it's kind of rude.
+Dialogue: 50,0:19:08.97,0:19:12.56,Main-207-,,0,0,0,,Yeah, well, he shouldn't\Nhave snuck up on me.
+Dialogue: 50,0:19:12.60,0:19:13.47,Main-207-,,0,0,0,,Hey, wait!
+Dialogue: 50,0:19:13.52,0:19:14.56,Main-207-,,0,0,0,,Now what?
+Dialogue: 50,0:19:14.66,0:19:17.08,Main-207-,,0,0,0,,You're going back\Nthe way we came.
+Dialogue: 0,0:19:17.08,0:19:19.62,Main-207-,,0,0,0,,Duuuuu!
+Dialogue: 50,0:19:19.64,0:19:20.76,Main-207-,,0,0,0,,There it is again!
+Dialogue: 0,0:19:20.83,0:19:22.75,Main-207-,,0,0,0,,Come on!
+Dialogue: 50,0:19:22.78,0:19:25.70,Main-207-,,0,0,0,,And be careful not\Nto step in the quicksand.
+Dialogue: 50,0:19:27.24,0:19:28.95,Main-207-,,0,0,0,,Hey! Wait for...
+Dialogue: 0,0:19:33.43,0:19:34.40,Main-207-,,0,0,0,,I gotcha!
+Dialogue: 50,0:19:35.95,0:19:37.11,Main-207-,,0,0,0,,It's an Atlas!
+Dialogue: 50,0:19:37.21,0:19:38.13,Main-207-,,0,0,0,,Atlas?
+Dialogue: 50,0:19:38.17,0:19:40.09,Main-207-,,0,0,0,,That's right. This one\Nand the Hercules beetle
+Dialogue: 0,0:19:40.13,0:19:41.71,Main-207-,,0,0,0,,are some of the\Nmost prized insects
+Dialogue: 50,0:19:41.75,0:19:43.47,Main-207-,,0,0,0,,in the world for collectors!
+Dialogue: 50,0:19:43.51,0:19:45.54,Main-207-,,0,0,0,,You mean there are\Npeople who collect insects?
+Dialogue: 50,0:19:45.54,0:19:46.50,Main-207-,,0,0,0,,Oh, yeah!
+Dialogue: 50,0:19:46.54,0:19:48.08,Main-207-,,0,0,0,,And these guys are some\Nof the hardest to catch!
+Dialogue: 50,0:19:48.08,0:19:50.84,Main-207-,,0,0,0,,Hey, which one is cooler,\Nthat bug or the One Piece?
+Dialogue: 50,0:19:50.88,0:19:53.16,Main-207-,,0,0,0,,Ah! That's a tough one!
+Dialogue: 50,0:19:53.16,0:19:55.41,Main-207-,,0,0,0,,Luffy!\NThere's one over here too!
+Dialogue: 0,0:19:55.42,0:19:56.12,Main-207-,,0,0,0,,Oh, yeah!
+Dialogue: 50,0:19:56.12,0:19:57.95,Main-207-,,0,0,0,,A Miyama stag beetle!
+Dialogue: 50,0:19:57.98,0:19:59.48,Main-207-,,0,0,0,,Gotta catch it!
+Dialogue: 0,0:20:00.31,0:20:01.69,Main-207-,,0,0,0,,He flew away!
+Dialogue: 0,0:20:03.06,0:20:05.61,Main-207-,,0,0,0,,Duuuuu!
+Dialogue: 50,0:20:05.65,0:20:08.07,Main-207-,,0,0,0,,After him!\NDon't let him get away!
+Dialogue: 0,0:20:09.11,0:20:11.86,Main-207-,,0,0,0,,A beehive! Run!
+Dialogue: 50,0:20:23.92,0:20:27.50,Main-207-,,0,0,0,,What the heck\Nis wrong with this forest?
+Dialogue: 0,0:20:27.55,0:20:29.50,Main-207-,,0,0,0,,Luffy, look up there!
+Dialogue: 50,0:20:29.55,0:20:30.42,Main-207-,,0,0,0,,The bird!
+Dialogue: 50,0:20:30.56,0:20:31.98,Main-207-,,0,0,0,,He's the one\Nwho dropped the beehives!
+Dialogue: 50,0:20:32.02,0:20:34.52,Main-207-,,0,0,0,,Duuu! Duuu!
+Dialogue: 50,0:20:34.65,0:20:35.90,Main-207-,,0,0,0,,What'd he say?\NWhat'd he say?
+Dialogue: 50,0:20:35.97,0:20:38.05,Main-207-,,0,0,0,,Did you understand him?
+Dialogue: 0,0:20:38.10,0:20:39.22,Main-207-,,0,0,0,,Uhh.
+Dialogue: 50,0:20:39.22,0:20:42.14,Main-207-,,0,0,0,,He said, "I'll kill anyone\Nwho disturbs this forest!"
+Dialogue: 50,0:20:53.86,0:20:54.99,Main-207-,,0,0,0,,Now, now, little boy,
+Dialogue: 50,0:20:55.03,0:20:57.78,Main-207-,,0,0,0,,you don't really want to go\Nand make us angry, do you?
+Dialogue: 50,0:20:57.82,0:20:59.95,Main-207-,,0,0,0,,It's not nice to show\Nup in the middle of the night
+Dialogue: 50,0:21:00.16,0:21:02.37,Main-207-,,0,0,0,,and demand gold from someone.
+Dialogue: 0,0:21:02.80,0:21:04.76,Main-207-,,0,0,0,,Now get lost,\Nwe've got a lot of work to do
+Dialogue: 0,0:21:04.80,0:21:06.10,Main-207-,,0,0,0,,and not a lot of time to do it.
+Dialogue: 50,0:21:07.35,0:21:09.14,Main-207-,,0,0,0,,You must be the bodyguards.
+Dialogue: 50,0:21:09.14,0:21:12.23,Main-207-,,0,0,0,,And the old man must be\Nthe ex‐pirate Cricket.
+Dialogue: 50,0:21:12.29,0:21:13.21,Main-207-,,0,0,0,,I heard the sad story
+Dialogue: 50,0:21:13.25,0:21:15.96,Main-207-,,0,0,0,,of the Mont Blanc family\Nback at the tavern.
+Dialogue: 50,0:21:15.96,0:21:17.92,Main-207-,,0,0,0,,It moved me to tears.
+Dialogue: 50,0:21:17.94,0:21:21.39,Main-207-,,0,0,0,,But stealing another man's\Ntreasure moves me even more.
+Dialogue: 50,0:21:21.39,0:21:23.72,Main-207-,,0,0,0,,I'm a pirate. Ha!
+Dialogue: 50,0:21:23.77,0:21:24.73,Main-207-,,0,0,0,,Cricket!
+Dialogue: 50,0:21:24.73,0:21:26.06,Main-207-,,0,0,0,,Maybe you'd like to\Nknow what people call me
+Dialogue: 50,0:21:26.10,0:21:28.15,Main-207-,,0,0,0,,before I take your\Nwhole life's work.
+Dialogue: 50,0:21:28.19,0:21:30.19,Main-207-,,0,0,0,,The Hyena!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=21}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=22}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:01:49.76,0:01:54.68,Title-207-,,0,0,0,,{\blur0.8\fad(725,1025)\bord1.7\c&H000000&\1a&HFF&\t(684,725,\1a&H00&)\t(3854,3895,\1a&HFF&)}Let's Eat
+Dialogue: 1,0:01:49.76,0:01:54.68,Title-207-,,0,0,0,,{\blur0.7\fad(725,1025)\c&HE7E6E5&\bord0\4a&HFF&}Let's Eat
+Dialogue: 1,0:17:24.77,0:17:30.15,Captions-207-,,0,0,0,,{\fad(524,0)\bord1\blur15\1a&HFF&\fnDFPGiHi-W7-Strp\fs80\pos(720,600)}Team 1\NSanji - Usopp - Nami
+Dialogue: 2,0:17:24.77,0:17:30.15,Captions-207-,,0,0,0,,{\fad(524,0)\shad0\bord0\blur0.6\fnDFPGiHi-W7-Strp\fs80\pos(720,600)}Team 1\NSanji - Usopp - Nami
+Dialogue: 1,0:18:54.11,0:18:57.24,Captions-207-,,0,0,0,,{\fad(482,0)\bord1\blur20\1a&HFF&\fnDFPGiHi-W7-Strp\fs80\pos(720,600)}Team 2\NZoro - Robin
+Dialogue: 2,0:18:54.11,0:18:57.24,Captions-207-,,0,0,0,,{\fad(482,0)\shad0\bord0\blur0.6\fnDFPGiHi-W7-Strp\fs80\pos(720,600)}Team 2\NZoro - Robin
+Dialogue: 1,0:19:35.70,0:19:40.28,Captions-207-,,0,0,0,,{\fad(475,476)\bord1\blur15\1a&HFF&\fnDFPGiHi-W7-Strp\fs80\pos(720,570)}Team 3\NLuffy - Chopper
+Dialogue: 2,0:19:35.70,0:19:40.28,Captions-207-,,0,0,0,,{\fad(475,476)\shad0\bord0\blur0.6\fnDFPGiHi-W7-Strp\fs80\pos(720,570)}Team 3\NLuffy - Chopper
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=23}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=24}===============================CREDITS==============================
+Dialogue: 0,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Video Editing
+Dialogue: 0,0:00:05.28,0:00:07.78,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Sewil
+Dialogue: 0,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Graphics
+Dialogue: 0,0:00:07.78,0:00:10.28,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Datenshi
+Dialogue: 0,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Quality Control
+Dialogue: 0,0:00:10.29,0:00:12.79,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Galaxy 9000\NPepperjack\NZenef\NPhosCity
+Dialogue: 0,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Karaoke
+Dialogue: 0,0:00:12.79,0:00:15.29,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}KaitouYahiko
+Dialogue: 0,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Soundtracking
+Dialogue: 0,0:00:15.29,0:00:17.79,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}Halee
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Timing
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}NateTheBird
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\pos(44,259)\fscx120\fscy120\bord3.3}Typesetting
+Dialogue: 0,0:00:17.79,0:00:20.29,Credits-207-,,0,0,0,,{\pos(89,320)\fscx145\fscy145\bord3.5}Gab
+Dialogue: 0,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Dubtitles
+Dialogue: 0,0:00:20.30,0:00:22.92,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}NateTheBird
+Dialogue: 0,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\pos(44,59)\fscx120\fscy120\bord3.3}Translation
+Dialogue: 0,0:00:22.92,0:00:25.42,Credits-207-,,0,0,0,,{\pos(89,120)\fscx145\fscy145\bord3.5}arch1t3cht\NFunimation\NGaijin\NPamkinPinguin\Nrangicus
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=25}===============================CREDITS==============================
+
+
+[aegisub extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 6,_aegi_folddata,e0;1;3
+Data: 7,_aegi_folddata,e1;1;3
+Data: 8,_aegi_folddata,e0;1;4
+Data: 9,_aegi_folddata,e1;1;4
+Data: 10,_aegi_folddata,e0;0;4
+Data: 11,_aegi_folddata,e1;0;4
+Data: 12,_aegi_folddata,e0;0;3
+Data: 13,_aegi_folddata,e1;0;3
+Data: 14,_aegi_folddata,e0;0;2
+Data: 15,_aegi_folddata,e1;0;2
+Data: 16,_aegi_folddata,e0;0;1
+Data: 17,_aegi_folddata,e1;0;1
+Data: 18,_aegi_folddata,e0;1;5
+Data: 19,_aegi_folddata,e1;1;5
+Data: 20,_aegi_folddata,e0;1;6
+Data: 21,_aegi_folddata,e1;1;6
+Data: 22,_aegi_folddata,e0;1;7
+Data: 23,_aegi_folddata,e1;1;7
+Data: 24,_aegi_folddata,e0;1;8
+Data: 25,_aegi_folddata,e1;1;8
