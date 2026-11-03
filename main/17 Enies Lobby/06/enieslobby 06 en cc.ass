@@ -1,0 +1,1370 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Note-207+,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,3.75,3.75,8,300,300,27,1
+Style: Karaoke-furigana,Duality,45,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,2.25,0,8,15,15,15,1
+Style: Lyrics-furigana,FOT-Greco Std B Strp,29.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1.75,0,2,15,15,23,1
+Style: Lyrics,FOT-Greco Std B Strp,59,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,3.5,0,2,15,15,23,1
+Style: Kanji-furigana,Duality,45,&H00E24B33,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,15,15,120,1
+Style: Karaoke,Duality,90,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,4.5,0,8,15,15,15,1
+Style: Kanji,Duality,75,&H00E24B33,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,8,15,15,150,1
+Style: Romaji ED,BlackChancery,75,&H00272761,&H000000FF,&H00E0E0E0,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,9,50,50,20,1
+Style: Translation ED,BlackChancery,75,&H00272761,&H000000FF,&H00E0E0E0,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,3,50,50,20,1
+Style: Episode-Title-207+,M+ 1c Pace,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:50.01,0:02:00.00,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 50,0:02:11.68,0:02:13.65,Main-207+,,0,0,0,,What? No!
+Dialogue: 50,0:02:13.65,0:02:15.12,Main-207+,,0,0,0,,Gomorrah can't see!
+Dialogue: 50,0:02:15.12,0:02:17.06,Main-207+,,0,0,0,,His retinas were\Ndamaged in that last attack!
+Dialogue: 50,0:02:17.06,0:02:18.19,Main-207+,,0,0,0,,He's blind!
+Dialogue: 50,0:02:21.09,0:02:21.84,Main-207+,,0,0,0,,What's that?
+Dialogue: 50,0:02:21.84,0:02:22.65,Main-207+,,0,0,0,,Gomorrah!
+Dialogue: 50,0:02:22.65,0:02:24.15,Main-207+,,0,0,0,,You can't see anything?
+Dialogue: 50,0:02:28.02,0:02:29.75,Main-207+,,0,0,0,,[OFFICIAL]\NIt started running like crazy!
+Dialogue: 50,0:02:29.75,0:02:30.72,Main-207+,,0,0,0,,[MARINE]\NDon't just stand there!
+Dialogue: 50,0:02:30.72,0:02:31.42,Main-207+,,0,0,0,,Shoot it!
+Dialogue: 50,0:02:31.42,0:02:32.69,Main-207+,,0,0,0,,We gotta stop that thing!
+Dialogue: 50,0:02:32.69,0:02:34.10,Main-207+,,0,0,0,,[OFFICIAL]\NWe can't let it go any further!
+Dialogue: 50,0:02:34.10,0:02:35.93,Main-207+,,0,0,0,,Fire the trench mortars!
+Dialogue: 50,0:02:38.32,0:02:39.69,Main-207+,,0,0,0,,[MOZU]\NGomorrah, don't do this!
+Dialogue: 50,0:02:39.69,0:02:40.43,Main-207+,,0,0,0,,Please stop!
+Dialogue: 50,0:02:40.43,0:02:42.13,Main-207+,,0,0,0,,[KIWI]\NYou're in no shape to go on!
+Dialogue: 50,0:02:42.13,0:02:43.73,Main-207+,,0,0,0,,You'll kill yourself!
+Dialogue: 50,0:02:46.10,0:02:50.11,Main-207+,,0,0,0,,[CHOPPER]\NHe said that he made\Na promise to Sodom.
+Dialogue: 50,0:02:51.24,0:02:55.04,Main-207+,,0,0,0,,He told Sodom "Leave the rest to me!"
+Dialogue: 50,0:02:55.04,0:02:59.05,Main-207+,,0,0,0,,"I'll take on your share and carry\Neveryone the rest of the way!"
+Dialogue: 50,0:03:00.35,0:03:02.02,Main-207+,,0,0,0,,Gomorrah.
+Dialogue: 50,0:03:05.93,0:03:08.14,Flashbacks-207+,,0,0,0,,[FRANKY]\NThey were in its stomach?
+Dialogue: 50,0:03:08.14,0:03:11.44,Flashbacks-207+,,0,0,0,,I'm full already...couldn't\Neat another bite.
+Dialogue: 50,0:03:11.44,0:03:14.44,Flashbacks-207+,,0,0,0,,Let's take 'em with us as back-up food.
+Dialogue: 50,0:03:16.51,0:03:18.08,Flashbacks-207+,,0,0,0,,Big Bro! Come here, quick!
+Dialogue: 50,0:03:18.08,0:03:21.55,Flashbacks-207+,,0,0,0,,Some pirates gave Sodom and\NGomorrah a serious beating!
+Dialogue: 50,0:03:22.08,0:03:23.88,Flashbacks-207+,,0,0,0,,You pirates have got a lotta nerve!
+Dialogue: 50,0:03:23.88,0:03:25.68,Flashbacks-207+,,0,0,0,,Never touch my family!
+Dialogue: 50,0:03:31.56,0:03:32.26,Flashbacks-207+,,0,0,0,,[FRANKY]\NHey!
+Dialogue: 50,0:03:32.26,0:03:33.82,Flashbacks-207+,,0,0,0,,Take it easy, you two!
+Dialogue: 50,0:03:33.82,0:03:35.29,Flashbacks-207+,,0,0,0,,You're still injured!
+Dialogue: 50,0:03:35.29,0:03:37.53,Flashbacks-207+,,0,0,0,,This is no time for a dance party!
+Dialogue: 50,0:03:42.38,0:03:43.08,Main-207+,,0,0,0,,Look!
+Dialogue: 50,0:03:43.08,0:03:43.78,Main-207+,,0,0,0,,[FAMILY MAN]\NWe're headed straight for a dead end!
+Dialogue: 50,0:03:44.30,0:03:46.39,Main-207+,,0,0,0,,He'll crash into it and die!
+Dialogue: 50,0:03:46.39,0:03:47.46,Main-207+,,0,0,0,,[ZAMBAI]\NGomorrah! Stop it!
+Dialogue: 50,0:03:47.46,0:03:50.86,Main-207+,,0,0,0,,You'll never make it! Stop!
+Dialogue: 50,0:03:52.59,0:03:53.73,Main-207+,,0,0,0,,[ZORO]\NA dead end?
+Dialogue: 50,0:03:53.73,0:03:54.70,Main-207+,,0,0,0,,I don't see one.
+Dialogue: 50,0:03:54.70,0:03:55.43,Main-207+,,0,0,0,,Do you?
+Dialogue: 50,0:03:55.43,0:03:56.73,Main-207+,,0,0,0,,Nope.
+Dialogue: 50,0:03:56.73,0:03:58.90,Main-207+,,0,0,0,,[SANJI]\NCan't say I see anything of the sort.
+Dialogue: 50,0:04:35.44,0:04:36.58,Main-207+,,0,0,0,,It's the Courthouse!
+Dialogue: 50,0:04:36.58,0:04:38.98,Main-207+,,0,0,0,,[FAMILY MEN]\NHe did it!
+Dialogue: 50,0:04:43.08,0:04:46.12,Main-207+,,0,0,0,,You made it, Gomorrah!
+Dialogue: 50,0:04:47.66,0:04:48.83,Main-207+,,0,0,0,,[MARINE]\NAll units!
+Dialogue: 50,0:04:49.49,0:04:52.46,Main-207+,,0,0,0,,{\an8}The King Bull carrying the\Npirates broke through Block D
+Dialogue: 50,0:04:52.46,0:04:54.59,Main-207+,,0,0,0,,{\an8}and they are now at\Nthe Courthouse Plaza!
+Dialogue: 50,0:04:55.03,0:04:55.73,Main-207+,,0,0,0,,I repeat!
+Dialogue: 50,0:04:55.73,0:04:59.10,Main-207+,,0,0,0,,The King Bull carrying\Nthe pirates broke through...
+Dialogue: 50,0:05:01.17,0:05:03.46,Main-207+,,0,0,0,,[SPANDAM]\NLook at this, Funkfreed.
+Dialogue: 50,0:05:06.88,0:05:09.42,Main-207+,,0,0,0,,[SPANDAM]\NA Golden Transponder Snail.
+Dialogue: 50,0:05:09.42,0:05:11.35,Main-207+,,0,0,0,,Having this little gadget is the same
+Dialogue: 50,0:05:11.35,0:05:14.42,Main-207+,,0,0,0,,as having the authority\Nto issue a Buster Call.
+Dialogue: 50,0:05:15.11,0:05:17.66,Main-207+,,0,0,0,,That means I have the\Nsame power as a Navy admiral,
+Dialogue: 50,0:05:17.66,0:05:20.93,Main-207+,,0,0,0,,or someone even higher up than that!
+Dialogue: 50,0:05:20.93,0:05:23.27,Main-207+,,0,0,0,,Admiral Aokiji entrusted it to me.
+Dialogue: 50,0:05:23.27,0:05:26.14,Main-207+,,0,0,0,,The question is\N"if and when will I use it"?
+Dialogue: 50,0:05:28.81,0:05:30.01,Main-207+,,0,0,0,,Just you wait!
+Dialogue: 50,0:05:30.01,0:05:32.01,Main-207+,,0,0,0,,Once I revive the ancient weapons,
+Dialogue: 50,0:05:32.01,0:05:34.98,Main-207+,,0,0,0,,this won't just be something\Nthat's "on loan" to me.
+Dialogue: 50,0:05:34.98,0:05:39.94,Main-207+,,0,0,0,,I'll carry it of my own accord,\Nalong with the power to control an army.
+Dialogue: 50,0:05:45.17,0:05:49.41,Main-207+,,0,0,0,,[SPANDAM]\NWith the single push of a button,\Nan entire island will disappear!
+Dialogue: 50,0:05:50.21,0:05:53.18,Main-207+,,0,0,0,,Authority can be a weapon unto itself.
+Dialogue: 50,0:05:53.18,0:05:54.65,Main-207+,,0,0,0,,Oh, the power.
+Dialogue: 50,0:05:54.65,0:05:57.22,Main-207+,,0,0,0,,[OFFICIAL]\NChief Spandam!
+Dialogue: 50,0:05:57.22,0:05:58.72,Main-207+,,0,0,0,,[SPANDAM]\NThat was close!
+Dialogue: 50,0:05:59.65,0:06:01.02,Main-207+,,0,0,0,,What's wrong with you?
+Dialogue: 50,0:06:01.02,0:06:03.08,Main-207+,,0,0,0,,Can't you even knock?
+Dialogue: 50,0:06:03.08,0:06:05.12,Main-207+,,0,0,0,,I almost accidentally hit the button!
+Dialogue: 50,0:06:05.12,0:06:06.85,Main-207+,,0,0,0,,I'm terribly sorry, sir!
+Dialogue: 50,0:06:06.85,0:06:09.45,Main-207+,,0,0,0,,But I'm afraid we've\Ngot an emergency here!
+Dialogue: 50,0:06:09.45,0:06:12.92,Main-207+,,0,0,0,,There's an urgent call from\NEnies Lobby's Main Island!
+Dialogue: 50,0:06:12.92,0:06:14.09,Main-207+,,0,0,0,,Idiots!
+Dialogue: 50,0:06:14.09,0:06:17.57,Main-207+,,0,0,0,,If there's an emergency, why didn't\Nthey just call my room directly?
+Dialogue: 50,0:06:17.57,0:06:18.53,Main-207+,,0,0,0,,What the...?
+Dialogue: 50,0:06:18.53,0:06:19.37,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:06:19.37,0:06:20.57,Main-207+,,0,0,0,,Why is the receiver off the hook?
+Dialogue: 50,0:06:20.57,0:06:22.10,Main-207+,,0,0,0,,This always happens!
+Dialogue: 50,0:06:22.10,0:06:24.04,Main-207+,,0,0,0,,Who's responsible?
+Dialogue: 50,0:06:24.04,0:06:27.51,Main-207+,,0,0,0,,Well, either way, you were saying\Nsomething about an emergency, weren't you?
+Dialogue: 50,0:06:27.51,0:06:29.31,Main-207+,,0,0,0,,[OFFICIAL]\NYes sir!
+Dialogue: 50,0:06:37.40,0:06:39.04,Main-207+,,0,0,0,,Spanda.
+Dialogue: 50,0:06:45.39,0:06:47.25,Main-207+,,0,0,0,,[SPANDAM]\NHey! Ms. Robin!
+Dialogue: 50,0:06:48.30,0:06:50.40,Main-207+,,0,0,0,,It seems we have an\Nurgent report coming in
+Dialogue: 50,0:06:50.40,0:06:52.90,Main-207+,,0,0,0,,from the marines\Ndown at the Main Island.
+Dialogue: 50,0:06:52.90,0:06:58.54,Main-207+,,0,0,0,,{\q2}Knowing what it's likely about,\NI wouldn't call it an "emergency," exactly.
+Dialogue: 50,0:06:59.24,0:07:03.85,Main-207+,,0,0,0,,Your friends tried their best but only\Nmanaged to take down five of our soldiers.
+Dialogue: 50,0:07:03.85,0:07:06.45,Main-207+,,0,0,0,,I wonder how they\Nwere ultimately defeated.
+Dialogue: 50,0:07:06.45,0:07:08.55,Main-207+,,0,0,0,,Did some of my other\Nmen bring them down,
+Dialogue: 50,0:07:08.55,0:07:12.46,Main-207+,,0,0,0,,or was it the giant gatekeeping\Nteam of Oimo and Kashii?
+Dialogue: 50,0:07:12.46,0:07:14.62,Main-207+,,0,0,0,,So many possibilities.
+Dialogue: 50,0:07:15.28,0:07:17.55,Main-207+,,0,0,0,,Why don't we listen to the\Nreport about these idiots
+Dialogue: 50,0:07:17.55,0:07:22.39,Main-207+,,0,0,0,,who defied the World Government\Nand learn their fate together?
+Dialogue: 50,0:07:22.39,0:07:23.66,Main-207+,,0,0,0,,You're such a scumbag.
+Dialogue: 50,0:07:23.66,0:07:25.66,Main-207+,,0,0,0,,[SPANDAM]\NShut up, you low-life!
+Dialogue: 50,0:07:29.59,0:07:30.96,Main-207+,,0,0,0,,[SPANDAM]\NThis is Spandam.
+Dialogue: 50,0:07:31.76,0:07:33.81,Main-207+,,0,0,0,,I understand you have a report?
+Dialogue: 50,0:07:33.81,0:07:34.71,Main-207+,,0,0,0,,Chief Spandam!
+Dialogue: 50,0:07:34.71,0:07:35.88,Main-207+,,0,0,0,,Finally! Thank goodness.
+Dialogue: 50,0:07:35.88,0:07:38.53,Main-207+,,0,0,0,,I tried your direct line,\Nbut I couldn't get through!
+Dialogue: 50,0:07:38.53,0:07:41.62,Main-207+,,0,0,0,,I'm... I'm not really\Nsure where to begin.
+Dialogue: 50,0:07:42.07,0:07:42.91,Main-207+,,0,0,0,,[SPANDAM]\NCalm down!
+Dialogue: 50,0:07:42.91,0:07:43.61,Main-207+,,0,0,0,,Take it easy.
+Dialogue: 50,0:07:43.61,0:07:45.32,Main-207+,,0,0,0,,It's the Straw Hats, right?
+Dialogue: 50,0:07:45.32,0:07:46.94,Main-207+,,0,0,0,,Yes, what about them?
+Dialogue: 50,0:07:46.94,0:07:47.59,Main-207+,,0,0,0,,Whoa!
+Dialogue: 50,0:07:47.59,0:07:48.29,Main-207+,,0,0,0,,Hold on!
+Dialogue: 50,0:07:48.29,0:07:49.25,Main-207+,,0,0,0,,Listen.
+Dialogue: 50,0:07:49.25,0:07:51.91,Main-207+,,0,0,0,,Just pick up from where\Nyour last report ended.
+Dialogue: 50,0:07:51.91,0:07:54.82,Main-207+,,0,0,0,,Give me the gritty\Ndetails loudly and clearly.
+Dialogue: 50,0:07:54.82,0:07:55.52,Main-207+,,0,0,0,,Right!
+Dialogue: 50,0:07:55.52,0:07:57.89,Main-207+,,0,0,0,,[OFFICIAL]\NThe intruders... [SPANDAM (OVER SNAIL)]\NDid you accidentally kill them?
+Dialogue: 50,0:07:57.89,0:07:58.85,Main-207+,,0,0,0,,Pity.
+Dialogue: 50,0:07:58.85,0:07:59.85,Main-207+,,0,0,0,,It's their fault for\Nbeing such weaklings.
+Dialogue: 50,0:07:59.85,0:08:03.15,Main-207+,,0,0,0,,The intruders consist\Nof about sixty pirates!
+Dialogue: 50,0:08:03.15,0:08:05.48,Main-207+,,0,0,0,,They've pushed their way all\Nthe way through the Main Island
+Dialogue: 50,0:08:05.48,0:08:07.32,Main-207+,,0,0,0,,and have reached the Courthouse Plaza!
+Dialogue: 50,0:08:07.32,0:08:10.13,Main-207+,,0,0,0,,We can't stop them, sir!
+Dialogue: 50,0:08:15.25,0:08:17.59,Main-207+,,0,0,0,,[MARINE]\NAll personnel on\NEnies Lobby's Main Island!
+Dialogue: 50,0:08:17.59,0:08:20.59,Main-207+,,0,0,0,,Head to the Courthouse\NPlaza immediately!
+Dialogue: 50,0:08:23.44,0:08:25.68,Main-207+,,0,0,0,,[ZAMBAI]\NYou did a good job, Gomorrah!
+Dialogue: 50,0:08:25.68,0:08:30.45,Main-207+,,0,0,0,,I swear, everything you\Ntwo did will not be in vain!
+Dialogue: 50,0:08:32.32,0:08:33.48,Main-207+,,0,0,0,,All right, we're breaking in!
+Dialogue: 50,0:08:34.37,0:08:36.25,Main-207+,,0,0,0,,It's time to save Big Bro Franky!
+Dialogue: 50,0:08:36.25,0:08:38.75,Main-207+,,0,0,0,,[FAMILY MEN]\NYeah!
+Dialogue: 50,0:08:39.72,0:08:43.49,Main-207+,,0,0,0,,I repeat: The pirates have\Nreached the Courthouse Plaza!
+Dialogue: 50,0:09:03.95,0:09:04.95,Main-207+,,0,0,0,,Can you see Luffy?
+Dialogue: 50,0:09:06.13,0:09:12.47,Main-207+,,0,0,0,,Nope.
+Dialogue: 50,0:09:12.47,0:09:14.40,Main-207+,,0,0,0,,[SANJI]\NBut whether he's up on the roof or not,
+Dialogue: 50,0:09:14.40,0:09:17.34,Main-207+,,0,0,0,,it's not exactly like we\Ncan just jump up after him.
+Dialogue: 50,0:09:17.34,0:09:18.24,Main-207+,,0,0,0,,[ZORO]\NThat's true.
+Dialogue: 50,0:09:18.24,0:09:21.23,Main-207+,,0,0,0,,Not much we can do.
+Dialogue: 50,0:09:21.23,0:09:23.77,Main-207+,,0,0,0,,How many members of CP9\Ndid you see up there?
+Dialogue: 50,0:09:23.77,0:09:27.97,Main-207+,,0,0,0,,It was just that one\Nbig guy with the bull horns.
+Dialogue: 50,0:09:27.97,0:09:34.47,Main-207+,,0,0,0,,[SANJI]\NIt's hard to believe that Robin, Franky,\Nall of them, are right behind those doors.
+Dialogue: 50,0:09:34.47,0:09:36.64,Main-207+,,0,0,0,,In any case, we need\Nto catch up with Luffy!
+Dialogue: 50,0:09:36.64,0:09:38.64,Main-207+,,0,0,0,,Then we can save Robin together!
+Dialogue: 50,0:09:38.64,0:09:39.34,Main-207+,,0,0,0,,[MARINE]\NHurry!
+Dialogue: 50,0:09:39.34,0:09:40.64,Main-207+,,0,0,0,,Get to the Courthouse!
+Dialogue: 50,0:09:40.64,0:09:42.24,Main-207+,,0,0,0,,[MARINE]\NThe drawbridge isn't down yet!
+Dialogue: 50,0:09:42.24,0:09:43.35,Main-207+,,0,0,0,,Corner them!
+Dialogue: 50,0:09:55.63,0:09:57.53,Main-207+,,0,0,0,,[YOKOZUNA]\NGero!
+Dialogue: 50,0:10:04.65,0:10:05.35,Main-207+,,0,0,0,,[FAMILY MAN]\NWhoa!
+Dialogue: 50,0:10:05.35,0:10:06.95,Main-207+,,0,0,0,,That frog's awesome!
+Dialogue: 50,0:10:06.95,0:10:09.34,Main-207+,,0,0,0,,[FAMILY MAN]\NThat's the same ball\Nthat took out Gomorrah!
+Dialogue: 50,0:10:09.34,0:10:10.87,Main-207+,,0,0,0,,Who threw it?
+Dialogue: 50,0:10:13.83,0:10:14.53,Main-207+,,0,0,0,,Look!
+Dialogue: 50,0:10:14.53,0:10:15.70,Main-207+,,0,0,0,,There're three of them!
+Dialogue: 50,0:10:15.70,0:10:17.40,Main-207+,,0,0,0,,And they're running away!
+Dialogue: 50,0:10:17.40,0:10:18.74,Main-207+,,0,0,0,,Why are they running away?
+Dialogue: 50,0:10:18.74,0:10:20.51,Main-207+,,0,0,0,,They're the ones that attacked first!
+Dialogue: 50,0:10:20.51,0:10:21.10,Main-207+,,0,0,0,,Idiot cook!
+Dialogue: 50,0:10:21.10,0:10:23.30,Main-207+,,0,0,0,,We can't go chasing around every\Nenemy that runs off like that!
+Dialogue: 50,0:10:24.01,0:10:25.58,Main-207+,,0,0,0,,It's a waste of time!
+Dialogue: 50,0:10:41.68,0:10:42.74,Main-207+,,0,0,0,,Oh, pipe down.
+Dialogue: 50,0:10:42.74,0:10:44.38,Main-207+,,0,0,0,,It's confirmation.
+Dialogue: 50,0:10:46.28,0:10:48.42,Main-207+,,0,0,0,,Some of them need to\Nbe chased, understand?
+Dialogue: 50,0:10:48.42,0:10:50.99,Main-207+,,0,0,0,,To find out who we're up against.
+Dialogue: 50,0:10:51.75,0:10:53.48,Main-207+,,0,0,0,,[FAMILY MAN]\NThat was amazing!
+Dialogue: 50,0:10:53.48,0:10:55.35,Main-207+,,0,0,0,,[FAMILY MAN]\NWho is this guy?
+Dialogue: 50,0:10:55.35,0:10:56.82,Main-207+,,0,0,0,,[FAMILY MAN]\NHe must have superhuman strength
+Dialogue: 50,0:10:56.82,0:10:58.49,Main-207+,,0,0,0,,to swing something like that around!
+Dialogue: 50,0:10:59.33,0:11:02.54,Main-207+,,0,0,0,,[FAMILY MAN]\NYou think he's part of some special\Nunit, like those guard dogs?
+Dialogue: 50,0:11:02.54,0:11:05.62,Main-207+,,0,0,0,,There're probably more of them\Nhiding out there somewhere.
+Dialogue: 50,0:11:05.62,0:11:07.09,Main-207+,,0,0,0,,Let's be careful.
+Dialogue: 50,0:11:09.48,0:11:10.48,Main-207+,,0,0,0,,We need to get moving.
+Dialogue: 50,0:11:10.48,0:11:12.69,Main-207+,,0,0,0,,It looks like the\Nreinforcements have arrived.
+Dialogue: 50,0:11:12.69,0:11:14.16,Main-207+,,0,0,0,,[MARINE]\NSurround them!
+Dialogue: 50,0:11:14.16,0:11:16.79,Main-207+,,0,0,0,,There's no way they'll be able\Nto open those heavy stone doors!
+Dialogue: 50,0:11:16.79,0:11:18.08,Main-207+,,0,0,0,,We'll have them cornered!
+Dialogue: 50,0:11:18.08,0:11:19.88,Main-207+,,0,0,0,,Move it!
+Dialogue: 50,0:11:19.88,0:11:20.95,Main-207+,,0,0,0,,He's right!
+Dialogue: 50,0:11:20.95,0:11:23.91,Main-207+,,0,0,0,,Now that I think about it, how...
+Dialogue: 50,0:11:25.83,0:11:27.64,Main-207+,,0,0,0,,– are we gonna open...
+Dialogue: 50,0:11:28.64,0:11:30.34,Main-207+,,0,0,0,,– those big, stone...
+Dialogue: 50,0:11:32.47,0:11:33.60,Main-207+,,0,0,0,,[ZORO]\NWe're going in first!
+Dialogue: 50,0:11:33.60,0:11:35.37,Main-207+,,0,0,0,,Stay close... don't fall behind!
+Dialogue: 50,0:11:35.37,0:11:39.47,Main-207+,,0,0,0,,He... He cut right through\Nthem, like it was nothing!
+Dialogue: 50,0:11:39.47,0:11:40.90,Main-207+,,0,0,0,,[MOZU]\NHey! Zambai!
+Dialogue: 50,0:11:40.90,0:11:41.83,Main-207+,,0,0,0,,Let's split up!
+Dialogue: 50,0:11:41.83,0:11:43.77,Main-207+,,0,0,0,,We need to charge\Nboth of those towers...
+Dialogue: 50,0:11:43.77,0:11:46.57,Main-207+,,0,0,0,,– 'Cuz each side has a lever\Nto open up that drawbridge.
+Dialogue: 50,0:11:46.57,0:11:47.17,Main-207+,,0,0,0,,Yeah!
+Dialogue: 50,0:11:47.17,0:11:47.91,Main-207+,,0,0,0,,Good thinking!
+Dialogue: 50,0:11:47.91,0:11:49.05,Main-207+,,0,0,0,,I'm on it!
+Dialogue: 50,0:11:49.05,0:11:50.05,Main-207+,,0,0,0,,Right!
+Dialogue: 50,0:11:50.05,0:11:52.62,Main-207+,,0,0,0,,Looks like we need to\Nsplit into three teams!
+Dialogue: 50,0:11:52.62,0:11:54.38,Main-207+,,0,0,0,,Most of you go with Kiwi and Mozu!
+Dialogue: 50,0:11:54.38,0:11:55.35,Main-207+,,0,0,0,,The rest are with me!
+Dialogue: 50,0:11:55.35,0:11:57.75,Main-207+,,0,0,0,,We'll crack some heads\Nin that courthouse!
+Dialogue: 50,0:11:57.75,0:11:59.45,Main-207+,,0,0,0,,Good luck, everyone.
+Dialogue: 50,0:11:59.45,0:12:00.49,Main-207+,,0,0,0,,Move!
+Dialogue: 50,0:12:12.58,0:12:13.68,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:12:13.68,0:12:16.55,Main-207+,,0,0,0,,[MARINE (OVER SNAIL)]\NAlso, the gatekeepers of\Nthe Main Island Front Gate,
+Dialogue: 50,0:12:16.55,0:12:19.36,Main-207+,,0,0,0,,Oimo and Kashii, have\Njoined up with the pirates!
+Dialogue: 50,0:12:22.91,0:12:24.98,Main-207+,,0,0,0,,[CASHY]\NGet outta the way!
+Dialogue: 50,0:12:30.05,0:12:31.12,Main-207+,,0,0,0,,[MARINE (OVER SNAIL)]\NAfter hearing all the field reports,
+Dialogue: 50,0:12:31.12,0:12:35.89,Main-207+,,0,0,0,,our guard casualties total\Nmust be over 2,000 men!
+Dialogue: 50,0:12:35.89,0:12:36.59,Main-207+,,0,0,0,,Wait.
+Dialogue: 50,0:12:36.59,0:12:37.56,Main-207+,,0,0,0,,Not five?
+Dialogue: 50,0:12:37.86,0:12:40.33,Main-207+,,0,0,0,,[MARINE (OVER SNAIL)]\NAnd the man who took down\Nover a thousand of those men
+Dialogue: 50,0:12:40.33,0:12:44.47,Main-207+,,0,0,0,,all by himself, the notorious Straw\NHat Luffy, has suddenly disappeared!
+Dialogue: 50,0:12:44.47,0:12:47.01,Main-207+,,0,0,0,,We're still assessing\Nthe situation here!
+Dialogue: 50,0:12:48.04,0:12:51.44,Main-207+,,0,0,0,,In the history of this island,\Nthis is, without a doubt, the
+Dialogue: 50,0:12:51.44,0:12:54.75,Main-207+,,0,0,0,,absolute worst thing that has\Never happened at Enies Lobby!
+Dialogue: 50,0:13:01.12,0:13:02.42,Main-207+,,0,0,0,,[SPANDAM]\NIt's Blueno!
+Dialogue: 50,0:13:02.42,0:13:04.42,Main-207+,,0,0,0,,What's he doing out\Nthere on that rooftop?
+Dialogue: 50,0:13:08.00,0:13:09.27,Main-207+,,0,0,0,,What's happening here?
+Dialogue: 50,0:13:09.27,0:13:11.04,Main-207+,,0,0,0,,And why now?
+Dialogue: 50,0:13:12.24,0:13:15.48,Main-207+,,0,0,0,,What the hell's going on?
+Dialogue: 50,0:13:17.36,0:13:18.40,Main-207+,,0,0,0,,[SPANDAM (OVER SNAIL)]\NBaskerville!
+Dialogue: 50,0:13:18.40,0:13:20.30,Main-207+,,0,0,0,,Chief Justice Baskerville!
+Dialogue: 50,0:13:20.30,0:13:21.90,Main-207+,,0,0,0,,Come in! It's me!
+Dialogue: 50,0:13:21.90,0:13:24.87,Main-207+,,0,0,0,,[LEFT & RIGHT BASKERVILLE]\NOh! Hello, Chief Spandam!
+Dialogue: 50,0:13:24.87,0:13:27.01,Main-207+,,0,0,0,,[LEFT BASKERVILLE]\NThis is Left Baskerville on the left!
+Dialogue: 50,0:13:27.01,0:13:29.07,Main-207+,,0,0,0,,[RIGHT BASKERVILLE]\NThis is Right Baskerville on the right.
+Dialogue: 50,0:13:29.07,0:13:30.53,Main-207+,,0,0,0,,[CENTER BASKERVILLE]\NAnd located in the center,
+Dialogue: 50,0:13:30.53,0:13:34.33,Main-207+,,0,0,0,,it is none other than I...Central\NFreeway, closed for repairs!
+Dialogue: 50,0:13:34.33,0:13:35.73,Main-207+,,0,0,0,,Shut up!
+Dialogue: 50,0:13:35.73,0:13:37.70,Main-207+,,0,0,0,,[SPANDAM (OVER SNAIL)]\NJust give me a status report, damn it!
+Dialogue: 50,0:13:37.70,0:13:41.67,Main-207+,,0,0,0,,Is it true that the intruders have\Nmade it to the courthouse plaza or not?
+Dialogue: 50,0:13:41.67,0:13:43.21,Main-207+,,0,0,0,,Let's see.
+Dialogue: 50,0:13:44.18,0:13:46.02,Main-207+,,0,0,0,,A status report, huh?
+Dialogue: 50,0:13:48.52,0:13:50.55,Main-207+,,0,0,0,,That's a tricky one.
+Dialogue: 50,0:13:50.55,0:13:54.42,Main-207+,,0,0,0,,[RIGHT BASKERVILLE]\NThey're not so much in the plaza\Nas they are inside the courthouse.
+Dialogue: 50,0:13:54.42,0:13:56.15,Main-207+,,0,0,0,,[BASKERVILLE]\NIt's just awful!
+Dialogue: 50,0:13:56.15,0:13:57.39,Main-207+,,0,0,0,,[SPANDAM (OVER SNAIL)]\NWhat?
+Dialogue: 50,0:14:03.85,0:14:04.55,Main-207+,,0,0,0,,Chief!
+Dialogue: 50,0:14:04.97,0:14:05.71,Main-207+,,0,0,0,,Chief Justice!
+Dialogue: 50,0:14:05.71,0:14:06.61,Main-207+,,0,0,0,,I have a report!
+Dialogue: 50,0:14:07.33,0:14:11.30,Main-207+,,0,0,0,,The pirates have cut through our\Ndefenses and broken down the front door.
+Dialogue: 50,0:14:11.30,0:14:14.32,Main-207+,,0,0,0,,They're currently\Ninside the courthouse.
+Dialogue: 50,0:14:14.32,0:14:16.15,Main-207+,,0,0,0,,[BASKERVILLE]\NWe can see that already, fool!
+Dialogue: 50,0:14:16.15,0:14:18.59,Main-207+,,0,0,0,,Not as much resistance as I expected.
+Dialogue: 50,0:14:18.59,0:14:20.76,Main-207+,,0,0,0,,We should be able\Nto tear right through.
+Dialogue: 50,0:14:21.63,0:14:22.66,Main-207+,,0,0,0,,Wait, what's that?
+Dialogue: 50,0:14:24.83,0:14:26.80,Main-207+,,0,0,0,,[FAMILY MAN]\NWhoa, what? He's got 3 heads!
+Dialogue: 50,0:14:27.51,0:14:30.20,Main-207+,,0,0,0,,[FAMILY MAN]\NHe's just like that dog\Nthat guards the underworld!
+Dialogue: 50,0:14:30.20,0:14:30.90,Main-207+,,0,0,0,,[FAMILY MAN]\NBerberus?
+Dialogue: 50,0:14:30.90,0:14:32.31,Main-207+,,0,0,0,,You mean "Cerberus"!
+Dialogue: 50,0:14:32.31,0:14:34.31,Main-207+,,0,0,0,,[CENTER BASKERVILLE]\NOrder in the court, damn it!
+Dialogue: 50,0:14:34.31,0:14:37.25,Main-207+,,0,0,0,,This is a sacred chamber\Nof law, you hooligans!
+Dialogue: 50,0:14:37.25,0:14:42.39,Main-207+,,0,0,0,,You had the nerve to burst in here so shut\Nup, sit still and receive your sentence!
+Dialogue: 50,0:14:42.39,0:14:44.12,Main-207+,,0,0,0,,[YOKOZUNA]\NGero!
+Dialogue: 50,0:14:45.12,0:14:49.03,Main-207+,,0,0,0,,[ZAMBAI]\NAll right guys, you head to the\Nroof and join up with Straw Hat.
+Dialogue: 50,0:14:49.53,0:14:52.89,Main-207+,,0,0,0,,We'll stay here at the door with\NYokozuna and hold off the Marines.
+Dialogue: 50,0:14:52.89,0:14:56.71,Main-207+,,0,0,0,,We'll watch your back, so keep moving\Nand don't worry about the small fries!
+Dialogue: 50,0:14:56.71,0:14:57.51,Main-207+,,0,0,0,,Gero!
+Dialogue: 50,0:14:57.51,0:14:58.38,Main-207+,,0,0,0,,You got it.
+Dialogue: 50,0:14:58.38,0:15:01.21,Main-207+,,0,0,0,,[NAMI]\NHey, it looks like they're starting\Nsome kind of trial over there.
+Dialogue: 50,0:15:01.21,0:15:02.01,Main-207+,,0,0,0,,{\an8}Hm?
+Dialogue: 50,0:15:02.01,0:15:02.67,Main-207+,,0,0,0,,{\an8}Who cares?
+Dialogue: 50,0:15:02.67,0:15:03.80,Main-207+,,0,0,0,,{\an8}Just ignore them.
+Dialogue: 50,0:15:03.80,0:15:04.73,Main-207+,,0,0,0,,Which way do we go?
+Dialogue: 50,0:15:04.73,0:15:05.43,Main-207+,,0,0,0,,[NAMI]\N{\an8}Straight ahead!
+Dialogue: 50,0:15:05.43,0:15:07.41,Main-207+,,0,0,0,,{\an8}There are stairs on both sides.
+Dialogue: 50,0:15:07.41,0:15:08.75,Main-207+,,0,0,0,,Let's make our way to the top!
+Dialogue: 50,0:15:08.75,0:15:09.75,Main-207+,,0,0,0,,Right.
+Dialogue: 50,0:15:09.75,0:15:10.45,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:15:11.04,0:15:12.21,Main-207+,,0,0,0,,They're ignoring the trial!
+Dialogue: 50,0:15:12.21,0:15:15.21,Main-207+,,0,0,0,,I know they're pirates, but seriously,\Nhow rude can these guys get!
+Dialogue: 50,0:15:15.21,0:15:16.06,Main-207+,,0,0,0,,Bastards!
+Dialogue: 50,0:15:16.06,0:15:18.28,Main-207+,,0,0,0,,How dare you mock the judicial island!
+Dialogue: 50,0:15:18.28,0:15:20.25,Main-207+,,0,0,0,,I'll teach you some respect!
+Dialogue: 50,0:15:23.94,0:15:26.21,Main-207+,,0,0,0,,Are his swords bending,\Nor am I seeing things?
+Dialogue: 50,0:15:28.04,0:15:29.74,Main-207+,,0,0,0,,[ZORO]\NCharming Demon.
+Dialogue: 50,0:15:29.74,0:15:32.11,Main-207+,,0,0,0,,Sleepless Night.
+Dialogue: 50,0:15:32.11,0:15:34.05,Main-207+,,0,0,0,,Onigiri!
+Dialogue: 50,0:15:41.26,0:15:44.86,Main-207+,,0,0,0,,Is he the guy who broke the door?
+Dialogue: 50,0:15:47.05,0:15:48.34,Main-207+,,0,0,0,,Well, that's that.
+Dialogue: 50,0:15:48.34,0:15:49.77,Main-207+,,0,0,0,,Now let's get moving!
+Dialogue: 50,0:15:49.77,0:15:51.11,Main-207+,,0,0,0,,Right!
+Dialogue: 50,0:15:53.15,0:15:56.83,Main-207+,,0,0,0,,[FAMILY MAN]\NHe puts all of us to shame and he's\Nnot even the captain of their crew!
+Dialogue: 50,0:15:56.83,0:15:58.63,Main-207+,,0,0,0,,[SANJI]\NHey hey hey, wait!
+Dialogue: 50,0:15:58.63,0:15:59.83,Main-207+,,0,0,0,,Outta the way, reindeer!
+Dialogue: 50,0:15:59.83,0:16:00.93,Main-207+,,0,0,0,,Outta the way, Moss Head!
+Dialogue: 50,0:16:00.93,0:16:02.17,Main-207+,,0,0,0,,I'm coming through!
+Dialogue: 50,0:16:02.17,0:16:02.87,Main-207+,,0,0,0,,Hm?
+Dialogue: 50,0:16:02.87,0:16:04.20,Main-207+,,0,0,0,,I forgot about him.
+Dialogue: 50,0:16:04.28,0:16:06.45,Main-207+,,0,0,0,,Somebody's gotta protect Nami\Nfrom all of these bad guys
+Dialogue: 50,0:16:06.45,0:16:09.76,Main-207+,,0,0,0,,and that somebody's\Ngonna be me, damn it!
+Dialogue: 50,0:16:09.76,0:16:10.53,Main-207+,,0,0,0,,Now move!
+Dialogue: 50,0:16:10.53,0:16:11.27,Main-207+,,0,0,0,,[ZORO]\NWatch it!
+Dialogue: 50,0:16:11.27,0:16:11.97,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:16:11.97,0:16:14.64,Main-207+,,0,0,0,,Why is he picking a fight now?
+Dialogue: 50,0:16:14.64,0:16:16.64,Main-207+,,0,0,0,,[ZORO]\NIf you wanna settle\Nthis, then bring it!
+Dialogue: 50,0:16:16.95,0:16:18.21,Main-207+,,0,0,0,,Shut up!
+Dialogue: 50,0:16:18.21,0:16:21.18,Main-207+,,0,0,0,,This is your fault for trying\Nto hog Nami all for yourself!
+Dialogue: 50,0:16:21.18,0:16:22.05,Main-207+,,0,0,0,,Follow me, Nami.
+Dialogue: 50,0:16:22.05,0:16:23.18,Main-207+,,0,0,0,,Forget about him.
+Dialogue: 50,0:16:24.39,0:16:28.43,Main-207+,,0,0,0,,Uh, hey, we came to this place\Nto rescue Robin, remember?
+Dialogue: 50,0:16:28.43,0:16:29.38,Main-207+,,0,0,0,,Oh!
+Dialogue: 50,0:16:29.38,0:16:31.15,Main-207+,,0,0,0,,I bet she's waiting for me!
+Dialogue: 50,0:16:31.15,0:16:33.16,Main-207+,,0,0,0,,She's waiting for\Nher prince to save her!
+Dialogue: 50,0:16:33.16,0:16:35.89,Main-207+,,0,0,0,,She's probably crying right now,\N'cause she misses me so much!
+Dialogue: 50,0:16:35.89,0:16:37.06,Main-207+,,0,0,0,,Whatever!
+Dialogue: 50,0:16:37.06,0:16:40.20,Main-207+,,0,0,0,,Hm? Come on!
+Dialogue: 50,0:16:40.20,0:16:42.79,Main-207+,,0,0,0,,[NAMI]\NAre you kidding me?
+Dialogue: 50,0:16:42.79,0:16:43.89,Main-207+,,0,0,0,,[CHOPPER]\NCome back, Zoro!
+Dialogue: 50,0:16:43.89,0:16:45.32,Main-207+,,0,0,0,,That's the wrong way!
+Dialogue: 50,0:16:45.32,0:16:46.75,Main-207+,,0,0,0,,You sure?
+Dialogue: 50,0:16:46.75,0:16:47.82,Main-207+,,0,0,0,,How can you screw this up
+Dialogue: 50,0:16:47.82,0:16:49.91,Main-207+,,0,0,0,,when the stairs are right\Nin front of your face?
+Dialogue: 50,0:16:49.91,0:16:50.88,Main-207+,,0,0,0,,What's wrong with you?
+Dialogue: 50,0:16:50.88,0:16:53.84,Main-207+,,0,0,0,,If you'd stop giving such crappy\Ndirections, this wouldn't happen!
+Dialogue: 50,0:16:53.84,0:16:56.75,Main-207+,,0,0,0,,[NAMI]\NYou are not blaming this on me!
+Dialogue: 50,0:16:56.75,0:17:01.07,Main-207+,,0,0,0,,Zoro, I'll try to make you some medicine\Nlater, to fix your brain problem.
+Dialogue: 50,0:17:01.07,0:17:02.29,Main-207+,,0,0,0,,Brain problem?
+Dialogue: 50,0:17:02.29,0:17:03.12,Main-207+,,0,0,0,,Hey, Chopper?
+Dialogue: 50,0:17:03.12,0:17:03.99,Main-207+,,0,0,0,,Hm?
+Dialogue: 50,0:17:03.99,0:17:06.62,Main-207+,,0,0,0,,[NAMI]\N{\an8}Make some for him while you're at it.
+Dialogue: 50,0:17:06.62,0:17:09.22,Main-207+,,0,0,0,,I'll try, but he may be beyond help.
+Dialogue: 50,0:17:09.22,0:17:12.38,Main-207+,,0,0,0,,[FAMILY MAN]\NI'm starting to have doubts\Nabout this whole rescue thing.
+Dialogue: 50,0:17:12.38,0:17:14.38,Main-207+,,0,0,0,,[ZAMBAI]\NThey'll pull it together\Nwhen the going gets tough.
+Dialogue: 50,0:17:14.38,0:17:15.58,Main-207+,,0,0,0,,I'm sure.
+Dialogue: 50,0:17:15.58,0:17:17.55,Main-207+,,0,0,0,,I mean, probably.
+Dialogue: 50,0:17:17.55,0:17:19.82,Main-207+,,0,0,0,,I mean, hopefully.
+Dialogue: 50,0:17:20.27,0:17:21.87,Main-207+,,0,0,0,,[LEFT BASKERVILLE]\NThese are serious crimes.
+Dialogue: 50,0:17:21.87,0:17:24.37,Main-207+,,0,0,0,,[RIGHT BASKERVILLE]\NYes, they're quite grave indeed.
+Dialogue: 50,0:17:25.04,0:17:29.21,Main-207+,,0,0,0,,[CENTER BASKERVILLE]\NBut we should show restraint\Nand sentence them to death!
+Dialogue: 50,0:17:29.21,0:17:30.64,Main-207+,,0,0,0,,[LEFT & RIGHT BASKERVILLE]\NAgreed!
+Dialogue: 50,0:17:32.09,0:17:34.96,Main-207+,,0,0,0,,[BASKERVILLE]\NThink you can ignore\Nthe Chief Justice, huh?
+Dialogue: 50,0:17:49.81,0:17:50.64,Main-207+,,0,0,0,,[ZORO]\NChopper. Nami.
+Dialogue: 50,0:17:50.64,0:17:51.68,Main-207+,,0,0,0,,Go on ahead.
+Dialogue: 50,0:17:52.94,0:17:55.98,Main-207+,,0,0,0,,I'll make quick work of this thing\Nand catch up with you in a second.
+Dialogue: 50,0:17:55.98,0:17:56.88,Main-207+,,0,0,0,,Oh.
+Dialogue: 50,0:17:56.88,0:17:58.75,Main-207+,,0,0,0,,I'm a "thing" now, am I?
+Dialogue: 50,0:17:58.75,0:18:00.65,Main-207+,,0,0,0,,And easy to defeat, no less?
+Dialogue: 50,0:18:00.65,0:18:03.66,Main-207+,,0,0,0,,I'll teach you the meaning\Nof fear, you little...
+Dialogue: 50,0:18:27.56,0:18:30.47,Main-207+,,0,0,0,,You gotta go through\Nus first, Cerberus!
+Dialogue: 50,0:18:30.47,0:18:32.37,Main-207+,,0,0,0,,Are you sure about this?
+Dialogue: 50,0:18:50.65,0:18:51.58,Main-207+,,0,0,0,,[LUFFY]\NFinally!
+Dialogue: 50,0:18:51.58,0:18:52.68,Main-207+,,0,0,0,,My face closed!
+Dialogue: 50,0:18:52.68,0:18:53.82,Main-207+,,0,0,0,,Of course.
+Dialogue: 50,0:18:53.82,0:18:56.39,Main-207+,,0,0,0,,All open doors will eventually shut.
+Dialogue: 50,0:18:56.39,0:19:00.36,Main-207+,,0,0,0,,I'm amazed you still managed\Nto dodge my Tempest Kick.
+Dialogue: 50,0:19:00.36,0:19:01.76,Main-207+,,0,0,0,,[LUFFY]\NYeah. No big deal.
+Dialogue: 50,0:19:01.76,0:19:03.59,Main-207+,,0,0,0,,[BLUENO]\NHow unsettling.
+Dialogue: 50,0:19:07.07,0:19:08.04,Main-207+,,0,0,0,,[LUFFY]\NJerk!
+Dialogue: 50,0:19:10.28,0:19:11.28,Main-207+,,0,0,0,,He's fast!
+Dialogue: 50,0:19:13.29,0:19:15.05,Main-207+,,0,0,0,,[BLUENO]\NFinger Pistol!
+Dialogue: 50,0:19:15.05,0:19:16.92,Main-207+,,0,0,0,,Shave!
+Dialogue: 50,0:19:16.92,0:19:18.02,Main-207+,,0,0,0,,Iron Body!
+Dialogue: 50,0:19:18.02,0:19:20.06,Main-207+,,0,0,0,,Strong!
+Dialogue: 50,0:19:21.06,0:19:23.14,Main-207+,,0,0,0,,[LUFFY]\NNow Gum Gum...
+Dialogue: 50,0:19:23.14,0:19:24.54,Main-207+,,0,0,0,,Bullet!
+Dialogue: 50,0:19:24.54,0:19:25.88,Main-207+,,0,0,0,,Iron Body!
+Dialogue: 50,0:19:30.15,0:19:31.51,Main-207+,,0,0,0,,Tempest Kick!
+Dialogue: 50,0:19:43.33,0:19:45.70,Thoughts-207+,,0,0,0,,[BLUENO]\NHe's completely keeping\Nup with my speed.
+Dialogue: 50,0:19:45.70,0:19:49.34,Thoughts-207+,,0,0,0,,He even changed the\Ncourse of my Tempest Kick!
+Dialogue: 50,0:19:49.94,0:19:53.24,Thoughts-207+,,0,0,0,,His physical abilities\Nare unbelievable.
+Dialogue: 50,0:19:54.31,0:19:55.88,Main-207+,,0,0,0,,[LUFFY]\NIt's no good.
+Dialogue: 50,0:19:56.85,0:19:58.60,Main-207+,,0,0,0,,I can't stay like this.
+Dialogue: 50,0:19:58.60,0:20:00.07,Main-207+,,0,0,0,,It won't work.
+Dialogue: 50,0:20:00.07,0:20:03.94,Main-207+,,0,0,0,,When I lost to Aokiji,\NI realized something.
+Dialogue: 50,0:20:04.44,0:20:05.68,Main-207+,,0,0,0,,I said to myself.
+Dialogue: 50,0:20:05.68,0:20:08.96,Main-207+,,0,0,0,,"You keep running into guys\Nthat are stronger and stronger.
+Dialogue: 50,0:20:08.96,0:20:13.79,Main-207+,,0,0,0,,Unless you can get stronger too,\Nyou can't protect your friends."
+Dialogue: 50,0:20:15.03,0:20:15.73,Main-207+,,0,0,0,,And I want to.
+Dialogue: 50,0:20:16.39,0:20:18.36,Main-207+,,0,0,0,,They're not all strong like me.
+Dialogue: 50,0:20:18.36,0:20:21.69,Main-207+,,0,0,0,,But either way, they're my\Nfriends and I wanna keep 'em,
+Dialogue: 50,0:20:21.69,0:20:23.80,Main-207+,,0,0,0,,so I have to get\Nstronger than anyone else.
+Dialogue: 50,0:20:24.57,0:20:27.04,Main-207+,,0,0,0,,Otherwise there's a\Nchance I could lose them.
+Dialogue: 50,0:20:27.37,0:20:29.77,Main-207+,,0,0,0,,[BLUENO]\NThen what are you gonna do?
+Dialogue: 50,0:20:29.77,0:20:33.21,Main-207+,,0,0,0,,[LUFFY]\NI thought of a new way\Nto fight with all my might,
+Dialogue: 50,0:20:33.91,0:20:36.75,Main-207+,,0,0,0,,so that I won't lose anyone.
+Dialogue: 50,0:20:39.22,0:20:41.96,Main-207+,,0,0,0,,So I won't let anyone\Nslip away from me.
+Dialogue: 50,0:20:41.96,0:20:42.99,Thoughts-207+,,0,0,0,,[BLUENO]\NWhat's happening to him?
+Dialogue: 50,0:20:43.78,0:20:45.98,Thoughts-207+,,0,0,0,,What's going on inside his body?
+Dialogue: 50,0:20:48.80,0:20:51.70,Main-207+,,0,0,0,,[LUFFY]\NThat did it.
+Dialogue: 50,0:20:51.70,0:20:53.90,Main-207+,,0,0,0,,You won't be able to stop me now.
+Dialogue: 50,0:20:53.90,0:20:55.64,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:20:55.64,0:20:57.65,Main-207+,,0,0,0,,All my strength and techniques just
+Dialogue: 50,0:20:57.65,0:20:59.30,Main-207+,,0,0,0,,just went up by one step.
+Dialogue: 50,0:21:02.34,0:21:04.22,Main-207+,,0,0,0,,Second Gear!
+Dialogue: 0,0:02:00.60,0:02:01.93,Main-207+,,0,0,0,,Gomorrah!
+Dialogue: 0,0:02:01.93,0:02:04.65,Main-207+,,0,0,0,,[FAMILY MAN]\NWhat are you doing? You're gonna knock us off\Nif you keep crashing like that!
+Dialogue: 0,0:02:04.65,0:02:06.98,Main-207+,,0,0,0,,Whoa! Maybe he's too injured to go on!
+Dialogue: 0,0:12:19.39,0:12:22.64,Main-207+,,0,0,0,,They're currently destroying the central part\Nof the Main Island!
+Dialogue: 0,0:18:04.86,0:18:05.98,Main-207+,,0,0,0,,[FAMILY MEN]\NPull!
+Dialogue: 0,0:18:09.19,0:18:11.40,Main-207+,,0,0,0,,[BASKERVILLE]\NNo! Stop it!
+Dialogue: 0,0:18:12.40,0:18:15.53,Main-207+,,0,0,0,,[FAMILY MEN]\NHeave-ho! Heave-ho! Heave-ho! Heave-ho!
+Dialogue: 0,0:18:15.53,0:18:17.95,Main-207+,,0,0,0,,[BASKERVILLE]\NNo.
+Dialogue: 0,0:18:33.13,0:18:34.09,Main-207+,,0,0,0,,Let's go.
+Dialogue: 0,0:18:34.09,0:18:35.89,Main-207+,,0,0,0,,Uh, right!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 2,0:01:50.05,0:01:54.30,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.6\fad(727,0)}Unprecedented
+Dialogue: 1,0:01:50.05,0:01:54.30,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.6\fad(727,0)\t(686,727,\1a&H00&)}Unprecedented
+Dialogue: 1,0:04:49.56,0:04:49.60,Captions-207+,,0,0,0,,{\an8\pos(506,225)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.56,0:04:49.60,Captions-207+,,0,0,0,,{\an8\pos(506,225)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.60,0:04:49.64,Captions-207+,,0,0,0,,{\an8\pos(506,234.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.60,0:04:49.64,Captions-207+,,0,0,0,,{\an8\pos(506,234.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.64,0:04:49.68,Captions-207+,,0,0,0,,{\an8\pos(506,243.25)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.64,0:04:49.68,Captions-207+,,0,0,0,,{\an8\pos(506,243.25)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.68,0:04:49.72,Captions-207+,,0,0,0,,{\an8\pos(506,251.09)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.68,0:04:49.72,Captions-207+,,0,0,0,,{\an8\pos(506,251.09)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.68,0:04:49.72,Captions-207+,,0,0,0,,{\an8\pos(1384,-53.42)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.68,0:04:49.72,Captions-207+,,0,0,0,,{\an8\pos(1384,-53.42)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.72,0:04:49.76,Captions-207+,,0,0,0,,{\an8\pos(506,260.1)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.72,0:04:49.76,Captions-207+,,0,0,0,,{\an8\pos(506,260.1)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.72,0:04:49.76,Captions-207+,,0,0,0,,{\an8\pos(1384,-44.41)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.72,0:04:49.76,Captions-207+,,0,0,0,,{\an8\pos(1384,-44.41)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.76,0:04:49.81,Captions-207+,,0,0,0,,{\an8\pos(506,268.99)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.76,0:04:49.81,Captions-207+,,0,0,0,,{\an8\pos(506,268.99)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.76,0:04:49.81,Captions-207+,,0,0,0,,{\an8\pos(1384,-35.53)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.76,0:04:49.81,Captions-207+,,0,0,0,,{\an8\pos(1384,-35.53)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.81,0:04:49.85,Captions-207+,,0,0,0,,{\an8\pos(506,277.81)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.81,0:04:49.85,Captions-207+,,0,0,0,,{\an8\pos(506,277.81)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.81,0:04:49.85,Captions-207+,,0,0,0,,{\an8\pos(1384,-26.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.81,0:04:49.85,Captions-207+,,0,0,0,,{\an8\pos(1384,-26.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.85,0:04:49.89,Captions-207+,,0,0,0,,{\an8\pos(506,286.59)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.85,0:04:49.89,Captions-207+,,0,0,0,,{\an8\pos(506,286.59)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.85,0:04:49.89,Captions-207+,,0,0,0,,{\an8\pos(1384,-17.93)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.85,0:04:49.89,Captions-207+,,0,0,0,,{\an8\pos(1384,-17.93)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.89,0:04:49.93,Captions-207+,,0,0,0,,{\an8\pos(506,295.22)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.89,0:04:49.93,Captions-207+,,0,0,0,,{\an8\pos(506,295.22)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.89,0:04:49.93,Captions-207+,,0,0,0,,{\an8\pos(1384,-9.3)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.89,0:04:49.93,Captions-207+,,0,0,0,,{\an8\pos(1384,-9.3)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.93,0:04:49.97,Captions-207+,,0,0,0,,{\an8\pos(506,304.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.93,0:04:49.97,Captions-207+,,0,0,0,,{\an8\pos(506,304.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.93,0:04:49.97,Captions-207+,,0,0,0,,{\an8\pos(1384,0.35)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.93,0:04:49.97,Captions-207+,,0,0,0,,{\an8\pos(1384,0.35)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:49.97,0:04:50.01,Captions-207+,,0,0,0,,{\an8\pos(506,313.47)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:49.97,0:04:50.01,Captions-207+,,0,0,0,,{\an8\pos(506,313.47)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:49.97,0:04:50.01,Captions-207+,,0,0,0,,{\an8\pos(1384,8.95)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:49.97,0:04:50.01,Captions-207+,,0,0,0,,{\an8\pos(1384,8.95)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.01,0:04:50.06,Captions-207+,,0,0,0,,{\an8\pos(506,321.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.01,0:04:50.06,Captions-207+,,0,0,0,,{\an8\pos(506,321.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.01,0:04:50.06,Captions-207+,,0,0,0,,{\an8\pos(1384,17.35)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.01,0:04:50.06,Captions-207+,,0,0,0,,{\an8\pos(1384,17.35)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.06,0:04:50.10,Captions-207+,,0,0,0,,{\an8\pos(506,331.34)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.06,0:04:50.10,Captions-207+,,0,0,0,,{\an8\pos(506,331.34)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.06,0:04:50.10,Captions-207+,,0,0,0,,{\an8\pos(1384,26.83)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.06,0:04:50.10,Captions-207+,,0,0,0,,{\an8\pos(1384,26.83)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.10,0:04:50.14,Captions-207+,,0,0,0,,{\an8\pos(506,339.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.10,0:04:50.14,Captions-207+,,0,0,0,,{\an8\pos(506,339.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.10,0:04:50.14,Captions-207+,,0,0,0,,{\an8\pos(1384,35.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.10,0:04:50.14,Captions-207+,,0,0,0,,{\an8\pos(1384,35.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.14,0:04:50.18,Captions-207+,,0,0,0,,{\an8\pos(506,348.84)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.14,0:04:50.18,Captions-207+,,0,0,0,,{\an8\pos(506,348.84)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.14,0:04:50.18,Captions-207+,,0,0,0,,{\an8\pos(1384,44.32)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.14,0:04:50.18,Captions-207+,,0,0,0,,{\an8\pos(1384,44.32)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.18,0:04:50.22,Captions-207+,,0,0,0,,{\an8\pos(506,358.04)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.18,0:04:50.22,Captions-207+,,0,0,0,,{\an8\pos(506,358.04)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.18,0:04:50.22,Captions-207+,,0,0,0,,{\an8\pos(1384,53.53)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.18,0:04:50.22,Captions-207+,,0,0,0,,{\an8\pos(1384,53.53)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.22,0:04:50.26,Captions-207+,,0,0,0,,{\an8\pos(506,366.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.22,0:04:50.26,Captions-207+,,0,0,0,,{\an8\pos(506,366.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.22,0:04:50.26,Captions-207+,,0,0,0,,{\an8\pos(1384,61.6)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.22,0:04:50.26,Captions-207+,,0,0,0,,{\an8\pos(1384,61.6)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.26,0:04:50.31,Captions-207+,,0,0,0,,{\an8\pos(506,375.14)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.26,0:04:50.31,Captions-207+,,0,0,0,,{\an8\pos(506,375.14)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.26,0:04:50.31,Captions-207+,,0,0,0,,{\an8\pos(1384,70.63)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.26,0:04:50.31,Captions-207+,,0,0,0,,{\an8\pos(1384,70.63)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.31,0:04:50.35,Captions-207+,,0,0,0,,{\an8\pos(506,384.01)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.31,0:04:50.35,Captions-207+,,0,0,0,,{\an8\pos(506,384.01)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.31,0:04:50.35,Captions-207+,,0,0,0,,{\an8\pos(1384,79.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.31,0:04:50.35,Captions-207+,,0,0,0,,{\an8\pos(1384,79.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.35,0:04:50.39,Captions-207+,,0,0,0,,{\an8\pos(506,392.84)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.35,0:04:50.39,Captions-207+,,0,0,0,,{\an8\pos(506,392.84)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.35,0:04:50.39,Captions-207+,,0,0,0,,{\an8\pos(1384,88.32)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.35,0:04:50.39,Captions-207+,,0,0,0,,{\an8\pos(1384,88.32)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.39,0:04:50.43,Captions-207+,,0,0,0,,{\an8\pos(506,401.55)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.39,0:04:50.43,Captions-207+,,0,0,0,,{\an8\pos(506,401.55)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.39,0:04:50.43,Captions-207+,,0,0,0,,{\an8\pos(1384,97.04)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.39,0:04:50.43,Captions-207+,,0,0,0,,{\an8\pos(1384,97.04)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.43,0:04:50.47,Captions-207+,,0,0,0,,{\an8\pos(506,410.15)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.43,0:04:50.47,Captions-207+,,0,0,0,,{\an8\pos(506,410.15)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.43,0:04:50.47,Captions-207+,,0,0,0,,{\an8\pos(1384,105.64)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.43,0:04:50.47,Captions-207+,,0,0,0,,{\an8\pos(1384,105.64)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.47,0:04:50.52,Captions-207+,,0,0,0,,{\an8\pos(506,419.73)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.47,0:04:50.52,Captions-207+,,0,0,0,,{\an8\pos(506,419.73)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.47,0:04:50.52,Captions-207+,,0,0,0,,{\an8\pos(1384,115.21)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.47,0:04:50.52,Captions-207+,,0,0,0,,{\an8\pos(1384,115.21)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.52,0:04:50.56,Captions-207+,,0,0,0,,{\an8\pos(506,428.1)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.52,0:04:50.56,Captions-207+,,0,0,0,,{\an8\pos(506,428.1)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.52,0:04:50.56,Captions-207+,,0,0,0,,{\an8\pos(1384,123.59)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.52,0:04:50.56,Captions-207+,,0,0,0,,{\an8\pos(1384,123.59)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.56,0:04:50.60,Captions-207+,,0,0,0,,{\an8\pos(506,437.41)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.56,0:04:50.60,Captions-207+,,0,0,0,,{\an8\pos(506,437.41)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.56,0:04:50.60,Captions-207+,,0,0,0,,{\an8\pos(1384,132.9)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.56,0:04:50.60,Captions-207+,,0,0,0,,{\an8\pos(1384,132.9)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.60,0:04:50.64,Captions-207+,,0,0,0,,{\an8\pos(506,445.65)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.60,0:04:50.64,Captions-207+,,0,0,0,,{\an8\pos(506,445.65)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.60,0:04:50.64,Captions-207+,,0,0,0,,{\an8\pos(1384,141.14)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.60,0:04:50.64,Captions-207+,,0,0,0,,{\an8\pos(1384,141.14)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.64,0:04:50.68,Captions-207+,,0,0,0,,{\an8\pos(506,454.68)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.64,0:04:50.68,Captions-207+,,0,0,0,,{\an8\pos(506,454.68)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.64,0:04:50.68,Captions-207+,,0,0,0,,{\an8\pos(1384,150.17)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.64,0:04:50.68,Captions-207+,,0,0,0,,{\an8\pos(1384,150.17)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.68,0:04:50.72,Captions-207+,,0,0,0,,{\an8\pos(506,463.7)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.68,0:04:50.72,Captions-207+,,0,0,0,,{\an8\pos(506,463.7)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.68,0:04:50.72,Captions-207+,,0,0,0,,{\an8\pos(1384,159.19)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.68,0:04:50.72,Captions-207+,,0,0,0,,{\an8\pos(1384,159.19)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.72,0:04:50.77,Captions-207+,,0,0,0,,{\an8\pos(506,471.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.72,0:04:50.77,Captions-207+,,0,0,0,,{\an8\pos(506,471.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.72,0:04:50.77,Captions-207+,,0,0,0,,{\an8\pos(1384,167.1)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.72,0:04:50.77,Captions-207+,,0,0,0,,{\an8\pos(1384,167.1)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.77,0:04:50.81,Captions-207+,,0,0,0,,{\an8\pos(506,480.38)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.77,0:04:50.81,Captions-207+,,0,0,0,,{\an8\pos(506,480.38)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.77,0:04:50.81,Captions-207+,,0,0,0,,{\an8\pos(1384,175.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.77,0:04:50.81,Captions-207+,,0,0,0,,{\an8\pos(1384,175.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.81,0:04:50.85,Captions-207+,,0,0,0,,{\an8\pos(506,489.01)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.81,0:04:50.85,Captions-207+,,0,0,0,,{\an8\pos(506,489.01)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.81,0:04:50.85,Captions-207+,,0,0,0,,{\an8\pos(1384,184.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.81,0:04:50.85,Captions-207+,,0,0,0,,{\an8\pos(1384,184.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.85,0:04:50.89,Captions-207+,,0,0,0,,{\an8\pos(506,497.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.85,0:04:50.89,Captions-207+,,0,0,0,,{\an8\pos(506,497.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.85,0:04:50.89,Captions-207+,,0,0,0,,{\an8\pos(1384,193)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.85,0:04:50.89,Captions-207+,,0,0,0,,{\an8\pos(1384,193)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.89,0:04:50.93,Captions-207+,,0,0,0,,{\an8\pos(506,505.87)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.89,0:04:50.93,Captions-207+,,0,0,0,,{\an8\pos(506,505.87)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.89,0:04:50.93,Captions-207+,,0,0,0,,{\an8\pos(1384,201.36)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.89,0:04:50.93,Captions-207+,,0,0,0,,{\an8\pos(1384,201.36)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.93,0:04:50.97,Captions-207+,,0,0,0,,{\an8\pos(506,514.99)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.93,0:04:50.97,Captions-207+,,0,0,0,,{\an8\pos(506,514.99)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.93,0:04:50.97,Captions-207+,,0,0,0,,{\an8\pos(1384,210.47)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.93,0:04:50.97,Captions-207+,,0,0,0,,{\an8\pos(1384,210.47)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:50.97,0:04:51.02,Captions-207+,,0,0,0,,{\an8\pos(506,523.16)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:50.97,0:04:51.02,Captions-207+,,0,0,0,,{\an8\pos(506,523.16)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:50.97,0:04:51.02,Captions-207+,,0,0,0,,{\an8\pos(1384,218.65)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:50.97,0:04:51.02,Captions-207+,,0,0,0,,{\an8\pos(1384,218.65)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.02,0:04:51.06,Captions-207+,,0,0,0,,{\an8\pos(506,531.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.02,0:04:51.06,Captions-207+,,0,0,0,,{\an8\pos(506,531.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.02,0:04:51.06,Captions-207+,,0,0,0,,{\an8\pos(1384,227.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.02,0:04:51.06,Captions-207+,,0,0,0,,{\an8\pos(1384,227.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.06,0:04:51.10,Captions-207+,,0,0,0,,{\an8\pos(506,539.9)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.06,0:04:51.10,Captions-207+,,0,0,0,,{\an8\pos(506,539.9)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.06,0:04:51.10,Captions-207+,,0,0,0,,{\an8\pos(1384,235.38)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.06,0:04:51.10,Captions-207+,,0,0,0,,{\an8\pos(1384,235.38)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.10,0:04:51.14,Captions-207+,,0,0,0,,{\an8\pos(506,548.47)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.10,0:04:51.14,Captions-207+,,0,0,0,,{\an8\pos(506,548.47)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.10,0:04:51.14,Captions-207+,,0,0,0,,{\an8\pos(1384,243.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.10,0:04:51.14,Captions-207+,,0,0,0,,{\an8\pos(1384,243.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.14,0:04:51.18,Captions-207+,,0,0,0,,{\an8\pos(506,556.17)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.14,0:04:51.18,Captions-207+,,0,0,0,,{\an8\pos(506,556.17)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.14,0:04:51.18,Captions-207+,,0,0,0,,{\an8\pos(1384,251.65)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.14,0:04:51.18,Captions-207+,,0,0,0,,{\an8\pos(1384,251.65)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.18,0:04:51.22,Captions-207+,,0,0,0,,{\an8\pos(506,564.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.18,0:04:51.22,Captions-207+,,0,0,0,,{\an8\pos(506,564.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.18,0:04:51.22,Captions-207+,,0,0,0,,{\an8\pos(1384,259.99)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.18,0:04:51.22,Captions-207+,,0,0,0,,{\an8\pos(1384,259.99)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.22,0:04:51.27,Captions-207+,,0,0,0,,{\an8\pos(506,572.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.22,0:04:51.27,Captions-207+,,0,0,0,,{\an8\pos(506,572.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.22,0:04:51.27,Captions-207+,,0,0,0,,{\an8\pos(1384,268.15)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.22,0:04:51.27,Captions-207+,,0,0,0,,{\an8\pos(1384,268.15)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.27,0:04:51.31,Captions-207+,,0,0,0,,{\an8\pos(506,580.68)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.27,0:04:51.31,Captions-207+,,0,0,0,,{\an8\pos(506,580.68)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.27,0:04:51.31,Captions-207+,,0,0,0,,{\an8\pos(1384,276.17)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.27,0:04:51.31,Captions-207+,,0,0,0,,{\an8\pos(1384,276.17)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.31,0:04:51.35,Captions-207+,,0,0,0,,{\an8\pos(506,588.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.31,0:04:51.35,Captions-207+,,0,0,0,,{\an8\pos(506,588.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.31,0:04:51.35,Captions-207+,,0,0,0,,{\an8\pos(1384,284.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.31,0:04:51.35,Captions-207+,,0,0,0,,{\an8\pos(1384,284.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.35,0:04:51.39,Captions-207+,,0,0,0,,{\an8\pos(506,596.37)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.35,0:04:51.39,Captions-207+,,0,0,0,,{\an8\pos(506,596.37)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.35,0:04:51.39,Captions-207+,,0,0,0,,{\an8\pos(1384,291.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.35,0:04:51.39,Captions-207+,,0,0,0,,{\an8\pos(1384,291.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.39,0:04:51.43,Captions-207+,,0,0,0,,{\an8\pos(506,603.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.39,0:04:51.43,Captions-207+,,0,0,0,,{\an8\pos(506,603.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.39,0:04:51.43,Captions-207+,,0,0,0,,{\an8\pos(1384,299.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.39,0:04:51.43,Captions-207+,,0,0,0,,{\an8\pos(1384,299.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.43,0:04:51.47,Captions-207+,,0,0,0,,{\an8\pos(506,611.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.43,0:04:51.47,Captions-207+,,0,0,0,,{\an8\pos(506,611.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.43,0:04:51.47,Captions-207+,,0,0,0,,{\an8\pos(1384,306.98)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.43,0:04:51.47,Captions-207+,,0,0,0,,{\an8\pos(1384,306.98)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.47,0:04:51.52,Captions-207+,,0,0,0,,{\an8\pos(506,618.79)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.47,0:04:51.52,Captions-207+,,0,0,0,,{\an8\pos(506,618.79)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.47,0:04:51.52,Captions-207+,,0,0,0,,{\an8\pos(1384,314.28)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.47,0:04:51.52,Captions-207+,,0,0,0,,{\an8\pos(1384,314.28)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.52,0:04:51.56,Captions-207+,,0,0,0,,{\an8\pos(506,626.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.52,0:04:51.56,Captions-207+,,0,0,0,,{\an8\pos(506,626.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.52,0:04:51.56,Captions-207+,,0,0,0,,{\an8\pos(1384,322.15)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.52,0:04:51.56,Captions-207+,,0,0,0,,{\an8\pos(1384,322.15)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.56,0:04:51.60,Captions-207+,,0,0,0,,{\an8\pos(506,633.72)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.56,0:04:51.60,Captions-207+,,0,0,0,,{\an8\pos(506,633.72)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.56,0:04:51.60,Captions-207+,,0,0,0,,{\an8\pos(1384,329.21)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.56,0:04:51.60,Captions-207+,,0,0,0,,{\an8\pos(1384,329.21)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.60,0:04:51.64,Captions-207+,,0,0,0,,{\an8\pos(506,641.24)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.60,0:04:51.64,Captions-207+,,0,0,0,,{\an8\pos(506,641.24)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.60,0:04:51.64,Captions-207+,,0,0,0,,{\an8\pos(1384,336.72)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.60,0:04:51.64,Captions-207+,,0,0,0,,{\an8\pos(1384,336.72)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.64,0:04:51.68,Captions-207+,,0,0,0,,{\an8\pos(506,648.02)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.64,0:04:51.68,Captions-207+,,0,0,0,,{\an8\pos(506,648.02)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.64,0:04:51.68,Captions-207+,,0,0,0,,{\an8\pos(1384,343.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.64,0:04:51.68,Captions-207+,,0,0,0,,{\an8\pos(1384,343.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.68,0:04:51.72,Captions-207+,,0,0,0,,{\an8\pos(506,655.23)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.68,0:04:51.72,Captions-207+,,0,0,0,,{\an8\pos(506,655.23)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.68,0:04:51.72,Captions-207+,,0,0,0,,{\an8\pos(1384,350.72)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.68,0:04:51.72,Captions-207+,,0,0,0,,{\an8\pos(1384,350.72)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.72,0:04:51.77,Captions-207+,,0,0,0,,{\an8\pos(506,661.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.72,0:04:51.77,Captions-207+,,0,0,0,,{\an8\pos(506,661.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.72,0:04:51.77,Captions-207+,,0,0,0,,{\an8\pos(1384,357.2)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.72,0:04:51.77,Captions-207+,,0,0,0,,{\an8\pos(1384,357.2)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.77,0:04:51.81,Captions-207+,,0,0,0,,{\an8\pos(506,668.59)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.77,0:04:51.81,Captions-207+,,0,0,0,,{\an8\pos(506,668.59)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.77,0:04:51.81,Captions-207+,,0,0,0,,{\an8\pos(1384,364.08)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.77,0:04:51.81,Captions-207+,,0,0,0,,{\an8\pos(1384,364.08)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.81,0:04:51.85,Captions-207+,,0,0,0,,{\an8\pos(506,675.33)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.81,0:04:51.85,Captions-207+,,0,0,0,,{\an8\pos(506,675.33)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.81,0:04:51.85,Captions-207+,,0,0,0,,{\an8\pos(1384,370.82)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.81,0:04:51.85,Captions-207+,,0,0,0,,{\an8\pos(1384,370.82)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.85,0:04:51.89,Captions-207+,,0,0,0,,{\an8\pos(506,681.33)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.85,0:04:51.89,Captions-207+,,0,0,0,,{\an8\pos(506,681.33)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.85,0:04:51.89,Captions-207+,,0,0,0,,{\an8\pos(1384,376.81)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.85,0:04:51.89,Captions-207+,,0,0,0,,{\an8\pos(1384,376.81)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.89,0:04:51.93,Captions-207+,,0,0,0,,{\an8\pos(506,687.73)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.89,0:04:51.93,Captions-207+,,0,0,0,,{\an8\pos(506,687.73)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.89,0:04:51.93,Captions-207+,,0,0,0,,{\an8\pos(1384,383.21)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.89,0:04:51.93,Captions-207+,,0,0,0,,{\an8\pos(1384,383.21)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.93,0:04:51.97,Captions-207+,,0,0,0,,{\an8\pos(506,693.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.93,0:04:51.97,Captions-207+,,0,0,0,,{\an8\pos(506,693.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.93,0:04:51.97,Captions-207+,,0,0,0,,{\an8\pos(1384,389.44)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.93,0:04:51.97,Captions-207+,,0,0,0,,{\an8\pos(1384,389.44)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:51.97,0:04:52.02,Captions-207+,,0,0,0,,{\an8\pos(506,699.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:51.97,0:04:52.02,Captions-207+,,0,0,0,,{\an8\pos(506,699.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:51.97,0:04:52.02,Captions-207+,,0,0,0,,{\an8\pos(1384,395.06)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:51.97,0:04:52.02,Captions-207+,,0,0,0,,{\an8\pos(1384,395.06)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.02,0:04:52.06,Captions-207+,,0,0,0,,{\an8\pos(506,705.43)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.02,0:04:52.06,Captions-207+,,0,0,0,,{\an8\pos(506,705.43)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.02,0:04:52.06,Captions-207+,,0,0,0,,{\an8\pos(1384,400.92)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.02,0:04:52.06,Captions-207+,,0,0,0,,{\an8\pos(1384,400.92)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.06,0:04:52.10,Captions-207+,,0,0,0,,{\an8\pos(506,711.18)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.06,0:04:52.10,Captions-207+,,0,0,0,,{\an8\pos(506,711.18)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.06,0:04:52.10,Captions-207+,,0,0,0,,{\an8\pos(1384,406.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.06,0:04:52.10,Captions-207+,,0,0,0,,{\an8\pos(1384,406.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.10,0:04:52.14,Captions-207+,,0,0,0,,{\an8\pos(506,716.78)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.10,0:04:52.14,Captions-207+,,0,0,0,,{\an8\pos(506,716.78)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.10,0:04:52.14,Captions-207+,,0,0,0,,{\an8\pos(1384,412.27)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.10,0:04:52.14,Captions-207+,,0,0,0,,{\an8\pos(1384,412.27)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.14,0:04:52.18,Captions-207+,,0,0,0,,{\an8\pos(506,722.17)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.14,0:04:52.18,Captions-207+,,0,0,0,,{\an8\pos(506,722.17)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.14,0:04:52.18,Captions-207+,,0,0,0,,{\an8\pos(1384,417.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.14,0:04:52.18,Captions-207+,,0,0,0,,{\an8\pos(1384,417.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.18,0:04:52.23,Captions-207+,,0,0,0,,{\an8\pos(506,726.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.18,0:04:52.23,Captions-207+,,0,0,0,,{\an8\pos(506,726.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.18,0:04:52.23,Captions-207+,,0,0,0,,{\an8\pos(1384,422.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.18,0:04:52.23,Captions-207+,,0,0,0,,{\an8\pos(1384,422.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.23,0:04:52.27,Captions-207+,,0,0,0,,{\an8\pos(506,732.05)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.23,0:04:52.27,Captions-207+,,0,0,0,,{\an8\pos(506,732.05)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.23,0:04:52.27,Captions-207+,,0,0,0,,{\an8\pos(1384,427.54)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.23,0:04:52.27,Captions-207+,,0,0,0,,{\an8\pos(1384,427.54)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.27,0:04:52.31,Captions-207+,,0,0,0,,{\an8\pos(506,736.99)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.27,0:04:52.31,Captions-207+,,0,0,0,,{\an8\pos(506,736.99)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.27,0:04:52.31,Captions-207+,,0,0,0,,{\an8\pos(1384,432.48)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.27,0:04:52.31,Captions-207+,,0,0,0,,{\an8\pos(1384,432.48)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.31,0:04:52.35,Captions-207+,,0,0,0,,{\an8\pos(506,741.33)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.31,0:04:52.35,Captions-207+,,0,0,0,,{\an8\pos(506,741.33)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.31,0:04:52.35,Captions-207+,,0,0,0,,{\an8\pos(1384,436.82)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.31,0:04:52.35,Captions-207+,,0,0,0,,{\an8\pos(1384,436.82)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.35,0:04:52.39,Captions-207+,,0,0,0,,{\an8\pos(506,745.94)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.35,0:04:52.39,Captions-207+,,0,0,0,,{\an8\pos(506,745.94)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.35,0:04:52.39,Captions-207+,,0,0,0,,{\an8\pos(1384,441.43)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.35,0:04:52.39,Captions-207+,,0,0,0,,{\an8\pos(1384,441.43)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.39,0:04:52.43,Captions-207+,,0,0,0,,{\an8\pos(506,750.31)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.39,0:04:52.43,Captions-207+,,0,0,0,,{\an8\pos(506,750.31)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.39,0:04:52.43,Captions-207+,,0,0,0,,{\an8\pos(1384,445.8)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.39,0:04:52.43,Captions-207+,,0,0,0,,{\an8\pos(1384,445.8)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.43,0:04:52.48,Captions-207+,,0,0,0,,{\an8\pos(506,754.18)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.43,0:04:52.48,Captions-207+,,0,0,0,,{\an8\pos(506,754.18)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.43,0:04:52.48,Captions-207+,,0,0,0,,{\an8\pos(1384,449.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.43,0:04:52.48,Captions-207+,,0,0,0,,{\an8\pos(1384,449.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.48,0:04:52.52,Captions-207+,,0,0,0,,{\an8\pos(506,758.29)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.48,0:04:52.52,Captions-207+,,0,0,0,,{\an8\pos(506,758.29)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.48,0:04:52.52,Captions-207+,,0,0,0,,{\an8\pos(1384,453.78)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.48,0:04:52.52,Captions-207+,,0,0,0,,{\an8\pos(1384,453.78)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.52,0:04:52.56,Captions-207+,,0,0,0,,{\an8\pos(506,761.88)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.52,0:04:52.56,Captions-207+,,0,0,0,,{\an8\pos(506,761.88)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.52,0:04:52.56,Captions-207+,,0,0,0,,{\an8\pos(1384,457.36)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.52,0:04:52.56,Captions-207+,,0,0,0,,{\an8\pos(1384,457.36)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.56,0:04:52.60,Captions-207+,,0,0,0,,{\an8\pos(506,765.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.56,0:04:52.60,Captions-207+,,0,0,0,,{\an8\pos(506,765.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.56,0:04:52.60,Captions-207+,,0,0,0,,{\an8\pos(1384,461.15)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.56,0:04:52.60,Captions-207+,,0,0,0,,{\an8\pos(1384,461.15)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.60,0:04:52.64,Captions-207+,,0,0,0,,{\an8\pos(506,768.97)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.60,0:04:52.64,Captions-207+,,0,0,0,,{\an8\pos(506,768.97)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.60,0:04:52.64,Captions-207+,,0,0,0,,{\an8\pos(1384,464.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.60,0:04:52.64,Captions-207+,,0,0,0,,{\an8\pos(1384,464.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.64,0:04:52.68,Captions-207+,,0,0,0,,{\an8\pos(506,772.4)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.64,0:04:52.68,Captions-207+,,0,0,0,,{\an8\pos(506,772.4)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.64,0:04:52.68,Captions-207+,,0,0,0,,{\an8\pos(1384,467.88)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.64,0:04:52.68,Captions-207+,,0,0,0,,{\an8\pos(1384,467.88)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.68,0:04:52.73,Captions-207+,,0,0,0,,{\an8\pos(506,775.33)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.68,0:04:52.73,Captions-207+,,0,0,0,,{\an8\pos(506,775.33)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.68,0:04:52.73,Captions-207+,,0,0,0,,{\an8\pos(1384,470.82)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.68,0:04:52.73,Captions-207+,,0,0,0,,{\an8\pos(1384,470.82)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.73,0:04:52.77,Captions-207+,,0,0,0,,{\an8\pos(506,778.2)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.73,0:04:52.77,Captions-207+,,0,0,0,,{\an8\pos(506,778.2)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.73,0:04:52.77,Captions-207+,,0,0,0,,{\an8\pos(1384,473.69)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.73,0:04:52.77,Captions-207+,,0,0,0,,{\an8\pos(1384,473.69)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.77,0:04:52.81,Captions-207+,,0,0,0,,{\an8\pos(506,780.91)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.77,0:04:52.81,Captions-207+,,0,0,0,,{\an8\pos(506,780.91)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.77,0:04:52.81,Captions-207+,,0,0,0,,{\an8\pos(1384,476.4)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.77,0:04:52.81,Captions-207+,,0,0,0,,{\an8\pos(1384,476.4)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.81,0:04:52.85,Captions-207+,,0,0,0,,{\an8\pos(506,783.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.81,0:04:52.85,Captions-207+,,0,0,0,,{\an8\pos(506,783.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.81,0:04:52.85,Captions-207+,,0,0,0,,{\an8\pos(1384,479.15)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.81,0:04:52.85,Captions-207+,,0,0,0,,{\an8\pos(1384,479.15)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.85,0:04:52.89,Captions-207+,,0,0,0,,{\an8\pos(506,786.05)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.85,0:04:52.89,Captions-207+,,0,0,0,,{\an8\pos(506,786.05)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.85,0:04:52.89,Captions-207+,,0,0,0,,{\an8\pos(1384,481.54)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.85,0:04:52.89,Captions-207+,,0,0,0,,{\an8\pos(1384,481.54)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.89,0:04:52.93,Captions-207+,,0,0,0,,{\an8\pos(506,788.38)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.89,0:04:52.93,Captions-207+,,0,0,0,,{\an8\pos(506,788.38)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.89,0:04:52.93,Captions-207+,,0,0,0,,{\an8\pos(1384,483.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.89,0:04:52.93,Captions-207+,,0,0,0,,{\an8\pos(1384,483.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.93,0:04:52.98,Captions-207+,,0,0,0,,{\an8\pos(506,790.31)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.93,0:04:52.98,Captions-207+,,0,0,0,,{\an8\pos(506,790.31)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.93,0:04:52.98,Captions-207+,,0,0,0,,{\an8\pos(1384,485.8)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.93,0:04:52.98,Captions-207+,,0,0,0,,{\an8\pos(1384,485.8)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:52.98,0:04:53.02,Captions-207+,,0,0,0,,{\an8\pos(506,792.28)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:52.98,0:04:53.02,Captions-207+,,0,0,0,,{\an8\pos(506,792.28)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:52.98,0:04:53.02,Captions-207+,,0,0,0,,{\an8\pos(1384,487.76)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:52.98,0:04:53.02,Captions-207+,,0,0,0,,{\an8\pos(1384,487.76)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.02,0:04:53.06,Captions-207+,,0,0,0,,{\an8\pos(506,794.05)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.02,0:04:53.06,Captions-207+,,0,0,0,,{\an8\pos(506,794.05)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.02,0:04:53.06,Captions-207+,,0,0,0,,{\an8\pos(1384,489.53)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.02,0:04:53.06,Captions-207+,,0,0,0,,{\an8\pos(1384,489.53)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.06,0:04:53.10,Captions-207+,,0,0,0,,{\an8\pos(506,795.72)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.06,0:04:53.10,Captions-207+,,0,0,0,,{\an8\pos(506,795.72)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.06,0:04:53.10,Captions-207+,,0,0,0,,{\an8\pos(1384,491.21)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.06,0:04:53.10,Captions-207+,,0,0,0,,{\an8\pos(1384,491.21)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.10,0:04:53.14,Captions-207+,,0,0,0,,{\an8\pos(506,797.1)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.10,0:04:53.14,Captions-207+,,0,0,0,,{\an8\pos(506,797.1)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.10,0:04:53.14,Captions-207+,,0,0,0,,{\an8\pos(1384,492.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.10,0:04:53.14,Captions-207+,,0,0,0,,{\an8\pos(1384,492.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.14,0:04:53.18,Captions-207+,,0,0,0,,{\an8\pos(506,798.56)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.14,0:04:53.18,Captions-207+,,0,0,0,,{\an8\pos(506,798.56)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.14,0:04:53.18,Captions-207+,,0,0,0,,{\an8\pos(1384,494.05)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.14,0:04:53.18,Captions-207+,,0,0,0,,{\an8\pos(1384,494.05)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.18,0:04:53.23,Captions-207+,,0,0,0,,{\an8\pos(506,799.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.18,0:04:53.23,Captions-207+,,0,0,0,,{\an8\pos(506,799.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.18,0:04:53.23,Captions-207+,,0,0,0,,{\an8\pos(1384,495.19)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.18,0:04:53.23,Captions-207+,,0,0,0,,{\an8\pos(1384,495.19)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.23,0:04:53.27,Captions-207+,,0,0,0,,{\an8\pos(506,800.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.23,0:04:53.27,Captions-207+,,0,0,0,,{\an8\pos(506,800.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.23,0:04:53.27,Captions-207+,,0,0,0,,{\an8\pos(1384,496.19)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.23,0:04:53.27,Captions-207+,,0,0,0,,{\an8\pos(1384,496.19)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.27,0:04:53.31,Captions-207+,,0,0,0,,{\an8\pos(506,801.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.27,0:04:53.31,Captions-207+,,0,0,0,,{\an8\pos(506,801.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.27,0:04:53.31,Captions-207+,,0,0,0,,{\an8\pos(1384,497.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.27,0:04:53.31,Captions-207+,,0,0,0,,{\an8\pos(1384,497.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.31,0:04:53.35,Captions-207+,,0,0,0,,{\an8\pos(506,802.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.31,0:04:53.35,Captions-207+,,0,0,0,,{\an8\pos(506,802.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.31,0:04:53.35,Captions-207+,,0,0,0,,{\an8\pos(1384,497.94)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.31,0:04:53.35,Captions-207+,,0,0,0,,{\an8\pos(1384,497.94)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.35,0:04:53.39,Captions-207+,,0,0,0,,{\an8\pos(506,803.09)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.35,0:04:53.39,Captions-207+,,0,0,0,,{\an8\pos(506,803.09)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.35,0:04:53.39,Captions-207+,,0,0,0,,{\an8\pos(1384,498.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.35,0:04:53.39,Captions-207+,,0,0,0,,{\an8\pos(1384,498.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.39,0:04:53.43,Captions-207+,,0,0,0,,{\an8\pos(506,803.64)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.39,0:04:53.43,Captions-207+,,0,0,0,,{\an8\pos(506,803.64)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.39,0:04:53.43,Captions-207+,,0,0,0,,{\an8\pos(1384,499.13)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.39,0:04:53.43,Captions-207+,,0,0,0,,{\an8\pos(1384,499.13)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.43,0:04:53.48,Captions-207+,,0,0,0,,{\an8\pos(506,804.01)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.43,0:04:53.48,Captions-207+,,0,0,0,,{\an8\pos(506,804.01)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.43,0:04:53.48,Captions-207+,,0,0,0,,{\an8\pos(1384,499.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.43,0:04:53.48,Captions-207+,,0,0,0,,{\an8\pos(1384,499.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.48,0:04:53.52,Captions-207+,,0,0,0,,{\an8\pos(506,804.3)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.48,0:04:53.52,Captions-207+,,0,0,0,,{\an8\pos(506,804.3)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.48,0:04:53.52,Captions-207+,,0,0,0,,{\an8\pos(1384,499.79)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.48,0:04:53.52,Captions-207+,,0,0,0,,{\an8\pos(1384,499.79)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:04:53.52,0:04:53.56,Captions-207+,,0,0,0,,{\an8\pos(506,804.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:04:53.52,0:04:53.56,Captions-207+,,0,0,0,,{\an8\pos(506,804.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:04:53.52,0:04:53.56,Captions-207+,,0,0,0,,{\an8\pos(1384,500)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:04:53.52,0:04:53.56,Captions-207+,,0,0,0,,{\an8\pos(1384,500)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.58,0:12:07.62,Captions-207+,,0,0,0,,{\an8\pos(506,282.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.58,0:12:07.62,Captions-207+,,0,0,0,,{\an8\pos(506,282.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.58,0:12:07.62,Captions-207+,,0,0,0,,{\an8\pos(1384,-17.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.58,0:12:07.62,Captions-207+,,0,0,0,,{\an8\pos(1384,-17.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.62,0:12:07.66,Captions-207+,,0,0,0,,{\an8\pos(506,289.15)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.62,0:12:07.66,Captions-207+,,0,0,0,,{\an8\pos(506,289.15)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.62,0:12:07.66,Captions-207+,,0,0,0,,{\an8\pos(1384,-10.85)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.62,0:12:07.66,Captions-207+,,0,0,0,,{\an8\pos(1384,-10.85)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.66,0:12:07.70,Captions-207+,,0,0,0,,{\an8\pos(506,295.69)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.66,0:12:07.70,Captions-207+,,0,0,0,,{\an8\pos(506,295.69)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.66,0:12:07.70,Captions-207+,,0,0,0,,{\an8\pos(1384,-4.31)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.66,0:12:07.70,Captions-207+,,0,0,0,,{\an8\pos(1384,-4.31)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.70,0:12:07.74,Captions-207+,,0,0,0,,{\an8\pos(506,302.24)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.70,0:12:07.74,Captions-207+,,0,0,0,,{\an8\pos(506,302.24)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.70,0:12:07.74,Captions-207+,,0,0,0,,{\an8\pos(1384,2.24)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.70,0:12:07.74,Captions-207+,,0,0,0,,{\an8\pos(1384,2.24)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.74,0:12:07.79,Captions-207+,,0,0,0,,{\an8\pos(506,309.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.74,0:12:07.79,Captions-207+,,0,0,0,,{\an8\pos(506,309.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.74,0:12:07.79,Captions-207+,,0,0,0,,{\an8\pos(1384,9.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.74,0:12:07.79,Captions-207+,,0,0,0,,{\an8\pos(1384,9.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.79,0:12:07.83,Captions-207+,,0,0,0,,{\an8\pos(506,316.12)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.79,0:12:07.83,Captions-207+,,0,0,0,,{\an8\pos(506,316.12)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.79,0:12:07.83,Captions-207+,,0,0,0,,{\an8\pos(1384,16.12)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.79,0:12:07.83,Captions-207+,,0,0,0,,{\an8\pos(1384,16.12)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.83,0:12:07.87,Captions-207+,,0,0,0,,{\an8\pos(506,322.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.83,0:12:07.87,Captions-207+,,0,0,0,,{\an8\pos(506,322.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.83,0:12:07.87,Captions-207+,,0,0,0,,{\an8\pos(1384,22.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.83,0:12:07.87,Captions-207+,,0,0,0,,{\an8\pos(1384,22.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.87,0:12:07.91,Captions-207+,,0,0,0,,{\an8\pos(506,328.88)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.87,0:12:07.91,Captions-207+,,0,0,0,,{\an8\pos(506,328.88)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.87,0:12:07.91,Captions-207+,,0,0,0,,{\an8\pos(1384,28.88)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.87,0:12:07.91,Captions-207+,,0,0,0,,{\an8\pos(1384,28.88)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.91,0:12:07.95,Captions-207+,,0,0,0,,{\an8\pos(506,336.14)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.91,0:12:07.95,Captions-207+,,0,0,0,,{\an8\pos(506,336.14)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.91,0:12:07.95,Captions-207+,,0,0,0,,{\an8\pos(1384,36.14)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.91,0:12:07.95,Captions-207+,,0,0,0,,{\an8\pos(1384,36.14)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.95,0:12:07.99,Captions-207+,,0,0,0,,{\an8\pos(506,342.37)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.95,0:12:07.99,Captions-207+,,0,0,0,,{\an8\pos(506,342.37)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.95,0:12:07.99,Captions-207+,,0,0,0,,{\an8\pos(1384,42.37)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.95,0:12:07.99,Captions-207+,,0,0,0,,{\an8\pos(1384,42.37)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:07.99,0:12:08.04,Captions-207+,,0,0,0,,{\an8\pos(506,349.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:07.99,0:12:08.04,Captions-207+,,0,0,0,,{\an8\pos(506,349.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:07.99,0:12:08.04,Captions-207+,,0,0,0,,{\an8\pos(1384,49.51)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:07.99,0:12:08.04,Captions-207+,,0,0,0,,{\an8\pos(1384,49.51)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.04,0:12:08.08,Captions-207+,,0,0,0,,{\an8\pos(506,355.68)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.04,0:12:08.08,Captions-207+,,0,0,0,,{\an8\pos(506,355.68)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.04,0:12:08.08,Captions-207+,,0,0,0,,{\an8\pos(1384,55.68)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.04,0:12:08.08,Captions-207+,,0,0,0,,{\an8\pos(1384,55.68)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.08,0:12:08.12,Captions-207+,,0,0,0,,{\an8\pos(506,362.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.08,0:12:08.12,Captions-207+,,0,0,0,,{\an8\pos(506,362.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.08,0:12:08.12,Captions-207+,,0,0,0,,{\an8\pos(1384,62.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.08,0:12:08.12,Captions-207+,,0,0,0,,{\an8\pos(1384,62.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.12,0:12:08.16,Captions-207+,,0,0,0,,{\an8\pos(506,369.64)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.12,0:12:08.16,Captions-207+,,0,0,0,,{\an8\pos(506,369.64)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.12,0:12:08.16,Captions-207+,,0,0,0,,{\an8\pos(1384,69.64)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.12,0:12:08.16,Captions-207+,,0,0,0,,{\an8\pos(1384,69.64)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.16,0:12:08.20,Captions-207+,,0,0,0,,{\an8\pos(506,375.68)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.16,0:12:08.20,Captions-207+,,0,0,0,,{\an8\pos(506,375.68)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.16,0:12:08.20,Captions-207+,,0,0,0,,{\an8\pos(1384,75.68)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.16,0:12:08.20,Captions-207+,,0,0,0,,{\an8\pos(1384,75.68)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.20,0:12:08.24,Captions-207+,,0,0,0,,{\an8\pos(506,382.64)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.20,0:12:08.24,Captions-207+,,0,0,0,,{\an8\pos(506,382.64)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.20,0:12:08.24,Captions-207+,,0,0,0,,{\an8\pos(1384,82.64)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.20,0:12:08.24,Captions-207+,,0,0,0,,{\an8\pos(1384,82.64)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.24,0:12:08.29,Captions-207+,,0,0,0,,{\an8\pos(506,389.41)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.24,0:12:08.29,Captions-207+,,0,0,0,,{\an8\pos(506,389.41)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.24,0:12:08.29,Captions-207+,,0,0,0,,{\an8\pos(1384,89.41)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.24,0:12:08.29,Captions-207+,,0,0,0,,{\an8\pos(1384,89.41)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.29,0:12:08.33,Captions-207+,,0,0,0,,{\an8\pos(506,396.18)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.29,0:12:08.33,Captions-207+,,0,0,0,,{\an8\pos(506,396.18)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.29,0:12:08.33,Captions-207+,,0,0,0,,{\an8\pos(1384,96.18)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.29,0:12:08.33,Captions-207+,,0,0,0,,{\an8\pos(1384,96.18)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.33,0:12:08.37,Captions-207+,,0,0,0,,{\an8\pos(506,402.9)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.33,0:12:08.37,Captions-207+,,0,0,0,,{\an8\pos(506,402.9)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.33,0:12:08.37,Captions-207+,,0,0,0,,{\an8\pos(1384,102.9)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.33,0:12:08.37,Captions-207+,,0,0,0,,{\an8\pos(1384,102.9)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.37,0:12:08.41,Captions-207+,,0,0,0,,{\an8\pos(506,409.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.37,0:12:08.41,Captions-207+,,0,0,0,,{\an8\pos(506,409.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.37,0:12:08.41,Captions-207+,,0,0,0,,{\an8\pos(1384,109.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.37,0:12:08.41,Captions-207+,,0,0,0,,{\an8\pos(1384,109.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.41,0:12:08.45,Captions-207+,,0,0,0,,{\an8\pos(506,416.97)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.41,0:12:08.45,Captions-207+,,0,0,0,,{\an8\pos(506,416.97)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.41,0:12:08.45,Captions-207+,,0,0,0,,{\an8\pos(1384,116.97)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.41,0:12:08.45,Captions-207+,,0,0,0,,{\an8\pos(1384,116.97)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.45,0:12:08.49,Captions-207+,,0,0,0,,{\an8\pos(506,423.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.45,0:12:08.49,Captions-207+,,0,0,0,,{\an8\pos(506,423.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.45,0:12:08.49,Captions-207+,,0,0,0,,{\an8\pos(1384,123.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.45,0:12:08.49,Captions-207+,,0,0,0,,{\an8\pos(1384,123.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.49,0:12:08.54,Captions-207+,,0,0,0,,{\an8\pos(506,429.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.49,0:12:08.54,Captions-207+,,0,0,0,,{\an8\pos(506,429.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.49,0:12:08.54,Captions-207+,,0,0,0,,{\an8\pos(1384,129.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.49,0:12:08.54,Captions-207+,,0,0,0,,{\an8\pos(1384,129.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.54,0:12:08.58,Captions-207+,,0,0,0,,{\an8\pos(506,437.22)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.54,0:12:08.58,Captions-207+,,0,0,0,,{\an8\pos(506,437.22)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.54,0:12:08.58,Captions-207+,,0,0,0,,{\an8\pos(1384,137.22)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.54,0:12:08.58,Captions-207+,,0,0,0,,{\an8\pos(1384,137.22)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.58,0:12:08.62,Captions-207+,,0,0,0,,{\an8\pos(506,443.6)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.58,0:12:08.62,Captions-207+,,0,0,0,,{\an8\pos(506,443.6)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.58,0:12:08.62,Captions-207+,,0,0,0,,{\an8\pos(1384,143.6)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.58,0:12:08.62,Captions-207+,,0,0,0,,{\an8\pos(1384,143.6)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.62,0:12:08.66,Captions-207+,,0,0,0,,{\an8\pos(506,450.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.62,0:12:08.66,Captions-207+,,0,0,0,,{\an8\pos(506,450.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.62,0:12:08.66,Captions-207+,,0,0,0,,{\an8\pos(1384,150.66)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.62,0:12:08.66,Captions-207+,,0,0,0,,{\an8\pos(1384,150.66)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.66,0:12:08.70,Captions-207+,,0,0,0,,{\an8\pos(506,457.69)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.66,0:12:08.70,Captions-207+,,0,0,0,,{\an8\pos(506,457.69)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.66,0:12:08.70,Captions-207+,,0,0,0,,{\an8\pos(1384,157.69)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.66,0:12:08.70,Captions-207+,,0,0,0,,{\an8\pos(1384,157.69)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.70,0:12:08.74,Captions-207+,,0,0,0,,{\an8\pos(506,463.94)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.70,0:12:08.74,Captions-207+,,0,0,0,,{\an8\pos(506,463.94)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.70,0:12:08.74,Captions-207+,,0,0,0,,{\an8\pos(1384,163.94)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.70,0:12:08.74,Captions-207+,,0,0,0,,{\an8\pos(1384,163.94)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.74,0:12:08.79,Captions-207+,,0,0,0,,{\an8\pos(506,470.83)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.74,0:12:08.79,Captions-207+,,0,0,0,,{\an8\pos(506,470.83)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.74,0:12:08.79,Captions-207+,,0,0,0,,{\an8\pos(1384,170.83)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.74,0:12:08.79,Captions-207+,,0,0,0,,{\an8\pos(1384,170.83)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.79,0:12:08.83,Captions-207+,,0,0,0,,{\an8\pos(506,477.61)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.79,0:12:08.83,Captions-207+,,0,0,0,,{\an8\pos(506,477.61)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.79,0:12:08.83,Captions-207+,,0,0,0,,{\an8\pos(1384,177.61)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.79,0:12:08.83,Captions-207+,,0,0,0,,{\an8\pos(1384,177.61)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.83,0:12:08.87,Captions-207+,,0,0,0,,{\an8\pos(506,484.41)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.83,0:12:08.87,Captions-207+,,0,0,0,,{\an8\pos(506,484.41)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.83,0:12:08.87,Captions-207+,,0,0,0,,{\an8\pos(1384,184.41)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.83,0:12:08.87,Captions-207+,,0,0,0,,{\an8\pos(1384,184.41)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.87,0:12:08.91,Captions-207+,,0,0,0,,{\an8\pos(506,491.13)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.87,0:12:08.91,Captions-207+,,0,0,0,,{\an8\pos(506,491.13)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.87,0:12:08.91,Captions-207+,,0,0,0,,{\an8\pos(1384,191.13)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.87,0:12:08.91,Captions-207+,,0,0,0,,{\an8\pos(1384,191.13)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.91,0:12:08.95,Captions-207+,,0,0,0,,{\an8\pos(506,497.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.91,0:12:08.95,Captions-207+,,0,0,0,,{\an8\pos(506,497.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.91,0:12:08.95,Captions-207+,,0,0,0,,{\an8\pos(1384,197.71)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.91,0:12:08.95,Captions-207+,,0,0,0,,{\an8\pos(1384,197.71)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.95,0:12:08.99,Captions-207+,,0,0,0,,{\an8\pos(506,504.99)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.95,0:12:08.99,Captions-207+,,0,0,0,,{\an8\pos(506,504.99)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.95,0:12:08.99,Captions-207+,,0,0,0,,{\an8\pos(1384,204.99)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.95,0:12:08.99,Captions-207+,,0,0,0,,{\an8\pos(1384,204.99)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:08.99,0:12:09.04,Captions-207+,,0,0,0,,{\an8\pos(506,511.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:08.99,0:12:09.04,Captions-207+,,0,0,0,,{\an8\pos(506,511.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:08.99,0:12:09.04,Captions-207+,,0,0,0,,{\an8\pos(1384,211.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:08.99,0:12:09.04,Captions-207+,,0,0,0,,{\an8\pos(1384,211.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.04,0:12:09.08,Captions-207+,,0,0,0,,{\an8\pos(506,518.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.04,0:12:09.08,Captions-207+,,0,0,0,,{\an8\pos(506,518.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.04,0:12:09.08,Captions-207+,,0,0,0,,{\an8\pos(1384,218.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.04,0:12:09.08,Captions-207+,,0,0,0,,{\an8\pos(1384,218.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.08,0:12:09.12,Captions-207+,,0,0,0,,{\an8\pos(506,524.89)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.08,0:12:09.12,Captions-207+,,0,0,0,,{\an8\pos(506,524.89)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.08,0:12:09.12,Captions-207+,,0,0,0,,{\an8\pos(1384,224.89)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.08,0:12:09.12,Captions-207+,,0,0,0,,{\an8\pos(1384,224.89)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.12,0:12:09.16,Captions-207+,,0,0,0,,{\an8\pos(506,531.85)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.12,0:12:09.16,Captions-207+,,0,0,0,,{\an8\pos(506,531.85)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.12,0:12:09.16,Captions-207+,,0,0,0,,{\an8\pos(1384,231.85)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.12,0:12:09.16,Captions-207+,,0,0,0,,{\an8\pos(1384,231.85)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.16,0:12:09.20,Captions-207+,,0,0,0,,{\an8\pos(506,538.69)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.16,0:12:09.20,Captions-207+,,0,0,0,,{\an8\pos(506,538.69)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.16,0:12:09.20,Captions-207+,,0,0,0,,{\an8\pos(1384,238.69)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.16,0:12:09.20,Captions-207+,,0,0,0,,{\an8\pos(1384,238.69)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.20,0:12:09.25,Captions-207+,,0,0,0,,{\an8\pos(506,544.8)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.20,0:12:09.25,Captions-207+,,0,0,0,,{\an8\pos(506,544.8)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.20,0:12:09.25,Captions-207+,,0,0,0,,{\an8\pos(1384,244.8)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.20,0:12:09.25,Captions-207+,,0,0,0,,{\an8\pos(1384,244.8)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.25,0:12:09.29,Captions-207+,,0,0,0,,{\an8\pos(506,551.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.25,0:12:09.29,Captions-207+,,0,0,0,,{\an8\pos(506,551.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.25,0:12:09.29,Captions-207+,,0,0,0,,{\an8\pos(1384,251.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.25,0:12:09.29,Captions-207+,,0,0,0,,{\an8\pos(1384,251.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.29,0:12:09.33,Captions-207+,,0,0,0,,{\an8\pos(506,558.14)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.29,0:12:09.33,Captions-207+,,0,0,0,,{\an8\pos(506,558.14)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.29,0:12:09.33,Captions-207+,,0,0,0,,{\an8\pos(1384,258.14)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.29,0:12:09.33,Captions-207+,,0,0,0,,{\an8\pos(1384,258.14)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.33,0:12:09.37,Captions-207+,,0,0,0,,{\an8\pos(506,564.6)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.33,0:12:09.37,Captions-207+,,0,0,0,,{\an8\pos(506,564.6)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.33,0:12:09.37,Captions-207+,,0,0,0,,{\an8\pos(1384,264.6)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.33,0:12:09.37,Captions-207+,,0,0,0,,{\an8\pos(1384,264.6)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.37,0:12:09.41,Captions-207+,,0,0,0,,{\an8\pos(506,571.07)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.37,0:12:09.41,Captions-207+,,0,0,0,,{\an8\pos(506,571.07)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.37,0:12:09.41,Captions-207+,,0,0,0,,{\an8\pos(1384,271.07)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.37,0:12:09.41,Captions-207+,,0,0,0,,{\an8\pos(1384,271.07)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.41,0:12:09.45,Captions-207+,,0,0,0,,{\an8\pos(506,578.06)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.41,0:12:09.45,Captions-207+,,0,0,0,,{\an8\pos(506,578.06)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.41,0:12:09.45,Captions-207+,,0,0,0,,{\an8\pos(1384,278.06)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.41,0:12:09.45,Captions-207+,,0,0,0,,{\an8\pos(1384,278.06)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.45,0:12:09.50,Captions-207+,,0,0,0,,{\an8\pos(506,584.29)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.45,0:12:09.50,Captions-207+,,0,0,0,,{\an8\pos(506,584.29)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.45,0:12:09.50,Captions-207+,,0,0,0,,{\an8\pos(1384,284.29)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.45,0:12:09.50,Captions-207+,,0,0,0,,{\an8\pos(1384,284.29)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.50,0:12:09.54,Captions-207+,,0,0,0,,{\an8\pos(506,591.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.50,0:12:09.54,Captions-207+,,0,0,0,,{\an8\pos(506,591.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.50,0:12:09.54,Captions-207+,,0,0,0,,{\an8\pos(1384,291.11)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.50,0:12:09.54,Captions-207+,,0,0,0,,{\an8\pos(1384,291.11)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.54,0:12:09.58,Captions-207+,,0,0,0,,{\an8\pos(506,597.16)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.54,0:12:09.58,Captions-207+,,0,0,0,,{\an8\pos(506,597.16)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.54,0:12:09.58,Captions-207+,,0,0,0,,{\an8\pos(1384,297.16)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.54,0:12:09.58,Captions-207+,,0,0,0,,{\an8\pos(1384,297.16)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.58,0:12:09.62,Captions-207+,,0,0,0,,{\an8\pos(506,603.7)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.58,0:12:09.62,Captions-207+,,0,0,0,,{\an8\pos(506,603.7)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.58,0:12:09.62,Captions-207+,,0,0,0,,{\an8\pos(1384,303.7)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.58,0:12:09.62,Captions-207+,,0,0,0,,{\an8\pos(1384,303.7)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.62,0:12:09.66,Captions-207+,,0,0,0,,{\an8\pos(506,609.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.62,0:12:09.66,Captions-207+,,0,0,0,,{\an8\pos(506,609.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.62,0:12:09.66,Captions-207+,,0,0,0,,{\an8\pos(1384,309.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.62,0:12:09.66,Captions-207+,,0,0,0,,{\an8\pos(1384,309.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.66,0:12:09.70,Captions-207+,,0,0,0,,{\an8\pos(506,615.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.66,0:12:09.70,Captions-207+,,0,0,0,,{\an8\pos(506,615.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.66,0:12:09.70,Captions-207+,,0,0,0,,{\an8\pos(1384,315.96)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.66,0:12:09.70,Captions-207+,,0,0,0,,{\an8\pos(1384,315.96)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.70,0:12:09.75,Captions-207+,,0,0,0,,{\an8\pos(506,622.28)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.70,0:12:09.75,Captions-207+,,0,0,0,,{\an8\pos(506,622.28)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.70,0:12:09.75,Captions-207+,,0,0,0,,{\an8\pos(1384,322.28)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.70,0:12:09.75,Captions-207+,,0,0,0,,{\an8\pos(1384,322.28)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.75,0:12:09.79,Captions-207+,,0,0,0,,{\an8\pos(506,628.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.75,0:12:09.79,Captions-207+,,0,0,0,,{\an8\pos(506,628.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.75,0:12:09.79,Captions-207+,,0,0,0,,{\an8\pos(1384,328.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.75,0:12:09.79,Captions-207+,,0,0,0,,{\an8\pos(1384,328.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.79,0:12:09.83,Captions-207+,,0,0,0,,{\an8\pos(506,634.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.79,0:12:09.83,Captions-207+,,0,0,0,,{\an8\pos(506,634.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.79,0:12:09.83,Captions-207+,,0,0,0,,{\an8\pos(1384,334.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.79,0:12:09.83,Captions-207+,,0,0,0,,{\an8\pos(1384,334.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.83,0:12:09.87,Captions-207+,,0,0,0,,{\an8\pos(506,640.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.83,0:12:09.87,Captions-207+,,0,0,0,,{\an8\pos(506,640.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.83,0:12:09.87,Captions-207+,,0,0,0,,{\an8\pos(1384,340.45)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.83,0:12:09.87,Captions-207+,,0,0,0,,{\an8\pos(1384,340.45)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.87,0:12:09.91,Captions-207+,,0,0,0,,{\an8\pos(506,646.27)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.87,0:12:09.91,Captions-207+,,0,0,0,,{\an8\pos(506,646.27)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.87,0:12:09.91,Captions-207+,,0,0,0,,{\an8\pos(1384,346.27)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.87,0:12:09.91,Captions-207+,,0,0,0,,{\an8\pos(1384,346.27)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.91,0:12:09.95,Captions-207+,,0,0,0,,{\an8\pos(506,652.02)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.91,0:12:09.95,Captions-207+,,0,0,0,,{\an8\pos(506,652.02)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.91,0:12:09.95,Captions-207+,,0,0,0,,{\an8\pos(1384,352.02)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.91,0:12:09.95,Captions-207+,,0,0,0,,{\an8\pos(1384,352.02)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:09.95,0:12:10.00,Captions-207+,,0,0,0,,{\an8\pos(506,657.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:09.95,0:12:10.00,Captions-207+,,0,0,0,,{\an8\pos(506,657.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:09.95,0:12:10.00,Captions-207+,,0,0,0,,{\an8\pos(1384,357.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:09.95,0:12:10.00,Captions-207+,,0,0,0,,{\an8\pos(1384,357.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.00,0:12:10.04,Captions-207+,,0,0,0,,{\an8\pos(506,663.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.00,0:12:10.04,Captions-207+,,0,0,0,,{\an8\pos(506,663.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.00,0:12:10.04,Captions-207+,,0,0,0,,{\an8\pos(1384,363.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.00,0:12:10.04,Captions-207+,,0,0,0,,{\an8\pos(1384,363.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.04,0:12:10.08,Captions-207+,,0,0,0,,{\an8\pos(506,669.07)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.04,0:12:10.08,Captions-207+,,0,0,0,,{\an8\pos(506,669.07)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.04,0:12:10.08,Captions-207+,,0,0,0,,{\an8\pos(1384,369.07)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.04,0:12:10.08,Captions-207+,,0,0,0,,{\an8\pos(1384,369.07)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.08,0:12:10.12,Captions-207+,,0,0,0,,{\an8\pos(506,674.81)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.08,0:12:10.12,Captions-207+,,0,0,0,,{\an8\pos(506,674.81)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.08,0:12:10.12,Captions-207+,,0,0,0,,{\an8\pos(1384,374.81)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.08,0:12:10.12,Captions-207+,,0,0,0,,{\an8\pos(1384,374.81)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.12,0:12:10.16,Captions-207+,,0,0,0,,{\an8\pos(506,680.05)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.12,0:12:10.16,Captions-207+,,0,0,0,,{\an8\pos(506,680.05)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.12,0:12:10.16,Captions-207+,,0,0,0,,{\an8\pos(1384,380.05)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.12,0:12:10.16,Captions-207+,,0,0,0,,{\an8\pos(1384,380.05)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.16,0:12:10.20,Captions-207+,,0,0,0,,{\an8\pos(506,685.56)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.16,0:12:10.20,Captions-207+,,0,0,0,,{\an8\pos(506,685.56)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.16,0:12:10.20,Captions-207+,,0,0,0,,{\an8\pos(1384,385.56)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.16,0:12:10.20,Captions-207+,,0,0,0,,{\an8\pos(1384,385.56)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.20,0:12:10.25,Captions-207+,,0,0,0,,{\an8\pos(506,690.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.20,0:12:10.25,Captions-207+,,0,0,0,,{\an8\pos(506,690.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.20,0:12:10.25,Captions-207+,,0,0,0,,{\an8\pos(1384,390.5)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.20,0:12:10.25,Captions-207+,,0,0,0,,{\an8\pos(1384,390.5)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.25,0:12:10.29,Captions-207+,,0,0,0,,{\an8\pos(506,695.84)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.25,0:12:10.29,Captions-207+,,0,0,0,,{\an8\pos(506,695.84)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.25,0:12:10.29,Captions-207+,,0,0,0,,{\an8\pos(1384,395.84)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.25,0:12:10.29,Captions-207+,,0,0,0,,{\an8\pos(1384,395.84)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.29,0:12:10.33,Captions-207+,,0,0,0,,{\an8\pos(506,700.92)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.29,0:12:10.33,Captions-207+,,0,0,0,,{\an8\pos(506,700.92)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.29,0:12:10.33,Captions-207+,,0,0,0,,{\an8\pos(1384,400.92)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.29,0:12:10.33,Captions-207+,,0,0,0,,{\an8\pos(1384,400.92)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.33,0:12:10.37,Captions-207+,,0,0,0,,{\an8\pos(506,705.54)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.33,0:12:10.37,Captions-207+,,0,0,0,,{\an8\pos(506,705.54)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.33,0:12:10.37,Captions-207+,,0,0,0,,{\an8\pos(1384,405.54)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.33,0:12:10.37,Captions-207+,,0,0,0,,{\an8\pos(1384,405.54)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.37,0:12:10.41,Captions-207+,,0,0,0,,{\an8\pos(506,710.47)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.37,0:12:10.41,Captions-207+,,0,0,0,,{\an8\pos(506,710.47)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.37,0:12:10.41,Captions-207+,,0,0,0,,{\an8\pos(1384,410.47)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.37,0:12:10.41,Captions-207+,,0,0,0,,{\an8\pos(1384,410.47)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.41,0:12:10.45,Captions-207+,,0,0,0,,{\an8\pos(506,715.28)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.41,0:12:10.45,Captions-207+,,0,0,0,,{\an8\pos(506,715.28)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.41,0:12:10.45,Captions-207+,,0,0,0,,{\an8\pos(1384,415.28)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.41,0:12:10.45,Captions-207+,,0,0,0,,{\an8\pos(1384,415.28)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.45,0:12:10.50,Captions-207+,,0,0,0,,{\an8\pos(506,719.54)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.45,0:12:10.50,Captions-207+,,0,0,0,,{\an8\pos(506,719.54)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.45,0:12:10.50,Captions-207+,,0,0,0,,{\an8\pos(1384,419.54)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.45,0:12:10.50,Captions-207+,,0,0,0,,{\an8\pos(1384,419.54)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.50,0:12:10.54,Captions-207+,,0,0,0,,{\an8\pos(506,724.08)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.50,0:12:10.54,Captions-207+,,0,0,0,,{\an8\pos(506,724.08)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.50,0:12:10.54,Captions-207+,,0,0,0,,{\an8\pos(1384,424.08)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.50,0:12:10.54,Captions-207+,,0,0,0,,{\an8\pos(1384,424.08)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.54,0:12:10.58,Captions-207+,,0,0,0,,{\an8\pos(506,728.46)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.54,0:12:10.58,Captions-207+,,0,0,0,,{\an8\pos(506,728.46)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.54,0:12:10.58,Captions-207+,,0,0,0,,{\an8\pos(1384,428.46)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.54,0:12:10.58,Captions-207+,,0,0,0,,{\an8\pos(1384,428.46)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.58,0:12:10.62,Captions-207+,,0,0,0,,{\an8\pos(506,732.74)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.58,0:12:10.62,Captions-207+,,0,0,0,,{\an8\pos(506,732.74)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.58,0:12:10.62,Captions-207+,,0,0,0,,{\an8\pos(1384,432.74)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.58,0:12:10.62,Captions-207+,,0,0,0,,{\an8\pos(1384,432.74)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.62,0:12:10.66,Captions-207+,,0,0,0,,{\an8\pos(506,736.88)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.62,0:12:10.66,Captions-207+,,0,0,0,,{\an8\pos(506,736.88)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.62,0:12:10.66,Captions-207+,,0,0,0,,{\an8\pos(1384,436.88)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.62,0:12:10.66,Captions-207+,,0,0,0,,{\an8\pos(1384,436.88)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.66,0:12:10.70,Captions-207+,,0,0,0,,{\an8\pos(506,740.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.66,0:12:10.70,Captions-207+,,0,0,0,,{\an8\pos(506,740.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.66,0:12:10.70,Captions-207+,,0,0,0,,{\an8\pos(1384,440.58)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.66,0:12:10.70,Captions-207+,,0,0,0,,{\an8\pos(1384,440.58)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.70,0:12:10.75,Captions-207+,,0,0,0,,{\an8\pos(506,744.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.70,0:12:10.75,Captions-207+,,0,0,0,,{\an8\pos(506,744.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.70,0:12:10.75,Captions-207+,,0,0,0,,{\an8\pos(1384,444.49)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.70,0:12:10.75,Captions-207+,,0,0,0,,{\an8\pos(1384,444.49)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.75,0:12:10.79,Captions-207+,,0,0,0,,{\an8\pos(506,748.22)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.75,0:12:10.79,Captions-207+,,0,0,0,,{\an8\pos(506,748.22)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.75,0:12:10.79,Captions-207+,,0,0,0,,{\an8\pos(1384,448.22)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.75,0:12:10.79,Captions-207+,,0,0,0,,{\an8\pos(1384,448.22)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.79,0:12:10.83,Captions-207+,,0,0,0,,{\an8\pos(506,751.56)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.79,0:12:10.83,Captions-207+,,0,0,0,,{\an8\pos(506,751.56)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.79,0:12:10.83,Captions-207+,,0,0,0,,{\an8\pos(1384,451.56)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.79,0:12:10.83,Captions-207+,,0,0,0,,{\an8\pos(1384,451.56)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.83,0:12:10.87,Captions-207+,,0,0,0,,{\an8\pos(506,755.12)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.83,0:12:10.87,Captions-207+,,0,0,0,,{\an8\pos(506,755.12)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.83,0:12:10.87,Captions-207+,,0,0,0,,{\an8\pos(1384,455.12)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.83,0:12:10.87,Captions-207+,,0,0,0,,{\an8\pos(1384,455.12)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.87,0:12:10.91,Captions-207+,,0,0,0,,{\an8\pos(506,758.48)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.87,0:12:10.91,Captions-207+,,0,0,0,,{\an8\pos(506,758.48)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.87,0:12:10.91,Captions-207+,,0,0,0,,{\an8\pos(1384,458.48)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.87,0:12:10.91,Captions-207+,,0,0,0,,{\an8\pos(1384,458.48)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.91,0:12:10.96,Captions-207+,,0,0,0,,{\an8\pos(506,761.46)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.91,0:12:10.96,Captions-207+,,0,0,0,,{\an8\pos(506,761.46)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.91,0:12:10.96,Captions-207+,,0,0,0,,{\an8\pos(1384,461.46)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.91,0:12:10.96,Captions-207+,,0,0,0,,{\an8\pos(1384,461.46)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:10.96,0:12:11.00,Captions-207+,,0,0,0,,{\an8\pos(506,764.57)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:10.96,0:12:11.00,Captions-207+,,0,0,0,,{\an8\pos(506,764.57)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:10.96,0:12:11.00,Captions-207+,,0,0,0,,{\an8\pos(1384,464.57)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:10.96,0:12:11.00,Captions-207+,,0,0,0,,{\an8\pos(1384,464.57)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.00,0:12:11.04,Captions-207+,,0,0,0,,{\an8\pos(506,767.36)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.00,0:12:11.04,Captions-207+,,0,0,0,,{\an8\pos(506,767.36)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.00,0:12:11.04,Captions-207+,,0,0,0,,{\an8\pos(1384,467.36)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.00,0:12:11.04,Captions-207+,,0,0,0,,{\an8\pos(1384,467.36)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.04,0:12:11.08,Captions-207+,,0,0,0,,{\an8\pos(506,770.25)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.04,0:12:11.08,Captions-207+,,0,0,0,,{\an8\pos(506,770.25)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.04,0:12:11.08,Captions-207+,,0,0,0,,{\an8\pos(1384,470.25)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.04,0:12:11.08,Captions-207+,,0,0,0,,{\an8\pos(1384,470.25)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.08,0:12:11.12,Captions-207+,,0,0,0,,{\an8\pos(506,772.73)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.08,0:12:11.12,Captions-207+,,0,0,0,,{\an8\pos(506,772.73)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.08,0:12:11.12,Captions-207+,,0,0,0,,{\an8\pos(1384,472.73)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.08,0:12:11.12,Captions-207+,,0,0,0,,{\an8\pos(1384,472.73)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.12,0:12:11.16,Captions-207+,,0,0,0,,{\an8\pos(506,775.38)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.12,0:12:11.16,Captions-207+,,0,0,0,,{\an8\pos(506,775.38)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.12,0:12:11.16,Captions-207+,,0,0,0,,{\an8\pos(1384,475.38)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.12,0:12:11.16,Captions-207+,,0,0,0,,{\an8\pos(1384,475.38)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.16,0:12:11.21,Captions-207+,,0,0,0,,{\an8\pos(506,777.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.16,0:12:11.21,Captions-207+,,0,0,0,,{\an8\pos(506,777.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.16,0:12:11.21,Captions-207+,,0,0,0,,{\an8\pos(1384,477.67)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.16,0:12:11.21,Captions-207+,,0,0,0,,{\an8\pos(1384,477.67)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.21,0:12:11.25,Captions-207+,,0,0,0,,{\an8\pos(506,779.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.21,0:12:11.25,Captions-207+,,0,0,0,,{\an8\pos(506,779.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.21,0:12:11.25,Captions-207+,,0,0,0,,{\an8\pos(1384,479.86)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.21,0:12:11.25,Captions-207+,,0,0,0,,{\an8\pos(1384,479.86)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.25,0:12:11.29,Captions-207+,,0,0,0,,{\an8\pos(506,781.95)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.25,0:12:11.29,Captions-207+,,0,0,0,,{\an8\pos(506,781.95)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.25,0:12:11.29,Captions-207+,,0,0,0,,{\an8\pos(1384,481.95)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.25,0:12:11.29,Captions-207+,,0,0,0,,{\an8\pos(1384,481.95)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.29,0:12:11.33,Captions-207+,,0,0,0,,{\an8\pos(506,784.02)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.29,0:12:11.33,Captions-207+,,0,0,0,,{\an8\pos(506,784.02)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.29,0:12:11.33,Captions-207+,,0,0,0,,{\an8\pos(1384,484.02)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.29,0:12:11.33,Captions-207+,,0,0,0,,{\an8\pos(1384,484.02)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.33,0:12:11.37,Captions-207+,,0,0,0,,{\an8\pos(506,785.9)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.33,0:12:11.37,Captions-207+,,0,0,0,,{\an8\pos(506,785.9)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.33,0:12:11.37,Captions-207+,,0,0,0,,{\an8\pos(1384,485.9)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.33,0:12:11.37,Captions-207+,,0,0,0,,{\an8\pos(1384,485.9)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.37,0:12:11.41,Captions-207+,,0,0,0,,{\an8\pos(506,787.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.37,0:12:11.41,Captions-207+,,0,0,0,,{\an8\pos(506,787.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.37,0:12:11.41,Captions-207+,,0,0,0,,{\an8\pos(1384,487.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.37,0:12:11.41,Captions-207+,,0,0,0,,{\an8\pos(1384,487.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.41,0:12:11.46,Captions-207+,,0,0,0,,{\an8\pos(506,789.08)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.41,0:12:11.46,Captions-207+,,0,0,0,,{\an8\pos(506,789.08)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.41,0:12:11.46,Captions-207+,,0,0,0,,{\an8\pos(1384,489.08)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.41,0:12:11.46,Captions-207+,,0,0,0,,{\an8\pos(1384,489.08)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.46,0:12:11.50,Captions-207+,,0,0,0,,{\an8\pos(506,790.57)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.46,0:12:11.50,Captions-207+,,0,0,0,,{\an8\pos(506,790.57)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.46,0:12:11.50,Captions-207+,,0,0,0,,{\an8\pos(1384,490.57)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.46,0:12:11.50,Captions-207+,,0,0,0,,{\an8\pos(1384,490.57)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.50,0:12:11.54,Captions-207+,,0,0,0,,{\an8\pos(506,792.03)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.50,0:12:11.54,Captions-207+,,0,0,0,,{\an8\pos(506,792.03)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.50,0:12:11.54,Captions-207+,,0,0,0,,{\an8\pos(1384,492.03)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.50,0:12:11.54,Captions-207+,,0,0,0,,{\an8\pos(1384,492.03)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.54,0:12:11.58,Captions-207+,,0,0,0,,{\an8\pos(506,793.29)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.54,0:12:11.58,Captions-207+,,0,0,0,,{\an8\pos(506,793.29)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.54,0:12:11.58,Captions-207+,,0,0,0,,{\an8\pos(1384,493.29)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.54,0:12:11.58,Captions-207+,,0,0,0,,{\an8\pos(1384,493.29)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.58,0:12:11.62,Captions-207+,,0,0,0,,{\an8\pos(506,794.34)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.58,0:12:11.62,Captions-207+,,0,0,0,,{\an8\pos(506,794.34)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.58,0:12:11.62,Captions-207+,,0,0,0,,{\an8\pos(1384,494.34)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.58,0:12:11.62,Captions-207+,,0,0,0,,{\an8\pos(1384,494.34)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.62,0:12:11.66,Captions-207+,,0,0,0,,{\an8\pos(506,795.43)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.62,0:12:11.66,Captions-207+,,0,0,0,,{\an8\pos(506,795.43)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.62,0:12:11.66,Captions-207+,,0,0,0,,{\an8\pos(1384,495.43)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.62,0:12:11.66,Captions-207+,,0,0,0,,{\an8\pos(1384,495.43)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.66,0:12:11.71,Captions-207+,,0,0,0,,{\an8\pos(506,796.34)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.66,0:12:11.71,Captions-207+,,0,0,0,,{\an8\pos(506,796.34)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.66,0:12:11.71,Captions-207+,,0,0,0,,{\an8\pos(1384,496.34)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.66,0:12:11.71,Captions-207+,,0,0,0,,{\an8\pos(1384,496.34)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.71,0:12:11.75,Captions-207+,,0,0,0,,{\an8\pos(506,797.12)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.71,0:12:11.75,Captions-207+,,0,0,0,,{\an8\pos(506,797.12)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.71,0:12:11.75,Captions-207+,,0,0,0,,{\an8\pos(1384,497.12)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.71,0:12:11.75,Captions-207+,,0,0,0,,{\an8\pos(1384,497.12)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.75,0:12:11.79,Captions-207+,,0,0,0,,{\an8\pos(506,797.78)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.75,0:12:11.79,Captions-207+,,0,0,0,,{\an8\pos(506,797.78)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.75,0:12:11.79,Captions-207+,,0,0,0,,{\an8\pos(1384,497.78)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.75,0:12:11.79,Captions-207+,,0,0,0,,{\an8\pos(1384,497.78)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.79,0:12:11.83,Captions-207+,,0,0,0,,{\an8\pos(506,798.43)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.79,0:12:11.83,Captions-207+,,0,0,0,,{\an8\pos(506,798.43)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.79,0:12:11.83,Captions-207+,,0,0,0,,{\an8\pos(1384,498.43)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.79,0:12:11.83,Captions-207+,,0,0,0,,{\an8\pos(1384,498.43)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.83,0:12:11.87,Captions-207+,,0,0,0,,{\an8\pos(506,798.89)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.83,0:12:11.87,Captions-207+,,0,0,0,,{\an8\pos(506,798.89)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.83,0:12:11.87,Captions-207+,,0,0,0,,{\an8\pos(1384,498.89)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.83,0:12:11.87,Captions-207+,,0,0,0,,{\an8\pos(1384,498.89)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.87,0:12:11.91,Captions-207+,,0,0,0,,{\an8\pos(506,799.33)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.87,0:12:11.91,Captions-207+,,0,0,0,,{\an8\pos(506,799.33)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.87,0:12:11.91,Captions-207+,,0,0,0,,{\an8\pos(1384,499.33)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.87,0:12:11.91,Captions-207+,,0,0,0,,{\an8\pos(1384,499.33)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.91,0:12:11.96,Captions-207+,,0,0,0,,{\an8\pos(506,799.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.91,0:12:11.96,Captions-207+,,0,0,0,,{\an8\pos(506,799.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.91,0:12:11.96,Captions-207+,,0,0,0,,{\an8\pos(1384,499.62)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.91,0:12:11.96,Captions-207+,,0,0,0,,{\an8\pos(1384,499.62)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:11.96,0:12:12.00,Captions-207+,,0,0,0,,{\an8\pos(506,799.84)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:11.96,0:12:12.00,Captions-207+,,0,0,0,,{\an8\pos(506,799.84)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:11.96,0:12:12.00,Captions-207+,,0,0,0,,{\an8\pos(1384,499.84)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:11.96,0:12:12.00,Captions-207+,,0,0,0,,{\an8\pos(1384,499.84)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:12:12.00,0:12:12.04,Captions-207+,,0,0,0,,{\an8\pos(506,800)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:12:12.00,0:12:12.04,Captions-207+,,0,0,0,,{\an8\pos(506,800)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:12:12.00,0:12:12.04,Captions-207+,,0,0,0,,{\an8\pos(1384,500)\fscx125\fscy125\fnRoboto\b1\bord0\c&H000000&\blur0.8}Tower of Justice
+Dialogue: 0,0:12:12.00,0:12:12.04,Captions-207+,,0,0,0,,{\an8\pos(1384,500)\fscx125\fscy125\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Tower of Justice
+Dialogue: 1,0:13:22.44,0:13:22.48,Captions-207+,,0,0,0,,{\an8\pos(470,380.66)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,0,1270,2210,2210)}Courthouse
+Dialogue: 0,0:13:22.44,0:13:22.48,Captions-207+,,0,0,0,,{\an8\pos(470,380.66)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,0,1270,2210,2210)\t(1228,1270,\1a&H00&)}Courthouse
+Dialogue: 0,0:13:22.45,0:13:24.66,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8}Courthouse
+Dialogue: 1,0:13:22.48,0:13:22.53,Captions-207+,,0,0,0,,{\an8\pos(470,375.89)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-40,1230,2170,2170)}Courthouse
+Dialogue: 0,0:13:22.48,0:13:22.53,Captions-207+,,0,0,0,,{\an8\pos(470,375.89)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-40,1230,2170,2170)\t(1188,1230,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.53,0:13:22.57,Captions-207+,,0,0,0,,{\an8\pos(470,371.59)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-90,1180,2120,2120)}Courthouse
+Dialogue: 0,0:13:22.53,0:13:22.57,Captions-207+,,0,0,0,,{\an8\pos(470,371.59)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-90,1180,2120,2120)\t(1138,1180,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.57,0:13:22.61,Captions-207+,,0,0,0,,{\an8\pos(470,367.96)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-130,1140,2080,2080)}Courthouse
+Dialogue: 0,0:13:22.57,0:13:22.61,Captions-207+,,0,0,0,,{\an8\pos(470,367.96)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-130,1140,2080,2080)\t(1098,1140,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.61,0:13:22.65,Captions-207+,,0,0,0,,{\an8\pos(470,365.09)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-170,1100,2040,2040)}Courthouse
+Dialogue: 0,0:13:22.61,0:13:22.65,Captions-207+,,0,0,0,,{\an8\pos(470,365.09)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-170,1100,2040,2040)\t(1058,1100,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.65,0:13:22.69,Captions-207+,,0,0,0,,{\an8\pos(470,362.44)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-210,1060,2000,2000)}Courthouse
+Dialogue: 0,0:13:22.65,0:13:22.69,Captions-207+,,0,0,0,,{\an8\pos(470,362.44)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-210,1060,2000,2000)\t(1018,1060,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.69,0:13:22.74,Captions-207+,,0,0,0,,{\an8\pos(470,360.02)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-250,1020,1960,1960)}Courthouse
+Dialogue: 0,0:13:22.69,0:13:22.74,Captions-207+,,0,0,0,,{\an8\pos(470,360.02)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-250,1020,1960,1960)\t(978,1020,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.74,0:13:22.78,Captions-207+,,0,0,0,,{\an8\pos(470,358.62)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-300,970,1910,1910)}Courthouse
+Dialogue: 0,0:13:22.74,0:13:22.78,Captions-207+,,0,0,0,,{\an8\pos(470,358.62)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-300,970,1910,1910)\t(928,970,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.78,0:13:22.82,Captions-207+,,0,0,0,,{\an8\pos(470,357.19)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-340,930,1870,1870)}Courthouse
+Dialogue: 0,0:13:22.78,0:13:22.82,Captions-207+,,0,0,0,,{\an8\pos(470,357.19)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-340,930,1870,1870)\t(888,930,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.82,0:13:22.86,Captions-207+,,0,0,0,,{\an8\pos(470,356.22)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-380,890,1830,1830)}Courthouse
+Dialogue: 0,0:13:22.82,0:13:22.86,Captions-207+,,0,0,0,,{\an8\pos(470,356.22)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-380,890,1830,1830)\t(848,890,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.86,0:13:22.90,Captions-207+,,0,0,0,,{\an8\pos(470,355.71)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-420,850,1790,1790)}Courthouse
+Dialogue: 0,0:13:22.86,0:13:22.90,Captions-207+,,0,0,0,,{\an8\pos(470,355.71)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-420,850,1790,1790)\t(808,850,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.90,0:13:22.94,Captions-207+,,0,0,0,,{\an8\pos(470,355.23)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-460,810,1750,1750)}Courthouse
+Dialogue: 0,0:13:22.90,0:13:22.94,Captions-207+,,0,0,0,,{\an8\pos(470,355.23)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-460,810,1750,1750)\t(768,810,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.94,0:13:22.99,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-500,770,1710,1710)}Courthouse
+Dialogue: 0,0:13:22.94,0:13:22.99,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-500,770,1710,1710)\t(728,770,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:22.99,0:13:23.03,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-550,720,1660,1660)}Courthouse
+Dialogue: 0,0:13:22.99,0:13:23.03,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-550,720,1660,1660)\t(678,720,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.03,0:13:23.07,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-590,680,1620,1620)}Courthouse
+Dialogue: 0,0:13:23.03,0:13:23.07,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-590,680,1620,1620)\t(638,680,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.07,0:13:23.11,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-630,640,1580,1580)}Courthouse
+Dialogue: 0,0:13:23.07,0:13:23.11,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-630,640,1580,1580)\t(598,640,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.11,0:13:23.15,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-670,600,1540,1540)}Courthouse
+Dialogue: 0,0:13:23.11,0:13:23.15,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-670,600,1540,1540)\t(558,600,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.15,0:13:23.19,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-710,560,1500,1500)}Courthouse
+Dialogue: 0,0:13:23.15,0:13:23.19,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-710,560,1500,1500)\t(518,560,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.19,0:13:23.24,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-750,520,1460,1460)}Courthouse
+Dialogue: 0,0:13:23.19,0:13:23.24,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-750,520,1460,1460)\t(478,520,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.24,0:13:23.28,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-800,470,1410,1410)}Courthouse
+Dialogue: 0,0:13:23.24,0:13:23.28,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-800,470,1410,1410)\t(428,470,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.28,0:13:23.32,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-840,430,1370,1370)}Courthouse
+Dialogue: 0,0:13:23.28,0:13:23.32,Captions-207+,,0,0,0,,{\an8\pos(470,354.97)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-840,430,1370,1370)\t(388,430,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.32,0:13:23.36,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-880,390,1330,1330)}Courthouse
+Dialogue: 0,0:13:23.32,0:13:23.36,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-880,390,1330,1330)\t(348,390,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.36,0:13:23.40,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-920,350,1290,1290)}Courthouse
+Dialogue: 0,0:13:23.36,0:13:23.40,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-920,350,1290,1290)\t(308,350,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.40,0:13:23.44,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-960,310,1250,1250)}Courthouse
+Dialogue: 0,0:13:23.40,0:13:23.44,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-960,310,1250,1250)\t(268,310,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.44,0:13:23.49,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1000,270,1210,1210)}Courthouse
+Dialogue: 0,0:13:23.44,0:13:23.49,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1000,270,1210,1210)\t(228,270,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.49,0:13:23.53,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1050,220,1160,1160)}Courthouse
+Dialogue: 0,0:13:23.49,0:13:23.53,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1050,220,1160,1160)\t(178,220,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.53,0:13:23.57,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1090,180,1120,1120)}Courthouse
+Dialogue: 0,0:13:23.53,0:13:23.57,Captions-207+,,0,0,0,,{\an8\pos(470,354.98)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1090,180,1120,1120)\t(138,180,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.57,0:13:23.61,Captions-207+,,0,0,0,,{\an8\pos(470,354.99)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1130,140,1080,1080)}Courthouse
+Dialogue: 0,0:13:23.57,0:13:23.61,Captions-207+,,0,0,0,,{\an8\pos(470,354.99)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1130,140,1080,1080)\t(98,140,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.61,0:13:23.65,Captions-207+,,0,0,0,,{\an8\pos(470,354.99)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1170,100,1040,1040)}Courthouse
+Dialogue: 0,0:13:23.61,0:13:23.65,Captions-207+,,0,0,0,,{\an8\pos(470,354.99)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1170,100,1040,1040)\t(58,100,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.65,0:13:23.69,Captions-207+,,0,0,0,,{\an8\pos(470,354.99)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1210,60,1000,1000)}Courthouse
+Dialogue: 0,0:13:23.65,0:13:23.69,Captions-207+,,0,0,0,,{\an8\pos(470,354.99)\fscx110\fscy110\fnRoboto\b1\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1210,60,1000,1000)\t(18,60,\1a&H00&)}Courthouse
+Dialogue: 1,0:13:23.70,0:13:24.66,Captions-207+,,0,0,0,,{\an8\pos(470,355)\fscx110\fscy110\fnRoboto\b1\bord0\c&H000000&\blur0.8}Courthouse
+Dialogue: 0,0:18:36.76,0:18:41.02,Captions-207+,,0,0,0,,{\an8\pos(960,80)\fscx175\fscy175\b600\c&H0E0E11&\3c&H0E0E11&\4c&H0E0E11&\1a&HFF&\blur0.8\fad(481,0)\t(439,481,\1a&H00&)}Luffy vs. Blueno\NCourthouse Rooftop
+Dialogue: 1,0:18:36.76,0:18:41.02,Captions-207+,,0,0,0,,{\an8\pos(960,80)\fscx175\fscy175\b600\bord0\c&HE5E6E7&\blur0.8\fad(481,0)}Luffy vs. Blueno\NCourthouse Rooftop
+Dialogue: 1,0:18:36.76,0:18:41.02,Captions-207+,,0,0,0,,{\an8\pos(960,80)\fscx175\fscy175\b600\bord0\c&HE5E6E7&\blur0.8\fad(481,0)}Luffy vs. Blueno\NCourthouse Rooftop
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord3.9\c&H000000&}Video Editing
+Dialogue: 1,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Video Editing
+Dialogue: 2,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Video Editing
+Dialogue: 0,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Galaxy 9000
+Dialogue: 1,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord0.1\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Galaxy 9000
+Dialogue: 2,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord0.1\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Galaxy 9000
+Dialogue: 0,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.6\bord3.9\c&H000000&}Graphics
+Dialogue: 1,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Graphics
+Dialogue: 2,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Graphics
+Dialogue: 0,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Datenshi\NGirl-Krillin
+Dialogue: 1,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Datenshi\NGirl-Krillin
+Dialogue: 2,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Datenshi\NGirl-Krillin
+Dialogue: 0,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord3.9\fscx105\fscy110\c&H000000&}Karaoke
+Dialogue: 1,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord0\fscx105\fscy110\c&HF9F9FA&\4a&HFF&}Karaoke
+Dialogue: 2,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord0\fscx105\fscy110\c&HF9F9FA&\4a&HFF&}Karaoke
+Dialogue: 0,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}KaitouYahiko
+Dialogue: 1,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}KaitouYahiko
+Dialogue: 2,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord3.9\c&H000000&}Quality Control
+Dialogue: 1,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Quality Control
+Dialogue: 2,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Quality Control
+Dialogue: 0,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Feeso   Gab   Gol D. Rocks\NPepperjack   Zenef
+Dialogue: 1,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Feeso   Gab   Gol D. Rocks\NPepperjack   Zenef
+Dialogue: 2,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Feeso   Gab   Gol D. Rocks\NPepperjack   Zenef
+Dialogue: 0,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(519,816)\blur0.6\bord3.5\fscx90\fscy110\fnRoboto\c&H000000&\b1}Soundtracking
+Dialogue: 1,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(519,816)\blur0.6\bord0\fscx90\fscy110\fnRoboto\c&HF9F9FA&\4a&HFF&\b1}Soundtracking
+Dialogue: 0,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(1163,816)\blur0.6\bord3.5\fscx90\fscy110\fnRoboto\c&H000000&\b1}Halee
+Dialogue: 1,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(1163,816)\blur0.6\bord0\fscx90\fscy110\fnRoboto\c&HF9F9FA&\4a&HFF&\b1}Halee
+Dialogue: 0,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord3.9\c&H000000&}Timing
+Dialogue: 1,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Timing
+Dialogue: 2,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Timing
+Dialogue: 0,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}NateTheBird
+Dialogue: 1,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 2,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 0,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,698)\blur0.6\bord3.9\c&H000000&}Closed Captioning
+Dialogue: 1,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,698)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Closed Captioning
+Dialogue: 2,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,698)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Closed Captioning
+Dialogue: 0,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,752)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}NateTheBird
+Dialogue: 1,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,752)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 2,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,752)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 0,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord3.9\fscx90\fscy95\c&H000000&}Translation
+Dialogue: 1,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord0\fscx90\fscy95\c&HF9F9FA&\4a&HFF&}Translation
+Dialogue: 2,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord0\fscx90\fscy95\c&HF9F9FA&\4a&HFF&}Translation
+Dialogue: 0,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}arch1t3cht   Crunchyroll\NGaijin   PamkinPinguin   rangicus
+Dialogue: 1,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht   Crunchyroll\NGaijin   PamkinPinguin   rangicus
+Dialogue: 2,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht   Crunchyroll\NGaijin   PamkinPinguin   rangicus
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4

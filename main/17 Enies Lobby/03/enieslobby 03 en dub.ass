@@ -1,0 +1,863 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Note-207+,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,3.75,3.75,8,300,300,27,1
+Style: Captions,Roboto,53,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,15,15,15,1
+Style: Sign,FOT-Greco Std B Strp,60,&H00000000,&H000000FF,&H00F3F3F4,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,2,15,15,15,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Karaoke-furigana,Duality,45,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,2.25,0,8,15,15,15,1
+Style: Lyrics-furigana,FOT-Greco Std B Strp,29.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1.75,0,2,15,15,23,1
+Style: Lyrics,FOT-Greco Std B Strp,59,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,3.5,0,2,15,15,23,1
+Style: Kanji-furigana,Duality,45,&H00E24B33,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,15,15,120,1
+Style: Karaoke,Duality,90,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,4.5,0,8,15,15,15,1
+Style: Kanji,Duality,75,&H00E24B33,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,8,15,15,150,1
+Style: Romaji ED,BlackChancery,75,&H00272761,&H000000FF,&H00E0E0E0,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,9,50,50,20,1
+Style: Translation ED,BlackChancery,75,&H00272761,&H000000FF,&H00E0E0E0,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,3,50,50,20,1
+Style: Episode-Title-207+,M+ 1c Pace,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:49.96,0:01:59.96,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 55,0:02:06.75,0:02:08.62,Main-207+,,0,0,0,,It's been quite a while, Chief.
+Dialogue: 55,0:02:09.50,0:02:10.80,Main-207+,,0,0,0,,Hasn't it?
+Dialogue: 55,0:02:13.51,0:02:17.88,Main-207+,,0,0,0,,As promised, we've brought Cutty Flam...\Nthe criminal responsible for assaulting
+Dialogue: 55,0:02:17.88,0:02:21.08,Main-207+,,0,0,0,,government officials in\NWater Seven, 8 years ago.
+Dialogue: 55,0:02:21.08,0:02:22.08,Main-207+,,0,0,0,,And of course.
+Dialogue: 55,0:02:22.08,0:02:25.99,Main-207+,,0,0,0,,We also have Nico Robin,\Nthe last surviving resident of Ohara.
+Dialogue: 55,0:02:25.99,0:02:29.13,Main-207+,,0,0,0,,Who we've been trying to capture\Nfor the past two decades.
+Dialogue: 55,0:02:29.13,0:02:32.89,Main-207+,,0,0,0,,They're both waiting outside\Nif you would like to see them.
+Dialogue: 55,0:02:32.89,0:02:35.74,Main-207+,,0,0,0,,In short, the mission\Nwas a huge success.
+Dialogue: 55,0:02:35.74,0:02:38.01,Main-207+,,0,0,0,,It's good to have you back.
+Dialogue: 55,0:02:38.01,0:02:38.91,Main-207+,,0,0,0,,Lucci.
+Dialogue: 55,0:02:38.91,0:02:39.80,Main-207+,,0,0,0,,Kaku.
+Dialogue: 55,0:02:39.80,0:02:40.76,Main-207+,,0,0,0,,Blueno.
+Dialogue: 55,0:02:40.76,0:02:41.93,Main-207+,,0,0,0,,Kalifa.
+Dialogue: 55,0:02:41.93,0:02:42.87,Main-207+,,0,0,0,,That's harassment.
+Dialogue: 55,0:02:42.87,0:02:44.90,Main-207+,,0,0,0,,All I did was say your name!
+Dialogue: 55,0:02:48.77,0:02:51.71,Main-207+,,0,0,0,,Just like old times, huh, Lucci?
+Dialogue: 55,0:02:51.71,0:02:55.00,Main-207+,,0,0,0,,Actually, I think that you might\Nbe even more smug than before.
+Dialogue: 55,0:02:55.00,0:02:59.14,Main-207+,,0,0,0,,But sadly, you're\Nnot any smarter, Jabra.
+Dialogue: 55,0:02:59.14,0:03:01.57,Main-207+,,0,0,0,,What?
+Dialogue: 55,0:03:01.57,0:03:02.51,Main-207+,,0,0,0,,Oh, come on!
+Dialogue: 55,0:03:02.51,0:03:03.57,Main-207+,,0,0,0,,We've hardly even\Ngotten off of the train
+Dialogue: 55,0:03:03.57,0:03:06.01,Main-207+,,0,0,0,,and the first thing you\Ntwo do is start bickering?
+Dialogue: 55,0:03:06.01,0:03:06.91,Main-207+,,0,0,0,,Yoyoi!
+Dialogue: 55,0:03:06.91,0:03:08.78,Main-207+,,0,0,0,,Kaakuu is riiiiight!
+Dialogue: 55,0:03:08.78,0:03:13.38,Main-207+,,0,0,0,,Can't we alllll just get aloooong?!
+Dialogue: 55,0:03:13.38,0:03:20.79,Main-207+,,0,0,0,,Fooor fiiive loooong years we've\Nawaaaaited theiiir reeetuuurn!
+Dialogue: 55,0:03:31.05,0:03:33.36,Main-207+,,0,0,0,,Chapapa.
+Dialogue: 55,0:03:40.25,0:03:41.52,Main-207+,,0,0,0,,Ow.
+Dialogue: 55,0:03:41.52,0:03:45.82,Main-207+,,0,0,0,,I had a feeling you were going\Nto test us right away, Fukurou.
+Dialogue: 55,0:03:45.82,0:03:49.39,Main-207+,,0,0,0,,Six Powers Skill-Competition!
+Dialogue: 55,0:03:49.39,0:03:52.29,Main-207+,,0,0,0,,{\an8}I'll use an armed guard as\Nreference for the ranking.
+Dialogue: 55,0:03:52.29,0:03:53.90,Main-207+,,0,0,0,,{\an8}Let's say they're about a ten.
+Dialogue: 55,0:03:53.90,0:03:56.36,Main-207+,,0,0,0,,{\an8}So your power levels are.
+Dialogue: 55,0:03:56.36,0:03:59.23,Main-207+,,0,0,0,,Ohhh, interesting, very interesting.
+Dialogue: 55,0:03:59.23,0:04:00.37,Main-207+,,0,0,0,,Let's see here.
+Dialogue: 55,0:04:00.37,0:04:01.53,Main-207+,,0,0,0,,First is Kalifa.
+Dialogue: 55,0:04:01.53,0:04:03.50,Main-207+,,0,0,0,,Power level six hundred thirty.
+Dialogue: 55,0:04:03.50,0:04:06.83,Main-207+,,0,0,0,,Blueno is eight-hundred twenty.
+Dialogue: 55,0:04:06.83,0:04:10.14,Main-207+,,0,0,0,,Kaku is two-thousand, two hundred.
+Dialogue: 55,0:04:10.14,0:04:12.24,Main-207+,,0,0,0,,And Lucci.
+Dialogue: 55,0:04:15.18,0:04:17.20,Main-207+,,0,0,0,,Power level 4000!
+Dialogue: 55,0:04:17.20,0:04:18.34,Main-207+,,0,0,0,,4000?
+Dialogue: 55,0:04:18.34,0:04:20.15,Main-207+,,0,0,0,,You gotta be making these numbers up!
+Dialogue: 55,0:04:20.15,0:04:22.29,Main-207+,,0,0,0,,There's no such thing as\Na power level that high!
+Dialogue: 55,0:04:22.29,0:04:23.75,Main-207+,,0,0,0,,Cha pa pa!
+Dialogue: 55,0:04:23.75,0:04:28.23,Main-207+,,0,0,0,,Well, maybe not before now,\Nbut they've gotten stronger!
+Dialogue: 55,0:04:28.23,0:04:30.83,Main-207+,,0,0,0,,Since I measured\NJabra and Kumadori too.
+Dialogue: 55,0:04:30.83,0:04:35.13,Main-207+,,0,0,0,,I can finally rank all of CP9!
+Dialogue: 55,0:04:39.26,0:04:41.60,Main-207+,,0,0,0,,No way, Fukurou, I want a recount!
+Dialogue: 55,0:04:41.60,0:04:45.31,Main-207+,,0,0,0,,Even if I ignore the whole Lucci thing,\Nwhy the hell am I weaker than Kaku!
+Dialogue: 55,0:04:45.31,0:04:46.78,Main-207+,,0,0,0,,'Because Cha pa pa!
+Dialogue: 55,0:04:46.78,0:04:50.35,Main-207+,,0,0,0,,Kaku got stronger too, that's why!
+Dialogue: 55,0:04:50.35,0:04:52.71,Main-207+,,0,0,0,,I don't want you getting\Na big head over this Kaku.
+Dialogue: 55,0:04:52.71,0:04:56.17,Main-207+,,0,0,0,,Just remember, the "Competition" technique\Nonly measures your physical strength!
+Dialogue: 55,0:04:56.17,0:04:57.02,Main-207+,,0,0,0,,In a real battle,
+Dialogue: 55,0:04:57.69,0:05:00.50,Main-207+,,0,0,0,,I have my devil fruit powers\Nto help me out, too.
+Dialogue: 55,0:05:00.50,0:05:03.66,Main-207+,,0,0,0,,I can trash a guy like you\Nany day of the week, got it?
+Dialogue: 55,0:05:03.66,0:05:04.86,Main-207+,,0,0,0,,I don't care.
+Dialogue: 55,0:05:04.86,0:05:08.10,Main-207+,,0,0,0,,If it makes you feel better,\Nkeep telling yourself that.
+Dialogue: 55,0:05:08.10,0:05:09.24,Main-207+,,0,0,0,,Exactly.
+Dialogue: 55,0:05:09.24,0:05:13.04,Main-207+,,0,0,0,,Don't pay any heed to the\Nyapping of that mangy dog.
+Dialogue: 55,0:05:13.61,0:05:16.91,Main-207+,,0,0,0,,So, I'm a mangy dog, am I?
+Dialogue: 55,0:05:16.91,0:05:19.81,Main-207+,,0,0,0,,Screw you, cat bastard.
+Dialogue: 55,0:05:27.12,0:05:27.91,Main-207+,,0,0,0,,Honestly!
+Dialogue: 55,0:05:27.91,0:05:29.58,Main-207+,,0,0,0,,Both of you, stop it!
+Dialogue: 55,0:05:29.58,0:05:32.31,Main-207+,,0,0,0,,Jabra certainly is\Ntouchy today, isn't he?
+Dialogue: 55,0:05:32.31,0:05:33.88,Main-207+,,0,0,0,,Did something happen to him?
+Dialogue: 55,0:05:33.88,0:05:36.55,Main-207+,,0,0,0,,All the guards on the\Nisland are talking about it!
+Dialogue: 55,0:05:36.55,0:05:38.55,Main-207+,,0,0,0,,Jabra's been in a bad mood\N'cause he got dumped
+Dialogue: 55,0:05:38.55,0:05:41.85,Main-207+,,0,0,0,,by that waitress,\NGatherine the other day.
+Dialogue: 55,0:05:41.85,0:05:43.19,Main-207+,,0,0,0,,So that's it.
+Dialogue: 55,0:05:43.19,0:05:44.82,Main-207+,,0,0,0,,Hey, now hold on a sec!
+Dialogue: 55,0:05:44.82,0:05:47.07,Main-207+,,0,0,0,,That's a secret-why do\Npeople know about that!
+Dialogue: 55,0:05:47.07,0:05:50.14,Main-207+,,0,0,0,,'Cause I told everyone here\Nhow sad and lonely you are!
+Dialogue: 55,0:05:50.14,0:05:51.07,Main-207+,,0,0,0,,Chapapa!
+Dialogue: 55,0:05:51.07,0:05:53.78,Main-207+,,0,0,0,,I should've known!
+Dialogue: 55,0:05:57.30,0:05:58.33,Main-207+,,0,0,0,,Geez!
+Dialogue: 55,0:05:58.33,0:06:02.44,Main-207+,,0,0,0,,This is what you get for doing that\Nstupid ranking nonsense right off the bat!
+Dialogue: 55,0:06:02.44,0:06:04.04,Main-207+,,0,0,0,,There's hardly any point in bickering
+Dialogue: 55,0:06:04.04,0:06:08.84,Main-207+,,0,0,0,,over who's strongest when your Six Powers\Ntraining has made you all superhuman.
+Dialogue: 55,0:06:08.84,0:06:12.38,Main-207+,,0,0,0,,Power Level 500 should be\Nmore than anyone needs, right?
+Dialogue: 55,0:06:12.38,0:06:15.35,Main-207+,,0,0,0,,He's saying that cause he's level 9.
+Dialogue: 55,0:06:15.35,0:06:17.75,Main-207+,,0,0,0,,Even weaker than a guard, chapapa!
+Dialogue: 55,0:06:17.75,0:06:18.82,Main-207+,,0,0,0,,Who cares!
+Dialogue: 55,0:06:18.82,0:06:21.19,Main-207+,,0,0,0,,You guys are the muscle...I\Njust give the orders!
+Dialogue: 55,0:06:21.19,0:06:24.06,Main-207+,,0,0,0,,Besides, I have my special\Nsword to use in a pinch.
+Dialogue: 55,0:06:24.06,0:06:24.93,Main-207+,,0,0,0,,It's all right, Chief.
+Dialogue: 55,0:06:24.93,0:06:27.16,Main-207+,,0,0,0,,We've always known how weak you are.
+Dialogue: 55,0:06:28.66,0:06:30.23,Main-207+,,0,0,0,,Come on now, Kalifa.
+Dialogue: 55,0:06:30.23,0:06:33.33,Main-207+,,0,0,0,,There's no need to\Nbe so blunt about it!
+Dialogue: 55,0:06:33.33,0:06:34.67,Main-207+,,0,0,0,,That's sexual harassment.
+Dialogue: 55,0:06:34.67,0:06:35.37,Main-207+,,0,0,0,,What?
+Dialogue: 55,0:06:35.37,0:06:36.90,Main-207+,,0,0,0,,Because I replied to you?
+Dialogue: 55,0:06:38.37,0:06:39.57,Main-207+,,0,0,0,,By the way.
+Dialogue: 55,0:06:39.57,0:06:40.22,Main-207+,,0,0,0,,Huh?
+Dialogue: 55,0:06:40.22,0:06:40.92,Main-207+,,0,0,0,,What now?
+Dialogue: 55,0:06:41.71,0:06:43.15,Main-207+,,0,0,0,,That's sexual harassment.
+Dialogue: 55,0:06:43.15,0:06:44.69,Main-207+,,0,0,0,,My existence?
+Dialogue: 55,0:06:45.37,0:06:46.34,Main-207+,,0,0,0,,Yoiyoi!
+Dialogue: 55,0:06:46.34,0:06:47.38,Main-207+,,0,0,0,,Kalifa!
+Dialogue: 55,0:06:47.38,0:06:51.00,Main-207+,,0,0,0,,You are showing very poor form!
+Dialogue: 55,0:06:51.00,0:06:54.79,Main-207+,,0,0,0,,Allow me to apologiiize,\Ndeaaar chiiief.
+Dialogue: 55,0:06:54.79,0:06:57.79,Main-207+,,0,0,0,,By putting this blade to my belly!
+Dialogue: 55,0:06:57.79,0:06:59.29,Main-207+,,0,0,0,,Seppuku!
+Dialogue: 55,0:06:59.29,0:07:00.79,Main-207+,,0,0,0,,Iron Body!
+Dialogue: 55,0:07:01.36,0:07:04.30,Main-207+,,0,0,0,,I can't even die right.
+Dialogue: 55,0:07:04.93,0:07:08.08,Main-207+,,0,0,0,,If you wanna die that bad,\NI'd be happy to help!
+Dialogue: 55,0:07:08.08,0:07:10.83,Main-207+,,0,0,0,,Although it's been a long time\Ncoming, needless to say,
+Dialogue: 55,0:07:10.83,0:07:15.38,Main-207+,,0,0,0,,Needless to say, I'm extremely pleased\Nwith your performance in this mission.
+Dialogue: 55,0:07:15.38,0:07:18.79,Main-207+,,0,0,0,,By the way, although it\Nisn't exactly a reward for all
+Dialogue: 55,0:07:18.79,0:07:22.36,Main-207+,,0,0,0,,your hard work, I do have\Nsomething I want to give you.
+Dialogue: 55,0:07:22.36,0:07:25.73,Main-207+,,0,0,0,,But we can take care of that later.
+Dialogue: 55,0:07:25.73,0:07:29.36,Main-207+,,0,0,0,,For now, let's meet them, shall we?
+Dialogue: 55,0:07:29.36,0:07:31.89,Main-207+,,0,0,0,,The hope of the entire world.
+Dialogue: 55,0:07:43.24,0:07:43.94,Main-207+,,0,0,0,,Hurry up!
+Dialogue: 55,0:07:43.94,0:07:45.74,Main-207+,,0,0,0,,Move it!
+Dialogue: 55,0:07:47.31,0:07:49.05,Main-207+,,0,0,0,,You too, big guy!
+Dialogue: 55,0:08:01.42,0:08:03.42,Main-207+,,0,0,0,,I couldn't be happier!
+Dialogue: 55,0:08:03.42,0:08:04.62,Main-207+,,0,0,0,,Amazing work.
+Dialogue: 55,0:08:04.62,0:08:10.16,Main-207+,,0,0,0,,You survived the "accident"\Neight years ago, Cutty Flam.
+Dialogue: 55,0:08:10.16,0:08:13.23,Main-207+,,0,0,0,,And now, I have you as well.
+Dialogue: 55,0:08:13.23,0:08:17.40,Main-207+,,0,0,0,,The world's most dangerous\Nwoman, Nico Robin.
+Dialogue: 55,0:08:17.95,0:08:19.39,Main-207+,,0,0,0,,It's so unfortunate.
+Dialogue: 55,0:08:19.39,0:08:20.49,Main-207+,,0,0,0,,The rest of the world may never know
+Dialogue: 55,0:08:20.49,0:08:24.32,Main-207+,,0,0,0,,what a glorious accomplishment\NCP9 achieved today.
+Dialogue: 55,0:08:24.32,0:08:27.59,Main-207+,,0,0,0,,One of the drawbacks of being\Na secret agency and all that.
+Dialogue: 55,0:08:27.59,0:08:30.00,Main-207+,,0,0,0,,Yes, a pity.
+Dialogue: 55,0:08:30.00,0:08:35.59,Main-207+,,0,0,0,,Honestly, the news of your capture\Ncould take years to reach the public.
+Dialogue: 55,0:08:35.59,0:08:37.09,Main-207+,,0,0,0,,The "justice" those old geezers
+Dialogue: 55,0:08:37.09,0:08:40.89,Main-207+,,0,0,0,,in the current World Government\Ndole out is far too lenient!
+Dialogue: 55,0:08:40.89,0:08:44.81,Main-207+,,0,0,0,,Without sacrifice,\Ngoals cannot be achieved.
+Dialogue: 55,0:08:44.81,0:08:49.94,Main-207+,,0,0,0,,I mean, this is world peace we're\Nworking for... it's not easy!
+Dialogue: 55,0:08:49.94,0:08:52.35,Main-207+,,0,0,0,,Surely there can't be\Nan issue with sacrificing
+Dialogue: 55,0:08:52.35,0:08:56.46,Main-207+,,0,0,0,,a few fools along the way who hinder our\Nwork for the sake of the greater good.
+Dialogue: 55,0:08:56.46,0:08:57.39,Main-207+,,0,0,0,,Right?
+Dialogue: 55,0:08:57.39,0:08:58.46,Main-207+,,0,0,0,,You know, if everyone\Nwould just give us
+Dialogue: 55,0:08:58.46,0:09:01.70,Main-207+,,0,0,0,,what we ask for obediently\Nand without question.
+Dialogue: 55,0:09:01.70,0:09:04.40,Main-207+,,0,0,0,,Then we wouldn't need to\Ngo to such extreme measures.
+Dialogue: 55,0:09:04.40,0:09:07.17,Main-207+,,0,0,0,,Like we had to with poor Tom!
+Dialogue: 55,0:09:10.23,0:09:12.36,Main-207+,,0,0,0,,That traitor deserved it!
+Dialogue: 55,0:09:14.40,0:09:15.56,Main-207+,,0,0,0,,Crazy bastard!
+Dialogue: 55,0:09:16.28,0:09:19.13,Main-207+,,0,0,0,,Tom put his life on the line\Nto protect those blueprints!
+Dialogue: 55,0:09:19.13,0:09:22.00,Main-207+,,0,0,0,,Because idiots like you exist!
+Dialogue: 55,0:09:26.45,0:09:27.35,Main-207+,,0,0,0,,What are you doing?!
+Dialogue: 55,0:09:28.28,0:09:30.91,Main-207+,,0,0,0,,Don't just sit there, help me!
+Dialogue: 55,0:10:44.29,0:10:46.39,Main-207+,,0,0,0,,This is Main Island, calling the Chief.
+Dialogue: 55,0:10:46.39,0:10:47.79,Main-207+,,0,0,0,,Spandam, come in!
+Dialogue: 55,0:10:47.79,0:10:49.46,Main-207+,,0,0,0,,I repeat! Come in!
+Dialogue: 55,0:10:49.46,0:10:50.36,Main-207+,,0,0,0,,It's no good!
+Dialogue: 55,0:10:50.36,0:10:51.46,Main-207+,,0,0,0,,No signal!
+Dialogue: 55,0:10:51.46,0:10:52.36,Main-207+,,0,0,0,,Is that so?
+Dialogue: 55,0:10:52.36,0:10:54.33,Main-207+,,0,0,0,,Maybe he's got the receiver off again.
+Dialogue: 55,0:10:54.33,0:10:55.63,Main-207+,,0,0,0,,Awww, seriously?!
+Dialogue: 55,0:10:55.63,0:10:58.71,Main-207+,,0,0,0,,Could his timing be any worse?!
+Dialogue: 55,0:10:58.71,0:10:59.41,Main-207+,,0,0,0,,Hey!
+Dialogue: 55,0:10:59.41,0:11:01.31,Main-207+,,0,0,0,,Anyone see where Straw Hat went?
+Dialogue: 55,0:11:01.31,0:11:02.91,Main-207+,,0,0,0,,He's right beneath you!
+Dialogue: 55,0:11:02.91,0:11:03.78,Main-207+,,0,0,0,,What?!
+Dialogue: 55,0:11:03.78,0:11:04.88,Main-207+,,0,0,0,,He is?!
+Dialogue: 55,0:11:07.08,0:11:09.55,Main-207+,,0,0,0,,Everyone attack him from all sides!
+Dialogue: 55,0:11:09.55,0:11:10.41,Main-207+,,0,0,0,,Now!
+Dialogue: 55,0:11:10.41,0:11:11.08,Main-207+,,0,0,0,,There he is!
+Dialogue: 55,0:11:11.08,0:11:11.78,Main-207+,,0,0,0,,We got him!
+Dialogue: 55,0:11:11.78,0:11:12.48,Main-207+,,0,0,0,,Damn!
+Dialogue: 55,0:11:12.48,0:11:13.59,Main-207+,,0,0,0,,I'm cornered!
+Dialogue: 55,0:11:20.76,0:11:26.03,Main-207+,,0,0,0,,Now Gum-Gum Volcano!
+Dialogue: 55,0:11:47.35,0:11:48.05,Main-207+,,0,0,0,,What?!
+Dialogue: 55,0:11:50.85,0:11:51.89,Main-207+,,0,0,0,,No way!
+Dialogue: 55,0:11:51.89,0:11:53.42,Main-207+,,0,0,0,,The walls are falling!
+Dialogue: 55,0:11:55.53,0:11:56.46,Main-207+,,0,0,0,,Run!
+Dialogue: 55,0:11:59.33,0:12:05.57,Main-207+,,0,0,0,,Now Gum-Gum Gatling!
+Dialogue: 55,0:12:06.58,0:12:08.51,Main-207+,,0,0,0,,Oh, no!
+Dialogue: 55,0:12:13.72,0:12:14.52,Main-207+,,0,0,0,,Chief Spandam!
+Dialogue: 55,0:12:14.52,0:12:15.59,Main-207+,,0,0,0,,Please, come in!
+Dialogue: 55,0:12:15.91,0:12:17.05,Main-207+,,0,0,0,,We need your orders, sir!
+Dialogue: 55,0:12:17.05,0:12:19.85,Main-207+,,0,0,0,,We can't stop Straw Hat Luffy!
+Dialogue: 55,0:12:20.75,0:12:21.55,Main-207+,,0,0,0,,Get ready!
+Dialogue: 55,0:12:22.23,0:12:23.86,Main-207+,,0,0,0,,He's heading towards the courthouse!
+Dialogue: 55,0:12:23.86,0:12:25.47,Main-207+,,0,0,0,,We need those defenses lined up!
+Dialogue: 55,0:12:25.47,0:12:26.40,Main-207+,,0,0,0,,Move it, men!
+Dialogue: 55,0:12:26.40,0:12:27.94,Main-207+,,0,0,0,,Shut up, already!
+Dialogue: 55,0:12:27.94,0:12:29.40,Main-207+,,0,0,0,,What's with all the yelling?
+Dialogue: 55,0:12:29.40,0:12:32.27,Main-207+,,0,0,0,,You guys woke me up!
+Dialogue: 55,0:12:32.27,0:12:35.07,Main-207+,,0,0,0,,Chief Justice!
+Dialogue: 55,0:12:35.07,0:12:36.02,Main-207+,,0,0,0,,Yep!
+Dialogue: 55,0:12:36.02,0:12:37.09,Main-207+,,0,0,0,,You got it!
+Dialogue: 55,0:12:37.09,0:12:37.79,Main-207+,,0,0,0,,That's me!
+Dialogue: 55,0:12:37.79,0:12:40.58,Main-207+,,0,0,0,,Chief Justice of Enies Lobby!
+Dialogue: 55,0:12:40.58,0:12:41.84,Main-207+,,0,0,0,,On the left!
+Dialogue: 55,0:12:41.84,0:12:45.03,Main-207+,,0,0,0,,My name is Left Baskerville!
+Dialogue: 55,0:12:45.03,0:12:46.33,Main-207+,,0,0,0,,On the right!
+Dialogue: 55,0:12:46.33,0:12:49.20,Main-207+,,0,0,0,,I am Right Baskerville!
+Dialogue: 55,0:12:49.20,0:12:54.35,Main-207+,,0,0,0,,And, located in the center,\NI am known as Central Freeway!
+Dialogue: 55,0:12:54.35,0:12:55.40,Main-207+,,0,0,0,,Say what?!
+Dialogue: 55,0:12:55.40,0:12:56.43,Main-207+,,0,0,0,,Chief Justice.
+Dialogue: 55,0:12:55.65,0:12:56.35,Main-207+,,0,0,0,,{\an8}Uh.
+Dialogue: 55,0:12:57.22,0:12:58.36,Main-207+,,0,0,0,,We've got a problem.
+Dialogue: 55,0:12:58.36,0:13:00.69,Main-207+,,0,0,0,,There's a pirate on a rampage\Non the Main Island, sir.
+Dialogue: 55,0:13:00.69,0:13:04.28,Main-207+,,0,0,0,,But we can't get in touch with Chief\NSpandam to get an update on our orders.
+Dialogue: 55,0:13:04.28,0:13:06.13,Main-207+,,0,0,0,,Please, sir, take\Ncommand on his behalf!
+Dialogue: 55,0:13:06.13,0:13:07.60,Main-207+,,0,0,0,,A pirate, you say?
+Dialogue: 55,0:13:07.60,0:13:11.30,Main-207+,,0,0,0,,All pirates are guilty!
+Dialogue: 55,0:13:12.80,0:13:14.27,Main-207+,,0,0,0,,There hasn't been a trial yet!
+Dialogue: 55,0:13:14.27,0:13:17.63,Main-207+,,0,0,0,,Even so, I think he's innocent!
+Dialogue: 55,0:13:17.63,0:13:18.33,Main-207+,,0,0,0,,Then.
+Dialogue: 55,0:13:18.33,0:13:20.03,Main-207+,,0,0,0,,I'll be neutral.
+Dialogue: 55,0:13:20.03,0:13:20.83,Main-207+,,0,0,0,,Death!
+Dialogue: 55,0:13:20.83,0:13:23.96,Main-207+,,0,0,0,,Say what?!
+Dialogue: 55,0:13:23.96,0:13:24.99,Main-207+,,0,0,0,,Chief Justice!
+Dialogue: 55,0:13:24.99,0:13:26.46,Main-207+,,0,0,0,,There's trouble, sir!
+Dialogue: 55,0:13:26.46,0:13:27.63,Main-207+,,0,0,0,,I just received a report.
+Dialogue: 55,0:13:27.63,0:13:31.01,Main-207+,,0,0,0,,The Straw Hat's accomplices have\Ntaken out Kaahii at the Front Gate.
+Dialogue: 55,0:13:31.01,0:13:33.01,Main-207+,,0,0,0,,Oimo's still fighting,\Nbut won't last much longer!
+Dialogue: 55,0:13:33.01,0:13:33.71,Main-207+,,0,0,0,,Say what?!
+Dialogue: 55,0:13:33.71,0:13:36.55,Main-207+,,0,0,0,,That gate must not be breached!
+Dialogue: 55,0:13:37.19,0:13:40.88,Main-207+,,0,0,0,,Send one hundred Watchdogs\Nto that location immediately!
+Dialogue: 55,0:13:40.88,0:13:46.72,Main-207+,,0,0,0,,Sir!
+Dialogue: 55,0:13:46.72,0:13:47.79,Main-207+,,0,0,0,,We're in trouble!
+Dialogue: 55,0:13:47.79,0:13:49.67,Main-207+,,0,0,0,,Our 5 minute window is up!
+Dialogue: 55,0:13:49.67,0:13:50.37,Main-207+,,0,0,0,,Damn!
+Dialogue: 55,0:13:50.37,0:13:51.11,Main-207+,,0,0,0,,Hurry!
+Dialogue: 55,0:13:51.11,0:13:53.27,Main-207+,,0,0,0,,We've got to get that\Ngate open for Rocketman!
+Dialogue: 55,0:13:53.27,0:13:55.68,Main-207+,,0,0,0,,I will never let you through!
+Dialogue: 55,0:13:57.13,0:13:57.83,Main-207+,,0,0,0,,Okay guys!
+Dialogue: 55,0:13:57.83,0:13:58.70,Main-207+,,0,0,0,,We picked the gate's lock!
+Dialogue: 55,0:13:58.70,0:14:01.54,Main-207+,,0,0,0,,All you have to do now is push it open!
+Dialogue: 55,0:14:01.54,0:14:02.24,Main-207+,,0,0,0,,What?!
+Dialogue: 55,0:14:02.24,0:14:02.94,Main-207+,,0,0,0,,Oh, crap!
+Dialogue: 55,0:14:02.94,0:14:03.65,Main-207+,,0,0,0,,Nice work!
+Dialogue: 55,0:14:03.65,0:14:04.35,Main-207+,,0,0,0,,You heard her!
+Dialogue: 55,0:14:04.35,0:14:05.51,Main-207+,,0,0,0,,Move it!
+Dialogue: 55,0:14:06.55,0:14:09.72,Main-207+,,0,0,0,,You stay away from that gate!
+Dialogue: 55,0:14:09.72,0:14:12.46,Main-207+,,0,0,0,,Rope Action!
+Dialogue: 55,0:14:12.46,0:14:13.89,Main-207+,,0,0,0,,Top Knot!
+Dialogue: 55,0:14:17.53,0:14:18.39,Main-207+,,0,0,0,,Whoa!
+Dialogue: 55,0:14:18.39,0:14:20.26,Main-207+,,0,0,0,,Those Galley-La foremen are incredible!
+Dialogue: 55,0:14:20.59,0:14:23.56,Main-207+,,0,0,0,,You think this puny\Nrope is gonna hold me?!
+Dialogue: 55,0:14:24.76,0:14:25.89,Main-207+,,0,0,0,,Franky Family!
+Dialogue: 55,0:14:25.89,0:14:26.76,Main-207+,,0,0,0,,Pull!
+Dialogue: 55,0:14:26.76,0:14:28.32,Main-207+,,0,0,0,,Yeah!
+Dialogue: 55,0:14:28.32,0:14:29.29,Main-207+,,0,0,0,,No problem!
+Dialogue: 55,0:14:29.96,0:14:30.63,Main-207+,,0,0,0,,Gomorrah!
+Dialogue: 55,0:14:30.63,0:14:31.33,Main-207+,,0,0,0,,Sodom!
+Dialogue: 55,0:14:31.33,0:14:32.96,Main-207+,,0,0,0,,Grab that rope!
+Dialogue: 55,0:14:38.88,0:14:39.78,Main-207+,,0,0,0,,Move it, Franky Family!
+Dialogue: 55,0:14:40.74,0:14:43.20,Main-207+,,0,0,0,,Don't stop until that\Ngate is wide open!
+Dialogue: 55,0:14:43.20,0:14:44.64,Main-207+,,0,0,0,,Oi, oi, oi!
+Dialogue: 55,0:14:44.64,0:14:45.54,Main-207+,,0,0,0,,Hold on!
+Dialogue: 55,0:14:45.54,0:14:46.34,Main-207+,,0,0,0,,Slow down!
+Dialogue: 55,0:14:46.34,0:14:47.64,Main-207+,,0,0,0,,I'm getting dizzy!
+Dialogue: 55,0:14:47.64,0:14:49.48,Main-207+,,0,0,0,,Push the gate!
+Dialogue: 55,0:14:54.79,0:14:55.49,Main-207+,,0,0,0,,No!
+Dialogue: 55,0:14:55.49,0:14:56.56,Main-207+,,0,0,0,,Impossible!
+Dialogue: 55,0:14:56.56,0:14:58.29,Main-207+,,0,0,0,,The gates are opening!
+Dialogue: 55,0:14:58.29,0:15:00.88,Main-207+,,0,0,0,,What the hell is Oimo doing?!
+Dialogue: 55,0:15:32.00,0:15:33.51,Main-207+,,0,0,0,,There's no way.
+Dialogue: 55,0:15:33.51,0:15:34.84,Main-207+,,0,0,0,,Is that a sea train?
+Dialogue: 55,0:15:34.84,0:15:36.14,Main-207+,,0,0,0,,What's going on here?
+Dialogue: 55,0:15:50.46,0:15:51.16,Main-207+,,0,0,0,,It is!
+Dialogue: 55,0:15:51.16,0:15:51.82,Main-207+,,0,0,0,,Look at it!
+Dialogue: 55,0:15:51.82,0:15:52.53,Main-207+,,0,0,0,,A sea train!
+Dialogue: 55,0:15:52.53,0:15:53.73,Main-207+,,0,0,0,,And it's not the Puffing Tom!
+Dialogue: 55,0:15:53.73,0:15:57.46,Main-207+,,0,0,0,,It's another one, and it's\Nheaded this way at full speed!
+Dialogue: 55,0:15:57.46,0:15:58.43,Main-207+,,0,0,0,,They're crazy!
+Dialogue: 55,0:15:58.43,0:16:00.97,Main-207+,,0,0,0,,What're they trying\Nto do...jump the fence?
+Dialogue: 55,0:16:03.35,0:16:04.05,Main-207+,,0,0,0,,Hurry!
+Dialogue: 55,0:16:04.05,0:16:04.75,Main-207+,,0,0,0,,Close the gate!
+Dialogue: 55,0:16:05.28,0:16:07.02,Main-207+,,0,0,0,,We can't let them through!
+Dialogue: 55,0:16:07.02,0:16:07.72,Main-207+,,0,0,0,,Come on!
+Dialogue: 55,0:16:07.72,0:16:08.98,Main-207+,,0,0,0,,Get those doors shut!
+Dialogue: 55,0:16:19.12,0:16:20.08,Main-207+,,0,0,0,,Hey, granny!
+Dialogue: 55,0:16:20.08,0:16:20.93,Main-207+,,0,0,0,,Yeah? What is it?
+Dialogue: 55,0:16:20.93,0:16:24.06,Main-207+,,0,0,0,,I need you to give me as much\Nspeed as you've got, okay?
+Dialogue: 55,0:16:24.06,0:16:26.37,Main-207+,,0,0,0,,It seems we've had to\Nswitch up our plans a little.
+Dialogue: 55,0:16:26.37,0:16:30.37,Main-207+,,0,0,0,,Your green-haired samurai friend says you\Nall should find something to hold onto.
+Dialogue: 55,0:16:30.76,0:16:32.06,Main-207+,,0,0,0,,Find something to hold on to
+Dialogue: 55,0:16:32.65,0:16:34.48,Main-207+,,0,0,0,,Hey, Moss-for-Brains!
+Dialogue: 55,0:16:34.48,0:16:35.73,Main-207+,,0,0,0,,What's going on out here?
+Dialogue: 55,0:16:35.73,0:16:38.86,Main-207+,,0,0,0,,They, uh, they closed the Main Gate.
+Dialogue: 55,0:16:38.86,0:16:40.25,Main-207+,,0,0,0,,They what?!
+Dialogue: 55,0:16:40.25,0:16:41.09,Main-207+,,0,0,0,,This is bad!
+Dialogue: 55,0:16:41.90,0:16:42.90,Main-207+,,0,0,0,,We're gonna crash!
+Dialogue: 55,0:16:42.90,0:16:44.40,Main-207+,,0,0,0,,What are we gonna do?!\NWhat are we gonna do?!
+Dialogue: 55,0:16:44.83,0:16:48.44,Main-207+,,0,0,0,,Dodge it, Kokoro!
+Dialogue: 55,0:16:48.44,0:16:50.27,Main-207+,,0,0,0,,I've got a plan.
+Dialogue: 55,0:16:50.27,0:16:51.34,Main-207+,,0,0,0,,Don't worry.
+Dialogue: 55,0:16:56.38,0:16:57.08,Main-207+,,0,0,0,,Hey, Frog!
+Dialogue: 55,0:16:57.08,0:16:57.68,Main-207+,,0,0,0,,See fence?
+Dialogue: 55,0:16:57.68,0:16:58.41,Main-207+,,0,0,0,,Smash!
+Dialogue: 55,0:16:58.41,0:17:01.75,Main-207+,,0,0,0,,What?!
+Dialogue: 55,0:17:01.75,0:17:03.52,Main-207+,,0,0,0,,Gero!
+Dialogue: 55,0:17:06.25,0:17:08.42,Main-207+,,0,0,0,,Gero, Gero!
+Dialogue: 55,0:17:13.16,0:17:16.73,Main-207+,,0,0,0,,Gero, Gero, Gero, Gero!
+Dialogue: 55,0:17:25.58,0:17:26.38,Main-207+,,0,0,0,,That's his plan?!
+Dialogue: 55,0:17:27.04,0:17:30.11,Main-207+,,0,0,0,,Does he realize what's gonna happen\Nwhen we run into that fence?!
+Dialogue: 55,0:17:39.02,0:17:42.54,Main-207+,,0,0,0,,Impossible!
+Dialogue: 55,0:17:42.54,0:17:43.48,Main-207+,,0,0,0,,That seatrain!
+Dialogue: 55,0:17:43.48,0:17:45.71,Main-207+,,0,0,0,,It's flying!
+Dialogue: 55,0:17:46.01,0:17:47.62,Main-207+,,0,0,0,,No!
+Dialogue: 55,0:17:47.62,0:17:49.09,Main-207+,,0,0,0,,We're gonna die!
+Dialogue: 55,0:17:49.09,0:17:49.93,Main-207+,,0,0,0,,What?!
+Dialogue: 55,0:17:49.93,0:17:52.96,Main-207+,,0,0,0,,But I don't wanna die!
+Dialogue: 55,0:17:52.96,0:17:55.60,Main-207+,,0,0,0,,Nami! This way! I'll\Nsave you! Fall into my arms!
+Dialogue: 55,0:17:55.60,0:17:56.43,Main-207+,,0,0,0,,Shut up, you idiot!
+Dialogue: 55,0:17:56.43,0:17:58.77,Main-207+,,0,0,0,,I've got enough problems right now!
+Dialogue: 55,0:18:03.34,0:18:04.27,Main-207+,,0,0,0,,Zoro!
+Dialogue: 55,0:18:04.27,0:18:09.45,Main-207+,,0,0,0,,You'd better have thought long and hard\Nabout how you're gonna land this thing!
+Dialogue: 55,0:18:09.45,0:18:11.88,Main-207+,,0,0,0,,Of course I have!
+Dialogue: 55,0:18:19.12,0:18:20.09,Main-207+,,0,0,0,,We fall.
+Dialogue: 55,0:18:20.09,0:18:20.96,Main-207+,,0,0,0,,Gero!
+Dialogue: 55,0:18:20.96,0:18:23.59,Main-207+,,0,0,0,,I hate you!
+Dialogue: 55,0:18:23.59,0:18:26.22,Main-207+,,0,0,0,,We'll find out if luck's\Non our side soon enough.
+Dialogue: 55,0:18:29.56,0:18:31.60,Main-207+,,0,0,0,,Oimo's going down!
+Dialogue: 55,0:18:50.16,0:18:50.82,Main-207+,,0,0,0,,Whoa!
+Dialogue: 55,0:18:50.82,0:18:51.79,Main-207+,,0,0,0,,What a crew!
+Dialogue: 55,0:18:51.79,0:18:53.26,Main-207+,,0,0,0,,Are you Straw Hats?
+Dialogue: 55,0:18:53.26,0:18:54.26,Main-207+,,0,0,0,,Damn straight!
+Dialogue: 55,0:18:54.26,0:18:56.74,Main-207+,,0,0,0,,Is that so?!
+Dialogue: 55,0:18:56.74,0:18:57.81,Main-207+,,0,0,0,,That doesn't matter.
+Dialogue: 55,0:18:57.81,0:18:59.71,Main-207+,,0,0,0,,Let's move. Time's a' wasting.
+Dialogue: 55,0:18:59.71,0:19:00.91,Main-207+,,0,0,0,,We've gotta clear a path.
+Dialogue: 55,0:19:00.91,0:19:01.78,Main-207+,,0,0,0,,And fast.
+Dialogue: 55,0:19:01.78,0:19:02.48,Main-207+,,0,0,0,,All right!
+Dialogue: 55,0:19:02.48,0:19:03.75,Main-207+,,0,0,0,,You heard him, guys!
+Dialogue: 55,0:19:03.75,0:19:05.18,Main-207+,,0,0,0,,We need to go deeper!
+Dialogue: 55,0:19:05.18,0:19:06.68,Main-207+,,0,0,0,,Let's make a hole!
+Dialogue: 55,0:19:06.68,0:19:09.02,Main-207+,,0,0,0,,Yeah!
+Dialogue: 55,0:19:19.27,0:19:23.91,Main-207+,,0,0,0,,Paulie! No!
+Dialogue: 55,0:19:23.91,0:19:25.85,Main-207+,,0,0,0,,Who in the hell are you?
+Dialogue: 55,0:19:25.85,0:19:26.88,Main-207+,,0,0,0,,Who, us?
+Dialogue: 55,0:19:26.88,0:19:27.98,Main-207+,,0,0,0,,I'll tell you.
+Dialogue: 55,0:19:27.98,0:19:30.65,Main-207+,,0,0,0,,The First-Class Guards of Enies Lobby.
+Dialogue: 55,0:19:30.65,0:19:33.39,Main-207+,,0,0,0,,The Watchdogs of the Law.
+Dialogue: 55,0:19:33.39,0:19:36.24,Main-207+,,0,0,0,,By order of Chief Justice Baskerville.
+Dialogue: 55,0:19:36.24,0:19:39.77,Main-207+,,0,0,0,,For your crimes,\Nyou're sentenced to death!
+Dialogue: 55,0:19:40.55,0:19:41.25,Main-207+,,0,0,0,,Damn.
+Dialogue: 55,0:19:41.25,0:19:42.85,Main-207+,,0,0,0,,They just keep coming!
+Dialogue: 55,0:19:42.85,0:19:44.15,Main-207+,,0,0,0,,One after another.
+Dialogue: 55,0:19:44.15,0:19:45.09,Main-207+,,0,0,0,,Oimo!
+Dialogue: 55,0:19:45.09,0:19:46.38,Main-207+,,0,0,0,,What are you doing?
+Dialogue: 55,0:19:46.38,0:19:48.85,Main-207+,,0,0,0,,How could you let this pirate\Nriff-raff open the gate?
+Dialogue: 55,0:19:48.85,0:19:50.12,Main-207+,,0,0,0,,What's wrong with you?
+Dialogue: 55,0:19:54.40,0:19:56.70,Main-207+,,0,0,0,,Can't believe I passed out!
+Dialogue: 55,0:19:57.57,0:20:02.61,Main-207+,,0,0,0,,That giant's back up and on his feet!
+Dialogue: 55,0:19:58.14,0:19:58.94,Main-207+,,0,0,0,,{\an8}Oh crap!
+Dialogue: 55,0:20:04.04,0:20:05.24,Main-207+,,0,0,0,,Little jerks!
+Dialogue: 55,0:20:05.24,0:20:06.95,Main-207+,,0,0,0,,You're dead!
+Dialogue: 55,0:20:06.95,0:20:07.65,Main-207+,,0,0,0,,You'll pay!
+Dialogue: 55,0:20:07.65,0:20:08.35,Main-207+,,0,0,0,,Whoa!
+Dialogue: 55,0:20:34.66,0:20:35.59,Main-207+,,0,0,0,,What the...?!
+Dialogue: 55,0:20:35.59,0:20:38.06,Main-207+,,0,0,0,,Rocketman fell from the sky!
+Dialogue: 55,0:20:38.06,0:20:41.00,Main-207+,,0,0,0,,We opened those gates for nothing?!
+Dialogue: 55,0:20:49.43,0:20:50.80,Main-207+,,0,0,0,,Huh?!
+Dialogue: 55,0:20:50.80,0:20:52.10,Main-207+,,0,0,0,,What the hell just happened?
+Dialogue: 55,0:20:52.10,0:20:54.07,Main-207+,,0,0,0,,Man, that was some landing!
+Dialogue: 55,0:20:54.07,0:20:56.70,Main-207+,,0,0,0,,Do you think that they're okay?
+Dialogue: 55,0:21:01.81,0:21:04.44,Main-207+,,0,0,0,,They're not coming out.
+Dialogue: 55,0:21:20.07,0:21:21.64,Main-207+,,0,0,0,,Hey! You guys all right?
+Dialogue: 55,0:21:25.24,0:21:25.94,Main-207+,,0,0,0,,What?!
+Dialogue: 55,0:21:25.94,0:21:26.87,Main-207+,,0,0,0,,Impossible!
+Dialogue: 55,0:21:26.87,0:21:28.68,Main-207+,,0,0,0,,Who are those two?
+Dialogue: 55,0:21:35.18,0:21:39.67,Main-207+,,0,0,0,,Huh... Maybe we should have\Nintroduced ourselves first.
+Dialogue: 55,0:21:39.67,0:21:40.54,Main-207+,,0,0,0,,Nah.
+Dialogue: 55,0:21:40.54,0:21:42.24,Main-207+,,0,0,0,,I'd rather let my feet do the talking.
+Dialogue: 55,0:21:42.24,0:21:44.11,Main-207+,,0,0,0,,The Straw Hats are here!
+Dialogue: 55,0:21:44.11,0:21:47.91,Main-207+,,0,0,0,,We've been waiting for you!
+Dialogue: 55,0:21:49.55,0:21:50.39,Main-207+,,0,0,0,,Excellent.
+Dialogue: 55,0:21:52.58,0:21:53.98,Main-207+,,0,0,0,,Just like I planned it.
+Dialogue: 55,0:21:53.98,0:21:54.68,Main-207+,,0,0,0,,Whoa!
+Dialogue: 55,0:21:54.68,0:21:55.78,Main-207+,,0,0,0,,Really?!
+Dialogue: 0,0:09:35.68,0:09:37.39,Main-207+,,0,0,0,,Kumadoriii!
+Dialogue: 0,0:09:40.02,0:09:43.98,Main-207+,,0,0,0,,Yoyoi! What is your desiiiiiiire?
+Dialogue: 0,0:09:44.40,0:09:46.77,Main-207+,,0,0,0,,Isn't it obvious?! Help me! Make him stop!
+Dialogue: 0,0:09:47.44,0:09:50.90,Main-207+,,0,0,0,,Saa. Saa. Saa!
+Dialogue: 0,0:10:10.17,0:10:14.01,Main-207+,,0,0,0,,Now Gum-Gum Gatling!
+Dialogue: 0,0:10:14.01,0:10:17.81,Main-207+,,0,0,0,,Now Gum-Gum Whip!
+Dialogue: 0,0:10:20.18,0:10:21.93,Main-207+,,0,0,0,,Giant Sickle!
+Dialogue: 0,0:10:24.23,0:10:25.77,Main-207+,,0,0,0,,Bell!
+Dialogue: 0,0:10:27.23,0:10:29.15,Main-207+,,0,0,0,,Hammer!
+Dialogue: 0,0:10:30.65,0:10:32.78,Main-207+,,0,0,0,,Bazooka!
+Dialogue: 0,0:10:38.53,0:10:40.91,Main-207+,,0,0,0,,Gum-Gum Stamp!
+Dialogue: 0,0:15:01.09,0:15:02.55,Main-207+,,0,0,0,,A little more.
+Dialogue: 0,0:15:14.81,0:15:17.56,Main-207+,,0,0,0,,They've breached the gate!
+Dialogue: 0,0:15:24.70,0:15:26.74,Main-207+,,0,0,0,,Hey! Hey!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 2,0:01:55.80,0:02:01.18,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E5E5&\blur1\fad(942,893)\pos(960,975)}Express to the Main Island\Nof Enies Lobby
+Dialogue: 1,0:01:55.80,0:02:01.18,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur1\bord2.2\fad(942,893)\t(900,942,\1a&H00&)\t(4487,4529,\1a&HFF&)\pos(960,975)}Express to the Main Island\Nof Enies Lobby
+Dialogue: 1,0:03:51.50,0:03:54.84,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&H080707&\blur1\fad(315,0)\p1}m 920 620 l 1640 620 1640 920 920 920
+Dialogue: 1,0:03:51.50,0:03:54.84,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&HF2F2F2&\blur1\fad(315,0)\p1}m 938 637 l 1625 637 1625 899 938 899
+Dialogue: 2,0:03:51.50,0:03:54.96,Captions-207+,,0,0,0,,{\an5\pos(1282,768)\fscx175\fscy175\fnIwata Mincho Old Pro H Strp\bord0\c&H010101&\blur0.8\fad(315,0)}Power Level 10
+Dialogue: 1,0:03:54.84,0:03:54.96,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&H080707&\blur1\iclip(m 1121.99 928.94 l 1129.69 919.62 1139.21 916.2 1148.99 914.5 1160.27 914.58 1170.52 921.08 1175.31 930.65 1213.93 925.52 1206.07 921.76 1202.99 916.29 1197.18 899.2 1199.57 893.05 1202.99 891.34 1212.22 885.87 1221.45 880.41 1226.91 878.35 1231.7 872.89 1235.46 868.1 1240.24 864.34 1242.29 859.56 1253.23 854.43 1271 852.72 1276.81 854.09 1287.75 860.24 1298.34 872.89 1300.73 882.8 1302.44 904.33 1303.47 926.89 1245.71 971.32)\p1}m 920 620 l 1640 620 1640 920 920 920
+Dialogue: 1,0:03:54.84,0:03:54.96,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&HF2F2F2&\blur1\iclip(m 1121.99 928.94 l 1128.83 918.34 1136.01 914.92 1148.99 913.22 1160.27 914.58 1170.52 921.08 1175.31 930.65 1213.93 925.52 1206.07 921.76 1202.99 916.29 1197.18 899.2 1199.57 893.05 1202.99 891.34 1212.22 885.87 1221.45 880.41 1226.91 878.35 1231.7 872.89 1235.46 868.1 1240.24 864.34 1242.29 859.56 1253.23 854.43 1271 852.72 1276.81 854.09 1287.75 860.24 1298.34 872.89 1300.73 882.8 1302.44 904.33 1303.47 926.89 1245.71 971.32)\p1}m 938 637 l 1625 637 1625 899 938 899
+Dialogue: 1,0:03:54.96,0:03:55.09,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&H080707&\blur1\iclip(m 1346.43 928.95 l 1344.3 922.33 1342.59 917.21 1341.74 908.68 1339.18 894.81 1331.07 879.45 1319.76 869.85 1319.76 865.37 1315.07 858.11 1306.32 839.34 1299.06 822.27 1292.87 807.33 1284.55 784.72 1282.42 780.24 1279.43 775.76 1267.91 759.33 1259.37 748.66 1254.04 743.11 1252.33 740.34 1248.28 736.71 1246.57 732.66 1243.58 730.74 1238.25 718.58 1235.26 709.19 1233.55 704.07 1229.07 695.32 1225.66 682.52 1222.03 676.12 1214.99 668.65 1212.64 666.52 1207.31 662.89 1196 651.8 1188.74 644.76 1185.33 639 1177.22 621.29 1174.87 617.45 1170.61 610.41 1066.05 613.82 1070.96 622.35 1074.8 632.81 1082.05 639.42 1090.59 648.38 1101.68 655 1107.66 665.67 1112.78 679.53 1117.26 688.49 1123.45 701.51 1126.44 711.32 1128.36 726.05 1127.29 742.05 1124.94 752.93 1120.46 773.84 1117.9 781.09 1116.83 785.57 1112.14 774.9 1107.66 768.72 1099.34 754.63 1092.08 745.89 1086.75 741.62 1079.49 738.63 1069.04 739.06 1058.37 743.33 1054.31 745.03 1048.34 750.15 1043.65 758.69 1041.51 766.37 1041.08 778.32 1041.94 786.85 1044.5 793.25 1047.7 807.76 1048.77 822.91 1047.27 837.42 1045.35 844.46 1038.52 858.11 1032.34 868.35 1025.93 882.65 1024.23 893.31 1024.23 900.14 1025.29 906.54 1027.86 915.72 1029.35 927.45)\p1}m 920 620 l 1640 620 1640 920 920 920
+Dialogue: 1,0:03:54.96,0:03:55.09,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&HF2F2F2&\blur1\iclip(m 1346.43 928.95 l 1344.3 922.33 1342.59 917.21 1341.74 908.68 1339.18 894.81 1331.07 879.45 1319.76 869.85 1319.76 865.37 1315.07 858.11 1306.32 839.34 1299.06 822.27 1292.87 807.33 1284.55 784.72 1282.42 780.24 1279.43 775.76 1267.91 759.33 1259.37 748.66 1254.04 743.11 1252.33 740.34 1248.28 736.71 1246.57 732.66 1243.58 730.74 1238.25 718.58 1235.26 709.19 1233.55 704.07 1229.07 695.32 1225.66 682.52 1222.03 676.12 1214.99 668.65 1212.64 666.52 1207.31 662.89 1196 651.8 1188.74 644.76 1185.33 639 1177.22 621.29 1174.87 617.45 1170.61 610.41 1066.05 613.82 1070.96 622.35 1074.8 632.81 1082.05 639.42 1090.59 648.38 1101.68 655 1107.66 665.67 1112.78 679.53 1117.26 688.49 1123.45 701.51 1126.44 711.32 1128.36 726.05 1127.29 742.05 1124.94 752.93 1120.46 773.84 1117.9 781.09 1116.83 785.57 1112.14 774.9 1107.66 768.72 1099.34 754.63 1092.08 745.89 1086.75 741.62 1079.49 738.63 1069.04 739.06 1058.37 743.33 1054.31 745.03 1048.34 750.15 1043.65 758.69 1041.51 766.37 1041.08 778.32 1041.94 786.85 1044.5 793.25 1047.7 807.76 1048.77 822.91 1047.27 837.42 1045.35 844.46 1038.52 858.11 1032.34 868.35 1025.93 882.65 1024.23 893.31 1024.23 900.14 1025.29 906.54 1027.86 915.72 1029.35 927.45)\p1}m 938 637 l 1625 637 1625 899 938 899
+Dialogue: 2,0:03:54.96,0:03:55.09,Captions-207+,,0,0,0,,{\an5\pos(1282,768)\fscx175\fscy175\fnIwata Mincho Old Pro H Strp\bord0\c&H010101&\blur0.8\iclip(m 1346.43 928.95 l 1344.3 922.33 1342.59 917.21 1341.74 908.68 1339.18 894.81 1331.07 879.45 1319.76 869.85 1319.76 865.37 1315.07 858.11 1306.32 839.34 1299.06 822.27 1292.87 807.33 1284.55 784.72 1282.42 780.24 1279.43 775.76 1267.91 759.33 1259.37 748.66 1254.04 743.11 1252.33 740.34 1248.28 736.71 1246.57 732.66 1243.58 730.74 1238.25 718.58 1235.26 709.19 1233.55 704.07 1229.07 695.32 1225.66 682.52 1222.03 676.12 1214.99 668.65 1212.64 666.52 1207.31 662.89 1196 651.8 1188.74 644.76 1185.33 639 1177.22 621.29 1174.87 617.45 1170.61 610.41 1066.05 613.82 1070.96 622.35 1074.8 632.81 1082.05 639.42 1090.59 648.38 1101.68 655 1107.66 665.67 1112.78 679.53 1117.26 688.49 1123.45 701.51 1126.44 711.32 1128.36 726.05 1127.29 742.05 1124.94 752.93 1120.46 773.84 1117.9 781.09 1116.83 785.57 1112.14 774.9 1107.66 768.72 1099.34 754.63 1092.08 745.89 1086.75 741.62 1079.49 738.63 1069.04 739.06 1058.37 743.33 1054.31 745.03 1048.34 750.15 1043.65 758.69 1041.51 766.37 1041.08 778.32 1041.94 786.85 1044.5 793.25 1047.7 807.76 1048.77 822.91 1047.27 837.42 1045.35 844.46 1038.52 858.11 1032.34 868.35 1025.93 882.65 1024.23 893.31 1024.23 900.14 1025.29 906.54 1027.86 915.72 1029.35 927.45)}Power Level 10
+Dialogue: 1,0:03:55.09,0:03:55.21,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&H080707&\blur1\iclip(m 1259.23 923.81 l 1259.91 913.23 1261.62 898.89 1261.28 882.5 1260.09 855.7 1259.57 837.44 1258.38 817.81 1255.31 791.86 1252.57 776.67 1247.28 764.21 1241.82 755.85 1238.41 748.68 1234.82 740.83 1230.9 727 1227.48 715.9 1224.24 703.61 1219.63 687.91 1212.97 666.23 1210.58 660.77 1204.95 654.45 1193.34 645.41 1186.17 640.11 1183.1 638.75 1176.79 619.29 1172.52 612.97 1036.3 612.29 1040.74 625.6 1042.96 634.14 1041.59 642.84 1039.72 665.89 1028.45 648.14 1024.01 642.67 1015.14 636.53 1009.16 634.48 996.7 634.82 986.29 639.43 977.58 645.75 972.63 653.43 970.07 662.13 969.56 669.3 971.27 684.67 972.29 702.25 971.78 719.83 966.32 738.44 961.37 753.46 957.27 763.36 957.27 776.5 957.27 797.84 956.07 815.93 956.07 838.46 955.9 866.29 956.59 896.16 956.76 919.72 956.76 936.44)\p1}m 920 620 l 1640 620 1640 920 920 920
+Dialogue: 1,0:03:55.09,0:03:55.21,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&HF2F2F2&\blur1\iclip(m 1259.23 923.81 l 1259.91 913.23 1261.62 898.89 1261.28 882.5 1260.09 855.7 1259.57 837.44 1258.38 817.81 1255.31 791.86 1252.57 776.67 1247.28 764.21 1241.82 755.85 1238.41 748.68 1234.82 740.83 1230.9 727 1227.48 715.9 1224.24 703.61 1219.63 687.91 1212.97 666.23 1210.58 660.77 1204.95 654.45 1193.34 645.41 1186.17 640.11 1183.1 638.75 1176.79 619.29 1172.52 612.97 1036.3 612.29 1040.74 625.6 1042.96 634.14 1041.59 642.84 1039.72 665.89 1028.45 648.14 1024.01 642.67 1015.14 636.53 1009.16 634.48 996.7 634.82 986.29 639.43 977.58 645.75 972.63 653.43 970.07 662.13 969.56 669.3 971.27 684.67 972.29 702.25 971.78 719.83 966.32 738.44 961.37 753.46 957.27 763.36 957.27 776.5 957.27 797.84 956.07 815.93 956.07 838.46 955.9 866.29 956.59 896.16 956.76 919.72 956.76 936.44)\p1}m 938 637 l 1625 637 1625 899 938 899
+Dialogue: 2,0:03:55.09,0:03:55.21,Captions-207+,,0,0,0,,{\an5\pos(1282,768)\fscx175\fscy175\fnIwata Mincho Old Pro H Strp\bord0\c&H010101&\blur0.8\iclip(m 1259.23 923.81 l 1259.91 913.23 1261.62 898.89 1261.28 882.5 1260.09 855.7 1259.57 837.44 1258.38 817.81 1255.31 791.86 1252.57 776.67 1247.28 764.21 1241.82 755.85 1238.41 748.68 1234.82 740.83 1230.9 727 1227.48 715.9 1224.24 703.61 1219.63 687.91 1212.97 666.23 1210.58 660.77 1204.95 654.45 1193.34 645.41 1186.17 640.11 1183.1 638.75 1176.79 619.29 1172.52 612.97 1036.3 612.29 1040.74 625.6 1042.96 634.14 1041.59 642.84 1039.72 665.89 1028.45 648.14 1024.01 642.67 1015.14 636.53 1009.16 634.48 996.7 634.82 986.29 639.43 977.58 645.75 972.63 653.43 970.07 662.13 969.56 669.3 971.27 684.67 972.29 702.25 971.78 719.83 966.32 738.44 961.37 753.46 957.27 763.36 957.27 776.5 957.27 797.84 956.07 815.93 956.07 838.46 955.9 866.29 956.59 896.16 956.76 919.72 956.76 936.44)}Power Level 10
+Dialogue: 1,0:03:55.21,0:03:55.84,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&H080707&\blur1\iclip(m 1153.4 925.06 l 1154.87 891.66 1155.68 882.7 1155.85 857.29 1155.68 834.32 1154.87 806.78 1154.05 774.04 1150.96 747.64 1149.82 736.4 1144.93 707.4 1139.39 682.15 1134.34 663.9 1124.24 636.69 1118.04 618.77 1116.09 610.3 833.02 565.48 849.2 981.3)\p1}m 920 620 l 1640 620 1640 920 920 920
+Dialogue: 1,0:03:55.21,0:03:55.84,Captions-207+,,0,0,0,,{\an7\pos(0,0)\bord0\c&HF2F2F2&\blur1\iclip(m 1153.4 925.06 l 1154.87 891.66 1155.68 882.7 1155.85 857.29 1155.68 834.32 1154.87 806.78 1154.05 774.04 1150.96 747.64 1149.82 736.4 1144.93 707.4 1139.39 682.15 1134.34 663.9 1124.24 636.69 1118.04 618.77 1116.09 610.3 833.02 565.48 849.2 981.3)\p1}m 938 637 l 1625 637 1625 899 938 899
+Dialogue: 2,0:03:55.21,0:03:55.84,Captions-207+,,0,0,0,,{\an5\pos(1282,768)\fscx175\fscy175\fnIwata Mincho Old Pro H Strp\bord0\c&H010101&\blur0.8\iclip(m 1153.4 925.06 l 1154.87 891.66 1155.68 882.7 1155.85 857.29 1155.68 834.32 1154.87 806.78 1154.05 774.04 1150.96 747.64 1149.82 736.4 1144.93 707.4 1139.39 682.15 1134.34 663.9 1124.24 636.69 1118.04 618.77 1116.09 610.3 833.02 565.48 849.2 981.3)}Power Level 10
+Dialogue: 0,0:05:54.54,0:05:56.88,Captions-207+,,0,0,0,,{\an2\fnKnorke\pos(960,760)\1a&HFF&\fad(398,0)\t(356,398,\1a&H00&)\blur0.8\bord3\fscx125\fscy125\c&HF2F2F2&\3c&HF2F2F2&}Gatherine
+Dialogue: 1,0:05:54.54,0:05:56.88,Captions-207+,,0,0,0,,{\an2\fnKnorke\pos(960,760)\fad(398,0)\blur0.8\bord0\fscx125\fscy125\c&H000001&}Gatherine
+Dialogue: 0,0:12:21.14,0:12:25.89,Captions-207+,,0,0,0,,{\pos(960,675)\fscx150\fscy150\b600\bord3\3c&H0E0E11&\c&H0E0E11&\1a&HFF&\blur0.8\fad(476,0)\t(434,476,\1a&H00&)}Courthouse, Main Island\NEnies Lobby
+Dialogue: 1,0:12:21.14,0:12:25.89,Captions-207+,,0,0,0,,{\an2\fad(476,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,675)\c&HE6E6E6&}Courthouse, Main Island\NEnies Lobby
+Dialogue: 1,0:12:21.14,0:12:25.89,Captions-207+,,0,0,0,,{\an2\fad(476,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,675)\c&HE6E6E6&}Courthouse, Main Island\NEnies Lobby
+Dialogue: 0,0:12:34.78,0:12:35.78,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\1a&HFF&\blur0.8\fad(975,0)\t(933,975,\1a&H00&)}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:34.78,0:12:35.78,Captions-207+,,0,0,0,,{\an2\fad(975,0)\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:34.78,0:12:35.78,Captions-207+,,0,0,0,,{\an2\fad(975,0)\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:35.77,0:12:35.81,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:35.77,0:12:35.81,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:35.77,0:12:35.81,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:35.81,0:12:35.90,Captions-207+,,0,0,0,,{\pos(959.81,590.01)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:35.81,0:12:35.90,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.81,590.01)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:35.81,0:12:35.90,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.81,590.01)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:35.90,0:12:36.02,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:35.90,0:12:36.02,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:35.90,0:12:36.02,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.02,0:12:36.06,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.02,0:12:36.06,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.02,0:12:36.06,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.06,0:12:36.11,Captions-207+,,0,0,0,,{\pos(960.04,590.23)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.06,0:12:36.11,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.04,590.23)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.06,0:12:36.11,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.04,590.23)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.11,0:12:36.27,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.11,0:12:36.27,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.11,0:12:36.27,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.27,0:12:36.31,Captions-207+,,0,0,0,,{\pos(960.01,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.27,0:12:36.31,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.27,0:12:36.31,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.31,0:12:36.36,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.31,0:12:36.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.31,0:12:36.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.36,0:12:36.40,Captions-207+,,0,0,0,,{\pos(959.79,590.24)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.36,0:12:36.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.36,0:12:36.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.40,0:12:36.44,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.40,0:12:36.44,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.40,0:12:36.44,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.44,0:12:36.48,Captions-207+,,0,0,0,,{\pos(959.99,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.44,0:12:36.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.99,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.44,0:12:36.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.99,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.48,0:12:36.56,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.48,0:12:36.56,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.48,0:12:36.56,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.56,0:12:36.61,Captions-207+,,0,0,0,,{\pos(959.78,590.24)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.56,0:12:36.61,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.56,0:12:36.61,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.61,0:12:36.81,Captions-207+,,0,0,0,,{\pos(959.77,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.61,0:12:36.81,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.61,0:12:36.81,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.81,0:12:36.94,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.81,0:12:36.94,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.81,0:12:36.94,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.94,0:12:36.98,Captions-207+,,0,0,0,,{\pos(959.99,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.94,0:12:36.98,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.99,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.94,0:12:36.98,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.99,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:36.98,0:12:37.02,Captions-207+,,0,0,0,,{\pos(959.77,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.98,0:12:37.02,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:36.98,0:12:37.02,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.02,0:12:37.27,Captions-207+,,0,0,0,,{\pos(959.78,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.02,0:12:37.27,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.02,0:12:37.27,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.27,0:12:37.31,Captions-207+,,0,0,0,,{\pos(959.78,590.24)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.27,0:12:37.31,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.27,0:12:37.31,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.31,0:12:37.36,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.31,0:12:37.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.31,0:12:37.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.36,0:12:37.40,Captions-207+,,0,0,0,,{\pos(959.78,590.01)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.36,0:12:37.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.01)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.36,0:12:37.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.01)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.40,0:12:37.44,Captions-207+,,0,0,0,,{\pos(960.01,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.40,0:12:37.44,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.40,0:12:37.44,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.44,0:12:37.48,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.44,0:12:37.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.44,0:12:37.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.48,0:12:37.52,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.48,0:12:37.52,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.48,0:12:37.52,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.52,0:12:37.56,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.52,0:12:37.56,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.52,0:12:37.56,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.56,0:12:37.65,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.56,0:12:37.65,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.56,0:12:37.65,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.65,0:12:37.69,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.65,0:12:37.69,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.65,0:12:37.69,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.69,0:12:37.73,Captions-207+,,0,0,0,,{\pos(959.77,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.69,0:12:37.73,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.69,0:12:37.73,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.73,0:12:37.77,Captions-207+,,0,0,0,,{\pos(960,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.73,0:12:37.77,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.73,0:12:37.77,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.77,0:12:37.82,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.77,0:12:37.82,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.77,0:12:37.82,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.82,0:12:37.90,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.82,0:12:37.90,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.82,0:12:37.90,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.90,0:12:37.94,Captions-207+,,0,0,0,,{\pos(960.01,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.90,0:12:37.94,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.90,0:12:37.94,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:37.94,0:12:38.11,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.94,0:12:38.11,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:37.94,0:12:38.11,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.11,0:12:38.19,Captions-207+,,0,0,0,,{\pos(959.8,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.11,0:12:38.19,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.11,0:12:38.19,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.19,0:12:38.27,Captions-207+,,0,0,0,,{\pos(959.81,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.19,0:12:38.27,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.81,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.19,0:12:38.27,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.81,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.27,0:12:38.36,Captions-207+,,0,0,0,,{\pos(960.01,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.27,0:12:38.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.27,0:12:38.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.36,0:12:38.40,Captions-207+,,0,0,0,,{\pos(960.03,590.24)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.36,0:12:38.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.03,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.36,0:12:38.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.03,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.40,0:12:38.48,Captions-207+,,0,0,0,,{\pos(959.77,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.40,0:12:38.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.40,0:12:38.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.48,0:12:38.57,Captions-207+,,0,0,0,,{\pos(959.77,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.48,0:12:38.57,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.48,0:12:38.57,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.57,0:12:38.61,Captions-207+,,0,0,0,,{\pos(959.77,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.57,0:12:38.61,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.57,0:12:38.61,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.61,0:12:38.77,Captions-207+,,0,0,0,,{\pos(959.77,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.61,0:12:38.77,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.61,0:12:38.77,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.77,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.77,0:12:38.82,Captions-207+,,0,0,0,,{\pos(959.8,590.25)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.77,0:12:38.82,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590.25)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.77,0:12:38.82,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590.25)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.82,0:12:38.94,Captions-207+,,0,0,0,,{\pos(959.8,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.82,0:12:38.94,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.82,0:12:38.94,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.94,0:12:38.98,Captions-207+,,0,0,0,,{\pos(959.8,590.24)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.94,0:12:38.98,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.94,0:12:38.98,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:38.98,0:12:39.02,Captions-207+,,0,0,0,,{\pos(959.8,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.98,0:12:39.02,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:38.98,0:12:39.02,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.8,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.02,0:12:39.15,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.02,0:12:39.15,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.02,0:12:39.15,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.15,0:12:39.19,Captions-207+,,0,0,0,,{\pos(960.01,590.23)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.15,0:12:39.19,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590.23)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.15,0:12:39.19,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590.23)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.19,0:12:39.23,Captions-207+,,0,0,0,,{\pos(959.83,590.22)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.19,0:12:39.23,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.83,590.22)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.19,0:12:39.23,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.83,590.22)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.23,0:12:39.32,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.23,0:12:39.32,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.23,0:12:39.32,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.32,0:12:39.36,Captions-207+,,0,0,0,,{\pos(960.02,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.32,0:12:39.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.02,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.32,0:12:39.36,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.02,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.36,0:12:39.40,Captions-207+,,0,0,0,,{\pos(959.78,590.24)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.36,0:12:39.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.36,0:12:39.40,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590.24)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.40,0:12:39.48,Captions-207+,,0,0,0,,{\pos(959.78,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.40,0:12:39.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.40,0:12:39.48,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.78,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.48,0:12:39.53,Captions-207+,,0,0,0,,{\pos(960.01,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.48,0:12:39.53,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.48,0:12:39.53,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.53,0:12:39.61,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.53,0:12:39.61,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.53,0:12:39.61,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.61,0:12:39.65,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.61,0:12:39.65,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.61,0:12:39.65,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.65,0:12:39.69,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.65,0:12:39.69,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.65,0:12:39.69,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.69,0:12:39.73,Captions-207+,,0,0,0,,{\pos(960.01,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.69,0:12:39.73,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.69,0:12:39.73,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.73,0:12:39.82,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.73,0:12:39.82,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.73,0:12:39.82,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.82,0:12:39.90,Captions-207+,,0,0,0,,{\pos(960.01,590.23)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.82,0:12:39.90,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590.23)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.82,0:12:39.90,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960.01,590.23)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.90,0:12:39.98,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.90,0:12:39.98,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.90,0:12:39.98,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:39.98,0:12:40.03,Captions-207+,,0,0,0,,{\pos(959.79,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.98,0:12:40.03,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:39.98,0:12:40.03,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:40.03,0:12:40.11,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.03,0:12:40.11,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.03,0:12:40.11,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:40.11,0:12:40.15,Captions-207+,,0,0,0,,{\pos(960,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.11,0:12:40.15,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.11,0:12:40.15,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(960,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:40.15,0:12:40.19,Captions-207+,,0,0,0,,{\pos(959.79,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.15,0:12:40.19,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.15,0:12:40.19,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.79,590)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:12:40.19,0:12:40.23,Captions-207+,,0,0,0,,{\pos(959.84,589.99)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\blur0.8}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.19,0:12:40.23,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.84,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 1,0:12:40.19,0:12:40.23,Captions-207+,,0,0,0,,{\an2\fscx110\fscy110\bord0\blur0.8\b600\pos(959.84,589.99)\c&HFBFDFE&}"Three-Headed" Baskerville\NChief Justice, Enies Lobby
+Dialogue: 0,0:13:46.35,0:13:49.35,Captions-207+,,0,0,0,,{\pos(960,675)\fscx150\fscy150\b600\bord3\3c&H0E0E11&\c&H0E0E11&\1a&HFF&\blur0.8\fad(476,0)\t(434,476,\1a&H00&)}Island Gate\NEnies Lobby
+Dialogue: 1,0:13:46.35,0:13:49.35,Captions-207+,,0,0,0,,{\an2\fad(476,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,675)\c&HE4E5E5&}Island Gate\NEnies Lobby
+Dialogue: 1,0:13:46.35,0:13:49.35,Captions-207+,,0,0,0,,{\an2\fad(476,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,675)\c&HE4E5E5&}Island Gate\NEnies Lobby
+Dialogue: 1,0:15:17.56,0:15:17.72,Captions-207+,,0,0,0,,{\an8\pos(1224.64,364.03)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx71.99\fscy71.99}Main Gate
+Dialogue: 0,0:15:17.56,0:15:17.72,Captions-207+,,0,0,0,,{\an8\pos(1224.64,364.03)\fnRoboto\b1\bord2.4\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx71.99\fscy71.99}Main Gate
+Dialogue: 1,0:15:17.72,0:15:17.77,Captions-207+,,0,0,0,,{\an8\pos(1224.91,364.02)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.02\fscy72.02}Main Gate
+Dialogue: 0,0:15:17.72,0:15:17.77,Captions-207+,,0,0,0,,{\an8\pos(1224.91,364.02)\fnRoboto\b1\bord2.4\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.02\fscy72.02}Main Gate
+Dialogue: 1,0:15:17.77,0:15:17.81,Captions-207+,,0,0,0,,{\an8\pos(1225.16,363.99)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.21\fscy72.21}Main Gate
+Dialogue: 0,0:15:17.77,0:15:17.81,Captions-207+,,0,0,0,,{\an8\pos(1225.16,363.99)\fnRoboto\b1\bord2.41\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.21\fscy72.21}Main Gate
+Dialogue: 1,0:15:17.81,0:15:17.85,Captions-207+,,0,0,0,,{\an8\pos(1225.19,363.98)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.23\fscy72.23}Main Gate
+Dialogue: 0,0:15:17.81,0:15:17.85,Captions-207+,,0,0,0,,{\an8\pos(1225.19,363.98)\fnRoboto\b1\bord2.41\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.23\fscy72.23}Main Gate
+Dialogue: 1,0:15:17.85,0:15:17.89,Captions-207+,,0,0,0,,{\an8\pos(1225.5,363.74)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.28\fscy72.28}Main Gate
+Dialogue: 0,0:15:17.85,0:15:17.89,Captions-207+,,0,0,0,,{\an8\pos(1225.5,363.74)\fnRoboto\b1\bord2.41\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.28\fscy72.28}Main Gate
+Dialogue: 1,0:15:17.89,0:15:17.93,Captions-207+,,0,0,0,,{\an8\pos(1225.76,363.47)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.29\fscy72.29}Main Gate
+Dialogue: 0,0:15:17.89,0:15:17.93,Captions-207+,,0,0,0,,{\an8\pos(1225.76,363.47)\fnRoboto\b1\bord2.41\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.29\fscy72.29}Main Gate
+Dialogue: 1,0:15:17.93,0:15:17.98,Captions-207+,,0,0,0,,{\an8\pos(1226.29,363.18)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.48\fscy72.48}Main Gate
+Dialogue: 0,0:15:17.93,0:15:17.98,Captions-207+,,0,0,0,,{\an8\pos(1226.29,363.18)\fnRoboto\b1\bord2.42\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.48\fscy72.48}Main Gate
+Dialogue: 1,0:15:17.98,0:15:18.02,Captions-207+,,0,0,0,,{\an8\pos(1226.75,362.84)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.57\fscy72.57}Main Gate
+Dialogue: 0,0:15:17.98,0:15:18.02,Captions-207+,,0,0,0,,{\an8\pos(1226.75,362.84)\fnRoboto\b1\bord2.42\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.57\fscy72.57}Main Gate
+Dialogue: 1,0:15:18.02,0:15:18.06,Captions-207+,,0,0,0,,{\an8\pos(1227.24,362.48)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.7\fscy72.7}Main Gate
+Dialogue: 0,0:15:18.02,0:15:18.06,Captions-207+,,0,0,0,,{\an8\pos(1227.24,362.48)\fnRoboto\b1\bord2.42\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.7\fscy72.7}Main Gate
+Dialogue: 1,0:15:18.06,0:15:18.10,Captions-207+,,0,0,0,,{\an8\pos(1227.8,362.11)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx72.8\fscy72.8}Main Gate
+Dialogue: 0,0:15:18.06,0:15:18.10,Captions-207+,,0,0,0,,{\an8\pos(1227.8,362.11)\fnRoboto\b1\bord2.43\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx72.8\fscy72.8}Main Gate
+Dialogue: 1,0:15:18.10,0:15:18.14,Captions-207+,,0,0,0,,{\an8\pos(1228.51,361.7)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.07\fscy73.07}Main Gate
+Dialogue: 0,0:15:18.10,0:15:18.14,Captions-207+,,0,0,0,,{\an8\pos(1228.51,361.7)\fnRoboto\b1\bord2.44\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.07\fscy73.07}Main Gate
+Dialogue: 1,0:15:18.14,0:15:18.18,Captions-207+,,0,0,0,,{\an8\pos(1228.52,361.7)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.07\fscy73.07}Main Gate
+Dialogue: 0,0:15:18.14,0:15:18.18,Captions-207+,,0,0,0,,{\an8\pos(1228.52,361.7)\fnRoboto\b1\bord2.44\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.07\fscy73.07}Main Gate
+Dialogue: 1,0:15:18.18,0:15:18.23,Captions-207+,,0,0,0,,{\an8\pos(1229.03,361.28)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.17\fscy73.17}Main Gate
+Dialogue: 0,0:15:18.18,0:15:18.23,Captions-207+,,0,0,0,,{\an8\pos(1229.03,361.28)\fnRoboto\b1\bord2.44\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.17\fscy73.17}Main Gate
+Dialogue: 1,0:15:18.23,0:15:18.27,Captions-207+,,0,0,0,,{\an8\pos(1229.7,360.84)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.35\fscy73.35}Main Gate
+Dialogue: 0,0:15:18.23,0:15:18.27,Captions-207+,,0,0,0,,{\an8\pos(1229.7,360.84)\fnRoboto\b1\bord2.45\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.35\fscy73.35}Main Gate
+Dialogue: 1,0:15:18.27,0:15:18.31,Captions-207+,,0,0,0,,{\an8\pos(1230.43,360.39)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.56\fscy73.56}Main Gate
+Dialogue: 0,0:15:18.27,0:15:18.31,Captions-207+,,0,0,0,,{\an8\pos(1230.43,360.39)\fnRoboto\b1\bord2.45\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.56\fscy73.56}Main Gate
+Dialogue: 1,0:15:18.31,0:15:18.35,Captions-207+,,0,0,0,,{\an8\pos(1231.15,359.95)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.77\fscy73.77}Main Gate
+Dialogue: 0,0:15:18.31,0:15:18.35,Captions-207+,,0,0,0,,{\an8\pos(1231.15,359.95)\fnRoboto\b1\bord2.46\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.77\fscy73.77}Main Gate
+Dialogue: 1,0:15:18.35,0:15:18.39,Captions-207+,,0,0,0,,{\an8\pos(1231.8,359.46)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx73.92\fscy73.92}Main Gate
+Dialogue: 0,0:15:18.35,0:15:18.39,Captions-207+,,0,0,0,,{\an8\pos(1231.8,359.46)\fnRoboto\b1\bord2.46\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx73.92\fscy73.92}Main Gate
+Dialogue: 1,0:15:18.39,0:15:18.43,Captions-207+,,0,0,0,,{\an8\pos(1232.58,358.93)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx74.12\fscy74.12}Main Gate
+Dialogue: 0,0:15:18.39,0:15:18.43,Captions-207+,,0,0,0,,{\an8\pos(1232.58,358.93)\fnRoboto\b1\bord2.47\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx74.12\fscy74.12}Main Gate
+Dialogue: 1,0:15:18.43,0:15:18.48,Captions-207+,,0,0,0,,{\an8\pos(1233.44,358.41)\fnRoboto\b1\bord0\c&H000000&\blur0.74\fscx74.4\fscy74.4}Main Gate
+Dialogue: 0,0:15:18.43,0:15:18.48,Captions-207+,,0,0,0,,{\an8\pos(1233.44,358.41)\fnRoboto\b1\bord2.48\c&HFFFFFF&\3c&HFFFFFF&\blur0.74\fscx74.4\fscy74.4}Main Gate
+Dialogue: 1,0:15:18.48,0:15:18.52,Captions-207+,,0,0,0,,{\an8\pos(1234.14,357.91)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx74.54\fscy74.54}Main Gate
+Dialogue: 0,0:15:18.48,0:15:18.52,Captions-207+,,0,0,0,,{\an8\pos(1234.14,357.91)\fnRoboto\b1\bord2.48\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx74.54\fscy74.54}Main Gate
+Dialogue: 1,0:15:18.52,0:15:18.56,Captions-207+,,0,0,0,,{\an8\pos(1234.14,357.9)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx74.54\fscy74.54}Main Gate
+Dialogue: 0,0:15:18.52,0:15:18.56,Captions-207+,,0,0,0,,{\an8\pos(1234.14,357.9)\fnRoboto\b1\bord2.48\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx74.54\fscy74.54}Main Gate
+Dialogue: 1,0:15:18.56,0:15:18.60,Captions-207+,,0,0,0,,{\an8\pos(1235.02,357.32)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx74.82\fscy74.82}Main Gate
+Dialogue: 0,0:15:18.56,0:15:18.60,Captions-207+,,0,0,0,,{\an8\pos(1235.02,357.32)\fnRoboto\b1\bord2.49\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx74.82\fscy74.82}Main Gate
+Dialogue: 1,0:15:18.60,0:15:18.64,Captions-207+,,0,0,0,,{\an8\pos(1235.88,356.78)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx75.05\fscy75.05}Main Gate
+Dialogue: 0,0:15:18.60,0:15:18.64,Captions-207+,,0,0,0,,{\an8\pos(1235.88,356.78)\fnRoboto\b1\bord2.5\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx75.05\fscy75.05}Main Gate
+Dialogue: 1,0:15:18.64,0:15:18.68,Captions-207+,,0,0,0,,{\an8\pos(1236.73,356.21)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx75.26\fscy75.26}Main Gate
+Dialogue: 0,0:15:18.64,0:15:18.68,Captions-207+,,0,0,0,,{\an8\pos(1236.73,356.21)\fnRoboto\b1\bord2.51\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx75.26\fscy75.26}Main Gate
+Dialogue: 1,0:15:18.68,0:15:18.73,Captions-207+,,0,0,0,,{\an8\pos(1237.63,355.65)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx75.53\fscy75.53}Main Gate
+Dialogue: 0,0:15:18.68,0:15:18.73,Captions-207+,,0,0,0,,{\an8\pos(1237.63,355.65)\fnRoboto\b1\bord2.52\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx75.53\fscy75.53}Main Gate
+Dialogue: 1,0:15:18.73,0:15:18.77,Captions-207+,,0,0,0,,{\an8\pos(1238.38,355.06)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx75.73\fscy75.73}Main Gate
+Dialogue: 0,0:15:18.73,0:15:18.77,Captions-207+,,0,0,0,,{\an8\pos(1238.38,355.06)\fnRoboto\b1\bord2.52\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx75.73\fscy75.73}Main Gate
+Dialogue: 1,0:15:18.77,0:15:18.81,Captions-207+,,0,0,0,,{\an8\pos(1239.22,354.45)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx75.88\fscy75.88}Main Gate
+Dialogue: 0,0:15:18.77,0:15:18.81,Captions-207+,,0,0,0,,{\an8\pos(1239.22,354.45)\fnRoboto\b1\bord2.53\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx75.88\fscy75.88}Main Gate
+Dialogue: 1,0:15:18.81,0:15:18.89,Captions-207+,,0,0,0,,{\an8\pos(1240.2,353.88)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx76.21\fscy76.21}Main Gate
+Dialogue: 0,0:15:18.81,0:15:18.89,Captions-207+,,0,0,0,,{\an8\pos(1240.2,353.88)\fnRoboto\b1\bord2.54\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx76.21\fscy76.21}Main Gate
+Dialogue: 1,0:15:18.89,0:15:18.93,Captions-207+,,0,0,0,,{\an8\pos(1241.07,353.31)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx76.4\fscy76.4}Main Gate
+Dialogue: 0,0:15:18.89,0:15:18.93,Captions-207+,,0,0,0,,{\an8\pos(1241.07,353.31)\fnRoboto\b1\bord2.55\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx76.4\fscy76.4}Main Gate
+Dialogue: 1,0:15:18.93,0:15:18.98,Captions-207+,,0,0,0,,{\an8\pos(1242.08,352.64)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx76.68\fscy76.68}Main Gate
+Dialogue: 0,0:15:18.93,0:15:18.98,Captions-207+,,0,0,0,,{\an8\pos(1242.08,352.64)\fnRoboto\b1\bord2.56\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx76.68\fscy76.68}Main Gate
+Dialogue: 1,0:15:18.98,0:15:19.02,Captions-207+,,0,0,0,,{\an8\pos(1243,351.95)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx76.93\fscy76.93}Main Gate
+Dialogue: 0,0:15:18.98,0:15:19.02,Captions-207+,,0,0,0,,{\an8\pos(1243,351.95)\fnRoboto\b1\bord2.56\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx76.93\fscy76.93}Main Gate
+Dialogue: 1,0:15:19.02,0:15:19.06,Captions-207+,,0,0,0,,{\an8\pos(1244.12,351.34)\fnRoboto\b1\bord0\c&H000000&\blur0.75\fscx77.31\fscy77.31}Main Gate
+Dialogue: 0,0:15:19.02,0:15:19.06,Captions-207+,,0,0,0,,{\an8\pos(1244.12,351.34)\fnRoboto\b1\bord2.58\c&HFFFFFF&\3c&HFFFFFF&\blur0.75\fscx77.31\fscy77.31}Main Gate
+Dialogue: 1,0:15:19.06,0:15:19.10,Captions-207+,,0,0,0,,{\an8\pos(1244.98,350.67)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx77.53\fscy77.53}Main Gate
+Dialogue: 0,0:15:19.06,0:15:19.10,Captions-207+,,0,0,0,,{\an8\pos(1244.98,350.67)\fnRoboto\b1\bord2.58\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx77.53\fscy77.53}Main Gate
+Dialogue: 1,0:15:19.10,0:15:19.14,Captions-207+,,0,0,0,,{\an8\pos(1245.99,349.97)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx77.78\fscy77.78}Main Gate
+Dialogue: 0,0:15:19.10,0:15:19.14,Captions-207+,,0,0,0,,{\an8\pos(1245.99,349.97)\fnRoboto\b1\bord2.59\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx77.78\fscy77.78}Main Gate
+Dialogue: 1,0:15:19.14,0:15:19.18,Captions-207+,,0,0,0,,{\an8\pos(1246.9,349.39)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx78\fscy78}Main Gate
+Dialogue: 0,0:15:19.14,0:15:19.18,Captions-207+,,0,0,0,,{\an8\pos(1246.9,349.39)\fnRoboto\b1\bord2.6\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx78\fscy78}Main Gate
+Dialogue: 1,0:15:19.18,0:15:19.27,Captions-207+,,0,0,0,,{\an8\pos(1248,348.68)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx78.34\fscy78.34}Main Gate
+Dialogue: 0,0:15:19.18,0:15:19.27,Captions-207+,,0,0,0,,{\an8\pos(1248,348.68)\fnRoboto\b1\bord2.61\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx78.34\fscy78.34}Main Gate
+Dialogue: 1,0:15:19.27,0:15:19.31,Captions-207+,,0,0,0,,{\an8\pos(1249.1,347.97)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx78.63\fscy78.63}Main Gate
+Dialogue: 0,0:15:19.27,0:15:19.31,Captions-207+,,0,0,0,,{\an8\pos(1249.1,347.97)\fnRoboto\b1\bord2.62\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx78.63\fscy78.63}Main Gate
+Dialogue: 1,0:15:19.31,0:15:19.35,Captions-207+,,0,0,0,,{\an8\pos(1250.05,347.32)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx78.86\fscy78.86}Main Gate
+Dialogue: 0,0:15:19.31,0:15:19.35,Captions-207+,,0,0,0,,{\an8\pos(1250.05,347.32)\fnRoboto\b1\bord2.63\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx78.86\fscy78.86}Main Gate
+Dialogue: 1,0:15:19.35,0:15:19.39,Captions-207+,,0,0,0,,{\an8\pos(1251.18,346.61)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx79.2\fscy79.2}Main Gate
+Dialogue: 0,0:15:19.35,0:15:19.39,Captions-207+,,0,0,0,,{\an8\pos(1251.18,346.61)\fnRoboto\b1\bord2.64\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx79.2\fscy79.2}Main Gate
+Dialogue: 1,0:15:19.39,0:15:19.44,Captions-207+,,0,0,0,,{\an8\pos(1252.17,345.9)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx79.42\fscy79.42}Main Gate
+Dialogue: 0,0:15:19.39,0:15:19.44,Captions-207+,,0,0,0,,{\an8\pos(1252.17,345.9)\fnRoboto\b1\bord2.65\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx79.42\fscy79.42}Main Gate
+Dialogue: 1,0:15:19.44,0:15:19.48,Captions-207+,,0,0,0,,{\an8\pos(1253.22,345.19)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx79.71\fscy79.71}Main Gate
+Dialogue: 0,0:15:19.44,0:15:19.48,Captions-207+,,0,0,0,,{\an8\pos(1253.22,345.19)\fnRoboto\b1\bord2.66\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx79.71\fscy79.71}Main Gate
+Dialogue: 1,0:15:19.48,0:15:19.52,Captions-207+,,0,0,0,,{\an8\pos(1254.44,344.38)\fnRoboto\b1\bord0\c&H000000&\blur0.76\fscx80.08\fscy80.08}Main Gate
+Dialogue: 0,0:15:19.48,0:15:19.52,Captions-207+,,0,0,0,,{\an8\pos(1254.44,344.38)\fnRoboto\b1\bord2.67\c&HFFFFFF&\3c&HFFFFFF&\blur0.76\fscx80.08\fscy80.08}Main Gate
+Dialogue: 1,0:15:19.52,0:15:19.60,Captions-207+,,0,0,0,,{\an8\pos(1255.58,343.68)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx80.43\fscy80.43}Main Gate
+Dialogue: 0,0:15:19.52,0:15:19.60,Captions-207+,,0,0,0,,{\an8\pos(1255.58,343.68)\fnRoboto\b1\bord2.68\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx80.43\fscy80.43}Main Gate
+Dialogue: 1,0:15:19.60,0:15:19.64,Captions-207+,,0,0,0,,{\an8\pos(1256.6,342.95)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx80.64\fscy80.64}Main Gate
+Dialogue: 0,0:15:19.60,0:15:19.64,Captions-207+,,0,0,0,,{\an8\pos(1256.6,342.95)\fnRoboto\b1\bord2.69\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx80.64\fscy80.64}Main Gate
+Dialogue: 1,0:15:19.64,0:15:19.69,Captions-207+,,0,0,0,,{\an8\pos(1257.9,342.14)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx81.04\fscy81.04}Main Gate
+Dialogue: 0,0:15:19.64,0:15:19.69,Captions-207+,,0,0,0,,{\an8\pos(1257.9,342.14)\fnRoboto\b1\bord2.7\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx81.04\fscy81.04}Main Gate
+Dialogue: 1,0:15:19.69,0:15:19.73,Captions-207+,,0,0,0,,{\an8\pos(1259.01,341.37)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx81.35\fscy81.35}Main Gate
+Dialogue: 0,0:15:19.69,0:15:19.73,Captions-207+,,0,0,0,,{\an8\pos(1259.01,341.37)\fnRoboto\b1\bord2.71\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx81.35\fscy81.35}Main Gate
+Dialogue: 1,0:15:19.73,0:15:19.77,Captions-207+,,0,0,0,,{\an8\pos(1260.18,340.62)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx81.66\fscy81.66}Main Gate
+Dialogue: 0,0:15:19.73,0:15:19.77,Captions-207+,,0,0,0,,{\an8\pos(1260.18,340.62)\fnRoboto\b1\bord2.72\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx81.66\fscy81.66}Main Gate
+Dialogue: 1,0:15:19.77,0:15:19.81,Captions-207+,,0,0,0,,{\an8\pos(1261.28,339.8)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx81.9\fscy81.9}Main Gate
+Dialogue: 0,0:15:19.77,0:15:19.81,Captions-207+,,0,0,0,,{\an8\pos(1261.28,339.8)\fnRoboto\b1\bord2.73\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx81.9\fscy81.9}Main Gate
+Dialogue: 1,0:15:19.81,0:15:19.85,Captions-207+,,0,0,0,,{\an8\pos(1262.46,339.02)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx82.21\fscy82.21}Main Gate
+Dialogue: 0,0:15:19.81,0:15:19.85,Captions-207+,,0,0,0,,{\an8\pos(1262.46,339.02)\fnRoboto\b1\bord2.74\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx82.21\fscy82.21}Main Gate
+Dialogue: 1,0:15:19.85,0:15:19.94,Captions-207+,,0,0,0,,{\an8\pos(1263.71,338.24)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx82.58\fscy82.58}Main Gate
+Dialogue: 0,0:15:19.85,0:15:19.94,Captions-207+,,0,0,0,,{\an8\pos(1263.71,338.24)\fnRoboto\b1\bord2.75\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx82.58\fscy82.58}Main Gate
+Dialogue: 1,0:15:19.94,0:15:19.98,Captions-207+,,0,0,0,,{\an8\pos(1264.99,337.41)\fnRoboto\b1\bord0\c&H000000&\blur0.77\fscx82.96\fscy82.96}Main Gate
+Dialogue: 0,0:15:19.94,0:15:19.98,Captions-207+,,0,0,0,,{\an8\pos(1264.99,337.41)\fnRoboto\b1\bord2.77\c&HFFFFFF&\3c&HFFFFFF&\blur0.77\fscx82.96\fscy82.96}Main Gate
+Dialogue: 1,0:15:19.98,0:15:20.02,Captions-207+,,0,0,0,,{\an8\pos(1266.19,336.6)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx83.27\fscy83.27}Main Gate
+Dialogue: 0,0:15:19.98,0:15:20.02,Captions-207+,,0,0,0,,{\an8\pos(1266.19,336.6)\fnRoboto\b1\bord2.78\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx83.27\fscy83.27}Main Gate
+Dialogue: 1,0:15:20.02,0:15:20.06,Captions-207+,,0,0,0,,{\an8\pos(1267.46,335.75)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx83.61\fscy83.61}Main Gate
+Dialogue: 0,0:15:20.02,0:15:20.06,Captions-207+,,0,0,0,,{\an8\pos(1267.46,335.75)\fnRoboto\b1\bord2.79\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx83.61\fscy83.61}Main Gate
+Dialogue: 1,0:15:20.06,0:15:20.10,Captions-207+,,0,0,0,,{\an8\pos(1268.75,334.92)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx83.96\fscy83.96}Main Gate
+Dialogue: 0,0:15:20.06,0:15:20.10,Captions-207+,,0,0,0,,{\an8\pos(1268.75,334.92)\fnRoboto\b1\bord2.8\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx83.96\fscy83.96}Main Gate
+Dialogue: 1,0:15:20.10,0:15:20.14,Captions-207+,,0,0,0,,{\an8\pos(1270.01,334.04)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx84.29\fscy84.29}Main Gate
+Dialogue: 0,0:15:20.10,0:15:20.14,Captions-207+,,0,0,0,,{\an8\pos(1270.01,334.04)\fnRoboto\b1\bord2.81\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx84.29\fscy84.29}Main Gate
+Dialogue: 1,0:15:20.14,0:15:20.19,Captions-207+,,0,0,0,,{\an8\pos(1271.31,333.16)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx84.64\fscy84.64}Main Gate
+Dialogue: 0,0:15:20.14,0:15:20.19,Captions-207+,,0,0,0,,{\an8\pos(1271.31,333.16)\fnRoboto\b1\bord2.82\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx84.64\fscy84.64}Main Gate
+Dialogue: 1,0:15:20.19,0:15:20.23,Captions-207+,,0,0,0,,{\an8\pos(1272.67,332.3)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx85.01\fscy85.01}Main Gate
+Dialogue: 0,0:15:20.19,0:15:20.23,Captions-207+,,0,0,0,,{\an8\pos(1272.67,332.3)\fnRoboto\b1\bord2.83\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx85.01\fscy85.01}Main Gate
+Dialogue: 1,0:15:20.23,0:15:20.31,Captions-207+,,0,0,0,,{\an8\pos(1273.97,331.36)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx85.38\fscy85.38}Main Gate
+Dialogue: 0,0:15:20.23,0:15:20.31,Captions-207+,,0,0,0,,{\an8\pos(1273.97,331.36)\fnRoboto\b1\bord2.85\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx85.38\fscy85.38}Main Gate
+Dialogue: 1,0:15:20.31,0:15:20.35,Captions-207+,,0,0,0,,{\an8\pos(1275.34,330.48)\fnRoboto\b1\bord0\c&H000000&\blur0.78\fscx85.75\fscy85.75}Main Gate
+Dialogue: 0,0:15:20.31,0:15:20.35,Captions-207+,,0,0,0,,{\an8\pos(1275.34,330.48)\fnRoboto\b1\bord2.86\c&HFFFFFF&\3c&HFFFFFF&\blur0.78\fscx85.75\fscy85.75}Main Gate
+Dialogue: 1,0:15:20.35,0:15:20.39,Captions-207+,,0,0,0,,{\an8\pos(1276.49,329.61)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx86.03\fscy86.03}Main Gate
+Dialogue: 0,0:15:20.35,0:15:20.39,Captions-207+,,0,0,0,,{\an8\pos(1276.49,329.61)\fnRoboto\b1\bord2.87\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx86.03\fscy86.03}Main Gate
+Dialogue: 1,0:15:20.39,0:15:20.44,Captions-207+,,0,0,0,,{\an8\pos(1278.12,328.76)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx86.63\fscy86.63}Main Gate
+Dialogue: 0,0:15:20.39,0:15:20.44,Captions-207+,,0,0,0,,{\an8\pos(1278.12,328.76)\fnRoboto\b1\bord2.89\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx86.63\fscy86.63}Main Gate
+Dialogue: 1,0:15:20.44,0:15:20.48,Captions-207+,,0,0,0,,{\an8\pos(1279.29,327.78)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx86.76\fscy86.76}Main Gate
+Dialogue: 0,0:15:20.44,0:15:20.48,Captions-207+,,0,0,0,,{\an8\pos(1279.29,327.78)\fnRoboto\b1\bord2.89\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx86.76\fscy86.76}Main Gate
+Dialogue: 1,0:15:20.48,0:15:20.52,Captions-207+,,0,0,0,,{\an8\pos(1280.75,326.85)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx87.17\fscy87.17}Main Gate
+Dialogue: 0,0:15:20.48,0:15:20.52,Captions-207+,,0,0,0,,{\an8\pos(1280.75,326.85)\fnRoboto\b1\bord2.91\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx87.17\fscy87.17}Main Gate
+Dialogue: 1,0:15:20.52,0:15:20.56,Captions-207+,,0,0,0,,{\an8\pos(1282.09,325.85)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx87.53\fscy87.53}Main Gate
+Dialogue: 0,0:15:20.52,0:15:20.56,Captions-207+,,0,0,0,,{\an8\pos(1282.09,325.85)\fnRoboto\b1\bord2.92\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx87.53\fscy87.53}Main Gate
+Dialogue: 1,0:15:20.56,0:15:20.64,Captions-207+,,0,0,0,,{\an8\pos(1283.72,324.9)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx88.05\fscy88.05}Main Gate
+Dialogue: 0,0:15:20.56,0:15:20.64,Captions-207+,,0,0,0,,{\an8\pos(1283.72,324.9)\fnRoboto\b1\bord2.94\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx88.05\fscy88.05}Main Gate
+Dialogue: 1,0:15:20.64,0:15:20.69,Captions-207+,,0,0,0,,{\an8\pos(1285.13,323.93)\fnRoboto\b1\bord0\c&H000000&\blur0.79\fscx88.37\fscy88.37}Main Gate
+Dialogue: 0,0:15:20.64,0:15:20.69,Captions-207+,,0,0,0,,{\an8\pos(1285.13,323.93)\fnRoboto\b1\bord2.95\c&HFFFFFF&\3c&HFFFFFF&\blur0.79\fscx88.37\fscy88.37}Main Gate
+Dialogue: 1,0:15:20.69,0:15:20.73,Captions-207+,,0,0,0,,{\an8\pos(1286.5,323.08)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fscx88.8\fscy88.8}Main Gate
+Dialogue: 0,0:15:20.69,0:15:20.73,Captions-207+,,0,0,0,,{\an8\pos(1286.5,323.08)\fnRoboto\b1\bord2.96\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fscx88.8\fscy88.8}Main Gate
+Dialogue: 1,0:15:20.73,0:15:20.77,Captions-207+,,0,0,0,,{\an8\pos(1287.92,322.04)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fscx89.13\fscy89.13}Main Gate
+Dialogue: 0,0:15:20.73,0:15:20.77,Captions-207+,,0,0,0,,{\an8\pos(1287.92,322.04)\fnRoboto\b1\bord2.97\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fscx89.13\fscy89.13}Main Gate
+Dialogue: 1,0:15:20.77,0:15:20.81,Captions-207+,,0,0,0,,{\an8\pos(1289.42,321.05)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fscx89.52\fscy89.52}Main Gate
+Dialogue: 0,0:15:20.77,0:15:20.81,Captions-207+,,0,0,0,,{\an8\pos(1289.42,321.05)\fnRoboto\b1\bord2.98\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fscx89.52\fscy89.52}Main Gate
+Dialogue: 1,0:15:20.81,0:15:20.85,Captions-207+,,0,0,0,,{\an8\pos(1291,320)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fscx90\fscy90}Main Gate
+Dialogue: 0,0:15:20.81,0:15:20.85,Captions-207+,,0,0,0,,{\an8\pos(1291,320)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fscx90\fscy90}Main Gate
+Dialogue: 0,0:19:32.32,0:19:36.03,Captions-207+,,0,0,0,,{\pos(960,590)\fscx110\fscy110\b600\bord2.5\shad1\4c&H0E0E11&\3c&H0E0E11&\c&H0E0E11&\1a&HFF&\blur0.8\fad(560,0)\t(518,560,\1a&H00&)}Watchdogs of the Law\NElite Guards of Enies Lobby
+Dialogue: 1,0:19:32.32,0:19:36.03,Captions-207+,,0,0,0,,{\an2\fad(560,0)\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}Watchdogs of the Law\NElite Guards of Enies Lobby
+Dialogue: 1,0:19:32.32,0:19:36.03,Captions-207+,,0,0,0,,{\an2\fad(560,0)\fscx110\fscy110\bord0\blur0.8\b600\pos(960,590)\c&HFBFDFE&}Watchdogs of the Law\NElite Guards of Enies Lobby
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord3.9\c&H000000&}Video Editing
+Dialogue: 1,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Video Editing
+Dialogue: 2,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Video Editing
+Dialogue: 0,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Galaxy 9000
+Dialogue: 1,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord0.1\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Galaxy 9000
+Dialogue: 2,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord0.1\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Galaxy 9000
+Dialogue: 0,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.5\c&H000000&}Graphics
+Dialogue: 1,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.5\bord0\4a&HFF&}Graphics
+Dialogue: 2,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.5\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.5\bord4\fscx115\fscy115\c&H000000&}Datenshi   Girl-Krillin\NKaitouYahiko
+Dialogue: 1,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.5\bord0\fscx115\fscy115\4a&HFF&}Datenshi   Girl-Krillin\NKaitouYahiko
+Dialogue: 2,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.5\bord0\fscx115\fscy115\4a&HFF&}Datenshi   Girl-Krillin\NKaitouYahiko
+Dialogue: 0,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.5\fscx105\fscy110\c&H000000&}Karaoke
+Dialogue: 1,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.5\bord0\fscx105\fscy110\4a&HFF&}Karaoke
+Dialogue: 2,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.5\bord0\fscx105\fscy110\4a&HFF&}Karaoke
+Dialogue: 0,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.5\bord4\fscx115\fscy115\c&H000000&}arch1t3cht\NKaitouYahiko
+Dialogue: 1,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.5\bord0\fscx115\fscy115\4a&HFF&}arch1t3cht\NKaitouYahiko
+Dialogue: 2,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.5\bord0\fscx115\fscy115\4a&HFF&}arch1t3cht\NKaitouYahiko
+Dialogue: 0,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord3.9\c&H000000&}Quality Control
+Dialogue: 1,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Quality Control
+Dialogue: 2,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Quality Control
+Dialogue: 0,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Feeso   Gab\NPepperjack
+Dialogue: 1,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Feeso   Gab\NPepperjack
+Dialogue: 2,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Feeso   Gab\NPepperjack
+Dialogue: 0,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(519,816)\blur0.6\bord3.5\fscx90\fscy110\fnRoboto\c&H000000&}Soundtracking
+Dialogue: 1,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(519,816)\blur0.6\bord0\fscx90\fscy110\fnRoboto\c&HF9F9FA&\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(1163,816)\blur0.6\bord3.5\fscx90\fscy110\fnRoboto\c&H000000&}Halee
+Dialogue: 1,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(1163,816)\blur0.6\bord0\fscx90\fscy110\fnRoboto\c&HF9F9FA&\4a&HFF&}Halee
+Dialogue: 0,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord3.9\c&H000000&}Timing
+Dialogue: 1,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Timing
+Dialogue: 2,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Timing
+Dialogue: 0,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}NateTheBird
+Dialogue: 1,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 2,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 0,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,692)\blur0.6\bord3.9\c&H000000&}Dubtitles
+Dialogue: 1,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,692)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Dubtitles
+Dialogue: 2,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,692)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Dubtitles
+Dialogue: 0,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,745)\blur0.6\bord3.9\c&H000000&\fscx115\fscy115}NateTheBird
+Dialogue: 1,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,745)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&\fscx115\fscy115}NateTheBird
+Dialogue: 2,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,745)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&\fscx115\fscy115}NateTheBird
+Dialogue: 0,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord3.9\fscx90\fscy95\c&H000000&}Translation
+Dialogue: 1,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord0\fscx90\fscy95\c&HF9F9FA&\4a&HFF&}Translation
+Dialogue: 2,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord0\fscx90\fscy95\c&HF9F9FA&\4a&HFF&}Translation
+Dialogue: 0,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}arch1t3cht   Crunchyroll\NGaijin   PamkinPinguin
+Dialogue: 1,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht   Crunchyroll\NGaijin   PamkinPinguin
+Dialogue: 2,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht   Crunchyroll\NGaijin   PamkinPinguin
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4

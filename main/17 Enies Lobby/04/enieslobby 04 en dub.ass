@@ -1,0 +1,782 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Note-207+,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,3.75,3.75,8,300,300,27,1
+Style: Karaoke-furigana,Duality,45,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,2.25,0,8,15,15,15,1
+Style: Lyrics-furigana,FOT-Greco Std B Strp,29.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,1.75,0,2,15,15,23,1
+Style: Lyrics,FOT-Greco Std B Strp,59,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,3.5,0,2,15,15,23,1
+Style: Kanji-furigana,Duality,45,&H00E24B33,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,15,15,120,1
+Style: Karaoke,Duality,90,&H009E375F,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,3,0,1,4.5,0,8,15,15,15,1
+Style: Kanji,Duality,75,&H00E24B33,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,8,15,15,150,1
+Style: Romaji ED,BlackChancery,75,&H00272761,&H000000FF,&H00E0E0E0,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,9,50,50,20,1
+Style: Translation ED,BlackChancery,75,&H00272761,&H000000FF,&H00E0E0E0,&H00000000,0,0,0,0,100,100,0,0,1,3.5,0,3,50,50,20,1
+Style: Episode-Title-207+,M+ 1c Pace,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:50.01,0:02:00.01,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 50,0:02:12.61,0:02:15.72,Main-207+,,0,0,0,,Listen, when I get a bounty,\Nit's gonna be twice as much as yours.
+Dialogue: 50,0:02:15.72,0:02:16.95,Main-207+,,0,0,0,,Whatever, Pirate C.
+Dialogue: 50,0:02:16.95,0:02:19.09,Main-207+,,0,0,0,,Stop changing it!
+Dialogue: 50,0:02:19.09,0:02:21.00,Main-207+,,0,0,0,,Hey, stop you two.
+Dialogue: 50,0:02:21.00,0:02:22.98,Main-207+,,0,0,0,,I don't think they can\Nhear you, Sniper King.
+Dialogue: 50,0:02:22.98,0:02:23.68,Main-207+,,0,0,0,,Don't worry.
+Dialogue: 50,0:02:23.68,0:02:25.45,Main-207+,,0,0,0,,It's all part of my plan.
+Dialogue: 50,0:02:25.45,0:02:27.45,Main-207+,,0,0,0,,I don't get it, but it sounds cool.
+Dialogue: 50,0:02:27.45,0:02:29.57,Main-207+,,0,0,0,,There's more of them over there!
+Dialogue: 50,0:02:29.57,0:02:30.97,Main-207+,,0,0,0,,They found us!
+Dialogue: 50,0:02:30.97,0:02:32.51,Main-207+,,0,0,0,,Some might be hiding on the train!
+Dialogue: 50,0:02:32.51,0:02:33.38,Main-207+,,0,0,0,,Blow it up!
+Dialogue: 50,0:02:33.38,0:02:35.61,Main-207+,,0,0,0,,Hey! Stop! Nami's still inside there!
+Dialogue: 50,0:02:35.61,0:02:36.61,Main-207+,,0,0,0,,Fire!
+Dialogue: 50,0:02:43.49,0:02:45.39,Main-207+,,0,0,0,,That hurt!
+Dialogue: 50,0:02:46.69,0:02:47.46,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:02:47.46,0:02:50.96,Main-207+,,0,0,0,,Are you okay, Sniper King?
+Dialogue: 50,0:02:51.66,0:02:53.80,Main-207+,,0,0,0,,Never better, my friend.
+Dialogue: 50,0:02:53.80,0:02:54.50,Main-207+,,0,0,0,,Whoa!
+Dialogue: 50,0:02:54.50,0:02:55.80,Main-207+,,0,0,0,,Cease fire!
+Dialogue: 50,0:02:55.80,0:02:57.46,Main-207+,,0,0,0,,What's wrong?
+Dialogue: 50,0:02:57.46,0:02:58.46,Main-207+,,0,0,0,,See for yourself!
+Dialogue: 50,0:02:58.46,0:03:00.00,Main-207+,,0,0,0,,Hi!
+Dialogue: 50,0:03:00.00,0:03:01.10,Main-207+,,0,0,0,,Don't shoot!
+Dialogue: 50,0:03:01.10,0:03:02.77,Main-207+,,0,0,0,,I'm just an old lady!
+Dialogue: 50,0:03:02.77,0:03:04.77,Main-207+,,0,0,0,,I'm a little girl with a kitty cat!
+Dialogue: 50,0:03:04.77,0:03:06.50,Main-207+,,0,0,0,,We're too cute to die!
+Dialogue: 50,0:03:06.50,0:03:07.36,Main-207+,,0,0,0,,Meow! Meow!
+Dialogue: 50,0:03:07.36,0:03:10.00,Main-207+,,0,0,0,,The Straw Hat Pirates threatened\Nto do all kinds of rude
+Dialogue: 50,0:03:10.84,0:03:13.99,Main-207+,,0,0,0,,and immoral stuff if I didn't\Noperate the train for them!
+Dialogue: 50,0:03:13.99,0:03:15.42,Main-207+,,0,0,0,,Those meanies!
+Dialogue: 50,0:03:15.42,0:03:18.36,Main-207+,,0,0,0,,Meow! Meow!
+Dialogue: 50,0:03:21.60,0:03:23.77,Main-207+,,0,0,0,,Who would let their hostages get drunk?
+Dialogue: 50,0:03:23.77,0:03:24.70,Main-207+,,0,0,0,,That was close!
+Dialogue: 50,0:03:24.70,0:03:26.81,Main-207+,,0,0,0,,We almost blew up\Nthat innocent old lady!
+Dialogue: 50,0:03:26.81,0:03:28.61,Main-207+,,0,0,0,,What kind of deranged\Nmonster would take
+Dialogue: 50,0:03:28.61,0:03:32.41,Main-207+,,0,0,0,,a senior citizen, a little girl,\Nand a cat as hostages?
+Dialogue: 50,0:03:32.96,0:03:36.23,Main-207+,,0,0,0,,Is it just me, or is that\Nsmoke forming a cloud?
+Dialogue: 50,0:03:37.13,0:03:38.30,Main-207+,,0,0,0,,Using cool balls.
+Dialogue: 50,0:03:38.30,0:03:40.14,Main-207+,,0,0,0,,And heat balls.
+Dialogue: 50,0:03:40.14,0:03:43.34,Main-207+,,0,0,0,,I can turn the moisture\Nin the air into clouds.
+Dialogue: 50,0:03:43.34,0:03:45.27,Main-207+,,0,0,0,,Aww, there you are Nami-sweet!
+Dialogue: 50,0:03:45.27,0:03:47.44,Main-207+,,0,0,0,,I knew you'd make it out okay!
+Dialogue: 50,0:03:50.29,0:03:52.82,Main-207+,,0,0,0,,He didn't name it the "Perfect\NClima Takt" for nothing!
+Dialogue: 50,0:03:52.82,0:03:55.76,Main-207+,,0,0,0,,These clouds are growing a lot\Nbigger and faster than before!
+Dialogue: 50,0:03:56.41,0:03:59.53,Main-207+,,0,0,0,,The question is, how\Nstrong are the thunderbolts?
+Dialogue: 50,0:03:59.53,0:04:01.53,Main-207+,,0,0,0,,Let's find out.
+Dialogue: 50,0:04:01.53,0:04:03.67,Main-207+,,0,0,0,,This is looking scary, guys.
+Dialogue: 50,0:04:03.67,0:04:06.20,Main-207+,,0,0,0,,It's prob'ly better to run, right?
+Dialogue: 50,0:04:06.20,0:04:07.60,Main-207+,,0,0,0,,I hope you're ready.
+Dialogue: 50,0:04:09.74,0:04:13.14,Main-207+,,0,0,0,,'Cause here comes the\Nnew Thunderbolt Tempo!
+Dialogue: 50,0:04:30.27,0:04:32.20,Main-207+,,0,0,0,,You trying to kill me or what?
+Dialogue: 50,0:04:32.20,0:04:33.87,Main-207+,,0,0,0,,Ah!
+Dialogue: 50,0:04:33.87,0:04:36.91,Main-207+,,0,0,0,,Nami, why'd you hit Sniper King?
+Dialogue: 50,0:04:36.91,0:04:37.84,Main-207+,,0,0,0,,I don't know.
+Dialogue: 50,0:04:37.84,0:04:38.94,Main-207+,,0,0,0,,I felt like it?
+Dialogue: 50,0:04:38.94,0:04:40.34,Main-207+,,0,0,0,,Don't take it out on me!
+Dialogue: 50,0:04:40.34,0:04:42.95,Main-207+,,0,0,0,,It's not my fault you\Ndon't know how to use it yet!
+Dialogue: 50,0:04:43.94,0:04:47.51,Main-207+,,0,0,0,,Besides, Usopp told me he\Nnever added a feature like that!
+Dialogue: 50,0:04:47.51,0:04:49.19,Main-207+,,0,0,0,,Either way.
+Dialogue: 50,0:04:49.19,0:04:50.64,Main-207+,,0,0,0,,That thing is crazy powerful!
+Dialogue: 50,0:04:50.64,0:04:51.76,Main-207+,,0,0,0,,You beat everyone!
+Dialogue: 50,0:04:56.22,0:04:57.12,Main-207+,,0,0,0,,Ah.
+Dialogue: 50,0:04:57.12,0:04:57.82,Main-207+,,0,0,0,,Damn it, Nami!
+Dialogue: 50,0:04:57.82,0:04:58.52,Main-207+,,0,0,0,,What the hell?
+Dialogue: 50,0:04:58.52,0:05:00.25,Main-207+,,0,0,0,,Watch where you aim that thing!
+Dialogue: 50,0:05:00.25,0:05:02.15,Main-207+,,0,0,0,,Apologize to him, Sniper King!
+Dialogue: 50,0:05:02.15,0:05:04.16,Main-207+,,0,0,0,,You apologize, stupid!
+Dialogue: 50,0:05:04.16,0:05:08.56,Main-207+,,0,0,0,,I haven't felt a shock like that since\Nthe first time I met you, Nami-swan.
+Dialogue: 50,0:05:08.56,0:05:10.73,Main-207+,,0,0,0,,Those pirates are out of control.
+Dialogue: 50,0:05:10.73,0:05:11.70,Main-207+,,0,0,0,,It's crazy!
+Dialogue: 50,0:05:11.70,0:05:13.60,Main-207+,,0,0,0,,I thought that girl\Nwas just the navigator,
+Dialogue: 50,0:05:13.60,0:05:16.30,Main-207+,,0,0,0,,but it turns out she's as\Nstrong as the rest of 'em!
+Dialogue: 50,0:05:18.15,0:05:20.38,Main-207+,,0,0,0,,So anyway, what about our Captain?
+Dialogue: 50,0:05:20.38,0:05:22.28,Main-207+,,0,0,0,,Any guesses on where he went?
+Dialogue: 50,0:05:22.28,0:05:23.12,Main-207+,,0,0,0,,Who knows.
+Dialogue: 50,0:05:23.12,0:05:24.49,Main-207+,,0,0,0,,The island's pretty big.
+Dialogue: 50,0:05:24.49,0:05:26.62,Main-207+,,0,0,0,,Where should we start?
+Dialogue: 50,0:05:27.20,0:05:29.53,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:05:29.53,0:05:32.84,Main-207+,,0,0,0,,That's got to be where he's at.
+Dialogue: 50,0:05:33.94,0:05:35.62,Main-207+,,0,0,0,,All right, then.
+Dialogue: 50,0:05:35.62,0:05:37.62,Main-207+,,0,0,0,,Let's get moving.
+Dialogue: 50,0:05:43.96,0:05:48.30,Main-207+,,0,0,0,,You filthy criminals think the\NWatchdogs'll let you do as you please?
+Dialogue: 50,0:05:48.30,0:05:49.97,Main-207+,,0,0,0,,Not a chance!
+Dialogue: 50,0:06:15.63,0:06:17.09,Main-207+,,0,0,0,,He jumped onto the tree!
+Dialogue: 50,0:06:20.16,0:06:21.23,Main-207+,,0,0,0,,I'm not getting anywhere.
+Dialogue: 50,0:06:21.76,0:06:24.26,Main-207+,,0,0,0,,Don't those dumb jerks\Nhave anything better to do?
+Dialogue: 50,0:06:24.26,0:06:26.20,Main-207+,,0,0,0,,This way! Quick!
+Dialogue: 50,0:06:26.20,0:06:28.72,Main-207+,,0,0,0,,They're running the other way?
+Dialogue: 50,0:06:28.72,0:06:31.18,Main-207+,,0,0,0,,Half of you, head to the\Nmain island front gate!
+Dialogue: 50,0:06:31.18,0:06:33.88,Main-207+,,0,0,0,,Pirates forced it open\Nand are invading the island!
+Dialogue: 50,0:06:33.88,0:06:35.90,Main-207+,,0,0,0,,Stop them at any cost!
+Dialogue: 50,0:06:35.90,0:06:39.84,Main-207+,,0,0,0,,{\q2}All right, now that everyone else's here\NI can finally stop running from these guys!
+Dialogue: 50,0:06:41.31,0:06:42.21,Main-207+,,0,0,0,,Got him!
+Dialogue: 50,0:06:42.21,0:06:42.88,Main-207+,,0,0,0,,Sorry!
+Dialogue: 50,0:06:42.88,0:06:43.91,Main-207+,,0,0,0,,Try again!
+Dialogue: 50,0:06:43.91,0:06:44.91,Main-207+,,0,0,0,,He's over there!
+Dialogue: 50,0:06:44.91,0:06:46.05,Main-207+,,0,0,0,,Fire!
+Dialogue: 50,0:07:06.50,0:07:10.84,Main-207+,,0,0,0,,We are the Watchdogs, guards\Nof the island's front gate!
+Dialogue: 50,0:07:10.84,0:07:14.68,Main-207+,,0,0,0,,You've run rampant for\Nfar too long, villains!
+Dialogue: 50,0:07:14.68,0:07:17.24,Main-207+,,0,0,0,,No criminal shall cross this line!
+Dialogue: 50,0:07:29.36,0:07:31.79,Main-207+,,0,0,0,,Yep, I'd say they've\Ngot us surrounded all right.
+Dialogue: 50,0:07:31.79,0:07:34.52,Main-207+,,0,0,0,,Were they following us all this time?
+Dialogue: 50,0:07:34.98,0:07:35.78,Main-207+,,0,0,0,,Yeah?
+Dialogue: 50,0:07:35.78,0:07:37.25,Main-207+,,0,0,0,,We'll see.
+Dialogue: 50,0:07:37.25,0:07:39.31,Main-207+,,0,0,0,,You cocky little scoundrel!
+Dialogue: 50,0:07:39.31,0:07:41.12,Main-207+,,0,0,0,,All right men, let's a...
+Dialogue: 50,0:07:48.53,0:07:49.53,Main-207+,,0,0,0,,Grab on!
+Dialogue: 50,0:07:50.43,0:07:51.79,Main-207+,,0,0,0,,Here!
+Dialogue: 50,0:08:00.07,0:08:00.97,Main-207+,,0,0,0,,Thanks.
+Dialogue: 50,0:08:09.90,0:08:11.80,Main-207+,,0,0,0,,Coulda let us have\Nsome fun first, though.
+Dialogue: 50,0:08:11.80,0:08:13.41,Main-207+,,0,0,0,,{\an8}You idiot!
+Dialogue: 50,0:08:13.41,0:08:15.58,Main-207+,,0,0,0,,Don't forget the reason you came here!
+Dialogue: 50,0:08:15.58,0:08:18.38,Main-207+,,0,0,0,,Save your energy for the real fight!
+Dialogue: 50,0:08:18.74,0:08:19.68,Main-207+,,0,0,0,,You're right.
+Dialogue: 50,0:08:19.68,0:08:23.32,Main-207+,,0,0,0,,We'd be here all day\Nwith that many guys.
+Dialogue: 50,0:08:26.79,0:08:29.14,Main-207+,,0,0,0,,Those kiddos are full of energy!
+Dialogue: 50,0:08:29.14,0:08:31.14,Main-207+,,0,0,0,,Don't die out there!
+Dialogue: 50,0:08:31.14,0:08:32.88,Main-207+,,0,0,0,,Go save your friend!
+Dialogue: 50,0:08:32.88,0:08:34.88,Main-207+,,0,0,0,,Meow, meow!
+Dialogue: 50,0:08:36.75,0:08:37.78,Main-207+,,0,0,0,,Everybody!
+Dialogue: 50,0:08:37.78,0:08:39.52,Main-207+,,0,0,0,,Get back!
+Dialogue: 50,0:08:39.52,0:08:41.62,Main-207+,,0,0,0,,It's a King Bull from Water 7!
+Dialogue: 50,0:08:41.62,0:08:43.56,Main-207+,,0,0,0,,Ready the cannons!
+Dialogue: 50,0:08:46.46,0:08:48.39,Main-207+,,0,0,0,,You guys ready?
+Dialogue: 50,0:08:48.39,0:08:49.66,Main-207+,,0,0,0,,Fire!
+Dialogue: 50,0:08:53.95,0:08:56.69,Main-207+,,0,0,0,,Franky Family coming through!
+Dialogue: 50,0:08:59.56,0:09:02.36,Main-207+,,0,0,0,,Watchdogs, back in\Nformation immediately!
+Dialogue: 50,0:09:02.64,0:09:03.78,Main-207+,,0,0,0,,Roger!
+Dialogue: 50,0:09:03.78,0:09:06.55,Main-207+,,0,0,0,,You can run away if you\Nlike, but our dogs aren't going
+Dialogue: 50,0:09:06.55,0:09:10.08,Main-207+,,0,0,0,,to lose to a couple of overgrown fish!
+Dialogue: 50,0:09:10.08,0:09:10.78,Main-207+,,0,0,0,,Uh-oh!
+Dialogue: 50,0:09:10.78,0:09:12.82,Main-207+,,0,0,0,,They're gonna jump up on the bull!
+Dialogue: 50,0:09:12.82,0:09:13.52,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:09:13.52,0:09:15.02,Main-207+,,0,0,0,,Can't we go any faster?
+Dialogue: 50,0:09:15.02,0:09:17.36,Main-207+,,0,0,0,,Hey, Cook.
+Dialogue: 50,0:09:19.09,0:09:20.96,Main-207+,,0,0,0,,What's up?
+Dialogue: 50,0:09:21.22,0:09:22.55,Main-207+,,0,0,0,,You take the reins.
+Dialogue: 50,0:09:22.55,0:09:23.75,Main-207+,,0,0,0,,Here.
+Dialogue: 50,0:09:25.36,0:09:26.06,Main-207+,,0,0,0,,Wait.
+Dialogue: 50,0:09:26.06,0:09:27.81,Main-207+,,0,0,0,,What's going on here?
+Dialogue: 50,0:09:37.90,0:09:44.27,Main-207+,,0,0,0,,When you see 'em, I want you\Nto pass on a message for me.
+Dialogue: 50,0:09:44.27,0:09:47.24,Main-207+,,0,0,0,,"You're all fired."
+Dialogue: 50,0:09:48.01,0:09:50.01,Main-207+,,0,0,0,,You got it.
+Dialogue: 50,0:09:50.01,0:09:51.88,Main-207+,,0,0,0,,All right, jump!
+Dialogue: 50,0:09:52.82,0:09:54.25,Main-207+,,0,0,0,,Not so fast!
+Dialogue: 50,0:09:54.25,0:09:57.35,Main-207+,,0,0,0,,Good luck, Galley-La, we're\Nleaving this one to you!
+Dialogue: 50,0:09:57.35,0:09:59.26,Main-207+,,0,0,0,,We're gonna skewer you!
+Dialogue: 50,0:10:00.16,0:10:04.29,Main-207+,,0,0,0,,Half Knot Air Drive!
+Dialogue: 50,0:10:07.37,0:10:08.34,Main-207+,,0,0,0,,Whoa!
+Dialogue: 50,0:10:11.86,0:10:13.63,Main-207+,,0,0,0,,He took out those\NWatchdogs out in one hit!
+Dialogue: 50,0:10:13.63,0:10:14.33,Main-207+,,0,0,0,,Fools!
+Dialogue: 50,0:10:14.33,0:10:15.77,Main-207+,,0,0,0,,They just let their guard down!
+Dialogue: 50,0:10:15.77,0:10:18.28,Main-207+,,0,0,0,,No mere human can match our speed!
+Dialogue: 50,0:10:18.28,0:10:20.85,Main-207+,,0,0,0,,Give them a taste of canine power, men!
+Dialogue: 50,0:10:20.85,0:10:21.85,Main-207+,,0,0,0,,Go!
+Dialogue: 50,0:10:21.85,0:10:23.84,Main-207+,,0,0,0,,They won't know what hit 'em!
+Dialogue: 50,0:10:23.84,0:10:26.18,Main-207+,,0,0,0,,Strike 'like lightning!
+Dialogue: 50,0:10:32.68,0:10:34.37,Main-207+,,0,0,0,,Not them too!
+Dialogue: 50,0:10:34.37,0:10:36.44,Main-207+,,0,0,0,,Who are these guys?
+Dialogue: 50,0:10:41.23,0:10:44.30,Main-207+,,0,0,0,,That was so cool!
+Dialogue: 50,0:10:52.09,0:10:53.42,Main-207+,,0,0,0,,You ready for round two?
+Dialogue: 50,0:10:59.25,0:11:00.82,Main-207+,,0,0,0,,Take this!
+Dialogue: 50,0:11:07.08,0:11:11.51,Main-207+,,0,0,0,,It seems your temperament is as\Nvolatile as ever, Cutty Flam.
+Dialogue: 50,0:11:11.51,0:11:14.01,Main-207+,,0,0,0,,Even though we haven't\Nseen each other in years,
+Dialogue: 50,0:11:14.01,0:11:16.85,Main-207+,,0,0,0,,it turns out that you've caused\Nme quite a bit of trouble;
+Dialogue: 50,0:11:16.85,0:11:19.91,Main-207+,,0,0,0,,faking your death and hiding\Nthe blueprints, I mean.
+Dialogue: 50,0:11:19.91,0:11:21.01,Main-207+,,0,0,0,,It's ironic.
+Dialogue: 50,0:11:21.01,0:11:24.41,Main-207+,,0,0,0,,I could've arrested you had\NI known you were alive.
+Dialogue: 50,0:11:24.41,0:11:27.96,Main-207+,,0,0,0,,Your old charges never\Nwere cleared were they?
+Dialogue: 50,0:11:27.96,0:11:31.19,Main-207+,,0,0,0,,Speaking of thorns in my side,\Nyour old friend Iceberg
+Dialogue: 50,0:11:31.19,0:11:33.54,Main-207+,,0,0,0,,has given me quite the hassle as well.
+Dialogue: 50,0:11:33.54,0:11:37.45,Main-207+,,0,0,0,,Bringing together all the ship\Nbuilders in Water 7 was quite crafty.
+Dialogue: 50,0:11:38.64,0:11:42.24,Main-207+,,0,0,0,,The resulting Galley-La Company turned\Ninto a force to be reckoned with.
+Dialogue: 50,0:11:42.24,0:11:46.56,Main-207+,,0,0,0,,Though he must've resented the government,\Nhe allied with us all the same.
+Dialogue: 50,0:11:46.56,0:11:49.09,Main-207+,,0,0,0,,And before we knew it,\Nwe were reliant on
+Dialogue: 50,0:11:49.09,0:11:52.24,Main-207+,,0,0,0,,his company to provide\Nships for the entire Navy.
+Dialogue: 50,0:11:52.24,0:11:55.21,Main-207+,,0,0,0,,Not only was he the president\Nof the Galley-La Company.
+Dialogue: 50,0:11:55.21,0:11:58.81,Main-207+,,0,0,0,,He was also the mayor of Water Seven.
+Dialogue: 50,0:11:58.81,0:12:01.51,Main-207+,,0,0,0,,In other words, he was\Npopular with the public
+Dialogue: 50,0:12:03.81,0:12:05.92,Main-207+,,0,0,0,,If we dealt with him carelessly,
+Dialogue: 50,0:12:09.17,0:12:11.00,Flashbacks-207+,,0,0,0,,I've heard that your\Ncompany has been contracted
+Dialogue: 50,0:12:11.00,0:12:13.07,Flashbacks-207+,,0,0,0,,to build ships for the\NWorld Government!
+Dialogue: 50,0:12:13.07,0:12:15.02,Flashbacks-207+,,0,0,0,,I won't tolerate you helping them!
+Dialogue: 50,0:12:15.02,0:12:17.66,Flashbacks-207+,,0,0,0,,How could you, after\Nwhat they did to Tom?
+Dialogue: 50,0:12:18.32,0:12:21.63,Thoughts-207+,,0,0,0,,So that's why he made a\Ndeal with those bastards.
+Dialogue: 50,0:12:21.63,0:12:24.50,Main-207+,,0,0,0,,I admit, he's a very clever man!
+Dialogue: 50,0:12:24.50,0:12:26.34,Main-207+,,0,0,0,,Or was.
+Dialogue: 50,0:12:27.29,0:12:29.55,Main-207+,,0,0,0,,I had almost lost my patience.
+Dialogue: 50,0:12:30.37,0:12:32.71,Main-207+,,0,0,0,,If the wind hadn't blown\Nin my favor when it did,
+Dialogue: 50,0:12:32.71,0:12:36.55,Main-207+,,0,0,0,,I was ready to resort\Nto extreme measures.
+Dialogue: 50,0:12:36.55,0:12:39.95,Main-207+,,0,0,0,,Then, Admiral Aokiji sent\Nsome good news my way.
+Dialogue: 50,0:12:39.95,0:12:43.96,Main-207+,,0,0,0,,He said that our little friend\NNico Robin was on a pirate ship,
+Dialogue: 50,0:12:43.96,0:12:46.68,Main-207+,,0,0,0,,headed to Water Seven for repairs.
+Dialogue: 50,0:12:46.68,0:12:50.95,Main-207+,,0,0,0,,Of course, I had to calm down and\Nthink about it over a cup of coffee.
+Dialogue: 50,0:12:50.95,0:12:54.02,Main-207+,,0,0,0,,But fortunately, with the\NBuster Call at my disposal,
+Dialogue: 50,0:12:54.02,0:12:56.76,Main-207+,,0,0,0,,it was quite easy to formulate a plan.
+Dialogue: 50,0:12:56.76,0:13:00.93,Main-207+,,0,0,0,,Little did I know, the result would\Nexceed my wildest expectations.
+Dialogue: 50,0:13:00.93,0:13:02.17,Main-207+,,0,0,0,,Look!
+Dialogue: 50,0:13:02.17,0:13:07.80,Main-207+,,0,0,0,,Both of the triggers needed to revive the\NAncient Weapon are right here at my mercy!
+Dialogue: 50,0:13:10.60,0:13:11.83,Main-207+,,0,0,0,,You get it, now?
+Dialogue: 50,0:13:11.83,0:13:14.70,Main-207+,,0,0,0,,When I say the winds of this\Nworld are blowing in my favor,
+Dialogue: 50,0:13:14.70,0:13:16.97,Main-207+,,0,0,0,,I most assuredly mean it!
+Dialogue: 50,0:13:22.97,0:13:26.91,Main-207+,,0,0,0,,Every man and every nation in\Nthe world must answer to me!
+Dialogue: 50,0:13:26.91,0:13:30.38,Main-207+,,0,0,0,,All that power at\Nthe tip of my fingers!
+Dialogue: 50,0:13:30.77,0:13:31.91,Main-207+,,0,0,0,,I don't understand.
+Dialogue: 50,0:13:31.91,0:13:35.28,Main-207+,,0,0,0,,Why would Aokiji allow you\Nto invoke the Buster Call?
+Dialogue: 50,0:13:57.33,0:13:59.77,Main-207+,,0,0,0,,What gives you the\Nright to question me?
+Dialogue: 50,0:13:59.77,0:14:01.74,Main-207+,,0,0,0,,You shut your mouth!
+Dialogue: 50,0:14:02.17,0:14:05.34,Main-207+,,0,0,0,,You get to play a part in\Nthe rebirth of this world!
+Dialogue: 50,0:14:05.34,0:14:09.01,Main-207+,,0,0,0,,Isn't that enough for you,\Nyou insolent witch?
+Dialogue: 50,0:14:11.15,0:14:13.38,Main-207+,,0,0,0,,Why, you should even be thanking me!
+Dialogue: 50,0:14:13.38,0:14:15.25,Main-207+,,0,0,0,,Yeah? Huh?
+Dialogue: 50,0:14:16.09,0:14:20.73,Main-207+,,0,0,0,,I'll cleanse this world of Ohara's\Nlegacy by bleeding you dry.
+Dialogue: 50,0:14:21.11,0:14:23.64,Main-207+,,0,0,0,,Now listen, and listen well.
+Dialogue: 50,0:14:23.64,0:14:28.28,Main-207+,,0,0,0,,From this moment on, I'm going to make you\Nsuffer pain so excruciatingly agonizing
+Dialogue: 50,0:14:28.68,0:14:31.48,Main-207+,,0,0,0,,that you'll wake up every\Nmorning wishing you were dead.
+Dialogue: 50,0:14:31.48,0:14:33.08,Main-207+,,0,0,0,,So prepare yourself.
+Dialogue: 50,0:14:33.08,0:14:38.09,Main-207+,,0,0,0,,I'm going to hurt you and use you\Nthen throw you out into the sea!
+Dialogue: 50,0:14:38.09,0:14:41.33,Main-207+,,0,0,0,,A life as sinful as\Nyours deserves nothing less!
+Dialogue: 50,0:14:46.17,0:14:50.99,Main-207+,,0,0,0,,Oh, and by the way, I just\Nreceived some interesting news.
+Dialogue: 50,0:14:50.99,0:14:54.36,Main-207+,,0,0,0,,Apparently, a moronic\Ngroup of riff-raff has decided
+Dialogue: 50,0:14:54.36,0:14:58.40,Main-207+,,0,0,0,,to infiltrate our island in a\Nhapless attempt to rescue you.
+Dialogue: 50,0:14:59.36,0:15:00.80,Main-207+,,0,0,0,,You don't mean...?
+Dialogue: 50,0:15:00.80,0:15:01.80,Main-207+,,0,0,0,,Yes.
+Dialogue: 50,0:15:01.80,0:15:03.75,Main-207+,,0,0,0,,But, don't you worry.
+Dialogue: 50,0:15:03.75,0:15:06.42,Main-207+,,0,0,0,,I'm sure they've been\Napprehended by now.
+Dialogue: 50,0:15:06.42,0:15:10.59,Main-207+,,0,0,0,,Straw Hat Luffy and his\Ncrew will trouble us no more.
+Dialogue: 50,0:15:11.37,0:15:13.61,Thoughts-207+,,0,0,0,,They're so stubborn.
+Dialogue: 50,0:15:15.61,0:15:17.38,Main-207+,,0,0,0,,They're little more\Nthan insects compared
+Dialogue: 50,0:15:17.38,0:15:21.05,Main-207+,,0,0,0,,to the might of the ten thousand\Nsoldiers of Enies Lobby.
+Dialogue: 50,0:15:21.05,0:15:24.89,Main-207+,,0,0,0,,Conveniently, we were already\Npreparing a prison transport ship.
+Dialogue: 50,0:15:24.89,0:15:27.06,Main-207+,,0,0,0,,What perfect timing they have!
+Dialogue: 50,0:15:27.06,0:15:29.45,Main-207+,,0,0,0,,Along with Cutty Flam, they'll\Nmake a wonderful addition
+Dialogue: 50,0:15:29.45,0:15:33.39,Main-207+,,0,0,0,,as the latest inmates of Impel Down.
+Dialogue: 50,0:15:37.83,0:15:38.63,Main-207+,,0,0,0,,Hold on!
+Dialogue: 50,0:15:38.63,0:15:39.63,Main-207+,,0,0,0,,That wasn't part of our agreement!
+Dialogue: 50,0:15:39.63,0:15:41.93,Main-207+,,0,0,0,,In exchange for my\Ncooperation and surrender,
+Dialogue: 50,0:15:41.93,0:15:45.70,Main-207+,,0,0,0,,you promised that you'd let\Nthe Straw Hats escape safely!
+Dialogue: 50,0:15:47.44,0:15:48.37,Main-207+,,0,0,0,,Come now!
+Dialogue: 50,0:15:48.37,0:15:50.11,Main-207+,,0,0,0,,What are you getting\Nso worked up about?
+Dialogue: 50,0:15:50.11,0:15:51.24,Main-207+,,0,0,0,,Lucci!
+Dialogue: 50,0:15:51.24,0:15:54.75,Main-207+,,0,0,0,,Remind her of the exact\Nconditions that were offered!
+Dialogue: 50,0:15:54.75,0:15:58.95,Main-207+,,0,0,0,,{\q2}The terms of the arrangement were, that\Nexcluding Nico Robin, the Straw Hat Pirates
+Dialogue: 50,0:15:58.95,0:16:01.39,Main-207+,,0,0,0,,would be allowed to\Nleave Water 7 safely.
+Dialogue: 50,0:16:01.39,0:16:02.49,Main-207+,,0,0,0,,Correct.
+Dialogue: 50,0:16:02.49,0:16:04.09,Main-207+,,0,0,0,,There you have it.
+Dialogue: 50,0:16:04.09,0:16:07.86,Main-207+,,0,0,0,,Fairly straightforward, I'd say.
+Dialogue: 50,0:16:13.32,0:16:16.02,Main-207+,,0,0,0,,After allowing them\Nto leave Water 7 safely,
+Dialogue: 50,0:16:16.02,0:16:20.19,Main-207+,,0,0,0,,as promised, the Straw Hats\Ndecided to come here.
+Dialogue: 50,0:16:20.67,0:16:23.34,Main-207+,,0,0,0,,Is this some kind of joke?
+Dialogue: 50,0:16:23.34,0:16:28.51,Main-207+,,0,0,0,,You're going to break the heart of our\Nagreement over a ridiculous technicality?
+Dialogue: 50,0:16:28.51,0:16:31.02,Main-207+,,0,0,0,,These dirtbags are\Nthe lowest of the low.
+Dialogue: 50,0:16:31.02,0:16:33.62,Main-207+,,0,0,0,,Not a shred of decency\Nin any one of 'em!
+Dialogue: 50,0:16:33.62,0:16:34.96,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:16:34.96,0:16:37.24,Main-207+,,0,0,0,,What did you say?
+Dialogue: 50,0:16:37.24,0:16:39.47,Main-207+,,0,0,0,,Shut up, you filthy piece of trash!
+Dialogue: 50,0:16:40.02,0:16:43.76,Main-207+,,0,0,0,,We're not under any obligation to keep\Nour promises to a bunch of criminals!
+Dialogue: 50,0:16:43.76,0:16:45.09,Main-207+,,0,0,0,,You hear me?
+Dialogue: 50,0:16:45.09,0:16:47.73,Main-207+,,0,0,0,,Take that, and that, and that!
+Dialogue: 50,0:16:47.73,0:16:48.76,Main-207+,,0,0,0,,You, too!
+Dialogue: 50,0:16:50.06,0:16:52.43,Main-207+,,0,0,0,,Don't get cocky with me, understand?
+Dialogue: 50,0:16:52.43,0:16:56.10,Main-207+,,0,0,0,,Deceiving and capturing pirates is\Nwhat the Navy does, you insolent wench!
+Dialogue: 50,0:16:56.10,0:16:58.34,Main-207+,,0,0,0,,You're just the idiot who fell for it!
+Dialogue: 50,0:17:10.08,0:17:10.78,Main-207+,,0,0,0,,Rest assured.
+Dialogue: 50,0:17:10.78,0:17:11.98,Main-207+,,0,0,0,,I'll choose a fitting death for one
+Dialogue: 50,0:17:06.34,0:17:08.30,Main-207+,,0,0,0,,You coward.
+Dialogue: 50,0:17:12.68,0:17:16.98,Main-207+,,0,0,0,,who's spent her life lying,\Ndeceiving, and betraying others.
+Dialogue: 50,0:17:20.99,0:17:25.16,Main-207+,,0,0,0,,Before the supreme power of\Njustice, resistance is futile.
+Dialogue: 50,0:17:25.16,0:17:30.20,Main-207+,,0,0,0,,But look on the bright side, at least\Nyour friends will suffer and die with you!
+Dialogue: 50,0:17:37.96,0:17:38.66,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:17:38.66,0:17:41.57,Main-207+,,0,0,0,,What's all that commotion about?
+Dialogue: 50,0:17:47.87,0:17:49.51,Main-207+,,0,0,0,,Something's coming!
+Dialogue: 50,0:18:01.75,0:18:03.52,Main-207+,,0,0,0,,Way to go, Sodom and Gomorrah!
+Dialogue: 50,0:18:03.52,0:18:05.62,Main-207+,,0,0,0,,Keep charging forward!
+Dialogue: 50,0:18:08.16,0:18:08.86,Main-207+,,0,0,0,,Oh, no!
+Dialogue: 50,0:18:08.86,0:18:10.03,Main-207+,,0,0,0,,It's them!
+Dialogue: 50,0:18:10.03,0:18:12.80,Main-207+,,0,0,0,,Those pirates that broke\Nthrough the Main Island's Gate!
+Dialogue: 50,0:18:12.80,0:18:13.63,Main-207+,,0,0,0,,Fire!
+Dialogue: 50,0:18:13.63,0:18:15.40,Main-207+,,0,0,0,,Don't let up!
+Dialogue: 50,0:18:15.40,0:18:16.83,Main-207+,,0,0,0,,Gero, Gero! Gero, Gero!
+Dialogue: 50,0:18:16.83,0:18:19.40,Main-207+,,0,0,0,,Unless you wanna die,\Nget outta the way!
+Dialogue: 50,0:18:19.40,0:18:20.10,Main-207+,,0,0,0,,Take that!
+Dialogue: 50,0:18:20.10,0:18:20.97,Main-207+,,0,0,0,,And that!
+Dialogue: 50,0:18:22.86,0:18:25.57,Main-207+,,0,0,0,,Fall back and then restore formation!
+Dialogue: 50,0:18:27.58,0:18:28.28,Main-207+,,0,0,0,,Damn!
+Dialogue: 50,0:18:28.28,0:18:28.98,Main-207+,,0,0,0,,Stupid pirates!
+Dialogue: 50,0:18:28.98,0:18:31.25,Main-207+,,0,0,0,,You shouldn't be so cocky!
+Dialogue: 50,0:18:37.63,0:18:39.70,Main-207+,,0,0,0,,Now I've got you, pirate lady!
+Dialogue: 50,0:18:46.84,0:18:48.25,Main-207+,,0,0,0,,Get outta here!
+Dialogue: 50,0:18:48.25,0:18:49.08,Main-207+,,0,0,0,,Beat it!
+Dialogue: 50,0:18:49.08,0:18:50.48,Main-207+,,0,0,0,,Smooth sailing.
+Dialogue: 50,0:18:50.48,0:18:52.12,Main-207+,,0,0,0,,These two make it easy.
+Dialogue: 50,0:18:52.12,0:18:55.12,Main-207+,,0,0,0,,Keep going until we reach\Nour Captain, King Bulls!
+Dialogue: 50,0:18:58.00,0:18:58.70,Main-207+,,0,0,0,,Hurry!
+Dialogue: 50,0:18:58.70,0:19:00.10,Main-207+,,0,0,0,,Don't let him escape!
+Dialogue: 50,0:19:00.10,0:19:01.17,Main-207+,,0,0,0,,He's alone!
+Dialogue: 50,0:19:01.17,0:19:02.74,Main-207+,,0,0,0,,Surround him!
+Dialogue: 50,0:19:04.87,0:19:05.94,Main-207+,,0,0,0,,Get him!
+Dialogue: 50,0:19:05.94,0:19:09.08,Main-207+,,0,0,0,,Move!
+Dialogue: 50,0:19:09.08,0:19:11.85,Main-207+,,0,0,0,,Get outta my way!
+Dialogue: 50,0:19:16.31,0:19:18.28,Main-207+,,0,0,0,,Stupid bastards!
+Dialogue: 50,0:19:19.05,0:19:19.75,Main-207+,,0,0,0,,Commander!
+Dialogue: 50,0:19:19.75,0:19:21.92,Main-207+,,0,0,0,,This guy's really scary!
+Dialogue: 50,0:19:21.92,0:19:23.22,Main-207+,,0,0,0,,Don't falter, men!
+Dialogue: 50,0:19:23.22,0:19:25.19,Main-207+,,0,0,0,,Bring him down!
+Dialogue: 50,0:19:25.19,0:19:26.25,Main-207+,,0,0,0,,Attack!
+Dialogue: 50,0:19:28.62,0:19:30.12,Main-207+,,0,0,0,,Commander!
+Dialogue: 50,0:19:35.09,0:19:36.49,Main-207+,,0,0,0,,There! Yep!
+Dialogue: 50,0:19:36.49,0:19:38.93,Main-207+,,0,0,0,,That dead end's gotta be the place!
+Dialogue: 50,0:19:38.93,0:19:41.34,Main-207+,,0,0,0,,They better not\Nhave taken you away yet!
+Dialogue: 50,0:19:42.57,0:19:46.01,Main-207+,,0,0,0,,Robin!
+Dialogue: 50,0:19:47.64,0:19:49.51,Main-207+,,0,0,0,,I suppose that's enough for now.
+Dialogue: 50,0:19:49.51,0:19:50.21,Main-207+,,0,0,0,,You two!
+Dialogue: 50,0:19:50.21,0:19:51.31,Main-207+,,0,0,0,,Get them out of here.
+Dialogue: 50,0:19:51.31,0:19:52.42,Main-207+,,0,0,0,,Yes, sir!
+Dialogue: 50,0:19:52.42,0:19:54.95,Main-207+,,0,0,0,,There's a Sea Prism Stone\Nlock on her restraints.
+Dialogue: 50,0:19:54.95,0:19:56.33,Main-207+,,0,0,0,,Make sure it's secure.
+Dialogue: 50,0:19:56.33,0:20:00.27,Main-207+,,0,0,0,,Cutty Flam goes to Impel Down and\NNico Robin to Navy Headquarters.
+Dialogue: 50,0:20:00.27,0:20:04.31,Main-207+,,0,0,0,,As soon as the ship's ready, we'll\Nset sail through the Gates of Justice.
+Dialogue: 50,0:20:04.31,0:20:05.21,Main-207+,,0,0,0,,Right!
+Dialogue: 50,0:20:05.21,0:20:06.17,Main-207+,,0,0,0,,It shall be done, sir!
+Dialogue: 50,0:20:06.17,0:20:10.88,Main-207+,,0,0,0,,Also, take extra\Nprecautions with Cutty Flam.
+Dialogue: 50,0:20:10.88,0:20:16.82,Main-207+,,0,0,0,,He can be extremely violen...\NHas Straw Hat been sighted?
+Dialogue: 50,0:20:18.54,0:20:20.14,Main-207+,,0,0,0,,{\an8}Yeah.
+Dialogue: 50,0:20:20.14,0:20:23.45,Main-207+,,0,0,0,,We got a report about it a\Nlittle while back, chapapa.
+Dialogue: 50,0:20:23.45,0:20:25.72,Main-207+,,0,0,0,,When he heard the news,\NChief got so worked up.
+Dialogue: 50,0:20:25.72,0:20:27.42,Main-207+,,0,0,0,,It was embarrassing.
+Dialogue: 50,0:20:27.42,0:20:31.12,Main-207+,,0,0,0,,They said there were only five\Ncasualties, but that can't be right.
+Dialogue: 50,0:20:34.16,0:20:36.26,Thoughts-207+,,0,0,0,,The receiver is off the hook.
+Dialogue: 50,0:20:38.03,0:20:39.83,Main-207+,,0,0,0,,Don't give us any trouble, tough guy.
+Dialogue: 50,0:20:39.83,0:20:41.00,Main-207+,,0,0,0,,Let's get going.
+Dialogue: 50,0:20:52.24,0:20:54.89,Main-207+,,0,0,0,,You can return to\Nyour quarters for now.
+Dialogue: 50,0:20:54.89,0:20:58.60,Main-207+,,0,0,0,,Thanks to this catch, CP9 will be\Nthe toast of Navy Headquarters.
+Dialogue: 50,0:20:58.60,0:21:03.60,Main-207+,,0,0,0,,Our status will rise to incredible\Nheights, in a covert way, of course.
+Dialogue: 50,0:21:03.60,0:21:07.37,Main-207+,,0,0,0,,And for that, I'd like to propose\Na little toast of our own!
+Dialogue: 50,0:21:09.38,0:21:12.38,Main-207+,,0,0,0,,I'm not in the mood\Nfor some ridiculous toast.
+Dialogue: 50,0:21:12.38,0:21:17.88,Main-207+,,0,0,0,,Nor am I interested in our\Nstatus or political influence.
+Dialogue: 50,0:21:17.88,0:21:21.65,Main-207+,,0,0,0,,Our brand of justice is to assassinate\Nin the name of the World Government.
+Dialogue: 50,0:21:21.65,0:21:25.42,Main-207+,,0,0,0,,As long as they continue to recognize\Nyou as the commander of CP9,
+Dialogue: 50,0:21:25.42,0:21:29.02,Main-207+,,0,0,0,,we will fulfill our duty to the letter.
+Dialogue: 50,0:21:29.96,0:21:35.22,Main-207+,,0,0,0,,But we're under no obligation\Nto support your personal ideologies.
+Dialogue: 50,0:21:35.22,0:21:38.36,Main-207+,,0,0,0,,That's... That's a sound argument.
+Dialogue: 50,0:21:38.36,0:21:41.26,Main-207+,,0,0,0,,But then, what is it you want exactly?
+Dialogue: 50,0:21:44.60,0:21:47.47,Main-207+,,0,0,0,,Perhaps all that we seek is blood.
+Dialogue: 50,0:21:56.07,0:22:00.27,Main-207+,,0,0,0,,And with CP9, we have\Nthe privilege to kill.
+Dialogue: 50,0:22:04.47,0:22:06.29,Main-207+,,0,0,0,,These guys give me the creeps.
+Dialogue: 50,0:22:06.29,0:22:11.00,Main-207+,,0,0,0,,Like he said, they assassinate\Nlegally in the name of justice.
+Dialogue: 50,0:22:11.00,0:22:13.20,Main-207+,,0,0,0,,And they're very good at what they do.
+Dialogue: 50,0:22:13.20,0:22:15.23,Main-207+,,0,0,0,,Quite dependable.
+Dialogue: 50,0:22:15.23,0:22:19.31,Main-207+,,0,0,0,,As long as I have them working for me,\Nthere's nothing I can't accomplish!
+Dialogue: 50,0:22:19.31,0:22:20.77,Main-207+,,0,0,0,,I'm invincible!
+Dialogue: 50,0:22:27.63,0:22:29.36,Main-207+,,0,0,0,,{\an8}Lieutenant Commander!
+Dialogue: 50,0:22:29.36,0:22:30.63,Main-207+,,0,0,0,,{\an8}Terrible news!
+Dialogue: 50,0:22:30.63,0:22:31.33,Main-207+,,0,0,0,,{\an8}What is it?
+Dialogue: 50,0:22:31.91,0:22:33.94,Main-207+,,0,0,0,,It's Straw Hat Luffy, sir!
+Dialogue: 50,0:22:36.32,0:22:38.08,Main-207+,,0,0,0,,We can't find him anywhere!
+Dialogue: 50,0:22:38.08,0:22:39.65,Main-207+,,0,0,0,,He gave us the slip!
+Dialogue: 50,0:22:40.09,0:22:41.22,Main-207+,,0,0,0,,That's impossible!
+Dialogue: 50,0:22:41.22,0:22:43.65,Main-207+,,0,0,0,,We've got thousands of\NMarines here looking for him!
+Dialogue: 50,0:22:43.65,0:22:45.78,Main-207+,,0,0,0,,Even so, no one can find him!
+Dialogue: 50,0:22:45.78,0:22:46.69,Main-207+,,0,0,0,,Don't tell me.
+Dialogue: 50,0:22:46.69,0:22:49.23,Main-207+,,0,0,0,,Is he somehow already\Ninside the courthouse?
+Dialogue: 50,0:22:49.23,0:22:50.46,Main-207+,,0,0,0,,No!
+Dialogue: 50,0:22:50.46,0:22:53.53,Main-207+,,0,0,0,,Not even an insect could've\Ngotten past our defenses, sir!
+Dialogue: 50,0:22:54.51,0:22:55.44,Main-207+,,0,0,0,,Go!
+Dialogue: 50,0:22:55.44,0:22:58.28,Main-207+,,0,0,0,,We must find Straw Hat\Nat any cost, men!
+Dialogue: 50,0:23:06.19,0:23:07.29,Main-207+,,0,0,0,,This is the last building.
+Dialogue: 50,0:23:07.29,0:23:08.36,Main-207+,,0,0,0,,She's gotta be here.
+Dialogue: 50,0:23:08.36,0:23:09.96,Main-207+,,0,0,0,,But there isn't a bridge.
+Dialogue: 50,0:23:09.96,0:23:11.39,Main-207+,,0,0,0,,Looks kinda far, too.
+Dialogue: 50,0:23:11.39,0:23:12.06,Main-207+,,0,0,0,,Oh well.
+Dialogue: 50,0:23:12.06,0:23:13.53,Main-207+,,0,0,0,,Guess I'll try jumping over.
+Dialogue: 50,0:23:18.82,0:23:19.59,Main-207+,,0,0,0,,What the heck?
+Dialogue: 50,0:23:20.27,0:23:22.27,Main-207+,,0,0,0,,Air Door.
+Dialogue: 50,0:23:31.33,0:23:32.70,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:23:32.70,0:23:34.70,Main-207+,,0,0,0,,You're the bull who's working\Nwith that stupid pigeon guy!
+Dialogue: 50,0:23:34.70,0:23:39.47,Main-207+,,0,0,0,,{\q2}There seem to be some discrepancies between\Nthe report and the actual situation.
+Dialogue: 50,0:23:39.47,0:23:40.17,Main-207+,,0,0,0,,Whoa!
+Dialogue: 50,0:23:40.17,0:23:41.81,Main-207+,,0,0,0,,How'd you just appear like that?
+Dialogue: 50,0:23:41.81,0:23:43.14,Main-207+,,0,0,0,,Awesome!
+Dialogue: 50,0:23:43.14,0:23:44.17,Main-207+,,0,0,0,,Magic?
+Dialogue: 50,0:23:44.17,0:23:46.24,Main-207+,,0,0,0,,To be honest, it did\Nseem a little suspicious.
+Dialogue: 50,0:23:46.24,0:23:48.75,Main-207+,,0,0,0,,No way you only took out 5 marines.
+Dialogue: 50,0:23:48.75,0:23:50.95,Main-207+,,0,0,0,,Man, you really surprised me!
+Dialogue: 50,0:23:50.95,0:23:53.42,Main-207+,,0,0,0,,An invasion like this is unprecedented.
+Dialogue: 50,0:23:53.42,0:23:56.32,Main-207+,,0,0,0,,This is the furthest\Nanyone has ever infiltrated
+Dialogue: 50,0:23:56.32,0:23:58.63,Main-207+,,0,0,0,,into the mouth of the World Government.
+Dialogue: 50,0:23:58.63,0:24:00.30,Main-207+,,0,0,0,,But that ends here.
+Dialogue: 50,0:24:00.35,0:24:01.05,Main-207+,,0,0,0,,Tell me.
+Dialogue: 50,0:24:01.05,0:24:05.02,Main-207+,,0,0,0,,How long do you plan to keep fighting?
+Dialogue: 50,0:24:18.20,0:24:19.81,Main-207+,,0,0,0,,Until I die.
+Dialogue: 0,0:01:55.22,0:01:58.68,Main-207+,,0,0,0,,Hey wait! I think I know that guy with the\Nsword!
+Dialogue: 0,0:01:58.68,0:02:02.14,Main-207+,,0,0,0,,Yeah! He's one of Straw Hat Luffy's Henchmen.\NPirate Hunter Zoro!
+Dialogue: 0,0:02:03.39,0:02:04.69,Main-207+,,0,0,0,,Henchman, huh?
+Dialogue: 0,0:02:04.69,0:02:07.19,Main-207+,,0,0,0,,Least he recognized me. You're not even a\Nhenchman.
+Dialogue: 0,0:02:07.19,0:02:08.52,Main-207+,,0,0,0,,You're Pirate A.
+Dialogue: 0,0:02:09.03,0:02:10.07,Main-207+,,0,0,0,,What was that?
+Dialogue: 0,0:02:10.07,0:02:11.36,Main-207+,,0,0,0,,Maybe "B"?
+Dialogue: 0,0:06:06.85,0:06:10.89,Main-207+,,0,0,0,,Now, Gum-Gum Spear!
+Dialogue: 0,0:06:52.43,0:06:54.39,Main-207+,,0,0,0,,Hey. Is something wrong?
+Dialogue: 0,0:17:08.30,0:17:10.08,Main-207+,,0,0,0,,Still running that mouth of yours, I see.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 2,0:01:50.05,0:01:55.22,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.6\fad(1061,0)}You're Fired
+Dialogue: 1,0:01:50.05,0:01:55.22,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.6\fad(1061,0)\t(1019,1061,\1a&H00&)}You're Fired
+Dialogue: 0,0:05:53.67,0:05:56.54,Captions-207+,,0,0,0,,{\pos(960,715)\fscx150\fscy150\b600\bord2.2\xshad-1\yshad1\c&H0E0E11&\3c&H0E0E11&\4c&H0E0E11&\1a&HFF&\blur0.8\fad(475,0)\t(434,475,\1a&H00&)}Main Island, Enies Lobby
+Dialogue: 1,0:05:53.67,0:05:56.54,Captions-207+,,0,0,0,,{\fad(475,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,715)\c&HE5E5E5&}Main Island, Enies Lobby
+Dialogue: 1,0:05:53.67,0:05:56.54,Captions-207+,,0,0,0,,{\fad(475,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,715)\c&HE5E5E5&}Main Island, Enies Lobby
+Dialogue: 0,0:06:45.34,0:06:48.01,Captions-207+,,0,0,0,,{\an8\pos(960,80)\fscx175\fscy175\b600\bord2.2\xshad-1\yshad1\c&H0E0E11&\3c&H0E0E11&\4c&H0E0E11&\1a&HFF&\blur0.8\fad(440,478)\t(399,440,\1a&H00&)\t(2192,2234,\1a&HFF&)}Main Island\NAt the Island Gate
+Dialogue: 1,0:06:45.34,0:06:48.01,Captions-207+,,0,0,0,,{\an8\fad(440,478)\fscx175\fscy175\bord0\blur0.8\b600\pos(960,80)\c&HE5E6E7&}Main Island\NAt the Island Gate
+Dialogue: 1,0:06:45.34,0:06:48.01,Captions-207+,,0,0,0,,{\an8\fad(440,478)\fscx175\fscy175\bord0\blur0.8\b600\pos(960,80)\c&HE5E6E7&}Main Island\NAt the Island Gate
+Dialogue: 0,0:10:55.26,0:10:59.22,Captions-207+,,0,0,0,,{\pos(960,675)\fscx150\fscy150\b600\bord2.5\c&H0E0E11&\3c&H0E0E11&\4c&H0E0E11&\1a&HFF&\blur0.8\fad(478,0)\t(437,478,\1a&H00&)}Tower of Justice\NEnies Lobby
+Dialogue: 1,0:10:55.26,0:10:59.22,Captions-207+,,0,0,0,,{\fad(478,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,675)\c&HE5E4E7&}Tower of Justice\NEnies Lobby
+Dialogue: 1,0:10:55.26,0:10:59.22,Captions-207+,,0,0,0,,{\fad(478,0)\fscx150\fscy150\bord0\blur0.8\b600\pos(960,675)\c&HE5E4E7&}Tower of Justice\NEnies Lobby
+Dialogue: 0,0:22:27.61,0:22:28.83,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(553,500)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,0,0,3230,3960)\t(3230,3271,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:27.61,0:22:28.83,Captions-207+,,0,0,0,,{\fscx100\fscy100\pos(1322,835)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,0,0,3230,3960)}Island Gate
+Dialogue: 0,0:22:27.61,0:22:28.83,Captions-207+,,0,0,0,,{\fscx100\fscy100\pos(1322,835)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,0,0,3230,3960)\t(3230,3271,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:27.62,0:22:28.83,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(553,500)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,0,0,3230,3960)}Courthouse
+Dialogue: 1,0:22:28.82,0:22:28.86,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(552.99,500.22)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1210,-1210,2020,2750)}Courthouse
+Dialogue: 0,0:22:28.82,0:22:28.86,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(552.99,500.22)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1210,-1210,2020,2750)\t(2020,2061,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:28.82,0:22:28.86,Captions-207+,,0,0,0,,{\fscx100.01\fscy100.01\pos(1322.25,835.23)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1210,-1210,2020,2750)}Island Gate
+Dialogue: 0,0:22:28.82,0:22:28.86,Captions-207+,,0,0,0,,{\fscx100.01\fscy100.01\pos(1322.25,835.23)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1210,-1210,2020,2750)\t(2020,2061,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:28.86,0:22:28.91,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(552.99,500.22)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1250,-1250,1980,2710)}Courthouse
+Dialogue: 0,0:22:28.86,0:22:28.91,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(552.99,500.22)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1250,-1250,1980,2710)\t(1980,2021,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:28.86,0:22:28.91,Captions-207+,,0,0,0,,{\fscx100.02\fscy100.02\pos(1322.26,835.24)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1250,-1250,1980,2710)}Island Gate
+Dialogue: 0,0:22:28.86,0:22:28.91,Captions-207+,,0,0,0,,{\fscx100.02\fscy100.02\pos(1322.26,835.24)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1250,-1250,1980,2710)\t(1980,2021,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:28.91,0:22:28.95,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(552.99,500.22)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1300,-1300,1930,2660)}Courthouse
+Dialogue: 0,0:22:28.91,0:22:28.95,Captions-207+,,0,0,0,,{\fscx100\fscy100\an8\pos(552.99,500.22)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1300,-1300,1930,2660)\t(1930,1971,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:28.91,0:22:28.95,Captions-207+,,0,0,0,,{\fscx100.02\fscy100.02\pos(1322.26,835.24)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1300,-1300,1930,2660)}Island Gate
+Dialogue: 0,0:22:28.91,0:22:28.95,Captions-207+,,0,0,0,,{\fscx100.02\fscy100.02\pos(1322.26,835.24)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1300,-1300,1930,2660)\t(1930,1971,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:28.95,0:22:28.99,Captions-207+,,0,0,0,,{\fscx100.1\fscy100.1\an8\pos(552.84,500.32)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1340,-1340,1890,2620)}Courthouse
+Dialogue: 0,0:22:28.95,0:22:28.99,Captions-207+,,0,0,0,,{\fscx100.1\fscy100.1\an8\pos(552.84,500.32)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1340,-1340,1890,2620)\t(1890,1931,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:28.95,0:22:28.99,Captions-207+,,0,0,0,,{\fscx100.08\fscy100.08\pos(1322.53,835.63)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1340,-1340,1890,2620)}Island Gate
+Dialogue: 0,0:22:28.95,0:22:28.99,Captions-207+,,0,0,0,,{\fscx100.08\fscy100.08\pos(1322.53,835.63)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1340,-1340,1890,2620)\t(1890,1931,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:28.99,0:22:29.03,Captions-207+,,0,0,0,,{\fscx100.14\fscy100.14\an8\pos(552.62,500.58)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1380,-1380,1850,2580)}Courthouse
+Dialogue: 0,0:22:28.99,0:22:29.03,Captions-207+,,0,0,0,,{\fscx100.14\fscy100.14\an8\pos(552.62,500.58)\fnRoboto\b1\bord3\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1380,-1380,1850,2580)\t(1850,1891,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:28.99,0:22:29.03,Captions-207+,,0,0,0,,{\fscx100.19\fscy100.19\pos(1322.79,836.08)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1380,-1380,1850,2580)}Island Gate
+Dialogue: 0,0:22:28.99,0:22:29.03,Captions-207+,,0,0,0,,{\fscx100.19\fscy100.19\pos(1322.79,836.08)\fnRoboto\b1\bord3.01\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1380,-1380,1850,2580)\t(1850,1891,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.03,0:22:29.07,Captions-207+,,0,0,0,,{\fscx100.22\fscy100.22\an8\pos(552.28,500.92)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1420,-1420,1810,2540)}Courthouse
+Dialogue: 0,0:22:29.03,0:22:29.07,Captions-207+,,0,0,0,,{\fscx100.22\fscy100.22\an8\pos(552.28,500.92)\fnRoboto\b1\bord3.01\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1420,-1420,1810,2540)\t(1810,1851,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.03,0:22:29.07,Captions-207+,,0,0,0,,{\fscx100.26\fscy100.26\pos(1323.15,836.63)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1420,-1420,1810,2540)}Island Gate
+Dialogue: 0,0:22:29.03,0:22:29.07,Captions-207+,,0,0,0,,{\fscx100.26\fscy100.26\pos(1323.15,836.63)\fnRoboto\b1\bord3.01\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1420,-1420,1810,2540)\t(1810,1851,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.07,0:22:29.11,Captions-207+,,0,0,0,,{\fscx100.31\fscy100.31\an8\pos(551.99,501.21)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1460,-1460,1770,2500)}Courthouse
+Dialogue: 0,0:22:29.07,0:22:29.11,Captions-207+,,0,0,0,,{\fscx100.31\fscy100.31\an8\pos(551.99,501.21)\fnRoboto\b1\bord3.01\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1460,-1460,1770,2500)\t(1770,1811,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.07,0:22:29.11,Captions-207+,,0,0,0,,{\fscx100.37\fscy100.37\pos(1323.53,837.36)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1460,-1460,1770,2500)}Island Gate
+Dialogue: 0,0:22:29.07,0:22:29.11,Captions-207+,,0,0,0,,{\fscx100.37\fscy100.37\pos(1323.53,837.36)\fnRoboto\b1\bord3.01\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1460,-1460,1770,2500)\t(1770,1811,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.11,0:22:29.16,Captions-207+,,0,0,0,,{\fscx100.44\fscy100.44\an8\pos(551.54,501.61)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1500,-1500,1730,2460)}Courthouse
+Dialogue: 0,0:22:29.11,0:22:29.16,Captions-207+,,0,0,0,,{\fscx100.44\fscy100.44\an8\pos(551.54,501.61)\fnRoboto\b1\bord3.01\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1500,-1500,1730,2460)\t(1730,1771,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.11,0:22:29.16,Captions-207+,,0,0,0,,{\fscx100.52\fscy100.52\pos(1324.14,838.21)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1500,-1500,1730,2460)}Island Gate
+Dialogue: 0,0:22:29.11,0:22:29.16,Captions-207+,,0,0,0,,{\fscx100.52\fscy100.52\pos(1324.14,838.21)\fnRoboto\b1\bord3.02\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1500,-1500,1730,2460)\t(1730,1771,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.16,0:22:29.20,Captions-207+,,0,0,0,,{\fscx100.6\fscy100.6\an8\pos(551.13,502.05)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1550,-1550,1680,2410)}Courthouse
+Dialogue: 0,0:22:29.16,0:22:29.20,Captions-207+,,0,0,0,,{\fscx100.6\fscy100.6\an8\pos(551.13,502.05)\fnRoboto\b1\bord3.02\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1550,-1550,1680,2410)\t(1680,1721,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.16,0:22:29.20,Captions-207+,,0,0,0,,{\fscx100.6\fscy100.6\pos(1324.68,839.02)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1550,-1550,1680,2410)}Island Gate
+Dialogue: 0,0:22:29.16,0:22:29.20,Captions-207+,,0,0,0,,{\fscx100.6\fscy100.6\pos(1324.68,839.02)\fnRoboto\b1\bord3.02\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1550,-1550,1680,2410)\t(1680,1721,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.20,0:22:29.24,Captions-207+,,0,0,0,,{\fscx100.79\fscy100.79\an8\pos(550.53,502.64)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1590,-1590,1640,2370)}Courthouse
+Dialogue: 0,0:22:29.20,0:22:29.24,Captions-207+,,0,0,0,,{\fscx100.79\fscy100.79\an8\pos(550.53,502.64)\fnRoboto\b1\bord3.02\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1590,-1590,1640,2370)\t(1640,1681,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.20,0:22:29.24,Captions-207+,,0,0,0,,{\fscx100.8\fscy100.8\pos(1325.46,840.21)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1590,-1590,1640,2370)}Island Gate
+Dialogue: 0,0:22:29.20,0:22:29.24,Captions-207+,,0,0,0,,{\fscx100.8\fscy100.8\pos(1325.46,840.21)\fnRoboto\b1\bord3.02\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1590,-1590,1640,2370)\t(1640,1681,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.24,0:22:29.28,Captions-207+,,0,0,0,,{\fscx100.91\fscy100.91\an8\pos(549.94,503.14)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1630,-1630,1600,2330)}Courthouse
+Dialogue: 0,0:22:29.24,0:22:29.28,Captions-207+,,0,0,0,,{\fscx100.91\fscy100.91\an8\pos(549.94,503.14)\fnRoboto\b1\bord3.03\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1630,-1630,1600,2330)\t(1600,1641,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.24,0:22:29.28,Captions-207+,,0,0,0,,{\fscx100.96\fscy100.96\pos(1326.16,841.35)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1630,-1630,1600,2330)}Island Gate
+Dialogue: 0,0:22:29.24,0:22:29.28,Captions-207+,,0,0,0,,{\fscx100.96\fscy100.96\pos(1326.16,841.35)\fnRoboto\b1\bord3.03\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1630,-1630,1600,2330)\t(1600,1641,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.28,0:22:29.32,Captions-207+,,0,0,0,,{\fscx101.15\fscy101.15\an8\pos(549.25,503.89)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1670,-1670,1560,2290)}Courthouse
+Dialogue: 0,0:22:29.28,0:22:29.32,Captions-207+,,0,0,0,,{\fscx101.15\fscy101.15\an8\pos(549.25,503.89)\fnRoboto\b1\bord3.03\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1670,-1670,1560,2290)\t(1560,1601,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.28,0:22:29.32,Captions-207+,,0,0,0,,{\fscx101.17\fscy101.17\pos(1327.07,842.71)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1670,-1670,1560,2290)}Island Gate
+Dialogue: 0,0:22:29.28,0:22:29.32,Captions-207+,,0,0,0,,{\fscx101.17\fscy101.17\pos(1327.07,842.71)\fnRoboto\b1\bord3.04\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1670,-1670,1560,2290)\t(1560,1601,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.32,0:22:29.36,Captions-207+,,0,0,0,,{\fscx101.39\fscy101.39\an8\pos(548.44,504.62)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1710,-1710,1520,2250)}Courthouse
+Dialogue: 0,0:22:29.32,0:22:29.36,Captions-207+,,0,0,0,,{\fscx101.39\fscy101.39\an8\pos(548.44,504.62)\fnRoboto\b1\bord3.04\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1710,-1710,1520,2250)\t(1520,1561,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.32,0:22:29.36,Captions-207+,,0,0,0,,{\fscx101.42\fscy101.42\pos(1328.07,844.28)\fnRoboto\b1\bord0\c&H000000&\blur0.8\fade(255,0,255,-1710,-1710,1520,2250)}Island Gate
+Dialogue: 0,0:22:29.32,0:22:29.36,Captions-207+,,0,0,0,,{\fscx101.42\fscy101.42\pos(1328.07,844.28)\fnRoboto\b1\bord3.04\c&HFFFFFF&\3c&HFFFFFF&\blur0.8\fade(255,0,255,-1710,-1710,1520,2250)\t(1520,1561,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.36,0:22:29.41,Captions-207+,,0,0,0,,{\fscx101.63\fscy101.63\an8\pos(547.57,505.45)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1750,-1750,1480,2210)}Courthouse
+Dialogue: 0,0:22:29.36,0:22:29.41,Captions-207+,,0,0,0,,{\fscx101.63\fscy101.63\an8\pos(547.57,505.45)\fnRoboto\b1\bord3.05\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1750,-1750,1480,2210)\t(1480,1521,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.36,0:22:29.41,Captions-207+,,0,0,0,,{\fscx101.67\fscy101.67\pos(1329.14,845.93)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1750,-1750,1480,2210)}Island Gate
+Dialogue: 0,0:22:29.36,0:22:29.41,Captions-207+,,0,0,0,,{\fscx101.67\fscy101.67\pos(1329.14,845.93)\fnRoboto\b1\bord3.05\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1750,-1750,1480,2210)\t(1480,1521,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.41,0:22:29.45,Captions-207+,,0,0,0,,{\fscx101.9\fscy101.9\an8\pos(546.66,506.33)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1800,-1800,1430,2160)}Courthouse
+Dialogue: 0,0:22:29.41,0:22:29.45,Captions-207+,,0,0,0,,{\fscx101.9\fscy101.9\an8\pos(546.66,506.33)\fnRoboto\b1\bord3.06\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1800,-1800,1430,2160)\t(1430,1471,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.41,0:22:29.45,Captions-207+,,0,0,0,,{\fscx101.95\fscy101.95\pos(1330.31,847.75)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1800,-1800,1430,2160)}Island Gate
+Dialogue: 0,0:22:29.41,0:22:29.45,Captions-207+,,0,0,0,,{\fscx101.95\fscy101.95\pos(1330.31,847.75)\fnRoboto\b1\bord3.06\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1800,-1800,1430,2160)\t(1430,1471,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.45,0:22:29.49,Captions-207+,,0,0,0,,{\fscx102.19\fscy102.19\an8\pos(545.65,507.29)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1840,-1840,1390,2120)}Courthouse
+Dialogue: 0,0:22:29.45,0:22:29.49,Captions-207+,,0,0,0,,{\fscx102.19\fscy102.19\an8\pos(545.65,507.29)\fnRoboto\b1\bord3.07\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1840,-1840,1390,2120)\t(1390,1431,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.45,0:22:29.49,Captions-207+,,0,0,0,,{\fscx102.22\fscy102.22\pos(1331.57,849.65)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1840,-1840,1390,2120)}Island Gate
+Dialogue: 0,0:22:29.45,0:22:29.49,Captions-207+,,0,0,0,,{\fscx102.22\fscy102.22\pos(1331.57,849.65)\fnRoboto\b1\bord3.07\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1840,-1840,1390,2120)\t(1390,1431,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.49,0:22:29.53,Captions-207+,,0,0,0,,{\fscx102.49\fscy102.49\an8\pos(544.57,508.32)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1880,-1880,1350,2080)}Courthouse
+Dialogue: 0,0:22:29.49,0:22:29.53,Captions-207+,,0,0,0,,{\fscx102.49\fscy102.49\an8\pos(544.57,508.32)\fnRoboto\b1\bord3.07\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1880,-1880,1350,2080)\t(1350,1391,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.49,0:22:29.53,Captions-207+,,0,0,0,,{\fscx102.53\fscy102.53\pos(1332.89,851.72)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1880,-1880,1350,2080)}Island Gate
+Dialogue: 0,0:22:29.49,0:22:29.53,Captions-207+,,0,0,0,,{\fscx102.53\fscy102.53\pos(1332.89,851.72)\fnRoboto\b1\bord3.08\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1880,-1880,1350,2080)\t(1350,1391,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.53,0:22:29.57,Captions-207+,,0,0,0,,{\fscx102.9\fscy102.9\an8\pos(543.31,509.55)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1920,-1920,1310,2040)}Courthouse
+Dialogue: 0,0:22:29.53,0:22:29.57,Captions-207+,,0,0,0,,{\fscx102.9\fscy102.9\an8\pos(543.31,509.55)\fnRoboto\b1\bord3.09\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1920,-1920,1310,2040)\t(1310,1351,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.53,0:22:29.57,Captions-207+,,0,0,0,,{\fscx102.91\fscy102.91\pos(1334.49,854.19)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1920,-1920,1310,2040)}Island Gate
+Dialogue: 0,0:22:29.53,0:22:29.57,Captions-207+,,0,0,0,,{\fscx102.91\fscy102.91\pos(1334.49,854.19)\fnRoboto\b1\bord3.09\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1920,-1920,1310,2040)\t(1310,1351,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.57,0:22:29.61,Captions-207+,,0,0,0,,{\fscx103.23\fscy103.23\an8\pos(542.07,510.71)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1960,-1960,1270,2000)}Courthouse
+Dialogue: 0,0:22:29.57,0:22:29.61,Captions-207+,,0,0,0,,{\fscx103.23\fscy103.23\an8\pos(542.07,510.71)\fnRoboto\b1\bord3.1\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1960,-1960,1270,2000)\t(1270,1311,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.57,0:22:29.61,Captions-207+,,0,0,0,,{\fscx103.24\fscy103.24\pos(1336.02,856.53)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-1960,-1960,1270,2000)}Island Gate
+Dialogue: 0,0:22:29.57,0:22:29.61,Captions-207+,,0,0,0,,{\fscx103.24\fscy103.24\pos(1336.02,856.53)\fnRoboto\b1\bord3.1\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-1960,-1960,1270,2000)\t(1270,1311,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.61,0:22:29.66,Captions-207+,,0,0,0,,{\fscx103.65\fscy103.65\an8\pos(540.79,511.97)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-2000,-2000,1230,1960)}Courthouse
+Dialogue: 0,0:22:29.61,0:22:29.66,Captions-207+,,0,0,0,,{\fscx103.65\fscy103.65\an8\pos(540.79,511.97)\fnRoboto\b1\bord3.11\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-2000,-2000,1230,1960)\t(1230,1271,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.61,0:22:29.66,Captions-207+,,0,0,0,,{\fscx103.64\fscy103.64\pos(1337.66,859.08)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-2000,-2000,1230,1960)}Island Gate
+Dialogue: 0,0:22:29.61,0:22:29.66,Captions-207+,,0,0,0,,{\fscx103.64\fscy103.64\pos(1337.66,859.08)\fnRoboto\b1\bord3.11\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-2000,-2000,1230,1960)\t(1230,1271,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.66,0:22:29.70,Captions-207+,,0,0,0,,{\fscx104.07\fscy104.07\an8\pos(539.28,513.41)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-2050,-2050,1180,1910)}Courthouse
+Dialogue: 0,0:22:29.66,0:22:29.70,Captions-207+,,0,0,0,,{\fscx104.07\fscy104.07\an8\pos(539.28,513.41)\fnRoboto\b1\bord3.12\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-2050,-2050,1180,1910)\t(1180,1221,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.66,0:22:29.70,Captions-207+,,0,0,0,,{\fscx104.08\fscy104.08\pos(1339.56,862.02)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-2050,-2050,1180,1910)}Island Gate
+Dialogue: 0,0:22:29.66,0:22:29.70,Captions-207+,,0,0,0,,{\fscx104.08\fscy104.08\pos(1339.56,862.02)\fnRoboto\b1\bord3.12\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-2050,-2050,1180,1910)\t(1180,1221,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.70,0:22:29.74,Captions-207+,,0,0,0,,{\fscx104.49\fscy104.49\an8\pos(537.81,514.82)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-2090,-2090,1140,1870)}Courthouse
+Dialogue: 0,0:22:29.70,0:22:29.74,Captions-207+,,0,0,0,,{\fscx104.49\fscy104.49\an8\pos(537.81,514.82)\fnRoboto\b1\bord3.13\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-2090,-2090,1140,1870)\t(1140,1181,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.70,0:22:29.74,Captions-207+,,0,0,0,,{\fscx104.5\fscy104.5\pos(1341.42,864.87)\fnRoboto\b1\bord0\c&H000000&\blur0.81\fade(255,0,255,-2090,-2090,1140,1870)}Island Gate
+Dialogue: 0,0:22:29.70,0:22:29.74,Captions-207+,,0,0,0,,{\fscx104.5\fscy104.5\pos(1341.42,864.87)\fnRoboto\b1\bord3.14\c&HFFFFFF&\3c&HFFFFFF&\blur0.81\fade(255,0,255,-2090,-2090,1140,1870)\t(1140,1181,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.74,0:22:29.78,Captions-207+,,0,0,0,,{\fscx104.96\fscy104.96\an8\pos(536.12,516.41)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2130,-2130,1100,1830)}Courthouse
+Dialogue: 0,0:22:29.74,0:22:29.78,Captions-207+,,0,0,0,,{\fscx104.96\fscy104.96\an8\pos(536.12,516.41)\fnRoboto\b1\bord3.15\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2130,-2130,1100,1830)\t(1100,1141,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.74,0:22:29.78,Captions-207+,,0,0,0,,{\fscx104.99\fscy104.99\pos(1343.52,868.11)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2130,-2130,1100,1830)}Island Gate
+Dialogue: 0,0:22:29.74,0:22:29.78,Captions-207+,,0,0,0,,{\fscx104.99\fscy104.99\pos(1343.52,868.11)\fnRoboto\b1\bord3.15\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2130,-2130,1100,1830)\t(1100,1141,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.78,0:22:29.82,Captions-207+,,0,0,0,,{\fscx105.46\fscy105.46\an8\pos(534.52,517.97)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2170,-2170,1060,1790)}Courthouse
+Dialogue: 0,0:22:29.78,0:22:29.82,Captions-207+,,0,0,0,,{\fscx105.46\fscy105.46\an8\pos(534.52,517.97)\fnRoboto\b1\bord3.16\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2170,-2170,1060,1790)\t(1060,1101,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.78,0:22:29.82,Captions-207+,,0,0,0,,{\fscx105.46\fscy105.46\pos(1345.56,871.24)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2170,-2170,1060,1790)}Island Gate
+Dialogue: 0,0:22:29.78,0:22:29.82,Captions-207+,,0,0,0,,{\fscx105.46\fscy105.46\pos(1345.56,871.24)\fnRoboto\b1\bord3.16\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2170,-2170,1060,1790)\t(1060,1101,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.82,0:22:29.87,Captions-207+,,0,0,0,,{\fscx106.03\fscy106.03\an8\pos(532.66,519.79)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2210,-2210,1020,1750)}Courthouse
+Dialogue: 0,0:22:29.82,0:22:29.87,Captions-207+,,0,0,0,,{\fscx106.03\fscy106.03\an8\pos(532.66,519.79)\fnRoboto\b1\bord3.18\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2210,-2210,1020,1750)\t(1020,1061,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.82,0:22:29.87,Captions-207+,,0,0,0,,{\fscx106.03\fscy106.03\pos(1347.91,874.93)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2210,-2210,1020,1750)}Island Gate
+Dialogue: 0,0:22:29.82,0:22:29.87,Captions-207+,,0,0,0,,{\fscx106.03\fscy106.03\pos(1347.91,874.93)\fnRoboto\b1\bord3.18\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2210,-2210,1020,1750)\t(1020,1061,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.87,0:22:29.91,Captions-207+,,0,0,0,,{\fscx106.58\fscy106.58\an8\pos(530.7,521.64)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2260,-2260,970,1700)}Courthouse
+Dialogue: 0,0:22:29.87,0:22:29.91,Captions-207+,,0,0,0,,{\fscx106.58\fscy106.58\an8\pos(530.7,521.64)\fnRoboto\b1\bord3.2\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2260,-2260,970,1700)\t(970,1011,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.87,0:22:29.91,Captions-207+,,0,0,0,,{\fscx106.61\fscy106.61\pos(1350.37,878.72)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2260,-2260,970,1700)}Island Gate
+Dialogue: 0,0:22:29.87,0:22:29.91,Captions-207+,,0,0,0,,{\fscx106.61\fscy106.61\pos(1350.37,878.72)\fnRoboto\b1\bord3.2\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2260,-2260,970,1700)\t(970,1011,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.91,0:22:29.95,Captions-207+,,0,0,0,,{\fscx107.13\fscy107.13\an8\pos(528.84,523.45)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2300,-2300,930,1660)}Courthouse
+Dialogue: 0,0:22:29.91,0:22:29.95,Captions-207+,,0,0,0,,{\fscx107.13\fscy107.13\an8\pos(528.84,523.45)\fnRoboto\b1\bord3.21\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2300,-2300,930,1660)\t(930,971,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.91,0:22:29.95,Captions-207+,,0,0,0,,{\fscx107.17\fscy107.17\pos(1352.72,882.34)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2300,-2300,930,1660)}Island Gate
+Dialogue: 0,0:22:29.91,0:22:29.95,Captions-207+,,0,0,0,,{\fscx107.17\fscy107.17\pos(1352.72,882.34)\fnRoboto\b1\bord3.22\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2300,-2300,930,1660)\t(930,971,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.95,0:22:29.99,Captions-207+,,0,0,0,,{\fscx107.77\fscy107.77\an8\pos(526.69,525.51)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2340,-2340,890,1620)}Courthouse
+Dialogue: 0,0:22:29.95,0:22:29.99,Captions-207+,,0,0,0,,{\fscx107.77\fscy107.77\an8\pos(526.69,525.51)\fnRoboto\b1\bord3.23\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2340,-2340,890,1620)\t(890,931,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.95,0:22:29.99,Captions-207+,,0,0,0,,{\fscx107.78\fscy107.78\pos(1355.43,886.51)\fnRoboto\b1\bord0\c&H000000&\blur0.82\fade(255,0,255,-2340,-2340,890,1620)}Island Gate
+Dialogue: 0,0:22:29.95,0:22:29.99,Captions-207+,,0,0,0,,{\fscx107.78\fscy107.78\pos(1355.43,886.51)\fnRoboto\b1\bord3.23\c&HFFFFFF&\3c&HFFFFFF&\blur0.82\fade(255,0,255,-2340,-2340,890,1620)\t(890,931,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:29.99,0:22:30.03,Captions-207+,,0,0,0,,{\fscx108.4\fscy108.4\an8\pos(524.44,527.62)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2380,-2380,850,1580)}Courthouse
+Dialogue: 0,0:22:29.99,0:22:30.03,Captions-207+,,0,0,0,,{\fscx108.4\fscy108.4\an8\pos(524.44,527.62)\fnRoboto\b1\bord3.25\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2380,-2380,850,1580)\t(850,891,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:29.99,0:22:30.03,Captions-207+,,0,0,0,,{\fscx108.45\fscy108.45\pos(1358.23,890.87)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2380,-2380,850,1580)}Island Gate
+Dialogue: 0,0:22:29.99,0:22:30.03,Captions-207+,,0,0,0,,{\fscx108.45\fscy108.45\pos(1358.23,890.87)\fnRoboto\b1\bord3.25\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2380,-2380,850,1580)\t(850,891,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.03,0:22:30.07,Captions-207+,,0,0,0,,{\fscx109.06\fscy109.06\an8\pos(522.33,529.68)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2420,-2420,810,1540)}Courthouse
+Dialogue: 0,0:22:30.03,0:22:30.07,Captions-207+,,0,0,0,,{\fscx109.06\fscy109.06\an8\pos(522.33,529.68)\fnRoboto\b1\bord3.27\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2420,-2420,810,1540)\t(810,851,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.03,0:22:30.07,Captions-207+,,0,0,0,,{\fscx109.06\fscy109.06\pos(1360.95,895.01)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2420,-2420,810,1540)}Island Gate
+Dialogue: 0,0:22:30.03,0:22:30.07,Captions-207+,,0,0,0,,{\fscx109.06\fscy109.06\pos(1360.95,895.01)\fnRoboto\b1\bord3.27\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2420,-2420,810,1540)\t(810,851,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.07,0:22:30.12,Captions-207+,,0,0,0,,{\fscx109.77\fscy109.77\an8\pos(519.87,532.03)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2460,-2460,770,1500)}Courthouse
+Dialogue: 0,0:22:30.07,0:22:30.12,Captions-207+,,0,0,0,,{\fscx109.77\fscy109.77\an8\pos(519.87,532.03)\fnRoboto\b1\bord3.29\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2460,-2460,770,1500)\t(770,811,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.07,0:22:30.12,Captions-207+,,0,0,0,,{\fscx109.8\fscy109.8\pos(1364.01,899.78)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2460,-2460,770,1500)}Island Gate
+Dialogue: 0,0:22:30.07,0:22:30.12,Captions-207+,,0,0,0,,{\fscx109.8\fscy109.8\pos(1364.01,899.78)\fnRoboto\b1\bord3.29\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2460,-2460,770,1500)\t(770,811,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.12,0:22:30.16,Captions-207+,,0,0,0,,{\fscx110.53\fscy110.53\an8\pos(517.34,534.47)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2510,-2510,720,1450)}Courthouse
+Dialogue: 0,0:22:30.12,0:22:30.16,Captions-207+,,0,0,0,,{\fscx110.53\fscy110.53\an8\pos(517.34,534.47)\fnRoboto\b1\bord3.32\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2510,-2510,720,1450)\t(720,761,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.12,0:22:30.16,Captions-207+,,0,0,0,,{\fscx110.52\fscy110.52\pos(1367.2,904.68)\fnRoboto\b1\bord0\c&H000000&\blur0.83\fade(255,0,255,-2510,-2510,720,1450)}Island Gate
+Dialogue: 0,0:22:30.12,0:22:30.16,Captions-207+,,0,0,0,,{\fscx110.52\fscy110.52\pos(1367.2,904.68)\fnRoboto\b1\bord3.32\c&HFFFFFF&\3c&HFFFFFF&\blur0.83\fade(255,0,255,-2510,-2510,720,1450)\t(720,761,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.16,0:22:30.20,Captions-207+,,0,0,0,,{\fscx111.3\fscy111.3\an8\pos(514.68,537.01)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2550,-2550,680,1410)}Courthouse
+Dialogue: 0,0:22:30.16,0:22:30.20,Captions-207+,,0,0,0,,{\fscx111.3\fscy111.3\an8\pos(514.68,537.01)\fnRoboto\b1\bord3.34\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2550,-2550,680,1410)\t(680,721,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.16,0:22:30.20,Captions-207+,,0,0,0,,{\fscx111.29\fscy111.29\pos(1370.55,909.79)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2550,-2550,680,1410)}Island Gate
+Dialogue: 0,0:22:30.16,0:22:30.20,Captions-207+,,0,0,0,,{\fscx111.29\fscy111.29\pos(1370.55,909.79)\fnRoboto\b1\bord3.34\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2550,-2550,680,1410)\t(680,721,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.20,0:22:30.24,Captions-207+,,0,0,0,,{\fscx112.11\fscy112.11\an8\pos(511.95,539.67)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2590,-2590,640,1370)}Courthouse
+Dialogue: 0,0:22:30.20,0:22:30.24,Captions-207+,,0,0,0,,{\fscx112.11\fscy112.11\an8\pos(511.95,539.67)\fnRoboto\b1\bord3.36\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2590,-2590,640,1370)\t(640,681,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.20,0:22:30.24,Captions-207+,,0,0,0,,{\fscx112.1\fscy112.1\pos(1374.02,915.17)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2590,-2590,640,1370)}Island Gate
+Dialogue: 0,0:22:30.20,0:22:30.24,Captions-207+,,0,0,0,,{\fscx112.1\fscy112.1\pos(1374.02,915.17)\fnRoboto\b1\bord3.36\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2590,-2590,640,1370)\t(640,681,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.24,0:22:30.28,Captions-207+,,0,0,0,,{\fscx112.87\fscy112.87\an8\pos(509.32,542.16)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2630,-2630,600,1330)}Courthouse
+Dialogue: 0,0:22:30.24,0:22:30.28,Captions-207+,,0,0,0,,{\fscx112.87\fscy112.87\an8\pos(509.32,542.16)\fnRoboto\b1\bord3.39\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2630,-2630,600,1330)\t(600,641,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.24,0:22:30.28,Captions-207+,,0,0,0,,{\fscx112.87\fscy112.87\pos(1377.29,920.23)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2630,-2630,600,1330)}Island Gate
+Dialogue: 0,0:22:30.24,0:22:30.28,Captions-207+,,0,0,0,,{\fscx112.87\fscy112.87\pos(1377.29,920.23)\fnRoboto\b1\bord3.39\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2630,-2630,600,1330)\t(600,641,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.28,0:22:30.32,Captions-207+,,0,0,0,,{\fscx113.74\fscy113.74\an8\pos(506.36,545.01)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2670,-2670,560,1290)}Courthouse
+Dialogue: 0,0:22:30.28,0:22:30.32,Captions-207+,,0,0,0,,{\fscx113.74\fscy113.74\an8\pos(506.36,545.01)\fnRoboto\b1\bord3.41\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2670,-2670,560,1290)\t(560,601,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.28,0:22:30.32,Captions-207+,,0,0,0,,{\fscx113.77\fscy113.77\pos(1381.04,926.07)\fnRoboto\b1\bord0\c&H000000&\blur0.84\fade(255,0,255,-2670,-2670,560,1290)}Island Gate
+Dialogue: 0,0:22:30.28,0:22:30.32,Captions-207+,,0,0,0,,{\fscx113.77\fscy113.77\pos(1381.04,926.07)\fnRoboto\b1\bord3.41\c&HFFFFFF&\3c&HFFFFFF&\blur0.84\fade(255,0,255,-2670,-2670,560,1290)\t(560,601,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.32,0:22:30.37,Captions-207+,,0,0,0,,{\fscx114.67\fscy114.67\an8\pos(503.28,548)\fnRoboto\b1\bord0\c&H000000&\blur0.85\fade(255,0,255,-2710,-2710,520,1250)}Courthouse
+Dialogue: 0,0:22:30.32,0:22:30.37,Captions-207+,,0,0,0,,{\fscx114.67\fscy114.67\an8\pos(503.28,548)\fnRoboto\b1\bord3.44\c&HFFFFFF&\3c&HFFFFFF&\blur0.85\fade(255,0,255,-2710,-2710,520,1250)\t(520,561,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.32,0:22:30.37,Captions-207+,,0,0,0,,{\fscx114.68\fscy114.68\pos(1384.95,932.07)\fnRoboto\b1\bord0\c&H000000&\blur0.85\fade(255,0,255,-2710,-2710,520,1250)}Island Gate
+Dialogue: 0,0:22:30.32,0:22:30.37,Captions-207+,,0,0,0,,{\fscx114.68\fscy114.68\pos(1384.95,932.07)\fnRoboto\b1\bord3.44\c&HFFFFFF&\3c&HFFFFFF&\blur0.85\fade(255,0,255,-2710,-2710,520,1250)\t(520,561,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.37,0:22:30.41,Captions-207+,,0,0,0,,{\fscx115.58\fscy115.58\an8\pos(500.05,551.05)\fnRoboto\b1\bord0\c&H000000&\blur0.85\fade(255,0,255,-2760,-2760,470,1200)}Courthouse
+Dialogue: 0,0:22:30.37,0:22:30.41,Captions-207+,,0,0,0,,{\fscx115.58\fscy115.58\an8\pos(500.05,551.05)\fnRoboto\b1\bord3.47\c&HFFFFFF&\3c&HFFFFFF&\blur0.85\fade(255,0,255,-2760,-2760,470,1200)\t(470,511,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.37,0:22:30.41,Captions-207+,,0,0,0,,{\fscx115.62\fscy115.62\pos(1388.99,938.31)\fnRoboto\b1\bord0\c&H000000&\blur0.85\fade(255,0,255,-2760,-2760,470,1200)}Island Gate
+Dialogue: 0,0:22:30.37,0:22:30.41,Captions-207+,,0,0,0,,{\fscx115.62\fscy115.62\pos(1388.99,938.31)\fnRoboto\b1\bord3.47\c&HFFFFFF&\3c&HFFFFFF&\blur0.85\fade(255,0,255,-2760,-2760,470,1200)\t(470,511,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.41,0:22:30.45,Captions-207+,,0,0,0,,{\fscx116.48\fscy116.48\an8\pos(497.01,553.96)\fnRoboto\b1\bord0\c&H000000&\blur0.85\fade(255,0,255,-2800,-2800,430,1160)}Courthouse
+Dialogue: 0,0:22:30.41,0:22:30.45,Captions-207+,,0,0,0,,{\fscx116.48\fscy116.48\an8\pos(497.01,553.96)\fnRoboto\b1\bord3.49\c&HFFFFFF&\3c&HFFFFFF&\blur0.85\fade(255,0,255,-2800,-2800,430,1160)\t(430,471,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.41,0:22:30.45,Captions-207+,,0,0,0,,{\fscx116.47\fscy116.47\pos(1392.78,944.15)\fnRoboto\b1\bord0\c&H000000&\blur0.85\fade(255,0,255,-2800,-2800,430,1160)}Island Gate
+Dialogue: 0,0:22:30.41,0:22:30.45,Captions-207+,,0,0,0,,{\fscx116.47\fscy116.47\pos(1392.78,944.15)\fnRoboto\b1\bord3.49\c&HFFFFFF&\3c&HFFFFFF&\blur0.85\fade(255,0,255,-2800,-2800,430,1160)\t(430,471,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.45,0:22:30.49,Captions-207+,,0,0,0,,{\fscx117.49\fscy117.49\an8\pos(493.6,557.28)\fnRoboto\b1\bord0\c&H000000&\blur0.86\fade(255,0,255,-2840,-2840,390,1120)}Courthouse
+Dialogue: 0,0:22:30.45,0:22:30.49,Captions-207+,,0,0,0,,{\fscx117.49\fscy117.49\an8\pos(493.6,557.28)\fnRoboto\b1\bord3.52\c&HFFFFFF&\3c&HFFFFFF&\blur0.86\fade(255,0,255,-2840,-2840,390,1120)\t(390,431,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.45,0:22:30.49,Captions-207+,,0,0,0,,{\fscx117.51\fscy117.51\pos(1397.12,950.87)\fnRoboto\b1\bord0\c&H000000&\blur0.86\fade(255,0,255,-2840,-2840,390,1120)}Island Gate
+Dialogue: 0,0:22:30.45,0:22:30.49,Captions-207+,,0,0,0,,{\fscx117.51\fscy117.51\pos(1397.12,950.87)\fnRoboto\b1\bord3.53\c&HFFFFFF&\3c&HFFFFFF&\blur0.86\fade(255,0,255,-2840,-2840,390,1120)\t(390,431,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.49,0:22:30.53,Captions-207+,,0,0,0,,{\fscx118.55\fscy118.55\an8\pos(490.02,560.71)\fnRoboto\b1\bord0\c&H000000&\blur0.86\fade(255,0,255,-2880,-2880,350,1080)}Courthouse
+Dialogue: 0,0:22:30.49,0:22:30.53,Captions-207+,,0,0,0,,{\fscx118.55\fscy118.55\an8\pos(490.02,560.71)\fnRoboto\b1\bord3.56\c&HFFFFFF&\3c&HFFFFFF&\blur0.86\fade(255,0,255,-2880,-2880,350,1080)\t(350,391,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.49,0:22:30.53,Captions-207+,,0,0,0,,{\fscx118.57\fscy118.57\pos(1401.64,957.83)\fnRoboto\b1\bord0\c&H000000&\blur0.86\fade(255,0,255,-2880,-2880,350,1080)}Island Gate
+Dialogue: 0,0:22:30.49,0:22:30.53,Captions-207+,,0,0,0,,{\fscx118.57\fscy118.57\pos(1401.64,957.83)\fnRoboto\b1\bord3.56\c&HFFFFFF&\3c&HFFFFFF&\blur0.86\fade(255,0,255,-2880,-2880,350,1080)\t(350,391,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.53,0:22:30.57,Captions-207+,,0,0,0,,{\fscx119.52\fscy119.52\an8\pos(486.62,563.94)\fnRoboto\b1\bord0\c&H000000&\blur0.86\fade(255,0,255,-2920,-2920,310,1040)}Courthouse
+Dialogue: 0,0:22:30.53,0:22:30.57,Captions-207+,,0,0,0,,{\fscx119.52\fscy119.52\an8\pos(486.62,563.94)\fnRoboto\b1\bord3.59\c&HFFFFFF&\3c&HFFFFFF&\blur0.86\fade(255,0,255,-2920,-2920,310,1040)\t(310,351,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.53,0:22:30.57,Captions-207+,,0,0,0,,{\fscx119.56\fscy119.56\pos(1405.89,964.45)\fnRoboto\b1\bord0\c&H000000&\blur0.86\fade(255,0,255,-2920,-2920,310,1040)}Island Gate
+Dialogue: 0,0:22:30.53,0:22:30.57,Captions-207+,,0,0,0,,{\fscx119.56\fscy119.56\pos(1405.89,964.45)\fnRoboto\b1\bord3.59\c&HFFFFFF&\3c&HFFFFFF&\blur0.86\fade(255,0,255,-2920,-2920,310,1040)\t(310,351,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.57,0:22:30.62,Captions-207+,,0,0,0,,{\fscx120.66\fscy120.66\an8\pos(482.79,567.62)\fnRoboto\b1\bord0\c&H000000&\blur0.87\fade(255,0,255,-2960,-2960,270,1000)}Courthouse
+Dialogue: 0,0:22:30.57,0:22:30.62,Captions-207+,,0,0,0,,{\fscx120.66\fscy120.66\an8\pos(482.79,567.62)\fnRoboto\b1\bord3.62\c&HFFFFFF&\3c&HFFFFFF&\blur0.87\fade(255,0,255,-2960,-2960,270,1000)\t(270,311,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.57,0:22:30.62,Captions-207+,,0,0,0,,{\fscx120.69\fscy120.69\pos(1410.75,971.88)\fnRoboto\b1\bord0\c&H000000&\blur0.87\fade(255,0,255,-2960,-2960,270,1000)}Island Gate
+Dialogue: 0,0:22:30.57,0:22:30.62,Captions-207+,,0,0,0,,{\fscx120.69\fscy120.69\pos(1410.75,971.88)\fnRoboto\b1\bord3.62\c&HFFFFFF&\3c&HFFFFFF&\blur0.87\fade(255,0,255,-2960,-2960,270,1000)\t(270,311,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.62,0:22:30.66,Captions-207+,,0,0,0,,{\fscx121.74\fscy121.74\an8\pos(479.21,571.1)\fnRoboto\b1\bord0\c&H000000&\blur0.87\fade(255,0,255,-3010,-3010,220,950)}Courthouse
+Dialogue: 0,0:22:30.62,0:22:30.66,Captions-207+,,0,0,0,,{\fscx121.74\fscy121.74\an8\pos(479.21,571.1)\fnRoboto\b1\bord3.65\c&HFFFFFF&\3c&HFFFFFF&\blur0.87\fade(255,0,255,-3010,-3010,220,950)\t(220,261,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.62,0:22:30.66,Captions-207+,,0,0,0,,{\fscx121.72\fscy121.72\pos(1415.25,978.82)\fnRoboto\b1\bord0\c&H000000&\blur0.87\fade(255,0,255,-3010,-3010,220,950)}Island Gate
+Dialogue: 0,0:22:30.62,0:22:30.66,Captions-207+,,0,0,0,,{\fscx121.72\fscy121.72\pos(1415.25,978.82)\fnRoboto\b1\bord3.65\c&HFFFFFF&\3c&HFFFFFF&\blur0.87\fade(255,0,255,-3010,-3010,220,950)\t(220,261,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.66,0:22:30.70,Captions-207+,,0,0,0,,{\fscx122.95\fscy122.95\an8\pos(475.08,575.05)\fnRoboto\b1\bord0\c&H000000&\blur0.87\fade(255,0,255,-3050,-3050,180,910)}Courthouse
+Dialogue: 0,0:22:30.66,0:22:30.70,Captions-207+,,0,0,0,,{\fscx122.95\fscy122.95\an8\pos(475.08,575.05)\fnRoboto\b1\bord3.69\c&HFFFFFF&\3c&HFFFFFF&\blur0.87\fade(255,0,255,-3050,-3050,180,910)\t(180,221,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.66,0:22:30.70,Captions-207+,,0,0,0,,{\fscx122.95\fscy122.95\pos(1420.41,986.83)\fnRoboto\b1\bord0\c&H000000&\blur0.87\fade(255,0,255,-3050,-3050,180,910)}Island Gate
+Dialogue: 0,0:22:30.66,0:22:30.70,Captions-207+,,0,0,0,,{\fscx122.95\fscy122.95\pos(1420.41,986.83)\fnRoboto\b1\bord3.69\c&HFFFFFF&\3c&HFFFFFF&\blur0.87\fade(255,0,255,-3050,-3050,180,910)\t(180,221,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.70,0:22:30.74,Captions-207+,,0,0,0,,{\fscx124.08\fscy124.08\an8\pos(471.21,578.75)\fnRoboto\b1\bord0\c&H000000&\blur0.88\fade(255,0,255,-3090,-3090,140,870)}Courthouse
+Dialogue: 0,0:22:30.70,0:22:30.74,Captions-207+,,0,0,0,,{\fscx124.08\fscy124.08\an8\pos(471.21,578.75)\fnRoboto\b1\bord3.72\c&HFFFFFF&\3c&HFFFFFF&\blur0.88\fade(255,0,255,-3090,-3090,140,870)\t(140,181,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.70,0:22:30.74,Captions-207+,,0,0,0,,{\fscx124.1\fscy124.1\pos(1425.3,994.37)\fnRoboto\b1\bord0\c&H000000&\blur0.88\fade(255,0,255,-3090,-3090,140,870)}Island Gate
+Dialogue: 0,0:22:30.70,0:22:30.74,Captions-207+,,0,0,0,,{\fscx124.1\fscy124.1\pos(1425.3,994.37)\fnRoboto\b1\bord3.72\c&HFFFFFF&\3c&HFFFFFF&\blur0.88\fade(255,0,255,-3090,-3090,140,870)\t(140,181,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.74,0:22:30.78,Captions-207+,,0,0,0,,{\fscx125.24\fscy125.24\an8\pos(467.25,582.57)\fnRoboto\b1\bord0\c&H000000&\blur0.88\fade(255,0,255,-3130,-3130,100,830)}Courthouse
+Dialogue: 0,0:22:30.74,0:22:30.78,Captions-207+,,0,0,0,,{\fscx125.24\fscy125.24\an8\pos(467.25,582.57)\fnRoboto\b1\bord3.76\c&HFFFFFF&\3c&HFFFFFF&\blur0.88\fade(255,0,255,-3130,-3130,100,830)\t(100,141,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.74,0:22:30.78,Captions-207+,,0,0,0,,{\fscx125.23\fscy125.23\pos(1430.31,1002.09)\fnRoboto\b1\bord0\c&H000000&\blur0.88\fade(255,0,255,-3130,-3130,100,830)}Island Gate
+Dialogue: 0,0:22:30.74,0:22:30.78,Captions-207+,,0,0,0,,{\fscx125.23\fscy125.23\pos(1430.31,1002.09)\fnRoboto\b1\bord3.76\c&HFFFFFF&\3c&HFFFFFF&\blur0.88\fade(255,0,255,-3130,-3130,100,830)\t(100,141,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.78,0:22:30.82,Captions-207+,,0,0,0,,{\fscx126.57\fscy126.57\an8\pos(462.71,586.94)\fnRoboto\b1\bord0\c&H000000&\blur0.89\fade(255,0,255,-3170,-3170,60,790)}Courthouse
+Dialogue: 0,0:22:30.78,0:22:30.82,Captions-207+,,0,0,0,,{\fscx126.57\fscy126.57\an8\pos(462.71,586.94)\fnRoboto\b1\bord3.8\c&HFFFFFF&\3c&HFFFFFF&\blur0.89\fade(255,0,255,-3170,-3170,60,790)\t(60,101,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.78,0:22:30.82,Captions-207+,,0,0,0,,{\fscx126.56\fscy126.56\pos(1436.02,1010.87)\fnRoboto\b1\bord0\c&H000000&\blur0.88\fade(255,0,255,-3170,-3170,60,790)}Island Gate
+Dialogue: 0,0:22:30.78,0:22:30.82,Captions-207+,,0,0,0,,{\fscx126.56\fscy126.56\pos(1436.02,1010.87)\fnRoboto\b1\bord3.8\c&HFFFFFF&\3c&HFFFFFF&\blur0.88\fade(255,0,255,-3170,-3170,60,790)\t(60,101,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.82,0:22:30.87,Captions-207+,,0,0,0,,{\fscx127.82\fscy127.82\an8\pos(458.42,591.02)\fnRoboto\b1\bord0\c&H000000&\blur0.89\fade(255,0,255,-3210,-3210,20,750)}Courthouse
+Dialogue: 0,0:22:30.82,0:22:30.87,Captions-207+,,0,0,0,,{\fscx127.82\fscy127.82\an8\pos(458.42,591.02)\fnRoboto\b1\bord3.83\c&HFFFFFF&\3c&HFFFFFF&\blur0.89\fade(255,0,255,-3210,-3210,20,750)\t(20,61,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.82,0:22:30.87,Captions-207+,,0,0,0,,{\fscx127.82\fscy127.82\pos(1441.4,1019.21)\fnRoboto\b1\bord0\c&H000000&\blur0.89\fade(255,0,255,-3210,-3210,20,750)}Island Gate
+Dialogue: 0,0:22:30.82,0:22:30.87,Captions-207+,,0,0,0,,{\fscx127.82\fscy127.82\pos(1441.4,1019.21)\fnRoboto\b1\bord3.83\c&HFFFFFF&\3c&HFFFFFF&\blur0.89\fade(255,0,255,-3210,-3210,20,750)\t(20,61,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.87,0:22:30.91,Captions-207+,,0,0,0,,{\fscx129.12\fscy129.12\an8\pos(454.02,595.26)\fnRoboto\b1\bord0\c&H000000&\blur0.89\fade(255,0,255,-3260,-3260,-30,700)}Courthouse
+Dialogue: 0,0:22:30.87,0:22:30.91,Captions-207+,,0,0,0,,{\fscx129.12\fscy129.12\an8\pos(454.02,595.26)\fnRoboto\b1\bord3.87\c&HFFFFFF&\3c&HFFFFFF&\blur0.89\fade(255,0,255,-3260,-3260,-30,700)\t(-30,11,\1a&HFF&)}Courthouse
+Dialogue: 1,0:22:30.87,0:22:30.91,Captions-207+,,0,0,0,,{\fscx129.09\fscy129.09\pos(1446.95,1027.81)\fnRoboto\b1\bord0\c&H000000&\blur0.89\fade(255,0,255,-3260,-3260,-30,700)}Island Gate
+Dialogue: 0,0:22:30.87,0:22:30.91,Captions-207+,,0,0,0,,{\fscx129.09\fscy129.09\pos(1446.95,1027.81)\fnRoboto\b1\bord3.87\c&HFFFFFF&\3c&HFFFFFF&\blur0.89\fade(255,0,255,-3260,-3260,-30,700)\t(-30,11,\1a&HFF&)}Island Gate
+Dialogue: 1,0:22:30.91,0:22:30.95,Captions-207+,,0,0,0,,{\fscx130.46\fscy130.46\an8\pos(449.46,599.62)\fnRoboto\b1\bord0\c&H000000&\blur0.9\fade(255,0,255,-3300,-3300,-70,660)}Courthouse
+Dialogue: 0,0:22:30.91,0:22:30.95,Captions-207+,,0,0,0,,{\fscx130.46\fscy130.46\an8\pos(449.46,599.62)\fnRoboto\b1\bord3.91\c&HFFFFFF&\3c&HFFFFFF&\blur0.9\fade(255,0,255,-3300,-3300,-70,660)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:30.91,0:22:30.95,Captions-207+,,0,0,0,,{\fscx130.4\fscy130.4\pos(1452.68,1036.65)\fnRoboto\b1\bord0\c&H000000&\blur0.9\fade(255,0,255,-3300,-3300,-70,660)}Island Gate
+Dialogue: 0,0:22:30.91,0:22:30.95,Captions-207+,,0,0,0,,{\fscx130.4\fscy130.4\pos(1452.68,1036.65)\fnRoboto\b1\bord3.91\c&HFFFFFF&\3c&HFFFFFF&\blur0.9\fade(255,0,255,-3300,-3300,-70,660)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:30.95,0:22:30.99,Captions-207+,,0,0,0,,{\fscx131.82\fscy131.82\an8\pos(444.75,604.14)\fnRoboto\b1\bord0\c&H000000&\blur0.9\fade(255,0,255,-3340,-3340,-110,620)}Courthouse
+Dialogue: 0,0:22:30.95,0:22:30.99,Captions-207+,,0,0,0,,{\fscx131.82\fscy131.82\an8\pos(444.75,604.14)\fnRoboto\b1\bord3.95\c&HFFFFFF&\3c&HFFFFFF&\blur0.9\fade(255,0,255,-3340,-3340,-110,620)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:30.95,0:22:30.99,Captions-207+,,0,0,0,,{\fscx131.73\fscy131.73\pos(1458.55,1045.68)\fnRoboto\b1\bord0\c&H000000&\blur0.9\fade(255,0,255,-3340,-3340,-110,620)}Island Gate
+Dialogue: 0,0:22:30.95,0:22:30.99,Captions-207+,,0,0,0,,{\fscx131.73\fscy131.73\pos(1458.55,1045.68)\fnRoboto\b1\bord3.95\c&HFFFFFF&\3c&HFFFFFF&\blur0.9\fade(255,0,255,-3340,-3340,-110,620)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:30.99,0:22:31.03,Captions-207+,,0,0,0,,{\fscx133.26\fscy133.26\an8\pos(439.91,608.79)\fnRoboto\b1\bord0\c&H000000&\blur0.91\fade(255,0,255,-3380,-3380,-150,580)}Courthouse
+Dialogue: 0,0:22:30.99,0:22:31.03,Captions-207+,,0,0,0,,{\fscx133.26\fscy133.26\an8\pos(439.91,608.79)\fnRoboto\b1\bord4\c&HFFFFFF&\3c&HFFFFFF&\blur0.91\fade(255,0,255,-3380,-3380,-150,580)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:30.99,0:22:31.03,Captions-207+,,0,0,0,,{\fscx133.19\fscy133.19\pos(1464.71,1055.24)\fnRoboto\b1\bord0\c&H000000&\blur0.91\fade(255,0,255,-3380,-3380,-150,580)}Island Gate
+Dialogue: 0,0:22:30.99,0:22:31.03,Captions-207+,,0,0,0,,{\fscx133.19\fscy133.19\pos(1464.71,1055.24)\fnRoboto\b1\bord4\c&HFFFFFF&\3c&HFFFFFF&\blur0.91\fade(255,0,255,-3380,-3380,-150,580)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.03,0:22:31.07,Captions-207+,,0,0,0,,{\fscx134.59\fscy134.59\an8\pos(435.44,613.09)\fnRoboto\b1\bord0\c&H000000&\blur0.91\fade(255,0,255,-3420,-3420,-190,540)}Courthouse
+Dialogue: 0,0:22:31.03,0:22:31.07,Captions-207+,,0,0,0,,{\fscx134.59\fscy134.59\an8\pos(435.44,613.09)\fnRoboto\b1\bord4.04\c&HFFFFFF&\3c&HFFFFFF&\blur0.91\fade(255,0,255,-3420,-3420,-190,540)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.03,0:22:31.07,Captions-207+,,0,0,0,,{\fscx134.53\fscy134.53\pos(1470.27,1063.98)\fnRoboto\b1\bord0\c&H000000&\blur0.91\fade(255,0,255,-3420,-3420,-190,540)}Island Gate
+Dialogue: 0,0:22:31.03,0:22:31.07,Captions-207+,,0,0,0,,{\fscx134.53\fscy134.53\pos(1470.27,1063.98)\fnRoboto\b1\bord4.04\c&HFFFFFF&\3c&HFFFFFF&\blur0.91\fade(255,0,255,-3420,-3420,-190,540)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.07,0:22:31.12,Captions-207+,,0,0,0,,{\fscx136.14\fscy136.14\an8\pos(430.28,618.07)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3460,-3460,-230,500)}Courthouse
+Dialogue: 0,0:22:31.07,0:22:31.12,Captions-207+,,0,0,0,,{\fscx136.14\fscy136.14\an8\pos(430.28,618.07)\fnRoboto\b1\bord4.08\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3460,-3460,-230,500)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.07,0:22:31.12,Captions-207+,,0,0,0,,{\fscx136.08\fscy136.08\pos(1476.64,1074.25)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3460,-3460,-230,500)}Island Gate
+Dialogue: 0,0:22:31.07,0:22:31.12,Captions-207+,,0,0,0,,{\fscx136.08\fscy136.08\pos(1476.64,1074.25)\fnRoboto\b1\bord4.08\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3460,-3460,-230,500)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.12,0:22:31.16,Captions-207+,,0,0,0,,{\fscx137.7\fscy137.7\an8\pos(424.99,623.2)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3510,-3510,-280,450)}Courthouse
+Dialogue: 0,0:22:31.12,0:22:31.16,Captions-207+,,0,0,0,,{\fscx137.7\fscy137.7\an8\pos(424.99,623.2)\fnRoboto\b1\bord4.13\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3510,-3510,-280,450)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.12,0:22:31.16,Captions-207+,,0,0,0,,{\fscx137.42\fscy137.42\pos(1482.77,1083.9)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3510,-3510,-280,450)}Island Gate
+Dialogue: 0,0:22:31.12,0:22:31.16,Captions-207+,,0,0,0,,{\fscx137.42\fscy137.42\pos(1482.77,1083.9)\fnRoboto\b1\bord4.12\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3510,-3510,-280,450)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.16,0:22:31.20,Captions-207+,,0,0,0,,{\fscx139.16\fscy139.16\an8\pos(420.11,627.74)\fnRoboto\b1\bord0\c&H000000&\blur0.93\fade(255,0,255,-3550,-3550,-320,410)}Courthouse
+Dialogue: 0,0:22:31.16,0:22:31.20,Captions-207+,,0,0,0,,{\fscx139.16\fscy139.16\an8\pos(420.11,627.74)\fnRoboto\b1\bord4.17\c&HFFFFFF&\3c&HFFFFFF&\blur0.93\fade(255,0,255,-3550,-3550,-320,410)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.16,0:22:31.20,Captions-207+,,0,0,0,,{\fscx137.8\fscy137.8\pos(1488.53,1092.47)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3550,-3550,-320,410)}Island Gate
+Dialogue: 0,0:22:31.16,0:22:31.20,Captions-207+,,0,0,0,,{\fscx137.8\fscy137.8\pos(1488.53,1092.47)\fnRoboto\b1\bord4.13\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3550,-3550,-320,410)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.20,0:22:31.24,Captions-207+,,0,0,0,,{\fscx140.92\fscy140.92\an8\pos(414.59,633.08)\fnRoboto\b1\bord0\c&H000000&\blur0.93\fade(255,0,255,-3590,-3590,-360,370)}Courthouse
+Dialogue: 0,0:22:31.20,0:22:31.24,Captions-207+,,0,0,0,,{\fscx140.92\fscy140.92\an8\pos(414.59,633.08)\fnRoboto\b1\bord4.23\c&HFFFFFF&\3c&HFFFFFF&\blur0.93\fade(255,0,255,-3590,-3590,-360,370)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.20,0:22:31.24,Captions-207+,,0,0,0,,{\fscx138.73\fscy138.73\pos(1494.87,1102.39)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3590,-3590,-360,370)}Island Gate
+Dialogue: 0,0:22:31.20,0:22:31.24,Captions-207+,,0,0,0,,{\fscx138.73\fscy138.73\pos(1494.87,1102.39)\fnRoboto\b1\bord4.16\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3590,-3590,-360,370)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.24,0:22:31.28,Captions-207+,,0,0,0,,{\fscx142.53\fscy142.53\an8\pos(409.53,637.88)\fnRoboto\b1\bord0\c&H000000&\blur0.94\fade(255,0,255,-3630,-3630,-400,330)}Courthouse
+Dialogue: 0,0:22:31.24,0:22:31.28,Captions-207+,,0,0,0,,{\fscx142.53\fscy142.53\an8\pos(409.53,637.88)\fnRoboto\b1\bord4.28\c&HFFFFFF&\3c&HFFFFFF&\blur0.94\fade(255,0,255,-3630,-3630,-400,330)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.24,0:22:31.28,Captions-207+,,0,0,0,,{\fscx138.73\fscy138.73\pos(1502.67,1112.99)\fnRoboto\b1\bord0\c&H000000&\blur0.92\fade(255,0,255,-3630,-3630,-400,330)}Island Gate
+Dialogue: 0,0:22:31.24,0:22:31.28,Captions-207+,,0,0,0,,{\fscx138.73\fscy138.73\pos(1502.67,1112.99)\fnRoboto\b1\bord4.16\c&HFFFFFF&\3c&HFFFFFF&\blur0.92\fade(255,0,255,-3630,-3630,-400,330)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.28,0:22:31.32,Captions-207+,,0,0,0,,{\fscx144.15\fscy144.15\an8\pos(403.84,643.22)\fnRoboto\b1\bord0\c&H000000&\blur0.94\fade(255,0,255,-3670,-3670,-440,290)}Courthouse
+Dialogue: 0,0:22:31.28,0:22:31.32,Captions-207+,,0,0,0,,{\fscx144.15\fscy144.15\an8\pos(403.84,643.22)\fnRoboto\b1\bord4.32\c&HFFFFFF&\3c&HFFFFFF&\blur0.94\fade(255,0,255,-3670,-3670,-440,290)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.28,0:22:31.32,Captions-207+,,0,0,0,,{\fscx139.93\fscy139.93\pos(1511.22,1124.05)\fnRoboto\b1\bord0\c&H000000&\blur0.93\fade(255,0,255,-3670,-3670,-440,290)}Island Gate
+Dialogue: 0,0:22:31.28,0:22:31.32,Captions-207+,,0,0,0,,{\fscx139.93\fscy139.93\pos(1511.22,1124.05)\fnRoboto\b1\bord4.2\c&HFFFFFF&\3c&HFFFFFF&\blur0.93\fade(255,0,255,-3670,-3670,-440,290)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.32,0:22:31.37,Captions-207+,,0,0,0,,{\fscx145.86\fscy145.86\an8\pos(397.81,648.77)\fnRoboto\b1\bord0\c&H000000&\blur0.95\fade(255,0,255,-3710,-3710,-480,250)}Courthouse
+Dialogue: 0,0:22:31.32,0:22:31.37,Captions-207+,,0,0,0,,{\fscx145.86\fscy145.86\an8\pos(397.81,648.77)\fnRoboto\b1\bord4.38\c&HFFFFFF&\3c&HFFFFFF&\blur0.95\fade(255,0,255,-3710,-3710,-480,250)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.32,0:22:31.37,Captions-207+,,0,0,0,,{\fscx139.97\fscy139.97\pos(1519.97,1135.88)\fnRoboto\b1\bord0\c&H000000&\blur0.93\fade(255,0,255,-3710,-3710,-480,250)}Island Gate
+Dialogue: 0,0:22:31.32,0:22:31.37,Captions-207+,,0,0,0,,{\fscx139.97\fscy139.97\pos(1519.97,1135.88)\fnRoboto\b1\bord4.2\c&HFFFFFF&\3c&HFFFFFF&\blur0.93\fade(255,0,255,-3710,-3710,-480,250)\1a&HFF&}Island Gate
+Dialogue: 1,0:22:31.37,0:22:31.41,Captions-207+,,0,0,0,,{\fscx149.79\fscy149.79\an8\pos(385.73,660.25)\fnRoboto\b1\bord0\c&H000000&\blur0.96\fade(255,0,255,-3760,-3760,-530,200)}Courthouse
+Dialogue: 0,0:22:31.37,0:22:31.41,Captions-207+,,0,0,0,,{\fscx149.79\fscy149.79\an8\pos(385.73,660.25)\fnRoboto\b1\bord4.49\c&HFFFFFF&\3c&HFFFFFF&\blur0.96\fade(255,0,255,-3760,-3760,-530,200)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.41,0:22:31.45,Captions-207+,,0,0,0,,{\fscx149.79\fscy149.79\an8\pos(385.73,660.25)\fnRoboto\b1\bord0\c&H000000&\blur0.96\fade(255,0,255,-3800,-3800,-570,160)}Courthouse
+Dialogue: 0,0:22:31.41,0:22:31.45,Captions-207+,,0,0,0,,{\fscx149.79\fscy149.79\an8\pos(385.73,660.25)\fnRoboto\b1\bord4.49\c&HFFFFFF&\3c&HFFFFFF&\blur0.96\fade(255,0,255,-3800,-3800,-570,160)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.45,0:22:31.49,Captions-207+,,0,0,0,,{\fscx150.67\fscy150.67\an8\pos(378.96,665.88)\fnRoboto\b1\bord0\c&H000000&\blur0.96\fade(255,0,255,-3840,-3840,-610,120)}Courthouse
+Dialogue: 0,0:22:31.45,0:22:31.49,Captions-207+,,0,0,0,,{\fscx150.67\fscy150.67\an8\pos(378.96,665.88)\fnRoboto\b1\bord4.52\c&HFFFFFF&\3c&HFFFFFF&\blur0.96\fade(255,0,255,-3840,-3840,-610,120)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.49,0:22:31.53,Captions-207+,,0,0,0,,{\fscx151.29\fscy151.29\an8\pos(366.26,674.92)\fnRoboto\b1\bord0\c&H000000&\blur0.96\fade(255,0,255,-3880,-3880,-650,80)}Courthouse
+Dialogue: 0,0:22:31.49,0:22:31.53,Captions-207+,,0,0,0,,{\fscx151.29\fscy151.29\an8\pos(366.26,674.92)\fnRoboto\b1\bord4.54\c&HFFFFFF&\3c&HFFFFFF&\blur0.96\fade(255,0,255,-3880,-3880,-650,80)\1a&HFF&}Courthouse
+Dialogue: 1,0:22:31.53,0:22:31.58,Captions-207+,,0,0,0,,{\fscx151.81\fscy151.81\an8\pos(363.73,677.8)\fnRoboto\b1\bord0\c&H000000&\blur0.97\fade(255,0,255,-3920,-3920,-690,40)}Courthouse
+Dialogue: 0,0:22:31.53,0:22:31.58,Captions-207+,,0,0,0,,{\fscx151.81\fscy151.81\an8\pos(363.73,677.8)\fnRoboto\b1\bord4.55\c&HFFFFFF&\3c&HFFFFFF&\blur0.97\fade(255,0,255,-3920,-3920,-690,40)\1a&HFF&}Courthouse
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord3.9\c&H000000&}Video Editing
+Dialogue: 1,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Video Editing
+Dialogue: 2,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Video Editing
+Dialogue: 0,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Galaxy 9000
+Dialogue: 1,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord0.1\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Galaxy 9000
+Dialogue: 2,0:00:12.77,0:00:18.06,Credits-207+,,0,0,0,,{\pos(774,689)\blur0.6\bord0.1\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Galaxy 9000
+Dialogue: 0,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.6\bord3.9\c&H000000&}Graphics
+Dialogue: 1,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Graphics
+Dialogue: 2,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(773,668)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Graphics
+Dialogue: 0,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.5\bord4\fscx115\fscy115\c&H000000&}Datenshi   Girl-Krillin\NKaitouYahiko
+Dialogue: 1,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.5\bord0\fscx115\fscy115\4a&HFF&}Datenshi   Girl-Krillin\NKaitouYahiko
+Dialogue: 2,0:00:18.86,0:00:24.35,Credits-207+,,0,0,0,,{\pos(825,729)\blur0.5\bord0\fscx115\fscy115\4a&HFF&}Datenshi   Girl-Krillin\NKaitouYahiko
+Dialogue: 0,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord3.9\fscx105\fscy110\c&H000000&}Karaoke
+Dialogue: 1,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord0\fscx105\fscy110\c&HF9F9FA&\4a&HFF&}Karaoke
+Dialogue: 2,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord0\fscx105\fscy110\c&HF9F9FA&\4a&HFF&}Karaoke
+Dialogue: 0,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}arch1t3cht\NKaitouYahiko
+Dialogue: 1,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht\NKaitouYahiko
+Dialogue: 2,0:00:25.95,0:00:29.73,Credits-207+,,0,0,0,,{\pos(837,734)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht\NKaitouYahiko
+Dialogue: 0,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord3.9\c&H000000&}Quality Control
+Dialogue: 1,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Quality Control
+Dialogue: 2,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(788,645)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Quality Control
+Dialogue: 0,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord4.1\fscx115\fscy115\c&H000000&}Feeso   Gab\NPepperjack
+Dialogue: 1,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Feeso   Gab\NPepperjack
+Dialogue: 2,0:00:30.04,0:00:35.03,Credits-207+,,0,0,0,,{\pos(840,705)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}Feeso   Gab\NPepperjack
+Dialogue: 0,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(519,816)\blur0.6\bord3.5\fscx90\fscy110\fnRoboto\c&H000000&}Soundtracking
+Dialogue: 1,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(519,816)\blur0.6\bord0\fscx90\fscy110\fnRoboto\c&HF9F9FA&\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(1163,816)\blur0.6\bord3.5\fscx90\fscy110\fnRoboto\c&H000000&}Halee
+Dialogue: 1,0:00:48.76,0:00:54.63,Credits-207+,,0,0,0,,{\pos(1163,816)\blur0.6\bord0\fscx90\fscy110\fnRoboto\c&HF9F9FA&\4a&HFF&}Halee
+Dialogue: 0,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord3.9\c&H000000&}Timing
+Dialogue: 1,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Timing
+Dialogue: 2,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(795,623)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Timing
+Dialogue: 0,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}NateTheBird
+Dialogue: 1,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 2,0:00:55.10,0:01:00.60,Credits-207+,,0,0,0,,{\pos(833,678)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}NateTheBird
+Dialogue: 0,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,698)\blur0.6\bord3.9\c&H000000&}Dubtitles
+Dialogue: 1,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,698)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Dubtitles
+Dialogue: 2,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(795,698)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&}Dubtitles
+Dialogue: 0,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,752)\blur0.6\bord3.9\c&H000000&\fscx115\fscy115}NateTheBird
+Dialogue: 1,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,752)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&\fscx115\fscy115}NateTheBird
+Dialogue: 2,0:01:09.49,0:01:14.40,Credits-207+,,0,0,0,,{\pos(837,752)\blur0.6\bord0\c&HF9F9FA&\4a&HFF&\fscx115\fscy115}NateTheBird
+Dialogue: 0,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord3.9\fscx90\fscy95\c&H000000&}Translation
+Dialogue: 1,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord0\fscx90\fscy95\c&HF9F9FA&\4a&HFF&}Translation
+Dialogue: 2,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(794,697)\blur0.6\bord0\fscx90\fscy95\c&HF9F9FA&\4a&HFF&}Translation
+Dialogue: 0,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord3.9\fscx115\fscy115\c&H000000&}arch1t3cht   Crunchyroll\NGaijin   rangicus
+Dialogue: 1,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht   Crunchyroll\NGaijin   rangicus
+Dialogue: 2,0:01:30.89,0:01:36.59,Credits-207+,,0,0,0,,{\pos(831,744)\blur0.6\bord0\fscx115\fscy115\c&HF9F9FA&\4a&HFF&}arch1t3cht   Crunchyroll\NGaijin   rangicus
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
