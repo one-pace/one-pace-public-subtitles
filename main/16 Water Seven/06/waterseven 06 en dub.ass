@@ -1,0 +1,785 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Dedication,Complete in Him ESP,120,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+Style: Karaoke-OP5,Duality,90,&H000090FF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
+Style: Lyrics-OP5,FOT-Greco Std DB Strp,57,&H00FFFFFF,&H00FFFFFF,&H00060606,&H00000000,-1,0,0,0,100,100,1,0,1,4,0,2,33,33,27,1
+Style: Note-207+,Impress BT Pace,57,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,3,3,8,300,300,27,1
+Style: Captions,FOT-Greco Std DB Strp,59,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,15,1
+Style: Sign-Reporters,Ink Free,57,&H00040407,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,15,15,15,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:02:32.51,0:02:42.50,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:50.09,0:01:50.18,Default,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:26.26,0:00:26.34,Default,OP,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 50,0:02:13.14,0:02:14.88,Main-207+,,0,0,0,,Who was\Nthe first to find him?
+Dialogue: 50,0:02:14.91,0:02:16.78,Main-207+,,0,0,0,,Could they please\Nanswer a few questions for us?
+Dialogue: 50,0:02:16.81,0:02:18.88,Main-207+,,0,0,0,,Who's the culprit?\NAre there any suspects?
+Dialogue: 50,0:02:18.91,0:02:20.48,Main-207+,,0,0,0,,Is there any\Nconnection between this
+Dialogue: 50,0:02:20.52,0:02:21.88,Main-207+,,0,0,0,,and the annihilation\Nof the Franky House?
+Dialogue: 50,0:02:22.00,0:02:23.10,Main-207+,,0,0,0,,What's his condition?
+Dialogue: 50,0:02:23.14,0:02:24.77,Main-207+,,0,0,0,,Could you\Ngive us a statement, please?!
+Dialogue: 50,0:02:24.81,0:02:26.04,Main-207+,,0,0,0,,Hey, did you\Nhear about what happened
+Dialogue: 50,0:02:26.07,0:02:27.88,Main-207+,,0,0,0,,at the Shipbuilding\Nisland last night?
+Dialogue: 50,0:02:27.91,0:02:29.91,Main-207+,,0,0,0,,Is it true?\NDid he die?
+Dialogue: 0,0:02:29.94,0:02:31.71,Main-207+,,0,0,0,,Franky did this,\NI just know it!
+Dialogue: 0,0:02:35.33,0:02:36.50,Main-207+,,0,0,0,,Well, it might've\Nbeen those pirates
+Dialogue: 0,0:02:36.53,0:02:39.30,Main-207+,,0,0,0,,who've been hangin' around\Nthe shipyard the past few days.
+Dialogue: 0,0:02:45.89,0:02:48.10,Main-207+,,0,0,0,,So this is\Nwhere you've been.
+Dialogue: 0,0:02:50.51,0:02:52.48,Main-207+,,0,0,0,,We went through all\Nthe trouble of renting a room,
+Dialogue: 0,0:02:52.51,0:02:55.15,Main-207+,,0,0,0,,and no one's using it.
+Dialogue: 0,0:02:55.18,0:03:00.94,Main-207+,,0,0,0,,I guess nobody\Ncould sleep, huh?
+Dialogue: 50,0:03:01.36,0:03:02.58,Main-207+,,0,0,0,,And where's Luffy?
+Dialogue: 50,0:03:02.58,0:03:04.37,Main-207+,,0,0,0,,Over there.
+Dialogue: 50,0:03:09.28,0:03:11.44,Main-207+,,0,0,0,,So, where were you?
+Dialogue: 50,0:03:12.98,0:03:15.55,Main-207+,,0,0,0,,I kept lookout around the rocky cape all\Nnight.
+Dialogue: 50,0:03:15.58,0:03:18.75,Main-207+,,0,0,0,,I wanted to be there in case Robin came\Nback.
+Dialogue: 0,0:03:18.79,0:03:20.49,Main-207+,,0,0,0,,Oh.
+Dialogue: 50,0:03:24.66,0:03:26.66,Main-207+,,0,0,0,,She never said anything about leaving.
+Dialogue: 50,0:03:26.69,0:03:28.66,Main-207+,,0,0,0,,I wonder where she went.
+Dialogue: 50,0:03:33.76,0:03:38.37,Main-207+,,0,0,0,,I think I'll try looking\Naround for her in town today.
+Dialogue: 50,0:03:38.40,0:03:41.10,Main-207+,,0,0,0,,Do you think\Nwe're gonna find her?
+Dialogue: 50,0:03:41.14,0:03:42.91,Main-207+,,0,0,0,,Who knows?
+Dialogue: 50,0:03:43.43,0:03:46.24,Main-207+,,0,0,0,,It's not like I have any place specific in\Nmind to check out.
+Dialogue: 50,0:03:46.24,0:03:50.12,Main-207+,,0,0,0,,I just feel certain that she's still here\Nsomewhere.
+Dialogue: 50,0:03:51.15,0:03:52.46,Main-207+,,0,0,0,,If anything should happen,
+Dialogue: 50,0:03:52.49,0:03:55.56,Main-207+,,0,0,0,,we should use this inn\Nas our meet-up point.
+Dialogue: 50,0:03:55.60,0:03:57.53,Main-207+,,0,0,0,,I wanna help!\NI'm gonna come, too!
+Dialogue: 50,0:03:57.59,0:04:00.13,Main-207+,,0,0,0,,All right, then. Come on.
+Dialogue: 50,0:04:00.16,0:04:01.30,Main-207+,,0,0,0,,Luffy!
+Dialogue: 50,0:04:01.33,0:04:03.23,Main-207+,,0,0,0,,Nami! What's wrong?
+Dialogue: 50,0:04:03.29,0:04:04.69,Main-207+,,0,0,0,,It's awful!
+Dialogue: 50,0:04:04.70,0:04:08.07,Main-207+,,0,0,0,,The whole city's talking about it!
+Dialogue: 50,0:04:08.13,0:04:10.03,Main-207+,,0,0,0,,Luffy, listen to me.
+Dialogue: 50,0:04:10.11,0:04:13.28,Main-207+,,0,0,0,,Last night, something\Nterrible happened to Iceburg!
+Dialogue: 50,0:04:14.73,0:04:17.74,Main-207+,,0,0,0,,What?! Iceburg\Nwas shot in his home?!
+Dialogue: 50,0:04:18.05,0:04:19.69,Main-207+,,0,0,0,,Stop screwing around!
+Dialogue: 50,0:04:19.72,0:04:21.36,Main-207+,,0,0,0,,Is this some kind of joke?
+Dialogue: 50,0:04:21.36,0:04:21.82,Main-207+,,0,0,0,,No joke.
+Dialogue: 50,0:04:21.82,0:04:22.82,Main-207+,,0,0,0,,Is he alive?
+Dialogue: 50,0:04:22.86,0:04:24.56,Main-207+,,0,0,0,,Who would do such a thing?\NEveryone loves him!
+Dialogue: 50,0:04:24.61,0:04:26.29,Main-207+,,0,0,0,,Yes, he's alive!\NCalm down, Paulie!
+Dialogue: 50,0:04:27.22,0:04:29.62,Main-207+,,0,0,0,,{\i1}Listen to me for\Na second, okay?
+Dialogue: 50,0:04:29.69,0:04:32.23,Main-207+,,0,0,0,,{\i1}He was discovered in his\Nroom earlier this morning
+Dialogue: 5,0:04:32.26,0:04:35.27,Main-207+,,0,0,0,,{\i1}lying in a pool\Nof his own blood.
+Dialogue: 5,0:04:35.30,0:04:37.30,Main-207+,,0,0,0,,{\i1}Like I said: He's alive,
+Dialogue: 5,0:04:37.31,0:04:39.65,Main-207+,,0,0,0,,{\i1}but he's been unconscious\Nsince he was found.
+Dialogue: 50,0:04:39.68,0:04:43.49,Main-207+,,0,0,0,,{\i1}You need to come to the main office\Nimmediately!
+Dialogue: 50,0:04:47.30,0:04:49.64,Main-207+,,0,0,0,,Lulu! Where's Paulie?
+Dialogue: 50,0:04:49.64,0:04:52.30,Main-207+,,0,0,0,,I just called him.\NHe'll be here soon.
+Dialogue: 50,0:04:52.32,0:04:55.62,Main-207+,,0,0,0,,Good. Reporters\Nare all over the place.
+Dialogue: 50,0:04:55.70,0:04:58.60,Main-207+,,0,0,0,,It's mass hysteria out there.
+Dialogue: 50,0:04:58.60,0:05:01.07,Main-207+,,0,0,0,,We're the ones who'd like\Nto know what happened.
+Dialogue: 50,0:05:01.17,0:05:02.67,Main-207+,,0,0,0,,The office has\Nbeen torn apart,
+Dialogue: 50,0:05:02.70,0:05:05.04,Main-207+,,0,0,0,,but there's no trace of\Nanything being stolen.
+Dialogue: 50,0:05:05.07,0:05:09.04,Main-207+,,0,0,0,,No money, no valuables, nothing.
+Dialogue: 50,0:05:09.04,0:05:11.68,Main-207+,,0,0,0,,If this wasn't a robbery\Nthen the question is:
+Dialogue: 50,0:05:11.71,0:05:14.72,Main-207+,,0,0,0,,Who would try to\Nkill Iceburg, and why?
+Dialogue: 50,0:05:16.05,0:05:18.42,Main-207+,,0,0,0,,At any rate, we're in big trouble here.
+Dialogue: 50,0:05:18.44,0:05:21.30,Main-207+,,0,0,0,,The city's in total panic.
+Dialogue: 50,0:05:21.30,0:05:23.17,Main-207+,,0,0,0,,If anything should\Nhappen to Iceburg,
+Dialogue: 50,0:05:23.21,0:05:25.61,Main-207+,,0,0,0,,then it's not only the end\Nfor the Galley-La Company,
+Dialogue: 50,0:05:25.64,0:05:29.01,Main-207+,,0,0,0,,but the entire city\Nof Water Seven, as well.
+Dialogue: 50,0:05:42.45,0:05:46.12,Main-207+,,0,0,0,,Doctor, please.\NWhat is his condition?
+Dialogue: 50,0:05:53.09,0:05:55.76,Main-207+,,0,0,0,,He was shot two\Ntimes in the front
+Dialogue: 0,0:05:57.10,0:05:58.15,Main-207+,,0,0,0,,and another three from behind.
+Dialogue: 50,0:05:58.15,0:06:01.44,Main-207+,,0,0,0,,I have no idea what happened\Nin that room last night
+Dialogue: 50,0:06:01.44,0:06:04.51,Main-207+,,0,0,0,,but whatever it was,\Nit was brutal.
+Dialogue: 0,0:06:04.58,0:06:05.72,Main-207+,,0,0,0,,According to forensics,
+Dialogue: 50,0:06:05.75,0:06:08.52,Main-207+,,0,0,0,,there's no sign of the locks\Nbeing picked to his office
+Dialogue: 50,0:06:08.56,0:06:11.02,Main-207+,,0,0,0,,or anywhere else\Nin the building.
+Dialogue: 50,0:06:11.27,0:06:14.32,Main-207+,,0,0,0,,The incident occurred in a room no one\Ncould have entered.
+Dialogue: 50,0:06:14.93,0:06:17.60,Main-207+,,0,0,0,,The only thing out-of-place\Nthey found was a mask
+Dialogue: 50,0:06:17.63,0:06:20.13,Main-207+,,0,0,0,,you can buy just\Nabout anywhere.
+Dialogue: 50,0:06:25.44,0:06:27.48,Main-207+,,0,0,0,,Ice Pops from the shipyard?
+Dialogue: 50,0:06:27.51,0:06:31.15,Main-207+,,0,0,0,,Yes. I've heard\Nhe's still unconscious.
+Dialogue: 50,0:06:31.18,0:06:34.48,Main-207+,,0,0,0,,I thought everybody in this entire city\Nloved that guy.
+Dialogue: 50,0:06:34.52,0:06:35.88,Main-207+,,0,0,0,,Why him?
+Dialogue: 50,0:06:35.92,0:06:37.35,Main-207+,,0,0,0,,Who're you talking about?
+Dialogue: 50,0:06:37.40,0:06:40.30,Main-207+,,0,0,0,,He's the nice man that helped us out so\Nmuch yesterday.
+Dialogue: 50,0:06:40.34,0:06:42.04,Main-207+,,0,0,0,,The president of the\Nshipbuilding company
+Dialogue: 50,0:06:42.07,0:06:44.27,Main-207+,,0,0,0,,as well as the\Nmayor of Water Seven.
+Dialogue: 50,0:06:44.37,0:06:46.61,Main-207+,,0,0,0,,Hmm, sounds\Nlike an important guy.
+Dialogue: 50,0:06:46.64,0:06:49.14,Main-207+,,0,0,0,,Yeah, it's pretty\Nmuch the worst thing
+Dialogue: 50,0:06:49.18,0:06:51.44,Main-207+,,0,0,0,,that could've\Nhappened to this town.
+Dialogue: 50,0:06:51.44,0:06:52.98,Main-207+,,0,0,0,,I'll go check on him.
+Dialogue: 50,0:06:53.27,0:06:55.31,Main-207+,,0,0,0,,Luffy! Wait up!\NI'm coming, too!
+Dialogue: 50,0:06:58.91,0:07:01.07,Main-207+,,0,0,0,,On that note,\Nlet's go look for Robin.
+Dialogue: 50,0:07:01.07,0:07:02.57,Main-207+,,0,0,0,,Come on, Chopper.
+Dialogue: 50,0:07:04.03,0:07:05.27,Main-207+,,0,0,0,,What about you?
+Dialogue: 50,0:07:05.27,0:07:08.81,Main-207+,,0,0,0,,Well, I think I'll\Njust wait a while.
+Dialogue: 50,0:07:08.82,0:07:10.43,Main-207+,,0,0,0,,See how things turn out.
+Dialogue: 50,0:07:13.87,0:07:16.79,Main-207+,,0,0,0,,Extra!\NExtra! Read all about it!
+Dialogue: 50,0:07:17.12,0:07:20.53,Main-207+,,0,0,0,,Iceburg, our beloved mayor\Nand the hero of Water Seven,
+Dialogue: 50,0:07:20.56,0:07:23.86,Main-207+,,0,0,0,,has fallen victim to\Nthe hands of an assassin!
+Dialogue: 50,0:07:23.90,0:07:26.57,Main-207+,,0,0,0,,This is an urgent news report covering the\Nincident!
+Dialogue: 50,0:07:26.60,0:07:28.47,Main-207+,,0,0,0,,This is terrible!\NIs Iceburg okay?
+Dialogue: 50,0:07:28.50,0:07:31.34,Main-207+,,0,0,0,,How awful! Who would\Ndo such a thing?
+Dialogue: 50,0:07:31.35,0:07:33.19,Main-207+,,0,0,0,,Only pirates would\Npull a vicious attack
+Dialogue: 50,0:07:33.22,0:07:35.46,Main-207+,,0,0,0,,like that out of nowhere.\NNo doubt about it.
+Dialogue: 50,0:07:35.49,0:07:37.66,Main-207+,,0,0,0,,I'd like to get my hands\Non the ones that did it!
+Dialogue: 50,0:07:37.69,0:07:39.96,Main-207+,,0,0,0,,There were a bunch\Nof pirates rampaging
+Dialogue: 50,0:07:40.00,0:07:41.63,Main-207+,,0,0,0,,through Dock #1\Njust yesterday!
+Dialogue: 50,0:07:41.66,0:07:44.20,Main-207+,,0,0,0,,You mean\Nthe Mikazuki gang?
+Dialogue: 50,0:07:44.20,0:07:45.90,Main-207+,,0,0,0,,I know it sounds crazy
+Dialogue: 50,0:07:45.93,0:07:48.13,Main-207+,,0,0,0,,but I think the\Ngovernment did this.
+Dialogue: 50,0:07:48.14,0:07:50.42,Main-207+,,0,0,0,,What? What're\Nyou saying?
+Dialogue: 50,0:07:50.42,0:07:52.82,Main-207+,,0,0,0,,I'm talking about Corgy.
+Dialogue: 50,0:07:52.82,0:07:55.15,Main-207+,,0,0,0,,Every time he comes\Nto talk with Iceburg,
+Dialogue: 0,0:07:55.22,0:07:58.19,Main-207+,,0,0,0,,he gets rejected and leaves.
+Dialogue: 50,0:07:58.22,0:08:00.93,Main-207+,,0,0,0,,I'm telling you, Franky did it!
+Dialogue: 50,0:08:00.96,0:08:03.80,Main-207+,,0,0,0,,I don't really know what he's\Ntrying to speak with him about
+Dialogue: 50,0:08:03.83,0:08:06.23,Main-207+,,0,0,0,,but he must have\Ndone this out of spite.
+Dialogue: 50,0:08:06.27,0:08:08.37,Main-207+,,0,0,0,,I'd keep that theory to myself.
+Dialogue: 50,0:08:08.41,0:08:10.01,Main-207+,,0,0,0,,If you openly blame\Nthe World Government,
+Dialogue: 50,0:08:10.04,0:08:13.21,Main-207+,,0,0,0,,it won't be taken lightly.
+Dialogue: 50,0:08:13.25,0:08:15.32,Main-207+,,0,0,0,,Is this diabolical criminal's
+Dialogue: 0,0:08:15.36,0:08:17.29,Main-207+,,0,0,0,,goal to gain wealth or power?
+Dialogue: 50,0:08:17.33,0:08:18.86,Main-207+,,0,0,0,,Who is this\Nnameless assassin
+Dialogue: 50,0:08:18.96,0:08:21.03,Main-207+,,0,0,0,,that disappeared\Nwithout a trace?
+Dialogue: 50,0:08:23.36,0:08:24.96,Main-207+,,0,0,0,,Who in the hell did this?
+Dialogue: 50,0:08:25.00,0:08:27.50,Main-207+,,0,0,0,,I'm not gonna let\Nthem get away with it!
+Dialogue: 5,0:08:31.24,0:08:33.86,Main-207+,,0,0,0,,{\i1}Thank you\Nfor riding the sea-train.
+Dialogue: 50,0:08:33.97,0:08:36.88,Main-207+,,0,0,0,,{\i1}Next stop: The Blue\NStation at Water Seven.
+Dialogue: 50,0:08:36.91,0:08:39.21,Main-207+,,0,0,0,,{\i1}Arriving momentarily.
+Dialogue: 50,0:09:03.90,0:09:05.86,Main-207+,,0,0,0,,Paulie!
+Dialogue: 50,0:09:06.72,0:09:07.62,Main-207+,,0,0,0,,A word, please!
+Dialogue: 50,0:09:07.65,0:09:08.75,Main-207+,,0,0,0,,Can we get a comment about this incident?
+Dialogue: 50,0:09:08.78,0:09:10.92,Main-207+,,0,0,0,,What were you\Ntold before you came here?
+Dialogue: 50,0:09:10.95,0:09:12.22,Main-207+,,0,0,0,,Shut up, all of you.
+Dialogue: 50,0:09:12.25,0:09:14.52,Main-207+,,0,0,0,,Get the hell outta my way.
+Dialogue: 50,0:09:14.59,0:09:15.79,Main-207+,,0,0,0,,Tell us what explanation
+Dialogue: 50,0:09:15.79,0:09:17.03,Main-207+,,0,0,0,,you were given\Nby your company!
+Dialogue: 50,0:09:17.06,0:09:18.09,Main-207+,,0,0,0,,Paulie, please! A comment?
+Dialogue: 50,0:09:18.16,0:09:21.07,Main-207+,,0,0,0,,I don't have time for\Nthis crap! Get outta here!
+Dialogue: 50,0:09:21.27,0:09:22.30,Main-207+,,0,0,0,,Are you aware of any incident
+Dialogue: 50,0:09:22.33,0:09:24.44,Main-207+,,0,0,0,,that could cause someone\Nto target Iceburg's life?
+Dialogue: 50,0:09:24.47,0:09:25.27,Main-207+,,0,0,0,,Anything at all!
+Dialogue: 50,0:09:25.30,0:09:26.24,Main-207+,,0,0,0,,There must be something!
+Dialogue: 50,0:09:26.27,0:09:28.24,Main-207+,,0,0,0,,Any altercations with pirates?
+Dialogue: 50,0:09:29.17,0:09:30.08,Main-207+,,0,0,0,,Didn't you idiots hear me?
+Dialogue: 50,0:09:30.08,0:09:32.55,Main-207+,,0,0,0,,Get outta here!
+Dialogue: 50,0:09:35.22,0:09:37.12,Main-207+,,0,0,0,,So I guess the rumors are true.
+Dialogue: 50,0:09:37.15,0:09:38.75,Main-207+,,0,0,0,,He {\i1}was{\i0} attacked.
+Dialogue: 50,0:09:38.78,0:09:40.85,Main-207+,,0,0,0,,Yeah. So if we\Ngo to the shipyard,
+Dialogue: 50,0:09:40.89,0:09:43.22,Main-207+,,0,0,0,,it's likely we won't be\Nable to meet with him.
+Dialogue: 50,0:09:43.26,0:09:45.66,Main-207+,,0,0,0,,Then let's\Njust go to his house.
+Dialogue: 50,0:09:45.69,0:09:48.53,Main-207+,,0,0,0,,I believe he lives\Ninside the main office.
+Dialogue: 0,0:09:49.40,0:09:52.52,Main-207+,,0,0,0,,Kiwi, Mozu.
+Dialogue: 50,0:09:53.26,0:09:57.86,Main-207+,,0,0,0,,Am I asleep? Is this a dream?
+Dialogue: 50,0:09:57.90,0:09:59.46,Main-207+,,0,0,0,,This is no dream.
+Dialogue: 50,0:09:59.50,0:10:01.30,Main-207+,,0,0,0,,Without a doubt,\Nthis is the very spot
+Dialogue: 50,0:10:01.33,0:10:03.37,Main-207+,,0,0,0,,where the\NFranky House stood.
+Dialogue: 50,0:10:03.40,0:10:05.54,Main-207+,,0,0,0,,But something\Nlike this happening.
+Dialogue: 50,0:10:05.59,0:10:07.62,Main-207+,,0,0,0,,Just seems so extreme.
+Dialogue: 50,0:10:11.93,0:10:15.96,Main-207+,,0,0,0,,What the hell is going on?!
+Dialogue: 50,0:10:27.63,0:10:29.00,Main-207+,,0,0,0,,Who would be stupid enough
+Dialogue: 50,0:10:29.04,0:10:32.54,Main-207+,,0,0,0,,to do something like\Nthis to my house?!
+Dialogue: 50,0:10:33.44,0:10:37.48,Main-207+,,0,0,0,,Hold on. I know who.
+Dialogue: 50,0:10:37.57,0:10:39.70,Main-207+,,0,0,0,,Damn you, Straw Hat Luffy!
+Dialogue: 50,0:10:39.74,0:10:40.64,Main-207+,,0,0,0,,So this is your payback
+Dialogue: 50,0:10:40.67,0:10:44.21,Main-207+,,0,0,0,,for us stealing your\N200 million berries?
+Dialogue: 50,0:10:44.24,0:10:47.98,Main-207+,,0,0,0,,How dare you treat my\Nfaithful men this way!
+Dialogue: 50,0:10:48.01,0:10:50.71,Main-207+,,0,0,0,,It's so heartless!
+Dialogue: 50,0:10:50.92,0:10:53.88,Main-207+,,0,0,0,,Unforgivable!
+Dialogue: 50,0:10:54.21,0:10:55.31,Main-207+,,0,0,0,,Franky! Bro!
+Dialogue: 50,0:10:55.41,0:10:57.78,Main-207+,,0,0,0,,You came back!\NThank goodness!
+Dialogue: 50,0:10:57.81,0:10:59.55,Main-207+,,0,0,0,,You guys are all right?
+Dialogue: 50,0:10:59.55,0:11:02.42,Main-207+,,0,0,0,,What a relief. Thank goodness.
+Dialogue: 50,0:11:04.82,0:11:06.22,Main-207+,,0,0,0,,It was terrible!
+Dialogue: 50,0:11:06.25,0:11:09.36,Main-207+,,0,0,0,,Those pirates are completely insane!
+Dialogue: 50,0:11:09.36,0:11:09.93,Main-207+,,0,0,0,,Listen.
+Dialogue: 50,0:11:09.93,0:11:10.73,Main-207+,,0,0,0,,We've been keeping track
+Dialogue: 50,0:11:10.80,0:11:13.31,Main-207+,,0,0,0,,of what the\NStraw Hats are up to.
+Dialogue: 50,0:11:13.32,0:11:14.59,Main-207+,,0,0,0,,We know there's\Nno way you're gonna
+Dialogue: 50,0:11:14.63,0:11:16.66,Main-207+,,0,0,0,,let them get away with this!
+Dialogue: 50,0:11:16.71,0:11:18.65,Main-207+,,0,0,0,,Where are they now?
+Dialogue: 50,0:11:18.68,0:11:21.48,Main-207+,,0,0,0,,We saw\Nthem going into an inn.
+Dialogue: 50,0:11:21.52,0:11:22.55,Main-207+,,0,0,0,,After that,\Nthey headed over
+Dialogue: 50,0:11:22.58,0:11:24.72,Main-207+,,0,0,0,,to the shipbuilding island.
+Dialogue: 50,0:11:24.75,0:11:26.12,Main-207+,,0,0,0,,It's Dock One.
+Dialogue: 50,0:11:26.16,0:11:26.93,Main-207+,,0,0,0,,They were there yesterday.
+Dialogue: 50,0:11:26.94,0:11:29.11,Main-207+,,0,0,0,,I bet that's where they're going.
+Dialogue: 0,0:11:29.15,0:11:33.18,Main-207+,,0,0,0,,Is that so? All right then.
+Dialogue: 50,0:11:33.22,0:11:35.34,Main-207+,,0,0,0,,Straw Hat Luffy.
+Dialogue: 50,0:11:35.34,0:11:39.08,Main-207+,,0,0,0,,When I find you, I'm gonna rip you apart.
+Dialogue: 50,0:11:46.20,0:11:50.17,Main-207+,,0,0,0,,Whoa! Granny! Granny!
+Dialogue: 50,0:11:50.17,0:11:53.04,Main-207+,,0,0,0,,The wind is blowing like crazy!
+Dialogue: 50,0:11:57.25,0:11:59.52,Main-207+,,0,0,0,,Crazy wind!\NCrazy Wind! Crazy Wind!
+Dialogue: 50,0:11:59.55,0:12:02.72,Main-207+,,0,0,0,,Enough already!\NKeep it down!
+Dialogue: 50,0:12:06.49,0:12:10.03,Main-207+,,0,0,0,,The southern wind, huh?\NMust be Karock.
+Dialogue: 50,0:12:11.69,0:12:14.34,Main-207+,,0,0,0,,The waves\Nare getting rough, too.
+Dialogue: 0,0:12:14.52,0:12:15.46,Main-207+,,0,0,0,,If this keeps up,
+Dialogue: 50,0:12:15.49,0:12:19.69,Main-207+,,0,0,0,,the Sea Train won't\Nbe able to run tonight.
+Dialogue: 0,0:12:19.73,0:12:21.53,Main-207+,,0,0,0,,Chimney!\NGonbe! Get ready!
+Dialogue: 50,0:12:21.56,0:12:22.86,Main-207+,,0,0,0,,We're going back to the island!
+Dialogue: 50,0:12:22.90,0:12:24.93,Main-207+,,0,0,0,,Okay!
+Dialogue: 50,0:12:31.67,0:12:34.21,Main-207+,,0,0,0,,Aqua Laguna is coming.
+Dialogue: 50,0:12:44.05,0:12:45.15,Main-207+,,0,0,0,,{\i1}Your attention, please!
+Dialogue: 50,0:12:45.20,0:12:47.00,Main-207+,,0,0,0,,{\i1}Your attention please!
+Dialogue: 50,0:12:47.03,0:12:49.87,Main-207+,,0,0,0,,{\i1}This is the Water Seven\NWeather Forecasting Center.
+Dialogue: 50,0:12:49.90,0:12:52.80,Main-207+,,0,0,0,,{\i1}As of now, an Aqua Laguna\Nsevere weather warning
+Dialogue: 5,0:12:52.84,0:12:55.07,Main-207+,,0,0,0,,{\i1}has just been issued\Nfor the entire island.
+Dialogue: 50,0:12:55.11,0:12:56.94,Main-207+,,0,0,0,,{\i1}Its arrival time\Nis estimated to be
+Dialogue: 50,0:12:56.97,0:12:59.41,Main-207+,,0,0,0,,{\i1}sometime between\Nmidnight and 12:30.
+Dialogue: 50,0:12:59.44,0:13:01.75,Main-207+,,0,0,0,,Oh yeah,\NI guess it is about that time.
+Dialogue: 50,0:13:01.78,0:13:02.51,Main-207+,,0,0,0,,I've been preoccupied
+Dialogue: 50,0:13:02.55,0:13:04.45,Main-207+,,0,0,0,,with what\Nhappened to Iceburg.
+Dialogue: 50,0:13:04.48,0:13:06.62,Main-207+,,0,0,0,,Hey!\NAqua Laguna is coming!
+Dialogue: 50,0:13:07.17,0:13:09.27,Main-207+,,0,0,0,,Make sure everybody knows about the\Nwarning!
+Dialogue: 50,0:13:09.52,0:13:11.89,Main-207+,,0,0,0,,All right,\Nno more work for today!
+Dialogue: 50,0:13:11.92,0:13:13.06,Main-207+,,0,0,0,,What'd he say?
+Dialogue: 50,0:13:13.09,0:13:17.03,Main-207+,,0,0,0,,Aqua Laguna?\NOh! Excuse me!
+Dialogue: 50,0:13:17.06,0:13:19.46,Main-207+,,0,0,0,,What was that broadcast about just now?
+Dialogue: 50,0:13:19.54,0:13:20.24,Main-207+,,0,0,0,,What do you mean?
+Dialogue: 50,0:13:20.24,0:13:22.14,Main-207+,,0,0,0,,Everybody knows what... Oh!
+Dialogue: 50,0:13:22.18,0:13:24.47,Main-207+,,0,0,0,,Wait, are you\Nvisitor here? Sorry.
+Dialogue: 50,0:13:24.47,0:13:26.87,Main-207+,,0,0,0,,You've come sightseeing\Nat a really bad time.
+Dialogue: 50,0:13:27.45,0:13:29.45,Main-207+,,0,0,0,,Aqua Laguna is an annual storm.
+Dialogue: 50,0:13:29.49,0:13:31.59,Main-207+,,0,0,0,,It's about to pass through here.
+Dialogue: 50,0:13:31.62,0:13:32.86,Main-207+,,0,0,0,,A storm, huh?
+Dialogue: 50,0:13:32.89,0:13:33.89,Main-207+,,0,0,0,,A big one.
+Dialogue: 50,0:13:33.92,0:13:36.56,Main-207+,,0,0,0,,You're gonna need to evacuate to higher\Nground.
+Dialogue: 50,0:13:36.59,0:13:39.36,Main-207+,,0,0,0,,This entire city will be underwater soon.
+Dialogue: 50,0:13:39.44,0:13:42.07,Main-207+,,0,0,0,,Underwater? Really?
+Dialogue: 50,0:13:42.11,0:13:43.01,Main-207+,,0,0,0,,Don't worry!
+Dialogue: 50,0:13:43.05,0:13:44.75,Main-207+,,0,0,0,,It's not going to happen\Nright this second!
+Dialogue: 50,0:13:44.78,0:13:45.62,Main-207+,,0,0,0,,According to the forecast,
+Dialogue: 50,0:13:45.65,0:13:47.72,Main-207+,,0,0,0,,it'll arrive sometime\Naround midnight.
+Dialogue: 50,0:13:47.80,0:13:49.66,Main-207+,,0,0,0,,The locals have gotten used to it.
+Dialogue: 50,0:13:49.66,0:13:51.59,Main-207+,,0,0,0,,Annual, remember? See ya!
+Dialogue: 50,0:13:51.62,0:13:53.06,Main-207+,,0,0,0,,Later!
+Dialogue: 50,0:13:53.09,0:13:55.46,Main-207+,,0,0,0,,Hmm, the\Nwhole town will be...
+Dialogue: 50,0:13:55.49,0:13:57.70,Main-207+,,0,0,0,,Wait! It's gonna sink?!
+Dialogue: 50,0:13:57.73,0:13:59.43,Main-207+,,0,0,0,,Yeah, apparently so.
+Dialogue: 50,0:13:59.46,0:14:01.67,Main-207+,,0,0,0,,We need to find Robin\Nand quick. Come on.
+Dialogue: 50,0:14:01.70,0:14:02.91,Main-207+,,0,0,0,,Right!
+Dialogue: 50,0:14:02.91,0:14:04.18,Main-207+,,0,0,0,,Can't you tell us anything?
+Dialogue: 50,0:14:04.28,0:14:05.49,Main-207+,,0,0,0,,Hey! Iceburg!
+Dialogue: 50,0:14:05.49,0:14:07.23,Main-207+,,0,0,0,,What happened here?
+Dialogue: 50,0:14:07.23,0:14:09.41,Main-207+,,0,0,0,,What's going on?
+Dialogue: 50,0:14:10.21,0:14:12.52,Main-207+,,0,0,0,,We can't go that way.
+Dialogue: 50,0:14:12.55,0:14:14.59,Main-207+,,0,0,0,,Man, we're never gonna\Nfind out what's going on
+Dialogue: 0,0:14:14.62,0:14:17.42,Main-207+,,0,0,0,,unless we find some\Nway to get to Ice Pops.
+Dialogue: 50,0:14:17.46,0:14:18.62,Main-207+,,0,0,0,,Uhm, excuse me!
+Dialogue: 50,0:14:18.65,0:14:20.80,Main-207+,,0,0,0,,Can you tell me where the entrance of the\Nmain office is?
+Dialogue: 50,0:14:20.80,0:14:22.44,Main-207+,,0,0,0,,Yeah, it's at Dock One.
+Dialogue: 50,0:14:22.47,0:14:24.81,Main-207+,,0,0,0,,But I don't think you're gonna have any\Nluck getting in.
+Dialogue: 50,0:14:24.84,0:14:26.01,Main-207+,,0,0,0,,With everything\Nthat happened here,
+Dialogue: 50,0:14:26.04,0:14:29.38,Main-207+,,0,0,0,,they're only allowing authorized\Npersonnel to get through.
+Dialogue: 50,0:14:29.41,0:14:31.68,Main-207+,,0,0,0,,You're not alone.\NEveryone wants in!
+Dialogue: 50,0:14:31.72,0:14:33.02,Main-207+,,0,0,0,,We're all so worried about him.
+Dialogue: 50,0:14:33.18,0:14:35.48,Main-207+,,0,0,0,,I see. Thank you!
+Dialogue: 50,0:14:39.72,0:14:41.56,Main-207+,,0,0,0,,Look at all those people!
+Dialogue: 50,0:14:41.59,0:14:44.00,Main-207+,,0,0,0,,What's all the commotion about?
+Dialogue: 50,0:14:44.18,0:14:47.78,Main-207+,,0,0,0,,Well. The bigger the audience\Nthe better, I always say.
+Dialogue: 0,0:14:47.85,0:14:55.89,Main-207+,,0,0,0,,{\fad(150,150)}{\i1}♪ rhythmic drumbeating ♪{\i0}
+Dialogue: 50,0:14:55.89,0:14:57.69,Main-207+,,0,0,0,,No! Don't tell me!
+Dialogue: 50,0:14:57.76,0:14:58.89,Main-207+,,0,0,0,,It's that rhythm!
+Dialogue: 50,0:14:58.93,0:15:00.96,Main-207+,,0,0,0,,What?! Why now?!
+Dialogue: 50,0:15:01.00,0:15:01.83,Main-207+,,0,0,0,,Hey! Guys!
+Dialogue: 50,0:15:01.86,0:15:04.80,Main-207+,,0,0,0,,Question: Did you\Njust say my name?
+Dialogue: 50,0:15:04.83,0:15:06.97,Main-207+,,0,0,0,,No, we didn't!\NJust go away!
+Dialogue: 50,0:15:07.03,0:15:10.10,Main-207+,,0,0,0,,Where is he? Where's\Nthat coming from?
+Dialogue: 50,0:15:10.10,0:15:13.84,Main-207+,,0,0,0,,I don't see him.\NWait! He's up there!
+Dialogue: 0,0:15:14.73,0:15:17.35,Main-207+,,0,0,0,,Ow! Ow! Ow! Ow!
+Dialogue: 50,0:15:18.78,0:15:21.18,Main-207+,,0,0,0,,{\fad(150,150)}Come on, everybody,\Nno need-to-be-shy!
+Dialogue: 0,0:15:21.21,0:15:22.65,Main-207+,,0,0,0,,Say my name!
+Dialogue: 50,0:15:22.72,0:15:24.69,Main-207+,,0,0,0,,We don't wanna! Get lost!
+Dialogue: 0,0:15:24.72,0:15:25.52,Main-207+,,0,0,0,,You're the one
+Dialogue: 50,0:15:25.56,0:15:27.16,Main-207+,,0,0,0,,who attacked Iceburg,\Naren't you?!
+Dialogue: 50,0:15:27.19,0:15:29.23,Main-207+,,0,0,0,,Yeah! He has to be!
+Dialogue: 50,0:15:29.26,0:15:31.16,Main-207+,,0,0,0,,Just leave!\NGet the hell outta here!
+Dialogue: 50,0:15:31.22,0:15:33.89,Main-207+,,0,0,0,,Hang that\Ngood-for-nothing punk!
+Dialogue: 0,0:15:35.16,0:15:38.00,Main-207+,,0,0,0,,What a\Nbunch of noisy flies!
+Dialogue: 50,0:15:38.03,0:15:40.17,Main-207+,,0,0,0,,{\fad(150,150)}I'm Water Seven's\Nnumber 1 su-per-guy!
+Dialogue: 0,0:15:40.20,0:15:42.20,Main-207+,,0,0,0,,The face of the underworld,\Nand you know why!
+Dialogue: 50,0:15:42.21,0:15:44.58,Main-207+,,0,0,0,,{\fad(150,150)}I'm the man with the plan,\Nthe power and fame.
+Dialogue: 50,0:15:44.61,0:15:46.84,Main-207+,,0,0,0,,{\fad(150,150)}And people everywhere\Ncall out my name!
+Dialogue: 50,0:15:46.88,0:15:48.55,Main-207+,,0,0,0,,{\fad(150,150)}Wow!
+Dialogue: 50,0:15:50.67,0:15:52.80,Main-207+,,0,0,0,,Franky!
+Dialogue: 50,0:16:02.27,0:16:04.48,Main-207+,,0,0,0,,Come out and show\Nyourself, Straw Hat!
+Dialogue: 50,0:16:05.04,0:16:06.91,Main-207+,,0,0,0,,Stop being such a pansy!
+Dialogue: 50,0:16:06.94,0:16:09.58,Main-207+,,0,0,0,,Get out here and fight me already!
+Dialogue: 50,0:16:09.61,0:16:11.91,Main-207+,,0,0,0,,I dunno how that weirdo\Nfigured out my name...
+Dialogue: 50,0:16:11.95,0:16:13.82,Main-207+,,0,0,0,,I've never seen him before in my life!
+Dialogue: 50,0:16:13.86,0:16:15.61,Main-207+,,0,0,0,,Didn't you hear what those people said?
+Dialogue: 50,0:16:15.61,0:16:18.01,Main-207+,,0,0,0,,I think that guy might be Franky!
+Dialogue: 50,0:16:18.04,0:16:19.81,Main-207+,,0,0,0,,Then we've found him.
+Dialogue: 50,0:16:21.66,0:16:24.12,Thoughts-207+,,0,0,0,,He's the one\Nwho beat up Usopp!
+Dialogue: 50,0:16:24.12,0:16:28.09,Flashbacks-207+,,0,0,0,,This money belongs\Nto us now. Understand?
+Dialogue: 50,0:16:39.10,0:16:41.14,Flashbacks-207+,,0,0,0,,No! Give it back!
+Dialogue: 50,0:16:41.80,0:16:44.67,Flashbacks-207+,,0,0,0,,Give it back!
+Dialogue: 50,0:16:44.94,0:16:47.68,Main-207+,,0,0,0,,If it wasn't for him...
+Dialogue: 50,0:16:47.71,0:16:48.94,Main-207+,,0,0,0,,Luffy.
+Dialogue: 50,0:16:52.78,0:16:54.72,Main-207+,,0,0,0,,Hey! Bikini Guy!
+Dialogue: 50,0:16:54.75,0:16:56.49,Main-207+,,0,0,0,,Hold on a sec!
+Dialogue: 50,0:16:59.10,0:17:00.54,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:17:03.65,0:17:06.25,Main-207+,,0,0,0,,That's me. I'm Straw Hat.
+Dialogue: 50,0:17:07.09,0:17:08.60,Main-207+,,0,0,0,,There's\Nstill no information?
+Dialogue: 50,0:17:08.60,0:17:10.93,Main-207+,,0,0,0,,What's going on?!
+Dialogue: 50,0:17:10.97,0:17:11.97,Main-207+,,0,0,0,,Everyone.
+Dialogue: 50,0:17:15.36,0:17:16.83,Main-207+,,0,0,0,,So, what's the word?
+Dialogue: 0,0:17:20.91,0:17:22.55,Main-207+,,0,0,0,,You may enter,
+Dialogue: 50,0:17:22.58,0:17:24.68,Main-207+,,0,0,0,,but try to keep your\Nvoices down, please.
+Dialogue: 50,0:17:24.72,0:17:26.94,Main-207+,,0,0,0,,Then he... He's okay?
+Dialogue: 50,0:17:26.94,0:17:30.61,Main-207+,,0,0,0,,His injuries are still\Nserious but Mr. Iceburg
+Dialogue: 50,0:17:30.64,0:17:33.41,Main-207+,,0,0,0,,has finally\Nregained consciousness.
+Dialogue: 50,0:17:34.42,0:17:36.49,Main-207+,,0,0,0,,That's great news!
+Dialogue: 50,0:17:36.53,0:17:38.56,Main-207+,,0,0,0,,C'mon, let's see\Nhow he's doing!
+Dialogue: 50,0:17:40.80,0:17:42.80,Main-207+,,0,0,0,,You're okay!
+Dialogue: 50,0:17:42.84,0:17:45.47,Main-207+,,0,0,0,,Mmwell, I've been\Nbetter, I suppose.
+Dialogue: 50,0:17:45.56,0:17:47.73,Main-207+,,0,0,0,,All things considered,\Nyou're pretty lucky!
+Dialogue: 50,0:17:47.76,0:17:50.06,Main-207+,,0,0,0,,Anyway, you just focus on getting better.
+Dialogue: 50,0:17:50.10,0:17:51.77,Main-207+,,0,0,0,,In the meantime,\Nyou can count on us
+Dialogue: 50,0:17:51.81,0:17:54.04,Main-207+,,0,0,0,,to take care of\Nthe shipyard, okay?
+Dialogue: 50,0:17:54.08,0:17:55.88,Main-207+,,0,0,0,,Yes, of course.
+Dialogue: 50,0:17:55.91,0:17:57.61,Main-207+,,0,0,0,,Now, I need to talk\Nto you about the people
+Dialogue: 50,0:17:57.64,0:17:59.61,Main-207+,,0,0,0,,who broke into my\Nroom last night.
+Dialogue: 50,0:17:59.65,0:18:00.68,Main-207+,,0,0,0,,Uh, yeah.
+Dialogue: 50,0:18:00.72,0:18:03.02,Main-207+,,0,0,0,,Well, that's still under investigation,\NI'm afraid.
+Dialogue: 50,0:18:03.05,0:18:04.89,Main-207+,,0,0,0,,No. I remember them.
+Dialogue: 50,0:18:04.89,0:18:05.56,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:18:10.10,0:18:11.17,Main-207+,,0,0,0,,There were two.
+Dialogue: 0,0:18:11.18,0:18:13.88,Main-207+,,0,0,0,,One of them was a large man\Nwho was wearing a mask.
+Dialogue: 50,0:18:16.73,0:18:22.54,Main-207+,,0,0,0,,Tall, with long black hair.
+Dialogue: 50,0:18:22.57,0:18:25.68,Main-207+,,0,0,0,,I could never forget those eyes.
+Dialogue: 50,0:18:25.70,0:18:27.80,Main-207+,,0,0,0,,It has to be her.
+Dialogue: 50,0:18:36.61,0:18:38.74,Main-207+,,0,0,0,,I can't believe\Nwhat I just heard.
+Dialogue: 50,0:18:38.79,0:18:40.69,Main-207+,,0,0,0,,Mr. Iceburg's awake, everyone.
+Dialogue: 50,0:18:40.72,0:18:43.63,Main-207+,,0,0,0,,It looks like our mayor's gonna be okay!
+Dialogue: 50,0:18:43.63,0:18:44.30,Main-207+,,0,0,0,,Is that true?!
+Dialogue: 50,0:18:44.30,0:18:45.03,Main-207+,,0,0,0,,All right!
+Dialogue: 0,0:18:45.12,0:18:45.88,Main-207+,,0,0,0,,I was so worried!
+Dialogue: 50,0:18:45.92,0:18:48.49,Main-207+,,0,0,0,,I knew\Nhe'd make it!
+Dialogue: 50,0:18:52.79,0:18:54.89,Main-207+,,0,0,0,,So you're Luffy, huh?
+Dialogue: 50,0:18:54.93,0:18:57.83,Main-207+,,0,0,0,,Didn't expect you\Nto look so shrimpy.
+Dialogue: 50,0:19:00.70,0:19:02.74,Main-207+,,0,0,0,,I got a bone to pick with you,\Nkid.
+Dialogue: 50,0:19:02.77,0:19:04.84,Main-207+,,0,0,0,,It seems you and your\Ngang had a little party
+Dialogue: 0,0:19:04.87,0:19:06.78,Main-207+,,0,0,0,,at my place\Nwhile I was gone.
+Dialogue: 50,0:19:06.81,0:19:08.88,Main-207+,,0,0,0,,When I came home,\Nnow, what did I see?
+Dialogue: 50,0:19:08.91,0:19:09.98,Main-207+,,0,0,0,,My house was ripped to shreds
+Dialogue: 50,0:19:10.01,0:19:11.58,Main-207+,,0,0,0,,and my gang\Nwas on its knees,
+Dialogue: 50,0:19:11.61,0:19:13.72,Main-207+,,0,0,0,,and it's all thanks to Luffy.
+Dialogue: 50,0:19:13.76,0:19:15.89,Main-207+,,0,0,0,,I'll make this\Nas plain as can be...
+Dialogue: 50,0:19:15.93,0:19:18.96,Main-207+,,0,0,0,,when you mess with my boys,\Nyou mess with Franky.
+Dialogue: 50,0:19:19.00,0:19:20.93,Main-207+,,0,0,0,,I'd hate to\Nbe you right now
+Dialogue: 50,0:19:20.97,0:19:22.90,Main-207+,,0,0,0,,cause I'm on one hell\Nof a roll this week,
+Dialogue: 50,0:19:22.92,0:19:25.23,Main-207+,,0,0,0,,and ain't nobody\Ngonna stop me!
+Dialogue: 50,0:19:25.26,0:19:26.93,Main-207+,,0,0,0,,Now you can cry if you like,
+Dialogue: 50,0:19:26.93,0:19:29.07,Main-207+,,0,0,0,,but either way I'm gonna\Npound you so hard
+Dialogue: 50,0:19:29.10,0:19:32.47,Main-207+,,0,0,0,,even your own mother won't\Nrecognize you when I'm done.
+Dialogue: 50,0:19:32.50,0:19:33.64,Main-207+,,0,0,0,,Shut up!
+Dialogue: 50,0:19:33.67,0:19:34.84,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:19:34.87,0:19:38.64,Main-207+,,0,0,0,,You jerk! Give us our 200\Nmillion berries back already!
+Dialogue: 50,0:19:38.68,0:19:39.98,Main-207+,,0,0,0,,You hear me?!
+Dialogue: 50,0:19:40.01,0:19:41.08,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:19:41.11,0:19:43.61,Main-207+,,0,0,0,,You want your money back, you say?
+Dialogue: 50,0:19:43.65,0:19:48.02,Main-207+,,0,0,0,,Well that's a damn shame, cause I'm afraid\NI spent it all!
+Dialogue: 50,0:19:48.69,0:19:51.30,Main-207+,,0,0,0,,You pirates are all a bunch of sore\Nlosers!
+Dialogue: 50,0:19:51.33,0:19:53.27,Main-207+,,0,0,0,,Don't act all high and\Nmighty when you probably
+Dialogue: 50,0:19:53.30,0:19:55.27,Main-207+,,0,0,0,,just stole the money\Nfrom someone else!
+Dialogue: 50,0:19:55.46,0:19:56.59,Main-207+,,0,0,0,,The money doesn't matter.
+Dialogue: 50,0:19:56.90,0:19:58.87,Main-207+,,0,0,0,,Maybe not to you, but it does to me!
+Dialogue: 50,0:19:58.93,0:20:01.37,Main-207+,,0,0,0,,All I care about now\Nis getting revenge.
+Dialogue: 50,0:20:01.40,0:20:06.10,Main-207+,,0,0,0,,So money or no money, I'm gonna make you\Npay!
+Dialogue: 50,0:20:06.14,0:20:08.41,Main-207+,,0,0,0,,You're stealing\Nmy lines, you bastard!
+Dialogue: 50,0:20:08.44,0:20:10.18,Main-207+,,0,0,0,,Are you trying\Nto make me mad?!
+Dialogue: 50,0:20:10.21,0:20:12.74,Main-207+,,0,0,0,,Whatever!\NJust come down here and fight!
+Dialogue: 50,0:20:12.78,0:20:16.25,Main-207+,,0,0,0,,Ah! Uh-oh!\NEverybody get out of the way!
+Dialogue: 50,0:20:16.26,0:20:18.60,Main-207+,,0,0,0,,Franky's\Ngoing on a rampage!
+Dialogue: 50,0:20:18.65,0:20:20.35,Main-207+,,0,0,0,,Run away!
+Dialogue: 50,0:20:26.07,0:20:29.04,Main-207+,,0,0,0,,Is he holding his breath\Nor something? Weird.
+Dialogue: 50,0:20:55.83,0:20:57.76,Main-207+,,0,0,0,,He just spit fire!
+Dialogue: 50,0:20:57.80,0:21:00.17,Main-207+,,0,0,0,,Yeah, I can see\Nthat much but how?!
+Dialogue: 50,0:21:01.74,0:21:04.74,Main-207+,,0,0,0,,Oh? You scared?\NHaving second thoughts?
+Dialogue: 0,0:21:04.81,0:21:06.14,Main-207+,,0,0,0,,Careful. If he can do that,
+Dialogue: 50,0:21:06.14,0:21:07.74,Main-207+,,0,0,0,,he might have\Ndevil fruit powers!
+Dialogue: 50,0:21:07.84,0:21:09.94,Main-207+,,0,0,0,,Okay, but that doesn't really help!
+Dialogue: 50,0:21:20.92,0:21:22.12,Main-207+,,0,0,0,,If that guy did\Neat a devil fruit,
+Dialogue: 50,0:21:22.16,0:21:25.71,Main-207+,,0,0,0,,he wouldn't just jump in the\Nwater for no reason, would he?
+Dialogue: 50,0:21:25.71,0:21:28.65,Main-207+,,0,0,0,,Maybe nobody told him that\Nif you try to swim, you die.
+Dialogue: 0,0:21:28.67,0:21:29.60,Main-207+,,0,0,0,,That'd be pretty pathetic,
+Dialogue: 50,0:21:29.73,0:21:31.06,Main-207+,,0,0,0,,but at least it would\Nsave us the trouble
+Dialogue: 0,0:21:31.06,0:21:32.93,Main-207+,,0,0,0,,of fighting that weirdo.
+Dialogue: 0,0:21:43.81,0:21:47.82,Main-207+,,0,0,0,,Aaaaahhh!
+Dialogue: 50,0:21:47.85,0:21:51.62,Main-207+,,0,0,0,,I guess he can swim!\NLucky he didn't drown, huh?
+Dialogue: 50,0:21:52.37,0:21:56.16,Main-207+,,0,0,0,,I didn't eat no devil fruit!\NYou think I'm crazy?!
+Dialogue: 50,0:22:00.91,0:22:03.48,Main-207+,,0,0,0,,{\fad(150,150)}Doesn't matter to me!
+Dialogue: 50,0:22:03.51,0:22:04.41,Main-207+,,0,0,0,,Can't surprise me.
+Dialogue: 50,0:22:04.44,0:22:07.01,Main-207+,,0,0,0,,I heard about that\Nlittle power of yours.
+Dialogue: 50,0:22:10.45,0:22:12.85,Main-207+,,0,0,0,,{\fad(150,150)}Strong Right!
+Dialogue: 50,0:22:21.59,0:22:22.63,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:22:44.09,0:22:45.84,Main-207+,,0,0,0,,Luffy!
+Dialogue: 50,0:22:48.30,0:22:50.67,Main-207+,,0,0,0,,Hey! Are you okay?!
+Dialogue: 50,0:22:58.01,0:23:00.82,Main-207+,,0,0,0,,If you don't have devil fruit\Npowers, then what are you?!
+Dialogue: 50,0:23:00.85,0:23:01.85,Main-207+,,0,0,0,,Huuuh?
+Dialogue: 50,0:23:01.89,0:23:05.79,Main-207+,,0,0,0,,You poor saps don't\Nknow anything, now do you?
+Dialogue: 50,0:23:05.83,0:23:08.36,Main-207+,,0,0,0,,All right then, I'll humor you.
+Dialogue: 50,0:23:09.30,0:23:12.84,Main-207+,,0,0,0,,I'm just a normal guy with some extra\Nparts.
+Dialogue: 50,0:23:12.99,0:23:16.23,Main-207+,,0,0,0,,A cyborg, you might say.
+Dialogue: 50,0:23:24.25,0:23:26.13,Main-207+,,0,0,0,,One of the Straw Hats did this?
+Dialogue: 50,0:23:27.94,0:23:29.91,Main-207+,,0,0,0,,Sure about that? Of all people.
+Dialogue: 50,0:23:29.94,0:23:32.04,Main-207+,,0,0,0,,Yes. And my personal\Ninvestigation
+Dialogue: 50,0:23:32.08,0:23:33.38,Main-207+,,0,0,0,,led to the same result.
+Dialogue: 50,0:23:33.41,0:23:35.98,Main-207+,,0,0,0,,To make sure, I had Lucci\Ncontact the government
+Dialogue: 0,0:23:36.01,0:23:37.98,Main-207+,,0,0,0,,to confirm her\Nidentity and bounty.
+Dialogue: 0,0:23:38.02,0:23:39.45,Main-207+,,0,0,0,,Coo coo! Yes.
+Dialogue: 50,0:23:39.48,0:23:41.38,Main-207+,,0,0,0,,They said she's a\Nnotorious criminal,
+Dialogue: 50,0:23:41.42,0:23:44.19,Main-207+,,0,0,0,,so it's no surprise that\Nshe'd do something dastardly
+Dialogue: 0,0:23:44.30,0:23:46.20,Main-207+,,0,0,0,,to our boss, coo coo!
+Dialogue: 50,0:23:53.11,0:23:55.91,Main-207+,,0,0,0,,Then our next course\Nof action is crystal clear.
+Dialogue: 50,0:23:55.97,0:23:59.07,Main-207+,,0,0,0,,We gotta find those rapscallions and show\Nthem what's what.
+Dialogue: 50,0:23:59.11,0:24:00.61,Main-207+,,0,0,0,,What in the hell\Nwere they thinking?
+Dialogue: 50,0:24:00.64,0:24:01.94,Main-207+,,0,0,0,,Don't tell me\Nthey're pissed off
+Dialogue: 50,0:24:01.98,0:24:03.51,Main-207+,,0,0,0,,'cause we wouldn't\Nfix their ship!
+Dialogue: 50,0:24:03.55,0:24:04.62,Main-207+,,0,0,0,,I wonder that myself.
+Dialogue: 50,0:24:04.65,0:24:07.22,Main-207+,,0,0,0,,But regardless of what\Ntheir motivations might be,
+Dialogue: 50,0:24:07.26,0:24:09.02,Main-207+,,0,0,0,,the bottom line is that\Nthey're the culprits
+Dialogue: 50,0:24:09.06,0:24:10.52,Main-207+,,0,0,0,,and they need to be dealt with.
+Dialogue: 0,0:24:10.56,0:24:11.39,Main-207+,,0,0,0,,In other words,
+Dialogue: 50,0:24:11.43,0:24:12.53,Main-207+,,0,0,0,,we should just capture\Nthe Straw Hats
+Dialogue: 0,0:24:12.56,0:24:15.03,Main-207+,,0,0,0,,and interrogate them ourselves\Ninstead of wasting time
+Dialogue: 50,0:24:15.06,0:24:16.86,Main-207+,,0,0,0,,trying to figure\Nthis crap out.
+Dialogue: 50,0:24:16.90,0:24:18.47,Main-207+,,0,0,0,,None of this\Nmakes sense to me
+Dialogue: 50,0:24:18.50,0:24:20.37,Main-207+,,0,0,0,,but anyone who\Nmesses with Galley-La
+Dialogue: 50,0:24:20.40,0:24:23.04,Main-207+,,0,0,0,,is gonna have\Nhell to pay.
+Dialogue: 0,0:24:30.00,0:24:32.41,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:24:32.44,0:24:33.97,Main-207+,,0,0,0,,There's trouble!
+Dialogue: 50,0:24:34.01,0:24:36.91,Main-207+,,0,0,0,,Shut up Tilestone, you're\Nway the hell too loud!
+Dialogue: 50,0:24:36.94,0:24:39.95,Main-207+,,0,0,0,,You fools! You're\Njust as loud as he is!
+Dialogue: 50,0:24:39.98,0:24:42.35,Main-207+,,0,0,0,,Oh! I didn't know you were up
+Dialogue: 50,0:24:42.38,0:24:45.38,Main-207+,,0,0,0,,already Mr.\NIceburg... that's great! Hahaha!
+Dialogue: 0,0:24:45.98,0:24:47.75,Main-207+,,0,0,0,,Ohh!
+Dialogue: 0,0:24:47.83,0:24:48.96,Main-207+,,0,0,0,,He may be awake,
+Dialogue: 50,0:24:49.02,0:24:50.66,Main-207+,,0,0,0,,but that doesn't mean you\Nshould scream his ears off!
+Dialogue: 50,0:24:50.70,0:24:52.74,Main-207+,,0,0,0,,Take it down a\Nnotch or two, okay?
+Dialogue: 50,0:24:52.77,0:24:56.74,Main-207+,,0,0,0,,I'm sorry! I can't\Nhelp it! I swear!
+Dialogue: 50,0:24:57.84,0:25:00.18,Main-207+,,0,0,0,,Oh! I almost forgot!\NI gotta tell you something!
+Dialogue: 50,0:25:00.21,0:25:01.81,Main-207+,,0,0,0,,Fine, but stay outside.
+Dialogue: 50,0:25:01.89,0:25:03.06,Main-207+,,0,0,0,,You can tell me from over there.
+Dialogue: 50,0:25:03.09,0:25:05.03,Main-207+,,0,0,0,,We got trouble with\Nthat Straw Hat guy!
+Dialogue: 0,0:25:05.06,0:25:05.88,Main-207+,,0,0,0,,I dunno what happened,
+Dialogue: 50,0:25:05.88,0:25:07.85,Main-207+,,0,0,0,,but he got in a\Nbig fight with Franky
+Dialogue: 50,0:25:07.88,0:25:10.02,Main-207+,,0,0,0,,and they're both\Nwrecking up the shipyard!
+Dialogue: 50,0:25:10.10,0:25:13.74,Main-207+,,0,0,0,,If we don't stop 'em,\Nwho knows what they'll do!
+Dialogue: 50,0:25:16.56,0:25:17.86,Main-207+,,0,0,0,,Straw Hat again?
+Dialogue: 50,0:25:17.86,0:25:20.56,Main-207+,,0,0,0,,Well, at least we know where to find him.
+Dialogue: 50,0:25:23.43,0:25:24.66,Main-207+,,0,0,0,,He's got some nerve.
+Dialogue: 50,0:25:24.70,0:25:27.97,Main-207+,,0,0,0,,I'll teach that punk to show his face on\Nour turf!
+Dialogue: 50,0:25:31.07,0:25:33.64,Main-207+,,0,0,0,,Now you can finally have a bit of peace\Nand quiet.
+Dialogue: 50,0:25:33.64,0:25:35.55,Main-207+,,0,0,0,,Let them take care of Straw Hat.
+Dialogue: 50,0:25:36.61,0:25:38.68,Main-207+,,0,0,0,,I'll be watching over\Nyou in the meantime,
+Dialogue: 50,0:25:38.71,0:25:40.75,Main-207+,,0,0,0,,so there's no need to worry.
+Dialogue: 0,0:25:47.62,0:25:51.92,Main-207+,,0,0,0,,{\fad(150,150)}Gum-Gum Pistol!
+Dialogue: 50,0:25:57.07,0:25:59.24,Main-207+,,0,0,0,,Watch out!\NIt's coming down!
+Dialogue: 50,0:25:59.58,0:26:01.28,Main-207+,,0,0,0,,They're trashing the ship!
+Dialogue: 50,0:26:01.30,0:26:04.57,Main-207+,,0,0,0,,Stop it!\NGo fight somewhere else!
+Dialogue: 0,0:26:10.41,0:26:12.28,Main-207+,,0,0,0,,Luffy! Tear him to pieces,
+Dialogue: 50,0:26:12.31,0:26:14.28,Main-207+,,0,0,0,,and then make him\Nput some pants on!
+Dialogue: 50,0:26:14.46,0:26:15.76,Main-207+,,0,0,0,,Hey, Bro!
+Dialogue: 50,0:26:15.79,0:26:18.76,Main-207+,,0,0,0,,You gotta put on a good show!
+Dialogue: 50,0:26:25.87,0:26:28.11,Main-207+,,0,0,0,,You're a lot tougher\Nthan I thought you'd be.
+Dialogue: 50,0:26:28.14,0:26:30.88,Main-207+,,0,0,0,,But I'm still gonna beat you, Bikini Guy!
+Dialogue: 50,0:26:31.98,0:26:33.38,Main-207+,,0,0,0,,If you say so!
+Dialogue: 50,0:26:33.41,0:26:35.01,Main-207+,,0,0,0,,Though it's gonna\Ntake a long ass time
+Dialogue: 50,0:26:35.05,0:26:37.58,Main-207+,,0,0,0,,with those weenie\Nattacks of yours!
+Dialogue: 50,0:26:47.83,0:26:50.40,Main-207+,,0,0,0,,{\fad(150,150)}Weapons Left!
+Dialogue: 50,0:26:54.83,0:26:57.77,Main-207+,,0,0,0,,{\fad(150,150)}Gum-Gum Whip!
+Dialogue: 50,0:27:06.90,0:27:09.95,Main-207+,,0,0,0,,I can't see... It seems\Nlike they both got hit!
+Dialogue: 50,0:27:09.95,0:27:11.95,Main-207+,,0,0,0,,No! Look who it is!
+Dialogue: 50,0:27:13.02,0:27:15.02,Main-207+,,0,0,0,,Who just punched me?!
+Dialogue: 50,0:27:20.02,0:27:21.16,Main-207+,,0,0,0,,This is too easy.
+Dialogue: 50,0:27:21.19,0:27:22.73,Main-207+,,0,0,0,,If you knew what\Nwas good for you,
+Dialogue: 50,0:27:22.78,0:27:25.52,Main-207+,,0,0,0,,you woulda skipped\Ntown a long time ago.
+Dialogue: 50,0:27:25.55,0:27:33.53,Main-207+,,0,0,0,,You're in for it now!
+Dialogue: 50,0:27:33.56,0:27:36.73,Main-207+,,0,0,0,,Galley-La? Great,\Nthat's just what I need.
+Dialogue: 50,0:27:36.74,0:27:39.48,Main-207+,,0,0,0,,All right, the guys from\NDock One finally made it!
+Dialogue: 50,0:27:39.53,0:27:41.84,Main-207+,,0,0,0,,Lock those losers up and throw away the\Nkey!
+Dialogue: 50,0:27:41.87,0:27:43.07,Main-207+,,0,0,0,,Woooo!
+Dialogue: 50,0:27:53.68,0:27:54.58,Main-207+,,0,0,0,,All right!
+Dialogue: 50,0:27:54.61,0:27:56.88,Main-207+,,0,0,0,,The foremen'll take\Ncare of these guys!
+Dialogue: 50,0:27:57.06,0:27:57.86,Main-207+,,0,0,0,,That was close!
+Dialogue: 50,0:27:57.89,0:27:58.80,Main-207+,,0,0,0,,If they didn't show up,
+Dialogue: 50,0:27:58.83,0:28:01.23,Main-207+,,0,0,0,,the whole shipyard\Nwas gonna get totaled!
+Dialogue: 50,0:28:01.26,0:28:02.90,Main-207+,,0,0,0,,Wow, lucky break!
+Dialogue: 50,0:28:02.93,0:28:05.64,Main-207+,,0,0,0,,Finally, someone can put a stop to this\Nnonsense!
+Dialogue: 50,0:28:05.67,0:28:07.94,Main-207+,,0,0,0,,I bet they hate Franky too!
+Dialogue: 50,0:28:07.99,0:28:10.06,Main-207+,,0,0,0,,I'd butt out\Nof this if I were you.
+Dialogue: 50,0:28:10.09,0:28:12.13,Main-207+,,0,0,0,,Once these fists start\Nrockin' and rollin',
+Dialogue: 50,0:28:12.16,0:28:15.30,Main-207+,,0,0,0,,they don't discriminate\Nbetween pirates and shipwrights.
+Dialogue: 50,0:28:15.33,0:28:18.07,Main-207+,,0,0,0,,And that goes for\Nother people's property, too!
+Dialogue: 50,0:28:18.10,0:28:20.67,Main-207+,,0,0,0,,Surely you don't expect\Nus to stand here gobsmacked
+Dialogue: 0,0:28:20.70,0:28:22.50,Main-207+,,0,0,0,,while you wreck\Nour entire shipyard.
+Dialogue: 50,0:28:22.50,0:28:23.50,Main-207+,,0,0,0,,Hhhhhgh!\NI'm warning you, Franky,
+Dialogue: 50,0:28:24.91,0:28:26.91,Main-207+,,0,0,0,,if you don't pay for\Nthese repairs in berries,
+Dialogue: 0,0:28:26.94,0:28:28.04,Main-207+,,0,0,0,,you'll pay in blood!
+Dialogue: 50,0:28:28.05,0:28:30.62,Main-207+,,0,0,0,,All right Tilestone, calm down.
+Dialogue: 50,0:28:30.65,0:28:33.02,Main-207+,,0,0,0,,We can take care of Franky some other\Ntime.
+Dialogue: 50,0:28:33.05,0:28:37.82,Main-207+,,0,0,0,,We've got more important business to deal\Nwith right now.
+Dialogue: 50,0:28:37.85,0:28:40.22,Main-207+,,0,0,0,,Yeah. I'm lookin'\Nat you, Straw Hat.
+Dialogue: 50,0:28:40.25,0:28:42.12,Main-207+,,0,0,0,,You know exactly\Nwhat I'm talking about.
+Dialogue: 50,0:28:42.13,0:28:44.00,Main-207+,,0,0,0,,I don't know if\Nyou're brave or stupid,
+Dialogue: 50,0:28:44.04,0:28:45.77,Main-207+,,0,0,0,,but either way, you're dead.
+Dialogue: 50,0:28:45.82,0:28:47.02,Main-207+,,0,0,0,,Wait, what?
+Dialogue: 50,0:28:47.06,0:28:50.99,Main-207+,,0,0,0,,We just came here 'cause we\Nheard the news about Ice Pops.
+Dialogue: 50,0:28:51.02,0:28:52.63,Main-207+,,0,0,0,,Wasn't enough\Nto wreck my house
+Dialogue: 50,0:28:52.66,0:28:54.03,Main-207+,,0,0,0,,and beat up my boys, huh?
+Dialogue: 50,0:28:54.06,0:28:54.90,Main-207+,,0,0,0,,What's wrong?
+Dialogue: 50,0:28:54.93,0:28:55.86,Main-207+,,0,0,0,,Don't feel like a\Nman unless you're
+Dialogue: 50,0:28:55.87,0:28:57.77,Main-207+,,0,0,0,,pounding the crap out\Nof shipwrights, too?
+Dialogue: 50,0:28:57.81,0:28:58.88,Main-207+,,0,0,0,,I know that\Npuberty can make you
+Dialogue: 50,0:28:58.91,0:29:01.14,Main-207+,,0,0,0,,do some really\Ncrazy stuff, but wow.
+Dialogue: 50,0:29:01.21,0:29:02.82,Main-207+,,0,0,0,,I don't even know\Nwhat's going on,
+Dialogue: 50,0:29:03.00,0:29:05.27,Main-207+,,0,0,0,,so stop making fun of me!
+Dialogue: 50,0:29:05.30,0:29:09.24,Main-207+,,0,0,0,,Play innocent all you like.\NI won't go easy on you!
+Dialogue: 50,0:29:09.27,0:29:11.91,Main-207+,,0,0,0,,{\fad(150,150)}Rope Action Half Knot!
+Dialogue: 50,0:29:13.94,0:29:16.65,Main-207+,,0,0,0,,I can't breathe. Can't breathe.
+Dialogue: 0,0:29:20.01,0:29:23.92,Main-207+,,0,0,0,,{\fad(150,150)}Air Drive!
+Dialogue: 50,0:29:23.96,0:29:25.33,Main-207+,,0,0,0,,Damn it, just, go away!
+Dialogue: 50,0:29:25.36,0:29:28.02,Main-207+,,0,0,0,,I told you shipwrights to\Nstay out of this, didn't I?
+Dialogue: 50,0:29:28.02,0:29:32.06,Main-207+,,0,0,0,,I'm the one who owes\Nthis guy a beating, not you!
+Dialogue: 0,0:29:36.13,0:29:37.06,Main-207+,,0,0,0,,Coo!
+Dialogue: 50,0:29:37.14,0:29:39.48,Main-207+,,0,0,0,,Go Galley-La! Show 'em\Nwhat you're made of!
+Dialogue: 50,0:29:39.51,0:29:40.31,Main-207+,,0,0,0,,There's no way\Nthey can beat
+Dialogue: 50,0:29:40.34,0:29:42.74,Main-207+,,0,0,0,,the top 5 shipwrights\Nin the city!
+Dialogue: 50,0:29:42.74,0:29:45.94,Main-207+,,0,0,0,,What? Why are the shipwrights\Nfighting against us too?!
+Dialogue: 50,0:29:45.95,0:29:47.85,Main-207+,,0,0,0,,Makes me itchy.
+Dialogue: 50,0:29:50.82,0:29:51.96,Main-207+,,0,0,0,,What're you doing?!
+Dialogue: 50,0:29:51.99,0:29:54.26,Main-207+,,0,0,0,,I don't have any reason to fight you guys!
+Dialogue: 50,0:29:54.29,0:29:55.92,Main-207+,,0,0,0,,Just hold on!
+Dialogue: 50,0:30:00.26,0:30:01.96,Main-207+,,0,0,0,,Would you look at that?
+Dialogue: 50,0:30:02.00,0:30:04.13,Main-207+,,0,0,0,,He's got devil fruit powers.
+Dialogue: 50,0:30:14.74,0:30:16.84,Main-207+,,0,0,0,,Hey stupid, are you even listening?
+Dialogue: 50,0:30:16.88,0:30:20.81,Main-207+,,0,0,0,,How many times do\NI have to tell you bozos?!
+Dialogue: 50,0:30:20.85,0:30:22.85,Main-207+,,0,0,0,,For the last time...
+Dialogue: 50,0:30:24.77,0:30:27.60,Main-207+,,0,0,0,,Straw Hat is mine, damn it!
+Dialogue: 0,0:30:32.33,0:30:35.17,Main-207+,,0,0,0,,Hm?
+Dialogue: 0,0:30:35.20,0:30:36.27,Main-207+,,0,0,0,,Sorry Franky,
+Dialogue: 50,0:30:36.27,0:30:39.07,Main-207+,,0,0,0,,but we don't have time\Nfor your shenanigans today!
+Dialogue: 50,0:30:39.10,0:30:42.84,Main-207+,,0,0,0,,Get the hell outta my way,\Nyou flying monkey!
+Dialogue: 50,0:30:42.86,0:30:46.57,Main-207+,,0,0,0,,You're the one\Nwho's in the way, Franky!
+Dialogue: 0,0:30:48.37,0:30:49.87,Main-207+,,0,0,0,,Oh yeeeah!
+Dialogue: 50,0:30:49.91,0:30:51.21,Main-207+,,0,0,0,,That's our Tilestone!
+Dialogue: 50,0:30:51.24,0:30:54.21,Main-207+,,0,0,0,,He's even stronger than usual today!
+Dialogue: 0,0:31:02.22,0:31:08.16,Main-207+,,0,0,0,,Coo coo! Coo coolookoo!\NCoo coo! Coo coo!
+Dialogue: 50,0:31:09.68,0:31:12.93,Main-207+,,0,0,0,,Hey, stop it!
+Dialogue: 50,0:31:30.24,0:31:32.31,Main-207+,,0,0,0,,Damn, you guys are strong.
+Dialogue: 50,0:31:32.35,0:31:35.48,Main-207+,,0,0,0,,But I still don't know why we're fighting!
+Dialogue: 50,0:31:40.52,0:31:42.39,Main-207+,,0,0,0,,Straw Hat,\NI think we're the ones
+Dialogue: 50,0:31:42.42,0:31:45.22,Main-207+,,0,0,0,,who deserve an\Nexplanation here, not you.
+Dialogue: 50,0:31:46.96,0:31:49.36,Main-207+,,0,0,0,,Someone broke into\NIceburg's house last night.
+Dialogue: 50,0:31:49.40,0:31:50.36,Main-207+,,0,0,0,,Shot him twice in the front
+Dialogue: 50,0:31:50.40,0:31:53.43,Main-207+,,0,0,0,,and three times in the\Nback before they left.
+Dialogue: 50,0:31:53.47,0:31:55.27,Main-207+,,0,0,0,,They were from your crew!
+Dialogue: 50,0:31:55.30,0:31:58.31,Main-207+,,0,0,0,,That can't be! None\Nof us would do that!
+Dialogue: 50,0:31:58.37,0:32:01.20,Thoughts-207+,,0,0,0,,I'm never\Ngonna settle this, am I?
+Dialogue: 50,0:32:23.83,0:32:25.50,Thoughts-207+,,0,0,0,,That was Nico Robin.
+Dialogue: 50,0:32:25.54,0:32:28.58,Thoughts-207+,,0,0,0,,There's not a single doubt in my mind.
+Dialogue: 50,0:32:28.61,0:32:32.22,Thoughts-207+,,0,0,0,,But was that masked man one of the Straw\NHats as well?
+Dialogue: 50,0:32:32.24,0:32:35.57,Thoughts-207+,,0,0,0,,And why did they attack me in the first\Nplace?
+Dialogue: 50,0:32:35.61,0:32:38.14,Thoughts-207+,,0,0,0,,Surely it wasn't\Nabout their ship.
+Dialogue: 50,0:32:38.19,0:32:42.16,Thoughts-207+,,0,0,0,,No. They must've been\Naiming to steal something.
+Dialogue: 50,0:32:42.18,0:32:43.86,Thoughts-207+,,0,0,0,,But seeing as they\Nleft empty handed,
+Dialogue: 50,0:32:43.86,0:32:47.14,Thoughts-207+,,0,0,0,,I have a good idea what\Nthey were looking for.
+Dialogue: 50,0:32:47.17,0:32:50.40,Thoughts-207+,,0,0,0,,The question is if they're\Nworking with the government
+Dialogue: 0,0:32:50.44,0:32:53.14,Main-207+,,0,0,0,,or if they want\Nit for themselves.
+Dialogue: 50,0:32:53.17,0:32:54.84,Main-207+,,0,0,0,,Straw Hat Luffy.
+Dialogue: 50,0:32:55.66,0:32:58.24,Main-207+,,0,0,0,,This just in!\NBreaking news!
+Dialogue: 50,0:32:58.56,0:33:00.89,Main-207+,,0,0,0,,Iceburg has already\Nidentified the culprits
+Dialogue: 50,0:33:01.06,0:33:02.60,Main-207+,,0,0,0,,from the break-in last night!
+Dialogue: 50,0:33:02.63,0:33:04.30,Main-207+,,0,0,0,,What?!\NIs that true?!
+Dialogue: 50,0:33:04.33,0:33:06.04,Main-207+,,0,0,0,,Spread the word\Nthrough the city
+Dialogue: 50,0:33:06.07,0:33:07.60,Main-207+,,0,0,0,,and we'll capture\Nthem ourselves!
+Dialogue: 50,0:33:07.64,0:33:10.54,Main-207+,,0,0,0,,We can't let those criminals leave Water\N7!
+Dialogue: 50,0:33:10.57,0:33:12.08,Main-207+,,0,0,0,,Who did it?!
+Dialogue: 0,0:33:14.34,0:33:15.24,Main-207+,,0,0,0,,Show no mercy
+Dialogue: 50,0:33:15.28,0:33:17.71,Main-207+,,0,0,0,,to the monsters who\Nattacked our mayor!
+Dialogue: 50,0:33:20.52,0:33:22.19,Main-207+,,0,0,0,,Capture the Straw Hat Pirates
+Dialogue: 50,0:33:22.22,0:33:24.42,Main-207+,,0,0,0,,no matter what it takes!
+Dialogue: 50,0:33:26.94,0:33:30.01,Main-207+,,0,0,0,,Iceburg was shot?\NThat's news to me.
+Dialogue: 50,0:33:34.25,0:33:36.95,Main-207+,,0,0,0,,That can't be, we...
+Dialogue: 50,0:33:39.12,0:33:40.56,Main-207+,,0,0,0,,No way!
+Dialogue: 50,0:33:40.59,0:33:43.24,Main-207+,,0,0,0,,We didn't shoot Ice Pops...\NThat's just crazy!
+Dialogue: 50,0:33:43.24,0:33:44.61,Main-207+,,0,0,0,,There were two people who broke
+Dialogue: 50,0:33:44.64,0:33:46.58,Main-207+,,0,0,0,,into his room and attacked him.
+Dialogue: 50,0:33:46.61,0:33:48.11,Main-207+,,0,0,0,,He may have been hurt\Nbut that doesn't mean
+Dialogue: 50,0:33:48.14,0:33:50.28,Main-207+,,0,0,0,,he didn't get a\Ngood look at them first.
+Dialogue: 50,0:33:50.46,0:33:53.97,Main-207+,,0,0,0,,One of them was a big guy with a mask on.
+Dialogue: 50,0:33:53.97,0:33:57.18,Main-207+,,0,0,0,,The other was a tall woman with black\Nhair.
+Dialogue: 50,0:33:57.66,0:33:59.62,Main-207+,,0,0,0,,Iceburg told us\Nhe recognized her
+Dialogue: 50,0:33:59.66,0:34:00.69,Main-207+,,0,0,0,,and the government confirmed
+Dialogue: 50,0:34:00.72,0:34:03.96,Main-207+,,0,0,0,,that she's a\Nmember of your crew.
+Dialogue: 50,0:34:04.07,0:34:08.28,Main-207+,,0,0,0,,The Archaeologist, Nico Robin.
+Dialogue: 50,0:34:08.31,0:34:09.91,Main-207+,,0,0,0,,You're lying.
+Dialogue: 50,0:34:14.66,0:34:16.26,Main-207+,,0,0,0,,I won't ask you\Nwhy... maybe your crew
+Dialogue: 50,0:34:16.32,0:34:19.89,Main-207+,,0,0,0,,came to Water Seven on a\Nmission to kill Iceburg.
+Dialogue: 50,0:34:19.92,0:34:22.16,Main-207+,,0,0,0,,Or maybe you really did\Nwant your ship repaired
+Dialogue: 50,0:34:22.19,0:34:25.36,Main-207+,,0,0,0,,and attacked him on a whim\Nafter we turned you down.
+Dialogue: 50,0:34:25.39,0:34:29.26,Main-207+,,0,0,0,,I don't know how you\Npirates think and I don't care.
+Dialogue: 50,0:34:29.30,0:34:31.06,Main-207+,,0,0,0,,Point is, you tried\Nto kill my boss
+Dialogue: 50,0:34:31.10,0:34:34.04,Main-207+,,0,0,0,,and now I'm gonna\Nhave to take you down.
+Dialogue: 50,0:34:34.09,0:34:35.96,Main-207+,,0,0,0,,So he's\None of the culprits?
+Dialogue: 50,0:34:35.99,0:34:38.40,Main-207+,,0,0,0,,Tie him up Paulie,\Ndon't let that pirate go!
+Dialogue: 50,0:34:38.43,0:34:40.00,Main-207+,,0,0,0,,This is bad.
+Dialogue: 50,0:34:40.03,0:34:44.07,Main-207+,,0,0,0,,So he got shot five times,\Nbut Iceburg's still alive?
+Dialogue: 50,0:34:44.10,0:34:45.67,Main-207+,,0,0,0,,Don't look so surprised.
+Dialogue: 50,0:34:45.76,0:34:47.93,Main-207+,,0,0,0,,That guy's as tough as nails!
+Dialogue: 50,0:34:47.96,0:34:51.07,Main-207+,,0,0,0,,But if they tried it once\Nthen these scumbags
+Dialogue: 50,0:34:51.07,0:34:54.04,Main-207+,,0,0,0,,might try to go after\NIceburg a second time, too.
+Dialogue: 50,0:34:54.05,0:34:56.35,Main-207+,,0,0,0,,So we're gonna\Nsettle this now.
+Dialogue: 0,0:35:00.12,0:35:02.29,Main-207+,,0,0,0,,"Dead or Alive."
+Dialogue: 50,0:35:02.29,0:35:04.79,Main-207+,,0,0,0,,The World Government\Ndoesn't care either way.
+Dialogue: 50,0:35:04.80,0:35:07.71,Main-207+,,0,0,0,,This is what it means to have a bounty on\Nyour head.
+Dialogue: 50,0:35:07.74,0:35:09.18,Main-207+,,0,0,0,,Therefore, you can't complain.
+Dialogue: 50,0:35:09.21,0:35:12.64,Main-207+,,0,0,0,,No matter how terrible\Nyour fate may be.
+Dialogue: 50,0:35:12.68,0:35:13.61,Main-207+,,0,0,0,,You've broken the law
+Dialogue: 50,0:35:13.70,0:35:17.64,Main-207+,,0,0,0,,and now the law has\Nturned its back on you.
+Dialogue: 50,0:35:17.68,0:35:19.91,Main-207+,,0,0,0,,That's right.
+Dialogue: 50,0:35:19.95,0:35:22.92,Main-207+,,0,0,0,,We chose to live this way.
+Dialogue: 50,0:35:22.95,0:35:26.22,Main-207+,,0,0,0,,We're all outlaws.\NBut I don't care.
+Dialogue: 50,0:35:26.25,0:35:27.16,Main-207+,,0,0,0,,You're wrong!
+Dialogue: 50,0:35:27.19,0:35:29.66,Main-207+,,0,0,0,,If you knew Robin\Nyou wouldn't say that!
+Dialogue: 50,0:35:29.69,0:35:31.83,Main-207+,,0,0,0,,So you take that back!
+Dialogue: 50,0:35:31.83,0:35:33.03,Main-207+,,0,0,0,,Luffy.
+Dialogue: 50,0:35:33.06,0:35:34.77,Main-207+,,0,0,0,,Let me talk to Ice Pops!
+Dialogue: 50,0:35:34.80,0:35:36.24,Main-207+,,0,0,0,,This has to be a mistake!
+Dialogue: 50,0:35:36.27,0:35:37.94,Main-207+,,0,0,0,,There's no way it was Robin!
+Dialogue: 50,0:35:37.96,0:35:40.13,Main-207+,,0,0,0,,We'd be fools to let\Nyou anywhere near him!
+Dialogue: 50,0:35:40.31,0:35:43.51,Main-207+,,0,0,0,,Criminals have no\Nright to make demands!
+Dialogue: 50,0:35:43.54,0:35:46.78,Main-207+,,0,0,0,,He's right!\NTie up the culprits!
+Dialogue: 50,0:35:46.82,0:35:49.79,Main-207+,,0,0,0,,Those bastards can't get\Naway with shooting our hero!
+Dialogue: 50,0:35:49.82,0:35:52.09,Main-207+,,0,0,0,,Send 'em to the gallows!
+Dialogue: 50,0:35:52.12,0:35:55.16,Main-207+,,0,0,0,,Hey, wait! Just calm down!
+Dialogue: 50,0:35:55.24,0:35:57.85,Main-207+,,0,0,0,,Hold on!
+Dialogue: 50,0:35:57.88,0:35:59.15,Main-207+,,0,0,0,,You can't fool me, missy.
+Dialogue: 50,0:35:59.18,0:36:01.18,Main-207+,,0,0,0,,I saw you with\Nthat Straw Hat guy!
+Dialogue: 50,0:36:01.22,0:36:03.95,Main-207+,,0,0,0,,I bet you're one of the\Ncriminals, aren't ya?
+Dialogue: 50,0:36:03.95,0:36:04.79,Main-207+,,0,0,0,,Really?!
+Dialogue: 50,0:36:04.82,0:36:06.49,Main-207+,,0,0,0,,Yeah! She was\Nriding along with him
+Dialogue: 50,0:36:06.55,0:36:08.72,Main-207+,,0,0,0,,on a Yagara when he got here!
+Dialogue: 50,0:36:08.75,0:36:10.08,Main-207+,,0,0,0,,We've got you now!
+Dialogue: 50,0:36:10.12,0:36:12.89,Main-207+,,0,0,0,,You're gonna get what you deserve!
+Dialogue: 50,0:36:12.92,0:36:15.76,Main-207+,,0,0,0,,Stop it! Let me go!
+Dialogue: 50,0:36:15.79,0:36:16.49,Main-207+,,0,0,0,,Nami!
+Dialogue: 50,0:36:16.66,0:36:19.26,Main-207+,,0,0,0,,Word of this is gonna\Nspread like wildfire.
+Dialogue: 50,0:36:19.29,0:36:22.90,Main-207+,,0,0,0,,There's no place to\Nrun and no place to hide.
+Dialogue: 50,0:36:22.93,0:36:24.40,Main-207+,,0,0,0,,It's the end of the road.
+Dialogue: 50,0:36:24.43,0:36:26.63,Main-207+,,0,0,0,,You pirates are going down.
+Dialogue: 50,0:36:27.20,0:36:29.40,Main-207+,,0,0,0,,Extra! Extra! Read all about it!
+Dialogue: 50,0:36:29.44,0:36:30.84,Main-207+,,0,0,0,,The Straw Hat Pirates\Nwere the culprits
+Dialogue: 50,0:36:30.87,0:36:33.64,Main-207+,,0,0,0,,in the attack\Nagainst Mr. Iceburg!
+Dialogue: 50,0:36:34.51,0:36:36.61,Main-207+,,0,0,0,,The Water-Water\NNewspaper will purchase
+Dialogue: 50,0:36:36.64,0:36:41.11,Main-207+,,0,0,0,,any information related to their\Ncurrent location or actions!
+Dialogue: 50,0:36:42.35,0:36:44.09,Main-207+,,0,0,0,,We know that the\Nculprits are still here
+Dialogue: 50,0:36:44.12,0:36:47.82,Main-207+,,0,0,0,,on the island, so be\Nsure to stay on the lookout.
+Dialogue: 0,0:36:47.86,0:36:49.46,Main-207+,,0,0,0,,We must band\Ntogether to hunt down
+Dialogue: 50,0:36:49.49,0:36:52.36,Main-207+,,0,0,0,,the Straw Hats and\Nsend them to the Gallows!
+Dialogue: 0,0:36:52.39,0:36:54.70,Main-207+,,0,0,0,,{\q2}– Yeah!\N– Yeah!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 1,0:02:29.75,0:02:34.68,Captions,,0,0,0,,{\pos(965,756)\fscx148\fscy148\bord2.6\c&H0D0D0D&\3c&H0D0D0D&\1a&HFF&\blur0.6\fad(400,500)\t(355,400,\1a&H00&)\t(4430,4475,\1a&HFF&)}Back Alley, Water Seven
+Dialogue: 2,0:02:29.75,0:02:34.68,Captions,,0,0,0,,{\pos(965,756)\fscx148\fscy148\bord0\4a&HFF&\blur0.6\fad(400,500)}Back Alley, Water Seven
+Dialogue: 1,0:02:38.60,0:02:43.18,Captions,,0,0,0,,{\pos(944,637)\fscx150\fscy150\bord2.7\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}The Roof of an Inn\NBack Alley
+Dialogue: 2,0:02:38.60,0:02:43.18,Captions,,0,0,0,,{\pos(944,637)\fscx150\fscy150\bord0\4a&HFF&\blur0.6\fad(400,0)}The Roof of an Inn\NBack Alley
+Dialogue: 51,0:07:22.17,0:07:25.63,Note-207+,,0,0,0,,{\fad(0,1000)}"Mr. Iceburg Falls Victim to Assassin"
+Dialogue: 51,0:08:20.06,0:08:21.60,Note-207+,,0,0,0,,{\fad(0,1000)}"Mr. Iceburg Falls Victim to Assassin"
+Dialogue: 1,0:11:40.43,0:11:45.35,Captions,,0,0,0,,{\pos(960,556)\fscx150\fscy150\fsp2\bord2.7\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}Shift Station
+Dialogue: 2,0:11:40.43,0:11:45.35,Captions,,0,0,0,,{\pos(960,556)\fscx150\fscy150\fsp2\bord0\4a&HFF&\blur0.6\fad(400,0)}Shift Station
+Dialogue: 1,0:11:40.43,0:11:45.35,Captions,,0,0,0,,{\pos(960,671)\fscx150\fscy150\fsp2\bord2.7\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}North of Water Seven
+Dialogue: 2,0:11:40.43,0:11:45.35,Captions,,0,0,0,,{\pos(960,671)\fscx150\fscy150\fsp2\bord0\4a&HFF&\blur0.6\fad(400,0)}North of Water Seven
+Dialogue: 1,0:15:50.76,0:15:53.59,Captions,,0,0,0,,{\pos(960,668)\fscx145\fscy145\fsp1\bord2.7\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}Franky\NFranky Family Boss\NDismantler and Bounty Hunter
+Dialogue: 2,0:15:50.76,0:15:53.59,Captions,,0,0,0,,{\pos(960,668)\fscx145\fscy145\fsp1\bord0\4a&HFF&\blur0.6\fad(400,0)}Franky\NFranky Family Boss\NDismantler and Bounty Hunter
+Dialogue: 1,0:18:31.75,0:18:34.71,Sign-Reporters,,0,0,0,,{\pos(1051.5,411)\fscx147\fscy148\frz35.12\fry2\frx8\fax0.3\blur0.9}He regained consciousness
+Dialogue: 1,0:19:06.37,0:19:14.13,Captions,,0,0,0,,{\pos(972,658)\fscx145\fscy145\fsp1\bord2.5\c&H000000&\1a&HFF&\blur0.6\fad(400,400)\t(355,400,\1a&H00&)\t(7360,7405,\1a&HFF&)}Kiwi (Left) and Mozu (Right)\N{\fscx130\fscy130\fsp2}The Square Sisters\Nof the Franky Family
+Dialogue: 2,0:19:06.37,0:19:14.13,Captions,,0,0,0,,{\pos(972,658)\fscx145\fscy145\fsp1\bord0\4a&HFF&\blur0.6\fad(400,400)}Kiwi (Left) and Mozu (Right)\N{\fscx130\fscy130\fsp2}The Square Sisters\Nof the Franky Family
+Dialogue: 0,0:24:39.95,0:24:45.08,Captions,,0,0,0,,{\pos(960,692)\fscx140\fscy140\fsp1\bord2.6\c&H000000&\1a&HFF&\blur0.6\fad(400,0)\t(355,400,\1a&H00&)}Tilestone\NJoinery, Caulking, and Sailmaking Foreman\NDock One
+Dialogue: 1,0:24:39.95,0:24:45.08,Captions,,0,0,0,,{\pos(960,692)\fscx140\fscy140\fsp1\bord0\4a&HFF&\blur0.6\fad(400,0)}Tilestone\NJoinery, Caulking, and Sailmaking Foreman\NDock One
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.5\bord4\c&H000000&}Video Editing
+Dialogue: 1,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.5\bord0\4a&HFF&}Video Editing
+Dialogue: 2,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(722,635)\blur0.6\bord0\4a&HFF&}Video Editing
+Dialogue: 0,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(777,693)\blur0.5\bord4\fscx130\fscy130\c&H000000&}Galaxy 9000
+Dialogue: 1,0:00:26.26,0:00:31.82,Credits-207+,,0,0,0,,{\pos(777,693)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}Galaxy 9000
+Dialogue: 0,0:00:32.53,0:00:36.98,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.5\bord4\c&H000000&}Graphics
+Dialogue: 1,0:00:32.53,0:00:36.98,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.5\bord0\4a&HFF&}Graphics
+Dialogue: 2,0:00:32.53,0:00:36.98,Credits-207+,,0,0,0,,{\pos(788,672)\blur0.6\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:32.53,0:00:36.98,Credits-207+,,0,0,0,,{\pos(843,730)\blur0.5\bord4\fscx130\fscy130\c&H000000&}Datenshi
+Dialogue: 1,0:00:32.53,0:00:36.98,Credits-207+,,0,0,0,,{\pos(843,730)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}Datenshi
+Dialogue: 0,0:00:37.10,0:00:40.98,Credits-207+,,0,0,0,,{\pos(783,617)\blur0.5\bord4\c&H000000&}Karaoke
+Dialogue: 1,0:00:37.10,0:00:40.98,Credits-207+,,0,0,0,,{\pos(783,617)\blur0.5\bord0\4a&HFF&}Karaoke
+Dialogue: 2,0:00:37.10,0:00:40.98,Credits-207+,,0,0,0,,{\pos(783,617)\blur0.6\bord0\4a&HFF&}Karaoke
+Dialogue: 0,0:00:37.10,0:00:40.98,Credits-207+,,0,0,0,,{\pos(838,678)\blur0.5\bord4\fscx130\fscy130\c&H000000&}KaitouYahiko
+Dialogue: 1,0:00:37.10,0:00:40.98,Credits-207+,,0,0,0,,{\pos(838,678)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:42.48,0:00:47.11,Credits-207+,,0,0,0,,{\pos(786,650)\blur0.5\bord4\c&H000000&}Quality Control
+Dialogue: 1,0:00:42.48,0:00:47.11,Credits-207+,,0,0,0,,{\pos(786,650)\blur0.5\bord0\4a&HFF&}Quality Control
+Dialogue: 2,0:00:42.48,0:00:47.11,Credits-207+,,0,0,0,,{\pos(786,650)\blur0.6\bord0\4a&HFF&}Quality Control
+Dialogue: 0,0:00:42.48,0:00:47.11,Credits-207+,,0,0,0,,{\pos(841,708)\blur0.5\bord4\fscx130\fscy130\c&H000000&}Feeso   Pepperjack\NZenef
+Dialogue: 1,0:00:42.48,0:00:47.11,Credits-207+,,0,0,0,,{\pos(841,708)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}Feeso   Pepperjack\NZenef
+Dialogue: 0,0:00:55.08,0:01:02.41,Credits-207+,,0,0,0,,{\pos(474,163)\blur0.5\bord3.7\c&H000000&}Soundtracking                    Halee
+Dialogue: 1,0:00:55.08,0:01:02.41,Credits-207+,,0,0,0,,{\pos(474,163)\blur0.5\bord0\4a&HFF&}Soundtracking                    Halee
+Dialogue: 0,0:01:02.41,0:01:06.44,Credits-207+,,0,0,0,,{\pos(788,629)\blur0.5\bord3.9\fscx95\fscy95\c&H000000&}Timing
+Dialogue: 1,0:01:02.41,0:01:06.44,Credits-207+,,0,0,0,,{\pos(788,629)\blur0.5\bord0\fscx95\fscy95\4a&HFF&}Timing
+Dialogue: 2,0:01:02.41,0:01:06.44,Credits-207+,,0,0,0,,{\pos(788,629)\blur0.6\bord0\fscx95\fscy95\4a&HFF&}Timing
+Dialogue: 0,0:01:02.41,0:01:06.44,Credits-207+,,0,0,0,,{\pos(843,684)\blur0.5\bord3.9\fscx130\fscy130\c&H000000&}NateTheBird
+Dialogue: 1,0:01:02.41,0:01:06.44,Credits-207+,,0,0,0,,{\pos(843,684)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}NateTheBird
+Dialogue: 0,0:01:35.12,0:01:38.79,Credits-207+,,0,0,0,,{\pos(788,699)\blur0.5\bord4\c&H000000&}Dubtitles
+Dialogue: 1,0:01:35.12,0:01:38.79,Credits-207+,,0,0,0,,{\pos(788,699)\blur0.5\bord0\4a&HFF&}Dubtitles
+Dialogue: 2,0:01:35.12,0:01:38.79,Credits-207+,,0,0,0,,{\pos(788,699)\blur0.6\bord0\4a&HFF&}Dubtitles
+Dialogue: 0,0:01:35.12,0:01:38.79,Credits-207+,,0,0,0,,{\pos(843,757)\blur0.5\bord4\fscx130\fscy130\c&H000000&}NateTheBird
+Dialogue: 1,0:01:35.12,0:01:38.79,Credits-207+,,0,0,0,,{\pos(843,757)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}NateTheBird
+Dialogue: 0,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(782,609)\blur0.5\bord4\fscx95\c&H000000&}Translation
+Dialogue: 1,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(782,609)\blur0.5\bord0\fscx95\4a&HFF&}Translation
+Dialogue: 2,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(782,609)\blur0.6\bord0\fscx95\4a&HFF&}Translation
+Dialogue: 0,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(837,667)\blur0.5\bord4\fscx130\fscy130\c&H000000&}Crunchyroll\NGaijin
+Dialogue: 1,0:01:38.93,0:01:43.10,Credits-207+,,0,0,0,,{\pos(837,667)\blur0.5\bord0\fscx130\fscy130\4a&HFF&}Crunchyroll\NGaijin
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4

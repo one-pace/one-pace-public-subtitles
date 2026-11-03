@@ -1,0 +1,676 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+LayoutResX: 1920
+LayoutResY: 1080
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Typeset things,Candara,83,&H00F6FBF6,&H00F5FEF5,&H00000000,&H78000000,0,0,0,0,100,100,1.5E-4,0,1,4.5,0,5,45,45,45,0
+Style: Karaoke,Duality,90,&H00D7536A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.8,0,8,15,15,25,1
+Style: Translation,Duality,90,&H00D7536A,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.6,0,2,15,15,25,1
+Style: Dummy,Duality,105,&H00B35679,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.8,0,8,15,15,25,1
+Style: Episode-Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:31.86,0:01:41.85,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.02,Main-207+,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:31.86,0:01:31.90,Main-207+,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:19.00,0:00:19.04,Main-207+,OP,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 50,0:01:32.71,0:01:34.50,Main-207+,,0,0,0,,[KAIDO]\NAh, I get it now.
+Dialogue: 50,0:01:34.50,0:01:36.79,Main-207+,,0,0,0,,You're gonna turn into\Nyour Sulong form
+Dialogue: 50,0:01:36.79,0:01:40.30,Main-207+,,0,0,0,,and go berserk once\Nyou gaze at the moon.
+Dialogue: 50,0:01:40.30,0:01:43.38,Main-207+,,0,0,0,,[KAIDO laughs]
+Dialogue: 50,0:01:50.01,0:01:53.43,Main-207+,,0,0,0,,[CAT VIPER growls]
+Dialogue: 50,0:01:53.43,0:01:54.80,Main-207+,,0,0,0,,It's Jack!
+Dialogue: 50,0:02:00.27,0:02:03.52,Main-207+,,0,0,0,,[JACK]\NYou put together\Na hell of a plan, didn't you?
+Dialogue: 50,0:02:03.52,0:02:06.44,Main-207+,,0,0,0,,But that doesn't mean\Nyou're strong enough to win.
+Dialogue: 50,0:02:06.44,0:02:09.03,Main-207+,,0,0,0,,Just that we were careless.
+Dialogue: 50,0:02:09.03,0:02:12.03,Main-207+,,0,0,0,,You won't lay another\Nfinger on Kaido!
+Dialogue: 50,0:02:12.03,0:02:14.95,Main-207+,,0,0,0,,I'm about to dye this snow\Nred with your blood!
+Dialogue: 50,0:02:14.95,0:02:18.24,Main-207+,,0,0,0,,[BEAST PIRATES yell]
+Dialogue: 50,0:02:18.24,0:02:20.08,Main-207+,,0,0,0,,[CAT VIPER]\NHold your swords. One moment.
+Dialogue: 50,0:02:21.32,0:02:21.46,Main-207+,,0,0,0,,Jack devastated our\Nthousand-year-old kingdom
+Dialogue: 50,0:02:21.46,0:02:23.75,Main-207+,,0,0,0,,Jack devastated our\Nthousand-year-old kingdom
+Dialogue: 50,0:02:23.75,0:02:23.99,Main-207+,,0,0,0,,and tormented our people.
+Dialogue: 50,0:02:23.99,0:02:25.25,Main-207+,,0,0,0,,and tormented our people.
+Dialogue: 50,0:02:25.25,0:02:25.57,Main-207+,,0,0,0,,That man is our sworn enemy.
+Dialogue: 50,0:02:25.57,0:02:27.34,Main-207+,,0,0,0,,That man is our sworn enemy.
+Dialogue: 50,0:02:27.34,0:02:29.30,Main-207+,,0,0,0,,We turned him away\Ncountless times,
+Dialogue: 50,0:02:29.30,0:02:31.59,Main-207+,,0,0,0,,but he would not relent.
+Dialogue: 50,0:02:29.88,0:02:31.47,Main-207+,,0,0,0,,[JACK growls]
+Dialogue: 50,0:02:31.47,0:02:34.27,Main-207+,,0,0,0,,The warrior you were\Nsearching for is right here!
+Dialogue: 50,0:02:34.27,0:02:36.52,Main-207+,,0,0,0,,It is I!
+Dialogue: 50,0:02:38.31,0:02:40.11,Main-207+,,0,0,0,,I owe the Minks my life!
+Dialogue: 50,0:02:40.11,0:02:42.40,Main-207+,,0,0,0,,Every cruelty you committed\Nshall be punished
+Dialogue: 50,0:02:42.40,0:02:44.19,Main-207+,,0,0,0,,with the force of my fury!
+Dialogue: 50,0:02:54.73,0:02:56.98,Main-207+,,0,0,0,,[SHISHILIAN yells]
+Dialogue: 50,0:02:58.40,0:02:59.90,Main-207+,,0,0,0,,Please, allow us.
+Dialogue: 50,0:02:59.90,0:03:02.32,Main-207+,,0,0,0,,Save your power for Kaido.
+Dialogue: 50,0:03:02.32,0:03:04.15,Main-207+,,0,0,0,,[SHISHILIAN]\NYou-gara as well.
+Dialogue: 50,0:03:04.15,0:03:06.99,Main-207+,,0,0,0,,[growls]
+Dialogue: 50,0:03:18.46,0:03:20.92,Main-207+,,0,0,0,,All right. Then best of luck.
+Dialogue: 50,0:03:20.92,0:03:22.63,Main-207+,,0,0,0,,I'm grateful.
+Dialogue: 50,0:03:22.63,0:03:25.51,Main-207+,,0,0,0,,I promise you-gara\Nthat I will show Kaido
+Dialogue: 50,0:03:25.51,0:03:27.89,Main-207+,,0,0,0,,every ounce of my strength.
+Dialogue: 50,0:04:36.47,0:04:39.97,Main-207+,,0,0,0,,[JACK]\NDon't worry, they can't\Nmaintain that form for long.
+Dialogue: 50,0:04:39.97,0:04:43.90,Main-207+,,0,0,0,,Yeah, bring it on!\NWe're beasts, too, you know!
+Dialogue: 50,0:04:43.90,0:04:46.94,Main-207+,,0,0,0,,[NANGI laughs]
+Dialogue: 50,0:04:46.94,0:04:51.36,Main-207+,,0,0,0,,[BEAST PIRATES cackling]
+Dialogue: 50,0:05:09.41,0:05:13.58,Main-207+,,0,0,0,,You think that rat bastard Jack\Nwent outside with them, too?
+Dialogue: 50,0:05:13.58,0:05:16.33,Main-207+,,0,0,0,,[KING]\NUnlike you, he's\Nconsiderate enough to leave.
+Dialogue: 50,0:05:17.98,0:05:21.04,Main-207+,,0,0,0,,Huh? Excuse me?\NWhat was that?
+Dialogue: 50,0:05:21.04,0:05:26.46,Main-207+,,0,0,0,,If you've got a problem with me,\Njust say so, Punkass.
+Dialogue: 50,0:05:39.77,0:05:42.48,Main-207+,,0,0,0,,[sighs]
+Dialogue: 50,0:05:52.68,0:05:56.81,Main-207+,,0,0,0,,[SHINOBU]\NNo!
+Dialogue: 50,0:05:58.20,0:06:00.00,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:06:02.36,0:06:04.69,Main-207+,,0,0,0,,[KING]\NYour plan was solid in theory.
+Dialogue: 50,0:06:04.69,0:06:08.78,Main-207+,,0,0,0,,But the execution was\Nlacking, to say the least.
+Dialogue: 50,0:06:08.78,0:06:13.33,Main-207+,,0,0,0,,[SHINOBU gasps]
+Dialogue: 50,0:06:11.09,0:06:14.34,Main-207+,,0,0,0,,[SHINOBU screams]
+Dialogue: 50,0:06:19.39,0:06:21.68,Main-207+,,0,0,0,,Shinobu!
+Dialogue: 50,0:06:25.73,0:06:26.77,Main-207+,,0,0,0,,Shinobu!
+Dialogue: 50,0:06:29.13,0:06:33.22,Main-207+,,0,0,0,,Oh no!
+Dialogue: 50,0:06:33.22,0:06:35.56,Main-207+,,0,0,0,,Shinobu!
+Dialogue: 50,0:06:35.56,0:06:40.64,Main-207+,,0,0,0,,[SHINOBU gasps]\NLord Momonosuke!
+Dialogue: 50,0:06:40.64,0:06:43.48,Main-207+,,0,0,0,,I passed out for\Na moment. How shameful.
+Dialogue: 50,0:06:43.48,0:06:45.61,Main-207+,,0,0,0,,Now, away!
+Dialogue: 50,0:06:47.08,0:06:48.38,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:06:55.49,0:06:57.16,Main-207+,,0,0,0,,Wait, what?
+Dialogue: 50,0:06:58.04,0:07:00.62,Main-207+,,0,0,0,,[QUEEN gasps]\NHow the hell is he flying?
+Dialogue: 50,0:07:00.62,0:07:01.96,Main-207+,,0,0,0,,And why is he so bad at it?
+Dialogue: 50,0:07:01.96,0:07:06.14,Main-207+,,0,0,0,,[MOMONOSUKE gasping]
+Dialogue: 50,0:07:06.14,0:07:12.57,Main-207+,,0,0,0,,[MOMONOSUKE]\NI'm too high up! It's scary!
+Dialogue: 50,0:07:14.93,0:07:16.93,Main-207+,,0,0,0,,He's floating through the air!
+Dialogue: 50,0:07:16.93,0:07:22.69,Main-207+,,0,0,0,,What sorcery is this?
+Dialogue: 50,0:07:22.69,0:07:24.23,Main-207+,,0,0,0,,[MOMONOSUKE gasps]
+Dialogue: 50,0:07:24.23,0:07:28.28,Main-207+,,0,0,0,,[KING]\NOn behalf of the\Ncommander, I shall execute you!
+Dialogue: 50,0:07:28.28,0:07:30.90,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:07:32.34,0:07:34.26,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:07:38.55,0:07:41.60,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:07:41.60,0:07:46.23,Main-207+,,0,0,0,,[KING grunts]
+Dialogue: 50,0:07:46.23,0:07:49.56,Main-207+,,0,0,0,,I can't see a damn thing!\NHow's he doing that?
+Dialogue: 50,0:07:49.56,0:07:52.19,Main-207+,,0,0,0,,[chuckles]
+Dialogue: 50,0:08:02.63,0:08:04.01,Main-207+,,0,0,0,,Just in time!
+Dialogue: 50,0:08:04.01,0:08:10.85,Main-207+,,0,0,0,,It's Sanji! Let's go!
+Dialogue: 50,0:08:11.13,0:08:12.93,Main-207+,,0,0,0,,[KING]\NHand over the boy.
+Dialogue: 50,0:08:12.93,0:08:13.97,Main-207+,,0,0,0,,He and the Kozuki name\Nmust be erased from this world
+Dialogue: 50,0:08:13.97,0:08:15.64,Main-207+,,0,0,0,,to retire from this\Nworld once and for all.
+Dialogue: 50,0:08:15.64,0:08:17.43,Main-207+,,0,0,0,,once and for all.
+Dialogue: 50,0:08:22.25,0:08:28.55,Main-207+,,0,0,0,,[MOMONOSUKE screaming]
+Dialogue: 50,0:08:27.65,0:08:33.94,Main-207+,,0,0,0,,[MOMONOSUKE screaming]
+Dialogue: 50,0:08:27.65,0:08:33.94,Main-207+,,0,0,0,,[MOMONOSUKE screaming]
+Dialogue: 50,0:08:28.48,0:08:30.82,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:08:29.86,0:08:33.94,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:08:30.57,0:08:33.94,Main-207+,,0,0,0,,[MOMONOSUKE gasps]
+Dialogue: 50,0:08:33.94,0:08:34.30,Main-207+,,0,0,0,,Don't worry!\NI've got you, my lord!
+Dialogue: 50,0:08:34.30,0:08:37.05,Main-207+,,0,0,0,,Don't worry!\NI've got you, my lord!
+Dialogue: 50,0:08:42.20,0:08:42.31,Main-207+,,0,0,0,,[SANJI]\NHey, Momo! Nice speech earlier!
+Dialogue: 50,0:08:42.31,0:08:46.56,Main-207+,,0,0,0,,[SANJI]\NHey, Momo! Nice speech earlier!
+Dialogue: 50,0:08:46.56,0:08:46.66,Main-207+,,0,0,0,,You were badass.
+Dialogue: 50,0:08:46.66,0:08:48.09,Main-207+,,0,0,0,,You were badass.
+Dialogue: 50,0:08:48.09,0:08:51.64,Main-207+,,0,0,0,,I did my best!
+Dialogue: 50,0:08:51.64,0:08:54.85,Main-207+,,0,0,0,,[SANJI]\NAll right, Shinobu!\NKeep him safe!
+Dialogue: 50,0:08:54.85,0:08:56.56,Main-207+,,0,0,0,,Understood!
+Dialogue: 50,0:08:56.56,0:08:59.40,Main-207+,,0,0,0,,Sangoro, I shall repay you!
+Dialogue: 50,0:09:04.86,0:09:05.17,Main-207+,,0,0,0,,[SANJI]\NWhoa, whoa, whoa!\NHold up, my guy!
+Dialogue: 50,0:09:05.17,0:09:06.42,Main-207+,,0,0,0,,I can't
+Dialogue: 50,0:09:08.50,0:09:12.23,Main-207+,,0,0,0,,losing\Nend here! Knock it off!
+Dialogue: 50,0:09:14.49,0:09:17.12,Main-207+,,0,0,0,,[SANJI]\NDamn it, you bird bastard!
+Dialogue: 50,0:09:18.12,0:09:20.37,Main-207+,,0,0,0,,[SANJI]\NYou're gonna leave\Na gigantic hole in my torso
+Dialogue: 50,0:09:20.37,0:09:22.42,Main-207+,,0,0,0,,if you keep this up!
+Dialogue: 50,0:09:22.42,0:09:25.92,Main-207+,,0,0,0,,[KING]\NMore than just that,\NI'll rip you in two!
+Dialogue: 50,0:09:25.92,0:09:29.59,Main-207+,,0,0,0,,If you're so scared,\Nwhy don't you disappear again?
+Dialogue: 50,0:09:29.59,0:09:32.34,Main-207+,,0,0,0,,[SANJI]\NThis might be hard for\Nyour bird brain to comprehend,
+Dialogue: 50,0:09:32.34,0:09:33.68,Main-207+,,0,0,0,,but it's just a trick.
+Dialogue: 50,0:09:33.68,0:09:35.10,Main-207+,,0,0,0,,Lemme go, damn it!
+Dialogue: 50,0:09:35.10,0:09:36.31,Main-207+,,0,0,0,,[KING]\NSay goodbye.
+Dialogue: 50,0:09:36.31,0:09:41.27,Main-207+,,0,0,0,,[SANJI screams]
+Dialogue: 50,0:09:48.79,0:09:53.00,Main-207+,,0,0,0,,That attack was crazy.\NI think Sanji needs my help.
+Dialogue: 50,0:09:53.00,0:09:55.46,Main-207+,,0,0,0,,Hey, Yomato! Be back in a sec!
+Dialogue: 50,0:09:55.46,0:09:57.38,Main-207+,,0,0,0,,Keep an eye on Momo for me!
+Dialogue: 50,0:09:57.38,0:09:58.76,Main-207+,,0,0,0,,Is that okay?
+Dialogue: 50,0:09:58.76,0:10:00.89,Main-207+,,0,0,0,,Why wouldn't it be okay?
+Dialogue: 50,0:10:00.89,0:10:03.51,Main-207+,,0,0,0,,Uh, right! You have a point!
+Dialogue: 50,0:10:03.51,0:10:06.31,Main-207+,,0,0,0,,He... He is my son after all!
+Dialogue: 50,0:10:06.31,0:10:08.60,Main-207+,,0,0,0,,[ULTI grunts]
+Dialogue: 50,0:10:08.60,0:10:09.90,Main-207+,,0,0,0,,Then hurry it up!
+Dialogue: 50,0:10:09.90,0:10:11.65,Main-207+,,0,0,0,,Yeah. Leave it to me.
+Dialogue: 50,0:10:11.65,0:10:12.86,Main-207+,,0,0,0,,That boy will be protected
+Dialogue: 50,0:10:12.86,0:10:15.11,Main-207+,,0,0,0,,because that's what\Ngood parents do!
+Dialogue: 50,0:10:15.11,0:10:16.86,Main-207+,,0,0,0,,[ULTI]\NHey! I'm not done with you!
+Dialogue: 50,0:10:16.86,0:10:18.49,Main-207+,,0,0,0,,[YAMATO]\NWait for me, Momonosuke!
+Dialogue: 50,0:10:18.49,0:10:19.74,Main-207+,,0,0,0,,Your father is on his way!
+Dialogue: 50,0:10:19.74,0:10:21.62,Main-207+,,0,0,0,,[ULTI]\NWait! Stop running away from me!
+Dialogue: 50,0:10:21.62,0:10:26.66,Main-207+,,0,0,0,,[BIG MOM]\NNot so fast, you!
+Dialogue: 50,0:10:28.34,0:10:31.05,Main-207+,,0,0,0,,Come on out and help Mama!
+Dialogue: 50,0:10:31.05,0:10:33.26,Main-207+,,0,0,0,,The sooner we get\Nrid of these samurai,
+Dialogue: 50,0:10:33.26,0:10:35.72,Main-207+,,0,0,0,,the sooner the feast can begin!
+Dialogue: 50,0:10:35.72,0:10:38.14,Main-207+,,0,0,0,,You guys want that, don't you?
+Dialogue: 50,0:10:38.14,0:10:42.65,Main-207+,,0,0,0,,[BEAST PIRATES cheer]
+Dialogue: 50,0:10:42.65,0:10:44.57,Main-207+,,0,0,0,,It's time to pay!
+Dialogue: 50,0:10:44.57,0:10:45.98,Main-207+,,0,0,0,,Remember the wedding?
+Dialogue: 50,0:10:45.98,0:10:47.07,Main-207+,,0,0,0,,The tea party?
+Dialogue: 50,0:10:47.07,0:10:48.99,Main-207+,,0,0,0,,And now this banquet!
+Dialogue: 50,0:10:48.99,0:10:51.07,Main-207+,,0,0,0,,You've managed to\Ndestroy everything
+Dialogue: 50,0:10:51.07,0:10:52.82,Main-207+,,0,0,0,,I've looked forward to!
+Dialogue: 50,0:10:53.44,0:10:59.19,Main-207+,,0,0,0,,[BIG MOM]\NI am going to destroy\Nyou in a spectacular fashion!
+Dialogue: 50,0:10:59.19,0:11:04.99,Main-207+,,0,0,0,,You will die\Nlike the worm you are!
+Dialogue: 50,0:11:08.50,0:11:10.25,Main-207+,,0,0,0,,Oh, no!
+Dialogue: 50,0:11:10.25,0:11:14.50,Main-207+,,0,0,0,,[SAMURAI scream]
+Dialogue: 50,0:11:18.59,0:11:22.43,Main-207+,,0,0,0,,[screams]
+Dialogue: 50,0:11:29.18,0:11:34.02,Main-207+,,0,0,0,,[SASAKI]\NWhat the hell was that?
+Dialogue: 50,0:11:34.02,0:11:40.32,Main-207+,,0,0,0,,[BIG MOM cackles]
+Dialogue: 50,0:11:40.32,0:11:42.99,Main-207+,,0,0,0,,That crone is too powerful\Nfor her own good.
+Dialogue: 50,0:11:42.99,0:11:44.32,Main-207+,,0,0,0,,From the stories I've heard,
+Dialogue: 50,0:11:44.32,0:11:46.32,Main-207+,,0,0,0,,she's not someone\Nwe should take lightly.
+Dialogue: 50,0:11:46.32,0:11:49.50,Main-207+,,0,0,0,,She's a pirate captain\Nevery bit as fearsome as Kaido!
+Dialogue: 50,0:11:49.50,0:11:52.37,Main-207+,,0,0,0,,Seriously? But if we\Ncan't handle one guy,
+Dialogue: 50,0:11:52.37,0:11:54.54,Main-207+,,0,0,0,,how are we supposed to\Nhandle two of 'em, huh?
+Dialogue: 50,0:11:55.92,0:11:58.46,Main-207+,,0,0,0,,I need to ditch her so I\Ncan help Momo and Sanji!
+Dialogue: 50,0:11:58.46,0:12:00.38,Main-207+,,0,0,0,,If I go to them, she'll follow,
+Dialogue: 50,0:12:00.38,0:12:03.47,Main-207+,,0,0,0,,and the last thing I wanna do\Nis put them in more danger.
+Dialogue: 50,0:12:03.47,0:12:06.68,Main-207+,,0,0,0,,[BIG MOM]\NGoodness, you're\Nrather slippery, aren't you?
+Dialogue: 50,0:12:06.68,0:12:13.56,Main-207+,,0,0,0,,You scurried right out\Nof the way. Oh, Zeus?
+Dialogue: 50,0:12:13.56,0:12:16.31,Main-207+,,0,0,0,,[BIG MOM]\NHmm? Hm?
+Dialogue: 50,0:12:16.31,0:12:19.15,Main-207+,,0,0,0,,Hey, Zeus! Where are you?
+Dialogue: 50,0:12:19.15,0:12:20.90,Main-207+,,0,0,0,,[gasps]\NGet back here!
+Dialogue: 50,0:12:20.90,0:12:22.17,Main-207+,,0,0,0,,It's time to go!
+Dialogue: 50,0:12:22.17,0:12:23.44,Main-207+,,0,0,0,,Uh, please, Nami,\Nwhat are you are doing?
+Dialogue: 50,0:12:23.44,0:12:23.71,Main-207+,,0,0,0,,You've seen first-hand\Nhow mad Mama can get!
+Dialogue: 50,0:12:23.71,0:12:25.61,Main-207+,,0,0,0,,You've seen first-hand\Nhow mad Mama can get!
+Dialogue: 50,0:12:25.61,0:12:26.13,Main-207+,,0,0,0,,She's gonna murder us!
+Dialogue: 50,0:12:26.13,0:12:27.30,Main-207+,,0,0,0,,She's gonna murder us!
+Dialogue: 50,0:12:27.59,0:12:29.42,Main-207+,,0,0,0,,I'll have to punish you.
+Dialogue: 50,0:12:29.42,0:12:31.26,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:12:31.26,0:12:34.59,Main-207+,,0,0,0,,Now, let's get this\Nthing over with!
+Dialogue: 50,0:12:34.59,0:12:37.34,Main-207+,,0,0,0,,Yes, Mama... [gasps]
+Dialogue: 50,0:12:37.34,0:12:40.22,Main-207+,,0,0,0,,[NAMI]\NHey! You wanna\Nescape with your life
+Dialogue: 50,0:12:40.22,0:12:42.18,Main-207+,,0,0,0,,or have Big Mom kill you?
+Dialogue: 50,0:12:42.18,0:12:45.10,Main-207+,,0,0,0,,Huh? But I can't\Ngo against Big Mom!
+Dialogue: 50,0:12:45.44,0:12:48.48,Main-207+,,0,0,0,,That is enough!
+Dialogue: 50,0:12:48.48,0:12:49.86,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:12:48.53,0:12:52.11,Main-207+,,0,0,0,,[ZEUS gasps]
+Dialogue: 50,0:12:53.57,0:12:57.41,Main-207+,,0,0,0,,Nami!
+Dialogue: 50,0:12:57.41,0:13:03.96,Main-207+,,0,0,0,,[BIG MOM]\NGive him back,\Nyou little cat burglar!
+Dialogue: 50,0:13:04.46,0:13:06.96,Main-207+,,0,0,0,,Please find it in your\Nheart to forgive me!
+Dialogue: 50,0:13:06.96,0:13:10.84,Main-207+,,0,0,0,,It's all my fault.\NI really messed up, Mama!
+Dialogue: 50,0:13:10.84,0:13:14.39,Main-207+,,0,0,0,,I should have never\Ndisobeyed you!
+Dialogue: 50,0:13:14.39,0:13:19.14,Main-207+,,0,0,0,,[BIG MOM]\NHoney, it's all right.\NCome back home.
+Dialogue: 50,0:13:19.14,0:13:22.81,Main-207+,,0,0,0,,You can make it up to me\Nby taking out this little tramp!
+Dialogue: 50,0:13:22.81,0:13:25.36,Main-207+,,0,0,0,,It's the only way\Nyou can earn my trust!
+Dialogue: 50,0:13:25.36,0:13:26.51,Main-207+,,0,0,0,,[ZEUS cries]
+Dialogue: 50,0:13:26.51,0:13:26.54,Main-207+,,0,0,0,,[ZEUS gasps]\NI will do anything\Nfor you! Just say it!
+Dialogue: 50,0:13:26.54,0:13:29.17,Main-207+,,0,0,0,,I will do anything\Nfor you! Just say it!
+Dialogue: 50,0:13:29.17,0:13:29.36,Main-207+,,0,0,0,,You want me to cut ties\Nwith her? It's a done deal!
+Dialogue: 50,0:13:29.36,0:13:30.90,Main-207+,,0,0,0,,You want me to\Ncut ties with her?
+Dialogue: 50,0:13:30.90,0:13:32.26,Main-207+,,0,0,0,,It's a done deal!
+Dialogue: 50,0:13:32.26,0:13:32.45,Main-207+,,0,0,0,,[BIG MOM]\NThat's what I like to hear.
+Dialogue: 50,0:13:32.45,0:13:34.63,Main-207+,,0,0,0,,[BIG MOM]\NThat's what I like to hear.
+Dialogue: 50,0:13:34.63,0:13:34.86,Main-207+,,0,0,0,,Now go and make\Nyour Mama proud.
+Dialogue: 50,0:13:34.86,0:13:38.88,Main-207+,,0,0,0,,Now, go and make\Nyour Mama proud!
+Dialogue: 50,0:13:38.88,0:13:38.96,Main-207+,,0,0,0,,♪ Sakura! Dun-dun-dun! ♪
+Dialogue: 50,0:13:38.96,0:13:39.81,Main-207+,,0,0,0,,♪ [LUFFY (SINGING)]\NSakura! Dun-dun-dun! ♪
+Dialogue: 50,0:13:39.81,0:13:42.90,Main-207+,,0,0,0,,[BROOK]\N♪ Dun, dun, dun, dun! Yeah! ♪
+Dialogue: 50,0:13:41.38,0:13:41.83,Main-207+,,0,0,0,,[NAMI screams]
+Dialogue: 50,0:13:41.83,0:13:45.75,Main-207+,,0,0,0,,{\fad(150,150)}♪ The time? It's flown away. ♪
+Dialogue: 50,0:13:45.75,0:13:47.71,Main-207+,,0,0,0,,{\fad(150,150)}♪ I'm like the wind. ♪
+Dialogue: 50,0:13:47.71,0:13:49.46,Main-207+,,0,0,0,,{\fad(0,150)}♪ Dun, dun! ♪
+Dialogue: 50,0:13:49.46,0:13:50.96,Main-207+,,0,0,0,,[NAMI screams]
+Dialogue: 50,0:13:49.50,0:13:50.96,Main-207+,,0,0,0,,[NAMI screams]
+Dialogue: 50,0:13:50.96,0:13:51.10,Main-207+,,0,0,0,,You've only got one chance\Nto make this right!
+Dialogue: 50,0:13:51.10,0:13:54.26,Main-207+,,0,0,0,,You've only got one\Nchance to make this right!
+Dialogue: 50,0:13:54.26,0:13:54.26,Main-207+,,0,0,0,,If you screw this up,\Nyou're done for!
+Dialogue: 50,0:13:54.26,0:13:56.60,Main-207+,,0,0,0,,If you screw this up,\Nyou're done for!
+Dialogue: 50,0:13:56.60,0:13:58.22,Main-207+,,0,0,0,,[ZEUS cries]
+Dialogue: 50,0:13:56.64,0:13:58.22,Main-207+,,0,0,0,,[ZEUS yells]
+Dialogue: 50,0:13:58.22,0:13:59.76,Main-207+,,0,0,0,,No!
+Dialogue: 50,0:13:59.76,0:14:06.16,Main-207+,,0,0,0,,{\fad(150,150)}Soul Sensor Activate!
+Dialogue: 50,0:14:06.16,0:14:06.36,Main-207+,,0,0,0,,I am really sorry, Nami!\NBeen nice knowing you and all!
+Dialogue: 50,0:14:06.36,0:14:09.32,Main-207+,,0,0,0,,I am really sorry, Nami!
+Dialogue: 50,0:14:09.32,0:14:11.58,Main-207+,,0,0,0,,Been nice knowing you and all!
+Dialogue: 50,0:14:11.58,0:14:11.74,Main-207+,,0,0,0,,You pathetic little coward!\NI am so over you!
+Dialogue: 50,0:14:11.74,0:14:16.11,Main-207+,,0,0,0,,You pathetic little coward!\NI am so over you!
+Dialogue: 50,0:14:16.11,0:14:19.04,Main-207+,,0,0,0,,[laughs]
+Dialogue: 50,0:14:16.12,0:14:19.04,Main-207+,,0,0,0,,[cackles]
+Dialogue: 50,0:14:19.04,0:14:19.12,Main-207+,,0,0,0,,Somebody help me!
+Dialogue: 50,0:14:19.12,0:14:22.12,Main-207+,,0,0,0,,Somebody help me!
+Dialogue: 50,0:14:22.12,0:14:23.50,Main-207+,,0,0,0,,♪ My brother? ♪
+Dialogue: 50,0:14:23.50,0:14:27.50,Main-207+,,0,0,0,,{\fad(150,150)}♪ I'm by his side,\Nlike a bird we will fly. ♪
+Dialogue: 50,0:14:24.59,0:14:25.63,Main-207+,,0,0,0,,{\fad(0,150)}{\an8}[laughs]
+Dialogue: 50,0:14:27.54,0:14:33.42,Main-207+,,0,0,0,,{\q2}{\fad(150,150)}[FRANKY, BROOK]\N– ♪ Saying goodbye, soaring so high, ♪\N– ♪ Saying goodbye, soaring so high, ♪
+Dialogue: 50,0:14:33.42,0:14:36.18,Main-207+,,0,0,0,,{\fad(150,0)}♪ you'll hear our cry! ♪
+Dialogue: 50,0:14:36.18,0:14:37.22,Main-207+,,0,0,0,,[laughs]
+Dialogue: 50,0:14:36.18,0:14:37.33,Main-207+,,0,0,0,,[cackles]
+Dialogue: 50,0:14:36.28,0:14:37.33,Main-207+,,0,0,0,,[laughs]
+Dialogue: 50,0:14:37.33,0:14:40.35,Main-207+,,0,0,0,,{\fad(0,150)}♪ I'm a tough guy! ♪
+Dialogue: 50,0:14:40.35,0:14:40.40,Main-207+,,0,0,0,,♪ Born to be free!\NGo-go Franky! ♪
+Dialogue: 50,0:14:40.40,0:14:47.20,Main-207+,,0,0,0,,{\fad(150,150)}♪ Born to be free!\NGo-go Franky! ♪
+Dialogue: 50,0:14:47.20,0:14:48.24,Main-207+,,0,0,0,,[laughs]
+Dialogue: 50,0:14:47.20,0:14:50.46,Main-207+,,0,0,0,,[BIG MOM gasps]
+Dialogue: 50,0:14:47.20,0:14:50.54,Main-207+,,0,0,0,,[BIG MOM gasps]
+Dialogue: 50,0:14:47.20,0:14:51.83,Main-207+,,0,0,0,,[screams]
+Dialogue: 50,0:14:50.57,0:14:55.74,Main-207+,,0,0,0,,[screams]
+Dialogue: 50,0:14:57.78,0:15:00.20,Main-207+,,0,0,0,,[BEAST PIRATES gasp]
+Dialogue: 50,0:14:58.45,0:15:00.20,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:15:00.20,0:15:04.33,Main-207+,,0,0,0,,[BROOK]\NRain, rain go away.
+Dialogue: 50,0:15:04.33,0:15:07.12,Main-207+,,0,0,0,,[BEAST PIRATES gasp]
+Dialogue: 50,0:15:07.12,0:15:13.55,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:15:13.55,0:15:13.64,Main-207+,,0,0,0,,[FRANKY]\NWhoops! I think\NI hit something back there.
+Dialogue: 50,0:15:13.64,0:15:17.61,Main-207+,,0,0,0,,[FRANKY]\NWhoops! I think\NI hit something back there.
+Dialogue: 50,0:15:20.43,0:15:20.53,Main-207+,,0,0,0,,No biggie. As long as\Nit wasn't a pretty flower.
+Dialogue: 50,0:15:20.53,0:15:25.74,Main-207+,,0,0,0,,No biggie. As long as it\Nwasn't a pretty flower.
+Dialogue: 50,0:15:28.23,0:15:31.48,Main-207+,,0,0,0,,Thanks, Big Bro!
+Dialogue: 50,0:15:34.09,0:15:36.18,Main-207+,,0,0,0,,[NAPOLEON]\NMama! Wake up!
+Dialogue: 50,0:15:36.18,0:15:36.55,Main-207+,,0,0,0,,This is about to get ugly,\Nreal fast! [gasps]
+Dialogue: 50,0:15:36.55,0:15:38.22,Main-207+,,0,0,0,,[BEAST PIRATE A]\NThey're doomed!
+Dialogue: 50,0:15:43.73,0:15:44.10,Main-207+,,0,0,0,,She's gonna flip out!
+Dialogue: 50,0:15:44.10,0:15:45.77,Main-207+,,0,0,0,,[BEAST PIRATE B]\NHe hit her straight in the face!
+Dialogue: 50,0:15:51.73,0:15:56.53,Main-207+,,0,0,0,,Big bro! [giggles]
+Dialogue: 50,0:15:56.53,0:15:58.65,Main-207+,,0,0,0,,Thank you! You're the best!
+Dialogue: 50,0:15:58.65,0:16:02.03,Main-207+,,0,0,0,,Hey, are you-teia okay?\NThat was crazy!
+Dialogue: 50,0:16:02.03,0:16:04.20,Main-207+,,0,0,0,,Yeah, it was crazy awesome!
+Dialogue: 50,0:16:04.20,0:16:06.58,Main-207+,,0,0,0,,Franky's here!\NWe got this under control!
+Dialogue: 50,0:16:06.58,0:16:08.08,Main-207+,,0,0,0,,[giggles]
+Dialogue: 50,0:16:08.08,0:16:10.33,Main-207+,,0,0,0,,Forward! Show 'em\Nwhat you've got!
+Dialogue: 50,0:16:10.33,0:16:13.25,Main-207+,,0,0,0,,[HYOGORO grunts]
+Dialogue: 50,0:16:10.33,0:16:13.34,Main-207+,,0,0,0,,[yells]
+Dialogue: 50,0:16:12.03,0:16:14.62,Main-207+,,0,0,0,,[SAMURAI yell]
+Dialogue: 50,0:16:12.84,0:16:15.18,Main-207+,,0,0,0,,[SAMURAI yell]
+Dialogue: 50,0:16:16.79,0:16:18.97,Main-207+,,0,0,0,,[FRANKY]\NGuess we missed the kickoff.
+Dialogue: 50,0:16:18.97,0:16:20.64,Main-207+,,0,0,0,,Oh, boy.
+Dialogue: 50,0:16:20.64,0:16:24.39,Main-207+,,0,0,0,,That was quite the entrance\Nthey made, but I have a plan.
+Dialogue: 50,0:16:24.39,0:16:25.69,Main-207+,,0,0,0,,Can you help out?
+Dialogue: 50,0:16:25.69,0:16:29.61,Main-207+,,0,0,0,,Of course! This should be fun.
+Dialogue: 50,0:16:29.61,0:16:30.98,Main-207+,,0,0,0,,Wow, nice.
+Dialogue: 50,0:16:30.98,0:16:33.57,Main-207+,,0,0,0,,It looks like they've\Ngot things covered for now.
+Dialogue: 50,0:16:33.57,0:16:35.86,Main-207+,,0,0,0,,All right, up I go.
+Dialogue: 50,0:16:35.86,0:16:41.50,Main-207+,,0,0,0,,Time to help Kin'emon!\NI'm ready!
+Dialogue: 50,0:16:41.50,0:16:43.38,Main-207+,,0,0,0,,[BOTH gasping]
+Dialogue: 50,0:16:43.38,0:16:45.51,Main-207+,,0,0,0,,[gasps]\NThere you are!
+Dialogue: 50,0:16:45.51,0:16:47.43,Main-207+,,0,0,0,,[BOTH gasp]
+Dialogue: 50,0:16:47.43,0:16:49.64,Main-207+,,0,0,0,,I'm so glad I found you!
+Dialogue: 50,0:16:49.64,0:16:51.22,Main-207+,,0,0,0,,Kozuki Momonosuke!
+Dialogue: 50,0:16:51.22,0:16:54.14,Main-207+,,0,0,0,,[ALL laughing]
+Dialogue: 50,0:16:51.26,0:16:54.14,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:16:54.14,0:16:55.94,Main-207+,,0,0,0,,And who are you?
+Dialogue: 50,0:17:00.44,0:17:02.69,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:17:02.69,0:17:04.36,Main-207+,,0,0,0,,[LUFFY]\NHey, Shinobu!
+Dialogue: 50,0:17:04.36,0:17:05.57,Main-207+,,0,0,0,,[SHINOBU gasps]
+Dialogue: 50,0:17:05.57,0:17:07.74,Main-207+,,0,0,0,,Don't worry, he's our friend.
+Dialogue: 50,0:17:07.74,0:17:09.36,Main-207+,,0,0,0,,He's gonna help you guys out.
+Dialogue: 50,0:17:09.36,0:17:11.78,Main-207+,,0,0,0,,Huh? An ally?
+Dialogue: 50,0:17:11.78,0:17:13.12,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:17:14.74,0:17:18.12,Main-207+,,0,0,0,,[LUFFY]\NIt's safer to be with\Nhim than to be by yourselves.
+Dialogue: 50,0:17:20.21,0:17:21.79,Main-207+,,0,0,0,,See ya!
+Dialogue: 50,0:17:25.00,0:17:26.92,Main-207+,,0,0,0,,[SHINOBU]\NYou're a friend of Sir Luffy?
+Dialogue: 50,0:17:26.92,0:17:31.93,Main-207+,,0,0,0,,I am!
+Dialogue: 50,0:17:31.93,0:17:34.72,Main-207+,,0,0,0,,Well, good. Then I'll trust you.
+Dialogue: 50,0:17:34.72,0:17:36.27,Main-207+,,0,0,0,,[MOMONOSUKE]\NWhat is your name?
+Dialogue: 50,0:17:36.27,0:17:38.23,Main-207+,,0,0,0,,[giggles]
+Dialogue: 50,0:17:38.23,0:17:40.19,Main-207+,,0,0,0,,[BOTH gasp]
+Dialogue: 50,0:17:40.19,0:17:43.73,Main-207+,,0,0,0,,Glad you asked!
+Dialogue: 50,0:17:43.73,0:17:46.61,Main-207+,,0,0,0,,[BOTH gasp]
+Dialogue: 50,0:17:46.61,0:17:51.74,Main-207+,,0,0,0,,My name is Kozuki Oden!
+Dialogue: 50,0:17:51.74,0:17:56.87,Main-207+,,0,0,0,,And I shall protect you!
+Dialogue: 50,0:17:56.87,0:17:59.29,Main-207+,,0,0,0,,You're my father?
+Dialogue: 50,0:17:59.29,0:18:01.75,Main-207+,,0,0,0,,Lord Oden?
+Dialogue: 50,0:18:07.96,0:18:11.05,Main-207+,,0,0,0,,Hold on. [gasps]
+Dialogue: 50,0:18:11.05,0:18:14.14,Main-207+,,0,0,0,,You have breasts. And horns!
+Dialogue: 50,0:18:14.14,0:18:16.93,Main-207+,,0,0,0,,Why, you're not\Nmy father at all!
+Dialogue: 50,0:18:16.93,0:18:18.77,Main-207+,,0,0,0,,This is highly suspicious!
+Dialogue: 50,0:18:18.77,0:18:20.31,Main-207+,,0,0,0,,You must be our foe!
+Dialogue: 50,0:18:20.31,0:18:23.73,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:18:23.73,0:18:25.44,Main-207+,,0,0,0,,{\fad(150,150)}[SHINOBU]\NSmoke Escape Jutsu!
+Dialogue: 50,0:18:25.44,0:18:29.19,Main-207+,,0,0,0,,[YAMATO]\NWait!\NWhy are you running away?
+Dialogue: 50,0:18:29.19,0:18:34.16,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:18:34.16,0:18:36.24,Main-207+,,0,0,0,,[HYOGORO grunts]
+Dialogue: 50,0:18:36.24,0:18:39.25,Main-207+,,0,0,0,,[BEAST PIRATE C groans]
+Dialogue: 50,0:18:41.25,0:18:43.17,Main-207+,,0,0,0,,[HYOGORO panting]\NThere's too many of them.
+Dialogue: 50,0:18:43.17,0:18:45.08,Main-207+,,0,0,0,,We just keep\Ngetting bogged down.
+Dialogue: 50,0:18:45.08,0:18:46.75,Main-207+,,0,0,0,,Yes, you're right.
+Dialogue: 50,0:18:46.75,0:18:48.96,Main-207+,,0,0,0,,There's no point in\Nfighting these small fries.
+Dialogue: 50,0:18:48.96,0:18:50.38,Main-207+,,0,0,0,,We need a change of plans.
+Dialogue: 50,0:18:50.38,0:18:52.30,Main-207+,,0,0,0,,What about the Tobi Roppo?
+Dialogue: 50,0:18:52.30,0:18:55.22,Main-207+,,0,0,0,,Those dinosaur people\Nthat Denjiro mentioned?
+Dialogue: 50,0:18:55.22,0:18:58.06,Main-207+,,0,0,0,,Might turn the tide if we\Ncould kill some of them.
+Dialogue: 50,0:18:58.06,0:19:00.89,Main-207+,,0,0,0,,Maybe that's a bit optimistic...
+Dialogue: 50,0:19:01.81,0:19:05.36,Main-207+,,0,0,0,,But even if we can't win,\Nwe can still stall them!
+Dialogue: 50,0:19:06.08,0:19:08.04,Main-207+,,0,0,0,,Oh, you brutes!
+Dialogue: 50,0:19:08.04,0:19:11.46,Main-207+,,0,0,0,,It takes some nerve\Nto run me over!
+Dialogue: 50,0:19:11.46,0:19:13.54,Main-207+,,0,0,0,,[BEAST PIRATE D]\NBig Mom is about to go berserk!
+Dialogue: 50,0:19:28.79,0:19:34.04,Main-207+,,0,0,0,,Look at all the\NStraw Hats ling up.
+Dialogue: 50,0:19:34.04,0:19:36.84,Main-207+,,0,0,0,,Are you ready to get crushed?
+Dialogue: 50,0:19:36.84,0:19:38.96,Main-207+,,0,0,0,,[chuckles]
+Dialogue: 50,0:19:40.20,0:19:44.28,Main-207+,,0,0,0,,Hello, Soul King!\NIt's been quite a while.
+Dialogue: 50,0:19:44.28,0:19:47.08,Main-207+,,0,0,0,,If nothing else,\NI applaud your captain
+Dialogue: 50,0:19:47.08,0:19:50.29,Main-207+,,0,0,0,,for gathering so many\Nunique creatures.
+Dialogue: 50,0:19:50.80,0:19:52.68,Main-207+,,0,0,0,,Yoho! I see you're\Na woman of taste!
+Dialogue: 50,0:19:52.68,0:19:56.48,Main-207+,,0,0,0,,Huh. Yeah? You like\Nmy iron body, old hag?
+Dialogue: 50,0:19:56.48,0:19:58.65,Main-207+,,0,0,0,,All right.
+Dialogue: 50,0:19:58.65,0:20:04.53,Main-207+,,0,0,0,,Then I'll give you\Na demonstration!
+Dialogue: 50,0:20:04.53,0:20:09.41,Main-207+,,0,0,0,,Cyborg power! Can ya dig it?
+Dialogue: 50,0:20:12.83,0:20:15.46,Main-207+,,0,0,0,,[FRANKY]\NI'm one of a kind, baby!
+Dialogue: 50,0:20:15.46,0:20:17.92,Main-207+,,0,0,0,,Franky, stop! Are you crazy?
+Dialogue: 50,0:20:17.92,0:20:21.21,Main-207+,,0,0,0,,She's an Emperor! We gotta run!
+Dialogue: 50,0:20:21.21,0:20:23.67,Main-207+,,0,0,0,,Is that so?
+Dialogue: 50,0:20:23.67,0:20:27.88,Main-207+,,0,0,0,,Do we run from Emperors?
+Dialogue: 50,0:20:27.88,0:20:29.56,Main-207+,,0,0,0,,I dunno.
+Dialogue: 50,0:20:29.56,0:20:36.40,Main-207+,,0,0,0,,Guess we could,\Nbut what about our captain?
+Dialogue: 50,0:20:36.40,0:20:39.10,Main-207+,,0,0,0,,[FRANKY]\NYou want him to\Nbecome King of the Pirates.
+Dialogue: 50,0:20:39.10,0:20:41.32,Main-207+,,0,0,0,,Don't you, Nami?
+Dialogue: 50,0:20:54.08,0:20:59.54,Main-207+,,0,0,0,,{\fad(150,150)}...Radical Beam!
+Dialogue: 50,0:20:59.54,0:21:00.63,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:21:00.63,0:21:02.88,Main-207+,,0,0,0,,Yikes! They're huge!
+Dialogue: 50,0:21:02.88,0:21:08.76,Main-207+,,0,0,0,,What in the world are they?
+Dialogue: 50,0:21:08.76,0:21:10.51,Main-207+,,0,0,0,,[BEAST PIRATE E]\NHey, buzz off!
+Dialogue: 50,0:21:10.51,0:21:14.64,Main-207+,,0,0,0,,If you're gonna go wild,\Nstay in your own banquet hall!
+Dialogue: 50,0:21:14.64,0:21:17.23,Main-207+,,0,0,0,,Stupid Numbers!
+Dialogue: 50,0:21:22.48,0:21:24.40,Main-207+,,0,0,0,,No!
+Dialogue: 50,0:21:24.40,0:21:28.74,Main-207+,,0,0,0,,They're as big as Oars!\NThey're monsters!
+Dialogue: 50,0:21:29.78,0:21:32.62,Main-207+,,0,0,0,,I'm getting mad flashbacks\Nfrom Thriller Bark.
+Dialogue: 50,0:21:32.62,0:21:35.95,Main-207+,,0,0,0,,[BIG MOM cackles]
+Dialogue: 50,0:21:35.95,0:21:37.37,Main-207+,,0,0,0,,Fancy that!
+Dialogue: 50,0:21:37.37,0:21:39.62,Main-207+,,0,0,0,,Those must be\NCaesar's failed attempts
+Dialogue: 50,0:21:39.62,0:21:41.84,Main-207+,,0,0,0,,at recreating ancient Giants.
+Dialogue: 50,0:21:41.84,0:21:45.17,Main-207+,,0,0,0,,No use to me, but it would\Nseem that Kaido uses them!
+Dialogue: 50,0:21:45.17,0:21:47.72,Main-207+,,0,0,0,,[NUMBERS grunt]
+Dialogue: 50,0:21:46.92,0:21:49.72,Main-207+,,0,0,0,,[BOTH gasping]
+Dialogue: 50,0:21:49.72,0:21:53.28,Main-207+,,0,0,0,,[gasps]\NIs he grabbing\Nwhat I think he's grabbing?
+Dialogue: 50,0:21:53.28,0:21:55.12,Main-207+,,0,0,0,,The Brachio Tank!
+Dialogue: 50,0:21:55.12,0:21:57.27,Main-207+,,0,0,0,,Usopp and Chopper are in there!
+Dialogue: 50,0:21:57.27,0:21:57.52,Main-207+,,0,0,0,,Hey, monster face!
+Dialogue: 50,0:21:57.52,0:22:04.24,Main-207+,,0,0,0,,Put that down\Nor I'm gonna make you!
+Dialogue: 50,0:22:04.24,0:22:08.16,Main-207+,,0,0,0,,{\fad(150,150)}[FRANKY]\NFranky...
+Dialogue: 50,0:22:08.16,0:22:12.70,Main-207+,,0,0,0,,{\fad(150,150)}...Radical...
+Dialogue: 50,0:22:12.70,0:22:17.58,Main-207+,,0,0,0,,{\fad(150,150)}...Beam!
+Dialogue: 50,0:22:17.58,0:22:20.21,Main-207+,,0,0,0,,[JAKI]\NJaki!
+Dialogue: 50,0:22:20.21,0:22:25.42,Main-207+,,0,0,0,,[USOPP, CHOPPER scream]
+Dialogue: 50,0:22:30.26,0:22:35.44,Main-207+,,0,0,0,,Now that my lasers are\Nupgraded, I'm unstoppable.
+Dialogue: 50,0:22:35.44,0:22:42.11,Main-207+,,0,0,0,,Ah, you should've\Nsaved that attack for me.
+Dialogue: 50,0:22:35.51,0:22:39.93,Main-207+,,0,0,0,,[cackles]
+Dialogue: 50,0:22:39.93,0:22:46.93,Main-207+,,0,0,0,,It's too late now, iron man.
+Dialogue: 50,0:22:48.71,0:22:50.13,Main-207+,,0,0,0,,[JINBE]\NYour hand, madam.
+Dialogue: 50,0:22:51.38,0:22:53.11,Main-207+,,0,0,0,,{\fad(150,150)}Fish-Man Jiu-Jitsu!
+Dialogue: 50,0:22:53.11,0:22:54.27,Main-207+,,0,0,0,,{\fad(0,150)}[BIG MOM]\NHuh?
+Dialogue: 50,0:22:56.57,0:23:00.97,Main-207+,,0,0,0,,Mil Fleurs!
+Dialogue: 50,0:23:00.97,0:23:06.56,Main-207+,,0,0,0,,{\fad(150,150)}Whirlpool Shoulder Throw!
+Dialogue: 50,0:23:06.56,0:23:10.73,Main-207+,,0,0,0,,[BIG MOM gasps]
+Dialogue: 50,0:23:10.73,0:23:15.07,Main-207+,,0,0,0,,{\fad(150,150)}And Delphinium!
+Dialogue: 50,0:23:17.11,0:23:20.53,Main-207+,,0,0,0,,I haven't forgotten\Nwhat you did to my fleet!
+Dialogue: 50,0:23:20.53,0:23:23.04,Main-207+,,0,0,0,,I'll kill you, too, soon enough!
+Dialogue: 50,0:23:23.04,0:23:27.37,Main-207+,,0,0,0,,[BIG MOM gasping]
+Dialogue: 50,0:23:26.89,0:23:30.39,Main-207+,,0,0,0,,[BIG MOM gasping]
+Dialogue: 50,0:23:30.39,0:23:32.77,Main-207+,,0,0,0,,Ha. Good luck.
+Dialogue: 50,0:23:36.17,0:23:38.26,Main-207+,,0,0,0,,Nice plan!
+Dialogue: 50,0:23:39.53,0:23:41.24,Main-207+,,0,0,0,,[ROBIN laughs]
+Dialogue: 50,0:23:41.24,0:23:42.93,Main-207+,,0,0,0,,[laughs]\NWent better\Nthan expected!
+Dialogue: 50,0:23:42.93,0:23:45.77,Main-207+,,0,0,0,,She'll be even angrier\Nwhen she gets back.
+Dialogue: 50,0:23:47.56,0:23:50.53,Main-207+,,0,0,0,,You are quite a\Nremarkable woman.
+Dialogue: 50,0:23:50.53,0:23:53.74,Main-207+,,0,0,0,,Good job! Thanks for the assist!
+Dialogue: 50,0:23:50.56,0:23:52.82,Main-207+,,0,0,0,,[JINBE laughs]
+Dialogue: 50,0:23:53.79,0:23:55.66,Main-207+,,0,0,0,,I coulda been scrap metal!
+Dialogue: 50,0:23:55.66,0:23:59.50,Main-207+,,0,0,0,,[JINBE laughs]\NThen I'm\Nglad we made it in time!
+Dialogue: 50,0:23:59.50,0:24:01.29,Main-207+,,0,0,0,,And now...
+Dialogue: 50,0:24:05.92,0:24:08.84,Main-207+,,0,0,0,,[FRANKY]\NThe moment you've\Nall been waiting for.
+Dialogue: 50,0:24:08.84,0:24:15.81,Main-207+,,0,0,0,,[TRANSPONDER SNAIL A ringing]
+Dialogue: 50,0:24:18.06,0:24:21.19,Main-207+,,0,0,0,,[FRANKY]\NCommander Chopper!\NGot a status report for me?
+Dialogue: 50,0:24:21.19,0:24:24.57,Main-207+,,0,0,0,,[gasps]\NUsopp! Wake up!
+Dialogue: 50,0:24:24.57,0:24:26.53,Main-207+,,0,0,0,,Usopp! Pull it together!
+Dialogue: 50,0:24:26.53,0:24:29.28,Main-207+,,0,0,0,,We're getting a call\Nfrom Franky! C'mon!
+Dialogue: 50,0:24:29.28,0:24:30.74,Main-207+,,0,0,0,,[FRANKY]\NHey! What's gives?
+Dialogue: 50,0:24:30.74,0:24:32.32,Main-207+,,0,0,0,,You good in there?
+Dialogue: 50,0:24:32.32,0:24:39.16,Main-207+,,0,0,0,,Uh... Yep, couldn't fell better,\Nthanks to the Brachio Tank.
+Dialogue: 50,0:24:39.16,0:24:43.17,Main-207+,,0,0,0,,You remember our promise, right?
+Dialogue: 50,0:24:43.17,0:24:45.30,Main-207+,,0,0,0,,"Our promise"?
+Dialogue: 50,0:24:45.30,0:24:47.46,Main-207+,,0,0,0,,We were gonna combine!
+Dialogue: 50,0:24:47.46,0:24:50.26,Main-207+,,0,0,0,,The Iron Pirate, bro!
+Dialogue: 50,0:24:50.26,0:24:52.34,Main-207+,,0,0,0,,Docking time, baby!
+Dialogue: 50,0:24:52.34,0:24:53.80,Main-207+,,0,0,0,,Iron.
+Dialogue: 50,0:24:53.80,0:24:56.14,Main-207+,,0,0,0,,...Pirate?
+Dialogue: 50,0:24:57.81,0:24:59.90,Main-207+,,0,0,0,,[BEAST PIRATES yell]
+Dialogue: 50,0:24:59.90,0:25:05.32,Main-207+,,0,0,0,,[BEAST PIRATES groan]
+Dialogue: 50,0:25:07.23,0:25:09.31,Main-207+,,0,0,0,,[LUFFY]\NGood. I can see the sky.
+Dialogue: 50,0:25:09.31,0:25:13.90,Main-207+,,0,0,0,,Okay. I think I can\Nmake it up from here.
+Dialogue: 50,0:25:13.90,0:25:14.98,Main-207+,,0,0,0,,[BEAST PIRATE F]\NNot so fast!
+Dialogue: 50,0:25:16.15,0:25:17.32,Main-207+,,0,0,0,,Uh, Master Queen!
+Dialogue: 50,0:25:17.32,0:25:19.95,Main-207+,,0,0,0,,Go away, I'm taking a break.
+Dialogue: 50,0:25:19.95,0:25:21.91,Main-207+,,0,0,0,,But it's Straw Hat!
+Dialogue: 50,0:25:21.91,0:25:26.41,Main-207+,,0,0,0,,Huh? What?! He's here?!
+Dialogue: 50,0:25:26.41,0:25:28.65,Main-207+,,0,0,0,,And who the hell is that?!
+Dialogue: 50,0:25:28.65,0:25:28.79,Main-207+,,0,0,0,,[LUFFY]\NHey there, Zoro!
+Dialogue: 50,0:25:28.79,0:25:30.24,Main-207+,,0,0,0,,[LUFFY]\NHey there, Zoro!
+Dialogue: 50,0:25:30.24,0:25:30.33,Main-207+,,0,0,0,,[ZORO]\NWell, look who it is!\NWhere are you headed?
+Dialogue: 50,0:25:30.33,0:25:33.20,Main-207+,,0,0,0,,[ZORO]\NWell, look who it is.\NWhere are you headed?
+Dialogue: 50,0:25:33.20,0:25:33.42,Main-207+,,0,0,0,,Up to fight Kaido!
+Dialogue: 50,0:25:33.42,0:25:35.78,Main-207+,,0,0,0,,Up to fight Kaido!
+Dialogue: 50,0:25:35.78,0:25:35.80,Main-207+,,0,0,0,,I'm coming with you.
+Dialogue: 50,0:25:35.80,0:25:37.46,Main-207+,,0,0,0,,I'm coming with you.
+Dialogue: 50,0:25:37.46,0:25:41.51,Main-207+,,0,0,0,,You're not getting away!
+Dialogue: 50,0:25:44.56,0:25:47.31,Main-207+,,0,0,0,,[groans]
+Dialogue: 50,0:25:47.31,0:25:51.98,Main-207+,,0,0,0,,[ZORO gasps]\NWhat the hell\Nis that thing? It's huge!
+Dialogue: 50,0:25:51.98,0:25:53.06,Main-207+,,0,0,0,,Ready?
+Dialogue: 50,0:25:53.91,0:25:59.50,Main-207+,,0,0,0,,{\fad(150,150)}[LUFFY]\NGum-Gum Rocket!
+Dialogue: 50,0:26:02.32,0:26:03.82,Main-207+,,0,0,0,,Good! We got this.
+Dialogue: 50,0:26:03.82,0:26:05.53,Main-207+,,0,0,0,,You said Kaido's up there?
+Dialogue: 50,0:26:05.53,0:26:06.99,Main-207+,,0,0,0,,Yeah. I think he\Nstarted fighting
+Dialogue: 50,0:26:06.99,0:26:09.29,Main-207+,,0,0,0,,with Kin'emon's group already!
+Dialogue: 50,0:26:09.29,0:26:11.62,Main-207+,,0,0,0,,Just a little more!
+Dialogue: 50,0:26:11.62,0:26:13.92,Main-207+,,0,0,0,,[QUEEN growls]
+Dialogue: 50,0:26:12.14,0:26:16.52,Main-207+,,0,0,0,,[roars]
+Dialogue: 50,0:26:15.19,0:26:17.94,Main-207+,,0,0,0,,[groans]
+Dialogue: 50,0:26:16.56,0:26:19.27,Main-207+,,0,0,0,,[groans]
+Dialogue: 50,0:26:16.62,0:26:19.41,Main-207+,,0,0,0,,[groans]
+Dialogue: 50,0:26:19.41,0:26:19.70,Main-207+,,0,0,0,,Damn!
+Dialogue: 50,0:26:19.70,0:26:20.94,Main-207+,,0,0,0,,[QUEEN]\NYou ain't goin'\Nnowhere on my watch!
+Dialogue: 50,0:26:20.94,0:26:21.18,Main-207+,,0,0,0,,[QUEEN]\NYou ain't goin'\Nnowhere on my watch.
+Dialogue: 50,0:26:21.18,0:26:22.76,Main-207+,,0,0,0,,Damn!
+Dialogue: 50,0:26:26.94,0:26:27.17,Main-207+,,0,0,0,,[KING]\NGive up. I control these skies!
+Dialogue: 50,0:26:27.17,0:26:29.88,Main-207+,,0,0,0,,[KING]\NGive up. I control these skies!
+Dialogue: 50,0:26:29.88,0:26:32.76,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:26:29.88,0:26:32.78,Main-207+,,0,0,0,,[gasps]
+Dialogue: 50,0:26:32.78,0:26:32.84,Main-207+,,0,0,0,,[ZORO groans]\NWe're never gonna make it
+Dialogue: 50,0:26:32.84,0:26:34.37,Main-207+,,0,0,0,,[ZORO groans]\NWe're never gonna make it
+Dialogue: 50,0:26:34.37,0:26:34.47,Main-207+,,0,0,0,,with these bastards hounding us!
+Dialogue: 50,0:26:34.47,0:26:35.70,Main-207+,,0,0,0,,with these bastards hounding us!
+Dialogue: 50,0:26:35.70,0:26:35.76,Main-207+,,0,0,0,,I didn't think they'd be\Nguarding the roof! [gasps]
+Dialogue: 50,0:26:35.76,0:26:38.18,Main-207+,,0,0,0,,I didn't think they'd\Nbe guarding the roof!
+Dialogue: 50,0:26:38.62,0:26:43.50,Main-207+,,0,0,0,,[BOTH gasp]
+Dialogue: 50,0:26:38.66,0:26:44.04,Main-207+,,0,0,0,,[QUEEN grunts]
+Dialogue: 50,0:26:41.72,0:26:46.01,Main-207+,,0,0,0,,[QUEEN grunts]
+Dialogue: 50,0:26:44.71,0:26:47.42,Main-207+,,0,0,0,,[QUEEN grunts]
+Dialogue: 50,0:26:51.46,0:26:53.92,Main-207+,,0,0,0,,[BOTH gasp]
+Dialogue: 50,0:27:01.56,0:27:04.27,Main-207+,,0,0,0,,Yeah. That's what I'm\Ntalkin' about!
+Dialogue: 50,0:27:04.27,0:27:06.69,Main-207+,,0,0,0,,Let's do it!
+Dialogue: 50,0:27:07.44,0:27:09.86,Main-207+,,0,0,0,,{\q2}{\fad(150,0)}[BOTH gasp]\N– Docking formation!\N– Docking formation!
+Dialogue: 50,0:27:09.86,0:27:12.36,Main-207+,,0,0,0,,{\fad(0,150)}Ready to combine!
+Dialogue: 50,0:27:19.46,0:27:23.29,Main-207+,,0,0,0,,{\fad(150,150)}[FRANKY]\NBlack Rhino, standing by!
+Dialogue: 50,0:27:23.29,0:27:25.42,Main-207+,,0,0,0,,{\q2}{\fad(150,0)}[BOTH]\N– Brachio Head, activate!\N– Brachio Head, activate!
+Dialogue: 50,0:27:25.42,0:27:26.50,Main-207+,,0,0,0,,{\fad(0,150)}Let's do this!
+Dialogue: 50,0:27:26.50,0:27:28.92,Main-207+,,0,0,0,,{\fad(0,150)}[BOTH scream]
+Dialogue: 50,0:27:28.92,0:27:31.88,Main-207+,,0,0,0,,[FRANKY]\NSorry, bros,\Nit's only got one seat!
+Dialogue: 50,0:27:31.88,0:27:33.55,Main-207+,,0,0,0,,[BOTH]\NWhat?!
+Dialogue: 50,0:27:33.55,0:27:36.01,Main-207+,,0,0,0,,[USOPP]\NThis is a betrayal!
+Dialogue: 50,0:27:36.01,0:27:37.26,Main-207+,,0,0,0,,Who's that up there?
+Dialogue: 50,0:27:37.26,0:27:40.02,Main-207+,,0,0,0,,[SAMURAI B]\NIt's Usohachi!\NAnd Choppereamon!
+Dialogue: 50,0:27:40.02,0:27:41.68,Main-207+,,0,0,0,,Are you two all right?
+Dialogue: 50,0:27:41.68,0:27:42.94,Main-207+,,0,0,0,,Back at the Pleasure Hall,
+Dialogue: 50,0:27:42.94,0:27:45.23,Main-207+,,0,0,0,,you guys really stuck\Nyour necks out for us!
+Dialogue: 50,0:27:45.23,0:27:46.94,Main-207+,,0,0,0,,We really owe you one!
+Dialogue: 50,0:27:46.94,0:27:49.78,Main-207+,,0,0,0,,Yeah, sure! But you can\Nthank us later!
+Dialogue: 50,0:27:49.78,0:27:51.07,Main-207+,,0,0,0,,Yeah, later!
+Dialogue: 50,0:27:51.07,0:27:54.16,Main-207+,,0,0,0,,Right now, there's a robot\Nthat you gotta see!
+Dialogue: 50,0:28:19.42,0:28:21.30,Main-207+,,0,0,0,,[yells]
+Dialogue: 50,0:28:21.30,0:28:24.24,Main-207+,,0,0,0,,[FRANKY]\NLet's rock!
+Dialogue: 50,0:28:27.22,0:28:29.47,Main-207+,,0,0,0,,Then why do you have\Na giant robot?
+Dialogue: 50,0:28:38.56,0:28:40.23,Main-207+,,0,0,0,,He took out Jaki fast!
+Dialogue: 50,0:28:40.23,0:28:42.19,Main-207+,,0,0,0,,That thing is bad news!
+Dialogue: 50,0:28:42.19,0:28:44.28,Main-207+,,0,0,0,,Let's move!\NWe'll just get stomped!
+Dialogue: 50,0:28:44.28,0:28:46.28,Main-207+,,0,0,0,,[BEAST PIRATE K]\NUh, yeah!
+Dialogue: 50,0:28:51.41,0:28:53.79,Main-207+,,0,0,0,,[SANJI]\NMomo...
+Dialogue: 50,0:28:53.79,0:28:55.58,Main-207+,,0,0,0,,[SANJI]\NI hope he got away.
+Dialogue: 50,0:28:55.58,0:28:57.75,Main-207+,,0,0,0,,[laughs]
+Dialogue: 50,0:28:56.36,0:29:00.65,Main-207+,,0,0,0,,[QUEEN grunts]
+Dialogue: 50,0:28:57.36,0:29:00.65,Main-207+,,0,0,0,,[BOTH gasping]
+Dialogue: 50,0:28:57.52,0:28:58.60,Main-207+,,0,0,0,,[ALL gasp]
+Dialogue: 50,0:29:00.65,0:29:02.94,Main-207+,,0,0,0,,[HYOGORO laughs]\NOh, sorry.
+Dialogue: 50,0:29:02.94,0:29:05.20,Main-207+,,0,0,0,,This just tickles my funny bone.
+Dialogue: 50,0:29:05.20,0:29:06.74,Main-207+,,0,0,0,,Look around us!
+Dialogue: 50,0:29:06.74,0:29:07.06,Main-207+,,0,0,0,,We're outnumbered,\Nenemies on every side.
+Dialogue: 50,0:29:07.06,0:29:10.49,Main-207+,,0,0,0,,[HYOGORO]\NWe're outnumbered.\NEnemies on every side.
+Dialogue: 50,0:29:10.49,0:29:10.82,Main-207+,,0,0,0,,And yet, for some reason,\NI feel like we can't be beat.
+Dialogue: 50,0:29:10.82,0:29:15.16,Main-207+,,0,0,0,,And yet for some reason,\NI feel like we can't be beat.
+Dialogue: 50,0:29:15.16,0:29:15.36,Main-207+,,0,0,0,,You're damn right!
+Dialogue: 50,0:29:15.36,0:29:16.42,Main-207+,,0,0,0,,You're damn right.
+Dialogue: 50,0:29:16.42,0:29:16.70,Main-207+,,0,0,0,,I thought the same thing.
+Dialogue: 50,0:29:16.70,0:29:18.04,Main-207+,,0,0,0,,I thought the same thing.
+Dialogue: 50,0:29:18.04,0:29:18.37,Main-207+,,0,0,0,,I wonder why?
+Dialogue: 50,0:29:18.37,0:29:19.17,Main-207+,,0,0,0,,I wonder why. Where does\Nthis courage come from?
+Dialogue: 50,0:29:19.17,0:29:21.34,Main-207+,,0,0,0,,Where does this\Ncourage come from?
+Dialogue: 50,0:29:21.34,0:29:21.54,Main-207+,,0,0,0,,When you put it that way
+Dialogue: 50,0:29:21.54,0:29:23.21,Main-207+,,0,0,0,,When you put it that way,
+Dialogue: 50,0:29:23.21,0:29:23.54,Main-207+,,0,0,0,,I suppose we have Mister\NStraw Hat to thank, don't we?
+Dialogue: 50,0:29:23.54,0:29:27.75,Main-207+,,0,0,0,,I suppose we have Mister\NStraw Hat to thank, don't we?
+Dialogue: 50,0:29:29.76,0:29:32.85,Main-207+,,0,0,0,,Looks like I won't be able\Nto jump up there after all.
+Dialogue: 50,0:29:32.85,0:29:35.48,Main-207+,,0,0,0,,I guess, I need a new plan.
+Dialogue: 50,0:29:35.48,0:29:37.94,Main-207+,,0,0,0,,I've got your back, Captain.
+Dialogue: 50,0:29:37.94,0:29:42.73,Main-207+,,0,0,0,,You've got me. Let's head up.
+Dialogue: 50,0:29:42.73,0:29:44.94,Main-207+,,0,0,0,,This is a damn pain.
+Dialogue: 50,0:29:44.94,0:29:46.20,Main-207+,,0,0,0,,Bastards were ready.
+Dialogue: 50,0:29:46.20,0:29:48.20,Main-207+,,0,0,0,,They got the whole\Nswarm up there!
+Dialogue: 50,0:29:48.20,0:29:50.03,Main-207+,,0,0,0,,They'll be nothing\Nbut caterpillars
+Dialogue: 50,0:29:50.03,0:29:51.78,Main-207+,,0,0,0,,once we tear off their wings.
+Dialogue: 50,0:29:51.78,0:29:53.54,Main-207+,,0,0,0,,[USOPP]\NI get the sentiment,\Nbut do you have to be
+Dialogue: 50,0:29:53.54,0:29:55.04,Main-207+,,0,0,0,,so creepy about it?
+Dialogue: 50,0:29:57.08,0:29:58.46,Main-207+,,0,0,0,,[BROOK laughs]\NI suppose those dinosaurs
+Dialogue: 50,0:29:58.46,0:30:01.17,Main-207+,,0,0,0,,are the fabled\N"Lead Performers"?
+Dialogue: 50,0:30:01.17,0:30:04.63,Main-207+,,0,0,0,,[CHOPPER grunts]
+Dialogue: 50,0:30:04.63,0:30:06.26,Main-207+,,0,0,0,,They look pretty tough,
+Dialogue: 50,0:30:06.26,0:30:09.01,Main-207+,,0,0,0,,but I'm not worried\N'cuz our captain's stronger!
+Dialogue: 50,0:30:09.01,0:30:10.26,Main-207+,,0,0,0,,[NAMI]\NThat's right.
+Dialogue: 50,0:30:10.26,0:30:12.85,Main-207+,,0,0,0,,And as navigator,\Nit's my duty to help him
+Dialogue: 50,0:30:12.85,0:30:15.22,Main-207+,,0,0,0,,get wherever he needs to go!
+Dialogue: 50,0:30:18.56,0:30:20.27,Main-207+,,0,0,0,,[FRANKY]\NDon't sweat a thing, brother.
+Dialogue: 50,0:30:20.27,0:30:22.40,Main-207+,,0,0,0,,General Franky's gonna\Nclear out those thugs
+Dialogue: 50,0:30:22.40,0:30:24.90,Main-207+,,0,0,0,,before you can say "super"!
+Dialogue: 50,0:30:26.38,0:30:26.90,Main-207+,,0,0,0,,Everyone's ready, Captain!
+Dialogue: 50,0:30:26.90,0:30:29.16,Main-207+,,0,0,0,,Everyone's ready, Captain!
+Dialogue: 50,0:30:28.76,0:30:30.80,Main-207+,,0,0,0,,[JINBE grunts]
+Dialogue: 50,0:30:30.80,0:30:31.32,Main-207+,,0,0,0,,Right! Time for round two!
+Dialogue: 50,0:30:31.32,0:30:33.09,Main-207+,,0,0,0,,Right! Time for round two!
+Dialogue: 50,0:30:33.09,0:30:33.66,Main-207+,,0,0,0,,Let's do it!
+Dialogue: 50,0:30:33.66,0:30:34.76,Main-207+,,0,0,0,,Let's do it!
+Dialogue: 50,0:30:34.76,0:30:35.29,Main-207+,,0,0,0,,Samurai! Don't give 'em an inch!
+Dialogue: 50,0:30:35.29,0:30:37.89,Main-207+,,0,0,0,,Samurai! Don't give 'em an inch!
+Dialogue: 50,0:30:37.89,0:30:38.37,Main-207+,,0,0,0,,We're counting on you!
+Dialogue: 50,0:30:38.37,0:30:40.29,Main-207+,,0,0,0,,We're counting on you!
+Dialogue: 50,0:30:40.29,0:30:45.17,Main-207+,,0,0,0,,[SAMURAI yell]
+Dialogue: 50,0:30:40.33,0:30:44.80,Main-207+,,0,0,0,,[SAMURAI yell]
+Dialogue: 50,0:30:54.70,0:30:55.18,Main-207+,,0,0,0,,You better get ready, Kaido,\N'cause I'm coming for you.
+Dialogue: 50,0:30:55.18,0:30:58.10,Main-207+,,0,0,0,,You better get ready, Kaido.
+Dialogue: 50,0:30:58.10,0:31:00.81,Main-207+,,0,0,0,,'Cause I'm coming for ya.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 2,0:01:45.17,0:01:47.55,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.6\fad(727,0)}I Can't Imagine Losing
+Dialogue: 1,0:01:45.17,0:01:47.55,Episode-Title-207+,,0,0,0,,{\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.6\fad(727,0)\t(686,727,\1a&H00&)}I Can't Imagine Losing
+Dialogue: 1,0:04:02.76,0:04:05.89,Captions-207+,,0,0,0,,{\an2\pos(960,715)\fnDFGKanTeiRyu-XB-CP\bord0\c&H000000&\blur0.8}Roddy & BB\N{\fnVAG Rounded Std Light}Whale Forest Guardians
+Dialogue: 0,0:04:02.76,0:04:05.89,Captions-207+,,0,0,0,,{\an2\pos(960,715)\fnDFGKanTeiRyu-XB-CP\bord5\c&HF7F6FC&\blur0.8\3c&HF7F6FC&}Roddy & BB\N{\fnVAG Rounded Std Light\bord3.5}Whale Forest Guardians
+Dialogue: 1,0:04:19.53,0:04:22.99,Captions-207+,,0,0,0,,{\an2\pos(960,735)\fnDFGKanTeiRyu-XB-CP\bord0\c&H000000&\blur0.8}Giovanni, Shishilian, & Concelot\N{\fnVAG Rounded Std Light\fscx125\fscy125}Inuarashi's Three Musketeers
+Dialogue: 0,0:04:19.53,0:04:22.99,Captions-207+,,0,0,0,,{\an2\pos(960,735)\fnDFGKanTeiRyu-XB-CP\bord3\c&HF7F6FC&\blur0.8\3c&HF7F6FC&}Giovanni, Shishilian, & Concelot\N{\fnVAG Rounded Std Light\fscx125\fscy125}Inuarashi's Three Musketeers
+Dialogue: 1,0:04:43.43,0:04:46.39,Captions-207+,,0,0,0,,{\pos(987,590)\fnCC Ultimatum\fscx125\fscy125\blur0.8\c&HF5F4F5&\bord0}Nangi of the Numbers
+Dialogue: 0,0:04:43.43,0:04:46.39,Captions-207+,,0,0,0,,{\pos(987,590)\fnCC Ultimatum\fscx125\fscy125\blur0.8\c&HF5F4F5&\3c&H111A2F&}Nangi of the Numbers
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:25.17,0:00:27.22,Credits-207+,,0,0,0,,{\pos(330,669)\blur0.3\bord3.4\fscx83\fscy88\fsp2\b600\c&H000000&}Video Editing
+Dialogue: 1,0:00:25.17,0:00:27.22,Credits-207+,,0,0,0,,{\pos(330,669)\blur0.4\bord0\fscx83\fscy88\fsp2\b600\4a&HFF&}Video Editing
+Dialogue: 0,0:00:25.17,0:00:27.22,Credits-207+,,0,0,0,,{\pos(350,720)\blur0.3\bord4\fscx120\fscy120\b600\c&H000000&}fedew
+Dialogue: 1,0:00:25.17,0:00:27.22,Credits-207+,,0,0,0,,{\pos(350,720)\blur0.4\bord0\fscx120\fscy120\b600\4a&HFF&}fedew
+Dialogue: 2,0:00:25.17,0:00:27.22,Credits-207+,,0,0,0,,{\pos(350,720)\blur0.4\bord0\fscx120\fscy120\b600\4a&HFF&}fedew
+Dialogue: 0,0:00:27.30,0:00:29.55,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&\b600\pos(1293,615)}Karaoke
+Dialogue: 1,0:00:27.30,0:00:29.55,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&\b600\pos(1293,615)}Karaoke
+Dialogue: 0,0:00:27.30,0:00:29.55,Credits-207+,,0,0,0,,{\blur0.3\bord3.8\fscx95\fscy95\c&H000000&\b600\pos(1315,666)}KaitouYahiko
+Dialogue: 1,0:00:27.30,0:00:29.55,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx95\fscy95\4a&HFF&\b600\pos(1315,666)}KaitouYahiko
+Dialogue: 2,0:00:27.30,0:00:29.55,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx95\fscy95\4a&HFF&\b600\pos(1315,666)}KaitouYahiko
+Dialogue: 0,0:00:30.93,0:00:32.51,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&\b600\pos(326,650)}Typesetting
+Dialogue: 1,0:00:30.93,0:00:32.51,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&\b600\pos(326,650)}Typesetting
+Dialogue: 0,0:00:30.93,0:00:32.51,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(358,705)}Gab
+Dialogue: 1,0:00:30.93,0:00:32.51,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(358,705)}Gab
+Dialogue: 2,0:00:30.93,0:00:32.51,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(358,705)}Gab
+Dialogue: 0,0:00:34.77,0:00:39.19,Credits-207+,,0,0,0,,{\an5\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(965,148.4)}Soundtracking
+Dialogue: 1,0:00:34.77,0:00:39.19,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,148.4)}Soundtracking
+Dialogue: 2,0:00:34.77,0:00:39.19,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,148.4)}Soundtracking
+Dialogue: 0,0:00:34.77,0:00:39.19,Credits-207+,,0,0,0,,{\an5\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(965,213.4)}Halee
+Dialogue: 1,0:00:34.77,0:00:39.19,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,213.4)}Halee
+Dialogue: 2,0:00:34.77,0:00:39.19,Credits-207+,,0,0,0,,{\an5\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(965,213.4)}Halee
+Dialogue: 0,0:00:39.23,0:00:40.56,Credits-207+,,0,0,0,,{\pos(442,589)\blur0.3\bord3.4\fscx83\fscy88\fsp2\b600\c&H000000&}Graphics
+Dialogue: 1,0:00:39.23,0:00:40.56,Credits-207+,,0,0,0,,{\pos(442,589)\blur0.4\bord0\fscx83\fscy88\fsp2\b600\4a&HFF&}Graphics
+Dialogue: 0,0:00:39.23,0:00:40.56,Credits-207+,,0,0,0,,{\pos(467,640)\blur0.3\bord4\fscx100\fscy100\b600\c&H000000&}Datenshi\NMaktree
+Dialogue: 1,0:00:39.23,0:00:40.56,Credits-207+,,0,0,0,,{\pos(467,640)\blur0.4\bord0\fscx100\fscy100\b600\4a&HFF&}Datenshi\NMaktree
+Dialogue: 2,0:00:39.23,0:00:40.56,Credits-207+,,0,0,0,,{\pos(467,640)\blur0.4\bord0\fscx100\fscy100\b600\4a&HFF&}Datenshi\NMaktree
+Dialogue: 0,0:00:40.60,0:00:43.15,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx83\fscy88\fsp3\c&H000000&\b600\pos(800,620)}Translation
+Dialogue: 1,0:00:40.60,0:00:43.15,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx83\fscy88\fsp3\4a&HFF&\b600\pos(800,620)}Translation
+Dialogue: 0,0:00:40.60,0:00:43.15,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx95\fscy95\c&H000000&\b600\pos(820,671)}Crunchyroll\NPamkinPinguin
+Dialogue: 1,0:00:40.60,0:00:43.15,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx95\fscy95\4a&HFF&\b600\pos(820,671)}Crunchyroll\NPamkinPinguin
+Dialogue: 2,0:00:40.60,0:00:43.15,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx95\fscy95\4a&HFF&\b600\pos(820,671)}Crunchyroll\NPamkinPinguin
+Dialogue: 0,0:00:43.19,0:00:44.69,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&\b600\pos(806,660)}Closed Captioning
+Dialogue: 1,0:00:43.19,0:00:44.69,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&\b600\pos(806,660)}Closed Captioning
+Dialogue: 0,0:00:43.19,0:00:44.69,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(830,708)}NateTheBird
+Dialogue: 1,0:00:43.19,0:00:44.69,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(830,708)}NateTheBird
+Dialogue: 2,0:00:43.19,0:00:44.69,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(830,708)}NateTheBird
+Dialogue: 0,0:00:47.24,0:00:48.53,Credits-207+,,0,0,0,,{\an1\pos(811,328)\blur0.3\bord3.4\fscx83\fscy88\fsp3\b600\c&H000000&}Quality Control
+Dialogue: 1,0:00:47.24,0:00:48.53,Credits-207+,,0,0,0,,{\an1\pos(811,328)\blur0.4\bord0\fscx83\fscy88\fsp3\b600\4a&HFF&}Quality Control
+Dialogue: 0,0:00:47.24,0:00:48.53,Credits-207+,,0,0,0,,{\an1\pos(831,520)\blur0.3\bord4\fscx110\fscy110\b600\c&H000000&}Gab\NGalaxy 9000\NGol D. Rocks
+Dialogue: 1,0:00:47.24,0:00:48.53,Credits-207+,,0,0,0,,{\an1\pos(831,520)\blur0.4\bord0\fscx110\fscy110\b600\4a&HFF&}Gab\NGalaxy 9000\NGol D. Rocks
+Dialogue: 2,0:00:47.24,0:00:48.53,Credits-207+,,0,0,0,,{\an1\pos(831,520)\blur0.4\bord0\fscx110\fscy110\b600\4a&HFF&}Gab\NGalaxy 9000\NGol D. Rocks
+Dialogue: 0,0:00:48.65,0:00:50.20,Credits-207+,,0,0,0,,{\an1\pos(811,375)\blur0.3\bord3.4\fscx83\fscy88\fsp3\b600\c&H000000&}Quality Control
+Dialogue: 1,0:00:48.65,0:00:50.20,Credits-207+,,0,0,0,,{\an1\pos(811,375)\blur0.4\bord0\fscx83\fscy88\fsp3\b600\4a&HFF&}Quality Control
+Dialogue: 0,0:00:48.65,0:00:50.20,Credits-207+,,0,0,0,,{\an1\pos(831,565)\blur0.3\bord4\fscx110\fscy110\b600\c&H000000&}Pepperjack\NWestfal\NZenef
+Dialogue: 1,0:00:48.65,0:00:50.20,Credits-207+,,0,0,0,,{\an1\pos(831,565)\blur0.4\bord0\fscx110\fscy110\b600\4a&HFF&}Pepperjack\NWestfal\NZenef
+Dialogue: 2,0:00:48.65,0:00:50.20,Credits-207+,,0,0,0,,{\an1\pos(831,565)\blur0.4\bord0\fscx110\fscy110\b600\4a&HFF&}Pepperjack\NWestfal\NZenef
+Dialogue: 0,0:00:51.24,0:00:53.74,Credits-207+,,0,0,0,,{\blur0.3\bord3.4\fscx85\fscy90\fsp3\c&H000000&\b600\pos(810,680)}Timing
+Dialogue: 1,0:00:51.24,0:00:53.74,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx85\fscy90\fsp3\4a&HFF&\b600\pos(810,680)}Timing
+Dialogue: 0,0:00:51.24,0:00:53.74,Credits-207+,,0,0,0,,{\blur0.3\bord4\fscx110\fscy110\c&H000000&\b600\pos(834,727)}NateTheBird
+Dialogue: 1,0:00:51.24,0:00:53.74,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(834,727)}NateTheBird
+Dialogue: 2,0:00:51.24,0:00:53.74,Credits-207+,,0,0,0,,{\blur0.4\bord0\fscx110\fscy110\4a&HFF&\b600\pos(834,727)}NateTheBird
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
