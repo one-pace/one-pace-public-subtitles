@@ -1,0 +1,710 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.55,0:00:00.58,Default,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:26.36,0:01:26.39,Default,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:00.55,0:00:00.58,Default,OP,0,0,0,,
+Dialogue: 50,0:01:34.80,0:01:35.74,Main-207+,,0,0,0,,This is awesome!
+Dialogue: 50,0:01:37.40,0:01:38.52,Main-207+,,0,0,0,,Guys, check it out!
+Dialogue: 0,0:01:40.23,0:01:40.52,Main-207+,,0,0,0,,Haha!
+Dialogue: 50,0:01:40.52,0:01:41.64,Main-207+,,0,0,0,,I'm like Sanji!
+Dialogue: 50,0:01:41.72,0:01:43.12,Main-207+,,0,0,0,,What happened to your head?
+Dialogue: 50,0:01:43.20,0:01:46.40,Main-207+,,0,0,0,,It used to be so big and tall, like\Nyou had a giant light bulb growing
+Dialogue: 50,0:01:46.40,0:01:47.38,Main-207+,,0,0,0,,out of your skull.
+Dialogue: 50,0:01:47.46,0:01:48.52,Main-207+,,0,0,0,,My head?
+Dialogue: 50,0:01:49.26,0:01:50.19,Main-207+,,0,0,0,,Oh!
+Dialogue: 50,0:01:50.27,0:01:54.14,Main-207+,,0,0,0,,Well, it had grown quite\Nlong you see, so I cut it.
+Dialogue: 50,0:01:54.22,0:01:56.78,Main-207+,,0,0,0,,What, like you had it snipped\Noff at the frikken barber?
+Dialogue: 50,0:01:56.78,0:01:57.95,Main-207+,,0,0,0,,Then I had to.
+Dialogue: 50,0:01:58.03,0:01:59.53,Main-207+,,0,0,0,,What else was I to do?
+Dialogue: 50,0:01:59.61,0:02:01.74,Main-207+,,0,0,0,,When I last saw you,\Nit was so big.
+Dialogue: 50,0:02:01.82,0:02:03.79,Main-207+,,0,0,0,,I was almost as tall as a giant!
+Dialogue: 50,0:02:03.87,0:02:06.62,Main-207+,,0,0,0,,I heard it was big,\Nbut that sounds ridiculous.
+Dialogue: 50,0:02:06.70,0:02:07.92,Main-207+,,0,0,0,,It was like a balloon.
+Dialogue: 50,0:02:10.18,0:02:12.60,Main-207+,,0,0,0,,You cut your head\Nbut you're still alive?
+Dialogue: 50,0:02:12.68,0:02:14.03,Main-207+,,0,0,0,,How is that even possible?
+Dialogue: 50,0:02:15.97,0:02:20.56,Main-207+,,0,0,0,,Well, you see, my young friends,\NI have a brain.
+Dialogue: 50,0:02:21.81,0:02:23.05,Main-207+,,0,0,0,,I bit my tongue.
+Dialogue: 50,0:02:23.13,0:02:23.86,Main-207+,,0,0,0,,Oh, no.
+Dialogue: 50,0:02:23.94,0:02:24.80,Main-207+,,0,0,0,,My poor tongue.
+Dialogue: 50,0:02:24.88,0:02:26.41,Main-207+,,0,0,0,,Old man, you okay?
+Dialogue: 50,0:02:28.74,0:02:33.24,Main-207+,,0,0,0,,You see, my young friends,\NI've eaten the brain fruit.
+Dialogue: 50,0:02:33.72,0:02:36.56,Main-207+,,0,0,0,,It allows me to absorb\Nlimitless knowledge.
+Dialogue: 50,0:02:36.64,0:02:41.46,Main-207+,,0,0,0,,But the more my brain knows,\Nthe more it grows and grows and grows.
+Dialogue: 50,0:02:41.54,0:02:46.15,Main-207+,,0,0,0,,On top of my natural genius,\NI possess an unlimited data bank.
+Dialogue: 50,0:02:46.23,0:02:48.79,Main-207+,,0,0,0,,Thus, I have the world's\Nlargest brain.
+Dialogue: 50,0:02:48.87,0:02:51.70,Main-207+,,0,0,0,,And it grows larger\Nand larger every day.
+Dialogue: 50,0:02:51.78,0:02:52.72,Main-207+,,0,0,0,,Wait, what?
+Dialogue: 50,0:02:52.80,0:02:54.16,Main-207+,,0,0,0,,Then where is it?
+Dialogue: 50,0:02:54.24,0:02:55.49,Main-207+,,0,0,0,,That sounds insane.
+Dialogue: 50,0:02:55.57,0:02:56.41,Main-207+,,0,0,0,,You lost me.
+Dialogue: 50,0:02:59.65,0:03:00.37,Main-207+,,0,0,0,,I get it.
+Dialogue: 50,0:03:00.45,0:03:02.44,Main-207+,,0,0,0,,You cut your brain out\Nso now you're stupid.
+Dialogue: 50,0:03:02.44,0:03:04.90,Main-207+,,0,0,0,,Do not trifle\Nwith a genius, boy!
+Dialogue: 50,0:03:05.42,0:03:09.08,Main-207+,,0,0,0,,This apple here is an antenna.
+Dialogue: 50,0:03:09.46,0:03:10.93,Main-207+,,0,0,0,,Connected to what?
+Dialogue: 50,0:03:11.02,0:03:12.84,Main-207+,,0,0,0,,Look at the structure\Nup there.
+Dialogue: 50,0:03:14.89,0:03:19.53,Main-207+,,0,0,0,,The inside of that egg doesn't\Nsay Punk Records just for fun.
+Dialogue: 50,0:03:19.62,0:03:22.67,Main-207+,,0,0,0,,That is where my enormous\Nbrain is stored.
+Dialogue: 50,0:03:23.88,0:03:25.37,Main-207+,,0,0,0,,It's really that big?
+Dialogue: 50,0:03:25.45,0:03:28.36,Main-207+,,0,0,0,,Even when I'm far away,\NI remain connected to it.
+Dialogue: 50,0:03:28.45,0:03:31.38,Main-207+,,0,0,0,,Thanks to the brain waves received\Nthrough this apple antenna.
+Dialogue: 50,0:03:31.38,0:03:32.50,Main-207+,,0,0,0,,That's so cool!
+Dialogue: 50,0:03:33.40,0:03:36.31,Main-207+,,0,0,0,,So are you a doctor\Nof medicine too, Vegapunk?
+Dialogue: 50,0:03:36.39,0:03:38.07,Main-207+,,0,0,0,,You bet, little buddy.
+Dialogue: 50,0:03:39.82,0:03:44.11,Main-207+,,0,0,0,,You met a girl when you came here,\Nwho also called herself Vegapunk, yes?
+Dialogue: 50,0:03:45.50,0:03:46.09,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:03:46.09,0:03:47.94,Main-207+,,0,0,0,,{\t(1735,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)}Yeah, she punched me in the face.
+Dialogue: 50,0:03:48.94,0:03:50.79,Main-207+,,0,0,0,,That girl is one of my clones.
+Dialogue: 50,0:03:50.87,0:03:52.55,Main-207+,,0,0,0,,There are six on the island.
+Dialogue: 50,0:03:52.64,0:03:53.18,Main-207+,,0,0,0,,Two ninjas?
+Dialogue: 50,0:03:53.18,0:03:56.44,Main-207+,,0,0,0,,It's Shadow Clone Jutsu!
+Dialogue: 50,0:03:59.27,0:04:03.45,Main-207+,,0,0,0,,Each of them has a unique talent\Nand plays a necessary role.
+Dialogue: 50,0:04:03.53,0:04:06.71,Main-207+,,0,0,0,,Shaka is calm\Nand conscientious.
+Dialogue: 50,0:04:09.43,0:04:12.51,Main-207+,,0,0,0,,Lilith has no morals\Nand is willing to plunder.
+Dialogue: 50,0:04:15.50,0:04:17.80,Main-207+,,0,0,0,,Edison is bursting with ideas.
+Dialogue: 50,0:04:20.54,0:04:23.95,Main-207+,,0,0,0,,The wise Pythagoras\Nfollows the path of reason.
+Dialogue: 50,0:04:26.92,0:04:29.84,Main-207+,,0,0,0,,Atlas is here when\Nviolence is the answer.
+Dialogue: 50,0:04:32.85,0:04:35.76,Main-207+,,0,0,0,,And the greedy York\Neats poops and sleeps.
+Dialogue: 50,0:04:39.21,0:04:43.57,Main-207+,,0,0,0,,They are me, in the sense that\Nthey comprise my personality.
+Dialogue: 50,0:04:44.48,0:04:46.90,Main-207+,,0,0,0,,But they do six\Ntimes the work.
+Dialogue: 50,0:04:48.16,0:04:49.31,Main-207+,,0,0,0,,Oh, I'm confused.
+Dialogue: 50,0:04:49.39,0:04:54.23,Main-207+,,0,0,0,,Once daily, they synchronize their experiences\Nand newly acquired knowledge
+Dialogue: 50,0:04:54.31,0:04:56.18,Main-207+,,0,0,0,,by accessing Punk Records.
+Dialogue: 50,0:04:56.26,0:05:00.00,Main-207+,,0,0,0,,Their personalities and missions are\Ndifferent, making each of them unique.
+Dialogue: 50,0:05:00.00,0:05:02.41,Main-207+,,0,0,0,,They are uniquely\Nuseful for my research.
+Dialogue: 50,0:05:03.47,0:05:05.38,Main-207+,,0,0,0,,All of you share\Nthe same brain?
+Dialogue: 50,0:05:05.47,0:05:07.69,Main-207+,,0,0,0,,This is far beyond\Nmy comprehension.
+Dialogue: 50,0:05:08.04,0:05:10.92,Main-207+,,0,0,0,,Just think of it as us\Nvisiting the same library.
+Dialogue: 50,0:05:14.99,0:05:16.81,Main-207+,,0,0,0,,Let me give you an example.
+Dialogue: 50,0:05:18.23,0:05:22.90,Main-207+,,0,0,0,,Imagine if the rest of the world accessed\Nthe database and read the information
+Dialogue: 50,0:05:22.98,0:05:24.39,Main-207+,,0,0,0,,contained in my brain.
+Dialogue: 50,0:05:25.71,0:05:29.69,Main-207+,,0,0,0,,It would be as if all mankind\Nhad acquired my knowledge.
+Dialogue: 50,0:05:29.77,0:05:30.47,Main-207+,,0,0,0,,Wow.
+Dialogue: 50,0:05:32.50,0:05:37.47,Main-207+,,0,0,0,,Then what if those people updated Punk\NRecords with their personal discoveries,
+Dialogue: 50,0:05:37.55,0:05:38.53,Main-207+,,0,0,0,,just as I do?
+Dialogue: 50,0:05:41.06,0:05:45.72,Main-207+,,0,0,0,,Why, we could create a sea\Nof knowledge, far exceeding my own.
+Dialogue: 50,0:05:46.39,0:05:48.96,Main-207+,,0,0,0,,A library of the human\Nexperience.
+Dialogue: 50,0:05:49.05,0:05:52.92,Main-207+,,0,0,0,,Like a super brain,\Nshared by all humanity.
+Dialogue: 50,0:05:53.00,0:05:55.93,Main-207+,,0,0,0,,Does that mean I could study\Nmedicine from all over the world?
+Dialogue: 50,0:05:55.93,0:05:57.01,Main-207+,,0,0,0,,That's the idea.
+Dialogue: 50,0:05:59.85,0:06:02.65,Main-207+,,0,0,0,,I have no idea\Nwhat's going on!
+Dialogue: 50,0:06:06.18,0:06:09.13,Main-207+,,0,0,0,,But what happens when different\Nideologies enter the brain?
+Dialogue: 50,0:06:09.20,0:06:10.46,Main-207+,,0,0,0,,Won't that cause issues?
+Dialogue: 50,0:06:10.54,0:06:13.15,Main-207+,,0,0,0,,A fine question,\Nfirst son of the sea.
+Dialogue: 50,0:06:13.23,0:06:18.51,Main-207+,,0,0,0,,And yet, if we never dare to take a chance,\Nthen science will never advance.
+Dialogue: 50,0:06:18.59,0:06:22.95,Main-207+,,0,0,0,,Of course you\Nwould think that way.
+Dialogue: 50,0:06:23.03,0:06:24.43,Main-207+,,0,0,0,,You bastard!
+Dialogue: 50,0:06:24.51,0:06:27.00,Main-207+,,0,0,0,,You'll sacrifice anything\Nfor your research!
+Dialogue: 50,0:06:27.08,0:06:28.48,Main-207+,,0,0,0,,Or anyone, even!
+Dialogue: 50,0:06:28.56,0:06:29.36,Main-207+,,0,0,0,,Yeah!
+Dialogue: 50,0:06:31.38,0:06:32.53,Main-207+,,0,0,0,,Like my father.
+Dialogue: 50,0:06:33.57,0:06:35.92,Main-207+,,0,0,0,,You turned him into\Na heartless machine!
+Dialogue: 50,0:06:37.81,0:06:39.07,Main-207+,,0,0,0,,Stop, Bonney!
+Dialogue: 50,0:06:39.15,0:06:41.69,Main-207+,,0,0,0,,That beam saber is\Na failed invention!
+Dialogue: 50,0:06:41.77,0:06:42.50,Main-207+,,0,0,0,,Shut up!
+Dialogue: 50,0:06:42.58,0:06:44.58,Main-207+,,0,0,0,,It'll kill you just fine.
+Dialogue: 50,0:06:44.66,0:06:46.13,Main-207+,,0,0,0,,Please calm down, Bonney.
+Dialogue: 50,0:06:46.21,0:06:47.68,Main-207+,,0,0,0,,You must think this through.
+Dialogue: 50,0:06:47.76,0:06:49.11,Main-207+,,0,0,0,,I know that you're angry.
+Dialogue: 50,0:06:49.19,0:06:52.08,Main-207+,,0,0,0,,But killing him will make\Nfar too many enemies.
+Dialogue: 50,0:06:52.16,0:06:53.71,Main-207+,,0,0,0,,I don't give a damn.
+Dialogue: 50,0:06:53.79,0:06:56.38,Main-207+,,0,0,0,,Now, you're gonna\Nturn my father back.
+Dialogue: 50,0:06:56.46,0:06:59.69,Main-207+,,0,0,0,,Or I swear, I'm gonna slice\Nyour head off, right here!
+Dialogue: 50,0:06:59.77,0:07:00.47,Main-207+,,0,0,0,,And now!
+Dialogue: 50,0:07:01.92,0:07:04.37,Main-207+,,0,0,0,,Please turn off\Nthe switch, quickly!
+Dialogue: 50,0:07:10.69,0:07:11.69,Main-207+,,0,0,0,,It's fun.
+Dialogue: 50,0:07:12.48,0:07:14.73,Main-207+,,0,0,0,,But it attracts\Na swarm of bugs!
+Dialogue: 50,0:07:26.30,0:07:27.13,Main-207+,,0,0,0,,Bonney!
+Dialogue: 50,0:07:27.94,0:07:29.58,Main-207+,,0,0,0,,Hey, Bonney!
+Dialogue: 50,0:07:30.41,0:07:31.11,Main-207+,,0,0,0,,Bonney!
+Dialogue: 50,0:07:31.14,0:07:31.84,Main-207+,,0,0,0,,Wake up!
+Dialogue: 50,0:07:34.46,0:07:35.32,Main-207+,,0,0,0,,Check this out!
+Dialogue: 50,0:07:35.40,0:07:36.20,Main-207+,,0,0,0,,Put that down!
+Dialogue: 50,0:07:36.28,0:07:37.48,Main-207+,,0,0,0,,She'll freak out!
+Dialogue: 50,0:07:37.56,0:07:39.56,Main-207+,,0,0,0,,What happens if\Nshe dies of shock?
+Dialogue: 50,0:07:40.92,0:07:44.30,Main-207+,,0,0,0,,If that weapon wasn't a failure,\NI would likely be dead.
+Dialogue: 50,0:07:44.68,0:07:46.30,Main-207+,,0,0,0,,But it's no wonder.
+Dialogue: 50,0:07:46.38,0:07:47.56,Main-207+,,0,0,0,,I can blame her.
+Dialogue: 50,0:07:47.94,0:07:50.59,Main-207+,,0,0,0,,It's only natural that\Nshe'd want to kill me.
+Dialogue: 50,0:07:51.49,0:07:53.82,Main-207+,,0,0,0,,Oh, there was something\NI wanted to ask.
+Dialogue: 50,0:07:53.90,0:07:56.14,Main-207+,,0,0,0,,I heard you came here\Nfrom the land of Wano.
+Dialogue: 50,0:07:56.22,0:07:56.92,Main-207+,,0,0,0,,Mm-hmm.
+Dialogue: 50,0:07:58.22,0:08:00.79,Main-207+,,0,0,0,,I also heard there were\Ntwo dragons there.
+Dialogue: 50,0:08:00.87,0:08:03.03,Main-207+,,0,0,0,,Kaido and someone else.
+Dialogue: 50,0:08:03.11,0:08:03.91,Main-207+,,0,0,0,,Oh, yeah.
+Dialogue: 50,0:08:04.31,0:08:05.74,Main-207+,,0,0,0,,That's my friend Momo.
+Dialogue: 50,0:08:07.90,0:08:08.92,Main-207+,,0,0,0,,I see.
+Dialogue: 50,0:08:09.00,0:08:13.43,Main-207+,,0,0,0,,It seems he ate a failed\Nsynthetic devil fruit I left at Punk Hazard.
+Dialogue: 50,0:08:13.51,0:08:14.73,Main-207+,,0,0,0,,Oh, that's cool.
+Dialogue: 50,0:08:14.81,0:08:15.57,Main-207+,,0,0,0,,Wait.
+Dialogue: 50,0:08:15.65,0:08:17.01,Main-207+,,0,0,0,,How did it fail?
+Dialogue: 50,0:08:17.65,0:08:19.37,Main-207+,,0,0,0,,It wasn't from lack of effort.
+Dialogue: 50,0:08:19.45,0:08:21.80,Main-207+,,0,0,0,,I developed that\Nproject myself.
+Dialogue: 50,0:08:21.88,0:08:25.76,Main-207+,,0,0,0,,Twenty years of hard work and a whole\Nmountain of research money.
+Dialogue: 50,0:08:25.84,0:08:28.99,Main-207+,,0,0,0,,I tried to make a fruit from\NKaido's Bloodline Elements.
+Dialogue: 50,0:08:29.07,0:08:32.70,Main-207+,,0,0,0,,But in the end, I couldn't get\Nthe composition quite right.
+Dialogue: 50,0:08:32.78,0:08:37.06,Main-207+,,0,0,0,,Oh, so that's why he was\Nable to transform like Kaido.
+Dialogue: 50,0:08:37.14,0:08:38.40,Main-207+,,0,0,0,,It wasn't a failure.
+Dialogue: 50,0:08:38.48,0:08:40.65,Main-207+,,0,0,0,,He breathes fire\Nand he's real strong.
+Dialogue: 50,0:08:40.73,0:08:42.97,Main-207+,,0,0,0,,He protects the land\Nof Wano now.
+Dialogue: 50,0:08:43.05,0:08:45.48,Main-207+,,0,0,0,,You did a really\Ngood job, Appleguy.
+Dialogue: 50,0:08:45.56,0:08:47.34,Main-207+,,0,0,0,,What is the dragon's color?
+Dialogue: 50,0:08:47.42,0:08:48.34,Main-207+,,0,0,0,,Pink-white.
+Dialogue: 50,0:08:50.10,0:08:50.93,Main-207+,,0,0,0,,Failure!
+Dialogue: 50,0:08:51.77,0:08:53.58,Main-207+,,0,0,0,,An utter failure!
+Dialogue: 50,0:08:54.10,0:08:55.48,Main-207+,,0,0,0,,What's wrong with him?
+Dialogue: 50,0:08:56.36,0:08:57.51,Main-207+,,0,0,0,,He's a genius.
+Dialogue: 50,0:08:57.60,0:08:59.54,Main-207+,,0,0,0,,But he's also quite\Nthe perfectionist.
+Dialogue: 50,0:08:59.62,0:09:01.54,Main-207+,,0,0,0,,Oh, yeah.
+Dialogue: 50,0:09:06.52,0:09:07.69,Main-207+,,0,0,0,,Hey, old man!
+Dialogue: 50,0:09:07.77,0:09:09.24,Main-207+,,0,0,0,,Can you get this to move?
+Dialogue: 50,0:09:09.32,0:09:11.32,Main-207+,,0,0,0,,You're the one who\Nmade it, right?
+Dialogue: 50,0:09:13.26,0:09:14.99,Main-207+,,0,0,0,,I didn't make it.
+Dialogue: 50,0:09:15.07,0:09:19.72,Main-207+,,0,0,0,,This is the legendary iron giant that\Nis said to have attacked Mary Geoise.
+Dialogue: 50,0:09:20.22,0:09:22.71,Main-207+,,0,0,0,,200 years ago.
+Dialogue: 50,0:09:22.79,0:09:24.42,Main-207+,,0,0,0,,And attacked Mary Geoise?
+Dialogue: 50,0:09:24.50,0:09:25.39,Main-207+,,0,0,0,,That's insane!
+Dialogue: 50,0:09:25.47,0:09:26.63,Main-207+,,0,0,0,,Indubitably!
+Dialogue: 50,0:09:27.06,0:09:30.84,Main-207+,,0,0,0,,This monstrosity was built...\N900 years ago!
+Dialogue: 50,0:09:30.92,0:09:32.17,Main-207+,,0,0,0,,Wait, what? Nine hundred?
+Dialogue: 50,0:09:32.18,0:09:33.39,Main-207+,,0,0,0,,Forgive my skepticism.
+Dialogue: 50,0:09:33.47,0:09:34.49,Main-207+,,0,0,0,,But how can that be?
+Dialogue: 50,0:09:35.04,0:09:35.60,Main-207+,,0,0,0,,Wow!
+Dialogue: 50,0:09:35.60,0:09:37.61,Main-207+,,0,0,0,,You're really special, big guy!
+Dialogue: 50,0:09:38.33,0:09:40.03,Main-207+,,0,0,0,,So how did you\Nattack Mary Geoise?
+Dialogue: 50,0:09:40.08,0:09:40.78,Main-207+,,0,0,0,,Cannons?
+Dialogue: 50,0:09:40.82,0:09:41.59,Main-207+,,0,0,0,,Lasers?
+Dialogue: 50,0:09:42.05,0:09:43.01,Main-207+,,0,0,0,,Come on!
+Dialogue: 50,0:09:43.09,0:09:44.53,Main-207+,,0,0,0,,Wake up, Robonosuke!
+Dialogue: 50,0:09:44.61,0:09:45.59,Main-207+,,0,0,0,,Do robot stuff!
+Dialogue: 50,0:09:46.12,0:09:47.29,Main-207+,,0,0,0,,Get up, boy!
+Dialogue: 50,0:09:47.37,0:09:48.13,Main-207+,,0,0,0,,Shoot lasers!
+Dialogue: 50,0:09:48.21,0:09:48.94,Main-207+,,0,0,0,,Let's go!
+Dialogue: 50,0:09:49.02,0:09:51.28,Main-207+,,0,0,0,,That is an antique,\Nyou troglodyte!
+Dialogue: 50,0:09:52.66,0:09:54.51,Main-207+,,0,0,0,,Quite the fascinating story.
+Dialogue: 50,0:09:54.59,0:09:57.44,Main-207+,,0,0,0,,But tell me, why would the iron\Ngiant attack Mary Geoise?
+Dialogue: 50,0:09:57.50,0:09:58.78,Main-207+,,0,0,0,,A fine question!
+Dialogue: 50,0:10:01.86,0:10:03.44,Main-207+,,0,0,0,,I haven't the faintest clue.
+Dialogue: 50,0:10:03.89,0:10:04.69,Main-207+,,0,0,0,,Oh.
+Dialogue: 50,0:10:28.19,0:10:31.90,Main-207+,,0,0,0,,I heard that it ran out of power,\Nand no damage was done.
+Dialogue: 50,0:10:33.97,0:10:40.32,Main-207+,,0,0,0,,Regardless, I imagine its very existence\Nwas shocking to the scientists of the time.
+Dialogue: 50,0:10:40.40,0:10:42.31,Main-207+,,0,0,0,,It's extraordinary... beyond.
+Dialogue: 50,0:10:42.39,0:10:45.14,Main-207+,,0,0,0,,Beyond any\Ntechnology in its era.
+Dialogue: 50,0:10:45.99,0:10:49.39,Main-207+,,0,0,0,,Hmm. Hundreds of years later,\NI'd say this is still quite the shock!
+Dialogue: 50,0:10:49.41,0:10:50.89,Main-207+,,0,0,0,,We were trying\Nto wake it up, but.
+Dialogue: 50,0:10:50.89,0:10:53.14,Main-207+,,0,0,0,,It might be better\Nif it stays like this.
+Dialogue: 50,0:10:54.83,0:10:56.27,Main-207+,,0,0,0,,It could be dangerous.
+Dialogue: 50,0:10:56.35,0:10:59.61,Main-207+,,0,0,0,,No one knows where this iron\Ngiant came from, after all.
+Dialogue: 50,0:10:59.69,0:11:03.54,Main-207+,,0,0,0,,It's unclear what it was trying to do,\Nor what it was capable of.
+Dialogue: 50,0:11:04.25,0:11:08.73,Main-207+,,0,0,0,,As for the World Government,\Npredictably, they ordered its destruction.
+Dialogue: 50,0:11:08.81,0:11:11.89,Main-207+,,0,0,0,,But the scientists\Nof that age protected it.
+Dialogue: 50,0:11:11.97,0:11:14.87,Main-207+,,0,0,0,,They hid it away,\Nwhere no one could find it.
+Dialogue: 50,0:11:14.95,0:11:17.82,Main-207+,,0,0,0,,And to this day,\Nno one knows it is here.
+Dialogue: 50,0:11:18.32,0:11:20.60,Main-207+,,0,0,0,,Not even\Nthe Government itself.
+Dialogue: 50,0:11:23.76,0:11:25.64,Main-207+,,0,0,0,,Ugh.
+Dialogue: 50,0:11:25.64,0:11:27.79,Main-207+,,0,0,0,,Anyway, I'm surprised you\Nmade it to this junk yard.
+Dialogue: 50,0:11:27.79,0:11:30.43,Main-207+,,0,0,0,,The entrance to here\Nlooks like a normal wall.
+Dialogue: 50,0:11:30.51,0:11:32.98,Main-207+,,0,0,0,,I can't imagine how\Nyou found your way in.
+Dialogue: 50,0:11:37.84,0:11:38.86,Flashbacks-207+,,0,0,0,,Where'd he go?
+Dialogue: 50,0:11:39.23,0:11:40.07,Flashbacks-207+,,0,0,0,,He just...
+Dialogue: 0,0:11:40.85,0:11:41.65,Main-207+,,0,0,0,,Vanished!
+Dialogue: 50,0:11:42.50,0:11:43.79,Main-207+,,0,0,0,,I got turned old.
+Dialogue: 50,0:11:43.87,0:11:45.43,Main-207+,,0,0,0,,My brain wasn't workin' right.
+Dialogue: 50,0:11:45.51,0:11:48.66,Main-207+,,0,0,0,,We were lost and hiding!\NAnd we looked terrible!
+Dialogue: 50,0:11:48.66,0:11:49.25,Main-207+,,0,0,0,,{\i1}Fair.
+Dialogue: 50,0:11:49.25,0:11:50.60,Main-207+,,0,0,0,,{\i1}That sounds concerning.
+Dialogue: 50,0:11:50.98,0:11:52.30,Main-207+,,0,0,0,,Two hundred years ago.
+Dialogue: 50,0:11:52.38,0:11:55.08,Main-207+,,0,0,0,,That's the year fishmen were\Ngranted citizens' rights.
+Dialogue: 50,0:11:55.10,0:11:57.26,Main-207+,,0,0,0,,I don't know how\Nthe robot works,
+Dialogue: 50,0:11:57.34,0:12:00.29,Main-207+,,0,0,0,,Are you saying it climbed\Nall the way up the Red Line?
+Dialogue: 50,0:12:00.37,0:12:01.60,Main-207+,,0,0,0,,So it seems.
+Dialogue: 50,0:12:01.68,0:12:02.71,Main-207+,,0,0,0,,Am I crazy?
+Dialogue: 50,0:12:02.79,0:12:06.23,Main-207+,,0,0,0,,Or does that thing look an awful lot\Nlike the robot that brought us here?
+Dialogue: 50,0:12:06.23,0:12:07.10,Main-207+,,0,0,0,,That's right.
+Dialogue: 50,0:12:07.18,0:12:08.48,Main-207+,,0,0,0,,It's no coincidence.
+Dialogue: 50,0:12:08.56,0:12:11.38,Main-207+,,0,0,0,,Vegaforce-01 was\Nmodeled after the iron giant.
+Dialogue: 50,0:12:11.75,0:12:15.55,Main-207+,,0,0,0,,But even with all my knowledge,\Nthere was one thing I couldn't replicate.
+Dialogue: 50,0:12:15.63,0:12:18.11,Main-207+,,0,0,0,,But you're the brainiest\Nbro on the entire planet!
+Dialogue: 50,0:12:18.11,0:12:20.61,Main-207+,,0,0,0,,What the hell does it\Ntake to stump you?
+Dialogue: 50,0:12:20.69,0:12:21.89,Main-207+,,0,0,0,,The power source.
+Dialogue: 50,0:12:21.97,0:12:26.76,Main-207+,,0,0,0,,The way the iron giant used energy\Ndefies our modern understanding of science.
+Dialogue: 50,0:12:29.29,0:12:32.55,Main-207+,,0,0,0,,By the way, I'm glad Luffy\Nand the others are all right,
+Dialogue: 50,0:12:32.63,0:12:33.91,Main-207+,,0,0,0,,but who's that woman?
+Dialogue: 50,0:12:33.99,0:12:35.39,Main-207+,,0,0,0,,Uh... That's Jewelry Bonney.
+Dialogue: 50,0:12:35.42,0:12:36.36,Main-207+,,0,0,0,,She's a pirate.
+Dialogue: 50,0:12:36.44,0:12:37.54,Main-207+,,0,0,0,,Wait a second,
+Dialogue: 50,0:12:37.62,0:12:40.43,Main-207+,,0,0,0,,That's not the same little\Ngirl we saved earlier, is it?
+Dialogue: 50,0:12:40.51,0:12:41.43,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:12:41.51,0:12:44.45,Main-207+,,0,0,0,,I'm sorry, what is going\Non with Vegapunk's head?
+Dialogue: 50,0:12:45.79,0:12:46.94,Main-207+,,0,0,0,,Is Bonney okay?
+Dialogue: 50,0:12:47.02,0:12:47.87,Main-207+,,0,0,0,,What gives?
+Dialogue: 50,0:12:48.47,0:12:49.80,Main-207+,,0,0,0,,Poor Bonney.
+Dialogue: 50,0:12:49.88,0:12:51.77,Main-207+,,0,0,0,,She's been through so much.
+Dialogue: 50,0:12:51.85,0:12:53.07,Main-207+,,0,0,0,,Yeah, cause of you!
+Dialogue: 50,0:12:53.15,0:12:54.23,Main-207+,,0,0,0,,She should get to hit you!
+Dialogue: 50,0:12:54.23,0:12:56.73,Main-207+,,0,0,0,,What the hell do you\Nknow about this, huh?!
+Dialogue: 50,0:12:56.81,0:12:57.95,Main-207+,,0,0,0,,Not a thing!
+Dialogue: 50,0:12:59.94,0:13:04.58,Main-207+,,0,0,0,,When she wakes up, there's\Nsomething important I need to give her.
+Dialogue: 50,0:13:05.23,0:13:07.99,Main-207+,,0,0,0,,But first, I have\Na favor to ask.
+Dialogue: 50,0:13:08.07,0:13:08.77,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:13:08.77,0:13:11.86,Main-207+,,0,0,0,,It's extremely fortunate that you\Nshowed up here when you did.
+Dialogue: 50,0:13:11.86,0:13:13.72,Main-207+,,0,0,0,,You might even call it fate.
+Dialogue: 50,0:13:13.80,0:13:15.05,Main-207+,,0,0,0,,What do you mean?
+Dialogue: 50,0:13:15.13,0:13:17.78,Main-207+,,0,0,0,,My dear boy, I need you to take me\Naway from Egghead.
+Dialogue: 50,0:13:17.79,0:13:19.82,Main-207+,,0,0,0,,I re-quasar your help!
+Dialogue: 50,0:13:19.90,0:13:20.73,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:13:30.64,0:13:32.15,Main-207+,,0,0,0,,This is Cipher Pol speaking.
+Dialogue: 50,0:13:32.23,0:13:34.67,Main-207+,,0,0,0,,Grant us entry\Nto the island at once.
+Dialogue: 50,0:13:35.09,0:13:36.40,Main-207+,,0,0,0,,{\i1}Do you copy?
+Dialogue: 50,0:13:36.48,0:13:37.29,Main-207+,,0,0,0,,{\i1}I said, this is Cipher Pol...
+Dialogue: 50,0:13:37.29,0:13:38.24,Main-207+,,0,0,0,,{\i1}Oh, no, no.
+Dialogue: 50,0:13:38.32,0:13:39.03,Main-207+,,0,0,0,,{\an8}This is bad.
+Dialogue: 50,0:13:39.11,0:13:40.64,Main-207+,,0,0,0,,{\i1}This is very bad!
+Dialogue: 50,0:13:41.05,0:13:41.88,Main-207+,,0,0,0,,Attack!
+Dialogue: 50,0:13:53.32,0:13:55.22,Main-207+,,0,0,0,,Should have trained\Ntheir pets better.
+Dialogue: 50,0:13:58.24,0:13:59.79,Main-207+,,0,0,0,,We received a report.
+Dialogue: 50,0:13:59.87,0:14:02.27,Main-207+,,0,0,0,,It seems that Jewelry\NBonney is here on Egghead.
+Dialogue: 50,0:14:02.33,0:14:03.84,Main-207+,,0,0,0,,Well, that's convenient.
+Dialogue: 50,0:14:03.92,0:14:05.84,Main-207+,,0,0,0,,Don't let her escape again.
+Dialogue: 50,0:14:07.08,0:14:09.28,Main-207+,,0,0,0,,She's outlived her usefulness.
+Dialogue: 50,0:14:09.36,0:14:11.27,Main-207+,,0,0,0,,Be sure to kill her on sight.
+Dialogue: 50,0:14:12.52,0:14:15.14,Main-207+,,0,0,0,,Shaka, a-a Government\Nship just arrived!
+Dialogue: 50,0:14:17.70,0:14:18.23,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:14:18.23,0:14:18.98,Main-207+,,0,0,0,,Why?
+Dialogue: 50,0:14:19.06,0:14:20.49,Main-207+,,0,0,0,,You pirates need to hide!
+Dialogue: 50,0:14:20.57,0:14:23.50,Main-207+,,0,0,0,,If the government finds out\Nyou're here, we're all doomed!
+Dialogue: 50,0:14:23.58,0:14:25.11,Main-207+,,0,0,0,,No complaints from us.
+Dialogue: 50,0:14:25.19,0:14:28.29,Main-207+,,0,0,0,,We're not lookin' to pick a fight\Nwith them, just to be clear.
+Dialogue: 50,0:14:28.29,0:14:29.45,Main-207+,,0,0,0,,As you shouldn't!
+Dialogue: 50,0:14:29.53,0:14:31.32,Main-207+,,0,0,0,,They have CP0 with them.
+Dialogue: 50,0:14:31.40,0:14:33.54,Main-207+,,0,0,0,,Even Rob Lucci is on board!
+Dialogue: 50,0:14:34.26,0:14:34.59,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:14:34.59,0:14:35.48,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:14:35.56,0:14:36.81,Main-207+,,0,0,0,,Rob Lucci?
+Dialogue: 50,0:14:38.00,0:14:41.06,Main-207+,,0,0,0,,Well, I guess it's time\Nto feed the cat.
+Dialogue: 50,0:14:41.14,0:14:41.52,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:14:41.52,0:14:42.40,Main-207+,,0,0,0,,Oh, and look!
+Dialogue: 50,0:14:42.48,0:14:44.21,Main-207+,,0,0,0,,We've got five\Ntuna steaks here!
+Dialogue: 50,0:14:44.29,0:14:44.83,Main-207+,,0,0,0,,Come on!
+Dialogue: 50,0:14:44.83,0:14:46.55,Main-207+,,0,0,0,,Let's hand these\Ngoofballs over.
+Dialogue: 50,0:14:48.86,0:14:52.00,Main-207+,,0,0,0,,Let me out of these shoes\Nright now, you sick bastards!
+Dialogue: 50,0:14:52.08,0:14:53.38,Main-207+,,0,0,0,,No! Why is he here?
+Dialogue: 50,0:14:53.58,0:14:55.44,Main-207+,,0,0,0,,I thought he quit his job!
+Dialogue: 50,0:14:55.52,0:14:56.77,Main-207+,,0,0,0,,We can't let him get in!
+Dialogue: 50,0:14:57.46,0:14:59.08,Main-207+,,0,0,0,,He better not even try!
+Dialogue: 50,0:14:59.47,0:15:01.41,Main-207+,,0,0,0,,I'll send him packin' myself!
+Dialogue: 50,0:15:01.49,0:15:02.42,Main-207+,,0,0,0,,Don't worry, Robin.
+Dialogue: 50,0:15:02.42,0:15:03.32,Main-207+,,0,0,0,,You're safe with us!
+Dialogue: 50,0:15:03.32,0:15:05.46,Main-207+,,0,0,0,,We'll beat him as many\Ntimes as it takes!
+Dialogue: 50,0:15:05.54,0:15:06.36,Main-207+,,0,0,0,,Thank you.
+Dialogue: 50,0:15:06.44,0:15:09.03,Main-207+,,0,0,0,,Officially, they're here\Nto return the seraphim.
+Dialogue: 50,0:15:09.11,0:15:09.71,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:15:09.71,0:15:11.80,Main-207+,,0,0,0,,Tell them to leave it\Nand send them away.
+Dialogue: 50,0:15:11.88,0:15:13.00,Main-207+,,0,0,0,,Excuse me?
+Dialogue: 50,0:15:13.56,0:15:15.66,Main-207+,,0,0,0,,We're going to bar\Nthe Government's entry.
+Dialogue: 50,0:15:15.69,0:15:16.89,Main-207+,,0,0,0,,Lock down the island!
+Dialogue: 50,0:15:16.97,0:15:17.79,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:15:25.72,0:15:26.50,Main-207+,,0,0,0,,Whoa!
+Dialogue: 50,0:15:26.58,0:15:27.28,Main-207+,,0,0,0,,Whoa!
+Dialogue: 50,0:15:27.34,0:15:28.04,Main-207+,,0,0,0,,Hold up!
+Dialogue: 50,0:15:33.84,0:15:34.46,Main-207+,,0,0,0,,Wait!
+Dialogue: 50,0:15:34.46,0:15:34.96,Main-207+,,0,0,0,,Stop!
+Dialogue: 50,0:15:34.96,0:15:36.35,Main-207+,,0,0,0,,You're still under repair!
+Dialogue: 50,0:15:36.43,0:15:38.14,Main-207+,,0,0,0,,You can't start moving now!
+Dialogue: 50,0:15:45.10,0:15:45.93,Main-207+,,0,0,0,,Dragon, help!
+Dialogue: 50,0:15:46.33,0:15:47.85,Main-207+,,0,0,0,,There's something\Nwrong with Kuma!
+Dialogue: 50,0:15:47.85,0:15:48.73,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:15:48.81,0:15:49.89,Main-207+,,0,0,0,,Kuma.
+Dialogue: 50,0:15:49.97,0:15:51.20,Main-207+,,0,0,0,,Stop, Kuma!
+Dialogue: 50,0:15:51.28,0:15:52.68,Main-207+,,0,0,0,,What happened?
+Dialogue: 50,0:15:53.73,0:15:56.67,Main-207+,,0,0,0,,Maybe the Navy is still\Ngiving him orders somehow!
+Dialogue: 50,0:16:05.03,0:16:06.01,Main-207+,,0,0,0,,What do you need?
+Dialogue: 50,0:16:06.09,0:16:07.15,Main-207+,,0,0,0,,Let us help you!
+Dialogue: 50,0:16:07.23,0:16:10.23,Main-207+,,0,0,0,,Can you at least tell us\Nwhere you're trying to go?
+Dialogue: 50,0:16:18.61,0:16:19.77,Main-207+,,0,0,0,,What started this?
+Dialogue: 50,0:16:19.85,0:16:20.67,Main-207+,,0,0,0,,I don't know!
+Dialogue: 50,0:16:20.75,0:16:22.44,Main-207+,,0,0,0,,He just got up\Nout of the blue!
+Dialogue: 50,0:16:22.52,0:16:25.31,Main-207+,,0,0,0,,He's not supposed\Nto have any free will left.
+Dialogue: 50,0:16:27.29,0:16:27.85,Main-207+,,0,0,0,,Stop it!
+Dialogue: 50,0:16:27.85,0:16:29.62,Main-207+,,0,0,0,,You're gonna hurt yourself!
+Dialogue: 50,0:16:30.93,0:16:32.28,Main-207+,,0,0,0,,Come back here, Kuma!
+Dialogue: 50,0:16:32.36,0:16:33.60,Main-207+,,0,0,0,,Where are you going?
+Dialogue: 50,0:16:46.32,0:16:47.94,Main-207+,,0,0,0,,We need you, Kuma!
+Dialogue: 50,0:16:48.02,0:16:49.71,Main-207+,,0,0,0,,You're part of our family!
+Dialogue: 50,0:16:49.79,0:16:52.87,Main-207+,,0,0,0,,We have to stick together\Nand see our battle through!
+Dialogue: 50,0:17:00.11,0:17:00.99,Main-207+,,0,0,0,,No! Kuma, stop!
+Dialogue: 50,0:17:01.07,0:17:02.07,Main-207+,,0,0,0,,Please, don't go!
+Dialogue: 50,0:17:11.05,0:17:12.20,Main-207+,,0,0,0,,He's gone.
+Dialogue: 50,0:17:17.10,0:17:19.92,Main-207+,,0,0,0,,Thank you for returning\Nour seraphim to us.
+Dialogue: 50,0:17:20.00,0:17:25.29,Main-207+,,0,0,0,,Unfortunately, your request for entry is\Ndenied, so just drop him off and go, please.
+Dialogue: 50,0:17:25.74,0:17:26.92,Main-207+,,0,0,0,,Uh, no need to worry!
+Dialogue: 50,0:17:27.00,0:17:29.68,Main-207+,,0,0,0,,{\i1}S-Bear can return home\Non his own two feet.
+Dialogue: 50,0:17:29.76,0:17:31.72,Main-207+,,0,0,0,,{\i1}And from there,\Nyou'll have to forgive us.
+Dialogue: 50,0:17:31.72,0:17:34.47,Main-207+,,0,0,0,,{\i1}But we are so busy,\Nwe can barely think straight.
+Dialogue: 50,0:17:34.92,0:17:38.33,Main-207+,,0,0,0,,{\i1}So, um, order S-Bear to return\Nand you can call it a day!
+Dialogue: 50,0:17:38.41,0:17:39.49,Main-207+,,0,0,0,,{\i1}Mission complete!
+Dialogue: 50,0:17:39.57,0:17:40.92,Main-207+,,0,0,0,,{\i1}Thank you for your service.
+Dialogue: 50,0:17:40.99,0:17:41.79,Main-207+,,0,0,0,,Whoa there!
+Dialogue: 50,0:17:41.87,0:17:44.06,Main-207+,,0,0,0,,You can't just leave\Nus out in the cold!
+Dialogue: 50,0:17:44.48,0:17:46.17,Thoughts-207+,,0,0,0,,Seems they're on to us.
+Dialogue: 50,0:17:46.25,0:17:48.60,Main-207+,,0,0,0,,Aren't you at least going\Nto invite us in for a cup of tea?
+Dialogue: 50,0:17:48.60,0:17:49.99,Main-207+,,0,0,0,,We've been sailing for days.
+Dialogue: 50,0:17:49.99,0:17:51.26,Main-207+,,0,0,0,,We're freezing out here!
+Dialogue: 50,0:17:51.34,0:17:55.29,Main-207+,,0,0,0,,{\i1}Naval Branch G-14 is\Nright around the corner.
+Dialogue: 50,0:17:55.37,0:17:57.46,Main-207+,,0,0,0,,{\i1}I'm sure they'll welcome\Nyou with open arms.
+Dialogue: 50,0:17:57.46,0:17:59.18,Main-207+,,0,0,0,,Am I speaking to Vegapunk?
+Dialogue: 50,0:17:59.26,0:17:59.94,Main-207+,,0,0,0,,{\i1}Uh. Yes?
+Dialogue: 50,0:17:59.94,0:18:01.96,Main-207+,,0,0,0,,I have a question\Nfor you, Doctor.
+Dialogue: 50,0:18:02.35,0:18:05.65,Main-207+,,0,0,0,,What do you know about\Nthe Egghead disappearances?
+Dialogue: 50,0:18:05.73,0:18:06.49,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:18:08.22,0:18:09.85,Main-207+,,0,0,0,,Disappearances?
+Dialogue: 50,0:18:09.93,0:18:11.20,Main-207+,,0,0,0,,{\i1}I beg your pardon?
+Dialogue: 50,0:18:11.55,0:18:13.08,Main-207+,,0,0,0,,{\i1}I'm afraid I don't follow.
+Dialogue: 50,0:18:13.73,0:18:18.20,Main-207+,,0,0,0,,Two months ago, Cipher Pol Number\N5's ship vanished into thin air.
+Dialogue: 50,0:18:18.28,0:18:20.99,Main-207+,,0,0,0,,A month ago,\Nit was Cipher Pol Number 7.
+Dialogue: 50,0:18:21.07,0:18:23.60,Main-207+,,0,0,0,,Two weeks ago,\NCipher Pol Number 8.
+Dialogue: 50,0:18:23.68,0:18:26.02,Main-207+,,0,0,0,,Quite the strange coincidence.
+Dialogue: 50,0:18:26.10,0:18:30.45,Main-207+,,0,0,0,,{\i1}In fact, not one Government ship that has\Nvisited Egghead in the past two months has
+Dialogue: 50,0:18:30.53,0:18:31.20,Main-207+,,0,0,0,,{\i1}returned.
+Dialogue: 50,0:18:31.20,0:18:34.21,Main-207+,,0,0,0,,{\i1}I was hoping you might be able\Nto shed some light on why.
+Dialogue: 50,0:18:34.29,0:18:35.23,Main-207+,,0,0,0,,Hmm?
+Dialogue: 50,0:18:35.31,0:18:36.14,Main-207+,,0,0,0,,Hmm?
+Dialogue: 50,0:18:36.83,0:18:37.66,Main-207+,,0,0,0,,{\an1\q2\pos(638.5,1053)}– Huh?\N– Hm?
+Dialogue: 50,0:18:38.44,0:18:40.11,Main-207+,,0,0,0,,Well, I am so sorry to hear
+Dialogue: 50,0:18:40.11,0:18:43.13,Main-207+,,0,0,0,,that, but rest assured,\Nwe don't have them here.
+Dialogue: 50,0:18:43.21,0:18:46.63,Main-207+,,0,0,0,,{\i1}My records show that all vessels\Nhave shipped out in ship-shape.
+Dialogue: 50,0:18:46.71,0:18:47.54,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:18:47.92,0:18:49.62,Main-207+,,0,0,0,,What exactly are\Nyou implying?
+Dialogue: 50,0:18:49.70,0:18:53.84,Main-207+,,0,0,0,,Are you trying to say we've been messing\Nwith those ships, you overgrown housecat?
+Dialogue: 50,0:18:53.92,0:18:54.79,Main-207+,,0,0,0,,Go to hell!
+Dialogue: 50,0:18:54.87,0:18:57.77,Main-207+,,0,0,0,,Lilith, I know you're evil,\Nbut please don't antagonize me!
+Dialogue: 50,0:18:57.77,0:18:58.34,Main-207+,,0,0,0,,Ah!
+Dialogue: 50,0:18:58.34,0:19:00.99,Main-207+,,0,0,0,,You are gonna look so\Nstupid when I open this port!
+Dialogue: 50,0:19:01.07,0:19:01.56,Main-207+,,0,0,0,,Lilith!
+Dialogue: 50,0:19:01.56,0:19:02.26,Main-207+,,0,0,0,,No!
+Dialogue: 50,0:19:02.04,0:19:03.20,Secondary-207+,,0,0,0,,{\an8\i1}Back off, Pythagoras!
+Dialogue: 50,0:19:03.28,0:19:03.98,Secondary-207+,,0,0,0,,{\an8\i1}I gotta fight!
+Dialogue: 50,0:19:03.77,0:19:06.39,Main-207+,,0,0,0,,{\i1}Ah, well, like I said, no ships here,\Nbut we appreciate your visit.
+Dialogue: 50,0:19:06.39,0:19:07.16,Main-207+,,0,0,0,,{\i1}Goodbye!
+Dialogue: 50,0:19:08.00,0:19:10.42,Main-207+,,0,0,0,,Fine then. If you insist.
+Dialogue: 50,0:19:12.91,0:19:15.31,Main-207+,,0,0,0,,Nice try, but I doubt\Nthey're going to budge.
+Dialogue: 50,0:19:15.39,0:19:17.15,Main-207+,,0,0,0,,Shall we move on to Plan B?
+Dialogue: 50,0:19:18.97,0:19:20.39,Main-207+,,0,0,0,,Everyone, get ready.
+Dialogue: 50,0:19:20.47,0:19:22.12,Main-207+,,0,0,0,,We're going to abandon ship!
+Dialogue: 50,0:19:23.95,0:19:25.15,Main-207+,,0,0,0,,We'll use the seraphim.
+Dialogue: 50,0:19:25.23,0:19:26.66,Main-207+,,0,0,0,,S-Bear follows our orders.
+Dialogue: 50,0:19:26.74,0:19:28.95,Main-207+,,0,0,0,,We'll have it transport\Nus to Egghead.
+Dialogue: 50,0:19:30.94,0:19:32.72,Main-207+,,0,0,0,,We're sacrificing the ship.
+Dialogue: 50,0:19:32.80,0:19:36.57,Main-207+,,0,0,0,,As soon as we leave, it will fall\Nprey to the Sea Beast Weapons.
+Dialogue: 50,0:19:38.39,0:19:39.22,Main-207+,,0,0,0,,Yes, sir!
+Dialogue: 50,0:19:40.53,0:19:42.88,Main-207+,,0,0,0,,That's a tad bit risky,\Ndon't you think?
+Dialogue: 50,0:19:43.58,0:19:46.24,Main-207+,,0,0,0,,Impatience isn't attractive\Nin a man, you know.
+Dialogue: 50,0:19:46.32,0:19:49.37,Main-207+,,0,0,0,,If you wanna be swallowed by\Nthe sea, you're welcome to stay.
+Dialogue: 50,0:19:49.40,0:19:51.02,Main-207+,,0,0,0,,And threats, too?
+Dialogue: 50,0:19:51.77,0:19:52.58,Main-207+,,0,0,0,,Let's go.
+Dialogue: 50,0:20:06.02,0:20:10.83,Main-207+,,0,0,0,,Do you wanna leave\Nthis place, old man?
+Dialogue: 50,0:20:10.91,0:20:11.70,Main-207+,,0,0,0,,But it's your lab.
+Dialogue: 50,0:20:11.70,0:20:13.73,Main-207+,,0,0,0,,I thought you liked living here.
+Dialogue: 50,0:20:13.81,0:20:15.16,Main-207+,,0,0,0,,What's not to like?
+Dialogue: 50,0:20:15.24,0:20:18.25,Main-207+,,0,0,0,,Why, I'm creating\Nthe future itself here!
+Dialogue: 50,0:20:18.33,0:20:22.40,Main-207+,,0,0,0,,I can use Government facilities\Nand funds however I please.
+Dialogue: 50,0:20:22.48,0:20:26.32,Main-207+,,0,0,0,,{\fad(0,268)}And thus, my research has\Ncontinued at an extraordinary pace!
+Dialogue: 50,0:20:26.40,0:20:29.23,Main-207+,,0,0,0,,You've seen only a small\Nfraction of my work!
+Dialogue: 50,0:20:30.71,0:20:35.47,Main-207+,,0,0,0,,My brain is a fountain of ideas\Nthat never stops flowing!
+Dialogue: 50,0:20:35.55,0:20:37.12,Main-207+,,0,0,0,,But there's not enough time.
+Dialogue: 50,0:20:37.20,0:20:38.09,Main-207+,,0,0,0,,Nor enough help,
+Dialogue: 50,0:20:38.17,0:20:41.40,Main-207+,,0,0,0,,Nor enough money to make\Nmy true dream a reality!
+Dialogue: 50,0:20:42.70,0:20:45.47,Main-207+,,0,0,0,,You mean you're planning\Nsomething even bigger?
+Dialogue: 50,0:20:45.55,0:20:47.02,Main-207+,,0,0,0,,You want to know what it is?
+Dialogue: 50,0:20:47.70,0:20:49.18,Main-207+,,0,0,0,,You bet we do!
+Dialogue: 50,0:20:50.36,0:20:53.65,Main-207+,,0,0,0,,When it happens, the whole\Nuniverse will know my name!
+Dialogue: 50,0:20:55.13,0:20:55.49,Main-207+,,0,0,0,,Ooh!
+Dialogue: 50,0:20:55.49,0:20:57.12,Main-207+,,0,0,0,,Is it another big robot?
+Dialogue: 50,0:20:57.20,0:20:58.14,Main-207+,,0,0,0,,Tell us, please!
+Dialogue: 50,0:20:59.12,0:21:00.22,Main-207+,,0,0,0,,Very well, then!
+Dialogue: 50,0:21:00.30,0:21:01.70,Main-207+,,0,0,0,,It's really quite simple.
+Dialogue: 50,0:21:01.78,0:21:04.51,Main-207+,,0,0,0,,I will use science\Nto squash inequality!
+Dialogue: 50,0:21:04.59,0:21:09.07,Main-207+,,0,0,0,,I will create a world where\Nfree energy is provided to all!
+Dialogue: 50,0:21:11.08,0:21:13.40,Main-207+,,0,0,0,,That's not the reaction\NI expected.
+Dialogue: 50,0:21:13.48,0:21:14.23,Main-207+,,0,0,0,,I don't know.
+Dialogue: 50,0:21:14.31,0:21:15.95,Main-207+,,0,0,0,,Free stuff's cool, I guess.
+Dialogue: 50,0:21:16.03,0:21:18.68,Main-207+,,0,0,0,,That would be a worthwhile\Nendeavor if you could achieve it.
+Dialogue: 50,0:21:18.68,0:21:21.07,Main-207+,,0,0,0,,Most wars are\Nfought over energy.
+Dialogue: 50,0:21:21.15,0:21:23.28,Main-207+,,0,0,0,,We might be able\Nto achieve world peace,
+Dialogue: 50,0:21:23.36,0:21:25.09,Main-207+,,0,0,0,,but resources are too limited.
+Dialogue: 50,0:21:25.17,0:21:26.41,Main-207+,,0,0,0,,Are they limited?
+Dialogue: 50,0:21:26.49,0:21:28.81,Main-207+,,0,0,0,,Or is it mankind\Nwho is limited?
+Dialogue: 50,0:21:30.16,0:21:31.69,Main-207+,,0,0,0,,Energy is everywhere!
+Dialogue: 50,0:21:32.64,0:21:33.76,Main-207+,,0,0,0,,You can feel it!
+Dialogue: 50,0:21:33.84,0:21:34.70,Main-207+,,0,0,0,,In the air!
+Dialogue: 50,0:21:35.11,0:21:36.23,Main-207+,,0,0,0,,In the ground!
+Dialogue: 50,0:21:36.31,0:21:37.74,Main-207+,,0,0,0,,It's all around us!
+Dialogue: 50,0:21:38.46,0:21:40.06,Main-207+,,0,0,0,,It's simply overflowing!
+Dialogue: 50,0:21:40.75,0:21:43.51,Main-207+,,0,0,0,,The world is full of energy!
+Dialogue: 50,0:21:46.17,0:21:50.21,Main-207+,,0,0,0,,All we need to do is convert\Nit into tangible power!
+Dialogue: 50,0:21:50.29,0:21:53.14,Main-207+,,0,0,0,,Inequality will become\Na thing of the past!
+Dialogue: 50,0:21:53.22,0:21:55.85,Main-207+,,0,0,0,,Wars will come to an end!
+Dialogue: 50,0:21:59.01,0:22:02.82,Main-207+,,0,0,0,,With the power of science,\Nwe can make this world a utopia!
+Dialogue: 50,0:22:06.39,0:22:08.32,Main-207+,,0,0,0,,Still not interested?
+Dialogue: 50,0:22:08.40,0:22:11.98,Main-207+,,0,0,0,,No, I think it's really cool that\Nyou wanna make people happy.
+Dialogue: 50,0:22:12.06,0:22:14.34,Main-207+,,0,0,0,,But hero stuff just\Nisn't my thing.
+Dialogue: 50,0:22:14.73,0:22:17.09,Main-207+,,0,0,0,,Anyway, you never said\Nwhy you wanna leave.
+Dialogue: 50,0:22:17.17,0:22:19.11,Main-207+,,0,0,0,,Well, I have a problem.
+Dialogue: 50,0:22:19.19,0:22:23.71,Main-207+,,0,0,0,,The more I try to create this energy,\Nthe further I delve into lost history.
+Dialogue: 50,0:22:24.42,0:22:26.50,Main-207+,,0,0,0,,For example, I can't help it.
+Dialogue: 50,0:22:26.58,0:22:30.04,Main-207+,,0,0,0,,I can't help but to look to our giant\Nmechanical friend here and wonder what
+Dialogue: 50,0:22:30.04,0:22:32.80,Main-207+,,0,0,0,,kind of ancient energy\Nsource powered him.
+Dialogue: 50,0:22:32.88,0:22:36.67,Main-207+,,0,0,0,,It is the nature of a scientist\Nto remain curious, after all.
+Dialogue: 50,0:22:37.15,0:22:42.14,Main-207+,,0,0,0,,So I took a little peek into history\Nand unraveled some forbidden truths.
+Dialogue: 50,0:22:43.06,0:22:48.67,Main-207+,,0,0,0,,I was only carrying on my friend's will, but it\Ntook me deep into dangerous waters.
+Dialogue: 50,0:22:52.76,0:22:53.56,Main-207+,,0,0,0,,Oh.
+Dialogue: 50,0:22:54.40,0:22:55.23,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:22:59.06,0:23:00.19,Main-207+,,0,0,0,,And that's my story!
+Dialogue: 50,0:23:00.27,0:23:01.87,Main-207+,,0,0,0,,I just love learning too much!
+Dialogue: 50,0:23:01.95,0:23:03.68,Main-207+,,0,0,0,,Now, the Government\Nwill erase me!
+Dialogue: 50,0:23:03.76,0:23:04.60,Main-207+,,0,0,0,,Just like...
+Dialogue: 50,0:23:06.91,0:23:08.03,Main-207+,,0,0,0,,This can't be good.
+Dialogue: 50,0:23:08.11,0:23:09.82,Main-207+,,0,0,0,,It must be CP0.
+Dialogue: 50,0:23:10.24,0:23:11.40,Main-207+,,0,0,0,,Wait, 0?
+Dialogue: 50,0:23:11.48,0:23:13.61,Main-207+,,0,0,0,,They're a spy\Norganization directly
+Dialogue: 50,0:23:13.61,0:23:16.22,Main-207+,,0,0,0,,under the orders\Nof the Celestial Dragons.
+Dialogue: 50,0:23:16.30,0:23:17.91,Main-207+,,0,0,0,,I thought they\Nwere called CP9.
+Dialogue: 50,0:23:17.99,0:23:19.92,Main-207+,,0,0,0,,Did they change\Ntheir name, or what?
+Dialogue: 50,0:23:20.00,0:23:21.92,Main-207+,,0,0,0,,CP0 is a higher rank.
+Dialogue: 50,0:23:22.55,0:23:24.47,Main-207+,,0,0,0,,You rarely see\Nthem make a move.
+Dialogue: 50,0:23:24.82,0:23:29.11,Main-207+,,0,0,0,,But when they do, it means that\Nthe course of history is about to change.
+Dialogue: 50,0:23:29.60,0:23:30.48,Main-207+,,0,0,0,,Ah!
+Dialogue: 50,0:23:30.88,0:23:33.79,Main-207+,,0,0,0,,This place is incredible!
+Dialogue: 50,0:23:33.87,0:23:35.86,Main-207+,,0,0,0,,Why, I've never\Nseen anything like it!
+Dialogue: 50,0:23:35.94,0:23:36.88,Main-207+,,0,0,0,,It's unreal!
+Dialogue: 50,0:23:36.96,0:23:39.51,Main-207+,,0,0,0,,Like we stepped\Nstraight into the future!
+Dialogue: 50,0:23:39.59,0:23:41.65,Main-207+,,0,0,0,,I'm getting a little\Nfired up here!
+Dialogue: 50,0:23:42.20,0:23:44.03,Main-207+,,0,0,0,,What's Cipher Pol doing here?
+Dialogue: 50,0:23:44.11,0:23:46.30,Main-207+,,0,0,0,,And why aren't they\Nwearing their black suits?
+Dialogue: 50,0:23:46.30,0:23:47.10,Main-207+,,0,0,0,,How bizarre.
+Dialogue: 50,0:23:47.18,0:23:49.91,Main-207+,,0,0,0,,Don't they usually come\Nin through the port?
+Dialogue: 50,0:23:49.99,0:23:50.82,Main-207+,,0,0,0,,Hey, guys!
+Dialogue: 50,0:23:50.90,0:23:51.39,Main-207+,,0,0,0,,Hm?
+Dialogue: 50,0:23:51.39,0:23:55.03,Main-207+,,0,0,0,,We just got a report that two of the Sea\NBeast Weapons were attacked at the shore!
+Dialogue: 50,0:23:55.03,0:23:55.73,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:23:55.74,0:24:00.24,Main-207+,,0,0,0,,Don't tell me... does that\Nmean they're intruders?
+Dialogue: 50,0:24:04.01,0:24:06.53,Main-207+,,0,0,0,,Shaka! CP0 is\Non the island!
+Dialogue: 50,0:24:08.27,0:24:09.39,Main-207+,,0,0,0,,Gah! We're too late!
+Dialogue: 50,0:24:09.47,0:24:10.30,Main-207+,,0,0,0,,They're here!
+Dialogue: 50,0:24:10.90,0:24:12.91,Main-207+,,0,0,0,,Lucci's bein' a giant\Npain in the ass.
+Dialogue: 50,0:24:12.99,0:24:15.21,Main-207+,,0,0,0,,What else is new?\NCat bastard.
+Dialogue: 50,0:24:15.29,0:24:16.24,Main-207+,,0,0,0,,Come on.
+Dialogue: 50,0:24:16.32,0:24:18.39,Main-207+,,0,0,0,,Give it up already, Lucci!
+Dialogue: 50,0:24:22.77,0:24:24.01,Main-207+,,0,0,0,,Ugh. I'm still stuck!
+Dialogue: 50,0:24:24.09,0:24:26.91,Main-207+,,0,0,0,,Would you fix these stupid\Nfuture shoes already?
+Dialogue: 50,0:24:27.29,0:24:28.75,Main-207+,,0,0,0,,I need my damn feet!
+Dialogue: 50,0:24:28.83,0:24:30.77,Main-207+,,0,0,0,,How else can I\Nkeep Robin safe?
+Dialogue: 50,0:24:32.02,0:24:34.14,Main-207+,,0,0,0,,How did they come\Nashore so quickly?
+Dialogue: 50,0:24:45.57,0:24:47.57,Main-207+,,0,0,0,,Well, definitely not by ship,
+Dialogue: 50,0:24:47.65,0:24:49.13,Main-207+,,0,0,0,,That's for darn sure.
+Dialogue: 50,0:24:49.21,0:24:52.87,Main-207+,,0,0,0,,Seems they realized the Sea Beast Weapons\Nwould attack their ship as soon
+Dialogue: 50,0:24:52.95,0:24:54.25,Main-207+,,0,0,0,,as they refused to leave.
+Dialogue: 50,0:24:54.33,0:24:57.98,Main-207+,,0,0,0,,They must have used\Nthe seraphim's Paw-Paw power to fly here!
+Dialogue: 50,0:24:58.06,0:24:59.33,Main-207+,,0,0,0,,What should we do?
+Dialogue: 50,0:24:59.41,0:25:00.76,Main-207+,,0,0,0,,How resourceful.
+Dialogue: 50,0:25:01.23,0:25:05.00,Main-207+,,0,0,0,,They must really want a fight\Nif they're sacrificing their ship.
+Dialogue: 50,0:25:05.08,0:25:06.01,Main-207+,,0,0,0,,Very well.
+Dialogue: 50,0:25:06.09,0:25:07.67,Main-207+,,0,0,0,,If that's what you desire.
+Dialogue: 50,0:25:08.23,0:25:09.33,Main-207+,,0,0,0,,Sound the alarm!
+Dialogue: 50,0:25:09.41,0:25:11.37,Main-207+,,0,0,0,,We need to evacuate\Nthe citizens!
+Dialogue: 50,0:25:11.83,0:25:12.63,Main-207+,,0,0,0,,Roger that!
+Dialogue: 50,0:25:24.20,0:25:26.08,Main-207+,,0,0,0,,Tell Atlas to return to the lab!
+Dialogue: 50,0:25:27.05,0:25:29.42,Main-207+,,0,0,0,,Prepare all of the seraphim\Nfor combat!
+Dialogue: 50,0:25:30.40,0:25:31.98,Main-207+,,0,0,0,,Sentomaru will lead them!
+Dialogue: 50,0:25:40.87,0:25:43.05,Main-207+,,0,0,0,,Releasing seraphim\Nnumber one.
+Dialogue: 50,0:25:43.73,0:25:44.05,Main-207+,,0,0,0,,S-Hawk.
+Dialogue: 50,0:25:44.05,0:25:44.75,Main-207+,,0,0,0,,S-Hawk!
+Dialogue: 50,0:25:49.89,0:25:51.94,Main-207+,,0,0,0,,Releasing seraphim\Nnumber three.
+Dialogue: 50,0:25:52.64,0:25:53.51,Main-207+,,0,0,0,,S-Snake.
+Dialogue: 50,0:25:54.07,0:25:57.03,Main-207+,,0,0,0,,S-Snake!
+Dialogue: 50,0:25:57.87,0:25:59.81,Main-207+,,0,0,0,,Releasing seraphim\Nnumber 4.
+Dialogue: 50,0:26:00.91,0:26:01.71,Main-207+,,0,0,0,,S-Shark!
+Dialogue: 50,0:26:05.46,0:26:06.26,Main-207+,,0,0,0,,Deploy!
+Dialogue: 50,0:26:09.38,0:26:11.13,Main-207+,,0,0,0,,If the World\NGovernment has decided
+Dialogue: 50,0:26:11.13,0:26:13.38,Main-207+,,0,0,0,,they want to kill me,\Nthen I don't have much
+Dialogue: 50,0:26:13.43,0:26:14.22,Main-207+,,0,0,0,,time left.
+Dialogue: 50,0:26:14.71,0:26:18.04,Main-207+,,0,0,0,,CP0 is here, so I need\Nto pack my bags.
+Dialogue: 50,0:26:18.12,0:26:22.69,Main-207+,,0,0,0,,Now please honor my re-quasar\Nand take me out to sea with you!
+Dialogue: 50,0:26:23.14,0:26:26.37,Main-207+,,0,0,0,,You make it sound like we're all just\Ngoing on a picnic or something.
+Dialogue: 50,0:26:26.37,0:26:28.46,Main-207+,,0,0,0,,If you disappear,\Nit'll be big news.
+Dialogue: 50,0:26:28.54,0:26:31.48,Main-207+,,0,0,0,,This might put an even\Nbigger target on our backs.
+Dialogue: 50,0:26:33.21,0:26:35.46,Main-207+,,0,0,0,,Okay. Your head looks\Nfunny, so why not?
+Dialogue: 50,0:26:35.54,0:26:37.12,Main-207+,,0,0,0,,How is that a reason?!
+Dialogue: 50,0:26:38.70,0:26:39.60,Main-207+,,0,0,0,,Splendid!
+Dialogue: 50,0:26:39.68,0:26:42.16,Main-207+,,0,0,0,,Somehow, I had\Na feeling you'd say yes!
+Dialogue: 50,0:26:42.24,0:26:44.18,Main-207+,,0,0,0,,Alright! Let us go!
+Dialogue: 50,0:26:44.26,0:26:46.42,Main-207+,,0,0,0,,This will be a battlefield soon!
+Dialogue: 50,0:26:47.05,0:26:50.94,Main-207+,,0,0,0,,For starters, please bring Bonney\Nto the Labophase above the clouds.
+Dialogue: 50,0:26:51.02,0:26:52.58,Main-207+,,0,0,0,,How do we get up there?
+Dialogue: 50,0:26:52.66,0:26:53.99,Main-207+,,0,0,0,,It should be easy.
+Dialogue: 50,0:26:54.07,0:26:55.72,Main-207+,,0,0,0,,Just take the Vacuum Rocket.
+Dialogue: 50,0:26:55.80,0:26:58.52,Main-207+,,0,0,0,,You can find it down here\Nin the Fabriophase phase.
+Dialogue: 50,0:26:58.60,0:27:00.12,Main-207+,,0,0,0,,What's a Vacuum Rocket?
+Dialogue: 50,0:27:00.20,0:27:01.20,Main-207+,,0,0,0,,That sounds cool!
+Dialogue: 50,0:27:02.48,0:27:04.06,Main-207+,,0,0,0,,Well, don't dawdle now, boys!
+Dialogue: 50,0:27:04.14,0:27:07.49,Main-207+,,0,0,0,,See you in the sky\Nin the blink of an eye!
+Dialogue: 50,0:27:09.12,0:27:10.24,Main-207+,,0,0,0,,He disappeared!
+Dialogue: 50,0:27:11.23,0:27:12.94,Main-207+,,0,0,0,,You're awesome,\NMister Apple Man!
+Dialogue: 50,0:27:13.67,0:27:16.62,Main-207+,,0,0,0,,I'm finding the future\Nto be very confusing.
+Dialogue: 50,0:27:17.52,0:27:19.96,Main-207+,,0,0,0,,Hey, take a gander at that!
+Dialogue: 50,0:27:20.04,0:27:21.98,Main-207+,,0,0,0,,It's a giant monster!
+Dialogue: 50,0:27:34.80,0:27:35.57,Main-207+,,0,0,0,,Dammit!
+Dialogue: 50,0:27:35.65,0:27:36.88,Main-207+,,0,0,0,,It won't die!
+Dialogue: 50,0:27:38.04,0:27:40.03,Main-207+,,0,0,0,,The bullets go right through it!
+Dialogue: 50,0:27:40.11,0:27:41.31,Main-207+,,0,0,0,,Of course they do.
+Dialogue: 50,0:27:41.39,0:27:45.12,Main-207+,,0,0,0,,This island is full of technical marvels\Nbeyond your wildest imagination!
+Dialogue: 50,0:27:45.20,0:27:48.73,Main-207+,,0,0,0,,If you think your guns will work\Nhere, then you've been had!
+Dialogue: 50,0:27:49.24,0:27:51.74,Main-207+,,0,0,0,,I've always wanted to fight\Nsomething like you.
+Dialogue: 50,0:27:51.82,0:27:53.65,Main-207+,,0,0,0,,Something untouchable.
+Dialogue: 50,0:27:54.49,0:27:56.79,Main-207+,,0,0,0,,And I know why they\Ncouldn't hurt you.
+Dialogue: 50,0:27:56.87,0:27:59.14,Main-207+,,0,0,0,,Because you're\Nfrom outer space!
+Dialogue: 50,0:27:59.22,0:28:04.65,Main-207+,,0,0,0,,Prepare yourself, alien fiend!
+Dialogue: 50,0:28:12.20,0:28:13.17,Main-207+,,0,0,0,,{\fad(150,150)}Tempest!
+Dialogue: 50,0:28:13.25,0:28:14.05,Main-207+,,0,0,0,,{\fad(150,150)}What?
+Dialogue: 50,0:28:20.67,0:28:23.39,Main-207+,,0,0,0,,It must have some sort\Nof space physiology!
+Dialogue: 50,0:28:23.47,0:28:24.56,Main-207+,,0,0,0,,It's no use.
+Dialogue: 50,0:28:24.64,0:28:26.05,Main-207+,,0,0,0,,I'm not giving up!
+Dialogue: 50,0:28:26.13,0:28:26.98,Main-207+,,0,0,0,,Well, you should.
+Dialogue: 50,0:28:27.03,0:28:27.97,Main-207+,,0,0,0,,It's a hologram.
+Dialogue: 50,0:28:28.05,0:28:29.96,Main-207+,,0,0,0,,Why didn't you\Ntell me sooner?!
+Dialogue: 50,0:28:30.04,0:28:32.36,Main-207+,,0,0,0,,Have you, perhaps,\Nbeen here before?
+Dialogue: 50,0:28:32.44,0:28:34.35,Main-207+,,0,0,0,,Let's say it's nostalgic.
+Dialogue: 50,0:28:35.67,0:28:37.36,Main-207+,,0,0,0,,Well, I'm already up here.
+Dialogue: 50,0:28:37.44,0:28:41.02,Main-207+,,0,0,0,,I might as well check out whatever\Nthis thing is above the clouds.
+Dialogue: 50,0:28:41.10,0:28:43.75,Main-207+,,0,0,0,,Chances are, that's where\NVegapunk is hiding!
+Dialogue: 50,0:28:44.24,0:28:47.15,Main-207+,,0,0,0,,Tell me, Lucci, do you see those\Nyellow lines way up there?
+Dialogue: 50,0:28:47.15,0:28:48.00,Main-207+,,0,0,0,,In the clouds?
+Dialogue: 50,0:28:48.08,0:28:49.71,Main-207+,,0,0,0,,Ah. Yes.
+Dialogue: 50,0:28:51.85,0:28:54.50,Main-207+,,0,0,0,,Watch what happens when\Nsomeone crosses them.
+Dialogue: 50,0:29:02.17,0:29:04.85,Main-207+,,0,0,0,,Laser beams automatically\Nfire on them.
+Dialogue: 50,0:29:09.11,0:29:11.72,Main-207+,,0,0,0,,It's a defensive system\Ncalled the Frontier Dome.
+Dialogue: 50,0:29:11.80,0:29:15.28,Main-207+,,0,0,0,,It encircles the Labophase,\Nguarding in all directions.
+Dialogue: 50,0:29:18.72,0:29:22.92,Main-207+,,0,0,0,,The lesson here is not to underestimate\Nthe world's greatest scientist.
+Dialogue: 50,0:29:23.00,0:29:24.98,Main-207+,,0,0,0,,You really should've\Ntold him that.
+Dialogue: 0,0:29:25.06,0:29:26.22,Main-207+,,0,0,0,,Stussy!
+Dialogue: 50,0:29:26.30,0:29:29.18,Main-207+,,0,0,0,,How could you just stand\Nthere and watch me fry?
+Dialogue: 50,0:29:30.56,0:29:32.28,Main-207+,,0,0,0,,Warms you up\Nfaster than tea!
+Dialogue: 50,0:29:41.07,0:29:44.13,Main-207+,,0,0,0,,You think you\Ncan come into my lab?!
+Dialogue: 50,0:29:44.67,0:29:45.91,Main-207+,,0,0,0,,And be more violent?!
+Dialogue: 50,0:29:49.23,0:29:50.43,Main-207+,,0,0,0,,Punk-ass pigs!
+Dialogue: 50,0:29:53.85,0:29:55.07,Main-207+,,0,0,0,,{\fad(150,150)}Ultra...!
+Dialogue: 50,0:29:56.63,0:29:59.23,Main-207+,,0,0,0,,Alright, this place\Nis officially insane.
+Dialogue: 50,0:29:59.31,0:30:01.01,Main-207+,,0,0,0,,Is that one a hologram, too?
+Dialogue: 50,0:30:01.56,0:30:02.42,Main-207+,,0,0,0,,Oh, no.
+Dialogue: 50,0:30:02.50,0:30:03.97,Main-207+,,0,0,0,,This young lady is Atlas.
+Dialogue: 50,0:30:04.45,0:30:06.08,Main-207+,,0,0,0,,She's one of the Vegapunks.
+Dialogue: 50,0:30:06.16,0:30:06.86,Main-207+,,0,0,0,,Look!
+Dialogue: 50,0:30:08.05,0:30:08.85,Main-207+,,0,0,0,,It's Atlas!
+Dialogue: 50,0:30:09.30,0:30:09.61,Main-207+,,0,0,0,,Atlas!
+Dialogue: 50,0:30:09.61,0:30:11.21,Main-207+,,0,0,0,,Abort mission immediately!
+Dialogue: 50,0:30:11.29,0:30:12.12,Main-207+,,0,0,0,,{\fad(150,150)}Mighty!
+Dialogue: 50,0:30:13.25,0:30:14.44,Main-207+,,0,0,0,,Very well then.
+Dialogue: 50,0:30:14.52,0:30:15.32,Main-207+,,0,0,0,,Hey!
+Dialogue: 50,0:30:22.91,0:30:24.73,Main-207+,,0,0,0,,{\fad(150,150)}Six-king pistol!
+Dialogue: 50,0:30:31.20,0:30:32.00,Main-207+,,0,0,0,,Oh, no!
+Dialogue: 50,0:30:32.08,0:30:32.78,Main-207+,,0,0,0,,Atlas!
+Dialogue: 50,0:30:32.81,0:30:34.07,Main-207+,,0,0,0,,She's down!
+Dialogue: 50,0:30:34.15,0:30:36.11,Main-207+,,0,0,0,,Merciless as ever, isn't he?
+Dialogue: 50,0:30:50.96,0:30:52.18,Main-207+,,0,0,0,,He beat her in one shot!
+Dialogue: 50,0:30:52.26,0:30:53.90,Main-207+,,0,0,0,,This guy's seriously scary!
+Dialogue: 50,0:30:53.98,0:30:54.83,Main-207+,,0,0,0,,What's going on?
+Dialogue: 50,0:30:54.91,0:30:56.76,Main-207+,,0,0,0,,Why is Cipher Pol\Nattacking us?
+Dialogue: 50,0:30:56.84,0:31:00.33,Main-207+,,0,0,0,,We both work for the Government,\Nso we're allies, aren't we?
+Dialogue: 50,0:31:00.41,0:31:02.03,Main-207+,,0,0,0,,{\i1}Attention, Fabriophase!
+Dialogue: 50,0:31:02.11,0:31:04.12,Main-207+,,0,0,0,,{\i1}Evacuate the lab immediately!
+Dialogue: 50,0:31:09.31,0:31:10.13,Main-207+,,0,0,0,,Evacuate now!
+Dialogue: 50,0:31:10.13,0:31:10.99,Main-207+,,0,0,0,,An evacuation notice?
+Dialogue: 50,0:31:10.99,0:31:11.97,Main-207+,,0,0,0,,We have to go!
+Dialogue: 50,0:31:12.05,0:31:13.01,Main-207+,,0,0,0,,Run to the factory!
+Dialogue: 50,0:31:14.34,0:31:15.04,Main-207+,,0,0,0,,{\i1}Evacuate now!
+Dialogue: 50,0:31:15.10,0:31:16.57,Main-207+,,0,0,0,,{\i1}We are under attack!
+Dialogue: 50,0:31:19.60,0:31:21.66,Main-207+,,0,0,0,,She's still alive, but barely.
+Dialogue: 50,0:31:21.74,0:31:24.68,Main-207+,,0,0,0,,Let's eliminate her while\Nwe have the opportunity.
+Dialogue: 50,0:31:27.51,0:31:31.77,Main-207+,,0,0,0,,First we gotta find it,\Nthen we fly!
+Dialogue: 50,0:31:43.15,0:31:44.58,Main-207+,,0,0,0,,Straw hat.
+Dialogue: 50,0:31:47.42,0:31:48.32,Main-207+,,0,0,0,,Pigeon guy!
+Dialogue: 0,0:01:30.11,0:01:35.49,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\fscx90\fscy90\blur0.7\bord4.5\pos(1576,725)\c&H000101&\3c&HF2F6F1&\fad(939,0)\1a&HFF&\t(898,938,\1a&H00&)}Scrap Heap\NFabriophase\NEgghead
+Dialogue: 1,0:01:30.11,0:01:35.49,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\fscx90\fscy90\blur0.7\bord0\c&H000101&\pos(1576,725)\fad(939,0)}Scrap Heap\NFabriophase\NEgghead
+Dialogue: 1,0:01:30.11,0:01:35.49,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\fscx90\fscy90\blur0.7\bord0\c&H000101&\pos(1576,725)\fad(939,0)}Scrap Heap\NFabriophase\NEgghead
+Dialogue: 0,0:04:06.48,0:04:09.35,Captions-207+,,0,0,0,,{\fad(183,0)\fnFOT-KafuTechno Std U Strp\frz345\fscx200\fscy200\bord6\c&H000000&\t(0,183,\c&H52B7F9&)\blur0.8\org(1403.69,893.05)\b900\pos(1353.87,208.22)}Shaka the Just
+Dialogue: 1,0:04:06.48,0:04:09.35,Captions-207+,,0,0,0,,{\fad(183,0)\fnFOT-KafuTechno Std U Strp\frz345\fscx200\fscy200\bord0\c&H2D85E7&\blur0.8\org(1403.69,893.05)\b900\pos(1353.87,208.22)}Shaka the Just
+Dialogue: 1,0:04:06.48,0:04:09.35,Captions-207+,,0,0,0,,{\an7\fnSerangkaian Pattern\bord0\blur0.6\pos(1251.97,56.71)\fscx150\fscy150\frz344.8\fad(183,0)\clip(m 1276.61 129.47 l 1282.54 130.5 1286.53 130.24 1290.21 128.71 1292.41 126.67 1295.48 120.4 1301.39 98.42 1260.83 87.55 1264.34 74.42 1291.87 81.79 1290.04 88.64 1301.69 91.77 1306.18 75.01 1255.42 61.35 1246.61 94.25 1287.17 105.12 1284.25 116.02 1282.28 119.19 1279.49 119.57 1253.66 112.71 1255.69 105.13 1244.16 102.04 1239.48 119.52 1276.61 129.47 m 1339.42 146.65 l 1348.13 113.87 1348.43 109.88 1347.64 105.97 1344.81 101.89 1340.63 99.16 1320.82 93.43 1324.37 80.18 1313.02 77.14 1297.39 135.46 1308.74 138.5 1318.23 103.09 1333.63 107.28 1335.91 109.18 1336.18 113.11 1328.01 143.6 1339.42 146.65 m 1389.72 159.51 l 1392.19 150.28 1390.6 149.55 1390.08 146.8 1396.25 123.2 1396.03 119.16 1394.87 116.36 1392.12 113.41 1388.5 111.6 1357.88 103.36 1354.38 116.21 1365.18 119.1 1366.08 115.75 1383.26 120.35 1385.01 122.46 1383.44 128.85 1352.77 120.63 1345.52 147.67 1374.73 155.45 1381.06 155.09 1384.15 157.72 1389.72 159.51 m 1379.25 144.22 l 1378.1 145.92 1376.09 146.38 1358.5 141.77 1361.06 132.2 1381.04 137.55 1379.25 144.22 m 1436.43 172.1 l 1439.03 162.38 1433.26 160.73 1431.7 159.53 1421.84 142.01 1448.83 127.12 1433.86 123.11 1413.26 134.57 1421.02 105.59 1409.58 102.53 1393.99 160.72 1405.34 163.76 1410.78 143.45 1423.08 165.79 1427.79 169.36 1436.43 172.1 m 1486.31 185.4 l 1488.78 176.16 1487.2 175.43 1486.67 172.68 1492.84 149.08 1492.62 145.04 1491.47 142.24 1488.72 139.29 1485.1 137.48 1454.48 129.24 1450.97 142.09 1461.78 144.98 1462.67 141.63 1479.85 146.23 1481.61 148.34 1480.03 154.73 1449.36 146.51 1442.12 173.56 1471.32 181.33 1477.66 180.98 1480.74 183.61 1486.31 185.4 m 1475.85 170.11 l 1474.69 171.81 1472.68 172.26 1455.09 167.65 1457.65 158.08 1477.63 163.43 1475.85 170.11 m 1539.66 199.76 l 1542.26 190.04 1534.11 187.8 1532.52 186.79 1531.78 185.09 1537.7 161.9 1549.2 164.98 1551.79 155.32 1540.29 152.24 1543.84 138.99 1532.43 135.93 1528.88 149.18 1520.31 146.88 1517.72 156.54 1526.29 158.84 1520.18 181.75 1519.77 186.81 1521.38 191.58 1525.05 195.04 1529.71 197.07 1539.66 199.76 m 1586.7 212.91 l 1595.41 180.13 1595.71 176.14 1594.92 172.23 1592.09 168.15 1587.91 165.42 1568.09 159.69 1571.64 146.44 1560.29 143.4 1544.67 201.71 1556.02 204.75 1565.5 169.35 1580.9 173.54 1583.18 175.44 1583.46 179.37 1575.29 209.85 1586.7 212.91 m 1623.62 222.19 l 1629.63 222.94 1634.45 221.57 1637.89 217.94 1640.13 211.41 1629.44 208.54 1628.57 211.34 1626.08 212.6 1605.82 207.26 1608.45 197.42 1631.77 203.64 1637.84 203.3 1641.23 201.04 1643.43 197.59 1647.99 181.1 1605.04 169.59 1593.13 214.02 1623.62 222.19 m 1633.59 192.83 l 1632.53 194.19 1630.83 194.45 1610.69 189.06 1612.93 180.7 1635.24 186.67 1633.59 192.83 m 1693.08 240.8 l 1698.06 241.58 1703.05 240.95 1706.62 239.11 1709.88 235.3 1723.44 186.53 1711.52 183.33 1699.84 226.92 1697.4 230.03 1694.38 230.15 1675.18 225 1679.41 209.22 1667.52 206.03 1660.6 232.1 1693.08 240.8 m 1757.04 257.94 l 1759.64 248.22 1758.05 247.6 1757.44 245.61 1766.32 212.19 1754.91 209.13 1746.3 241 1744.39 243.11 1740.55 243.17 1726.79 239.48 1736.26 204.13 1724.97 201.11 1712.89 246.17 1741.42 253.68 1745.47 254.12 1748.37 253.35 1751.32 255.99 1757.04 257.94 m 1788.04 266.25 l 1795.92 266.82 1799.64 265.47 1801.96 263.61 1804.89 258.46 1809.08 242.9 1779.41 234.95 1781.75 226.22 1799.56 230.99 1798.57 234.68 1809.19 237.52 1812.5 225.18 1773.38 214.7 1766.47 240.47 1796.15 248.42 1794.6 254.19 1792.9 256.58 1790.96 256.97 1774.38 252.62 1775.38 248.91 1764.69 246.05 1761.2 259.05 1788.04 266.25 m 1837.16 279.47 l 1839.77 269.75 1831.61 267.51 1830.03 266.51 1829.29 264.81 1835.21 241.61 1846.71 244.7 1849.3 235.04 1837.8 231.96 1841.35 218.7 1829.94 215.65 1826.39 228.9 1817.81 226.6 1815.23 236.26 1823.8 238.56 1817.69 261.46 1817.28 266.52 1818.89 271.29 1822.56 274.76 1827.22 276.79 1837.16 279.47)\c&H52B7F9&}AAAAAAAAAA
+Dialogue: 0,0:04:12.65,0:04:15.53,Captions-207+,,0,0,0,,{\fad(228,0)\fnFOT-KafuTechno Std U Strp\fscx200\fscy200\bord6\c&H000000&\t(0,228,\c&HAA81E8&)\blur0.8\frz11.98\org(474.17,957)\b900\pos(528.89,212.66)}Lilith the Evil
+Dialogue: 1,0:04:12.65,0:04:15.53,Captions-207+,,0,0,0,,{\fad(228,0)\fnFOT-KafuTechno Std U Strp\fscx200\fscy200\bord0\blur0.8\frz11.98\org(474.17,957)\pos(528.89,212.66)\b900\c&H905CDF&}Lilith the Evil
+Dialogue: 1,0:04:12.65,0:04:15.53,Captions-207+,,0,0,0,,{\an7\pos(303.78,90.14)\org(693,1092)\fscx150\fscy150\frz11.98\fnSerangkaian Pattern\bord0\1c&HAA81E8&\fad(228,0)\clip(m 165.89 240.96 l 163.61 230.23 133.69 236.58 b 129.8 237.4 128.15 236.22 127.38 232.62 l 118.24 189.51 106.01 192.11 115.45 236.59 b 117.52 246.37 122.67 250.13 134.28 247.67 l 165.89 240.96 m 183.96 237.45 l 174.26 191.74 162.65 194.21 172.34 239.91 183.96 237.45 m 174.5 188.21 l 172.39 178.25 158.82 181.13 160.93 191.09 174.5 188.21 m 202.87 233.37 l 190.36 174.43 178.78 176.89 191.28 235.83 202.87 233.37 m 221.13 229.56 l 211.44 183.86 199.82 186.32 209.52 232.02 221.13 229.56 m 211.68 180.32 l 209.56 170.36 195.99 173.24 198.1 183.2 211.68 180.32 m 258.22 221.43 l 256.13 211.59 248.8 213.15 b 245.99 213.74 244.46 212.85 243.88 210.16 l 239.31 188.58 250.95 186.11 248.88 176.33 237.23 178.8 234.38 165.38 222.83 167.83 225.67 181.25 216.99 183.09 219.07 192.88 227.75 191.03 232.46 213.23 b 234.33 222.03 239.91 225.32 249.14 223.36 l 258.22 221.43 m 306.11 211.81 l 299.49 180.6 b 297.41 170.79 291.15 167.36 280.67 169.58 l 265.38 172.82 262.54 159.4 251.04 161.84 263.57 220.9 275.07 218.46 267.46 182.61 282.07 179.51 b 285.34 178.81 287.36 180.33 288.01 183.39 l 294.56 214.27 306.11 211.81 m 361.91 199.43 l 359.83 189.59 352.49 191.14 b 349.68 191.74 348.15 190.85 347.58 188.16 l 343 166.58 354.64 164.11 352.57 154.33 340.92 156.8 338.07 143.38 326.52 145.83 329.37 159.25 320.68 161.09 322.76 170.87 331.44 169.03 336.15 191.22 b 338.02 200.03 343.6 203.32 352.84 201.36 l 361.91 199.43 m 409.81 189.81 l 403.18 158.6 b 401.1 148.79 394.85 145.35 384.36 147.58 l 369.08 150.82 366.23 137.4 354.73 139.84 367.27 198.9 378.76 196.46 371.15 160.6 385.76 157.5 b 389.03 156.81 391.05 158.33 391.7 161.39 l 398.25 192.26 409.81 189.81 m 446.92 181.33 b 454.86 179.64 459.06 175.21 457.33 167.04 l 456.74 164.23 445.91 166.53 446.32 168.42 b 446.71 170.26 445.86 171.52 443.81 171.96 l 424.27 176.1 422.16 166.14 444.75 161.34 b 452.03 159.8 454.38 154.35 453.12 148.39 l 449.99 133.65 406.49 142.88 416.04 187.88 446.92 181.33 m 442.48 150.64 b 442.73 151.81 441.95 153.09 440.75 153.34 l 420.36 157.67 418.57 149.2 441.16 144.41 442.48 150.64 m 533.21 163.02 l 531.16 153.36 498.48 160.29 b 495.89 160.84 493.77 159.44 493.18 156.69 l 490.8 145.44 523.54 138.49 521.5 128.89 488.76 135.84 485.87 122.21 521.75 114.59 519.63 104.56 472.18 114.63 481.86 160.21 b 483.65 168.68 488.46 172.51 500.08 170.05 l 533.21 163.02 m 563.15 156.73 b 568.44 155.61 570.29 149.27 570.91 143.9 l 575.25 106.4 563.08 108.98 559.41 144.68 b 559.26 145.9 559.08 147.31 558.25 147.48 l 557.58 147.62 538.9 114.12 527.26 116.59 551.2 159.26 563.15 156.73 m 600.68 149.02 l 590.99 103.32 579.37 105.78 589.07 151.49 600.68 149.02 m 591.23 99.79 l 589.11 89.82 575.54 92.7 577.65 102.67 591.23 99.79 m 619.59 144.94 l 607.09 86.01 595.5 88.47 608.01 147.4 619.59 144.94)}AAAAAAAAAAAAAA
+Dialogue: 0,0:04:17.57,0:04:20.45,Captions-207+,,0,0,0,,{\fad(188,0)\fnFOT-KafuTechno Std U Strp\frz345\fscx200\fscy200\bord6\c&H000000&\t(0,188,\c&H39BD36&)\blur0.8\org(1403.69,893.05)\b900\pos(1235.47,240.22)}Edison the Visionary
+Dialogue: 1,0:04:17.57,0:04:20.45,Captions-207+,,0,0,0,,{\fad(183,0)\fnFOT-KafuTechno Std U Strp\frz345\fscx200\fscy200\bord0\blur0.8\org(1403.69,893.05)\pos(1235.47,240.22)\b900\c&H1D6E25&}Edison the Visionary
+Dialogue: 1,0:04:17.57,0:04:20.45,Captions-207+,,0,0,0,,{\fad(183,0)\fnSerangkaian Pattern\frz345\fscx150\fscy150\bord0\c&H39BD36&\blur0.8\org(1403.69,893.05)\pos(1235.47,240.22)\clip(m 1058.79 103.97 l 1061.35 94.43 1029.08 85.79 b 1026.51 85.1 1025.26 82.89 1025.99 80.17 l 1028.96 69.06 1061.29 77.73 1063.83 68.25 1031.5 59.59 1035.11 46.12 1070.55 55.62 1073.2 45.72 1026.35 33.16 1014.3 78.17 b 1012.06 86.53 1014.6 92.13 1026.07 95.2 l 1058.79 103.97 m 1109.59 117.58 l 1112.19 107.9 1110.41 107.42 b 1109.62 107.21 1108.93 106.28 1109.3 104.92 l 1121.61 58.98 1110.26 55.94 1106.71 69.19 1076.7 61.15 1064.8 105.58 1092.3 112.95 b 1095.01 113.68 1097.74 113.5 1100.25 112.85 1101.74 114.64 1103.71 116.01 1106.09 116.65 l 1109.59 117.58 m 1098.1 101.31 b 1097.64 103.03 1096.36 103.82 1094.46 103.31 l 1078.64 99.07 1085.43 73.74 1104.14 78.76 1098.1 101.31 m 1125.27 122.11 l 1137.36 76.98 1125.89 73.91 1113.8 119.03 1125.27 122.11 m 1139.18 73.94 l 1141.81 64.1 1128.41 60.51 1125.77 70.35 1139.18 73.94 m 1159.25 130.89 b 1168.81 133.45 1174.42 129.45 1176.37 122.15 l 1180.29 107.54 1150.62 99.59 1152.95 90.87 1170.76 95.64 1169.78 99.32 1180.4 102.17 1183.71 89.82 1144.59 79.34 1137.68 105.12 1167.35 113.07 1165.81 118.83 b 1165.26 120.89 1163.67 122.11 1161.16 121.44 l 1145.59 117.27 1146.58 113.55 1135.9 110.69 1132.41 123.7 1159.25 130.89 m 1208.21 144.01 b 1217.11 146.39 1222.44 142.81 1224.26 136.02 l 1233.09 103.05 1190.68 91.69 1178.78 136.12 1208.21 144.01 m 1213.23 131.54 b 1212.61 133.86 1210.99 134.59 1208.87 134.03 l 1192.6 129.67 1199.42 104.22 1219.13 109.5 1213.23 131.54 m 1268.59 160.87 l 1277.16 128.87 b 1279.55 119.97 1276.98 114.81 1266.42 111.98 l 1238.98 104.63 1226.9 149.7 1238.1 152.7 1247.59 117.29 1262.42 121.33 b 1265.47 122.15 1266 124.39 1265.38 126.72 l 1257.06 157.78 1268.59 160.87 m 1324.28 175.18 l 1326.89 165.46 1319.64 163.51 b 1316.87 162.77 1315.91 161.28 1316.62 158.63 l 1322.33 137.32 1333.83 140.4 1336.42 130.74 1324.92 127.66 1328.47 114.41 1317.06 111.35 1313.51 124.6 1304.93 122.3 1302.34 131.96 1310.92 134.26 1305.05 156.17 b 1302.72 164.87 1306.2 170.33 1315.32 172.77 l 1324.28 175.18 m 1371.32 188.33 l 1379.58 157.51 b 1382.18 147.82 1378.16 141.93 1367.81 139.15 l 1352.72 135.11 1356.27 121.86 1344.92 118.81 1329.29 177.13 1340.64 180.17 1350.13 144.77 1364.56 148.63 b 1367.79 149.5 1368.89 151.77 1368.08 154.79 l 1359.91 185.27 1371.32 188.33 m 1408.24 197.61 b 1416.09 199.71 1421.85 197.66 1424.01 189.6 l 1424.75 186.83 1414.07 183.96 1413.57 185.83 b 1413.08 187.65 1411.75 188.39 1409.73 187.85 l 1390.44 182.68 1393.08 172.84 1415.38 178.82 b 1422.57 180.74 1427.14 176.95 1428.72 171.07 l 1432.62 156.52 1389.66 145.01 1377.76 189.44 1408.24 197.61 m 1418.21 168.25 b 1417.91 169.4 1416.63 170.19 1415.45 169.87 l 1395.32 164.48 1397.56 156.12 1419.86 162.09 1418.21 168.25 m 1474.26 215.3 b 1481.11 217.13 1485.44 213.64 1488.69 208.65 l 1517.63 164.51 1504.56 161.01 1479.75 200.59 b 1479 201.82 1478.54 202.47 1477.41 203.3 l 1475.42 202.76 1471.12 152.05 1458.59 148.69 1464.42 212.66 1474.26 215.3 m 1517.43 227.19 l 1529.52 182.06 1518.05 178.99 1505.96 224.12 1517.43 227.19 m 1531.34 179.02 l 1533.98 169.18 1520.58 165.59 1517.94 175.43 1531.34 179.02 m 1551.41 235.97 b 1560.98 238.53 1566.58 234.53 1568.54 227.23 l 1572.45 212.62 1542.78 204.67 1545.12 195.95 1562.93 200.72 1561.94 204.4 1572.57 207.25 1575.87 194.9 1536.75 184.42 1529.85 210.2 1559.52 218.15 1557.97 223.91 b 1557.42 225.97 1555.84 227.19 1553.33 226.52 l 1537.75 222.35 1538.75 218.63 1528.06 215.77 1524.58 228.78 1551.41 235.97 m 1583.12 244.79 l 1595.21 199.66 1583.74 196.59 1571.65 241.72 1583.12 244.79 m 1597.03 196.62 l 1599.66 186.78 1586.26 183.19 1583.62 193.03 1597.03 196.62 m 1619.69 254.27 b 1628.6 256.65 1633.92 253.06 1635.74 246.27 l 1644.58 213.31 1602.17 201.95 1590.26 246.38 1619.69 254.27 m 1624.71 241.8 b 1624.09 244.12 1622.47 244.85 1620.36 244.29 l 1604.09 239.93 1610.91 214.48 1630.62 219.76 1624.71 241.8 m 1680.07 271.12 l 1688.65 239.13 b 1691.03 230.22 1688.47 225.07 1677.9 222.24 l 1650.46 214.89 1638.39 259.95 1649.59 262.95 1659.07 227.55 1673.91 231.59 b 1676.96 232.4 1677.49 234.65 1676.86 236.97 l 1668.54 268.03 1680.07 271.12 m 1730.71 284.01 l 1733.19 274.78 1732.4 274.57 b 1731.22 274.25 1730.73 272.6 1731.08 271.3 l 1736.87 249.69 b 1738.43 243.86 1736.16 237.85 1728.52 235.8 l 1698.88 227.86 1695.37 240.7 1706.18 243.6 1707.08 240.25 1724.25 244.85 b 1725.88 245.29 1726.24 246.61 1725.88 247.94 l 1724.44 253.34 1693.77 245.13 1686.52 272.17 1714.68 279.72 b 1717.25 280.41 1719.72 280.23 1722.06 279.59 1723.58 281.42 1724.92 282.46 1728.03 283.29 l 1730.71 284.01 m 1720.25 268.72 b 1719.79 270.44 1718.3 271.3 1716.03 270.7 l 1699.49 266.27 1702.06 256.7 1722.04 262.05 1720.25 268.72 m 1746.27 288.86 l 1755.74 253.51 1767.93 256.78 b 1770.38 257.44 1771.82 258.95 1771.02 261.91 l 1770.37 264.36 1780.9 267.18 1781.75 264.01 b 1784.28 254.59 1780.95 249.85 1770.99 247.18 l 1747.05 240.77 1734.98 285.84 1746.27 288.86 m 1784.28 317 b 1789.62 318.43 1794.99 316.86 1798.27 312.5 l 1834.78 264.37 1822.37 261.05 1803.51 286.89 1799.22 254.84 1787.21 251.63 1794.63 299.13 1790.2 305.16 b 1789.08 306.71 1787.54 307.36 1785.31 306.76 l 1774.62 303.9 1772 313.71 1784.28 317)}AAAAAAAAAAAAAA
+Dialogue: 0,0:04:23.87,0:04:26.75,Captions-207+,,0,0,0,,{\fad(227,0)\fnFOT-KafuTechno Std U Strp\fscx200\fscy200\bord6\c&H000000&\t(0,227,\c&H3427E4&)\blur0.8\frz11.98\org(474.17,957)\b900\pos(669.69,243.06)}Pythagoras the Wise
+Dialogue: 1,0:04:23.87,0:04:26.75,Captions-207+,,0,0,0,,{\fad(227,0)\fnFOT-KafuTechno Std U Strp\fscx200\fscy200\bord0\blur0.8\frz11.98\org(474.17,957)\pos(669.69,243.06)\b900\c&H1F13B9&}Pythagoras the Wise
+Dialogue: 1,0:04:23.87,0:04:26.75,Captions-207+,,0,0,0,,{\fad(227,0)\fnSerangkaian Pattern\fscx150\fscy150\bord0\c&H3427E4&\blur0.8\frz11.98\org(474.17,957)\pos(669.69,243.06)\clip(m 127.97 257.59 b 141.45 254.73 144 248.98 141.83 238.71 l 137.17 216.79 82.27 228.44 94.73 287.14 106.46 284.65 101.9 263.13 127.97 257.59 m 130.02 241.92 b 130.53 244.34 129.77 246.35 126.84 246.97 l 99.71 252.79 96.17 236.13 127.38 229.51 130.02 241.92 m 170.27 289.51 b 175.68 288.36 179.75 284.53 180.69 279.15 l 191.4 219.7 178.83 222.36 173.75 253.95 155.38 227.34 143.22 229.92 171.39 268.89 170.18 276.27 b 169.87 278.16 168.8 279.44 166.54 279.92 l 155.72 282.21 157.83 292.15 170.27 289.51 m 234.01 257.65 l 231.92 247.8 224.59 249.36 b 221.78 249.96 220.25 249.07 219.67 246.38 l 215.09 224.8 226.74 222.32 224.67 212.54 213.02 215.01 210.17 201.59 198.62 204.05 201.46 217.46 192.78 219.31 194.86 229.09 203.54 227.25 208.25 249.44 b 210.12 258.24 215.7 261.53 224.93 259.57 l 234.01 257.65 m 281.9 248.03 l 275.28 216.82 b 273.2 207 266.94 203.57 256.46 205.8 l 241.17 209.04 238.33 195.62 226.83 198.06 239.36 257.12 250.86 254.68 243.25 218.82 257.86 215.72 b 261.13 215.03 263.15 216.55 263.8 219.6 l 270.35 250.48 281.9 248.03 m 332.56 236.67 l 330.57 227.32 329.78 227.49 b 328.58 227.74 327.39 226.49 327.11 225.18 l 322.47 203.29 b 321.22 197.39 316.47 193.06 308.73 194.7 l 278.71 201.07 281.41 214.11 292.36 211.79 291.64 208.39 309.03 204.7 b 310.68 204.35 311.6 205.37 311.89 206.72 l 313.05 212.19 281.99 218.78 287.8 246.17 316.32 240.12 b 318.92 239.57 321.05 238.28 322.84 236.66 325.02 237.6 326.69 237.92 329.84 237.25 l 332.56 236.67 m 316.3 227.79 b 316.67 229.53 315.73 230.98 313.43 231.47 l 296.68 235.02 294.63 225.33 314.86 221.04 316.3 227.79 m 372.18 246.67 b 382.67 244.44 385.11 238.2 383.8 232.03 l 380.49 216.44 345.16 223.94 343.69 217.03 363.93 212.73 b 372.55 210.9 376.05 205.75 374.51 198.48 l 372.65 189.7 b 372.36 188.33 372.71 187.26 374.23 186.94 l 375.03 186.77 372.95 176.96 366.56 178.31 b 361.76 178.44 360.22 180.81 360.09 183.81 l 327.1 190.81 340.39 253.41 372.18 246.67 m 372.8 233.76 b 373.19 235.62 372.18 237.18 370.25 237.59 l 348.95 242.11 346.72 231.62 371.24 226.42 372.8 233.76 m 363.46 200.31 b 363.8 201.9 363.17 203.6 360.63 204.14 l 341.68 208.16 339.43 197.55 361.87 192.79 363.46 200.31 m 417.72 218.6 b 426.74 216.69 429.86 211.07 428.4 204.2 l 421.32 170.81 378.37 179.93 387.92 224.93 417.72 218.6 m 416.54 205.21 b 417.04 207.56 415.93 208.95 413.79 209.4 l 397.31 212.9 391.84 187.13 411.81 182.89 416.54 205.21 m 448.4 212.76 l 440.8 176.97 453.15 174.35 b 455.63 173.82 457.6 174.52 458.23 177.52 l 458.76 179.99 469.43 177.73 468.75 174.52 b 466.72 164.98 461.61 162.26 451.52 164.4 l 427.28 169.55 436.96 215.19 448.4 212.76 m 524.29 195.99 l 522.3 186.63 521.51 186.8 b 520.32 187.06 519.12 185.81 518.84 184.49 l 514.2 162.61 b 512.95 156.71 508.2 152.38 500.46 154.02 l 470.44 160.39 473.15 173.43 484.09 171.1 483.37 167.71 500.76 164.02 b 502.41 163.67 503.33 164.69 503.62 166.03 l 504.78 171.5 473.72 178.09 479.53 205.49 508.05 199.43 b 510.65 198.88 512.78 197.6 514.57 195.97 516.75 196.92 518.42 197.23 521.57 196.57 l 524.29 195.99 m 508.03 187.11 b 508.4 188.85 507.46 190.3 505.16 190.78 l 488.41 194.34 486.36 184.65 506.59 180.35 508.03 187.11 m 555.96 189.27 b 565.65 187.21 568.82 181.11 567.25 173.71 l 564.12 158.91 534.07 165.29 532.19 156.46 550.23 152.63 551.02 156.36 561.78 154.07 559.13 141.57 519.51 149.98 525.05 176.08 555.1 169.71 556.34 175.55 b 556.78 177.63 555.92 179.44 553.38 179.98 l 537.6 183.32 536.81 179.56 525.98 181.86 528.78 195.04 555.96 189.27 m 625.3 174.62 l 623.21 164.77 615.88 166.33 b 613.06 166.93 611.53 166.04 610.96 163.35 l 606.38 141.77 618.03 139.3 615.95 129.51 604.31 131.98 601.46 118.56 589.9 121.02 592.75 134.44 584.07 136.28 586.15 146.06 594.83 144.22 599.54 166.41 b 601.4 175.22 606.99 178.5 616.22 176.54 l 625.3 174.62 m 673.19 165 l 666.57 133.79 b 664.49 123.98 658.23 120.54 647.75 122.77 l 632.46 126.01 629.61 112.59 618.12 115.03 630.65 174.09 642.15 171.65 634.54 135.79 649.15 132.69 b 652.42 132 654.44 133.52 655.08 136.58 l 661.64 167.45 673.19 165 m 710.3 156.52 b 718.25 154.83 722.45 150.39 720.72 142.23 l 720.12 139.42 709.3 141.72 709.7 143.61 b 710.09 145.45 709.24 146.71 707.19 147.15 l 687.66 151.29 685.55 141.33 708.14 136.53 b 715.41 134.99 717.77 129.54 716.51 123.58 l 713.38 108.84 669.88 118.07 679.43 163.07 710.3 156.52 m 705.87 125.83 b 706.11 126.99 705.33 128.28 704.14 128.53 l 683.75 132.86 681.95 124.39 704.54 119.6 705.87 125.83 m 800.36 137.41 b 805.1 136.4 806.09 131.88 806.01 125.67 l 805.6 74.96 793.62 77.5 794.63 109.81 b 794.88 117.93 795.48 124.93 795.48 124.93 795.51 125.56 795.4 126.67 795.04 127.23 l 794.24 127.4 b 794.24 127.4 788.98 111.49 785.86 103.43 l 777.27 80.97 761.43 84.33 762.39 107.99 b 762.66 114.8 764.52 131.09 764.52 131.09 764.61 131.83 764.73 133.47 764.19 133.93 l 763.46 134.09 b 763.46 134.09 759.64 123.59 757.35 118.07 l 744.99 87.82 732.96 90.31 757.2 146.57 768.6 144.15 b 773.37 143.14 775.1 138.52 774.62 132.33 774.62 132.33 773.71 119.17 772.91 111.16 l 771.45 95.4 b 771.42 94.51 771.44 94.03 771.66 93.98 771.84 93.94 772.14 94.3 772.38 95.14 l 777.56 110.05 b 780.82 119.38 788.31 139.96 788.31 139.96 l 800.36 137.41 m 834.72 130.44 l 825.03 84.74 813.41 87.2 823.11 132.9 834.72 130.44 m 825.27 81.2 l 823.15 71.24 809.58 74.12 811.69 84.08 825.27 81.2 m 868.99 122.85 b 878.68 120.79 881.85 114.68 880.29 107.29 l 877.15 92.49 847.1 98.87 845.22 90.03 863.26 86.21 864.05 89.94 874.81 87.65 872.16 75.15 832.54 83.56 838.08 109.66 868.13 103.29 869.37 109.12 b 869.81 111.2 868.95 113.02 866.41 113.55 l 850.63 116.9 849.84 113.14 839.02 115.44 841.81 128.61 868.99 122.85 m 919.64 112.1 b 927.59 110.41 931.79 105.97 930.06 97.81 l 929.46 95 918.64 97.3 919.04 99.19 b 919.43 101.03 918.58 102.29 916.53 102.73 l 897 106.87 894.89 96.91 917.48 92.11 b 924.75 90.57 927.11 85.12 925.84 79.16 l 922.72 64.42 879.22 73.65 888.77 118.65 919.64 112.1 m 915.21 81.41 b 915.45 82.57 914.67 83.86 913.48 84.11 l 893.09 88.44 891.29 79.97 913.88 75.18 915.21 81.41)}AAAAAAAAAAAAAA
+Dialogue: 0,0:04:29.67,0:04:32.54,Captions-207+,,0,0,0,,{\fad(225,0)\fnFOT-KafuTechno Std U Strp\frz345\fscx200\fscy200\bord6\c&H000000&\t(0,225,\c&H39BD36&)\blur0.8\org(1403.69,893.05)\b900\pos(1294.67,222.62)}Atlas the Enraged
+Dialogue: 1,0:04:29.67,0:04:32.54,Captions-207+,,0,0,0,,{\fad(225,0)\fnFOT-KafuTechno Std U Strp\frz345\fscx200\fscy200\bord0\blur0.8\org(1403.69,893.05)\pos(1294.67,222.62)\b900\c&H7C69EA&}Atlas the Enraged
+Dialogue: 1,0:04:29.67,0:04:32.54,Captions-207+,,0,0,0,,{\fad(225,0)\fnSerangkaian Pattern\frz345\fscx150\fscy150\bord0\c&HB2AEF6&\blur0.8\org(1403.69,893.05)\pos(1294.67,222.62)\clip(m 1178.06 117.94 l 1175.03 65.39 b 1174.63 58.43 1172.28 54.04 1165.88 52.33 l 1156.07 49.7 1119.02 102.12 1131.31 105.41 1140.14 92.99 1164.81 99.67 1165.54 114.58 1178.06 117.94 m 1164.41 88.98 l 1145.99 84.04 1161 62.34 1161.93 62.6 b 1163.98 63.15 1163.91 65.23 1163.94 67.79 l 1164.41 88.98 m 1212.15 126.91 l 1214.76 117.19 1207.51 115.25 b 1204.74 114.51 1203.78 113.02 1204.49 110.36 l 1210.2 89.05 1221.7 92.13 1224.29 82.47 1212.79 79.39 1216.34 66.14 1204.93 63.08 1201.38 76.33 1192.8 74.04 1190.22 83.7 1198.79 85.99 1192.92 107.91 b 1190.59 116.6 1194.07 122.07 1203.19 124.51 l 1212.15 126.91 m 1228.89 131.59 l 1244.48 73.39 1233.04 70.33 1217.45 128.52 1228.89 131.59 m 1278.58 144.64 l 1281.05 135.41 1280.27 135.2 b 1279.09 134.88 1278.6 133.23 1278.94 131.93 l 1284.73 110.32 b 1286.3 104.49 1284.02 98.48 1276.39 96.43 l 1246.74 88.49 1243.24 101.33 1254.05 104.23 1254.94 100.88 1272.12 105.48 b 1273.75 105.92 1274.11 107.24 1273.75 108.57 l 1272.3 113.97 1241.63 105.76 1234.39 132.8 1262.55 140.35 b 1265.11 141.04 1267.59 140.86 1269.93 140.22 1271.44 142.05 1272.78 143.09 1275.89 143.92 l 1278.58 144.64 m 1268.12 129.35 b 1267.66 131.07 1266.16 131.93 1263.9 131.33 l 1247.36 126.9 1249.92 117.33 1269.9 122.68 1268.12 129.35 m 1309.85 153.02 b 1319.42 155.59 1325.02 151.59 1326.98 144.28 l 1330.89 129.67 1301.22 121.72 1303.56 113 1321.37 117.77 1320.38 121.45 1331 124.3 1334.31 111.95 1295.19 101.47 1288.28 127.25 1317.96 135.2 1316.41 140.97 b 1315.86 143.02 1314.27 144.24 1311.77 143.57 l 1296.19 139.4 1297.19 135.69 1286.5 132.82 1283.01 145.83 1309.85 153.02 m 1378.29 171.43 l 1380.9 161.71 1373.65 159.77 b 1370.88 159.02 1369.92 157.54 1370.63 154.88 l 1376.34 133.57 1387.84 136.65 1390.43 126.99 1378.93 123.91 1382.48 110.66 1371.07 107.6 1367.52 120.85 1358.94 118.55 1356.36 128.21 1364.93 130.51 1359.06 152.43 b 1356.73 161.12 1360.21 166.58 1369.33 169.02 l 1378.29 171.43 m 1425.34 184.58 l 1433.59 153.76 b 1436.19 144.07 1432.17 138.18 1421.82 135.4 l 1406.73 131.36 1410.28 118.11 1398.93 115.07 1383.3 173.38 1394.65 176.42 1404.14 141.02 1418.57 144.88 b 1421.8 145.75 1422.9 148.02 1422.09 151.04 l 1413.93 181.52 1425.34 184.58 m 1462.25 193.86 b 1470.1 195.96 1475.86 193.91 1478.02 185.85 l 1478.76 183.08 1468.08 180.21 1467.58 182.09 b 1467.09 183.9 1465.76 184.64 1463.74 184.1 l 1444.45 178.93 1447.09 169.09 1469.39 175.07 b 1476.58 176.99 1481.15 173.2 1482.73 167.32 l 1486.63 152.77 1443.67 141.26 1431.77 185.69 1462.25 193.86 m 1472.22 164.5 b 1471.92 165.65 1470.64 166.44 1469.46 166.12 l 1449.33 160.73 1451.57 152.37 1473.87 158.34 1472.22 164.5 m 1547.47 216.69 l 1550.02 207.15 1517.76 198.51 b 1515.19 197.82 1513.94 195.61 1514.67 192.89 l 1517.64 181.78 1549.97 190.45 1552.51 180.97 1520.18 172.31 1523.79 158.84 1559.23 168.34 1561.88 158.44 1515.03 145.88 1502.97 190.89 b 1500.73 199.25 1503.28 204.85 1514.75 207.92 l 1547.47 216.69 m 1594.99 230.11 l 1603.56 198.11 b 1605.95 189.2 1603.38 184.05 1592.82 181.22 l 1565.38 173.87 1553.3 218.94 1564.5 221.94 1573.99 186.53 1588.83 190.57 b 1591.87 191.39 1592.4 193.63 1591.78 195.96 l 1583.46 227.02 1594.99 230.11 m 1612.89 234.9 l 1622.36 199.55 1634.56 202.82 b 1637 203.48 1638.44 204.99 1637.65 207.95 l 1636.99 210.4 1647.52 213.22 1648.37 210.05 b 1650.9 200.63 1647.57 195.89 1637.61 193.22 l 1613.68 186.81 1601.6 231.88 1612.89 234.9 m 1688.13 254.38 l 1690.61 245.15 1689.82 244.94 b 1688.64 244.62 1688.15 242.97 1688.5 241.67 l 1694.29 220.06 b 1695.85 214.23 1693.58 208.22 1685.94 206.17 l 1656.3 198.23 1652.79 211.07 1663.6 213.97 1664.5 210.62 1681.67 215.22 b 1683.3 215.66 1683.66 216.98 1683.3 218.31 l 1681.85 223.71 1651.19 215.5 1643.94 242.54 1672.1 250.09 b 1674.67 250.78 1677.14 250.6 1679.48 249.96 1681 251.79 1682.33 252.83 1685.44 253.66 l 1688.13 254.38 m 1677.67 239.09 b 1677.21 240.81 1675.72 241.67 1673.45 241.07 l 1656.91 236.64 1659.47 227.07 1679.46 232.42 1677.67 239.09 m 1718.91 281.26 b 1729.26 284.04 1734.27 279.59 1735.91 273.49 l 1740.03 258.1 1705.14 248.75 1706.96 241.93 1726.95 247.28 b 1735.46 249.56 1740.92 246.56 1742.85 239.38 l 1745.17 230.71 b 1745.53 229.36 1746.33 228.57 1747.84 228.97 l 1748.62 229.18 1751.22 219.49 1744.91 217.8 b 1740.58 215.73 1738.13 217.15 1736.65 219.76 l 1704.08 211.03 1687.52 272.85 1718.91 281.26 m 1725.31 270.04 b 1724.82 271.88 1723.21 272.81 1721.31 272.3 l 1700.27 266.66 1703.05 256.31 1727.25 262.8 1725.31 270.04 m 1732.17 236 b 1731.75 237.57 1730.42 238.8 1727.91 238.13 l 1709.2 233.11 1712 222.64 1734.16 228.57 1732.17 236 m 1773.28 277.2 b 1781.13 279.3 1786.89 277.25 1789.05 269.19 l 1789.79 266.42 1779.11 263.55 1778.6 265.43 b 1778.12 267.24 1776.79 267.98 1774.77 267.44 l 1755.48 262.27 1758.11 252.43 1780.42 258.41 b 1787.6 260.33 1792.18 256.54 1793.76 250.66 l 1797.65 236.11 1754.7 224.6 1742.8 269.03 1773.28 277.2 m 1783.25 247.84 b 1782.94 248.99 1781.67 249.78 1780.49 249.46 l 1760.35 244.07 1762.59 235.71 1784.9 241.68 1783.25 247.84 m 1835.89 293.97 l 1838.48 284.28 1836.7 283.81 b 1835.92 283.6 1835.23 282.67 1835.59 281.31 l 1847.9 235.37 1836.55 232.33 1833 245.58 1803 237.54 1791.09 281.97 1818.59 289.34 b 1821.31 290.07 1824.04 289.89 1826.54 289.24 1828.04 291.03 1830 292.4 1832.39 293.04 l 1835.89 293.97 m 1824.4 277.7 b 1823.93 279.42 1822.66 280.21 1820.75 279.7 l 1804.94 275.46 1811.72 250.13 1830.44 255.15 1824.4 277.7)}AAAAAAAAAAAAAA
+Dialogue: 0,0:04:35.92,0:04:38.80,Captions-207+,,0,0,0,,{\fad(231,0)\fnFOT-KafuTechno Std U Strp\fscx200\fscy200\bord6\c&H000000&\t(0,231,\c&HB2FAF7&)\blur0.8\frz11.98\org(474.17,957)\b900\pos(669.69,243.06)}York the Greedy
+Dialogue: 1,0:04:35.92,0:04:38.80,Captions-207+,,0,0,0,,{\fad(231,0)\fnFOT-KafuTechno Std U Strp\fscx200\fscy200\bord0\blur0.8\frz11.98\org(474.17,957)\pos(669.69,243.06)\b900\c&H68C6ED&}York the Greedy
+Dialogue: 1,0:04:35.92,0:04:38.80,Captions-207+,,0,0,0,,{\fad(231,0)\fnSerangkaian Pattern\fscx150\fscy150\bord0\c&HB2FAF7&\blur0.8\frz11.98\org(474.17,957)\pos(669.69,243.06)\clip(m 211.16 262.33 l 206.76 241.63 b 210.95 230.81 217.98 212.29 217.98 212.29 218.17 211.83 218.76 211.01 219.43 210.86 l 223.44 210.01 221.01 198.58 215.72 199.7 b 211.66 200.57 208.02 203.16 206.37 207.85 206.37 207.85 203.56 215.7 197.96 231.78 186.59 219.59 180.78 213.57 180.57 213.33 177.15 209.71 172.77 208.82 168.71 209.68 l 163.42 210.8 165.82 222.11 169.92 221.24 b 170.71 221.07 171.27 221.44 171.88 222.07 171.88 222.07 185.55 236.07 193.73 244.33 l 198.13 265.09 211.16 262.33 m 268.01 249.94 b 277.03 248.03 280.15 242.42 278.69 235.54 l 271.61 202.16 228.66 211.27 238.21 256.27 268.01 249.94 m 266.83 236.55 b 267.33 238.91 266.22 240.29 264.08 240.75 l 247.6 244.24 242.13 218.47 262.1 214.24 266.83 236.55 m 298.69 244.11 l 291.09 208.31 303.44 205.69 b 305.92 205.16 307.89 205.86 308.52 208.86 l 309.05 211.34 319.72 209.07 319.03 205.86 b 317.01 196.32 311.9 193.61 301.81 195.75 l 277.57 200.89 287.25 246.53 298.69 244.11 m 373 227.73 l 370.91 217.89 366.02 218.92 b 363.82 219.39 362.19 218.36 360.51 217.19 l 346.35 207.54 363.65 182.02 348.49 185.24 335.33 204.8 329.1 175.45 317.51 177.91 330.02 236.85 341.51 234.41 337.15 213.84 353.1 225.18 b 358.13 228.71 361.57 230.16 368.99 228.58 l 373 227.73 m 428.64 215.92 l 426.55 206.08 419.21 207.64 b 416.4 208.23 414.87 207.35 414.3 204.66 l 409.72 183.07 421.36 180.6 419.29 170.82 407.64 173.29 404.79 159.87 393.24 162.32 396.09 175.74 387.4 177.59 389.48 187.37 398.16 185.53 402.87 207.72 b 404.74 216.52 410.32 219.81 419.56 217.85 l 428.64 215.92 m 476.53 206.31 l 469.9 175.09 b 467.82 165.28 461.57 161.85 451.08 164.07 l 435.8 167.32 432.95 153.9 421.45 156.34 433.99 215.4 445.48 212.96 437.87 177.1 452.48 174 b 455.75 173.3 457.77 174.83 458.42 177.88 l 464.97 208.76 476.53 206.31 m 513.64 197.82 b 521.58 196.14 525.79 191.7 524.05 183.54 l 523.46 180.73 512.64 183.02 513.04 184.92 b 513.43 186.75 512.58 188.02 510.53 188.45 l 491 192.6 488.88 182.63 511.47 177.84 b 518.75 176.29 521.1 170.84 519.84 164.88 l 516.71 150.15 473.21 159.38 482.76 204.38 513.64 197.82 m 509.2 167.14 b 509.45 168.3 508.67 169.58 507.47 169.84 l 487.08 174.16 485.29 165.7 507.88 160.9 509.2 167.14 m 590.07 181.67 b 600.01 179.56 603.74 173.05 602.08 165.23 l 597.83 145.2 568.02 151.53 570.23 161.95 588.21 158.14 590.14 167.22 b 590.61 169.45 589.24 171.56 586.97 172.04 l 560.99 177.55 552.64 138.21 582.63 131.85 584.47 140.5 596.3 137.99 592.43 119.77 538.77 131.09 551.25 189.91 590.07 181.67 m 623.46 175.19 l 615.86 139.4 628.21 136.78 b 630.69 136.25 632.65 136.95 633.29 139.95 l 633.82 142.42 644.48 140.16 643.8 136.95 b 641.78 127.41 636.67 124.69 626.58 126.83 l 602.34 131.98 612.02 177.62 623.46 175.19 m 685.8 161.29 b 693.75 159.61 697.95 155.17 696.22 147.01 l 695.62 144.19 684.8 146.49 685.2 148.39 b 685.59 150.22 684.74 151.49 682.7 151.92 l 663.16 156.07 661.05 146.1 683.64 141.31 b 690.91 139.76 693.27 134.31 692.01 128.35 l 688.88 113.61 645.38 122.85 654.93 167.84 685.8 161.29 m 681.37 130.61 b 681.61 131.77 680.83 133.05 679.64 133.31 l 659.25 137.63 657.45 129.16 680.04 124.37 681.37 130.61 m 734.71 150.91 b 742.66 149.23 746.86 144.79 745.13 136.63 l 744.53 133.82 733.71 136.11 734.12 138.01 b 734.5 139.84 733.66 141.11 731.61 141.54 l 712.07 145.69 709.96 135.72 732.55 130.93 b 739.82 129.38 742.18 123.93 740.92 117.97 l 737.79 103.24 694.29 112.47 703.84 157.46 734.71 150.91 m 730.28 120.23 b 730.53 121.39 729.74 122.67 728.55 122.93 l 708.16 127.25 706.36 118.79 728.96 113.99 730.28 120.23 m 798.11 137.46 l 796.03 127.65 794.23 128.03 b 793.43 128.2 792.4 127.68 792.11 126.31 l 782.23 79.78 770.74 82.22 773.59 95.64 743.2 102.09 752.75 147.09 780.6 141.18 b 783.35 140.59 785.71 139.2 787.64 137.48 789.78 138.4 792.15 138.73 794.57 138.21 l 798.11 137.46 m 780.49 128.17 b 780.86 129.91 780.08 131.19 778.15 131.6 l 762.13 135 756.69 109.35 775.64 105.33 780.49 128.17 m 816.83 151.89 b 822.24 150.74 826.31 146.91 827.25 141.53 l 837.96 82.08 825.39 84.74 820.31 116.33 801.94 89.72 789.78 92.3 817.95 131.27 816.74 138.65 b 816.43 140.54 815.36 141.82 813.1 142.3 l 802.28 144.59 804.39 154.53 816.83 151.89)}AAAAAAAAAAAAAA
+Dialogue: 0,0:11:50.65,0:11:51.94,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\blur0.7\bord2.5\shad1\pos(1576,650)\c&H000101&\3c&HF2F6F1&\4c&HF2F6F1&}Labophase\NEgghead
+Dialogue: 1,0:11:50.65,0:11:51.94,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\blur0.7\bord0\c&H000101&\pos(1576,650)}Labophase\NEgghead
+Dialogue: 1,0:11:50.65,0:11:51.94,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\blur0.7\bord0\c&H000101&\pos(1576,650)}Labophase\NEgghead
+Dialogue: 0,0:15:33.62,0:15:36.29,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\blur0.7\bord3\shad1\pos(1602,625)\c&H000101&\3c&HF2F6F1&\4c&HF2F6F1&\fad(400,0)\1a&HFF&\t(358,400,\1a&H00&)}Kamabakka Queendom\NGrand Line
+Dialogue: 1,0:15:33.62,0:15:36.29,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\blur0.7\bord0\c&H000101&\pos(1602,625)\fad(400,0)}Kamabakka Queendom\NGrand Line
+Dialogue: 1,0:15:33.62,0:15:36.29,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\blur0.7\bord0\c&H000101&\pos(1602,625)\fad(400,0)}Kamabakka Queendom\NGrand Line
+Dialogue: 0,0:00:00.77,0:00:06.53,Credits-207+,,0,0,0,,{\pos(1441.48,653.85)\fscx55\fscy55\fnFOT-Aokane Std EB-Strp\b800\bord0\c&H4D0403&}Video Editing
+Dialogue: 0,0:00:00.77,0:00:06.53,Credits-207+,,0,0,0,,{\pos(1460.57,676.49)\fscx90\fscy90\fnFOT-Aokane Std EB-Strp\b800\bord0\c&H4D0403&}Feeso\NGalaxy 9000
+Dialogue: 0,0:00:18.96,0:00:20.96,Credits-207+,,0,0,0,,{\an1\fscx75\fscy75\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\pos(184,140)}Timing
+Dialogue: 0,0:00:18.96,0:00:20.96,Credits-207+,,0,0,0,,{\an1\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\fscx100\fscy100\pos(202,190)}NateTheBird
+Dialogue: 0,0:00:26.38,0:00:28.68,Credits-207+,,0,0,0,,{\pos(754.8,899.6)\fnFOT-Carat Std UB-Strp\b900\bord0\c&HD9EC6B&}Graphics: Datenshi
+Dialogue: 0,0:00:49.36,0:00:51.99,Credits-207+,,0,0,0,,{\pos(182,431)\fscx90\fscy90\fnFOT-Comet Std B-Strp\b700\bord0}Karaoke
+Dialogue: 0,0:00:49.36,0:00:51.99,Credits-207+,,0,0,0,,{\pos(216,474)\fscx150\fscy150\fnFOT-Comet Std B-Strp\b700\bord0}PhosCity
+Dialogue: 0,0:00:52.74,0:00:54.45,Credits-207+,,0,0,0,,{\pos(162,455)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Quality Control{y = highest point of first name - 55}
+Dialogue: 0,0:00:52.74,0:00:54.45,Credits-207+,,0,0,0,,{\an1\pos(246,674)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Camotoy\Nfedew\NPepperjack
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\pos(162,392)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Quality Control{y = highest point of first name - 55}
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\an1\pos(246,674)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}PhosCity\NScolines\NStanMan\NZenef
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\pos(1432,287)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Dubtitles{y = highest point of first name - 55}
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\an1\pos(1453,388)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}NateTheBird
+Dialogue: 0,0:01:07.84,0:01:10.43,Credits-207+,,0,0,0,,{\pos(850,73)\fscx70\fscy70\fnFOT-TsukuARdGothic Std E-Strp\b800\bord1\c&H000000&\3c&HFEFEFE&\blur2}Soundtracking
+Dialogue: 0,0:01:07.84,0:01:10.43,Credits-207+,,0,0,0,,{\pos(902,104)\fscx90\fscy90\fnFOT-TsukuARdGothic Std E-Strp\b800\bord1\c&H000000&\3c&HFEFEFE&\blur2}Halee
+Dialogue: 0,0:01:10.55,0:01:13.09,Credits-207+,,0,0,0,,{\pos(850,73)\fscx70\fscy70\fnFOT-TsukuARdGothic Std E-Strp\b800\bord0}Typesetting
+Dialogue: 0,0:01:10.55,0:01:13.09,Credits-207+,,0,0,0,,{\pos(902,104)\fscx90\fscy90\fnFOT-TsukuARdGothic Std E-Strp\b800\bord0}Gab
+Dialogue: 0,0:01:13.09,0:01:16.93,Credits-207+,,0,0,0,,{\an1\pos(1165.33,460)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&HFFFEFF&}Translation{y = highest point of first name - 15}
+Dialogue: 0,0:01:13.09,0:01:16.93,Credits-207+,,0,0,0,,{\an1\pos(1250.33,581)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&HFFFEFF&}Crunchyroll\NPamkinPinguin

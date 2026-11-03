@@ -1,0 +1,413 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.55,0:00:00.58,Default,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:26.36,0:01:26.39,Default,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:00.55,0:00:00.58,Default,OP,0,0,0,,
+Dialogue: 50,0:04:14.52,0:04:15.16,Main-207+,,0,0,0,,Dammit.
+Dialogue: 50,0:04:15.24,0:04:16.13,Main-207+,,0,0,0,,They're gone!
+Dialogue: 50,0:04:17.39,0:04:18.47,Main-207+,,0,0,0,,How strange.
+Dialogue: 50,0:08:26.00,0:08:26.80,Main-207+,,0,0,0,,Please!
+Dialogue: 50,0:14:23.52,0:14:24.32,Main-207+,,0,0,0,,Lili...
+Dialogue: 50,0:21:29.30,0:21:30.15,Flashbacks-207+,,0,0,0,,D?
+Dialogue: 50,0:21:59.23,0:21:59.70,Main-207+,,0,0,0,,Finally.
+Dialogue: 0,0:01:30.11,0:01:35.12,Captions-207+,,0,0,0,,{\pos(1622.5,675)\fscx90\fscy90\fnRoboto\b1\bord3\c&HFBF7F5&\3c&HFBF7F5&\blur0.7\fad(481,0)\1a&HFF&\t(439,481,\1a&H00&)}Inside Pangaea Castle\NThe Holy Land, Mary Geoise
+Dialogue: 1,0:01:30.11,0:01:35.12,Captions-207+,,0,0,0,,{\fnRoboto\b1\blur0.7\bord0\fscx90\fscy90\c&H000101&\pos(1622.5,675)\fad(481,0)}Inside Pangaea Castle\NThe Holy Land, Mary Geoise
+Dialogue: 2,0:01:38.08,0:01:41.71,Title-207+,,0,0,0,,{\pos(960,825)\fscx110\fscy110\bord0\c&HE5E6E6&\blur0.6\fad(727,0)}The Attempted Murder\Nof a Celestial Dragon
+Dialogue: 1,0:01:38.08,0:01:41.71,Title-207+,,0,0,0,,{\pos(960,825)\fscx110\fscy110\1c&H010101&\3c&H010101&\1a&HFF&\blur0.6\fad(727,0)\t(685,727,\1a&H00&)}The Attempted Murder\Nof a Celestial Dragon
+Dialogue: 0,0:08:17.52,0:08:20.52,Captions-207+,,0,0,0,,{\pos(1600,860)\fscx125\fscy125\fnRoboto\b1\bord4\shad3\c&HFBF7F5&\3c&HFBF7F5&\4c&HFBF7F5&\blur0.7}Pangaea Castle
+Dialogue: 1,0:08:17.52,0:08:20.52,Captions-207+,,0,0,0,,{\fnRoboto\b1\blur0.7\bord0\fscx125\fscy125\c&H000101&\pos(1600,860)}Pangaea Castle
+Dialogue: 0,0:00:00.77,0:00:06.53,Credits-207+,,0,0,0,,{\pos(1441.48,703)\fscx55\fscy55\fnFOT-Aokane Std EB-Strp\b800\bord0\c&H4D0403&}Video Editing
+Dialogue: 0,0:00:00.77,0:00:06.53,Credits-207+,,0,0,0,,{\pos(1460.57,726)\fscx90\fscy90\fnFOT-Aokane Std EB-Strp\b800\bord0\c&H4D0403&}Zenef
+Dialogue: 0,0:00:18.96,0:00:20.96,Credits-207+,,0,0,0,,{\an1\fscx75\fscy75\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\pos(184,140)}Timing
+Dialogue: 0,0:00:18.96,0:00:20.96,Credits-207+,,0,0,0,,{\an1\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\fscx100\fscy100\pos(202,190)}NateTheBird
+Dialogue: 0,0:00:26.38,0:00:28.68,Credits-207+,,0,0,0,,{\pos(754.8,899.6)\fnFOT-Carat Std UB-Strp\b900\bord0\c&HD9EC6B&}Graphics: Datenshi
+Dialogue: 0,0:00:49.36,0:00:51.99,Credits-207+,,0,0,0,,{\pos(182,431)\fscx90\fscy90\fnFOT-Comet Std B-Strp\b1\bord0}Karaoke
+Dialogue: 0,0:00:49.36,0:00:51.99,Credits-207+,,0,0,0,,{\pos(216,474)\fscx150\fscy150\fnFOT-Comet Std B-Strp\b1\bord0}PhosCity
+Dialogue: 0,0:00:52.74,0:00:54.45,Credits-207+,,0,0,0,,{\pos(162,452)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Quality Control{y = highest point of first name - 55}
+Dialogue: 0,0:00:52.74,0:00:54.45,Credits-207+,,0,0,0,,{\an1\pos(246,674)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}fedew\NGab\NGalaxy 9000
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\pos(162,513)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Quality Control{y = highest point of first name - 55}
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\an1\pos(246,674)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Pepperjack\NZenef
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\pos(1432,470)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Dubtitles{y = highest point of first name - 55}
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\an1\pos(1453,569.5)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}NateTheBird
+Dialogue: 0,0:01:07.84,0:01:10.43,Credits-207+,,0,0,0,,{\pos(850,73)\fscx70\fscy70\fnFOT-TsukuARdGothic Std E-Strp\b800\bord1\c&H000000&\3c&HFEFEFE&\blur2}Soundtracking
+Dialogue: 0,0:01:07.84,0:01:10.43,Credits-207+,,0,0,0,,{\pos(902,104)\fscx90\fscy90\fnFOT-TsukuARdGothic Std E-Strp\b800\bord1\c&H000000&\3c&HFEFEFE&\blur2}Halee
+Dialogue: 0,0:01:10.55,0:01:13.09,Credits-207+,,0,0,0,,{\pos(850,73)\fscx70\fscy70\fnFOT-TsukuARdGothic Std E-Strp\b800\bord0}Typesetting
+Dialogue: 0,0:01:10.55,0:01:13.09,Credits-207+,,0,0,0,,{\pos(902,104)\fscx90\fscy90\fnFOT-TsukuARdGothic Std E-Strp\b800\bord0}Gab
+Dialogue: 0,0:01:13.09,0:01:16.93,Credits-207+,,0,0,0,,{\an1\pos(1165.33,400)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&HFFFEFF&}Translation{y = highest point of first name - 15}
+Dialogue: 0,0:01:13.09,0:01:16.93,Credits-207+,,0,0,0,,{\an1\pos(1250.33,581)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&HFFFEFF&}Cee Pulse\NCrunchyroll\NPamkinPinguin
+Dialogue: 50,0:01:40.00,0:01:43.63,Main-207+,,0,0,0,,Give those\Nback! You'll pay for this!
+Dialogue: 50,0:02:24.79,0:02:25.96,Main-207+,,0,0,0,,You're Sabo, right?
+Dialogue: 50,0:02:26.16,0:02:30.59,Main-207+,,0,0,0,,Huh? Wait a sec.\NYou're Jewelry Bonney!
+Dialogue: 50,0:02:30.78,0:02:33.41,Main-207+,,0,0,0,,If you know who I am,\Nthen that saves us some time.
+Dialogue: 50,0:02:33.49,0:02:35.36,Main-207+,,0,0,0,,I think we have the same goal.
+Dialogue: 50,0:02:37.38,0:02:38.97,Main-207+,,0,0,0,,Intruders\Nin the guardroom!
+Dialogue: 50,0:02:40.31,0:02:41.69,Main-207+,,0,0,0,,They've stolen the keys\Nto the slaves' collars!
+Dialogue: 50,0:02:41.77,0:02:43.07,Main-207+,,0,0,0,,Kill them on sight!
+Dialogue: 50,0:02:45.49,0:02:47.89,Main-207+,,0,0,0,,I knew Kuma had\Na daughter, but that's all.
+Dialogue: 50,0:02:47.94,0:02:49.12,Main-207+,,0,0,0,,We've\Nnever met before,
+Dialogue: 50,0:02:49.12,0:02:51.81,Main-207+,,0,0,0,,but I've been keeping up\Nwith your group for a while.
+Dialogue: 50,0:02:51.81,0:02:54.52,Main-207+,,0,0,0,,Point is, I know you\Nguys are my allies,
+Dialogue: 50,0:02:54.52,0:02:56.38,Main-207+,,0,0,0,,and I trust you\Nto save my dad!
+Dialogue: 50,0:02:56.38,0:02:59.33,Main-207+,,0,0,0,,We will. That's what\Nwe're here for.
+Dialogue: 50,0:03:03.56,0:03:05.65,Main-207+,,0,0,0,,{\an1\q2\pos(659,1053)}– Karasu!\N– I'm here.
+Dialogue: 50,0:03:05.65,0:03:09.28,Main-207+,,0,0,0,,I found the keys! Take them\Nand tell the other captains.
+Dialogue: 50,0:03:09.37,0:03:11.92,Main-207+,,0,0,0,,Once you rescue Kuma\Nand unlock the slave collars,
+Dialogue: 50,0:03:11.92,0:03:13.61,Main-207+,,0,0,0,,go straight back to HQ.
+Dialogue: 50,0:03:14.35,0:03:16.12,Main-207+,,0,0,0,,Your mission will be complete!
+Dialogue: 50,0:03:17.62,0:03:20.28,Main-207+,,0,0,0,,We don't have much\Ntime. Go! And hurry!
+Dialogue: 50,0:03:20.34,0:03:21.73,Main-207+,,0,0,0,,What\Nabout you, Sabo?
+Dialogue: 50,0:03:21.73,0:03:22.62,Main-207+,,0,0,0,,I'll be all right.
+Dialogue: 50,0:03:22.72,0:03:24.44,Main-207+,,0,0,0,,I'll follow once I\Nfinish my business!
+Dialogue: 50,0:03:24.54,0:03:27.08,Main-207+,,0,0,0,,Got it. Be careful!
+Dialogue: 50,0:03:32.22,0:03:34.85,Main-207+,,0,0,0,,I assume you'll be leaving\Nsoon. What's next?
+Dialogue: 50,0:03:34.87,0:03:36.79,Main-207+,,0,0,0,,I'll be going straight\Nto Egghead.
+Dialogue: 50,0:03:36.87,0:03:37.85,Main-207+,,0,0,0,,All by yourself?
+Dialogue: 50,0:03:38.22,0:03:39.02,Main-207+,,0,0,0,,Uh-huh.
+Dialogue: 50,0:03:39.50,0:03:42.78,Main-207+,,0,0,0,,Y'sure that's smart? It's\NWorld Government territory.
+Dialogue: 50,0:03:43.05,0:03:44.21,Main-207+,,0,0,0,,It doesn't matter!
+Dialogue: 50,0:03:44.29,0:03:46.78,Main-207+,,0,0,0,,I need Vegapunk\Nto restore my dad's mind!
+Dialogue: 50,0:03:47.30,0:03:49.51,Main-207+,,0,0,0,,That's the whole\Nreason I went to sea!
+Dialogue: 50,0:03:49.51,0:03:53.60,Main-207+,,0,0,0,,Hold on, do you really think he\Ncan get Kuma back to normal?
+Dialogue: 50,0:03:53.61,0:03:55.77,Main-207+,,0,0,0,,Well,\NI'm not leaving until he does it.
+Dialogue: 50,0:03:55.89,0:03:59.06,Main-207+,,0,0,0,,So he'd better fix him or else!
+Dialogue: 50,0:04:00.32,0:04:01.52,Main-207+,,0,0,0,,There they are!
+Dialogue: 50,0:04:01.52,0:04:04.18,Main-207+,,0,0,0,,This way! Hurry!
+Dialogue: 50,0:04:13.43,0:04:14.44,Main-207+,,0,0,0,,Where are they?
+Dialogue: 50,0:04:19.13,0:04:21.12,Main-207+,,0,0,0,,I could've sworn\NI saw someone.
+Dialogue: 50,0:04:21.12,0:04:23.88,Main-207+,,0,0,0,,Thanks. Nice timing.
+Dialogue: 50,0:04:24.43,0:04:26.31,Main-207+,,0,0,0,,Why do they\Ninsist on making things
+Dialogue: 50,0:04:26.31,0:04:27.94,Main-207+,,0,0,0,,so difficult for us?
+Dialogue: 50,0:04:27.94,0:04:30.23,Main-207+,,0,0,0,,There simply aren't enough\Nguards in this tower
+Dialogue: 50,0:04:30.23,0:04:32.69,Main-207+,,0,0,0,,to patrol a space\Nas large as this.
+Dialogue: 50,0:04:32.71,0:04:35.17,Main-207+,,0,0,0,,What?\NSurely you must've heard.
+Dialogue: 50,0:04:35.35,0:04:38.25,Main-207+,,0,0,0,,We're short on manpower\Nbecause of "you know what."
+Dialogue: 50,0:04:38.42,0:04:39.27,Main-207+,,0,0,0,,Pardon?
+Dialogue: 50,0:04:40.48,0:04:41.99,Main-207+,,0,0,0,,Apparently,\Nthey saw it.
+Dialogue: 50,0:04:42.07,0:04:43.13,Main-207+,,0,0,0,,Saw what?
+Dialogue: 50,0:04:43.21,0:04:44.55,Main-207+,,0,0,0,,The Lost Chamber.
+Dialogue: 50,0:04:44.63,0:04:46.00,Main-207+,,0,0,0,,Keep\Nyour voice down, you fool!
+Dialogue: 50,0:04:46.08,0:04:47.57,Main-207+,,0,0,0,,Don't even joke about that!
+Dialogue: 50,0:04:51.50,0:04:52.40,Main-207+,,0,0,0,,Thanks, Sabo.
+Dialogue: 50,0:04:52.48,0:04:54.48,Main-207+,,0,0,0,,Well, Egghead is\Nin the New World,
+Dialogue: 50,0:04:54.86,0:04:57.38,Main-207+,,0,0,0,,so it looks like we're headed\Nin opposite directions.
+Dialogue: 50,0:04:57.46,0:04:58.67,Main-207+,,0,0,0,,Just be careful.
+Dialogue: 50,0:04:58.67,0:04:59.92,Main-207+,,0,0,0,,Okay.
+Dialogue: 50,0:04:59.94,0:05:01.49,Main-207+,,0,0,0,,I'll keep you in my thoughts.
+Dialogue: 50,0:05:01.51,0:05:05.03,Main-207+,,0,0,0,,Huh? Thanks,\Nbut this is weird.
+Dialogue: 50,0:05:06.10,0:05:08.02,Main-207+,,0,0,0,,You're not a pirate like me.
+Dialogue: 50,0:05:08.21,0:05:12.21,Main-207+,,0,0,0,,Dunno how I feel about\Na Revolutionary treating me nice.
+Dialogue: 50,0:05:13.71,0:05:15.86,Main-207+,,0,0,0,,We both wanna\Nsave Kuma, right?
+Dialogue: 50,0:05:15.86,0:05:16.92,Main-207+,,0,0,0,,Get him back safe.
+Dialogue: 50,0:05:20.27,0:05:24.93,Main-207+,,0,0,0,,What do you wish to ask,\NCobra, King of Alabasta?
+Dialogue: 50,0:05:25.38,0:05:26.39,Main-207+,,0,0,0,,Speak up.
+Dialogue: 50,0:05:28.96,0:05:32.76,Main-207+,,0,0,0,,Well, I suppose I\Nshould start at the beginning.
+Dialogue: 50,0:05:32.76,0:05:35.24,Main-207+,,0,0,0,,It is said that roughly\N800 years ago,
+Dialogue: 50,0:05:35.24,0:05:37.78,Main-207+,,0,0,0,,there were 20 monarchs\Nwho came together
+Dialogue: 50,0:05:38.29,0:05:40.66,Main-207+,,0,0,0,,to form the World\NGovernment as we know it.
+Dialogue: 50,0:05:41.16,0:05:43.13,Main-207+,,0,0,0,,After creating\Nthis new regime,
+Dialogue: 50,0:05:43.13,0:05:46.69,Main-207+,,0,0,0,,they relocated\Ntheir families to Mary Geoise.
+Dialogue: 50,0:05:46.69,0:05:50.40,Main-207+,,0,0,0,,Those families became known\Nas the Celestial Dragons,
+Dialogue: 50,0:05:50.48,0:05:53.51,Main-207+,,0,0,0,,and they have reigned\Nfor eight centuries.
+Dialogue: 50,0:05:53.75,0:05:55.70,Main-207+,,0,0,0,,But there was no\Nsupreme ruler.
+Dialogue: 50,0:05:55.94,0:05:59.28,Main-207+,,0,0,0,,They all shared\Ntheir power equally.
+Dialogue: 50,0:05:59.53,0:06:02.57,Main-207+,,0,0,0,,The Empty Throne is a monument\Nto that commitment.
+Dialogue: 50,0:06:03.10,0:06:07.03,Main-207+,,0,0,0,,It symbolizes their promise\Nto never allow a dictator to reign.
+Dialogue: 50,0:06:07.05,0:06:10.01,Main-207+,,0,0,0,,The 20 monarchs placed\Ntheir weapons at its feet,
+Dialogue: 50,0:06:10.01,0:06:13.10,Main-207+,,0,0,0,,vowing that none\Nwould sit upon it.
+Dialogue: 50,0:06:13.10,0:06:15.10,Main-207+,,0,0,0,,Meanwhile,\Nin their homelands,
+Dialogue: 50,0:06:15.29,0:06:17.75,Main-207+,,0,0,0,,new royal families\Nwere selected.
+Dialogue: 50,0:06:17.96,0:06:20.84,Main-207+,,0,0,0,,And those families have\Nbeen in power ever since.
+Dialogue: 50,0:06:21.05,0:06:22.50,Main-207+,,0,0,0,,Therefore,\Ntheir names all differ
+Dialogue: 50,0:06:22.50,0:06:24.57,Main-207+,,0,0,0,,from those\Nof the First Twenty.
+Dialogue: 50,0:06:24.68,0:06:28.31,Main-207+,,0,0,0,,A new line of succession\Nwas born in each nation.
+Dialogue: 50,0:06:28.42,0:06:30.87,Main-207+,,0,0,0,,And yet Alabasta is different.
+Dialogue: 50,0:06:31.19,0:06:33.69,Main-207+,,0,0,0,,Queen Lili of\Nthe Nefertari Family
+Dialogue: 50,0:06:33.69,0:06:36.95,Main-207+,,0,0,0,,was named one of the First\NTwenty monarchs at the time.
+Dialogue: 50,0:06:37.04,0:06:39.27,Main-207+,,0,0,0,,{\t(3648,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)}But she did not become\Na Celestial Dragon.
+Dialogue: 50,0:06:39.47,0:06:41.55,Main-207+,,0,0,0,,{\t(3648,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)}She returned to Alabasta.
+Dialogue: 50,0:06:42.17,0:06:45.82,Main-207+,,0,0,0,,And we, the Nefertari Family,\Nstill reign there to this day.
+Dialogue: 50,0:06:46.25,0:06:47.83,Main-207+,,0,0,0,,I assume that is the reason
+Dialogue: 50,0:06:47.97,0:06:52.19,Main-207+,,0,0,0,,there are only 19 weapons\Nsurrounding the throne.
+Dialogue: 50,0:06:52.19,0:06:56.48,Main-207+,,0,0,0,,What you've said is correct,\Nbut what is your point?
+Dialogue: 50,0:06:56.48,0:06:58.68,Main-207+,,0,0,0,,Well, I've been\Nperusing some old books
+Dialogue: 50,0:06:58.68,0:07:01.18,Main-207+,,0,0,0,,we have in my country.
+Dialogue: 50,0:07:01.18,0:07:04.14,Main-207+,,0,0,0,,Of course, none of those texts\Npredate the Void Century,
+Dialogue: 50,0:07:04.14,0:07:06.28,Main-207+,,0,0,0,,so we cannot\Nknow the full truth,
+Dialogue: 50,0:07:06.68,0:07:08.80,Main-207+,,0,0,0,,but I still noticed\Nsomething odd.
+Dialogue: 50,0:07:09.20,0:07:14.21,Main-207+,,0,0,0,,Lili is missing. Her name\Nis nowhere to be found.
+Dialogue: 50,0:07:16.85,0:07:20.61,Main-207+,,0,0,0,,It would seem she never made it\Nback to the Kingdom of Alabasta.
+Dialogue: 50,0:07:21.47,0:07:24.67,Main-207+,,0,0,0,,Her younger brother ruled\Nthe country in her stead.
+Dialogue: 50,0:07:24.76,0:07:27.11,Main-207+,,0,0,0,,Nothing else about\Nher fate was written.
+Dialogue: 50,0:07:27.73,0:07:30.25,Main-207+,,0,0,0,,Could you tell me what\Nyou know about that?
+Dialogue: 50,0:07:31.19,0:07:36.37,Main-207+,,0,0,0,,Is that all you wish to ask?\NAbout an 800-year-old story?
+Dialogue: 50,0:07:36.66,0:07:39.95,Main-207+,,0,0,0,,{\i1}As you said, the monarch\Nof the Nefertari Family
+Dialogue: 50,0:07:39.95,0:07:43.03,Main-207+,,0,0,0,,{\i1}did not choose to stay\Nlike the others.
+Dialogue: 50,0:07:43.26,0:07:46.47,Main-207+,,0,0,0,,{\i1}But the belief was that she\Nreturned to her country.
+Dialogue: 50,0:07:46.86,0:07:49.83,Main-207+,,0,0,0,,{\i1}No one knows why she left,\Nor where she ended up.
+Dialogue: 50,0:07:50.61,0:07:52.79,Main-207+,,0,0,0,,{\i1}Those details have\Nbeen lost to time.
+Dialogue: 50,0:07:54.36,0:07:56.77,Main-207+,,0,0,0,,That is all we know I'm afraid.
+Dialogue: 50,0:07:58.88,0:08:00.81,Main-207+,,0,0,0,,Then\Nwhat is the "D."?
+Dialogue: 50,0:08:02.22,0:08:04.63,Main-207+,,0,0,0,,And why would you ask that?
+Dialogue: 50,0:08:04.68,0:08:06.57,Main-207+,,0,0,0,,It's quite brief,\Nbut there is a letter
+Dialogue: 50,0:08:06.57,0:08:09.60,Main-207+,,0,0,0,,that Queen Lili wrote\N800 years ago.
+Dialogue: 50,0:08:10.08,0:08:13.79,Main-207+,,0,0,0,,Our family has passed it\Ndown for generations now.
+Dialogue: 50,0:08:27.03,0:08:28.65,Main-207+,,0,0,0,,You're hurting me!
+Dialogue: 50,0:08:28.65,0:08:32.20,Main-207+,,0,0,0,,This isn't right!\NSomebody stop him!
+Dialogue: 50,0:08:35.20,0:08:37.62,Main-207+,,0,0,0,,It was hard work,\Nbut I finally did it!
+Dialogue: 50,0:08:37.70,0:08:39.64,Main-207+,,0,0,0,,I never gave up on my dream
+Dialogue: 50,0:08:39.72,0:08:42.92,Main-207+,,0,0,0,,and now the giant\Nmermaid belongs to me!
+Dialogue: 50,0:08:42.97,0:08:45.89,Main-207+,,0,0,0,,Good lad! She's all\Nyours! A fine catch!
+Dialogue: 50,0:08:45.91,0:08:48.49,Main-207+,,0,0,0,,Please, someone help!\NHe's going to take me away!
+Dialogue: 50,0:08:48.49,0:08:52.25,Main-207+,,0,0,0,,This is a nightmare! Oh,\Nmy poor, sweet Shirahoshi!
+Dialogue: 50,0:08:52.26,0:08:55.50,Main-207+,,0,0,0,,Ooh! I wonder what\NI should feed her!
+Dialogue: 50,0:08:55.50,0:08:56.90,Main-207+,,0,0,0,,{\fad(0,484)}I can't wait\Nfor her to pick me up
+Dialogue: 50,0:08:56.90,0:08:58.33,Main-207+,,0,0,0,,{\fad(0,484)}with her big, beautiful hands,
+Dialogue: 50,0:08:58.33,0:09:01.24,Main-207+,,0,0,0,,{\fad(0,484)}and carry me\Naround town all day!
+Dialogue: 50,0:09:01.58,0:09:04.27,Main-207+,,0,0,0,,{\fad(475,0)}Look at my new\Npet, Shirahoshi!
+Dialogue: 50,0:09:04.35,0:09:06.93,Main-207+,,0,0,0,,Now, stop looking\Nand get out of my way!
+Dialogue: 50,0:09:08.30,0:09:12.61,Main-207+,,0,0,0,,{\fad(0,484)}Everyone loves me!
+Dialogue: 50,0:09:12.69,0:09:16.12,Main-207+,,0,0,0,,And if you don't obey me,\NI'll be sure to give you hell!
+Dialogue: 50,0:09:16.20,0:09:16.95,Main-207+,,0,0,0,,I refuse!
+Dialogue: 50,0:09:19.02,0:09:20.17,Main-207+,,0,0,0,,Why won't anyone help?
+Dialogue: 50,0:09:20.26,0:09:24.80,Main-207+,,0,0,0,,Why are you just watching?\NPlease, save me!
+Dialogue: 50,0:09:24.99,0:09:25.82,Main-207+,,0,0,0,,Why now?
+Dialogue: 50,0:09:26.16,0:09:29.34,Main-207+,,0,0,0,,My father and all our guards\Nare in the Council Tower.
+Dialogue: 50,0:09:29.34,0:09:32.58,Main-207+,,0,0,0,,He doesn't own me!\NThis isn't right!
+Dialogue: 50,0:09:34.06,0:09:36.00,Main-207+,,0,0,0,,It seems there's\Nonly one option.
+Dialogue: 50,0:09:37.41,0:09:40.18,Main-207+,,0,0,0,,You'll help me?
+Dialogue: 50,0:09:40.26,0:09:41.66,Main-207+,,0,0,0,,Run away, hurry!
+Dialogue: 50,0:09:42.52,0:09:43.37,Main-207+,,0,0,0,,Oh, no.
+Dialogue: 50,0:09:43.42,0:09:45.31,Main-207+,,0,0,0,,You! Mermaid!
+Dialogue: 50,0:09:45.45,0:09:47.51,Main-207+,,0,0,0,,Are you being\Nrebellious already?
+Dialogue: 50,0:09:47.62,0:09:49.18,Main-207+,,0,0,0,,I should have you flensed!
+Dialogue: 50,0:09:49.42,0:09:52.19,Main-207+,,0,0,0,,Honestly, it's rude\Nof her to expect us to bail her out!
+Dialogue: 50,0:09:52.28,0:09:53.66,Main-207+,,0,0,0,,She turned us down!
+Dialogue: 50,0:09:53.74,0:09:56.21,Main-207+,,0,0,0,,We can turn down saving\Nher from slavery, right?
+Dialogue: 50,0:09:56.21,0:09:59.18,Main-207+,,0,0,0,,That's right! I won't put\Nmy neck on the line for her!
+Dialogue: 50,0:09:59.18,0:10:00.11,Main-207+,,0,0,0,,Make way!
+Dialogue: 50,0:10:00.22,0:10:03.58,Main-207+,,0,0,0,,You pathetic, filthy cowards\Nare as spineless as a jellyfish!
+Dialogue: 50,0:10:04.61,0:10:05.94,Main-207+,,0,0,0,,The princes!
+Dialogue: 50,0:10:07.97,0:10:11.30,Main-207+,,0,0,0,,You can't fight! They'll\Ndestroy your whole country!
+Dialogue: 50,0:10:11.39,0:10:13.48,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:10:13.48,0:10:15.86,Main-207+,,0,0,0,,Sister, forgive us\Nfor letting this happen!
+Dialogue: 50,0:10:16.17,0:10:17.58,Main-207+,,0,0,0,,I'm so glad you're here!
+Dialogue: 50,0:10:17.67,0:10:19.16,Main-207+,,0,0,0,,I just wish we'd come sooner!
+Dialogue: 50,0:10:19.29,0:10:23.25,Main-207+,,0,0,0,,But you're safe now!\NWe'll set you free right away!
+Dialogue: 50,0:10:24.83,0:10:25.91,Main-207+,,0,0,0,,Let's return home!
+Dialogue: 50,0:10:25.99,0:10:28.56,Main-207+,,0,0,0,,We'll never come\Nto this cursed place again!
+Dialogue: 50,0:10:29.06,0:10:30.28,Main-207+,,0,0,0,,Thank you, Fukaboshi.
+Dialogue: 50,0:10:30.37,0:10:31.57,Main-207+,,0,0,0,,Oh, you're going home?
+Dialogue: 50,0:10:31.65,0:10:33.56,Main-207+,,0,0,0,,That sounds like\Na splendid idea to me.
+Dialogue: 50,0:10:33.65,0:10:36.77,Main-207+,,0,0,0,,The mermaid stays as my pet,\Nand you get out of my hair.
+Dialogue: 50,0:10:36.77,0:10:38.39,Main-207+,,0,0,0,,I don't want any fishmen.
+Dialogue: 50,0:10:38.43,0:10:41.74,Main-207+,,0,0,0,,You bastard! Give her back!
+Dialogue: 50,0:10:42.08,0:10:44.15,Main-207+,,0,0,0,,How dare you\Ntreat her that way!
+Dialogue: 50,0:10:45.69,0:10:47.99,Main-207+,,0,0,0,,You'll pay for this!
+Dialogue: 50,0:10:51.27,0:10:55.41,Main-207+,,0,0,0,,Kill them, Kuma.\NMy Invincible Slave!
+Dialogue: 50,0:11:00.52,0:11:03.24,Main-207+,,0,0,0,,Don't kill them! Please!
+Dialogue: 50,0:11:03.24,0:11:04.79,Main-207+,,0,0,0,,Shirahoshi!
+Dialogue: 50,0:11:04.79,0:11:05.75,Main-207+,,0,0,0,,Rebecca!
+Dialogue: 50,0:11:06.55,0:11:07.93,Main-207+,,0,0,0,,We'll get\Nthose chains off of you!
+Dialogue: 50,0:11:07.93,0:11:10.78,Main-207+,,0,0,0,,Rebecca! It's\Nthat creep again!
+Dialogue: 50,0:11:10.78,0:11:13.89,Main-207+,,0,0,0,,I don't care who he is!\NWe'll stop him!
+Dialogue: 50,0:11:15.24,0:11:16.87,Main-207+,,0,0,0,,Just checking, Mjosgard,
+Dialogue: 50,0:11:17.01,0:11:19.08,Main-207+,,0,0,0,,but I can kick his ass\Nthis time, right?
+Dialogue: 50,0:11:19.08,0:11:22.75,Main-207+,,0,0,0,,Of course! I'll take full\Nresponsibility for it!
+Dialogue: 50,0:11:24.55,0:11:26.01,Main-207+,,0,0,0,,A pity\Nthat a former Warlord
+Dialogue: 50,0:11:26.01,0:11:28.89,Main-207+,,0,0,0,,has been reduced to this,\Nbut I won't relent!
+Dialogue: 50,0:11:28.89,0:11:32.75,Main-207+,,0,0,0,,Forward! Let's go!\NRyuboshi! Mamboshi!
+Dialogue: 50,0:11:32.75,0:11:33.64,Main-207+,,0,0,0,,Ready!
+Dialogue: 50,0:11:33.64,0:11:36.03,Main-207+,,0,0,0,,Just kill them,\NKuma! It'll be fine!
+Dialogue: 50,0:11:36.03,0:11:37.41,Main-207+,,0,0,0,,Even if they are royalty,
+Dialogue: 50,0:11:37.55,0:11:40.24,Main-207+,,0,0,0,,there's no problem a little\Nmoney can't solve!
+Dialogue: 50,0:11:40.24,0:11:41.94,Main-207+,,0,0,0,,They are just fish.
+Dialogue: 50,0:11:42.02,0:11:43.72,Main-207+,,0,0,0,,How dare you!
+Dialogue: 50,0:11:44.57,0:11:45.67,Main-207+,,0,0,0,,Please, calm down!
+Dialogue: 50,0:11:45.75,0:11:47.94,Main-207+,,0,0,0,,You mustn't forget\Nyou are royalty!
+Dialogue: 50,0:11:48.02,0:11:49.23,Main-207+,,0,0,0,,Don't stop me!
+Dialogue: 50,0:11:49.31,0:11:50.86,Main-207+,,0,0,0,,Leave\Nit to them instead!
+Dialogue: 50,0:11:52.20,0:11:55.44,Main-207+,,0,0,0,,Our sister is in trouble!\NI can't just watch!
+Dialogue: 50,0:11:55.50,0:11:58.10,Main-207+,,0,0,0,,Why do they have a right\Nto step up when we don't?
+Dialogue: 50,0:11:58.17,0:12:01.55,Main-207+,,0,0,0,,Because they are pirates!\NThink of your country!
+Dialogue: 50,0:12:01.63,0:12:03.08,Main-207+,,0,0,0,,You could start a war!
+Dialogue: 50,0:12:03.09,0:12:05.66,Main-207+,,0,0,0,,Damn\Nyou, Mjosgard!
+Dialogue: 50,0:12:05.67,0:12:07.13,Main-207+,,0,0,0,,Don't you dare\Nthink I've forgotten
+Dialogue: 50,0:12:07.13,0:12:09.26,Main-207+,,0,0,0,,the insult you dealt to me!
+Dialogue: 50,0:12:09.26,0:12:13.93,Main-207+,,0,0,0,,Kuma! Kill Mjosgard\Nthis instant!
+Dialogue: 50,0:12:15.52,0:12:17.02,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:12:20.27,0:12:22.27,Main-207+,,0,0,0,,Tontatta Combat!
+Dialogue: 50,0:12:22.27,0:12:25.11,Main-207+,,0,0,0,,{\fad(150,150)}Hasshoken Technique:\NDrill Dragon!
+Dialogue: 50,0:12:25.11,0:12:27.07,Main-207+,,0,0,0,,Sir Leo! Sir Sai!
+Dialogue: 50,0:12:27.25,0:12:28.06,Main-207+,,0,0,0,,Don't do it!
+Dialogue: 50,0:12:28.28,0:12:31.27,Main-207+,,0,0,0,,They'll put you to death!
+Dialogue: 50,0:12:30.40,0:12:31.90,Main-207+,,0,0,0,,{\fad(150,150)}Tail Hammer!
+Dialogue: 50,0:12:32.04,0:12:34.67,Main-207+,,0,0,0,,And a nail!
+Dialogue: 50,0:12:40.50,0:12:42.53,Main-207+,,0,0,0,,Charlos!
+Dialogue: 50,0:12:43.92,0:12:45.78,Main-207+,,0,0,0,,They killed him!
+Dialogue: 50,0:12:45.78,0:12:50.01,Main-207+,,0,0,0,,Oh, the inhumanity!\NThis is murder!
+Dialogue: 50,0:12:50.10,0:12:52.66,Main-207+,,0,0,0,,The murder\Nof a Celestial Dragon!
+Dialogue: 50,0:12:53.95,0:12:56.76,Main-207+,,0,0,0,,Someone call\Nthe admirals, now!
+Dialogue: 50,0:13:09.10,0:13:13.06,Main-207+,,0,0,0,,Stop it, Kuma!\NPlease, don't do this!
+Dialogue: 50,0:13:13.06,0:13:16.60,Main-207+,,0,0,0,,We came here to set\Nyou free! Okay?
+Dialogue: 50,0:13:16.65,0:13:19.53,Main-207+,,0,0,0,,You don't have to follow\Ntheir orders anymore!
+Dialogue: 50,0:13:19.55,0:13:23.43,Main-207+,,0,0,0,,We can help you!\NLet's go home together!
+Dialogue: 50,0:13:25.20,0:13:26.79,Main-207+,,0,0,0,,What is a Giant doing here?
+Dialogue: 50,0:13:27.52,0:13:29.48,Main-207+,,0,0,0,,{\an1\q2\pos(674.5,1053)}– Morley!\N– Karasu!
+Dialogue: 50,0:13:29.51,0:13:31.97,Main-207+,,0,0,0,,I got the keys\Nfrom Sabo! Come on!
+Dialogue: 50,0:13:31.98,0:13:32.93,Main-207+,,0,0,0,,What is that?
+Dialogue: 50,0:13:33.01,0:13:33.97,Main-207+,,0,0,0,,An intruder?
+Dialogue: 50,0:13:34.05,0:13:35.08,Main-207+,,0,0,0,,That's Morley!
+Dialogue: 50,0:13:35.16,0:13:37.45,Main-207+,,0,0,0,,A captain of\Nthe Revolutionary Army!
+Dialogue: 50,0:13:37.56,0:13:40.35,Main-207+,,0,0,0,,Going down! See ya!
+Dialogue: 50,0:13:43.77,0:13:47.40,Main-207+,,0,0,0,,Oh, my son! What have\Nthey done to you?
+Dialogue: 50,0:14:01.59,0:14:05.95,Main-207+,,0,0,0,,Great Imu! King\NCobra is still here!
+Dialogue: 50,0:14:05.95,0:14:08.47,Thoughts-207+,,0,0,0,,Did he say Imu?
+Dialogue: 50,0:14:28.77,0:14:31.23,Thoughts-207+,,0,0,0,,No one is meant\Nto sit upon that throne.
+Dialogue: 50,0:14:32.92,0:14:35.74,Thoughts-207+,,0,0,0,,The world should\Nnot bend to one person's will!
+Dialogue: 50,0:14:35.82,0:14:37.53,Thoughts-207+,,0,0,0,,This was the oath!
+Dialogue: 50,0:14:37.61,0:14:40.34,Main-207+,,0,0,0,,There are two things\Nthat I wish to tell you,
+Dialogue: 50,0:14:40.77,0:14:44.28,Main-207+,,0,0,0,,and one thing I wish\Nto ask of you, Cobra.
+Dialogue: 50,0:14:44.63,0:14:46.29,Main-207+,,0,0,0,,But who are you?
+Dialogue: 50,0:14:48.16,0:14:50.18,Main-207+,,0,0,0,,The name Imu sounds familiar.
+Dialogue: 50,0:14:50.80,0:14:52.61,Main-207+,,0,0,0,,Surely it's a coincidence,
+Dialogue: 50,0:14:53.00,0:14:55.08,Main-207+,,0,0,0,,But among the First\NTwenty there was...
+Dialogue: 50,0:14:52.49,0:14:58.62,Main-207+,,0,0,0,,Cease your prying.\NI will not respond to it.
+Dialogue: 50,0:15:00.26,0:15:03.13,Main-207+,,0,0,0,,But I shall answer\Nyour previous question.
+Dialogue: 50,0:15:04.07,0:15:06.61,Main-207+,,0,0,0,,The "D." you speak\Nof is the name of those
+Dialogue: 50,0:15:06.61,0:15:09.34,Main-207+,,0,0,0,,who once opposed\Nus long ago.
+Dialogue: 50,0:15:10.84,0:15:12.26,Main-207+,,0,0,0,,It has reared\Nits ugly head
+Dialogue: 50,0:15:12.26,0:15:14.85,Main-207+,,0,0,0,,rather frequently\Nin recent years
+Dialogue: 50,0:15:14.85,0:15:17.23,Main-207+,,0,0,0,,among hollow shells who\Ndon't even know the meaning
+Dialogue: 50,0:15:17.23,0:15:19.27,Main-207+,,0,0,0,,of their own name.
+Dialogue: 50,0:15:19.27,0:15:22.91,Main-207+,,0,0,0,,That wretched faction,\Nlike so many other scourges,
+Dialogue: 50,0:15:22.91,0:15:27.88,Main-207+,,0,0,0,,stemmed from Queen Lili's\Ngreat mistake 800 years ago.
+Dialogue: 50,0:15:28.16,0:15:29.28,Main-207+,,0,0,0,,What mistake?
+Dialogue: 50,0:15:29.56,0:15:31.60,Main-207+,,0,0,0,,We have her to thank\Nfor those scholars
+Dialogue: 50,0:15:31.74,0:15:35.29,Main-207+,,0,0,0,,who were sniffing around\Nthe Void Century as well.
+Dialogue: 50,0:15:35.29,0:15:38.00,Main-207+,,0,0,0,,And for the pirates,\Nwho seek the Poneglyphs
+Dialogue: 50,0:15:38.00,0:15:41.00,Main-207+,,0,0,0,,in their never-ending\Nsearch for treasure.
+Dialogue: 50,0:15:41.00,0:15:44.46,Main-207+,,0,0,0,,Were it not for Lili's\Nmistake on that fateful day,
+Dialogue: 50,0:15:44.46,0:15:48.21,Main-207+,,0,0,0,,those stones would never have\Nbeen scattered across the world,
+Dialogue: 50,0:15:48.82,0:15:52.48,Main-207+,,0,0,0,,and not a soul would covet\Nthe loathsome things.
+Dialogue: 50,0:15:57.70,0:16:00.39,Main-207+,,0,0,0,,A damning\Nquestion must be asked.
+Dialogue: 50,0:16:00.83,0:16:03.31,Main-207+,,0,0,0,,Was this travesty\Nan accident?
+Dialogue: 50,0:16:03.63,0:16:05.88,Main-207+,,0,0,0,,Were the Poneglyphs\Ntruly unleashed
+Dialogue: 50,0:16:05.95,0:16:09.96,Main-207+,,0,0,0,,upon the world by mistake?
+Dialogue: 50,0:16:10.27,0:16:13.41,Main-207+,,0,0,0,,Or was it all by design?
+Dialogue: 50,0:16:20.26,0:16:22.30,Main-207+,,0,0,0,,I believe you\Nknow the answer.
+Dialogue: 50,0:16:22.34,0:16:24.36,Main-207+,,0,0,0,,It must have been\Nwritten in Lili's letter
+Dialogue: 50,0:16:24.36,0:16:28.21,Main-207+,,0,0,0,,that arrived in Alabasta.
+Dialogue: 50,0:16:28.21,0:16:31.30,Main-207+,,0,0,0,,I cannot help but notice that\Nyou have referred to her only
+Dialogue: 50,0:16:31.30,0:16:34.72,Main-207+,,0,0,0,,as "Queen Lili\Nof the Nefertari Family."
+Dialogue: 50,0:16:35.42,0:16:37.20,Main-207+,,0,0,0,,Why is that?
+Dialogue: 50,0:16:37.94,0:16:43.40,Main-207+,,0,0,0,,What is the proper name\Nwritten on that letter. Say it.
+Dialogue: 50,0:16:51.15,0:16:52.25,Thoughts-207+,,0,0,0,,That settles it.
+Dialogue: 50,0:16:52.76,0:16:55.06,Thoughts-207+,,0,0,0,,My hopes were\Nalready dwindling,
+Dialogue: 50,0:16:55.14,0:16:58.38,Thoughts-207+,,0,0,0,,but now I'm certain I won't\Nbe leaving this room alive.
+Dialogue: 50,0:17:01.38,0:17:04.44,Main-207+,,0,0,0,,If I renounce the truth,\Nthen would you let me go?
+Dialogue: 50,0:17:04.51,0:17:05.51,Main-207+,,0,0,0,,Your fate was sealed
+Dialogue: 50,0:17:05.51,0:17:07.50,Main-207+,,0,0,0,,the moment you laid\Neyes on Great Imu.
+Dialogue: 50,0:17:07.98,0:17:10.07,Main-207+,,0,0,0,,A lie will change nothing.
+Dialogue: 50,0:17:24.32,0:17:25.46,Thoughts-207+,,0,0,0,,Of course it won't.
+Dialogue: 50,0:17:26.01,0:17:28.83,Thoughts-207+,,0,0,0,,I've uncovered the greatest\Nsecret in the world.
+Dialogue: 50,0:17:35.15,0:17:36.62,Thoughts-207+,,0,0,0,,What's\Ngoing on in there?
+Dialogue: 50,0:17:37.08,0:17:38.64,Thoughts-207+,,0,0,0,,Something is very wrong.
+Dialogue: 50,0:17:40.28,0:17:42.10,Main-207+,,0,0,0,,The letter that you speak of
+Dialogue: 50,0:17:42.49,0:17:46.70,Main-207+,,0,0,0,,was signed by the queen\Nof Alabasta 800 years ago.
+Dialogue: 50,0:17:47.10,0:17:48.86,Main-207+,,0,0,0,,Her full name was...
+Dialogue: 50,0:17:52.50,0:17:54.92,Main-207+,,0,0,0,,...Nefertari...
+Dialogue: 50,0:17:57.96,0:18:01.13,Main-207+,,0,0,0,,...D. Lili.
+Dialogue: 50,0:18:01.23,0:18:03.23,Main-207+,,0,0,0,,"D."
+Dialogue: 50,0:18:20.04,0:18:20.87,Main-207+,,0,0,0,,{\fad(150,150)}Fire Fist!
+Dialogue: 50,0:18:26.28,0:18:27.11,Main-207+,,0,0,0,,{\fad(150,150)}Rook Check!
+Dialogue: 50,0:18:32.11,0:18:33.99,Main-207+,,0,0,0,,Where did\Nyou come from?
+Dialogue: 50,0:19:02.74,0:19:06.01,Main-207+,,0,0,0,,Seems it was naive of me\Nto think I could take you down.
+Dialogue: 50,0:19:06.01,0:19:09.95,Main-207+,,0,0,0,,I didn't expect to find hell up\Nhere at the top of the world.
+Dialogue: 50,0:19:25.81,0:19:27.07,Main-207+,,0,0,0,,You stay away!
+Dialogue: 50,0:19:31.76,0:19:37.43,Main-207+,,0,0,0,,Young man. You're him,\Naren't you? Luffy's brother.
+Dialogue: 50,0:19:40.72,0:19:46.22,Main-207+,,0,0,0,,You're a Revolutionary.\NWhy would you protect a king?
+Dialogue: 50,0:19:46.54,0:19:49.56,Main-207+,,0,0,0,,Our true enemies are the ones\Nwho sit above the kings.
+Dialogue: 50,0:19:49.64,0:19:50.85,Main-207+,,0,0,0,,These monsters.
+Dialogue: 50,0:19:51.36,0:19:53.35,Main-207+,,0,0,0,,But wait, how do\Nyou know Luffy?
+Dialogue: 50,0:19:54.89,0:19:56.93,Main-207+,,0,0,0,,Well, he saved my life.
+Dialogue: 50,0:19:57.99,0:19:59.07,Main-207+,,0,0,0,,Sounds like him.
+Dialogue: 50,0:20:07.43,0:20:09.35,Main-207+,,0,0,0,,I know it hurts, but hold on.
+Dialogue: 50,0:20:09.35,0:20:11.82,Main-207+,,0,0,0,,I'm gonna do my best\Nto get you ou...
+Dialogue: 50,0:20:21.42,0:20:23.89,Main-207+,,0,0,0,,You won't escape with me\Nslowing you down.
+Dialogue: 50,0:20:24.01,0:20:27.43,Main-207+,,0,0,0,,I'm going to die either way.\NPlease, just leave me.
+Dialogue: 50,0:20:27.82,0:20:28.67,Main-207+,,0,0,0,,Not a chance!
+Dialogue: 50,0:20:30.74,0:20:33.02,Main-207+,,0,0,0,,I discovered\Nsomething important.
+Dialogue: 50,0:20:34.74,0:20:37.51,Main-207+,,0,0,0,,No matter what, I need\Nyou to leave here alive.
+Dialogue: 50,0:20:37.92,0:20:41.52,Main-207+,,0,0,0,,You have to pass on a message\Nto Luffy and Vivi for me.
+Dialogue: 50,0:20:41.60,0:20:43.37,Main-207+,,0,0,0,,If you say so, but what is it?
+Dialogue: 50,0:20:44.61,0:20:47.65,Main-207+,,0,0,0,,Tell them that we all\Nshare the name "D."
+Dialogue: 50,0:20:54.04,0:20:56.20,Flashbacks-207+,,0,0,0,,It can't be\Na coincidence, right?
+Dialogue: 50,0:20:56.72,0:20:58.61,Flashbacks-207+,,0,0,0,,What do you mean?\NWhat can't?
+Dialogue: 50,0:20:58.64,0:21:00.15,Flashbacks-207+,,0,0,0,,You both have the same...
+Dialogue: 50,0:21:00.15,0:21:02.02,Flashbacks-207+,,0,0,0,,They're done!\NThey're done!
+Dialogue: 50,0:21:02.02,0:21:04.27,Flashbacks-207+,,0,0,0,,Ha! Looks tasty!
+Dialogue: 50,0:21:04.40,0:21:06.42,Flashbacks-207+,,0,0,0,,Hey! You can't\Neat two at once!
+Dialogue: 50,0:21:06.42,0:21:07.90,Flashbacks-207+,,0,0,0,,Yeah I can! I'm hungry!
+Dialogue: 50,0:21:07.90,0:21:10.06,Flashbacks-207+,,0,0,0,,He means they won't\Nfit in your face!
+Dialogue: 50,0:21:10.53,0:21:12.03,Flashbacks-207+,,0,0,0,,Mmm, yummy!
+Dialogue: 50,0:21:12.46,0:21:13.61,Flashbacks-207+,,0,0,0,,Well, okay, then.
+Dialogue: 50,0:21:17.92,0:21:19.58,Flashbacks-207+,,0,0,0,,Wow. It's great.
+Dialogue: 50,0:21:20.08,0:21:22.89,Flashbacks-207+,,0,0,0,,Anyway, what were you\Nabout to say, Sabo?
+Dialogue: 50,0:21:22.97,0:21:25.58,Flashbacks-207+,,0,0,0,,Oh. I was just about to ask.
+Dialogue: 50,0:21:25.61,0:21:27.05,Flashbacks-207+,,0,0,0,,How come both\Nof you guys' names
+Dialogue: 50,0:21:27.05,0:21:28.98,Flashbacks-207+,,0,0,0,,have the letter\N"D." in the middle?
+Dialogue: 50,0:21:30.56,0:21:33.93,Main-207+,,0,0,0,,Monkey D.\NLuffy and Portgas D. Ace.
+Dialogue: 50,0:21:34.22,0:21:35.88,Flashbacks-207+,,0,0,0,,There's a "D." in both.
+Dialogue: 50,0:21:36.40,0:21:37.78,Flashbacks-207+,,0,0,0,,Oh, yeah, I guess so!
+Dialogue: 50,0:21:38.31,0:21:40.90,Flashbacks-207+,,0,0,0,,I don't know why,\Nbut who cares about names?
+Dialogue: 50,0:21:41.54,0:21:43.09,Flashbacks-207+,,0,0,0,,You want a "D.," too, Sabo?
+Dialogue: 50,0:21:43.55,0:21:44.46,Flashbacks-207+,,0,0,0,,Huh?
+Dialogue: 50,0:21:44.46,0:21:45.38,Flashbacks-207+,,0,0,0,,Sa-D.-Bo!
+Dialogue: 50,0:21:45.38,0:21:47.17,Flashbacks-207+,,0,0,0,,C'mon, don't put it there!
+Dialogue: 50,0:21:47.17,0:21:50.51,Flashbacks-207+,,0,0,0,,Yeah, and who's gonna stop\Nme? Your name's Sa-D.-Bo!
+Dialogue: 50,0:22:00.96,0:22:05.79,Main-207+,,0,0,0,,Finally, I see the path forward\Nthat Alabasta must take.
+Dialogue: 50,0:22:05.79,0:22:07.29,Main-207+,,0,0,0,,Don't die! Just hang on!
+Dialogue: 50,0:22:07.33,0:22:09.59,Main-207+,,0,0,0,,We're gonna get you\Nthrough this, okay?
+Dialogue: 50,0:22:21.90,0:22:22.99,Main-207+,,0,0,0,,King Cobra!
+Dialogue: 50,0:22:37.15,0:22:38.12,Main-207+,,0,0,0,,King Cobra!
+Dialogue: 50,0:22:40.22,0:22:41.47,Main-207+,,0,0,0,,"The Poneglyphs"...
+Dialogue: 50,0:22:45.79,0:22:49.50,Main-207+,,0,0,0,,"Bear the flag\Nof a new dawn"...
+Dialogue: 50,0:22:50.34,0:22:54.76,Main-207+,,0,0,0,,"Nefertari D. Lili"...
+Dialogue: 50,0:22:55.09,0:22:56.75,Main-207+,,0,0,0,,I'm counting on you.
+Dialogue: 50,0:23:05.42,0:23:07.24,Thoughts-207+,,0,0,0,,I'm counting\Non you, Sabo.
+Dialogue: 50,0:23:11.16,0:23:12.13,Main-207+,,0,0,0,,King Cobra!
+Dialogue: 50,0:23:17.19,0:23:18.74,Thoughts-207+,,0,0,0,,You must live on!

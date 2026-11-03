@@ -1,0 +1,520 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+LayoutResX: 1920
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,M+ 1c,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,360,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.55,0:00:00.58,Default,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:26.36,0:01:26.39,Default,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:00.55,0:00:00.58,Default,OP,0,0,0,,
+Dialogue: 50,0:01:31.73,0:01:32.90,Main-207+,,0,0,0,,900 years ago?
+Dialogue: 50,0:01:32.98,0:01:33.78,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:01:34.98,0:01:36.81,Main-207+,,0,0,0,,Oh come on, that's ridiculous!
+Dialogue: 50,0:01:36.89,0:01:41.01,Main-207+,,0,0,0,,You're saying they had a city\Nthis futuristic, way back in the past?
+Dialogue: 50,0:01:41.09,0:01:43.64,Main-207+,,0,0,0,,Well, it's only a theory.
+Dialogue: 50,0:01:43.72,0:01:47.47,Main-207+,,0,0,0,,But there was a man I knew who\Nrisked his life for archaeology.
+Dialogue: 50,0:01:47.87,0:01:49.99,Main-207+,,0,0,0,,He shed light\Non an ancient kingdom.
+Dialogue: 50,0:01:50.43,0:01:54.97,Main-207+,,0,0,0,,We found an advanced machine\Nwith a manufacture date that would coincide
+Dialogue: 50,0:01:55.05,0:01:56.71,Main-207+,,0,0,0,,with the reign\Nof that kingdom.
+Dialogue: 50,0:01:59.90,0:02:04.49,Main-207+,,0,0,0,,This ancient machine... could it be that\Nit was made during the blank century?
+Dialogue: 50,0:02:05.30,0:02:07.47,Main-207+,,0,0,0,,So you do have some\Nknowledge of it.
+Dialogue: 50,0:02:08.70,0:02:09.75,Main-207+,,0,0,0,,Robin!
+Dialogue: 50,0:02:09.83,0:02:11.17,Main-207+,,0,0,0,,You've heard\Nabout this before?
+Dialogue: 50,0:02:11.17,0:02:14.21,Main-207+,,0,0,0,,I'm sure this is a rather\Npainful subject for you.
+Dialogue: 50,0:02:14.29,0:02:16.11,Main-207+,,0,0,0,,One that harkens\Nback to Ohara.
+Dialogue: 50,0:02:16.62,0:02:21.62,Main-207+,,0,0,0,,22 years ago, the Navy made\Na Buster Call and destroyed your home.
+Dialogue: 50,0:02:22.87,0:02:26.92,Main-207+,,0,0,0,,I believe this happened because the scholars\Nof Ohara learned of the existence
+Dialogue: 50,0:02:27.00,0:02:27.80,Main-207+,,0,0,0,,of that kingdom.
+Dialogue: 50,0:02:27.85,0:02:29.67,Main-207+,,0,0,0,,Which was once\Nlost to history.
+Dialogue: 50,0:02:32.00,0:02:37.84,Main-207+,,0,0,0,,What's known as the blank century is a 100\Nyear void during which a war was waged
+Dialogue: 50,0:02:37.92,0:02:42.08,Main-207+,,0,0,0,,between an advanced civilization\Nand an alliance of 20 kingdoms.
+Dialogue: 50,0:02:51.18,0:02:53.08,Main-207+,,0,0,0,,The 20 kingdoms\Nwon the war.
+Dialogue: 50,0:02:53.77,0:02:58.25,Main-207+,,0,0,0,,Later, they founded the World Government,\Nwhich has ruled ever since.
+Dialogue: 50,0:02:58.70,0:03:03.35,Main-207+,,0,0,0,,And in order to prevent anyone from\Ninheriting that ancient kingdom's ideology.
+Dialogue: 50,0:03:03.76,0:03:06.74,Main-207+,,0,0,0,,They erased every last\Ntrace of it from history.
+Dialogue: 50,0:03:07.20,0:03:08.09,Main-207+,,0,0,0,,What?
+Dialogue: 50,0:03:08.17,0:03:09.28,Main-207+,,0,0,0,,That's insane!
+Dialogue: 50,0:03:09.36,0:03:10.25,Main-207+,,0,0,0,,No way!
+Dialogue: 50,0:03:10.33,0:03:14.21,Main-207+,,0,0,0,,So there's no\Nrecord of it at all?
+Dialogue: 50,0:03:14.63,0:03:17.74,Main-207+,,0,0,0,,It must have been the greatest\Nstory in the world!
+Dialogue: 50,0:03:17.82,0:03:19.60,Main-207+,,0,0,0,,Hold on a second, Vegapunk!
+Dialogue: 50,0:03:20.22,0:03:23.37,Main-207+,,0,0,0,,Ohara was destroyed because they\Nfound out about this stuff, right?
+Dialogue: 50,0:03:23.37,0:03:26.54,Main-207+,,0,0,0,,So that means... anyone\Nelse who learns about it...
+Dialogue: 50,0:03:27.08,0:03:28.77,Main-207+,,0,0,0,,...will be erased, yes.
+Dialogue: 50,0:03:29.49,0:03:30.32,Main-207+,,0,0,0,,Ahhhhhh!
+Dialogue: 50,0:03:30.81,0:03:31.83,Main-207+,,0,0,0,,Excuse me!
+Dialogue: 50,0:03:32.25,0:03:34.62,Main-207+,,0,0,0,,Then why did you\Ntell us, you asshole!
+Dialogue: 50,0:03:34.70,0:03:35.64,Main-207+,,0,0,0,,It's too late!
+Dialogue: 50,0:03:36.71,0:03:38.29,Main-207+,,0,0,0,,I know too much!
+Dialogue: 50,0:03:38.37,0:03:39.73,Main-207+,,0,0,0,,I'm gonna get\Nblank Century!
+Dialogue: 50,0:03:39.73,0:03:41.47,Main-207+,,0,0,0,,I need to forget!
+Dialogue: 50,0:03:42.08,0:03:42.65,Main-207+,,0,0,0,,Forget!
+Dialogue: 50,0:03:42.65,0:03:44.05,Main-207+,,0,0,0,,Forget!
+Dialogue: 50,0:03:43.09,0:03:44.09,Main-207+,,0,0,0,,Come on, you!
+Dialogue: 50,0:03:44.55,0:03:46.15,Main-207+,,0,0,0,,Come on, you\Nstupid brain cells!
+Dialogue: 50,0:03:46.57,0:03:48.53,Main-207+,,0,0,0,,Please, calm down.
+Dialogue: 50,0:03:48.61,0:03:51.20,Main-207+,,0,0,0,,As I said, it's only a theory.
+Dialogue: 50,0:03:52.13,0:03:53.57,Main-207+,,0,0,0,,I can't calm down!
+Dialogue: 50,0:03:53.65,0:03:55.45,Main-207+,,0,0,0,,I'm about to get\Nmurdered!
+Dialogue: 50,0:03:55.53,0:03:57.87,Main-207+,,0,0,0,,Let me ask you, Nico Robin...
+Dialogue: 50,0:03:58.85,0:04:01.88,Main-207+,,0,0,0,,If Ohara was indeed destroyed\Nbecause of this theory...
+Dialogue: 50,0:04:01.96,0:04:06.06,Main-207+,,0,0,0,,...wouldn't that mean that the government\Nhas essentially admitted that it's true?
+Dialogue: 50,0:04:06.06,0:04:08.77,Main-207+,,0,0,0,,In what capacity are you\Nspeaking right now, Vegapunk?
+Dialogue: 50,0:04:08.85,0:04:10.65,Main-207+,,0,0,0,,Your employers\Ncaused all this.
+Dialogue: 50,0:04:10.73,0:04:12.86,Main-207+,,0,0,0,,They wiped out\Nthe scholars of Ohara.
+Dialogue: 50,0:04:12.94,0:04:14.30,Main-207+,,0,0,0,,Don't you know it's true?
+Dialogue: 50,0:04:14.38,0:04:17.95,Main-207+,,0,0,0,,With a position as high as yours,\Nwouldn't the government tell you?
+Dialogue: 50,0:04:18.03,0:04:19.72,Main-207+,,0,0,0,,They didn't say a word.
+Dialogue: 50,0:04:19.80,0:04:21.36,Main-207+,,0,0,0,,The rule still stands.
+Dialogue: 50,0:04:21.44,0:04:24.87,Main-207+,,0,0,0,,Even if I am affiliated with the government,\NI would still be killed
+Dialogue: 50,0:04:24.95,0:04:26.01,Main-207+,,0,0,0,,for speaking of this.
+Dialogue: 50,0:04:26.09,0:04:26.89,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:04:28.11,0:04:29.54,Main-207+,,0,0,0,,I don't wanna know!
+Dialogue: 50,0:04:29.62,0:04:31.93,Main-207+,,0,0,0,,This is psychological\Ntorture, you sicko!
+Dialogue: 50,0:04:32.01,0:04:33.85,Main-207+,,0,0,0,,You damned us all!
+Dialogue: 50,0:04:33.93,0:04:35.66,Main-207+,,0,0,0,,If that's so, then how?
+Dialogue: 50,0:04:35.74,0:04:37.69,Main-207+,,0,0,0,,How did you find out\Nabout the kingdom?
+Dialogue: 50,0:04:37.74,0:04:40.98,Main-207+,,0,0,0,,The books that Ohara collected\Nin their library are gone!
+Dialogue: 50,0:04:41.06,0:04:41.96,Main-207+,,0,0,0,,They burned.
+Dialogue: 50,0:04:42.04,0:04:44.38,Main-207+,,0,0,0,,The will of Ohara lives on.
+Dialogue: 50,0:04:45.16,0:04:47.83,Main-207+,,0,0,0,,{\t(3564,0,1,\c&H060610&\3c&H060610&\4c&H060610&)}That day, the world was thrown into\Nconfusion.
+Dialogue: 50,0:04:49.50,0:04:54.79,Main-207+,,0,0,0,,Ohara was an island of scholars, revered\Nfor its unparalleled collection of knowledge.
+Dialogue: 50,0:04:55.42,0:04:59.73,Main-207+,,0,0,0,,Yet it was destroyed overnight,\Nleaving just one girl behind.
+Dialogue: 50,0:05:02.05,0:05:06.35,Main-207+,,0,0,0,,They were accused of being a group\Nof fanatics, plotting to overthrow the
+Dialogue: 50,0:05:06.43,0:05:07.58,Main-207+,,0,0,0,,{\fad(0,434)}government itself.
+Dialogue: 50,0:05:09.92,0:05:14.18,Main-207+,,0,0,0,,Several months after the incident,\NI visited Ohara myself.
+Dialogue: 50,0:05:14.86,0:05:16.94,Main-207+,,0,0,0,,I was fond\Nof the great archaeologist,
+Dialogue: 50,0:05:16.94,0:05:19.69,Main-207+,,0,0,0,,Professor Clover,\Nwho had met an untimely demise.
+Dialogue: 50,0:05:20.26,0:05:22.06,Main-207+,,0,0,0,,I wanted to pay my respects.
+Dialogue: 50,0:05:22.49,0:05:24.09,Main-207+,,0,0,0,,You knew Professor Clover?
+Dialogue: 50,0:05:24.56,0:05:25.36,Main-207+,,0,0,0,,Indeed.
+Dialogue: 50,0:05:26.25,0:05:28.60,Main-207+,,0,0,0,,He was obsessed\Nwith the 100-year void.
+Dialogue: 50,0:05:30.37,0:05:35.22,Main-207+,,0,0,0,,He sailed the seas, scouring every corner\Nof the world for documents about it.
+Dialogue: 50,0:05:35.59,0:05:40.63,Main-207+,,0,0,0,,He was arrested and jailed by the Navy ten\Ntimes, but they simply couldn't hold him.
+Dialogue: 50,0:05:42.61,0:05:43.41,Flashbacks-207+,,0,0,0,,There he is!
+Dialogue: 50,0:05:44.41,0:05:44.63,Flashbacks-207+,,0,0,0,,Hey!
+Dialogue: 50,0:05:44.63,0:05:49.35,Main-207+,,0,0,0,,Thanks to these tales, he soon became\Nthe most famous archaeologist in the world.
+Dialogue: 50,0:05:49.43,0:05:54.29,Main-207+,,0,0,0,,It was no surprise that scholars came\Ntogether in Ohara to join his quest.
+Dialogue: 50,0:05:54.79,0:05:58.83,Main-207+,,0,0,0,,Soon, the island became\Nthe holy land for archaeology.
+Dialogue: 50,0:05:59.36,0:06:02.65,Main-207+,,0,0,0,,You could say his brilliance\Nwas the cause of his death.
+Dialogue: 50,0:06:03.69,0:06:06.86,Main-207+,,0,0,0,,The devastation in Ohara\Nshook me to the core.
+Dialogue: 50,0:06:07.37,0:06:09.73,Main-207+,,0,0,0,,Nothing but scorched\Nearth remained.
+Dialogue: 50,0:06:11.08,0:06:14.35,Main-207+,,0,0,0,,The once mighty tree\Nof knowledge was felt.
+Dialogue: 50,0:06:14.72,0:06:18.39,Main-207+,,0,0,0,,Its resting place was a sea\Nof ash and desolation.
+Dialogue: 50,0:06:19.60,0:06:22.68,Main-207+,,0,0,0,,As if in a daze, I walked\Ndeeper into the island.
+Dialogue: 50,0:06:23.73,0:06:27.07,Main-207+,,0,0,0,,Then suddenly, I saw\Nsomething that stunned me.
+Dialogue: 50,0:06:28.05,0:06:29.62,Flashbacks-207+,,0,0,0,,What is all of this?
+Dialogue: 50,0:06:30.76,0:06:33.04,Main-207+,,0,0,0,,A vast number of books\Non every subject
+Dialogue: 50,0:06:33.04,0:06:36.03,Main-207+,,0,0,0,,were submerged in the lake\Nat the center of Ohara.
+Dialogue: 50,0:06:36.73,0:06:41.06,Main-207+,,0,0,0,,The brave scholars must have struggled\Nto the last second, protecting their legacy
+Dialogue: 50,0:06:41.14,0:06:42.99,Main-207+,,0,0,0,,as the Buster Call\Nrained down.
+Dialogue: 50,0:06:43.35,0:06:46.10,Main-207+,,0,0,0,,This was their parting\Ngift to the future.
+Dialogue: 50,0:06:46.98,0:06:51.33,Main-207+,,0,0,0,,Although Ohara had burned, it endured\Nin the only way that truly mattered.
+Dialogue: 50,0:06:51.93,0:06:56.91,Main-207+,,0,0,0,,Even if marines happened upon the books,\Nthey would be ignorant of their value.
+Dialogue: 50,0:06:57.43,0:06:59.16,Main-207+,,0,0,0,,Ohara was victorious.
+Dialogue: 50,0:06:59.77,0:07:04.41,Main-207+,,0,0,0,,When I saw it, I couldn't\Nstop my tears from falling.
+Dialogue: 50,0:07:06.30,0:07:07.59,Flashbacks-207+,,0,0,0,,I'll be all right.
+Dialogue: 50,0:07:07.67,0:07:10.10,Flashbacks-207+,,0,0,0,,But I need you to take care\Nof Robin for me, please.
+Dialogue: 50,0:07:10.10,0:07:10.91,Flashbacks-207+,,0,0,0,,But why?
+Dialogue: 50,0:07:11.27,0:07:12.38,Flashbacks-207+,,0,0,0,,What about you?
+Dialogue: 50,0:07:12.46,0:07:14.40,Flashbacks-207+,,0,0,0,,Aren't you going\Nto come with me?
+Dialogue: 50,0:07:15.16,0:07:17.08,Flashbacks-207+,,0,0,0,,Over here, are you...
+Dialogue: 50,0:07:18.16,0:07:19.47,Flashbacks-207+,,0,0,0,,I can't leave yet.
+Dialogue: 50,0:07:19.89,0:07:21.50,Flashbacks-207+,,0,0,0,,There's still\Nsomething left to do.
+Dialogue: 50,0:07:21.50,0:07:22.20,Flashbacks-207+,,0,0,0,,No, Mom!
+Dialogue: 50,0:07:23.55,0:07:24.90,Flashbacks-207+,,0,0,0,,You can't leave me now!
+Dialogue: 50,0:07:25.46,0:07:26.87,Flashbacks-207+,,0,0,0,,I want to stay with you!
+Dialogue: 50,0:07:27.32,0:07:28.16,Flashbacks-207+,,0,0,0,,Robin...
+Dialogue: 50,0:07:28.83,0:07:31.58,Flashbacks-207+,,0,0,0,,History is mankind's\Ngreatest treasure.
+Dialogue: 50,0:07:32.15,0:07:33.94,Flashbacks-207+,,0,0,0,,As a scholar, you know this.
+Dialogue: 50,0:07:34.32,0:07:35.35,Flashbacks-207+,,0,0,0,,Protect the books!
+Dialogue: 50,0:07:35.43,0:07:37.63,Flashbacks-207+,,0,0,0,,Open up the library!
+Dialogue: 50,0:07:38.23,0:07:39.64,Flashbacks-207+,,0,0,0,,Save as many as you can!
+Dialogue: 50,0:07:40.62,0:07:43.06,Flashbacks-207+,,0,0,0,,We weren't trying to uncover\Nsome dark secret.
+Dialogue: 50,0:07:43.14,0:07:45.40,Flashbacks-207+,,0,0,0,,We wanted to hear\Nthe voices of the past.
+Dialogue: 50,0:07:45.48,0:07:47.09,Flashbacks-207+,,0,0,0,,We wanted to protect them.
+Dialogue: 50,0:07:47.98,0:07:49.70,Flashbacks-207+,,0,0,0,,Our research ends here.
+Dialogue: 50,0:07:49.78,0:07:53.15,Main-207+,,0,0,0,,But time marches on, even\Nif Ohara is destroyed.
+Dialogue: 50,0:07:53.64,0:07:58.27,Main-207+,,0,0,0,,And as we believe in the past,\Nwe also believe in the future that you
+Dialogue: 50,0:07:58.35,0:07:59.05,Flashbacks-207+,,0,0,0,,will inherit.
+Dialogue: 50,0:08:00.11,0:08:01.63,Flashbacks-207+,,0,0,0,,What does that mean?
+Dialogue: 50,0:08:03.94,0:08:05.95,Flashbacks-207+,,0,0,0,,Someday, you will know.
+Dialogue: 50,0:08:09.13,0:08:11.62,Main-207+,,0,0,0,,Saul, take her and go!
+Dialogue: 50,0:08:15.77,0:08:17.35,Flashbacks-207+,,0,0,0,,Are you sure about this?
+Dialogue: 50,0:08:18.07,0:08:18.88,Main-207+,,0,0,0,,I am.
+Dialogue: 50,0:08:24.51,0:08:25.34,Flashbacks-207+,,0,0,0,,Mommy!
+Dialogue: 50,0:08:28.18,0:08:29.42,Flashbacks-207+,,0,0,0,,You must live, Robin!
+Dialogue: 50,0:08:35.88,0:08:37.29,Flashbacks-207+,,0,0,0,,Be proud, Robin!
+Dialogue: 50,0:08:38.44,0:08:40.43,Flashbacks-207+,,0,0,0,,Your mom is\Na wonderful woman!
+Dialogue: 50,0:08:40.51,0:08:42.39,Flashbacks-207+,,0,0,0,,Ohara is a wonderful place!
+Dialogue: 50,0:08:42.47,0:08:43.84,Flashbacks-207+,,0,0,0,,Never forget that!
+Dialogue: 50,0:08:43.92,0:08:46.03,Flashbacks-207+,,0,0,0,,It's up to you to pass it on!
+Dialogue: 50,0:08:46.40,0:08:47.84,Flashbacks-207+,,0,0,0,,Always remember...
+Dialogue: 50,0:08:47.92,0:08:50.13,Flashbacks-207+,,0,0,0,,Ohara fought\Nagainst the world!
+Dialogue: 50,0:08:54.96,0:08:56.81,Main-207+,,0,0,0,,Robin, are you crying?
+Dialogue: 50,0:08:58.31,0:08:59.04,Main-207+,,0,0,0,,Jerk!
+Dialogue: 50,0:08:59.12,0:09:02.00,Main-207+,,0,0,0,,How dare you make her cry\Nlike that, bucket-head!
+Dialogue: 50,0:09:02.65,0:09:05.11,Secondary-207+,,0,0,0,,I'm gonna give you\Na piece of my mind!
+Dialogue: 50,0:09:05.19,0:09:06.48,Main-207+,,0,0,0,,Get these shoes off me!
+Dialogue: 50,0:09:06.48,0:09:10.01,Main-207+,,0,0,0,,Hey, are you even listening?
+Dialogue: 50,0:09:15.17,0:09:16.52,Main-207+,,0,0,0,,You're right, Vegapunk.
+Dialogue: 50,0:09:17.97,0:09:19.44,Main-207+,,0,0,0,,It's just as you guessed.
+Dialogue: 50,0:09:20.28,0:09:23.66,Main-207+,,0,0,0,,Ohara uncovered\Nthe existence of the kingdom.
+Dialogue: 50,0:09:24.10,0:09:24.90,Main-207+,,0,0,0,,I see.
+Dialogue: 50,0:09:25.92,0:09:27.21,Main-207+,,0,0,0,,The books in the lake.
+Dialogue: 50,0:09:27.65,0:09:28.98,Main-207+,,0,0,0,,Where are they now?
+Dialogue: 50,0:09:29.06,0:09:31.97,Main-207+,,0,0,0,,I wanted to bring them back\Nto Punk Hazard, of course.
+Dialogue: 50,0:09:32.05,0:09:35.94,Main-207+,,0,0,0,,But if the higher-ups found out,\NI feared that everything would be lost.
+Dialogue: 50,0:09:36.02,0:09:40.09,Main-207+,,0,0,0,,Fortunately, that day, I wasn't\Nthe only person there in Ohara.
+Dialogue: 50,0:10:02.65,0:10:05.40,Main-207+,,0,0,0,,I never thought I'd find\Nsomeone else here.
+Dialogue: 50,0:10:06.54,0:10:08.13,Main-207+,,0,0,0,,Alright, pull it up!
+Dialogue: 50,0:10:11.13,0:10:12.27,Main-207+,,0,0,0,,Giants!
+Dialogue: 50,0:10:13.34,0:10:14.92,Main-207+,,0,0,0,,But why are they here?
+Dialogue: 50,0:10:15.67,0:10:19.06,Main-207+,,0,0,0,,Do they have any idea how\Nvaluable those books are?
+Dialogue: 50,0:10:19.86,0:10:20.65,Main-207+,,0,0,0,,No!
+Dialogue: 50,0:10:20.73,0:10:21.43,Main-207+,,0,0,0,,Wait!
+Dialogue: 50,0:10:21.51,0:10:23.43,Main-207+,,0,0,0,,They, taking them!
+Dialogue: 50,0:10:24.59,0:10:26.15,Main-207+,,0,0,0,,There's no point hiding.
+Dialogue: 50,0:10:27.09,0:10:29.97,Main-207+,,0,0,0,,That head of yours sticks\Nout like a sore thumb.
+Dialogue: 50,0:10:40.14,0:10:41.49,Main-207+,,0,0,0,,Hello, Vegapunk.
+Dialogue: 50,0:10:41.57,0:10:42.64,Main-207+,,0,0,0,,It's been a while.
+Dialogue: 50,0:10:46.05,0:10:47.52,Main-207+,,0,0,0,,Dragon!
+Dialogue: 50,0:10:48.22,0:10:52.59,Main-207+,,0,0,0,,Now that I get a closer look,\Nit seems you've hit another growth spurt.
+Dialogue: 50,0:10:56.90,0:10:58.60,Main-207+,,0,0,0,,Never mind my head.
+Dialogue: 50,0:10:58.94,0:11:00.71,Main-207+,,0,0,0,,What are you doing here?
+Dialogue: 50,0:11:00.79,0:11:03.70,Main-207+,,0,0,0,,I could ask you the same\Nquestion, nice flowers.
+Dialogue: 50,0:11:04.21,0:11:07.70,Main-207+,,0,0,0,,Seems I'm not the only one\Nwho's mourning Professor Clover.
+Dialogue: 50,0:11:07.78,0:11:09.95,Main-207+,,0,0,0,,You as well, small world.
+Dialogue: 50,0:11:10.39,0:11:14.92,Main-207+,,0,0,0,,{\t(3440,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)}But, said again, he was quite\Nthe adventurer in his youth.
+Dialogue: 50,0:11:16.30,0:11:19.26,Main-207+,,0,0,0,,That nonsense about him\Ntrying to destroy the world.
+Dialogue: 50,0:11:19.34,0:11:21.34,Main-207+,,0,0,0,,The government was creative.
+Dialogue: 50,0:11:22.25,0:11:23.07,Main-207+,,0,0,0,,I know.
+Dialogue: 50,0:11:26.20,0:11:29.20,Main-207+,,0,0,0,,You must be wondering\Nwhat those giants are doing.
+Dialogue: 50,0:11:29.28,0:11:30.86,Main-207+,,0,0,0,,The books are priceless.
+Dialogue: 50,0:11:30.94,0:11:33.60,Main-207+,,0,0,0,,They can't allow just\Nanyone to take them away.
+Dialogue: 50,0:11:33.68,0:11:35.93,Main-207+,,0,0,0,,Don't worry, I've already\Nchecked them out.
+Dialogue: 50,0:11:36.01,0:11:37.47,Main-207+,,0,0,0,,They're not bandits.
+Dialogue: 50,0:11:37.55,0:11:38.35,Main-207+,,0,0,0,,They're not?
+Dialogue: 50,0:11:40.56,0:11:42.52,Main-207+,,0,0,0,,They came here from Elbaph.
+Dialogue: 50,0:11:43.27,0:11:45.80,Main-207+,,0,0,0,,They know what\Ntreasures they're holding.
+Dialogue: 50,0:11:49.70,0:11:51.51,Main-207+,,0,0,0,,I spoke to their captain.
+Dialogue: 50,0:11:51.59,0:11:55.06,Main-207+,,0,0,0,,He's a strange man\Nwith bandages all over his body.
+Dialogue: 50,0:11:55.79,0:12:00.02,Main-207+,,0,0,0,,He said, Ohara gave their lives\Nto save their legacy.
+Dialogue: 50,0:12:00.10,0:12:02.49,Main-207+,,0,0,0,,I won't let it be\Nerased from history.
+Dialogue: 50,0:12:12.20,0:12:15.35,Main-207+,,0,0,0,,Imagine if your government friends\Nfound out about those books.
+Dialogue: 50,0:12:15.41,0:12:17.86,Main-207+,,0,0,0,,They're gonna unleash\Nhell when you tell them.
+Dialogue: 50,0:12:17.94,0:12:18.95,Main-207+,,0,0,0,,They know what?
+Dialogue: 50,0:12:19.43,0:12:20.98,Main-207+,,0,0,0,,I'm not going to tell them.
+Dialogue: 50,0:12:21.06,0:12:22.68,Main-207+,,0,0,0,,I was making a joke.
+Dialogue: 50,0:12:22.76,0:12:26.59,Main-207+,,0,0,0,,But thank you for confirming\Nmy suspicion that you're their dog.
+Dialogue: 50,0:12:26.67,0:12:27.50,Main-207+,,0,0,0,,Hmm.
+Dialogue: 50,0:12:28.26,0:12:31.73,Main-207+,,0,0,0,,It was naive of me to think you\Njoined my freedom fighters.
+Dialogue: 50,0:12:33.13,0:12:34.30,Main-207+,,0,0,0,,Of course I won't!
+Dialogue: 50,0:12:34.75,0:12:37.54,Main-207+,,0,0,0,,My mind would be wasted\Non your penniless army.
+Dialogue: 50,0:12:37.62,0:12:41.23,Main-207+,,0,0,0,,An inventor without funds\Nis like a horse without legs.
+Dialogue: 50,0:12:41.86,0:12:43.11,Main-207+,,0,0,0,,Yeah, I got it?
+Dialogue: 50,0:12:43.45,0:12:45.89,Main-207+,,0,0,0,,As cold and practical\Nas ever, I see.
+Dialogue: 50,0:12:45.97,0:12:48.62,Main-207+,,0,0,0,,The World Government is\Na massive organization.
+Dialogue: 50,0:12:48.70,0:12:52.45,Main-207+,,0,0,0,,You can find sympathetic ears,\Nespecially in the Navy.
+Dialogue: 50,0:12:52.53,0:12:54.64,Main-207+,,0,0,0,,We have to keep\Nour eyes on the target.
+Dialogue: 50,0:12:54.72,0:12:55.84,Main-207+,,0,0,0,,You know that.
+Dialogue: 50,0:12:56.39,0:12:57.66,Main-207+,,0,0,0,,Of course I do.
+Dialogue: 50,0:12:59.48,0:13:01.87,Main-207+,,0,0,0,,But this incident hit me hard.
+Dialogue: 50,0:13:02.82,0:13:04.96,Main-207+,,0,0,0,,Those scholars were harmless.
+Dialogue: 50,0:13:05.04,0:13:08.96,Main-207+,,0,0,0,,All they did was ask questions\Nin the face of an unreasonable law.
+Dialogue: 50,0:13:09.32,0:13:11.56,Main-207+,,0,0,0,,And the government\Nburned them for it.
+Dialogue: 50,0:13:14.16,0:13:17.20,Main-207+,,0,0,0,,I'll just have to start\Na fire of my own.
+Dialogue: 50,0:13:18.06,0:13:20.42,Main-207+,,0,0,0,,I always thought\Nyou despised war.
+Dialogue: 50,0:13:20.78,0:13:23.06,Main-207+,,0,0,0,,This broken world\Nmust change.
+Dialogue: 50,0:13:23.14,0:13:24.96,Main-207+,,0,0,0,,And I'll be the one to do it.
+Dialogue: 50,0:13:25.81,0:13:27.43,Main-207+,,0,0,0,,In memory of Clover... for.
+Dialogue: 50,0:13:28.23,0:13:29.50,Main-207+,,0,0,0,,For all of Ohara... I.
+Dialogue: 50,0:13:29.87,0:13:31.31,Main-207+,,0,0,0,,I will press on.
+Dialogue: 50,0:13:33.59,0:13:36.87,Main-207+,,0,0,0,,Later that year, Dragon\Nbolstered his forces.
+Dialogue: 50,0:13:36.95,0:13:39.33,Main-207+,,0,0,0,,Recruited Emporio Ivankov.
+Dialogue: 50,0:13:40.59,0:13:42.21,Main-207+,,0,0,0,,And Bartholomew Kuma,
+Dialogue: 50,0:13:43.88,0:13:46.04,Main-207+,,0,0,0,,To form\Nthe Revolutionary Army,
+Dialogue: 50,0:13:47.18,0:13:49.53,Main-207+,,0,0,0,,And they've shaken\Nthe world ever since.
+Dialogue: 50,0:13:53.40,0:13:54.78,Main-207+,,0,0,0,,I can totally see why!
+Dialogue: 50,0:13:54.86,0:13:56.02,Main-207+,,0,0,0,,He sounds awesome!
+Dialogue: 50,0:13:56.10,0:13:57.15,Main-207+,,0,0,0,,Back up for a second!
+Dialogue: 50,0:13:57.15,0:13:59.10,Main-207+,,0,0,0,,You said those giants\Ncame from Elbaph?
+Dialogue: 50,0:13:59.13,0:14:01.75,Main-207+,,0,0,0,,To think Dragon and Professor\NClover were friends.
+Dialogue: 50,0:14:01.83,0:14:03.29,Main-207+,,0,0,0,,And I never had a clue.
+Dialogue: 50,0:14:03.68,0:14:04.67,Main-207+,,0,0,0,,Evil, huh?
+Dialogue: 50,0:14:05.32,0:14:08.02,Main-207+,,0,0,0,,So he joined up with Luffy's\Ndad right from the start?
+Dialogue: 50,0:14:08.02,0:14:11.26,Main-207+,,0,0,0,,I feel like my brain's\Ngonna explode!
+Dialogue: 50,0:14:11.34,0:14:12.70,Main-207+,,0,0,0,,None of this makes sense!
+Dialogue: 50,0:14:12.78,0:14:14.82,Main-207+,,0,0,0,,Why did Kuma help\Nus two years ago?
+Dialogue: 50,0:14:16.10,0:14:17.66,Main-207+,,0,0,0,,You're the one\Nwho modified him!
+Dialogue: 50,0:14:17.66,0:14:19.61,Main-207+,,0,0,0,,Can't you at least\Ntell us something?
+Dialogue: 50,0:14:19.69,0:14:24.09,Main-207+,,0,0,0,,The Books of Ohara must be kept out\Nof the government's hands at any cost.
+Dialogue: 50,0:14:30.41,0:14:35.07,Main-207+,,0,0,0,,Still, I could not resist making\Nthe trip to Elbaph in secret.
+Dialogue: 50,0:14:38.47,0:14:41.97,Main-207+,,0,0,0,,I read every last\Ndocument there.
+Dialogue: 50,0:14:42.91,0:14:46.34,Main-207+,,0,0,0,,And now, the mystery\Nthat Ohara unraveled...
+Dialogue: 50,0:14:47.98,0:14:49.46,Main-207+,,0,0,0,,...lives on in my brain.
+Dialogue: 50,0:14:50.05,0:14:53.76,Main-207+,,0,0,0,,I've been continuing their research\Nin secret to this very day.
+Dialogue: 50,0:14:54.24,0:14:56.47,Main-207+,,0,0,0,,Vegapunk, I have a question.
+Dialogue: 50,0:14:57.88,0:14:59.94,Main-207+,,0,0,0,,The Giant\Ncaptain you mentioned...
+Dialogue: 50,0:15:01.87,0:15:02.70,Main-207+,,0,0,0,,Dad!
+Dialogue: 50,0:15:07.30,0:15:09.17,Main-207+,,0,0,0,,It's Saul, isn't it?
+Dialogue: 50,0:15:12.41,0:15:13.67,Main-207+,,0,0,0,,He's in hiding now.
+Dialogue: 50,0:15:15.38,0:15:17.20,Main-207+,,0,0,0,,No one else\Ncan know the truth.
+Dialogue: 50,0:15:24.98,0:15:27.46,Main-207+,,0,0,0,,Thank you, Doctor Vegapunk.
+Dialogue: 50,0:15:27.54,0:15:29.53,Main-207+,,0,0,0,,You've kept the dream\Nof Ohara alive.
+Dialogue: 50,0:15:29.61,0:15:31.08,Main-207+,,0,0,0,,I can never repay you.
+Dialogue: 50,0:15:31.68,0:15:32.88,Main-207+,,0,0,0,,You need not thank me...
+Dialogue: 50,0:15:32.88,0:15:35.11,Main-207+,,0,0,0,,...for pursuing all\Nbranches of knowledge.
+Dialogue: 50,0:15:35.19,0:15:36.90,Main-207+,,0,0,0,,That is the way of a scholar.
+Dialogue: 50,0:15:48.90,0:15:52.48,Main-207+,,0,0,0,,Where are these crazy\Nfuture shoes taking me?
+Dialogue: 50,0:15:57.16,0:15:58.86,Main-207+,,0,0,0,,I'm afraid I can't release you.
+Dialogue: 50,0:15:58.94,0:16:00.17,Main-207+,,0,0,0,,But do come along.
+Dialogue: 50,0:16:00.78,0:16:02.58,Main-207+,,0,0,0,,There's something\NI need you to see.
+Dialogue: 50,0:16:02.64,0:16:06.13,Main-207+,,0,0,0,,They really hid\Nthis robot's cockpit, huh?
+Dialogue: 50,0:16:07.64,0:16:08.60,Main-207+,,0,0,0,,Wait a sec.
+Dialogue: 50,0:16:09.00,0:16:10.99,Main-207+,,0,0,0,,What if the robot\Ndoesn't need one?
+Dialogue: 50,0:16:11.07,0:16:13.18,Main-207+,,0,0,0,,What if it's self-piloting?
+Dialogue: 50,0:16:13.26,0:16:14.60,Main-207+,,0,0,0,,Let's try talking to it.
+Dialogue: 50,0:16:14.68,0:16:15.64,Main-207+,,0,0,0,,It might activate.
+Dialogue: 50,0:16:16.81,0:16:18.38,Main-207+,,0,0,0,,Okay, let's see.
+Dialogue: 50,0:16:18.46,0:16:19.16,Main-207+,,0,0,0,,Robot!
+Dialogue: 50,0:16:19.22,0:16:20.44,Main-207+,,0,0,0,,Get up and go!
+Dialogue: 50,0:16:22.94,0:16:23.57,Main-207+,,0,0,0,,Aw, nope.
+Dialogue: 50,0:16:23.57,0:16:25.43,Main-207+,,0,0,0,,Wonder if there's a password.
+Dialogue: 50,0:16:25.51,0:16:26.34,Main-207+,,0,0,0,,No way.
+Dialogue: 50,0:16:26.42,0:16:27.97,Main-207+,,0,0,0,,We just need its name.
+Dialogue: 50,0:16:28.05,0:16:29.41,Main-207+,,0,0,0,,I'll guess it easy.
+Dialogue: 50,0:16:29.87,0:16:30.71,Main-207+,,0,0,0,,Wake up!
+Dialogue: 50,0:16:31.13,0:16:32.38,Main-207+,,0,0,0,,Robobert!
+Dialogue: 50,0:16:34.87,0:16:36.46,Main-207+,,0,0,0,,Robonoski!
+Dialogue: 50,0:16:36.54,0:16:37.64,Main-207+,,0,0,0,,Come on.
+Dialogue: 50,0:16:37.72,0:16:38.03,Main-207+,,0,0,0,,Oh, come on!
+Dialogue: 50,0:16:38.03,0:16:39.40,Main-207+,,0,0,0,,What are you, like five?
+Dialogue: 50,0:16:39.48,0:16:42.07,Main-207+,,0,0,0,,This thing doesn't work\Nlike a freaking toy.
+Dialogue: 50,0:16:48.71,0:16:49.51,Main-207+,,0,0,0,,No way!
+Dialogue: 50,0:17:02.98,0:17:04.30,Main-207+,,0,0,0,,Is everyone all right?
+Dialogue: 50,0:17:04.64,0:17:05.73,Main-207+,,0,0,0,,I'm fine.
+Dialogue: 50,0:17:05.81,0:17:06.57,Main-207+,,0,0,0,,Oh no!
+Dialogue: 50,0:17:06.65,0:17:08.35,Main-207+,,0,0,0,,Robobert, did you explode?
+Dialogue: 50,0:17:08.43,0:17:09.36,Main-207+,,0,0,0,,No.
+Dialogue: 50,0:17:09.44,0:17:11.14,Main-207+,,0,0,0,,That wasn't an explosion.
+Dialogue: 50,0:17:11.22,0:17:13.28,Main-207+,,0,0,0,,But then, what\Nin the world was it?
+Dialogue: 50,0:17:14.63,0:17:15.46,Main-207+,,0,0,0,,Help!
+Dialogue: 50,0:17:16.73,0:17:17.51,Main-207+,,0,0,0,,Huh?
+Dialogue: 50,0:17:17.59,0:17:20.53,Main-207+,,0,0,0,,I request a help!
+Dialogue: 50,0:17:20.61,0:17:21.61,Main-207+,,0,0,0,,Hm?
+Dialogue: 50,0:17:21.69,0:17:22.15,Main-207+,,0,0,0,,Wait.
+Dialogue: 50,0:17:22.15,0:17:22.85,Main-207+,,0,0,0,,Quasar?
+Dialogue: 50,0:17:22.91,0:17:23.81,Main-207+,,0,0,0,,Oh zounds!
+Dialogue: 50,0:17:24.27,0:17:25.94,Main-207+,,0,0,0,,I've made a terrible mistake.
+Dialogue: 50,0:17:26.02,0:17:27.65,Main-207+,,0,0,0,,I request a help, please!
+Dialogue: 50,0:17:28.83,0:17:29.02,Main-207+,,0,0,0,,Uh...
+Dialogue: 50,0:17:29.02,0:17:31.73,Main-207+,,0,0,0,,Did space-time distort\Nwhile I was warping?
+Dialogue: 50,0:17:32.27,0:17:34.08,Main-207+,,0,0,0,,Was that old man\Nthere before?
+Dialogue: 50,0:17:34.48,0:17:35.33,Secondary-207+,,0,0,0,,{\an8}I don't think so.
+Dialogue: 50,0:17:35.39,0:17:35.88,Secondary-207+,,0,0,0,,{\an8}No.
+Dialogue: 50,0:17:35.88,0:17:36.59,Secondary-207+,,0,0,0,,{\an8}Hey!
+Dialogue: 50,0:17:36.67,0:17:38.29,Main-207+,,0,0,0,,Something like a fresh egg!
+Dialogue: 50,0:17:38.29,0:17:38.65,Main-207+,,0,0,0,,No!
+Dialogue: 50,0:17:38.65,0:17:45.35,Main-207+,,0,0,0,,I don't really get\Nwhat's going on.
+Dialogue: 50,0:17:45.75,0:17:46.69,Main-207+,,0,0,0,,Okay, old man.
+Dialogue: 50,0:17:46.77,0:17:47.96,Main-207+,,0,0,0,,I'll see what I can do.
+Dialogue: 50,0:17:53.46,0:17:54.61,Main-207+,,0,0,0,,Please, my dear boy.
+Dialogue: 50,0:17:54.69,0:17:55.81,Main-207+,,0,0,0,,Get me out of here!
+Dialogue: 50,0:17:55.89,0:17:56.94,Main-207+,,0,0,0,,Wait a sec.
+Dialogue: 50,0:17:57.35,0:17:59.59,Main-207+,,0,0,0,,This is just like when\NI met Kin'emon.
+Dialogue: 50,0:18:01.90,0:18:02.98,Main-207+,,0,0,0,,Quickly, now!
+Dialogue: 50,0:18:03.06,0:18:04.47,Main-207+,,0,0,0,,Quickly!
+Dialogue: 50,0:18:07.17,0:18:08.45,Main-207+,,0,0,0,,It really is!
+Dialogue: 50,0:18:08.53,0:18:09.36,Main-207+,,0,0,0,,Oh!
+Dialogue: 50,0:18:14.48,0:18:15.55,Main-207+,,0,0,0,,I thought so.
+Dialogue: 50,0:18:15.63,0:18:16.56,Main-207+,,0,0,0,,It's him!
+Dialogue: 50,0:18:16.64,0:18:17.44,Main-207+,,0,0,0,,Oh!
+Dialogue: 50,0:18:18.37,0:18:19.71,Main-207+,,0,0,0,,Thank you.
+Dialogue: 50,0:18:19.79,0:18:21.91,Main-207+,,0,0,0,,You're Dragon's son, I believe.
+Dialogue: 50,0:18:22.58,0:18:24.44,Main-207+,,0,0,0,,I heard that you'd\Narrived here.
+Dialogue: 50,0:18:24.52,0:18:26.11,Main-207+,,0,0,0,,You and your friends.
+Dialogue: 50,0:18:26.50,0:18:27.59,Main-207+,,0,0,0,,And you are?
+Dialogue: 50,0:18:28.64,0:18:29.16,Main-207+,,0,0,0,,Bonney!
+Dialogue: 50,0:18:29.16,0:18:30.44,Main-207+,,0,0,0,,You're all grown up!
+Dialogue: 50,0:18:30.52,0:18:32.06,Main-207+,,0,0,0,,Doctor Vegapunk!
+Dialogue: 50,0:18:32.89,0:18:35.41,Main-207+,,0,0,0,,And the picture of him!
+Dialogue: 50,0:18:35.49,0:18:36.57,Main-207+,,0,0,0,,Old man!
+Dialogue: 50,0:18:36.65,0:18:37.19,Main-207+,,0,0,0,,Can you...
+Dialogue: 0,0:18:37.19,0:18:37.99,Main-207+,,0,0,0,,Fly?!
+Dialogue: 50,0:18:37.99,0:18:38.90,Main-207+,,0,0,0,,You can, too...
+Dialogue: 0,0:18:38.98,0:18:40.10,Main-207+,,0,0,0,,With those boots.
+Dialogue: 50,0:18:41.06,0:18:43.26,Main-207+,,0,0,0,,Your dumb shoes\Nare just like mine.
+Dialogue: 50,0:18:43.34,0:18:44.80,Main-207+,,0,0,0,,They have a hover function.
+Dialogue: 50,0:18:44.88,0:18:45.75,Main-207+,,0,0,0,,Really?
+Dialogue: 50,0:18:45.83,0:18:47.35,Main-207+,,0,0,0,,How do we use it?
+Dialogue: 50,0:18:47.43,0:18:48.32,Main-207+,,0,0,0,,Ah, tell us!
+Dialogue: 0,0:18:49.35,0:18:51.62,Main-207+,,0,0,0,,Press the little\Nbutton on the side.
+Dialogue: 50,0:18:54.87,0:18:59.50,Main-207+,,0,0,0,,And next, take this lever\Nand push it down, like so.
+Dialogue: 50,0:19:00.85,0:19:02.27,Main-207+,,0,0,0,,Very good!
+Dialogue: 50,0:19:03.01,0:19:06.94,Main-207+,,0,0,0,,Oh!
+Dialogue: 0,0:01:30.11,0:01:34.03,Title-207+,,0,0,0,,{\fscx110\fscy110\1c&HE6E6E6&\1a&HFF&\blur0.75\fad(731,0)\bord2.7\t(689,731,\1a&H00&)}The Will of Ohara
+Dialogue: 1,0:01:30.11,0:01:34.03,Title-207+,,0,0,0,,{\fscx110\fscy110\bord0\c&HE6E6E6&\blur0.8\fad(731,0)}The Will of Ohara
+Dialogue: 0,0:09:40.14,0:09:43.23,Captions-207+,,0,0,0,,{\fnA-OTF Shin Go Pr5 M-Strp\bord2.5\c&H010000&\3c&HFDFDFE&\blur0.8\fscx100\fscy100\pos(1590,800)}22 Years Ago\N\NOhara\NWest Blue
+Dialogue: 1,0:09:40.14,0:09:43.23,Captions-207+,,0,0,0,,{\pos(1590,800)\fnA-OTF Shin Go Pr5 M-Strp\bord0\1c&H010000&\blur0.8\fscx100\fscy100}22 Years Ago\N\NOhara\NWest Blue
+Dialogue: 0,0:09:43.23,0:09:48.11,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\fscx95\fscy95\blur0.7\bord3.5\pos(1585,760)\c&H000101&\3c&HF8F7F6&\1a&H00&}Several Months After\Nthe Buster Call
+Dialogue: 1,0:09:43.23,0:09:48.11,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\fscx95\fscy95\blur0.7\bord0\c&H000101&\pos(1585,760)}Several Months After\Nthe Buster Call
+Dialogue: 1,0:09:43.23,0:09:48.11,Captions-207+,,0,0,0,,{\b600\fnFOT-Seurat ProN DB Strp\fscx95\fscy95\blur0.7\bord0\c&H000101&\pos(1585,760)}Several Months After\Nthe Buster Call
+Dialogue: 0,0:10:42.83,0:10:45.75,Captions-207+,,0,0,0,,{\b400\fnIwata Mincho Old Pro H Strp\fscx125\fscy125\bord0.5\shad0\blur15\3c&HFFFFFF&\pos(500,725)\1a&HFF&\fad(233,0)}Monkey D. Dragon (Age 33)\N{\fscx100\fscy100}Leader of the Freedom Fighters
+Dialogue: 1,0:10:42.83,0:10:45.75,Captions-207+,,0,0,0,,{\b400\fnIwata Mincho Old Pro H Strp\fscx125\fscy125\bord3\shad1\blur1\1c&H000000&\3c&HF7F7F7&\4c&HF7F7F7&\pos(500,725)\1a&HFF&\fad(233,0)\t(191,233,\1a&H00&)}Monkey D. Dragon (Age 33)\N{\fscx100\fscy100\bord2.5}Leader of the Freedom Fighters
+Dialogue: 2,0:10:42.83,0:10:45.75,Captions-207+,,0,0,0,,{\b400\fnIwata Mincho Old Pro H Strp\fscx125\fscy125\bord0\blur1\c&H000000&\pos(500,725)\fad(233,0)}Monkey D. Dragon (Age 33)\N{\fscx100\fscy100}Leader of the Freedom Fighters
+Dialogue: 0,0:10:52.97,0:10:56.97,Captions-207+,,0,0,0,,{\b400\fnIwata Mincho Old Pro H Strp\fscx125\fscy125\bord0.5\shad0\blur15\3c&HFFFFFF&\pos(500,725)\1a&HFF&\fad(0,977)}Dr. Vegapunk (Age 43)\N{\fscx100\fscy100}Head of the Punk Hazard Lab
+Dialogue: 1,0:10:52.97,0:10:56.97,Captions-207+,,0,0,0,,{\b400\fnIwata Mincho Old Pro H Strp\fscx125\fscy125\bord2\shad1\blur1\1c&H000000&\3c&HF7F7F7&\4c&HF7F7F7&\pos(500,725)\fad(0,977)\t(3023,3064,\1a&HFF&)}Dr. Vegapunk (Age 43)\N{\fscx100\fscy100\bord2.5}Head of the Punk Hazard Lab
+Dialogue: 2,0:10:52.97,0:10:56.97,Captions-207+,,0,0,0,,{\b400\fnIwata Mincho Old Pro H Strp\fscx125\fscy125\bord0\blur1\c&H000000&\pos(500,725)\fad(0,977)}Dr. Vegapunk (Age 43)\N{\fscx100\fscy100}Head of the Punk Hazard Lab
+Dialogue: 0,0:16:03.78,0:16:06.99,Captions-207+,,0,0,0,,{\b900\fnFOT-KafuTechno Std U Strp\pos(1620,660)\fscx100\fscy100\blur0.8\bord1.8\shad1\fsp1\c&H000000&\3c&HFCFCFB&\4c&HFCFCFB&}Scrap Heap\NFabriophase\NEgghead
+Dialogue: 1,0:16:03.78,0:16:06.99,Captions-207+,,0,0,0,,{\b900\fnFOT-KafuTechno Std U Strp\pos(1620,660)\fscx100\fscy100\blur0.8\bord0\shad0\fsp1\c&H000000&\3c&HFCFCFB&\4c&HFCFCFB&}Scrap Heap\NFabriophase\NEgghead
+Dialogue: 0,0:19:21.35,0:19:21.39,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord5.71\fscx190.48\fscy190.48\blur1.79\pos(678.07,91.68)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.35,0:19:21.39,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx190.48\fscy190.48\blur1.79\pos(678.07,91.68)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:21.39,0:19:21.43,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord4.47\fscx148.86\fscy148.86\blur1.42\pos(574.49,316.07)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.39,0:19:21.43,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx148.86\fscy148.86\blur1.42\pos(574.49,316.07)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:21.43,0:19:21.47,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord3.7\fscx123.3\fscy123.3\blur1.2\pos(510.87,453.82)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.43,0:19:21.47,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx123.3\fscy123.3\blur1.2\pos(510.87,453.82)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:21.47,0:19:21.52,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord3.21\fscx106.95\fscy106.95\blur1.05\pos(470.21,541.87)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.47,0:19:21.52,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx106.95\fscy106.95\blur1.05\pos(470.21,541.87)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:21.52,0:19:21.56,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord2.91\fscx96.93\fscy96.93\blur0.96\pos(445.27,595.87)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.52,0:19:21.56,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx96.93\fscy96.93\blur0.96\pos(445.27,595.87)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:21.56,0:19:21.60,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord2.75\fscx91.62\fscy91.62\blur0.91\pos(432.04,624.49)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.56,0:19:21.60,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx91.62\fscy91.62\blur0.91\pos(432.04,624.49)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:21.60,0:19:22.47,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,633.19)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:21.60,0:19:22.47,Captions-207+,,0,0,0,,{\alpha&H00&\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,633.19)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:24.48,0:19:28.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,633.19)\b900\c&H000000&}The World's Premier Brain
+Dialogue: 1,0:19:24.48,0:19:28.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,633.19)\b900\4a&HFF&}The World's Premier Brain
+Dialogue: 0,0:19:25.02,0:19:25.06,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}H{\alpha&HFF&}ead of the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.02,0:19:25.06,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}H{\alpha&HFF&}ead of the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.06,0:19:25.14,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}He{\alpha&HFF&}ad of the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.06,0:19:25.14,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}He{\alpha&HFF&}ad of the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.14,0:19:25.23,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Hea{\alpha&HFF&}d of the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.14,0:19:25.23,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Hea{\alpha&HFF&}d of the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.23,0:19:25.27,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head{\alpha&HFF&} of the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.23,0:19:25.27,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head{\alpha&HFF&} of the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.27,0:19:25.35,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head {\alpha&HFF&}of the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.27,0:19:25.35,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head {\alpha&HFF&}of the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.35,0:19:25.44,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head o{\alpha&HFF&}f the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.35,0:19:25.44,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head o{\alpha&HFF&}f the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.44,0:19:25.48,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of{\alpha&HFF&} the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.44,0:19:25.48,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of{\alpha&HFF&} the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.48,0:19:25.56,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of {\alpha&HFF&}the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.48,0:19:25.56,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of {\alpha&HFF&}the Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.56,0:19:25.64,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of t{\alpha&HFF&}he Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.56,0:19:25.64,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of t{\alpha&HFF&}he Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.64,0:19:25.69,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of th{\alpha&HFF&}e Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.64,0:19:25.69,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of th{\alpha&HFF&}e Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.69,0:19:25.77,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the{\alpha&HFF&} Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.69,0:19:25.77,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the{\alpha&HFF&} Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.77,0:19:25.85,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the {\alpha&HFF&}Marines' Special Science Group{Z}
+Dialogue: 1,0:19:25.77,0:19:25.85,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the {\alpha&HFF&}Marines' Special Science Group{Z}
+Dialogue: 0,0:19:25.85,0:19:25.89,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the M{\alpha&HFF&}arines' Special Science Group{Z}
+Dialogue: 1,0:19:25.85,0:19:25.89,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the M{\alpha&HFF&}arines' Special Science Group{Z}
+Dialogue: 0,0:19:25.89,0:19:25.98,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Ma{\alpha&HFF&}rines' Special Science Group{Z}
+Dialogue: 1,0:19:25.89,0:19:25.98,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Ma{\alpha&HFF&}rines' Special Science Group{Z}
+Dialogue: 0,0:19:25.98,0:19:26.06,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Mar{\alpha&HFF&}ines' Special Science Group{Z}
+Dialogue: 1,0:19:25.98,0:19:26.06,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Mar{\alpha&HFF&}ines' Special Science Group{Z}
+Dialogue: 0,0:19:26.06,0:19:26.14,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Mari{\alpha&HFF&}nes' Special Science Group{Z}
+Dialogue: 1,0:19:26.06,0:19:26.14,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Mari{\alpha&HFF&}nes' Special Science Group{Z}
+Dialogue: 0,0:19:26.14,0:19:26.19,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marin{\alpha&HFF&}es' Special Science Group{Z}
+Dialogue: 1,0:19:26.14,0:19:26.19,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marin{\alpha&HFF&}es' Special Science Group{Z}
+Dialogue: 0,0:19:26.19,0:19:26.27,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marine{\alpha&HFF&}s' Special Science Group{Z}
+Dialogue: 1,0:19:26.19,0:19:26.27,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marine{\alpha&HFF&}s' Special Science Group{Z}
+Dialogue: 0,0:19:26.27,0:19:26.35,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines{\alpha&HFF&}' Special Science Group{Z}
+Dialogue: 1,0:19:26.27,0:19:26.35,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines{\alpha&HFF&}' Special Science Group{Z}
+Dialogue: 0,0:19:26.35,0:19:26.40,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines'{\alpha&HFF&} Special Science Group{Z}
+Dialogue: 1,0:19:26.35,0:19:26.40,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines'{\alpha&HFF&} Special Science Group{Z}
+Dialogue: 0,0:19:26.40,0:19:26.48,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' {\alpha&HFF&}Special Science Group{Z}
+Dialogue: 1,0:19:26.40,0:19:26.48,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' {\alpha&HFF&}Special Science Group{Z}
+Dialogue: 0,0:19:26.48,0:19:26.56,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' S{\alpha&HFF&}pecial Science Group{Z}
+Dialogue: 1,0:19:26.48,0:19:26.56,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' S{\alpha&HFF&}pecial Science Group{Z}
+Dialogue: 0,0:19:26.56,0:19:26.60,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Sp{\alpha&HFF&}ecial Science Group{Z}
+Dialogue: 1,0:19:26.56,0:19:26.60,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Sp{\alpha&HFF&}ecial Science Group{Z}
+Dialogue: 0,0:19:26.60,0:19:26.69,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Spe{\alpha&HFF&}cial Science Group{Z}
+Dialogue: 1,0:19:26.60,0:19:26.69,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Spe{\alpha&HFF&}cial Science Group{Z}
+Dialogue: 0,0:19:26.69,0:19:26.77,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Spec{\alpha&HFF&}ial Science Group{Z}
+Dialogue: 1,0:19:26.69,0:19:26.77,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Spec{\alpha&HFF&}ial Science Group{Z}
+Dialogue: 0,0:19:26.77,0:19:26.81,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Speci{\alpha&HFF&}al Science Group{Z}
+Dialogue: 1,0:19:26.77,0:19:26.81,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Speci{\alpha&HFF&}al Science Group{Z}
+Dialogue: 0,0:19:26.81,0:19:26.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Specia{\alpha&HFF&}l Science Group{Z}
+Dialogue: 1,0:19:26.81,0:19:26.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Specia{\alpha&HFF&}l Science Group{Z}
+Dialogue: 0,0:19:26.90,0:19:26.98,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special{\alpha&HFF&} Science Group{Z}
+Dialogue: 1,0:19:26.90,0:19:26.98,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special{\alpha&HFF&} Science Group{Z}
+Dialogue: 0,0:19:26.98,0:19:27.06,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special {\alpha&HFF&}Science Group{Z}
+Dialogue: 1,0:19:26.98,0:19:27.06,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special {\alpha&HFF&}Science Group{Z}
+Dialogue: 0,0:19:27.06,0:19:27.10,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special S{\alpha&HFF&}cience Group{Z}
+Dialogue: 1,0:19:27.06,0:19:27.10,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special S{\alpha&HFF&}cience Group{Z}
+Dialogue: 0,0:19:27.10,0:19:27.19,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Sc{\alpha&HFF&}ience Group{Z}
+Dialogue: 1,0:19:27.10,0:19:27.19,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Sc{\alpha&HFF&}ience Group{Z}
+Dialogue: 0,0:19:27.19,0:19:27.27,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Sci{\alpha&HFF&}ence Group{Z}
+Dialogue: 1,0:19:27.19,0:19:27.27,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Sci{\alpha&HFF&}ence Group{Z}
+Dialogue: 0,0:19:27.27,0:19:27.31,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Scie{\alpha&HFF&}nce Group{Z}
+Dialogue: 1,0:19:27.27,0:19:27.31,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Scie{\alpha&HFF&}nce Group{Z}
+Dialogue: 0,0:19:27.31,0:19:27.40,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Scien{\alpha&HFF&}ce Group{Z}
+Dialogue: 1,0:19:27.31,0:19:27.40,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Scien{\alpha&HFF&}ce Group{Z}
+Dialogue: 0,0:19:27.40,0:19:27.48,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Scienc{\alpha&HFF&}e Group{Z}
+Dialogue: 1,0:19:27.40,0:19:27.48,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Scienc{\alpha&HFF&}e Group{Z}
+Dialogue: 0,0:19:27.48,0:19:27.52,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science{\alpha&HFF&} Group{Z}
+Dialogue: 1,0:19:27.48,0:19:27.52,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science{\alpha&HFF&} Group{Z}
+Dialogue: 0,0:19:27.52,0:19:27.60,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science {\alpha&HFF&}Group{Z}
+Dialogue: 1,0:19:27.52,0:19:27.60,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science {\alpha&HFF&}Group{Z}
+Dialogue: 0,0:19:27.60,0:19:27.69,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science G{\alpha&HFF&}roup{Z}
+Dialogue: 1,0:19:27.60,0:19:27.69,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science G{\alpha&HFF&}roup{Z}
+Dialogue: 0,0:19:27.69,0:19:27.73,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science Gr{\alpha&HFF&}oup{Z}
+Dialogue: 1,0:19:27.69,0:19:27.73,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science Gr{\alpha&HFF&}oup{Z}
+Dialogue: 0,0:19:27.73,0:19:27.81,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science Gro{\alpha&HFF&}up{Z}
+Dialogue: 1,0:19:27.73,0:19:27.81,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science Gro{\alpha&HFF&}up{Z}
+Dialogue: 0,0:19:27.81,0:19:27.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science Grou{\alpha&HFF&}p{Z}
+Dialogue: 1,0:19:27.81,0:19:27.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science Grou{\alpha&HFF&}p{Z}
+Dialogue: 0,0:19:27.90,0:19:27.98,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science Group{\alpha&HFF&}{Z}
+Dialogue: 1,0:19:27.90,0:19:27.98,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science Group{\alpha&HFF&}{Z}
+Dialogue: 0,0:19:27.98,0:19:28.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord2.7\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\c&H000000&}Head of the Marines' Special Science Group{Z}
+Dialogue: 1,0:19:27.98,0:19:28.90,Captions-207+,,0,0,0,,{\fnFOT-KafuTechno Std U Strp\bord0\c&H6369D8&\fscx90\fscy90\blur0.9\pos(428,683.59)\b900\4a&HFF&}Head of the Marines' Special Science Group{Z}
+Dialogue: 0,0:00:00.77,0:00:06.53,Credits-207+,,0,0,0,,{\pos(1441.48,653.85)\fscx55\fscy55\fnFOT-Aokane Std EB-Strp\b800\bord0\c&H4D0403&}Video Editing
+Dialogue: 0,0:00:00.77,0:00:06.53,Credits-207+,,0,0,0,,{\pos(1460.57,676.49)\fscx90\fscy90\fnFOT-Aokane Std EB-Strp\b800\bord0\c&H4D0403&}Feeso\NGalaxy 9000
+Dialogue: 0,0:00:19.04,0:00:20.96,Credits-207+,,0,0,0,,{\fscx70\fscy70\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\pos(184,64)}Quality Control
+Dialogue: 0,0:00:19.04,0:00:20.96,Credits-207+,,0,0,0,,{\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\fscx90\fscy90\pos(202,98)}Camotoy\Nfedew\Nfishybusyness
+Dialogue: 0,0:00:19.04,0:00:20.96,Credits-207+,,0,0,0,,{\fnFOT-Carat Std UB-Strp\b900\bord0\c&H4CDAE6&\fscx90\fscy90\pos(1501,48)}Pepperjack\NPhosCity\NScolines\NZenef
+Dialogue: 0,0:00:26.38,0:00:28.68,Credits-207+,,0,0,0,,{\pos(754.8,899.6)\fnFOT-Carat Std UB-Strp\b900\bord0\c&HD9EC6B&}Graphics: Datenshi
+Dialogue: 0,0:00:49.36,0:00:51.99,Credits-207+,,0,0,0,,{\pos(182,431)\fscx90\fscy90\fnFOT-Comet Std B-Strp\b700\bord0}Karaoke
+Dialogue: 0,0:00:49.36,0:00:51.99,Credits-207+,,0,0,0,,{\pos(216,474)\fscx150\fscy150\fnFOT-Comet Std B-Strp\b700\bord0}PhosCity
+Dialogue: 0,0:00:52.74,0:00:54.45,Credits-207+,,0,0,0,,{\pos(162,817)\fscx80\fscy80\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Timing
+Dialogue: 0,0:00:52.74,0:00:54.45,Credits-207+,,0,0,0,,{\pos(246,868)\fscx120\fscy120\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}NateTheBird
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\pos(1432,408)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}Dubtitles{y = highest point of first name - 55}
+Dialogue: 0,0:00:54.78,0:00:57.25,Credits-207+,,0,0,0,,{\an1\pos(1453,509)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&H070707&}NateTheBird
+Dialogue: 0,0:01:07.84,0:01:10.43,Credits-207+,,0,0,0,,{\pos(850,73)\fscx70\fscy70\fnFOT-TsukuARdGothic Std E-Strp\b800\bord1\c&H000000&\3c&HFEFEFE&\blur2}Soundtracking
+Dialogue: 0,0:01:07.84,0:01:10.43,Credits-207+,,0,0,0,,{\pos(902,104)\fscx90\fscy90\fnFOT-TsukuARdGothic Std E-Strp\b800\bord1\c&H000000&\3c&HFEFEFE&\blur2}Halee
+Dialogue: 0,0:01:10.55,0:01:13.09,Credits-207+,,0,0,0,,{\pos(850,73)\fscx70\fscy70\fnFOT-TsukuARdGothic Std E-Strp\b800\bord0}Typesetting
+Dialogue: 0,0:01:10.55,0:01:13.09,Credits-207+,,0,0,0,,{\pos(902,104)\fscx90\fscy90\fnFOT-TsukuARdGothic Std E-Strp\b800\bord0}Gab\NPhosCity
+Dialogue: 0,0:01:13.09,0:01:16.93,Credits-207+,,0,0,0,,{\an1\pos(1165.33,461)\fscx70\fscy70\fnFOT-Comet Std B-Strp\b700\bord0\c&HFFFEFF&}Translation{y = highest point of first name - 15}
+Dialogue: 0,0:01:13.09,0:01:16.93,Credits-207+,,0,0,0,,{\an1\pos(1250.33,581)\fscx110\fscy110\fnFOT-Comet Std B-Strp\b700\bord0\c&HFFFEFF&}Crunchyroll\NPamkinPinguin
