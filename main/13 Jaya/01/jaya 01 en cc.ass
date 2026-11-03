@@ -1,0 +1,511 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Karaoke,Duality,68,&H00B95D1D,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2.25,0,1,4.5,0,8,23,23,23,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=68}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,OP,0,0,0,,
+Comment: 0,0:00:57.42,0:00:57.45,Default,OP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:02:32.51,0:02:42.50,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Main-207-,chptr,0,0,0,,{Part A}
+Comment: 0,0:00:34.26,0:00:34.26,Main-207-,chptr,0,0,0,,{Opening}
+Comment: 0,0:02:23.62,0:02:23.67,Main-207-,chptr,0,0,0,,{Part B}
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=69}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=70}===============================DIALOGUE============================
+Dialogue: 50,0:00:15.26,0:00:16.13,Main-207-,,0,0,0,,[ZORO]\NHmm? Is that rain?
+Dialogue: 50,0:00:21.09,0:00:22.10,Main-207-,,0,0,0,,[SANJI]\NThat's interesting.
+Dialogue: 50,0:00:22.10,0:00:24.56,Main-207-,,0,0,0,,It looks like a... Oh.
+Dialogue: 50,0:02:39.78,0:02:41.03,Main-207-,,0,0,0,,{\an8}Grab a holda something!
+Dialogue: 50,0:02:41.07,0:02:43.62,Main-207-,,0,0,0,,{\an8}Whatever you do, don't let go!
+Dialogue: 50,0:02:45.12,0:02:47.54,Main-207-,,0,0,0,,Why are there ships\Nfalling out of the sky?
+Dialogue: 0,0:02:47.58,0:02:48.29,Main-207-,,0,0,0,,[CHOPPER screams]
+Dialogue: 0,0:02:48.33,0:02:50.29,Main-207-,,0,0,0,,[USOPP]\NOh!!
+Dialogue: 50,0:02:52.13,0:02:54.63,Main-207-,,0,0,0,,I know. This is\Njust an awful dream!
+Dialogue: 0,0:02:54.88,0:02:56.71,Main-207-,,0,0,0,,Great, I love dreams!
+Dialogue: 50,0:03:00.01,0:03:02.93,Main-207-,,0,0,0,,Heads up! I don't think\Nthe party's over yet!
+Dialogue: 50,0:03:02.97,0:03:05.01,Main-207-,,0,0,0,,It won't stop falling!
+Dialogue: 50,0:03:05.06,0:03:06.88,Main-207-,,0,0,0,,[NAMI]\NThe rudder! Turn the rudder!
+Dialogue: 50,0:03:06.90,0:03:08.20,Main-207-,,0,0,0,,That'll never work\Nin these waves!
+Dialogue: 50,0:03:08.24,0:03:09.53,Main-207-,,0,0,0,,[SANJI]\NLuffy, you\Ngotta protect the ship!
+Dialogue: 50,0:03:09.59,0:03:10.80,Main-207-,,0,0,0,,She's taking a beating!
+Dialogue: 50,0:03:10.84,0:03:11.96,Main-207-,,0,0,0,,Right! Huh?
+Dialogue: 50,0:03:12.00,0:03:13.09,Main-207-,,0,0,0,,Usopp?
+Dialogue: 50,0:03:13.13,0:03:14.38,Main-207-,,0,0,0,,I cast aside my worries
+Dialogue: 50,0:03:14.42,0:03:17.89,Main-207-,,0,0,0,,and reach deep within\Nto find my happy place.
+Dialogue: 50,0:03:17.93,0:03:19.30,Main-207-,,0,0,0,,And when I open my eyes,
+Dialogue: 50,0:03:19.34,0:03:22.52,Main-207-,,0,0,0,,this serene landscape is\Nall that will lay before me.
+Dialogue: 0,0:03:22.78,0:03:24.12,Main-207-,,0,0,0,,A skeleton‐dead guy!
+Dialogue: 50,0:03:26.48,0:03:29.02,Main-207-,,0,0,0,,[NAMI]\NDon't throw the nasty\Nthing at me, you idiot!
+Dialogue: 50,0:03:29.02,0:03:29.98,Main-207-,,0,0,0,,[SANJI]\NThey're falling everywhere!
+Dialogue: 50,0:03:30.02,0:03:31.36,Main-207-,,0,0,0,,[USOPP]\NI'm surrounded by death!
+Dialogue: 0,0:03:31.36,0:03:34.40,Main-207-,,0,0,0,,[NAMI]\NWhen is this stuff\Ngonna stop falling?!
+Dialogue: 50,0:03:37.98,0:03:38.90,Main-207-,,0,0,0,,All right.
+Dialogue: 50,0:03:38.94,0:03:41.16,Main-207-,,0,0,0,,Why did a ship just\Nfall out of the sky?
+Dialogue: 50,0:03:41.31,0:03:42.35,Main-207-,,0,0,0,,Captain error?
+Dialogue: 50,0:03:42.40,0:03:43.36,Main-207-,,0,0,0,,[ZORO]\NThe sky's clear.
+Dialogue: 50,0:03:43.40,0:03:44.40,Main-207-,,0,0,0,,Who knows?
+Dialogue: 50,0:03:44.44,0:03:46.40,Main-207-,,0,0,0,,I knew coming to the\NGrand Line was a mistake.
+Dialogue: 50,0:03:46.45,0:03:48.00,Main-207-,,0,0,0,,It freaks me out.
+Dialogue: 50,0:03:48.37,0:03:49.45,Main-207-,,0,0,0,,What's wrong, Nami?
+Dialogue: 50,0:03:49.49,0:03:50.19,Main-207-,,0,0,0,,Problem?
+Dialogue: 50,0:03:50.20,0:03:51.37,Main-207-,,0,0,0,,Oh no!
+Dialogue: 50,0:03:51.41,0:03:53.16,Main-207-,,0,0,0,,The Log Pose is broken.
+Dialogue: 50,0:03:53.20,0:03:55.25,Main-207-,,0,0,0,,It's pointing into the sky.
+Dialogue: 50,0:03:55.29,0:03:56.30,Main-207-,,0,0,0,,It's not broken.
+Dialogue: 50,0:03:56.50,0:03:59.13,Main-207-,,0,0,0,,The Log Pose registers an island\Nwith a strong magnetic pull,
+Dialogue: 0,0:03:59.19,0:04:00.33,Main-207-,,0,0,0,,and its needle\Nis reflecting that.
+Dialogue: 50,0:04:00.33,0:04:01.11,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:04:01.11,0:04:03.28,Main-207-,,0,0,0,,If the needle is\Npointing toward the sky,
+Dialogue: 50,0:04:03.32,0:04:06.39,Main-207-,,0,0,0,,then it must be\Npointing toward sky island.
+Dialogue: 50,0:04:06.99,0:04:09.00,Main-207-,,0,0,0,,Sky island?
+Dialogue: 50,0:04:09.00,0:04:10.45,Main-207-,,0,0,0,,[NAMI]\NAre you serious?
+Dialogue: 50,0:04:10.45,0:04:12.36,Main-207-,,0,0,0,,There's a floating\Nisland up there?
+Dialogue: 0,0:04:12.42,0:04:14.37,Main-207-,,0,0,0,,If there is one,\Nthen it's full of skeletons
+Dialogue: 50,0:04:14.37,0:04:15.83,Main-207-,,0,0,0,,and rickety old ships.
+Dialogue: 50,0:04:15.87,0:04:17.16,Main-207-,,0,0,0,,That's ridiculous.
+Dialogue: 50,0:04:17.19,0:04:19.15,Main-207-,,0,0,0,,I don't see anything but sky.
+Dialogue: 50,0:04:19.19,0:04:21.99,Main-207-,,0,0,0,,[ROBIN]\NHmmm...\NThat's not exactly how it works.
+Dialogue: 50,0:04:22.01,0:04:24.84,Main-207-,,0,0,0,,It's not an island above us\Nbut an entire ocean.
+Dialogue: 50,0:04:24.88,0:04:25.93,Main-207-,,0,0,0,,[NAMI]\NNo way.
+Dialogue: 50,0:04:28.41,0:04:30.13,Main-207-,,0,0,0,,I'm still confused.
+Dialogue: 50,0:04:30.33,0:04:31.37,Main-207-,,0,0,0,,[LUFFY]\NYeah!
+Dialogue: 50,0:04:31.37,0:04:34.00,Main-207-,,0,0,0,,Raise the sails and set\Nour course for sky island!
+Dialogue: 50,0:04:34.00,0:04:35.17,Main-207-,,0,0,0,,Men, are we ready?
+Dialogue: 0,0:04:35.30,0:04:39.10,Main-207-,,0,0,0,,Put the rudder down, and point\Nthe bow high into the sky!
+Dialogue: 0,0:04:39.13,0:04:41.55,Main-207-,,0,0,0,,{\q2}[LUFFY, USOPP]\N– Skyward, ho!\N– Skyward, ho!
+Dialogue: 50,0:04:43.19,0:04:44.23,Main-207-,,0,0,0,,Did it just hit you?
+Dialogue: 50,0:04:44.33,0:04:46.75,Main-207-,,0,0,0,,The fact that, you know,\Nwe can't fly and all that?
+Dialogue: 50,0:04:46.78,0:04:48.36,Main-207-,,0,0,0,,To tell you the truth,
+Dialogue: 50,0:04:48.36,0:04:51.44,Main-207-,,0,0,0,,all I know about sky island\Nis word of mouth; rumor.
+Dialogue: 50,0:04:51.57,0:04:52.94,Main-207-,,0,0,0,,I've never actually seen it.
+Dialogue: 50,0:04:53.12,0:04:54.08,Main-207-,,0,0,0,,Of course not!
+Dialogue: 50,0:04:54.08,0:04:55.25,Main-207-,,0,0,0,,Because it's a lie!
+Dialogue: 50,0:04:55.26,0:04:56.76,Main-207-,,0,0,0,,Islands don't float in the sky.
+Dialogue: 50,0:04:56.79,0:04:58.14,Main-207-,,0,0,0,,Our Log Pose is broken.
+Dialogue: 50,0:04:58.14,0:04:59.14,Main-207-,,0,0,0,,That's all it is.
+Dialogue: 50,0:04:59.18,0:05:01.06,Main-207-,,0,0,0,,Not quite, Miss Navigator.
+Dialogue: 50,0:05:01.18,0:05:03.60,Main-207-,,0,0,0,,You're trying to fix something\Nthat's not even broken.
+Dialogue: 50,0:05:03.64,0:05:07.44,Main-207-,,0,0,0,,We should be trying to find\Na way to get to sky island.
+Dialogue: 50,0:05:07.44,0:05:09.68,Main-207-,,0,0,0,,You really need to learn\Nto trust your instruments.
+Dialogue: 50,0:05:09.68,0:05:11.30,Main-207-,,0,0,0,,No matter how crazy things get,
+Dialogue: 50,0:05:11.35,0:05:13.72,Main-207-,,0,0,0,,or how weird the situation\Nis we find ourselves in,
+Dialogue: 50,0:05:13.76,0:05:15.35,Main-207-,,0,0,0,,never doubt the Log Pose.
+Dialogue: 0,0:05:15.39,0:05:17.23,Main-207-,,0,0,0,,Out here, on the water,\Nthis is one of
+Dialogue: 50,0:05:17.24,0:05:19.54,Main-207-,,0,0,0,,the most steadfast\Nand unbreakable rules.
+Dialogue: 50,0:05:19.58,0:05:22.00,Main-207-,,0,0,0,,What we should be doubting\Nis the common sense
+Dialogue: 50,0:05:22.06,0:05:23.23,Main-207-,,0,0,0,,we all have that tells us
+Dialogue: 50,0:05:23.23,0:05:27.24,Main-207-,,0,0,0,,an island cannot exist in\Nthe sky on an ocean of nothing.
+Dialogue: 50,0:05:27.28,0:05:29.28,Main-207-,,0,0,0,,That needle is pointing\Ntoward an island.
+Dialogue: 50,0:05:29.32,0:05:31.16,Main-207-,,0,0,0,,I'd bet my life on it.
+Dialogue: 50,0:05:40.17,0:05:41.00,Main-207-,,0,0,0,,That's disgusting,
+Dialogue: 50,0:05:41.04,0:05:43.42,Main-207-,,0,0,0,,digging through\Na dead man's clothes.
+Dialogue: 0,0:05:43.46,0:05:45.05,Main-207-,,0,0,0,,[NAMI growls]
+Dialogue: 50,0:05:46.80,0:05:48.50,Main-207-,,0,0,0,,That's really gonna\Ntell you something?
+Dialogue: 50,0:05:48.51,0:05:49.42,Main-207-,,0,0,0,,Dunno.
+Dialogue: 50,0:05:49.42,0:05:52.01,Main-207-,,0,0,0,,You're into some pretty\Nweird stuff, Robin.
+Dialogue: 50,0:05:52.05,0:05:53.22,Main-207-,,0,0,0,,Any lady with a fascination
+Dialogue: 50,0:05:53.22,0:05:56.39,Main-207-,,0,0,0,,for dead things is\Ninteresting in my book.
+Dialogue: 0,0:05:56.39,0:05:57.31,Main-207-,,0,0,0,,[ZORO]\NHmm?
+Dialogue: 50,0:05:57.35,0:05:58.56,Main-207-,,0,0,0,,Where'd Luffy go?
+Dialogue: 0,0:05:58.56,0:06:00.39,Main-207-,,0,0,0,,[USOPP]\NOkay, jump!
+Dialogue: 50,0:06:00.46,0:06:01.42,Main-207-,,0,0,0,,What kind of trouble
+Dialogue: 50,0:06:01.45,0:06:03.22,Main-207-,,0,0,0,,are those two getting\Nthemselves into now?
+Dialogue: 50,0:06:03.45,0:06:05.45,Main-207-,,0,0,0,,Probably the bad kind.
+Dialogue: 50,0:06:05.92,0:06:07.81,Main-207-,,0,0,0,,[SANJI]\NHey! Looks good as new.
+Dialogue: 50,0:06:08.11,0:06:09.57,Main-207-,,0,0,0,,Except for the\Nholes on the crown.
+Dialogue: 50,0:06:09.59,0:06:11.31,Main-207-,,0,0,0,,Those came from\Nan external source.
+Dialogue: 50,0:06:11.38,0:06:12.59,Main-207-,,0,0,0,,Oh yeah.
+Dialogue: 50,0:06:12.63,0:06:15.10,Main-207-,,0,0,0,,Looks like it could have been\Narrows or a spear, or something.
+Dialogue: 50,0:06:15.10,0:06:16.51,Main-207-,,0,0,0,,[ROBIN]\NNot quite but good guess.
+Dialogue: 50,0:06:16.59,0:06:20.10,Main-207-,,0,0,0,,These are from a medical\Nprocedure called craterization.
+Dialogue: 50,0:06:20.14,0:06:20.85,Main-207-,,0,0,0,,Right, doctor?
+Dialogue: 50,0:06:20.93,0:06:22.47,Main-207-,,0,0,0,,[CHOPPER]\NMm. An ancient one.
+Dialogue: 50,0:06:22.51,0:06:23.85,Main-207-,,0,0,0,,They cut out a\Nsmall hole in the skull
+Dialogue: 50,0:06:23.99,0:06:25.91,Main-207-,,0,0,0,,to remove a foreign\Nmass, like a tumor.
+Dialogue: 50,0:06:25.95,0:06:27.33,Main-207-,,0,0,0,,And since it leaves\Na crater behind,
+Dialogue: 50,0:06:27.37,0:06:28.92,Main-207-,,0,0,0,,that's how you get the name.
+Dialogue: 50,0:06:28.96,0:06:30.96,Main-207-,,0,0,0,,Knowing how old of\Na technique this is,
+Dialogue: 50,0:06:30.96,0:06:34.42,Main-207-,,0,0,0,,I'd say this man has been\Ndead at least 200 years.
+Dialogue: 50,0:06:35.74,0:06:37.74,Main-207-,,0,0,0,,[ROBIN]\NI can also say\Nwith confidence this man was
+Dialogue: 50,0:06:37.74,0:06:41.37,Main-207-,,0,0,0,,in his early thirties\Nwhen he died.
+Dialogue: 50,0:06:41.40,0:06:43.07,Main-207-,,0,0,0,,It must have been\Nduring his voyage
+Dialogue: 50,0:06:43.09,0:06:46.67,Main-207-,,0,0,0,,that he finally succumbed to\Nthe illness, whatever it was.
+Dialogue: 50,0:06:48.30,0:06:50.39,Main-207-,,0,0,0,,Much more than\Nthe rest of his bones,
+Dialogue: 50,0:06:50.43,0:06:54.06,Main-207-,,0,0,0,,his teeth have remained\Nin surprisingly good condition.
+Dialogue: 50,0:06:55.35,0:06:57.27,Main-207-,,0,0,0,,Because he rubbed tar on them.
+Dialogue: 50,0:06:57.33,0:06:59.21,Main-207-,,0,0,0,,It was a common\Npractice in the South Blue
+Dialogue: 50,0:06:59.25,0:07:01.21,Main-207-,,0,0,0,,to keep out\Nbacterial infections.
+Dialogue: 50,0:07:01.25,0:07:03.51,Main-207-,,0,0,0,,And considering\Nthe history of that region,
+Dialogue: 50,0:07:03.51,0:07:06.03,Main-207-,,0,0,0,,I'd suspect that he was\Nwith an exploratory party.
+Dialogue: 0,0:07:08.43,0:07:09.26,Main-207-,,0,0,0,,Here it is.
+Dialogue: 50,0:07:09.35,0:07:11.35,Main-207-,,0,0,0,,The Briss Kingdom\Nof the South Blue.
+Dialogue: 50,0:07:11.39,0:07:16.35,Main-207-,,0,0,0,,They launched the St. Briss\Nas a scout ship, 208 years ago.
+Dialogue: 50,0:07:16.37,0:07:17.07,Main-207-,,0,0,0,,[NAMI]\NThat's it!
+Dialogue: 50,0:07:17.09,0:07:18.13,Main-207-,,0,0,0,,That's the ship that fell on us.
+Dialogue: 50,0:07:18.17,0:07:20.89,Main-207-,,0,0,0,,[ZORO]\NYeah, I recognize\Nthat figurehead out front.
+Dialogue: 50,0:07:20.93,0:07:23.22,Main-207-,,0,0,0,,[ROBIN]\NIt's probably sailed\Nthe seas above us unmanned
+Dialogue: 50,0:07:23.22,0:07:24.76,Main-207-,,0,0,0,,since the captain and crew died.
+Dialogue: 0,0:07:24.82,0:07:28.83,Main-207-,,0,0,0,,It's amazing what you can tell\Nfrom looking at old bones!
+Dialogue: 50,0:07:28.90,0:07:30.25,Main-207-,,0,0,0,,I'm sure you've heard
+Dialogue: 50,0:07:30.25,0:07:32.25,Main-207-,,0,0,0,,that dead men\Ntell no tales, right?
+Dialogue: 50,0:07:32.27,0:07:33.73,Main-207-,,0,0,0,,But everything aroud them does.
+Dialogue: 50,0:07:33.77,0:07:34.79,Main-207-,,0,0,0,,If this was a scouting party,
+Dialogue: 50,0:07:34.79,0:07:37.25,Main-207-,,0,0,0,,we should find evidence\Nof that on the St. Briss.
+Dialogue: 50,0:07:37.29,0:07:40.17,Main-207-,,0,0,0,,Yeah. Except it's\Nsinking like a stone.
+Dialogue: 50,0:07:40.19,0:07:41.48,Main-207-,,0,0,0,,What are you doing, you idiot?
+Dialogue: 50,0:07:41.48,0:07:43.24,Secondary-207-,,0,0,0,,{\an8}You can't swim!
+Dialogue: 0,0:07:42.39,0:07:44.73,Main-207-,,0,0,0,,[LUFFY]\NHelp! Help me!
+Dialogue: 0,0:07:45.24,0:07:48.37,Main-207-,,0,0,0,,[LUFFY]\NHeh. You won't believe it!
+Dialogue: 50,0:07:48.41,0:07:49.37,Main-207-,,0,0,0,,I did it!
+Dialogue: 0,0:07:49.44,0:07:51.23,Main-207-,,0,0,0,,[pants]
+Dialogue: 50,0:07:51.32,0:07:53.74,Main-207-,,0,0,0,,I found the most\Nincredible thing!
+Dialogue: 50,0:07:56.84,0:07:58.96,Main-207-,,0,0,0,,{\q2}[CREW]\N– A map of the sky island?\N– A map of the sky island?
+Dialogue: 50,0:07:59.38,0:08:00.55,Main-207-,,0,0,0,,It's called Skypiea?
+Dialogue: 50,0:08:00.55,0:08:01.59,Main-207-,,0,0,0,,That's right.
+Dialogue: 50,0:08:01.63,0:08:02.43,Main-207-,,0,0,0,,Then it's true.
+Dialogue: 50,0:08:02.47,0:08:04.47,Main-207-,,0,0,0,,There really is\Nan island up there.
+Dialogue: 0,0:08:04.51,0:08:07.64,Main-207-,,0,0,0,,[cheering]
+Dialogue: 50,0:08:08.06,0:08:09.56,Main-207-,,0,0,0,,The island's real!\NThe island's real!
+Dialogue: 0,0:08:09.60,0:08:10.60,Main-207-,,0,0,0,,The island's real!
+Dialogue: 50,0:08:10.60,0:08:11.31,Main-207-,,0,0,0,,It's a dream!
+Dialogue: 0,0:08:11.31,0:08:13.18,Main-207-,,0,0,0,,It's a dream!\NIt's a dream!
+Dialogue: 50,0:08:13.22,0:08:16.23,Main-207-,,0,0,0,,Time to journey up\Nto sky island!
+Dialogue: 50,0:08:16.27,0:08:17.44,Main-207-,,0,0,0,,Hold on, guys.
+Dialogue: 50,0:08:17.51,0:08:19.60,Main-207-,,0,0,0,,We don't know how to get there\Nor if it's even possible.
+Dialogue: 50,0:08:19.64,0:08:20.56,Main-207-,,0,0,0,,Not to mention there are
+Dialogue: 50,0:08:20.60,0:08:23.14,Main-207-,,0,0,0,,a lot of fake treasure\Nmaps in circulation.
+Dialogue: 50,0:08:25.15,0:08:26.44,Main-207-,,0,0,0,,[NAMI]\NNo, I mean. Sure, it's real.
+Dialogue: 50,0:08:26.48,0:08:30.19,Main-207-,,0,0,0,,It's gotta be because...\NWell, just 'cause.
+Dialogue: 0,0:08:30.23,0:08:33.24,Main-207-,,0,0,0,,But the fact is that map doesn't\Ntell us how to find the place!
+Dialogue: 0,0:08:33.28,0:08:35.41,Main-207-,,0,0,0,,You're the navigator!\NNavigate something!
+Dialogue: 50,0:08:35.44,0:08:36.36,Secondary-207-,,0,0,0,,{\an8}I can't just make things up!
+Dialogue: 50,0:08:36.40,0:08:37.65,Main-207-,,0,0,0,,[SANJI]\NThat Nami is a vision
+Dialogue: 50,0:08:37.70,0:08:40.70,Secondary-207-,,0,0,0,,{\an8}even when she's chewing\Nsomeone's head off.
+Dialogue: 0,0:08:40.70,0:08:42.28,Main-207-,,0,0,0,,[punch]
+Dialogue: 50,0:08:42.32,0:08:43.53,Main-207-,,0,0,0,,[NAMI]\NThis isn't about me.
+Dialogue: 50,0:08:43.58,0:08:44.54,Main-207-,,0,0,0,,It's about reality.
+Dialogue: 50,0:08:44.76,0:08:47.56,Main-207-,,0,0,0,,And the reality is that\Nwe know next to nothing.
+Dialogue: 50,0:08:47.60,0:08:50.77,Main-207-,,0,0,0,,What we do know is that we can't\Ndefy gravity and sail upwards.
+Dialogue: 50,0:08:50.81,0:08:52.02,Main-207-,,0,0,0,,That's impossible.
+Dialogue: 50,0:08:52.06,0:08:53.86,Main-207-,,0,0,0,,What we need is\Nmore information.
+Dialogue: 50,0:08:53.86,0:08:55.86,Main-207-,,0,0,0,,If a big ship like\Nthat made it up there,
+Dialogue: 50,0:08:55.90,0:08:58.03,Main-207-,,0,0,0,,then the odds are we\Ncan do the same thing.
+Dialogue: 50,0:08:58.03,0:09:01.28,Main-207-,,0,0,0,,We just have to find all\Nthe records left on that ship.
+Dialogue: 50,0:09:01.32,0:09:04.34,Main-207-,,0,0,0,,I think the ship's at the\Nbottom of the ocean by now.
+Dialogue: 50,0:09:04.34,0:09:06.61,Main-207-,,0,0,0,,If it sunk, we'll salvage it!
+Dialogue: 50,0:09:06.96,0:09:08.59,Main-207-,,0,0,0,,Salvage!
+Dialogue: 50,0:09:08.59,0:09:10.59,Main-207-,,0,0,0,,We can't do that!
+Dialogue: 50,0:09:10.63,0:09:11.76,Main-207-,,0,0,0,,Salvage? Really?
+Dialogue: 50,0:09:11.76,0:09:14.43,Main-207-,,0,0,0,,Yeah, but we couldn't pull\Na ship up from the bottom.
+Dialogue: 50,0:09:14.61,0:09:17.82,Main-207-,,0,0,0,,I think they'll have to come up\Nwith a more refined plan.
+Dialogue: 0,0:09:23.41,0:09:26.54,Main-207-,,0,0,0,,Ha ha ha! This is adventure!
+Dialogue: 50,0:09:26.58,0:09:28.08,Main-207-,,0,0,0,,I know I've done\Nmore dangerous things,
+Dialogue: 50,0:09:28.08,0:09:29.79,Main-207-,,0,0,0,,but I can't remember what.
+Dialogue: 50,0:09:29.82,0:09:32.49,Main-207-,,0,0,0,,[SANJI]\NNami, I swear to find\Nyou the answers you seek,
+Dialogue: 50,0:09:32.54,0:09:34.58,Main-207-,,0,0,0,,or I will refuse to return!
+Dialogue: 50,0:09:34.58,0:09:35.62,Main-207-,,0,0,0,,I'll hold you to that.
+Dialogue: 50,0:09:35.66,0:09:36.46,Main-207-,,0,0,0,,You'll be safe.
+Dialogue: 50,0:09:36.46,0:09:37.84,Main-207-,,0,0,0,,Those barrels\Nare my special design.
+Dialogue: 50,0:09:37.87,0:09:39.56,Main-207-,,0,0,0,,They've never been busted.
+Dialogue: 50,0:09:44.61,0:09:46.36,Main-207-,,0,0,0,,Good luck! Be careful!
+Dialogue: 50,0:09:46.41,0:09:48.45,Main-207-,,0,0,0,,We'll be pulling for ya.
+Dialogue: 50,0:09:54.33,0:09:55.50,Main-207-,,0,0,0,,[LUFFY]\NHey, look at that!
+Dialogue: 50,0:09:55.54,0:09:56.75,Main-207-,,0,0,0,,This is Chopper here.
+Dialogue: 50,0:09:56.77,0:09:58.12,Main-207-,,0,0,0,,Can you guys call off?
+Dialogue: 0,0:09:58.46,0:09:59.34,Main-207-,,0,0,0,,[LUFFY]\NThis is Luffy,
+Dialogue: 50,0:09:59.38,0:10:01.58,Main-207-,,0,0,0,,{\i1}and there's a ton of\Nmonsters down here.
+Dialogue: 50,0:10:01.59,0:10:03.83,Main-207-,,0,0,0,,{\i1}[ZORO]\NWe're on a nest\Nof giant sea snakes.
+Dialogue: 50,0:10:03.91,0:10:06.52,Main-207-,,0,0,0,,{\i1}[SANJI]\NThis is Sanji,\Nand they're staring at me.
+Dialogue: 50,0:10:06.52,0:10:07.38,Main-207-,,0,0,0,,Keep going.
+Dialogue: 0,0:10:07.43,0:10:08.43,Main-207-,,0,0,0,,[NAMI]\NThey'll be fine, Usopp.
+Dialogue: 50,0:10:09.98,0:10:11.09,Main-207-,,0,0,0,,Don't worry.
+Dialogue: 0,0:10:11.52,0:10:12.44,Main-207-,,0,0,0,,And Chopper.
+Dialogue: 50,0:10:12.48,0:10:14.02,Main-207-,,0,0,0,,Hold that brake tightly.
+Dialogue: 50,0:10:14.02,0:10:14.82,Main-207-,,0,0,0,,Right.
+Dialogue: 50,0:10:14.86,0:10:16.97,Main-207-,,0,0,0,,I'm so glad they\Ndidn't make me go.
+Dialogue: 0,0:10:20.22,0:10:22.55,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Salvage!\N– Salvage!
+Dialogue: 0,0:10:22.59,0:10:25.47,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Salvage the sea!\N– Salvage the sea!
+Dialogue: 0,0:10:25.51,0:10:28.31,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Salvage!\N– Salvage!
+Dialogue: 0,0:10:28.35,0:10:30.89,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Salvage the sea!\N– Salvage the sea!
+Dialogue: 50,0:10:30.93,0:10:32.53,Main-207-,,0,0,0,,What's all that noise?
+Dialogue: 0,0:10:33.73,0:10:38.82,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Salvage the sea! Salvage!\N– Salvage the sea! Salvage!
+Dialogue: 0,0:10:41.37,0:10:45.45,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Salvage the sea! Salvage!\N– Salvage the sea! Salvage!
+Dialogue: 0,0:10:45.45,0:10:48.58,Main-207-,,0,0,0,,[MASIRA]\NCompany, halt!
+Dialogue: 0,0:10:50.35,0:10:51.05,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, sir!\N– Aye aye, sir!
+Dialogue: 50,0:10:51.05,0:10:53.85,Main-207-,,0,0,0,,[MASIRA]\NAre we on top of\Nthe place where the ship sank?
+Dialogue: 50,0:10:55.52,0:10:58.19,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, Captain, sir!\N– Aye aye, Captain, sir!
+Dialogue: 0,0:10:59.35,0:11:01.19,Main-207-,,0,0,0,,[MASIRA]\NWhen they say captain and sir,
+Dialogue: 0,0:11:01.26,0:11:03.22,Main-207-,,0,0,0,,they're talking about me!
+Dialogue: 50,0:11:03.26,0:11:05.39,Main-207-,,0,0,0,,Prepare to raise the ship!
+Dialogue: 50,0:11:05.43,0:11:07.30,Main-207-,,0,0,0,,What lies on the\Nbottom now belongs
+Dialogue: 50,0:11:07.43,0:11:09.10,Main-207-,,0,0,0,,to the King of All Salvagers!
+Dialogue: 50,0:11:09.21,0:11:12.59,Main-207-,,0,0,0,,Captain of the\NMasira Pirates, Masira!
+Dialogue: 0,0:11:12.59,0:11:15.68,Main-207-,,0,0,0,,[cheering]
+Dialogue: 50,0:11:15.72,0:11:19.18,Main-207-,,0,0,0,,[NAMI]\NGreat. A boat of unstable\Nmen led by an unstable monkey.
+Dialogue: 50,0:11:19.22,0:11:20.78,Main-207-,,0,0,0,,Hey! What are\Nyou guys doing here?
+Dialogue: 50,0:11:20.78,0:11:24.03,Main-207-,,0,0,0,,In case you didn't know,\Nall these waters belong to me.
+Dialogue: 50,0:11:24.08,0:11:25.45,Main-207-,,0,0,0,,They do?
+Dialogue: 50,0:11:25.49,0:11:26.58,Main-207-,,0,0,0,,Yeah, that's right!
+Dialogue: 50,0:11:26.65,0:11:27.53,Main-207-,,0,0,0,,Every vessel that sinks
+Dialogue: 50,0:11:27.53,0:11:30.08,Main-207-,,0,0,0,,in these parts\Nautomatically becomes mine.
+Dialogue: 50,0:11:30.12,0:11:31.12,Main-207-,,0,0,0,,You're not trying\Nto take something
+Dialogue: 50,0:11:31.16,0:11:33.53,Main-207-,,0,0,0,,that belongs to me, are you?
+Dialogue: 50,0:11:33.53,0:11:35.49,Main-207-,,0,0,0,,[ROBIN]\NSo he's going\Nto bring it to the surface.
+Dialogue: 50,0:11:35.53,0:11:36.86,Main-207-,,0,0,0,,Easier for us.
+Dialogue: 50,0:11:36.86,0:11:38.99,Main-207-,,0,0,0,,[USOPP]\NBut not for the\Nthree guys already in the water.
+Dialogue: 50,0:11:39.03,0:11:41.45,Main-207-,,0,0,0,,We should just keep our mouths\Nshut and let him do it.
+Dialogue: 50,0:11:41.45,0:11:43.66,Main-207-,,0,0,0,,Stop mumbling and answer me!
+Dialogue: 50,0:11:43.75,0:11:44.96,Main-207-,,0,0,0,,Are you people trying to yank
+Dialogue: 50,0:11:45.00,0:11:47.38,Main-207-,,0,0,0,,one of my salvages\Nout from under me?
+Dialogue: 0,0:11:47.39,0:11:48.39,Main-207-,,0,0,0,,[NAMI]\NExcuse me!
+Dialogue: 50,0:11:48.39,0:11:50.15,Main-207-,,0,0,0,,Can I ask you a question first?
+Dialogue: 50,0:11:50.15,0:11:51.90,Main-207-,,0,0,0,,You've got questions for me?
+Dialogue: 50,0:11:51.94,0:11:54.44,Main-207-,,0,0,0,,Fine. Sure. Whatever.\NAsk me anything.
+Dialogue: 50,0:11:54.48,0:11:55.90,Main-207-,,0,0,0,,[NAMI]\NAre all of you\Ntough, good‐looking men
+Dialogue: 50,0:11:55.94,0:11:57.57,Main-207-,,0,0,0,,gonna salvage that ship?
+Dialogue: 50,0:11:57.65,0:11:58.65,Main-207-,,0,0,0,,[MASIRA]\NWhat?
+Dialogue: 0,0:11:58.69,0:12:00.77,Main-207-,,0,0,0,,[whistles]
+Dialogue: 50,0:12:01.15,0:12:02.09,Main-207-,,0,0,0,,Thank you.
+Dialogue: 50,0:12:02.09,0:12:04.17,Main-207-,,0,0,0,,I see you know what\Na real man looks like.
+Dialogue: 50,0:12:04.27,0:12:05.82,Main-207-,,0,0,0,,[NAMI]\NWhat are you talking about?
+Dialogue: 50,0:12:05.86,0:12:07.49,Main-207-,,0,0,0,,You called us all\Ntough and good‐looking.
+Dialogue: 50,0:12:07.49,0:12:08.69,Main-207-,,0,0,0,,That includes me.
+Dialogue: 50,0:12:08.74,0:12:09.82,Main-207-,,0,0,0,,[NAMI]\NWell, of course!
+Dialogue: 50,0:12:09.87,0:12:11.92,Main-207-,,0,0,0,,Stop! You're making me blush!
+Dialogue: 0,0:12:11.94,0:12:13.53,Main-207-,,0,0,0,,[giggles]
+Dialogue: 50,0:12:13.59,0:12:15.05,Main-207-,,0,0,0,,[USOPP]\NThis is disturbing.
+Dialogue: 50,0:12:15.08,0:12:17.88,Main-207-,,0,0,0,,So, are you gonna\Nsalvage that thing or what?
+Dialogue: 50,0:12:17.93,0:12:18.88,Main-207-,,0,0,0,,[MASIRA]\NOf course!
+Dialogue: 50,0:12:18.88,0:12:21.21,Main-207-,,0,0,0,,I'm not the King of All\NSalvagers for nothing!
+Dialogue: 50,0:12:21.26,0:12:23.97,Main-207-,,0,0,0,,If there's a sunken ship\Nbefore me, then I'll salvage it!
+Dialogue: 50,0:12:24.00,0:12:27.12,Main-207-,,0,0,0,,If it's not sunken, then I'll\Nsink it and salvage it later.
+Dialogue: 50,0:12:27.17,0:12:29.82,Main-207-,,0,0,0,,Now, I know how impressed you\Nare, but we have to save it.
+Dialogue: 50,0:12:29.82,0:12:31.44,Main-207-,,0,0,0,,There's salvaging at hand!
+Dialogue: 50,0:12:31.44,0:12:32.40,Main-207-,,0,0,0,,Loser.
+Dialogue: 50,0:12:32.44,0:12:34.78,Main-207-,,0,0,0,,Do you mind if we watch\Nyou big strong men work?
+Dialogue: 50,0:12:34.82,0:12:36.03,Main-207-,,0,0,0,,[MASIRA]\NHuh?
+Dialogue: 50,0:12:36.07,0:12:38.78,Main-207-,,0,0,0,,Don't tell me you've never seen\Na professional salvage before.
+Dialogue: 0,0:12:38.78,0:12:39.78,Main-207-,,0,0,0,,Haha!
+Dialogue: 50,0:12:39.78,0:12:42.95,Main-207-,,0,0,0,,You just watch us till\Nyour heart's content!
+Dialogue: 50,0:12:43.00,0:12:43.96,Main-207-,,0,0,0,,That's that.
+Dialogue: 50,0:12:44.10,0:12:45.87,Main-207-,,0,0,0,,Now we just have to wait\Nand see what happens.
+Dialogue: 0,0:12:46.21,0:12:47.08,Main-207-,,0,0,0,,Below.
+Dialogue: 50,0:12:47.13,0:12:49.84,Main-207-,,0,0,0,,In the water, there's a...
+Dialogue: 50,0:12:50.30,0:12:51.71,Main-207-,,0,0,0,,Captain, we have a problem!
+Dialogue: 50,0:12:51.76,0:12:52.46,Main-207-,,0,0,0,,What is it?
+Dialogue: 50,0:12:52.46,0:12:53.34,Main-207-,,0,0,0,,Something happened to the guys
+Dialogue: 50,0:12:53.40,0:12:55.87,Main-207-,,0,0,0,,who went into the water\Nto set the cradle.
+Dialogue: 50,0:12:55.91,0:12:57.76,Main-207-,,0,0,0,,Was it one of those\NSea Kings again?
+Dialogue: 50,0:12:57.99,0:12:59.20,Main-207-,,0,0,0,,[PIRATE B]\NI don't think so.
+Dialogue: 50,0:12:59.20,0:13:01.17,Main-207-,,0,0,0,,It looks like someone went to\Ntown on them with their fists.
+Dialogue: 0,0:13:01.17,0:13:02.29,Main-207-,,0,0,0,,What?
+Dialogue: 50,0:13:02.33,0:13:04.84,Main-207-,,0,0,0,,You mean someone else besides\Nour guys are down there?
+Dialogue: 50,0:13:04.87,0:13:05.87,Main-207-,,0,0,0,,I'm gonna kill 'em.
+Dialogue: 50,0:13:05.92,0:13:08.59,Main-207-,,0,0,0,,You may not get the chance.
+Dialogue: 50,0:13:08.63,0:13:10.05,Main-207-,,0,0,0,,Listen up, you!
+Dialogue: 50,0:13:11.64,0:13:14.39,Main-207-,,0,0,0,,There's someone else\Ndown there, so be careful!
+Dialogue: 0,0:13:14.49,0:13:16.03,Main-207-,,0,0,0,,Oh, sure.
+Dialogue: 50,0:13:16.14,0:13:17.97,Thoughts-207-,,0,0,0,,{\q2}[NAMI, USOPP]\N– What a moron.\N– What a moron.
+Dialogue: 50,0:13:18.01,0:13:19.31,Main-207-,,0,0,0,,I want all hands\Nsetting the cradle!
+Dialogue: 50,0:13:19.35,0:13:21.73,Main-207-,,0,0,0,,The ship comes up in 20 minutes!
+Dialogue: 50,0:13:21.77,0:13:23.70,Main-207-,,0,0,0,,We've got salvaging to do!
+Dialogue: 0,0:13:23.90,0:13:26.82,Main-207-,,0,0,0,,Aye aye, Captain!
+Dialogue: 50,0:13:40.08,0:13:42.00,Main-207-,,0,0,0,,[NAMI]\NOkay, he's waving at us.
+Dialogue: 50,0:13:42.04,0:13:43.50,Main-207-,,0,0,0,,Smile and wave back, I guess.
+Dialogue: 50,0:13:43.50,0:13:45.26,Main-207-,,0,0,0,,Just act normal.
+Dialogue: 50,0:13:45.30,0:13:46.77,Main-207-,,0,0,0,,[USOPP]\NDoing my best.
+Dialogue: 50,0:13:47.36,0:13:48.57,Main-207-,,0,0,0,,Don't get stage‐fright, fellas.
+Dialogue: 50,0:13:48.61,0:13:49.48,Main-207-,,0,0,0,,They're observers.
+Dialogue: 50,0:13:49.61,0:13:50.70,Main-207-,,0,0,0,,They want to see something new.
+Dialogue: 50,0:13:50.74,0:13:52.74,Main-207-,,0,0,0,,So show them how it's done.
+Dialogue: 50,0:13:53.70,0:13:54.58,Main-207-,,0,0,0,,If you're still nervous,
+Dialogue: 50,0:13:54.62,0:13:56.58,Main-207-,,0,0,0,,try picturing them\Nin their underwear.
+Dialogue: 0,0:13:56.58,0:13:58.71,Main-207-,,0,0,0,,Aye aye, Captain!
+Dialogue: 50,0:13:58.73,0:14:00.40,Main-207-,,0,0,0,,[MASIRA]\NDrop the cradle!
+Dialogue: 0,0:14:00.43,0:14:01.70,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye!\N– Aye aye!
+Dialogue: 50,0:14:05.14,0:14:07.48,Main-207-,,0,0,0,,[MASIRA]\NKeep your eyes\Npeeled for those intruders!
+Dialogue: 0,0:14:07.52,0:14:09.49,Main-207-,,0,0,0,,[DIVER A]\NAye aye, sir!
+Dialogue: 0,0:14:09.49,0:14:10.33,Main-207-,,0,0,0,,These guys really take
+Dialogue: 50,0:14:10.37,0:14:12.50,Main-207-,,0,0,0,,their salvaging\Nseriously don't they?
+Dialogue: 50,0:14:12.52,0:14:14.03,Main-207-,,0,0,0,,I think they're showing off
+Dialogue: 50,0:14:14.03,0:14:15.69,Main-207-,,0,0,0,,because their captain\Nhas a crush on me.
+Dialogue: 50,0:14:15.69,0:14:17.96,Main-207-,,0,0,0,,{\q2}[MASIRA]\NMove it, men!\NI want this done fast!
+Dialogue: 0,0:14:18.28,0:14:20.11,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, sir!\N– Aye aye, sir!
+Dialogue: 0,0:14:29.16,0:14:30.54,Main-207-,,0,0,0,,[LUFFY]\NHmm...
+Dialogue: 0,0:14:54.69,0:14:56.48,Main-207-,,0,0,0,,[SANJI]\NHmm...
+Dialogue: 0,0:15:26.85,0:15:28.26,Main-207-,,0,0,0,,[SANJI]\NHmm...
+Dialogue: 50,0:15:32.23,0:15:33.60,Main-207-,,0,0,0,,[LUFFY]\NZoro.
+Dialogue: 0,0:15:33.64,0:15:34.89,Main-207-,,0,0,0,,Look.
+Dialogue: 50,0:15:58.98,0:16:01.94,Main-207-,,0,0,0,,{\i1}[DIVER A]\NCradle set is locked in place.
+Dialogue: 50,0:16:05.03,0:16:06.03,Main-207-,,0,0,0,,[LUFFY]\NWhat was that?
+Dialogue: 0,0:16:06.07,0:16:07.57,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:16:08.21,0:16:10.46,Main-207-,,0,0,0,,Uh, so why such a big monkey?
+Dialogue: 50,0:16:10.50,0:16:13.05,Main-207-,,0,0,0,,There on the bow of the ship.
+Dialogue: 50,0:16:13.06,0:16:13.76,Main-207-,,0,0,0,,[MASIRA]\NOh, that.
+Dialogue: 0,0:16:13.76,0:16:16.09,Main-207-,,0,0,0,,Hehehe. You like?
+Dialogue: 50,0:16:16.13,0:16:18.01,Main-207-,,0,0,0,,It's a special prow I designed.
+Dialogue: 50,0:16:18.01,0:16:19.05,Main-207-,,0,0,0,,It aids in our salvage.
+Dialogue: 50,0:16:19.08,0:16:20.20,Main-207-,,0,0,0,,Just watch.
+Dialogue: 50,0:16:20.26,0:16:21.51,Main-207-,,0,0,0,,[sighing]
+Dialogue: 50,0:16:21.55,0:16:23.60,Main-207-,,0,0,0,,You're gonna love this!
+Dialogue: 50,0:16:23.64,0:16:26.10,Main-207-,,0,0,0,,Lower the Barco‐hunter!
+Dialogue: 0,0:16:26.14,0:16:27.80,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, sir!\N– Aye aye, sir!
+Dialogue: 0,0:16:30.69,0:16:32.19,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Monkey, monkey, monkey!\N– Monkey, monkey, monkey!
+Dialogue: 50,0:16:32.19,0:16:33.98,Main-207-,,0,0,0,,{\fad(0,300)\move(720,1053,720,971,466,766)}Monkey, monkey, monkey!\NMonkey, monkey, monkey!
+Dialogue: 0,0:16:34.02,0:16:35.65,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Monkey, monkey, monkey!\N– Monkey, monkey, monkey!
+Dialogue: 0,0:16:35.69,0:16:39.49,Main-207-,,0,0,0,,Monkey, monkey, monkey!\NMonkey, monkey, monkey!
+Dialogue: 0,0:16:39.53,0:16:42.47,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Monkey, monkey, monkey!\N– Monkey, monkey, monkey!
+Dialogue: 50,0:16:42.47,0:16:44.09,Main-207-,,0,0,0,,Wow! Awesome!
+Dialogue: 50,0:16:44.09,0:16:45.51,Main-207-,,0,0,0,,Completely amazing!
+Dialogue: 50,0:16:45.55,0:16:47.01,Main-207-,,0,0,0,,Are you kidding?
+Dialogue: 50,0:16:49.35,0:16:52.35,Main-207-,,0,0,0,,[DIVER D]\NForty meters to the target.
+Dialogue: 0,0:16:52.39,0:16:55.15,Main-207-,,0,0,0,,Thirty meters.
+Dialogue: 50,0:16:55.19,0:16:56.27,Main-207-,,0,0,0,,{\i1}Twenty.
+Dialogue: 0,0:16:57.40,0:16:58.94,Main-207-,,0,0,0,,[DIVER D]\NTen.
+Dialogue: 50,0:17:00.20,0:17:03.65,Main-207-,,0,0,0,,[DIVER D]\NBarco‐hunter joint locked!
+Dialogue: 50,0:17:03.65,0:17:04.35,Main-207-,,0,0,0,,{\i1}[MASIRA]\NExcellent!
+Dialogue: 50,0:17:04.35,0:17:06.13,Main-207-,,0,0,0,,Now it's time for me to blow!
+Dialogue: 0,0:17:06.31,0:17:08.43,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, sir!\N– Aye aye, sir!
+Dialogue: 50,0:17:09.36,0:17:11.61,Main-207-,,0,0,0,,Wait. There's no way.
+Dialogue: 50,0:17:15.53,0:17:19.07,Main-207-,,0,0,0,,He's actually going to use his\Nbreath to bring up that ship?
+Dialogue: 0,0:17:20.48,0:17:22.11,Main-207-,,0,0,0,,[NAMI]\NThat's ridiculous!
+Dialogue: 50,0:17:35.41,0:17:36.70,Main-207-,,0,0,0,,[LUFFY]\NIs that a bubble?
+Dialogue: 50,0:17:45.67,0:17:49.09,Main-207-,,0,0,0,,[DIVER A]\NThe body of\Nthe ship is off the floor.
+Dialogue: 50,0:17:49.51,0:17:51.76,Main-207-,,0,0,0,,All right! Haul her up!
+Dialogue: 0,0:17:51.89,0:17:54.01,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, sir!\N– Aye aye, sir!
+Dialogue: 50,0:17:54.81,0:17:56.11,Main-207-,,0,0,0,,Let's hustle, men!
+Dialogue: 50,0:17:56.11,0:17:57.43,Main-207-,,0,0,0,,Send more air!
+Dialogue: 50,0:17:57.78,0:17:59.94,Main-207-,,0,0,0,,Aye aye, sir!
+Dialogue: 0,0:18:06.69,0:18:08.69,Main-207-,,0,0,0,,[DIVERS scream]
+Dialogue: 0,0:18:08.73,0:18:09.69,Main-207-,,0,0,0,,[PIRATE B]\NCaptain!
+Dialogue: 50,0:18:09.73,0:18:11.66,Main-207-,,0,0,0,,There's a problem with\Nthe underwater crew!
+Dialogue: 50,0:18:12.23,0:18:13.23,Main-207-,,0,0,0,,[MASIRA]\NWhat?
+Dialogue: 50,0:18:13.23,0:18:14.15,Main-207-,,0,0,0,,Talk to me!
+Dialogue: 50,0:18:14.28,0:18:16.16,Main-207-,,0,0,0,,What's happening down there?!
+Dialogue: 50,0:18:16.16,0:18:17.62,Main-207-,,0,0,0,,{\i1}Is it the intruders?
+Dialogue: 50,0:18:17.62,0:18:19.61,Main-207-,,0,0,0,,{\q2}{\i1}[DIVER B]\NYes, sir! {\i0} They're in the ship!
+Dialogue: 0,0:18:19.66,0:18:23.24,Main-207-,,0,0,0,,[screams]
+Dialogue: 0,0:18:23.70,0:18:25.91,Main-207-,,0,0,0,,[roars]
+Dialogue: 50,0:18:25.95,0:18:28.87,Main-207-,,0,0,0,,How dare you lay a hand\Non my hard‐working men!
+Dialogue: 0,0:18:28.87,0:18:31.38,Main-207-,,0,0,0,,Intruders!
+Dialogue: 50,0:18:37.38,0:18:39.24,Main-207-,,0,0,0,,[NAMI]\NUh, you know, we're\Nnot gonna take your picture
+Dialogue: 0,0:18:39.24,0:18:40.06,Main-207-,,0,0,0,,or anything.
+Dialogue: 50,0:18:40.24,0:18:41.31,Main-207-,,0,0,0,,[MASIRA]\NYou're not?
+Dialogue: 50,0:18:41.32,0:18:43.02,Main-207-,,0,0,0,,[USOPP]\NHe was giving us a photo op?
+Dialogue: 50,0:18:43.20,0:18:47.12,Main-207-,,0,0,0,,{\q2}{\i1}[DIVER C]\NHelp us! {\i0} Someone please, help us!
+Dialogue: 50,0:18:47.16,0:18:48.33,Main-207-,,0,0,0,,I'll be right down.
+Dialogue: 50,0:18:48.37,0:18:50.54,Main-207-,,0,0,0,,Continue with the\Nsalvaging operation men!
+Dialogue: 50,0:18:50.58,0:18:52.58,Main-207-,,0,0,0,,{\q2}[PIRATES]\N– Aye aye, sir!\N– Aye aye, sir!
+Dialogue: 0,0:19:13.54,0:19:15.25,Main-207-,,0,0,0,,{\fad(150,150)}[MASIRA]\NMonkey punch!
+Dialogue: 50,0:19:17.49,0:19:19.33,Main-207-,,0,0,0,,The salvage looks good.
+Dialogue: 50,0:19:22.93,0:19:23.68,Main-207-,,0,0,0,,[LUFFY]\NCheck it out.
+Dialogue: 50,0:19:23.72,0:19:25.85,Main-207-,,0,0,0,,We don't even need\Nthe barrels now.
+Dialogue: 50,0:19:26.31,0:19:27.85,Main-207-,,0,0,0,,Well, I don't know how\Nthey pumped this much air
+Dialogue: 50,0:19:27.89,0:19:29.56,Main-207-,,0,0,0,,into a downed ship.
+Dialogue: 50,0:19:29.60,0:19:31.73,Main-207-,,0,0,0,,But what I really want\Nto know is who they are
+Dialogue: 50,0:19:31.77,0:19:33.48,Main-207-,,0,0,0,,and why they're trying\Nto salvage this thing.
+Dialogue: 50,0:19:33.53,0:19:35.27,Main-207-,,0,0,0,,I wonder if something\Nbad happened to Nami
+Dialogue: 50,0:19:35.27,0:19:37.23,Main-207-,,0,0,0,,and Robin up on the surface.
+Dialogue: 50,0:19:37.32,0:19:40.66,Main-207-,,0,0,0,,I've tried calling them,\Nbut they won't respond.
+Dialogue: 50,0:19:40.71,0:19:42.72,Main-207-,,0,0,0,,Who do you guys think you are?
+Dialogue: 50,0:19:42.76,0:19:45.25,Main-207-,,0,0,0,,Trying to muscle in on my turf?
+Dialogue: 50,0:19:48.51,0:19:50.55,Main-207-,,0,0,0,,Nice makeup.
+Dialogue: 50,0:19:50.65,0:19:53.78,Main-207-,,0,0,0,,Thanks! I feel it adds a\Nrefined quality to my face.
+Dialogue: 50,0:19:53.82,0:19:55.74,Main-207-,,0,0,0,,Oh, yeah.\NIt certainly adds something.
+Dialogue: 50,0:19:55.82,0:19:57.61,Main-207-,,0,0,0,,What the hell are\Nyou talking about?
+Dialogue: 50,0:19:57.67,0:19:59.46,Main-207-,,0,0,0,,What do you mean?
+Dialogue: 50,0:19:59.49,0:20:01.07,Main-207-,,0,0,0,,[SANJI]\NWhat he means\Nto say is, who are you?
+Dialogue: 50,0:20:01.11,0:20:01.82,Main-207-,,0,0,0,,[MASIRA]\NYou're right.
+Dialogue: 50,0:20:01.82,0:20:02.86,Main-207-,,0,0,0,,How rude of me.
+Dialogue: 50,0:20:02.87,0:20:05.41,Main-207-,,0,0,0,,Sometimes I get caught up\Nin the details of life.
+Dialogue: 50,0:20:05.46,0:20:07.04,Main-207-,,0,0,0,,It's one of my shortcomings.
+Dialogue: 50,0:20:07.08,0:20:09.45,Main-207-,,0,0,0,,[ZORO]\NCome on!\NJust tell us who you already!
+Dialogue: 50,0:20:13.58,0:20:15.75,Main-207-,,0,0,0,,There's something\Nelse down there.
+Dialogue: 50,0:20:15.79,0:20:17.46,Main-207-,,0,0,0,,It's huge!
+Dialogue: 50,0:20:17.48,0:20:19.52,Main-207-,,0,0,0,,Anybody just wanna run?
+Dialogue: 0,0:20:24.45,0:20:25.45,Main-207-,,0,0,0,,Yeah, all you guys
+Dialogue: 50,0:20:25.47,0:20:28.27,Main-207-,,0,0,0,,from the East Blue have the\Nbest sense of humor!
+Dialogue: 50,0:20:28.32,0:20:29.93,Main-207-,,0,0,0,,Well, I don't really\Nknow about all that.
+Dialogue: 50,0:20:29.93,0:20:32.77,Main-207-,,0,0,0,,Nothing compares to a\None ton gorilla in makeup.
+Dialogue: 50,0:20:32.77,0:20:33.94,Main-207-,,0,0,0,,Oh, shut your mouth.
+Dialogue: 50,0:20:33.98,0:20:35.77,Main-207-,,0,0,0,,You know I look good.
+Dialogue: 50,0:20:56.46,0:20:57.50,Main-207-,,0,0,0,,[NAMI]\NDoes anyone else see
+Dialogue: 50,0:20:57.54,0:21:00.97,Main-207-,,0,0,0,,the monster the size of\Nan island in front of us?
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=71}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=72}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:02:22.75,0:02:31.63,Title-207-,,0,0,0,,{\fad(1000,0)\bord1.9\blur0.6\3c&H0F0F0F&\c&H0F0F0F&\fsp-2\1a&HFF&\t(955,1000,\1a&H00&)}Why the Log Pose is Spherical
+Dialogue: 1,0:02:22.75,0:02:31.63,Title-207-,,0,0,0,,{\fad(1000,0)\c&HE6E6E6&\bord0\blur0.6\fsp-2\4a&HFF&}Why the Log Pose is Spherical
+Dialogue: 0,0:11:02.98,0:11:08.23,Captions-207-,,0,0,0,,{\fnDFPGiHi-W7-Strp\bord15\1a&HFE&\3a&HFF&\shad0.01\blur15\4a&H80&\fsp1\fad(470,470)\pos(720,581.8)\fs90\fscx85\fscy85}"Salvage King" Masira\NMasira Pirates\NBounty: 23 Million Belly
+Dialogue: 1,0:11:02.98,0:11:08.23,Captions-207-,,0,0,0,,{\fad(470,470)\fnDFPGiHi-W7-Strp\bord0\blur0.5\fsp1\pos(720,581.8)\fs90\fscx85\fscy85\c&HFEFFFD&}"Salvage King" Masira\NMasira Pirates\NBounty: 23 Million Belly
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=73}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=74}===============================CREDITS==============================
+Dialogue: 0,0:01:27.19,0:01:31.32,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Video Editing
+Dialogue: 0,0:01:27.19,0:01:31.32,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}Sewil
+Dialogue: 0,0:01:38.66,0:01:43.04,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Graphics
+Dialogue: 0,0:01:38.66,0:01:43.04,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}Datenshi
+Dialogue: 0,0:01:46.92,0:01:50.63,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Quality Control
+Dialogue: 0,0:01:46.92,0:01:50.63,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}Galaxy 9000\NPepperjack\NRaiyan\NZenef
+Dialogue: 0,0:01:53.80,0:01:57.89,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Karaoke
+Dialogue: 0,0:01:53.80,0:01:57.89,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}KaitouYahiko
+Dialogue: 0,0:01:59.56,0:02:05.10,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Soundtracking
+Dialogue: 0,0:01:59.56,0:02:05.10,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}Halee
+Dialogue: 0,0:02:05.10,0:02:08.82,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Timing
+Dialogue: 0,0:02:05.10,0:02:08.82,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}NateTheBird
+Dialogue: 0,0:02:09.78,0:02:15.03,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Closed Captioning
+Dialogue: 0,0:02:09.78,0:02:15.03,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}NateTheBird
+Dialogue: 0,0:02:18.20,0:02:21.29,Credits-207-,,0,0,0,,{\pos(44,109)\fscx110\fscy110\bord3.3}Translation
+Dialogue: 0,0:02:18.20,0:02:21.29,Credits-207-,,0,0,0,,{\pos(89,170)\fscx135\fscy135\bord3.5}arch1t3cht
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=75}===============================CREDITS==============================
+
+
+[aegisub extradata]
+Data: 40,_aegi_folddata,e0;1;4
+Data: 41,_aegi_folddata,e1;1;4
+Data: 54,_aegi_folddata,e0;1;1
+Data: 55,_aegi_folddata,e1;1;1
+Data: 56,_aegi_folddata,e0;1;3
+Data: 57,_aegi_folddata,e1;1;3
+Data: 60,_aegi_folddata,e0;0;2
+Data: 61,_aegi_folddata,e1;0;2
+Data: 66,_aegi_folddata,e0;1;2
+Data: 67,_aegi_folddata,e1;1;2
+Data: 68,_aegi_folddata,e0;1;5
+Data: 69,_aegi_folddata,e1;1;5
+Data: 70,_aegi_folddata,e0;1;6
+Data: 71,_aegi_folddata,e1;1;6
+Data: 72,_aegi_folddata,e0;1;7
+Data: 73,_aegi_folddata,e1;1;7
+Data: 74,_aegi_folddata,e0;1;8
+Data: 75,_aegi_folddata,e1;1;8
