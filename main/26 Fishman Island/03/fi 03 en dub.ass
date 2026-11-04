@@ -1,0 +1,577 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Main,Impress BT Pace,55,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1.5,1.5,2,120,120,18,1
+Style: Secondary,Impress BT Pace,55,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,1.5,1.5,2,120,120,18,1
+Style: Flashbacks,Impress BT Pace,55,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,1.75,1.5,2,120,120,18,1
+Style: Thoughts,Impress BT Pace,55,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,1.75,1.5,2,120,120,18,1
+Style: Captions,impress bt,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Credits,Times New Roman,34,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,95,100,1,0,1,2.2,0,1,10,30,30,1
+Style: Narrator,Impress BT Pace,55,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,1.5,1.5,2,120,120,18,1
+Style: Note,Impress BT,38,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,-1,0,0,100,100,0,0,1,1.5,1.5,8,120,120,18,1
+Style: Title,impress bt,63,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,1,0,1,2,0,5,10,10,10,1
+Style: We Go lyrics,Impress BT,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,10,10,10,1
+Style: Sea Turtle,@GulimChe,55,&H0087EFE3,&H00FFFFFF,&H0075CCD0,&H78000000,-1,0,0,0,100,100,0,0,1,1.8,0,2,120,120,18,1
+Style: OP Normal2,Impress BT Pace,54,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.5,1.5,2,11,11,20,0
+Style: Enmedio2,Impress BT Pace,54,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.5,1.5,2,11,11,48,0
+Style: NDTSkull,OP_Skull,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,7,32,10,48,1
+Style: NDTHat,OP_Skull,34,&H000098FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,7,30,10,50,1
+Style: NDTHat2,OP_Skull,34,&H000D1BC6,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,7,30,10,50,1
+Style: NDTBoard,OP_Skull,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,30,100,0,0,1,1.5,0,7,75,10,45,1
+Style: NDTText,Nina,30,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,110,100,20,1
+Style: Sanji in Love,Impress BT Pace,54,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.5,1.5,2,11,11,20,0
+Style: Gold,Impress BT Pace,54,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,2.5,1.5,2,11,11,20,0
+Style: guigou,Shichibukai OP,45,&H00FFFFFF,&H000000FF,&H00141414,&H00000000,-1,0,0,0,100,100,0,0,1,2.4,0,2,10,10,12,0
+Style: Principio,Impress BT Pace,64,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: OPLetreros,CastleT,25,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,1,0,2,20,20,30,0
+Style: Pensante,Impress BT Pace,54,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,2.5,1.5,2,11,11,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Main,,0,0,0,,
+Dialogue: 0,0:01:53.52,0:01:55.43,OP Normal2,,0,0,0,,{\be1}I knew it. An undersea volcano.
+Dialogue: 0,0:01:55.44,0:01:55.91,OP Normal2,,0,0,0,,{\be1}Straight ahead.
+Dialogue: 0,0:01:55.92,0:01:57.10,OP Normal2,USOPP & CHOPPER & BROOK & FRANKY,0,0,0,,{\q2}{\be1}– What?\N– What?
+Dialogue: 0,0:01:57.12,0:01:59.05,OP Normal2,,0,0,0,,{\be1}Looks like it's about to blow!
+Dialogue: 0,0:02:00.40,0:02:02.79,OP Normal2,DECKEN,0,0,0,,{\be1}Pull back, men!
+Dialogue: 0,0:02:02.80,0:02:04.84,OP Normal2,,0,0,0,,{\be1}We'll live to\Nplunder another day!
+Dialogue: 0,0:02:04.85,0:02:06.38,OP Normal2,,0,0,0,,{\be1}Roger!
+Dialogue: 0,0:02:06.41,0:02:07.68,OP Normal2,,0,0,0,,{\be1}You don't gotta ask me twice!
+Dialogue: 0,0:02:07.69,0:02:08.17,OP Normal2,DECKEN,0,0,0,,{\be1}Ankoro!
+Dialogue: 0,0:02:08.19,0:02:08.79,OP Normal2,,0,0,0,,{\be1}Wadatsumi!
+Dialogue: 0,0:02:08.81,0:02:10.04,OP Normal2,,0,0,0,,{\be1}Draw the ship!
+Dialogue: 0,0:02:11.08,0:02:14.43,OP Normal2,,0,0,0,,{\be1}Okay, Captain, sure!
+Dialogue: 0,0:02:14.49,0:02:15.20,OP Normal2,DECKEN,0,0,0,,{\be1}Vander Decken is my name,
+Dialogue: 0,0:02:15.21,0:02:17.42,OP Normal2,,0,0,0,,{\be1}and these long-lost\Nriches, I'll get later!
+Dialogue: 0,0:02:17.43,0:02:18.88,OP Normal2,FLYING PIRATES,0,0,0,,{\q2}{\be1}– Yeah!\N– Yeah!
+Dialogue: 0,0:02:19.91,0:02:21.55,OP Normal2,,0,0,0,,{\be1}Oh, no!
+Dialogue: 0,0:02:21.59,0:02:23.88,OP Normal2,,0,0,0,,{\be1}Luffy, I don't know\Nhow the Kraken works,
+Dialogue: 0,0:02:23.91,0:02:26.97,OP Normal2,,0,0,0,,{\be1}but order him to turn\Naround and haul ass!
+Dialogue: 0,0:02:26.98,0:02:28.99,OP Normal2,,0,0,0,,{\be1}Hey, Surume!
+Dialogue: 0,0:02:29.03,0:02:30.43,OP Normal2,,0,0,0,,{\be1}Wait a sec.
+Dialogue: 0,0:02:31.98,0:02:34.69,OP Normal2,USOPP,0,0,0,,{\be1}He's hauling ass\Njust fine all on his own.
+Dialogue: 0,0:02:34.88,0:02:37.59,OP Normal2,,0,0,0,,{\be1}For such a giant monster,\Nit's kind of shameful, actually.
+Dialogue: 0,0:02:37.60,0:02:38.55,OP Normal2,,0,0,0,,{\be1}Who cares?
+Dialogue: 0,0:02:38.56,0:02:40.59,OP Normal2,,0,0,0,,{\be1}I would be doing the same thing!
+Dialogue: 0,0:02:42.96,0:02:44.53,OP Normal2,,0,0,0,,{\be1}He runs terribly.
+Dialogue: 0,0:02:44.56,0:02:45.67,OP Normal2,,0,0,0,,{\be1}Give him a break!
+Dialogue: 0,0:02:45.68,0:02:48.85,OP Normal2,,0,0,0,,{\be1}I'd rather be clumsy and alive\Nthan graceful and dead!
+Dialogue: 0,0:02:48.86,0:02:50.83,OP Normal2,,0,0,0,,{\be1}Like... me?
+Dialogue: 0,0:02:50.87,0:02:52.59,OP Normal2,,0,0,0,,{\be1}What the hell is\Nmouth brow doing?
+Dialogue: 0,0:02:52.60,0:02:55.28,OP Normal2,,0,0,0,,{\be1}Whoo! Yeah! Baby!
+Dialogue: 0,0:02:55.30,0:02:56.75,OP Normal2,,0,0,0,,{\be1}It's rehab!
+Dialogue: 0,0:03:00.44,0:03:02.73,OP Normal2,,0,0,0,,{\be1}Come on! I wanna see lava!
+Dialogue: 0,0:03:02.92,0:03:05.23,OP Normal2,USOPP,0,0,0,,{\be1}Evacuate to the\Nfront of the ship!
+Dialogue: 0,0:03:05.24,0:03:06.25,OP Normal2,CHOPPER,0,0,0,,{\be1}Hurry!
+Dialogue: 0,0:03:06.28,0:03:07.63,OP Normal2,NAMI,0,0,0,,{\be1}That's not gonna help!
+Dialogue: 0,0:03:07.64,0:03:10.04,OP Normal2,,0,0,0,,{\be1}It's just a couple of feet!
+Dialogue: 0,0:03:26.87,0:03:29.20,OP Normal2,NAMI,0,0,0,,{\be1}Well, you got your lava, Luffy.
+Dialogue: 0,0:03:29.21,0:03:31.51,OP Normal2,,0,0,0,,{\be1}It's getting hotter.
+Dialogue: 0,0:03:31.61,0:03:34.88,OP Normal2,,0,0,0,,{\be1}Nobody told me we could\Nbe boiled alive down here!
+Dialogue: 0,0:03:34.89,0:03:36.89,OP Normal2,,0,0,0,,{\be1}The ocean sure hates us!
+Dialogue: 0,0:03:47.01,0:03:48.21,OP Normal2,USOPP,0,0,0,,{\be1}If you don't hurry it up,
+Dialogue: 0,0:03:57.33,0:03:59.00,OP Normal2,,0,0,0,,{\be1}somebody is gonna be\Neating your delicious,
+Dialogue: 0,0:03:59.01,0:04:01.75,OP Normal2,,0,0,0,,{\be1}cooked carcass from\Noff the ocean floor!
+Dialogue: 0,0:04:04.29,0:04:05.72,OP Normal2,LUFFY,0,0,0,,{\be1}Ooh, riding him is pretty fun,
+Dialogue: 0,0:04:05.73,0:04:07.62,OP Normal2,,0,0,0,,{\be1}but eating him might\Nbe even better!
+Dialogue: 0,0:04:10.45,0:04:11.99,OP Normal2,,0,0,0,,{\be1}The temperature change–
+Dialogue: 0,0:04:12.00,0:04:14.39,OP Normal2,,0,0,0,,{\be1}it's causing a vortex\Nin the current!
+Dialogue: 0,0:04:14.40,0:04:17.67,OP Normal2,SANJI,0,0,0,,{\be1}Nami, which direction\Nis Fishman Island?
+Dialogue: 0,0:04:17.68,0:04:18.87,OP Normal2,,0,0,0,,{\be1}We can't lose our wa–
+Dialogue: 0,0:04:18.88,0:04:21.50,OP Normal2,,0,0,0,,{\be1}You're not ready for\Nreal girls yet, Sanji!
+Dialogue: 0,0:04:21.51,0:04:23.49,OP Normal2,,0,0,0,,{\be1}Go back to your\Npictures and relax!
+Dialogue: 0,0:04:23.52,0:04:26.02,OP Normal2,,0,0,0,,{\be1}Straight ahead. I have an idea!
+Dialogue: 0,0:04:27.75,0:04:29.09,OP Normal2,,0,0,0,,{\be1}We're getting closer!
+Dialogue: 0,0:04:33.01,0:04:34.47,OP Normal2,,0,0,0,,{\be1}Now, jump into the trench!
+Dialogue: 0,0:04:40.85,0:04:42.15,OP Normal2,,0,0,0,,{\be1}That doesn't look safe!
+Dialogue: 0,0:04:42.15,0:04:43.10,OP Normal2,BOTH,0,0,0,,{\q2}{\be1}– No!\N– No!
+Dialogue: 0,0:04:45.33,0:04:47.05,OP Normal2,,0,0,0,,{\be1}That's not a place you jump!
+Dialogue: 0,0:04:47.05,0:04:49.00,OP Normal2,,0,0,0,,{\be1}It's an abyss!
+Dialogue: 0,0:04:49.00,0:04:51.96,OP Normal2,CHOPPER,0,0,0,,{\be1}Yeah, there's nothing\Nbut blackness down there!
+Dialogue: 0,0:04:51.96,0:04:55.63,OP Normal2,,0,0,0,,{\be1}Fish people live there?\NThey've gotta be insane!
+Dialogue: 0,0:05:04.43,0:05:08.86,OP Normal2,,0,0,0,,{\be1}And the void in front of us!\NHelp! Can't we go up?
+Dialogue: 0,0:05:08.87,0:05:10.18,OP Normal2,,0,0,0,,{\be1}Up, where it's not\Nburning and dark
+Dialogue: 0,0:05:10.19,0:05:12.26,OP Normal2,,0,0,0,,{\be1}and everything wants to kill us?
+Dialogue: 0,0:05:12.27,0:05:12.90,OP Normal2,,0,0,0,,{\be1}Wait!
+Dialogue: 0,0:05:12.91,0:05:14.42,OP Normal2,,0,0,0,,{\be1}You're not really\NLuffy, are you?
+Dialogue: 0,0:05:14.43,0:05:16.24,OP Normal2,,0,0,0,,{\be1}You're some evil demon\Nwho looks like him
+Dialogue: 0,0:05:16.27,0:05:18.90,OP Normal2,,0,0,0,,{\be1}that wants to drag us\Nto the depths of hell!
+Dialogue: 0,0:05:18.91,0:05:20.12,OP Normal2,,0,0,0,,{\be1}This is a nightmare!
+Dialogue: 0,0:05:20.13,0:05:23.83,OP Normal2,,0,0,0,,{\be1}– Why can't I wake up? Why?\N– Surume! Jump in!
+Dialogue: 0,0:05:31.41,0:05:33.58,OP Normal2,USOPP,0,0,0,,{\be1}It's erupting again!
+Dialogue: 0,0:05:35.56,0:05:36.80,OP Normal2,,0,0,0,,{\be1}Whoa, look above us!
+Dialogue: 0,0:05:36.80,0:05:38.40,OP Normal2,,0,0,0,,{\be1}Something's coming down!
+Dialogue: 0,0:05:39.15,0:05:40.05,OP Normal2,ROBIN,0,0,0,,{\be1}Boulders?
+Dialogue: 0,0:05:40.05,0:05:41.07,OP Normal2,BROOK,0,0,0,,{\be1}A mudslide?
+Dialogue: 0,0:05:41.07,0:05:43.03,OP Normal2,,0,0,0,,{\be1}It's an avalanche!\NBrace yourselves!
+Dialogue: 0,0:05:46.09,0:05:47.76,OP Normal2,NAMI,0,0,0,,{\be1}Dodge the boulders, Surume!
+Dialogue: 0,0:05:50.91,0:05:53.04,OP Normal2,,0,0,0,,{\be1}I can't just sit here;\NI'm gonna go cut 'em!
+Dialogue: 0,0:05:54.19,0:05:55.94,OP Normal2,,0,0,0,,{\be1}Luffy, hold onto my leg, okay?
+Dialogue: 0,0:05:55.95,0:05:57.42,OP Normal2,,0,0,0,,{\be1}Sure! Gotcha!
+Dialogue: 0,0:05:58.06,0:06:00.56,OP Normal2,,0,0,0,,{\be1}Zoro! You can't!
+Dialogue: 0,0:06:00.59,0:06:01.12,OP Normal2,,0,0,0,,{\be1}What's the big idea?
+Dialogue: 0,0:06:01.13,0:06:02.00,OP Normal2,,0,0,0,,{\be1}Yeah, let him go, Robin!
+Dialogue: 0,0:06:02.02,0:06:04.89,OP Normal2,,0,0,0,,{\be1}The ship is over 8,000\Nmeters deep right now!
+Dialogue: 0,0:06:04.90,0:06:05.87,OP Normal2,,0,0,0,,{\be1}Never mind the boulders,
+Dialogue: 1,0:06:05.88,0:06:08.68,Secondary,,0,0,0,,{\be1\an8}We just need to buy some time\Nto get away from the cliff wall!
+Dialogue: 0,0:06:06.18,0:06:08.49,OP Normal2,,0,0,0,,{\be1}go outside and the water\Npressure will crush you!
+Dialogue: 0,0:06:08.50,0:06:10.31,OP Normal2,,0,0,0,,{\be1}Fine, but we gotta do something!
+Dialogue: 0,0:06:10.50,0:06:11.83,OP Normal2,USOPP,0,0,0,,{\be1}Leave it to me, then!
+Dialogue: 0,0:06:12.82,0:06:16.32,OP Normal2,USOPP,0,0,0,,{\fad(150,150)}{\be1}Special Attack,\NGreen Star: Sargasso!
+Dialogue: 0,0:06:21.14,0:06:22.09,OP Normal2,,0,0,0,,{\be1}It stopped the boulders.
+Dialogue: 0,0:06:22.10,0:06:24.21,OP Normal2,,0,0,0,,{\be1}Ah! Usopp made seaweed appear!
+Dialogue: 0,0:06:24.22,0:06:24.63,OP Normal2,,0,0,0,,{\be1}Oh, wow! Nice shot!
+Dialogue: 0,0:06:24.64,0:06:25.14,OP Normal2,,0,0,0,,{\be1}That's handy!
+Dialogue: 0,0:06:25.15,0:06:26.04,OP Normal2,,0,0,0,,{\be1}So awesome!
+Dialogue: 0,0:06:26.06,0:06:27.97,OP Normal2,,0,0,0,,{\be1}It won't hold for\Nvery long, though.
+Dialogue: 0,0:06:27.98,0:06:30.02,OP Normal2,,0,0,0,,{\be1}We gotta get moving, Surume!
+Dialogue: 0,0:06:30.22,0:06:31.45,OP Normal2,,0,0,0,,{\be1}Move it!
+Dialogue: 0,0:06:39.60,0:06:41.10,OP Normal2,CHOPPER,0,0,0,,{\be1}Just in time!
+Dialogue: 0,0:06:46.30,0:06:49.80,OP Normal2,,0,0,0,,{\be1}Monster plants?\NAw, man! That's cool!
+Dialogue: 0,0:06:49.82,0:06:52.76,OP Normal2,BROOK,0,0,0,,{\be1}I wonder what else you\Nhave in that bag of tricks!
+Dialogue: 0,0:06:52.78,0:06:53.33,OP Normal2,CHOPPER,0,0,0,,{\be1}Looks like we're in the clear!
+Dialogue: 0,0:06:53.34,0:06:55.41,OP Normal2,,0,0,0,,{\be1}That Nami. So harsh.
+Dialogue: 0,0:06:55.42,0:06:57.36,OP Normal2,LUFFY,0,0,0,,{\be1}You were pretty\Ngreat, too, Surume!
+Dialogue: 0,0:06:58.30,0:06:59.04,OP Normal2,,0,0,0,,{\be1}Thanks a bunch!
+Dialogue: 0,0:06:59.05,0:07:02.10,OP Normal2,CHOPPER,0,0,0,,{\be1}Yeah! You saved us all!
+Dialogue: 0,0:07:02.10,0:07:04.31,OP Normal2,NAMI,0,0,0,,{\be1}You're the best, Surume!
+Dialogue: 0,0:07:04.31,0:07:05.80,OP Normal2,STRAW HATS chanting,0,0,0,,{\q2}{\be1}– Surume! Yay!\N– Surume! Yay!
+Dialogue: 0,0:07:05.80,0:07:09.81,OP Normal2,,0,0,0,,{\be1}Surume! Yay! Surume! Yay!
+Dialogue: 0,0:07:09.81,0:07:10.60,OP Normal2,,0,0,0,,{\be1}Surume! Yay! Suru–
+Dialogue: 0,0:07:36.68,0:07:39.39,OP Normal2,BROOK,0,0,0,,{\be1}Are we alive? Or dead?
+Dialogue: 0,0:07:39.40,0:07:42.65,OP Normal2,,0,0,0,,{\be1}There's light, but we're\Nso deep in the sea.
+Dialogue: 0,0:07:42.68,0:07:43.90,OP Normal2,,0,0,0,,{\be1}So bright!
+Dialogue: 0,0:07:43.91,0:07:45.66,OP Normal2,,0,0,0,,{\be1}I've got stars in my eyes!
+Dialogue: 0,0:07:45.67,0:07:48.76,OP Normal2,,0,0,0,,{\be1}Rather, just stars.\NThere aren't any eyes.
+Dialogue: 0,0:07:48.86,0:07:50.03,OP Normal2,,0,0,0,,{\be1}Nya, ho, ho, ho...
+Dialogue: 0,0:07:50.07,0:07:51.82,OP Normal2,,0,0,0,,{\be1}Guys! Check it out!
+Dialogue: 0,0:07:51.83,0:07:54.02,OP Normal2,,0,0,0,,{\be1}Over there! I think we made it!
+Dialogue: 0,0:07:54.03,0:07:54.77,OP Normal2,STRAW HATS,0,0,0,,{\q2}{\be1}– Huh?\N– Huh?
+Dialogue: 0,0:07:54.79,0:07:57.80,OP Normal2,USOPP,0,0,0,,{\be1}I can't see anything.\NIt's too bright.
+Dialogue: 0,0:07:58.68,0:07:59.95,OP Normal2,,0,0,0,,{\be1}C'mon, Nami. Tell us!
+Dialogue: 0,0:07:59.96,0:08:02.03,OP Normal2,NAMI,0,0,0,,{\be1}Yep! There's\Nno doubt about it!
+Dialogue: 0,0:08:02.04,0:08:04.34,OP Normal2,,0,0,0,,{\be1}The needle is pointing\Nstraight ahead.
+Dialogue: 0,0:08:04.52,0:08:06.05,OP Normal2,,0,0,0,,{\be1}We did it.
+Dialogue: 0,0:08:07.40,0:08:09.55,OP Normal2,LUFFY,0,0,0,,{\be1}Fishman Island!
+Dialogue: 0,0:08:09.56,0:08:11.96,OP Normal2,LUFFY,0,0,0,,{\be1}It's huge!
+Dialogue: 0,0:08:11.97,0:08:14.02,OP Normal2,NAMI,0,0,0,,{\be1}It's in a giant bubble!
+Dialogue: 0,0:08:14.13,0:08:16.27,OP Normal2,,0,0,0,,{\be1}It looks like they have clouds!
+Dialogue: 0,0:08:16.29,0:08:18.53,OP Normal2,,0,0,0,,{\be1}There must be air inside.
+Dialogue: 0,0:08:24.08,0:08:26.81,OP Normal2,,0,0,0,,{\be1}We made it!
+Dialogue: 0,0:08:26.96,0:08:28.62,OP Normal2,,0,0,0,,{\be1}The New World is next!
+Dialogue: 0,0:08:28.63,0:08:29.67,OP Normal2,,0,0,0,,{\be1}Almost there!
+Dialogue: 0,0:08:29.68,0:08:31.11,OP Normal2,,0,0,0,,{\be1}Well, what do ya know.
+Dialogue: 0,0:08:31.12,0:08:33.79,OP Normal2,,0,0,0,,{\be1}The morons survived after all!
+Dialogue: 0,0:08:35.92,0:08:37.97,OP Normal2,SANJI,0,0,0,,{\be1}This is where the mermaids live.
+Dialogue: 0,0:08:38.00,0:08:40.31,OP Normal2,,0,0,0,,{\be1}Real, live, beautiful mermaids!
+Dialogue: 0,0:08:40.32,0:08:42.31,Sanji in Love,,0,0,0,,{\be1}My dream can finally come true.
+Dialogue: 0,0:08:42.32,0:08:44.55,Sanji in Love,,0,0,0,,{\be1}How I've longed\Nto see their faces.
+Dialogue: 0,0:08:44.56,0:08:45.75,Sanji in Love,,0,0,0,,{\be1}To touch them!
+Dialogue: 0,0:08:45.76,0:08:48.00,Sanji in Love,SANJI & BROOK,0,0,0,,{\q2}{\be1}– ♪ A mermaid for me! ♪\N– ♪ A mermaid for me! ♪
+Dialogue: 0,0:08:51.42,0:08:53.00,OP Normal2,,0,0,0,,{\be1}♪ A mermaid for you! ♪
+Dialogue: 0,0:08:53.01,0:08:54.76,OP Normal2,,0,0,0,,{\be1}♪ A mermaid for– ♪
+Dialogue: 0,0:08:54.77,0:08:56.12,OP Normal2,,0,0,0,,{\be1}Hold up!
+Dialogue: 0,0:08:56.13,0:08:57.49,OP Normal2,,0,0,0,,{\be1}You're not ready for this!
+Dialogue: 0,0:08:57.50,0:08:58.84,OP Normal2,,0,0,0,,{\be1}You shouldn't even\Nthink about it!
+Dialogue: 0,0:08:58.85,0:09:00.54,OP Normal2,,0,0,0,,{\be1}Sanji!
+Dialogue: 0,0:09:09.76,0:09:11.03,OP Normal2,,0,0,0,,{\be1}I'm sorry!
+Dialogue: 0,0:09:11.12,0:09:13.27,OP Normal2,,0,0,0,,{\be1}I thought my treatment\Nwould do the trick!
+Dialogue: 0,0:09:13.28,0:09:14.39,OP Normal2,,0,0,0,,{\be1}I know it's your dream,
+Dialogue: 0,0:09:14.40,0:09:16.39,OP Normal2,,0,0,0,,{\be1}but you're not healthy\Nenough for mermaids.
+Dialogue: 0,0:09:16.40,0:09:17.51,OP Normal2,,0,0,0,,{\be1}Doctor!
+Dialogue: 0,0:09:17.52,0:09:19.64,OP Normal2,,0,0,0,,{\be1}For him, this is a fate\Nworse than death.
+Dialogue: 0,0:09:19.65,0:09:22.20,OP Normal2,,0,0,0,,{\be1}There's gotta be\Nsomething you can do!
+Dialogue: 0,0:09:22.21,0:09:24.52,OP Normal2,,0,0,0,,{\be1}If he sees mermaids,\Nit will be death!
+Dialogue: 0,0:09:24.53,0:09:25.89,OP Normal2,,0,0,0,,{\be1}How cruel.
+Dialogue: 0,0:09:27.73,0:09:30.05,OP Normal2,SANJI grunts,0,0,0,,{\be1}I don't care.
+Dialogue: 0,0:09:30.06,0:09:30.74,OP Normal2,,0,0,0,,{\be1}Sanji!
+Dialogue: 0,0:09:30.77,0:09:35.22,OP Normal2,,0,0,0,,{\be1}I-I don't wanna live in\Na world without dreams.
+Dialogue: 0,0:09:35.23,0:09:38.66,OP Normal2,,0,0,0,,{\be1}I'd rather die leering\Nat some hot mermaid tail.
+Dialogue: 0,0:09:38.67,0:09:40.44,OP Normal2,,0,0,0,,{\be1}You're the worst!
+Dialogue: 0,0:09:40.67,0:09:42.56,OP Normal2,SANJI,0,0,0,,{\be1}Who needs blood?
+Dialogue: 0,0:09:42.75,0:09:45.08,OP Normal2,,0,0,0,,{\be1}I have lust to sustain me!
+Dialogue: 0,0:09:45.09,0:09:45.74,OP Normal2,,0,0,0,,{\be1}Whoa!
+Dialogue: 0,0:09:45.77,0:09:47.79,OP Normal2,,0,0,0,,{\be1}His lechery burns bright!
+Dialogue: 0,0:09:48.83,0:09:50.23,OP Normal2,,0,0,0,,{\be1}I'm so hungry!
+Dialogue: 0,0:09:50.47,0:09:51.90,OP Normal2,,0,0,0,,{\be1}I bet they fry up all kinds
+Dialogue: 0,0:09:51.91,0:09:54.30,OP Normal2,,0,0,0,,{\be1}of yummy deep-sea\Nmonsters down here!
+Dialogue: 0,0:09:54.31,0:09:58.06,OP Normal2,,0,0,0,,{\be1}Hey, wipe up that drool\Nand tell Surume to go.
+Dialogue: 0,0:09:58.07,0:09:59.74,OP Normal2,,0,0,0,,{\be1}There's an entrance\Naround here somewhere
+Dialogue: 0,0:09:59.75,0:10:00.86,OP Normal2,,0,0,0,,{\be1}and we've gotta find it.
+Dialogue: 0,0:10:00.87,0:10:03.43,OP Normal2,,0,0,0,,{\be1}Guys! We got company!
+Dialogue: 0,0:10:05.32,0:10:07.23,OP Normal2,,0,0,0,,{\be1}Why would you allow\Nthese foolish humans
+Dialogue: 0,0:10:07.24,0:10:09.85,OP Normal2,,0,0,0,,{\be1}to tell you what to do, Kraken?
+Dialogue: 0,0:10:12.12,0:10:14.12,OP Normal2,,0,0,0,,{\be1}Well, crap. That's not good.
+Dialogue: 0,0:10:14.92,0:10:17.00,OP Normal2,NAMI,0,0,0,,{\be1}Sea monsters! Giant ones!
+Dialogue: 1,0:10:18.74,0:10:26.58,Secondary,LUFFY,0,0,0,,{\be1\an8}Wow, they look\Ntough! I want one!
+Dialogue: 0,0:10:18.75,0:10:21.54,OP Normal2,,0,0,0,,{\be1}So close! And now we're dead!
+Dialogue: 0,0:10:28.57,0:10:30.57,OP Normal2,LUFFY,0,0,0,,{\be1}Wait, is somebody riding 'em?
+Dialogue: 0,0:10:36.66,0:10:38.48,OP Normal2,,0,0,0,,{\be1}What the heck, Surume?
+Dialogue: 0,0:10:38.48,0:10:41.08,OP Normal2,,0,0,0,,{\be1}Seriously, we were almost there!
+Dialogue: 0,0:10:41.08,0:10:42.56,OP Normal2,,0,0,0,,{\be1}Forget about all that!
+Dialogue: 0,0:10:42.56,0:10:45.63,OP Normal2,,0,0,0,,{\be1}Just hang on! Don't\Nfall off the ship!
+Dialogue: 0,0:10:55.52,0:10:59.95,OP Normal2,USOPP yells,0,0,0,,{\be1}Whoa, it's like a\Nwhole circus of sea monsters!
+Dialogue: 0,0:10:59.96,0:11:02.89,OP Normal2,HAMMOND,0,0,0,,{\be1}You guys are the\NStraw Hat Pirates, aren't you?
+Dialogue: 0,0:11:04.28,0:11:06.62,OP Normal2,HAMMOND,0,0,0,,{\be1}You have quite the reputation.
+Dialogue: 0,0:11:06.76,0:11:08.83,OP Normal2,,0,0,0,,{\be1}For starters, you were the ones
+Dialogue: 0,0:11:08.84,0:11:11.98,OP Normal2,,0,0,0,,{\be1}who ruined the\NArlong Pirates' plans.
+Dialogue: 0,0:11:12.20,0:11:16.09,OP Normal2,HAMMOND,0,0,0,,{\be1}That part makes sense at least.
+Dialogue: 0,0:11:17.32,0:11:19.55,OP Normal2,,0,0,0,,{\be1}But for some reason,\Ntwo years back,
+Dialogue: 0,0:11:19.56,0:11:23.46,OP Normal2,,0,0,0,,{\be1}when Hachi was in trouble,\Nyou stood up for your old enemy.
+Dialogue: 0,0:11:23.72,0:11:26.27,OP Normal2,,0,0,0,,{\be1}And then, you clocked one\Nof the Celestial Dragons
+Dialogue: 0,0:11:26.28,0:11:29.25,OP Normal2,,0,0,0,,{\be1}right in his ugly face.
+Dialogue: 0,0:11:29.27,0:11:30.86,OP Normal2,,0,0,0,,{\be1}Fisher Tiger happened to do
+Dialogue: 0,0:11:30.87,0:11:33.10,OP Normal2,,0,0,0,,{\be1}the exact same thing\Nand he's the hero
+Dialogue: 0,0:11:33.11,0:11:35.35,OP Normal2,,0,0,0,,{\be1}of this entire island.
+Dialogue: 0,0:11:35.99,0:11:38.12,OP Normal2,,0,0,0,,{\be1}Fisher Tiger?
+Dialogue: 0,0:11:40.48,0:11:43.19,OP Normal2,chuckles,0,0,0,,{\be1\an8}I'm not sure\Nwhat to do with you.
+Dialogue: 0,0:11:43.20,0:11:44.63,OP Normal2,,0,0,0,,{\be1\an8}Tell it to me straight.
+Dialogue: 0,0:11:44.64,0:11:49.37,OP Normal2,,0,0,0,,{\be1\an8}Are you supposed to be\Nour enemies or not?
+Dialogue: 0,0:11:49.44,0:11:51.64,OP Normal2,,0,0,0,,{\be1\an8}How about I give you an option?
+Dialogue: 0,0:11:51.76,0:11:53.59,OP Normal2,,0,0,0,,{\be1\an8}Enlist under our\Nbanner as members
+Dialogue: 0,0:11:53.60,0:11:56.70,OP Normal2,,0,0,0,,{\be1\an8}of the New Fishman\NPirates or else!
+Dialogue: 0,0:11:56.77,0:12:00.14,OP Normal2,,0,0,0,,{\be1}"Or else" meaning we\Nsink you right now.
+Dialogue: 0,0:12:01.57,0:12:03.91,OP Normal2,,0,0,0,,{\be1}What'd you say?
+Dialogue: 0,0:12:04.05,0:12:06.12,OP Normal2,NAMI,0,0,0,,{\be1}Fuel up, Franky, hurry!
+Dialogue: 0,0:12:06.13,0:12:08.03,OP Normal2,,0,0,0,,{\be1}Huh? You got a plan?
+Dialogue: 0,0:12:08.13,0:12:09.72,OP Normal2,,0,0,0,,{\be1}You and I both know that Luffy
+Dialogue: 0,0:12:09.73,0:12:12.03,OP Normal2,,0,0,0,,{\be1}isn't gonna cooperate\Nwith these guys.
+Dialogue: 0,0:12:12.24,0:12:14.87,OP Normal2,,0,0,0,,{\be1}But we're 10,000 meters\Nunderwater right now and if we
+Dialogue: 0,0:12:14.88,0:12:17.03,OP Normal2,,0,0,0,,{\be1}try to fight them, we don't\Nstand a chance of winning,
+Dialogue: 0,0:12:17.04,0:12:19.50,OP Normal2,,0,0,0,,{\be1}especially not with\Nthose sea monsters.
+Dialogue: 0,0:12:19.52,0:12:20.87,OP Normal2,,0,0,0,,{\be1}So, we have to go!
+Dialogue: 0,0:12:20.88,0:12:23.19,OP Normal2,,0,0,0,,{\be1}I need you to use all of\Nthe oxygen we have to make
+Dialogue: 0,0:12:23.20,0:12:24.87,OP Normal2,,0,0,0,,{\be1}a giant Coup de Burst\Nso we can charge
+Dialogue: 0,0:12:24.88,0:12:26.24,OP Normal2,,0,0,0,,{\be1}straight into Fishman Island!
+Dialogue: 0,0:12:27.67,0:12:29.58,OP Normal2,,0,0,0,,{\be1}Whoa, are you kiddin' me?
+Dialogue: 0,0:12:29.59,0:12:33.39,OP Normal2,NAMI,0,0,0,,{\be1}We've come way\Ntoo far to die here.
+Dialogue: 0,0:12:33.59,0:12:34.54,OP Normal2,,0,0,0,,{\be1}I agree.
+Dialogue: 0,0:12:34.55,0:12:38.12,OP Normal2,,0,0,0,,{\be1}It's risky, but it's likely our\Nonly chance at surviving this.
+Dialogue: 0,0:12:38.31,0:12:40.55,OP Normal2,,0,0,0,,{\be1}If that's the case, I'm gonna\Nfill it up right away!
+Dialogue: 0,0:12:41.58,0:12:42.30,OP Normal2,,0,0,0,,{\be1}Franky! Steer the ship!
+Dialogue: 0,0:12:42.31,0:12:42.76,OP Normal2,HAMMOND,0,0,0,,{\be1}Humans aren't that clever.
+Dialogue: 0,0:12:42.77,0:12:44.38,OP Normal2,,0,0,0,,{\be1}Everything's gonna\Nbe just super.
+Dialogue: 0,0:12:44.39,0:12:47.37,OP Normal2,,0,0,0,,{\be1}Whatever it is,\Nwe can deal with it.
+Dialogue: 0,0:12:47.42,0:12:49.25,OP Normal2,,0,0,0,,{\be1}So, have you decided if you want
+Dialogue: 0,0:12:49.26,0:12:52.39,OP Normal2,,0,0,0,,{\be1}to be part of our crew,\NStraw Hat Luffy?
+Dialogue: 0,0:12:52.70,0:12:56.75,OP Normal2,,0,0,0,,{\be1}Yeah, right, you wish! Stupid!
+Dialogue: 0,0:13:00.06,0:13:01.81,OP Normal2,,0,0,0,,{\be1}Are you sure about that?
+Dialogue: 0,0:13:01.82,0:13:03.81,OP Normal2,,0,0,0,,{\be1}You did hear me say\Nwhat will happen
+Dialogue: 0,0:13:03.82,0:13:05.89,OP Normal2,,0,0,0,,{\be1}if you refuse, didn't you?
+Dialogue: 0,0:13:05.90,0:13:08.50,OP Normal2,,0,0,0,,{\be1}Guess you are the\Nenemy of the fishmen!
+Dialogue: 0,0:13:08.72,0:13:12.19,OP Normal2,,0,0,0,,{\be1}Nothing but filthy human scum!
+Dialogue: 0,0:13:14.40,0:13:16.23,OP Normal2,,0,0,0,,{\be1}Bleh! Why would I\Nwanna work for a big
+Dialogue: 0,0:13:16.24,0:13:18.54,OP Normal2,,0,0,0,,{\be1}dumb fish face like you?
+Dialogue: 0,0:13:18.56,0:13:20.75,OP Normal2,CHOPPER,0,0,0,,{\be1}Cut it out, Luffy!\NYou'll make him mad!
+Dialogue: 0,0:13:20.76,0:13:22.43,OP Normal2,,0,0,0,,{\be1}That's a real shame.
+Dialogue: 0,0:13:22.44,0:13:25.98,OP Normal2,,0,0,0,,{\be1}You won't be seeing\NFishman Island after all.
+Dialogue: 0,0:13:26.12,0:13:29.09,OP Normal2,,0,0,0,,{\be1}Get ready to sink, Straw Hats.
+Dialogue: 0,0:13:29.16,0:13:30.46,OP Normal2,,0,0,0,,{\be1}Sea Lion!
+Dialogue: 0,0:13:35.56,0:13:37.07,OP Normal2,USOPP grunts,0,0,0,,{\be1}Alright, filled up\Nand ready to move!
+Dialogue: 0,0:13:37.08,0:13:38.68,OP Normal2,,0,0,0,,{\be1}Franky! You're up!
+Dialogue: 1,0:13:38.07,0:13:39.19,Secondary,,0,0,0,,{\be1\an8}Roger!
+Dialogue: 0,0:13:39.56,0:13:41.23,OP Normal2,HAMMOND,0,0,0,,{\be1}Take them down!
+Dialogue: 0,0:13:41.24,0:13:42.84,OP Normal2,,0,0,0,,{\be1}Bring it on!
+Dialogue: 0,0:13:46.20,0:13:47.38,OP Normal2,,0,0,0,,{\be1}Franky, let's go!
+Dialogue: 0,0:13:47.39,0:13:50.54,OP Normal2,,0,0,0,,{\be1}Hey, don't forget,\Nwe got our own lion!
+Dialogue: 0,0:13:50.55,0:13:53.72,OP Normal2,,0,0,0,,{\be1}Maybe we can fight some\Nother time, all right?
+Dialogue: 0,0:13:53.91,0:13:58.21,OP Normal2,,0,0,0,,{\fad(150,150)}{\be1}Here goes. Coup de Burst!
+Dialogue: 0,0:14:02.39,0:14:04.44,OP Normal2,,0,0,0,,{\be1}Look at 'em go!
+Dialogue: 0,0:14:13.84,0:14:16.78,OP Normal2,,0,0,0,,{\be1}Can't breathe.\NThere's no more air.
+Dialogue: 0,0:14:16.82,0:14:20.51,OP Normal2,grunts,0,0,0,,{\be1}We're getting squished.
+Dialogue: 0,0:14:20.55,0:14:23.34,OP Normal2,BROOK gasps,0,0,0,,{\be1}It's hard to\Nbreathe, and that's not
+Dialogue: 0,0:14:23.35,0:14:26.82,OP Normal2,,0,0,0,,{\be1}just because I don't have lungs.
+Dialogue: 0,0:14:27.03,0:14:30.43,OP Normal2,,0,0,0,,{\be1}Hang on! We'll make it,\Nno matter what!
+Dialogue: 0,0:14:32.63,0:14:34.30,OP Normal2,,0,0,0,,{\be1}What in the hell?
+Dialogue: 0,0:14:34.31,0:14:36.38,OP Normal2,,0,0,0,,{\be1}What's up with that crazy ship?
+Dialogue: 0,0:14:36.39,0:14:38.38,OP Normal2,,0,0,0,,{\be1}We're on our way in!
+Dialogue: 0,0:14:38.39,0:14:41.73,OP Normal2,,0,0,0,,{\be1}I'll be with you soon,\Nbeautiful mermaids!
+Dialogue: 0,0:14:49.99,0:14:51.40,OP Normal2,LUFFY,0,0,0,,{\be1}We lost the coating!
+Dialogue: 0,0:14:51.43,0:14:54.46,OP Normal2,,0,0,0,,{\be1}It got stuck when we\Ncrossed the bubble!
+Dialogue: 0,0:14:56.39,0:15:00.63,OP Normal2,gasps,0,0,0,,{\be1}Look up there!\NWhat could it be?
+Dialogue: 0,0:15:01.03,0:15:04.56,OP Normal2,gasps,0,0,0,,{\be1}This bubble.\NIt's a double structure!
+Dialogue: 0,0:15:04.57,0:15:08.48,OP Normal2,,0,0,0,,{\be1}A normal ship would crash\Nbecause there's nothing but air!
+Dialogue: 0,0:15:08.49,0:15:10.96,OP Normal2,,0,0,0,,{\be1}We're about to run\Ninto another bubble!
+Dialogue: 0,0:15:10.97,0:15:12.93,OP Normal2,,0,0,0,,{\be1}You guys ready?
+Dialogue: 0,0:15:20.21,0:15:21.50,OP Normal2,,0,0,0,,{\be1}Water?
+Dialogue: 0,0:15:33.13,0:15:35.60,OP Normal2,NAMI,0,0,0,,{\be1}This current is really strong!
+Dialogue: 0,0:15:40.77,0:15:43.23,OP Normal2,CHOPPER,0,0,0,,{\be1}Help... me...
+Dialogue: 0,0:15:43.23,0:15:44.73,OP Normal2,BROOK,0,0,0,,{\be1}Can't breathe.
+Dialogue: 0,0:15:46.32,0:15:49.16,Pensante,SANJI,0,0,0,,{\be1}Crap. Four of us can't swim.
+Dialogue: 0,0:15:58.24,0:15:59.91,OP Normal2,ZORO,0,0,0,,{\be1}Come on. Reach!
+Dialogue: 0,0:16:03.79,0:16:07.28,Pensante,SANJI,0,0,0,,{\be1}Nami! Robin!
+Dialogue: 0,0:16:10.38,0:16:13.92,Pensante,SANJI,0,0,0,,{\be1}Dammit. I can't\Nresist the current!
+Dialogue: 0,0:16:28.87,0:16:30.78,OP Normal2,HAMMOND,0,0,0,,{\be1}That's one way to get in.
+Dialogue: 0,0:16:30.79,0:16:32.59,OP Normal2,,0,0,0,,{\be1}Pretty reckless, though.
+Dialogue: 0,0:16:32.79,0:16:34.54,OP Normal2,,0,0,0,,{\be1}Well, we can still\Ngo in after them
+Dialogue: 0,0:16:34.55,0:16:36.14,OP Normal2,,0,0,0,,{\be1}if you want to, Hammond.
+Dialogue: 0,0:16:36.15,0:16:38.78,OP Normal2,,0,0,0,,{\be1}No way to know if they're\Nalive or dead, though. Psh.
+Dialogue: 0,0:16:38.79,0:16:40.35,OP Normal2,,0,0,0,,{\be1}Yeah, let's track them down.
+Dialogue: 0,0:16:41.98,0:16:44.21,Pensante,,0,0,0,,{\be1}We can't let Neptune's\NArmy get their hands
+Dialogue: 0,0:16:44.22,0:16:46.13,OP Normal2,,0,0,0,,{\be1}on them first, now can we?
+Dialogue: 0,0:16:46.14,0:16:47.57,OP Normal2,,0,0,0,,{\be1}But before we do anything,
+Dialogue: 0,0:16:47.58,0:16:50.93,OP Normal2,,0,0,0,,{\be1}we should go back to Noah\Nand tell the boss what's up.
+Dialogue: 0,0:16:50.94,0:16:52.93,OP Normal2,,0,0,0,,{\be1}I think he'd want\Nto know that the man
+Dialogue: 0,0:16:52.94,0:16:56.14,OP Normal2,,0,0,0,,{\be1}who ruined Arlong's\Nplan is here.
+Dialogue: 0,0:17:06.61,0:17:08.12,OP Normal2,ICHIKA,0,0,0,,{\be1}Hey!
+Dialogue: 0,0:17:10.95,0:17:12.04,OP Normal2,,0,0,0,,{\be1}Take a look!
+Dialogue: 0,0:17:12.07,0:17:12.94,OP Normal2,,0,0,0,,{\be1}I'll look.
+Dialogue: 0,0:17:12.95,0:17:13.98,OP Normal2,,0,0,0,,{\be1}I won't!
+Dialogue: 0,0:17:13.99,0:17:15.26,OP Normal2,,0,0,0,,{\be1}Maybe I'll look.
+Dialogue: 0,0:17:15.27,0:17:17.00,OP Normal2,,0,0,0,,{\be1}Who cares if I look?
+Dialogue: 0,0:17:18.79,0:17:20.44,OP Normal2,,0,0,0,,{\be1}Now he's moving!
+Dialogue: 0,0:17:20.55,0:17:21.50,OP Normal2,,0,0,0,,{\be1}He moved!
+Dialogue: 0,0:17:21.51,0:17:22.94,OP Normal2,,0,0,0,,{\be1}No, he didn't!
+Dialogue: 0,0:17:22.95,0:17:24.82,OP Normal2,,0,0,0,,{\be1}He might've moved.
+Dialogue: 0,0:17:24.98,0:17:26.79,OP Normal2,,0,0,0,,{\be1}Who cares if he moved?
+Dialogue: 0,0:17:31.86,0:17:32.82,OP Normal2,,0,0,0,,{\be1}Alright! He's alive!
+Dialogue: 0,0:17:32.82,0:17:33.86,OP Normal2,,0,0,0,,{\be1}Thank goodness!
+Dialogue: 0,0:17:35.37,0:17:36.54,OP Normal2,,0,0,0,,{\be1}Where am I?
+Dialogue: 0,0:17:36.98,0:17:39.95,OP Normal2,CAMIE,0,0,0,,{\be1}Oh, Luffy-{\i1}chin{\i0}!
+Dialogue: 0,0:17:39.96,0:17:42.59,OP Normal2,,0,0,0,,{\be1}It's been a while, hasn't it?
+Dialogue: 0,0:17:42.60,0:17:44.67,OP Normal2,,0,0,0,,{\be1}So, how are you feeling?
+Dialogue: 0,0:17:44.76,0:17:50.49,OP Normal2,,0,0,0,,{\be1}Hah! Hey, it's Camie!\NIt's nice to see you!
+Dialogue: 0,0:17:51.16,0:17:54.06,Sanji in Love,,0,0,0,,{\be1}Oh, Camie, you've\Ngotten so lovely!
+Dialogue: 0,0:17:54.12,0:17:55.00,Sanji in Love,,0,0,0,,{\be1}Marry me!
+Dialogue: 0,0:17:55.86,0:17:58.54,Sanji in Love,,0,0,0,,{\be1}Then we made it to\NFishman Island after all?
+Dialogue: 0,0:17:58.58,0:17:59.61,OP Normal2,,0,0,0,,{\be1}Yeah, we did!
+Dialogue: 0,0:17:59.62,0:18:01.85,OP Normal2,,0,0,0,,{\be1}From what I understand,\Nwe were about to drown,
+Dialogue: 0,0:18:01.86,0:18:04.16,OP Normal2,,0,0,0,,{\be1}but then we were rescued\Nby a bunch of mermaids!
+Dialogue: 0,0:18:04.17,0:18:05.28,OP Normal2,,0,0,0,,{\be1}That's right!
+Dialogue: 0,0:18:05.29,0:18:07.86,OP Normal2,,0,0,0,,{\be1}Sanji, Chopper, and I just\Nwoke up a few minutes ago.
+Dialogue: 0,0:18:07.87,0:18:09.34,OP Normal2,,0,0,0,,{\be1}Guess we're pretty lucky, huh?
+Dialogue: 0,0:18:09.63,0:18:11.78,OP Normal2,,0,0,0,,{\be1}Lucky enough to wake up\Nin Camie's house.
+Dialogue: 0,0:18:11.79,0:18:12.89,OP Normal2,,0,0,0,,{\be1}Here, catch.
+Dialogue: 0,0:18:12.99,0:18:15.14,OP Normal2,,0,0,0,,{\be1}Oh. So, this is your house?
+Dialogue: 0,0:18:15.15,0:18:17.30,OP Normal2,CAMIE,0,0,0,,{\be1}My bad! I know I was supposed
+Dialogue: 0,0:18:17.31,0:18:19.78,OP Normal2,,0,0,0,,{\be1}to pick you guys up on\NSabaody, but I was thinking
+Dialogue: 0,0:18:19.79,0:18:21.83,OP Normal2,,0,0,0,,{\be1}that was another month from now.
+Dialogue: 0,0:18:22.49,0:18:25.76,OP Normal2,,0,0,0,,{\be1}Heh. That's okay!\NWhere is everybody?
+Dialogue: 0,0:18:25.77,0:18:30.24,OP Normal2,,0,0,0,,{\be1}Well, uh. Looks like\Nwe got separated.
+Dialogue: 0,0:18:30.25,0:18:32.62,OP Normal2,,0,0,0,,{\be1}Goodness. I hope they're safe.
+Dialogue: 0,0:18:32.81,0:18:34.16,OP Normal2,,0,0,0,,{\be1}So, they're lost?
+Dialogue: 0,0:18:34.17,0:18:35.92,OP Normal2,,0,0,0,,{\be1}Yeah. Before I blacked out,
+Dialogue: 0,0:18:35.93,0:18:37.93,OP Normal2,,0,0,0,,{\be1}I was trying to follow\Nthem, but that current
+Dialogue: 0,0:18:38.21,0:18:40.20,OP Normal2,,0,0,0,,{\be1}must've pulled them off\Nin a different direction.
+Dialogue: 0,0:18:40.21,0:18:41.38,OP Normal2,,0,0,0,,{\be1}Ah, gotcha.
+Dialogue: 0,0:18:41.41,0:18:43.64,OP Normal2,,0,0,0,,{\be1}Well, I'm sure it'll\Nturn out okay, right?
+Dialogue: 0,0:18:43.65,0:18:44.60,OP Normal2,,0,0,0,,{\be1}They're fine.
+Dialogue: 0,0:18:44.61,0:18:47.00,OP Normal2,,0,0,0,,{\be1}The bonehead can't\Ndo much underwater,
+Dialogue: 0,0:18:47.01,0:18:49.65,OP Normal2,,0,0,0,,{\be1}but the robot and Moss Head\Nare probably with him.
+Dialogue: 0,0:18:49.81,0:18:50.61,OP Normal2,,0,0,0,,{\be1}So, I wouldn't worry.
+Dialogue: 1,0:18:50.20,0:18:51.21,Secondary,,0,0,0,,{\be1\an8}Right, everything'll\Nbe just fine!
+Dialogue: 0,0:18:51.22,0:18:53.85,OP Normal2,CAMIE,0,0,0,,{\be1}I hope I get\Nto see them again soon.
+Dialogue: 0,0:18:53.86,0:18:55.35,OP Normal2,,0,0,0,,{\be1}Anyway, here you go!
+Dialogue: 0,0:18:55.46,0:18:57.03,OP Normal2,,0,0,0,,{\be1}I'm sure you're all freezing.
+Dialogue: 0,0:18:57.06,0:18:59.43,OP Normal2,,0,0,0,,{\be1}So, I made some soup\Nthat'll warm you right up.
+Dialogue: 0,0:19:00.95,0:19:02.14,OP Normal2,CAMIE,0,0,0,,{\be1}Ta-dah!
+Dialogue: 0,0:19:02.18,0:19:05.28,OP Normal2,,0,0,0,,{\be1}Cold seaweed soup! It's yummy!
+Dialogue: 0,0:19:08.97,0:19:10.45,OP Normal2,USOPP,0,0,0,,{\be1}It's cold?
+Dialogue: 0,0:19:10.46,0:19:11.63,OP Normal2,CAMIE,0,0,0,,{\be1}Mm-hm!
+Dialogue: 0,0:19:14.59,0:19:16.18,OP Normal2,,0,0,0,,{\be1}That's not right,\Nhow are you supposed
+Dialogue: 0,0:19:16.18,0:19:19.30,OP Normal2,,0,0,0,,{\be1}to get warm if the soup\Nis cold? I'm sorry!
+Dialogue: 0,0:19:19.30,0:19:20.72,OP Normal2,,0,0,0,,{\be1}Wha...?
+Dialogue: 0,0:19:20.72,0:19:23.06,OP Normal2,,0,0,0,,{\be1}I'm such a failure!
+Dialogue: 0,0:19:25.39,0:19:28.77,OP Normal2,,0,0,0,,{\be1}But your soup is great, Camie.
+Dialogue: 0,0:19:28.77,0:19:31.86,OP Normal2,,0,0,0,,{\be1}I'm warmer already!
+Dialogue: 0,0:19:31.86,0:19:33.57,OP Normal2,CHOPPER,0,0,0,,{\be1}That doesn't make sense.
+Dialogue: 0,0:19:33.57,0:19:35.36,OP Normal2,,0,0,0,,{\be1}Come on, let me try some too!
+Dialogue: 0,0:19:38.17,0:19:40.00,OP Normal2,,0,0,0,,{\be1}Your clothes are dry, everybody!
+Dialogue: 0,0:19:40.01,0:19:40.96,OP Normal2,,0,0,0,,{\be1}They're dry!
+Dialogue: 0,0:19:40.97,0:19:42.64,OP Normal2,,0,0,0,,{\be1}No, they're not dry!
+Dialogue: 0,0:19:42.65,0:19:44.16,OP Normal2,,0,0,0,,{\be1}Your clothes might be dry.
+Dialogue: 0,0:19:44.17,0:19:46.27,OP Normal2,,0,0,0,,{\be1}Who cares if they're dry?
+Dialogue: 0,0:19:49.46,0:19:50.70,OP Normal2,,0,0,0,,{\be1}Ah!
+Dialogue: 0,0:19:50.73,0:19:52.73,OP Normal2,LUFFY,0,0,0,,{\be1}You took care\Nof our clothes, too?
+Dialogue: 0,0:19:52.74,0:19:54.00,OP Normal2,,0,0,0,,{\be1}Wow, thanks!
+Dialogue: 0,0:19:55.59,0:19:57.65,OP Normal2,LUFFY,0,0,0,,{\be1}Who are those little guys?
+Dialogue: 0,0:19:57.75,0:19:59.75,OP Normal2,CAMIE,0,0,0,,{\be1}Oh, they're\Nsome friends of mine.
+Dialogue: 0,0:19:59.83,0:20:01.50,OP Normal2,,0,0,0,,{\be1}The Medaka Mermaid Quintuplets.
+Dialogue: 0,0:20:01.51,0:20:02.59,OP Normal2,,0,0,0,,{\be1}I'm Ichika!
+Dialogue: 0,0:20:02.63,0:20:03.46,OP Normal2,,0,0,0,,{\be1}I'm Nika!
+Dialogue: 0,0:20:03.47,0:20:04.38,OP Normal2,,0,0,0,,{\be1}I'm Sanka!
+Dialogue: 0,0:20:04.41,0:20:05.31,OP Normal2,,0,0,0,,{\be1}I'm Yonka!
+Dialogue: 0,0:20:05.35,0:20:06.94,OP Normal2,,0,0,0,,{\be1}And I'm Yonka Two!
+Dialogue: 0,0:20:06.95,0:20:09.25,OP Normal2,USOPP,0,0,0,,{\be1}Wait, why are there two Yonkas?
+Dialogue: 0,0:20:09.26,0:20:12.11,OP Normal2,,0,0,0,,{\be1}They're really fast swimmers,\Nand pretty clever as well!
+Dialogue: 0,0:20:12.14,0:20:14.29,OP Normal2,,0,0,0,,{\be1}Yeah? Nice to meet ya!
+Dialogue: 0,0:20:14.30,0:20:16.94,OP Normal2,,0,0,0,,{\be1}I've got a lot of neat\Nfriends here, actually.
+Dialogue: 0,0:20:16.94,0:20:19.01,OP Normal2,,0,0,0,,{\be1}This is the sea floor\Nof the Mermaid Cove,
+Dialogue: 0,0:20:19.02,0:20:21.29,OP Normal2,,0,0,0,,{\be1}home to the girls' dorm\Nof the famous Mermaid Café!
+Dialogue: 0,0:20:21.32,0:20:22.60,OP Normal2,SANJI,0,0,0,,{\be1}Huh?
+Dialogue: 1,0:20:22.34,0:20:23.71,Secondary,BOTH gasp,0,0,0,,{\be1\an8}Uh-oh!
+Dialogue: 0,0:20:22.61,0:20:24.13,OP Normal2,,0,0,0,,{\be1}G-G-G-The girls' dorm?
+Dialogue: 0,0:20:24.13,0:20:25.48,OP Normal2,,0,0,0,,{\be1}Please, Camie!
+Dialogue: 0,0:20:25.49,0:20:28.72,OP Normal2,,0,0,0,,{\be1}Tell me everything about\Nthis Mermaid Café place!
+Dialogue: 0,0:20:28.77,0:20:30.44,OP Normal2,,0,0,0,,{\be1}Oh, it's just this\Ncute little café
+Dialogue: 0,0:20:30.45,0:20:31.96,OP Normal2,,0,0,0,,{\be1}where I work as a waitress.
+Dialogue: 0,0:20:31.97,0:20:34.50,OP Normal2,,0,0,0,,{\be1}We have a lot of pretty\Nmermaids there on staff.
+Dialogue: 0,0:20:35.49,0:20:38.62,OP Normal2,,0,0,0,,{\be1}Ah! Sounds like heaven!
+Dialogue: 0,0:20:39.26,0:20:41.93,OP Normal2,,0,0,0,,{\be1}Can I get you anything extra?
+Dialogue: 0,0:20:44.33,0:20:45.31,OP Normal2,,0,0,0,,{\be1}Sanji!
+Dialogue: 0,0:20:45.34,0:20:47.11,OP Normal2,,0,0,0,,{\be1}Don't die!
+Dialogue: 0,0:20:47.90,0:20:48.82,OP Normal2,,0,0,0,,{\be1}I won't die!
+Dialogue: 0,0:20:48.83,0:20:50.04,OP Normal2,USOPP & CHOPPER,0,0,0,,{\q2}{\be1}– False alarm!\N– False alarm!
+Dialogue: 0,0:20:50.06,0:20:53.70,OP Normal2,,0,0,0,,{\be1}I swore. I made\Na promise to myself,
+Dialogue: 0,0:20:54.44,0:20:58.24,OP Normal2,,0,0,0,,{\be1}that for the entire time\NI was on Fishman Island
+Dialogue: 0,0:20:58.28,0:21:01.45,OP Normal2,,0,0,0,,{\be1}I wouldn't get a\Nnosebleed and pass out!
+Dialogue: 0,0:21:03.24,0:21:05.74,OP Normal2,SANJI,0,0,0,,{\be1}And I've held out for this long,
+Dialogue: 0,0:21:05.88,0:21:08.81,OP Normal2,,0,0,0,,{\be1}so I deserve a reward, right?
+Dialogue: 0,0:21:09.00,0:21:11.12,OP Normal2,,0,0,0,,{\be1}Pathetic.
+Dialogue: 0,0:21:11.13,0:21:13.76,OP Normal2,CAMIE,0,0,0,,{\be1}I know! Why don't\Nwe go up there now?
+Dialogue: 0,0:21:13.77,0:21:16.61,OP Normal2,,0,0,0,,{\be1}I'll introduce you\Nto all of my friends!
+Dialogue: 0,0:21:19.77,0:21:21.28,OP Normal2,LUFFY,0,0,0,,{\be1}Whoa! A turtle!
+Dialogue: 0,0:21:21.29,0:21:23.79,OP Normal2,CHOPPER,0,0,0,,{\be1}"Sea Turtle Elevator," huh?
+Dialogue: 0,0:21:25.34,0:21:27.54,OP Normal2,CAMIE,0,0,0,,{\be1}Could you give\Nus a lift, Mr. Turtle?
+Dialogue: 0,0:21:32.86,0:21:35.25,OP Normal2,CAMIE,0,0,0,,{\be1}This is a coral\Napartment complex.
+Dialogue: 0,0:21:35.26,0:21:37.99,OP Normal2,,0,0,0,,{\be1}The dorms are at the very\Nbottom, so rent's cheap.
+Dialogue: 0,0:21:38.05,0:21:39.73,OP Normal2,,0,0,0,,{\be1}The top floor's\Nthe most expensive
+Dialogue: 0,0:21:39.74,0:21:41.55,OP Normal2,,0,0,0,,{\be1}because it gets natural light.
+Dialogue: 0,0:21:41.58,0:21:44.38,OP Normal2,LUFFY,0,0,0,,{\be1}Mm... Does that\Nmean you're poor?
+Dialogue: 0,0:21:44.46,0:21:46.83,OP Normal2,,0,0,0,,{\be1}And what about\NHachi and Pappagu?
+Dialogue: 0,0:21:47.18,0:21:49.65,OP Normal2,CAMIE,0,0,0,,{\be1}Hatchin got beat up\Nreal bad about a year ago.
+Dialogue: 0,0:21:49.66,0:21:51.25,OP Normal2,,0,0,0,,{\be1}Oh, yeah, I heard about that.
+Dialogue: 0,0:21:51.26,0:21:54.37,OP Normal2,,0,0,0,,{\be1}He was protecting the Sunny\Nfor us back on Sabaody, right?
+Dialogue: 0,0:21:54.38,0:21:56.35,OP Normal2,,0,0,0,,{\be1}Hatchin came from\Nthe Fishman District,
+Dialogue: 0,0:21:56.36,0:21:58.35,OP Normal2,,0,0,0,,{\be1}so that's where he's been\Nresting and recovering.
+Dialogue: 0,0:21:58.36,0:22:00.11,OP Normal2,,0,0,0,,{\be1}I haven't had the chance\Nto see him lately,
+Dialogue: 0,0:22:00.12,0:22:02.35,OP Normal2,,0,0,0,,{\be1}but from what I hear, he's\Ngetting better all the time.
+Dialogue: 0,0:22:02.36,0:22:04.74,OP Normal2,,0,0,0,,{\be1}Huh? He's okay?
+Dialogue: 0,0:22:04.75,0:22:07.29,OP Normal2,,0,0,0,,{\be1}Yeah, but it's kind of\Na rough part of town.
+Dialogue: 0,0:22:07.39,0:22:09.31,OP Normal2,,0,0,0,,{\be1}If you guys go along\Nwith me, I wouldn't mind
+Dialogue: 0,0:22:09.32,0:22:10.70,OP Normal2,,0,0,0,,{\be1}heading over there\Nto visit him, though.
+Dialogue: 0,0:22:10.71,0:22:11.74,OP Normal2,LUFFY,0,0,0,,{\be1}Let's do it!
+Dialogue: 0,0:22:11.75,0:22:14.06,OP Normal2,,0,0,0,,{\be1}I've been wanting to\Nthank him face-to-face.
+Dialogue: 0,0:22:14.07,0:22:16.04,OP Normal2,,0,0,0,,{\be1}Sure, you got it!
+Dialogue: 0,0:22:16.15,0:22:19.42,OP Normal2,,0,0,0,,{\be1}And, well, as for Pappagu...
+Dialogue: 0,0:22:19.43,0:22:21.97,OP Normal2,,0,0,0,,{\be1}He's a super-famous\Nfashion designer.
+Dialogue: 0,0:22:22.07,0:22:23.98,OP Normal2,,0,0,0,,{\be1}So, he lives in a\Nbig fancy mansion
+Dialogue: 0,0:22:23.99,0:22:27.72,OP Normal2,,0,0,0,,{\be1}in the high-class district\Nof Fishverly Hills!
+Dialogue: 0,0:22:27.73,0:22:29.48,OP Normal2,,0,0,0,,{\be1}I'm supposed to\Ndeliver some clams
+Dialogue: 0,0:22:29.49,0:22:31.40,OP Normal2,,0,0,0,,{\be1}over there today.\NYou wanna come with me?
+Dialogue: 0,0:22:31.41,0:22:33.32,OP Normal2,,0,0,0,,{\be1}Wait, he's your pet.
+Dialogue: 0,0:22:33.33,0:22:35.54,OP Normal2,,0,0,0,,{\be1}But you two don't live\Nin the same place?
+Dialogue: 0,0:22:35.65,0:22:38.68,OP Normal2,giggles,0,0,0,,{\be1}Yeah, 'cause\Nthat area's a little
+Dialogue: 0,0:22:38.69,0:22:40.31,OP Normal2,,0,0,0,,{\be1}out of my price range.
+Dialogue: 0,0:22:40.32,0:22:43.06,OP Normal2,,0,0,0,,{\be1}We have better\Nclams here, anyway.
+Dialogue: 0,0:22:43.12,0:22:45.16,OP Normal2,CHOPPER,0,0,0,,{\be1}We're almost to the top!
+Dialogue: 0,0:22:45.36,0:22:47.67,OP Normal2,,0,0,0,,{\be1}Huh? Hey, what's that\Ndrinking-straw
+Dialogue: 0,0:22:47.68,0:22:48.95,OP Normal2,,0,0,0,,{\be1}looking tube dealie?
+Dialogue: 0,0:22:49.04,0:22:52.23,OP Normal2,,0,0,0,,{\be1}Oh. That thing?\NThat's the Water Road.
+Dialogue: 0,0:22:52.24,0:22:53.83,OP Normal2,,0,0,0,,{\be1}The bubble craftsmen built it.
+Dialogue: 0,0:22:53.84,0:22:56.05,OP Normal2,,0,0,0,,{\be1}And when mermaids or\Nfish get inside it...
+Dialogue: 0,0:22:56.06,0:22:59.43,OP Normal2,,0,0,0,,{\be1}Well, hold on.\NHere, let me show you.
+Dialogue: 0,0:23:05.58,0:23:08.58,OP Normal2,,0,0,0,,{\be1}It's the surface! We made it!
+Dialogue: 0,0:23:08.59,0:23:11.02,OP Normal2,,0,0,0,,{\be1}Luffy-{\i1}chin{\i0}!
+Dialogue: 0,0:23:13.28,0:23:14.62,OP Normal2,CAMIE,0,0,0,,{\be1}Look! I'm swimming in the sky!
+Dialogue: 0,0:23:14.63,0:23:16.06,OP Normal2,,0,0,0,,{\be1}– Whoa!\N– I wanna do that!
+Dialogue: 0,0:23:16.08,0:23:17.25,OP Normal2,,0,0,0,,{\be1}Wait a sec!
+Dialogue: 0,0:23:20.48,0:23:23.88,OP Normal2,,0,0,0,,{\be1}If we're underwater, why do\NI see a sky full of clouds?
+Dialogue: 1,0:23:23.89,0:23:24.41,Secondary,,0,0,0,,{\be1\an8}No way! I don't get it,\Nbut it sure is neat!
+Dialogue: 0,0:23:24.42,0:23:26.04,OP Normal2,,0,0,0,,{\be1}Hey! Camie!
+Dialogue: 0,0:23:26.04,0:23:26.49,OP Normal2,SANJI & LUFFY,0,0,0,,{\q2}{\be1}– Huh?\N– Huh?
+Dialogue: 0,0:23:26.50,0:23:27.68,OP Normal2,SANJI,0,0,0,,{\be1}Huh? It's a girl!
+Dialogue: 1,0:23:27.38,0:23:28.63,Secondary,,0,0,0,,{\be1\an8}Where's that coming from?
+Dialogue: 0,0:23:28.09,0:23:28.57,OP Normal2,,0,0,0,,{\be1}Whoa.
+Dialogue: 0,0:23:28.58,0:23:30.81,OP Normal2,gasps,0,0,0,,{\be1}Hey, guys!
+Dialogue: 0,0:23:30.82,0:23:32.45,OP Normal2,,0,0,0,,{\be1}Are these your pirate friends?
+Dialogue: 0,0:23:34.50,0:23:37.34,OP Normal2,,0,0,0,,{\be1}I guess that means they\Ndidn't drown after all!
+Dialogue: 0,0:23:37.35,0:23:38.95,OP Normal2,,0,0,0,,{\be1}You didn't come in\Nthrough the entrance
+Dialogue: 0,0:23:40.71,0:23:43.24,OP Normal2,,0,0,0,,{\be1}like you're supposed to,\Nso we were concerned.
+Dialogue: 0,0:23:45.35,0:23:46.54,OP Normal2,,0,0,0,,{\be1}Well, hi there.
+Dialogue: 0,0:23:46.55,0:23:48.70,OP Normal2,,0,0,0,,{\be1}You're not as scary\Nas I thought you'd be.
+Dialogue: 0,0:23:48.71,0:23:50.14,OP Normal2,,0,0,0,,{\be1}So, you broke in?
+Dialogue: 0,0:23:50.15,0:23:53.23,OP Normal2,,0,0,0,,{\be1}That's pretty hot. I kinda\Nhave a thing for pirates.
+Dialogue: 0,0:23:53.26,0:23:57.49,OP Normal2,laughs,0,0,0,,{\be1}It's like a\Nreal-life fairy tale!
+Dialogue: 0,0:24:05.50,0:24:09.93,OP Normal2,,0,0,0,,{\be1}A coral paradise! A whole\Ncove full of mermaids!
+Dialogue: 0,0:24:24.48,0:24:26.35,OP Normal2,,0,0,0,,{\be1\fad(0,300)}What's the matter\Nwith Sanji now?
+Dialogue: 0,0:24:26.38,0:24:29.47,OP Normal2,,0,0,0,,{\be1}He didn't even cry this hard\Nwhen he left the Baratie.
+Dialogue: 0,0:24:32.23,0:24:35.59,OP Normal2,,0,0,0,,{\be1}Finally!
+Dialogue: 0,0:24:35.63,0:24:39.33,OP Normal2,,0,0,0,,{\be1}I found my All Blue\Nafter all these years!
+Dialogue: 0,0:24:41.15,0:24:44.74,OP Normal2,,0,0,0,,{\be1}Are you sure about that? Really?
+Dialogue: 0,0:24:44.75,0:24:47.13,OP Normal2,,0,0,0,,{\be1}Here, let me\Nintroduce everybody!
+Dialogue: 0,0:24:47.14,0:24:49.43,OP Normal2,,0,0,0,,{\be1}That's Luffy-{\i1}chin{\i0},\Nhe's the captain!
+Dialogue: 0,0:24:49.71,0:24:51.68,OP Normal2,,0,0,0,,{\be1}Yeah, nice to meet ya!
+Dialogue: 0,0:24:51.69,0:24:53.37,OP Normal2,CAMIE,0,0,0,,{\be1}Sanji-{\i1}chin{\i0}'s the crybaby.
+Dialogue: 0,0:24:53.38,0:24:55.53,OP Normal2,,0,0,0,,{\be1}The nose guy is Usopp-{\i1}chin{\i0}!
+Dialogue: 0,0:24:55.54,0:24:56.79,OP Normal2,,0,0,0,,{\be1}That's me!
+Dialogue: 0,0:24:57.14,0:24:59.41,OP Normal2,CAMIE,0,0,0,,{\be1}And the raccoon\Nis Chopper-{\i1}chin{\i0}!
+Dialogue: 0,0:24:59.54,0:25:00.78,OP Normal2,,0,0,0,,{\be1}Not again!
+Dialogue: 0,0:25:01.85,0:25:05.75,OP Normal2,MERMAID 527A,0,0,0,,{\be1}Aw, why are you crying?
+Dialogue: 0,0:25:05.85,0:25:06.88,OP Normal2,,0,0,0,,{\be1}Come over here.
+Dialogue: 0,0:25:06.89,0:25:08.99,OP Normal2,,0,0,0,,{\be1}Let's dance in\Nthe water together!
+Dialogue: 0,0:25:14.03,0:25:16.31,OP Normal2,,0,0,0,,{\be1}Okay. I get it.
+Dialogue: 0,0:25:16.35,0:25:19.28,OP Normal2,,0,0,0,,{\be1}This is obviously\Ntoo good to be true.
+Dialogue: 0,0:25:19.39,0:25:22.10,OP Normal2,,0,0,0,,{\be1}Maybe... I'm destined\Nto die today.
+Dialogue: 0,0:25:22.11,0:25:23.38,OP Normal2,,0,0,0,,{\be1}That's dark!
+Dialogue: 0,0:25:23.39,0:25:24.58,OP Normal2,,0,0,0,,{\be1}What the heck happened to you
+Dialogue: 0,0:25:24.59,0:25:27.00,OP Normal2,,0,0,0,,{\be1}in the last two years\Nto make you this gloomy?
+Dialogue: 0,0:25:27.01,0:25:30.02,OP Normal2,,0,0,0,,{\be1}Isn't this supposed to be\Nthe land of your dreams?
+Dialogue: 0,0:25:31.81,0:25:34.04,OP Normal2,LUFFY laughs,0,0,0,,{\be1}You crack me up, Sanji!
+Dialogue: 0,0:25:34.05,0:25:36.12,OP Normal2,USOPP & CHOPPER,0,0,0,,{\q2}{\be1}– I don't think he's joking!\N– I don't think he's joking!
+Dialogue: 0,0:25:44.07,0:25:46.13,OP Normal2,,0,0,0,,{\be1}Interesting.
+Dialogue: 0,0:25:46.14,0:25:49.98,OP Normal2,,0,0,0,,{\be1}So, Straw Hat finally\Nmade it to our turf, did he?
+Dialogue: 0,0:25:49.99,0:25:51.15,OP Normal2,,0,0,0,,{\be1}Good for him.
+Dialogue: 0,0:25:52.14,0:25:53.60,OP Normal2,gasps,0,0,0,,{\be1}Right.
+Dialogue: 0,0:25:53.61,0:25:56.48,OP Normal2,,0,0,0,,{\be1}Wh-What are we gonna\Ndo about it, Boss?
+Dialogue: 0,0:25:58.97,0:26:03.74,OP Normal2,HORDY,0,0,0,,{\be1}I want you to bring\Nhim here, and quickly.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:07:30.00,0:07:38.09,OPLetreros,,0,0,200,,{\be1\bord2.0\fs45\pos(640,545)\fad(900,900)}10,000 METERS BELOW SEA LEVEL "THE DEEP"
+Dialogue: 0,0:07:30.00,0:07:38.09,OPLetreros,,0,0,200,,{\be1\bord2.0\fs45\pos(640,714)\fad(900,900)}(THE BOTTOM OF THE OCEANIC TRENCH)
+Dialogue: 0,0:11:37.95,0:11:42.75,OPLetreros,,0,0,250,,{\bord2.0\fs43\pos(640,480)\fad(650,0)}THE NEW FISHMAN PIRATES - FIGHTER
+Dialogue: 0,0:11:37.95,0:11:42.75,OPLetreros,,0,0,250,,{\bord2.0\fs43\pos(640,711)\fad(650,0)}HAMMOND
+Dialogue: 0,0:11:42.92,0:11:48.50,OPLetreros,,0,0,250,,{\bord2.0\fs43\pos(640,480)\fad(600,0)}THE NEW FISHMAN PIRATES – ASSASSIN
+Dialogue: 0,0:11:42.92,0:11:48.50,OPLetreros,,0,0,250,,{\bord2.0\fs43\pos(640,711)\fad(600,0)}HYOZO
+Dialogue: 0,0:11:48.63,0:11:54.80,OPLetreros,,0,0,250,,{\bord2.0\fs43\pos(640,480)\fad(600,0)}THE NEW FISHMAN PIRATES - FIGHTER
+Dialogue: 0,0:11:48.63,0:11:54.80,OPLetreros,,0,0,250,,{\bord2.0\fs43\pos(640,711)\fad(600,0)}KASAGON
+Dialogue: 0,0:13:31.50,0:13:33.40,OPLetreros,,0,0,0,,{\fad(250,0)\fs43\pos(640,512)}FUEL ROOM
+Dialogue: 0,0:16:59.00,0:17:01.50,OPLetreros,,0,0,0,,{\bord2.0\fs43\pos(640,545)\fad(900,0)}FISHMAN ISLAND - SEA FLOOR
+Dialogue: 0,0:21:20.98,0:21:23.23,Sea Turtle,,0,0,0,,{\fs45\frx10\fry350\frz359.5\pos(589.8,374)}SEA TURTLE\NELEVATOR
+Dialogue: 0,0:25:48.70,0:25:50.40,OPLetreros,,0,0,180,,{\bord2.0\fs43\pos(640,540)\fad(900,0)}FISHMAN DISTRICT [NOAH]
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:03.36,0:00:05.03,Credits,NARRATOR,0,0,0,,{\fad(200,200)\be1}Dubtitles: NateTheBird
+Dialogue: 0,0:00:08.08,0:00:10.79,Credits,,0,0,0,,{\fad(200,200)\be1}Timing: NateTheBird
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
