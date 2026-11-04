@@ -1,0 +1,730 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1080
+LayoutResX: 1440
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Karaoke,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,8,23,23,23,1
+Style: Narration,Impress BT Pace,74,&H00D2EBF7,&H000000FF,&H00141414,&H96000000,0,-1,0,0,100,100,1,0,1,3,2,2,180,180,40,1
+Style: Dedication,Complete in Him ESP,120,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+Style: RogerMonologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Translation,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,2,23,23,34,1
+Style: OP Lyrics,Kanit SemiBold,100,&H00F0F4FF,&H00F0F4FF,&H0030103A,&H7016081A,0,0,0,0,100,100,1,0,1,3.6,2.4,2,60,60,50,1
+Style: OP Lyrics Active,Kanit SemiBold,100,&H005F5AFF,&HFF5F5AFF,&HFF30103A,&HFF16081A,0,0,0,0,100,100,1,0,1,0,0,2,60,60,50,1
+Style: OP Lyrics Glow,Kanit SemiBold,100,&HFF3D8AFF,&HFF3D8AFF,&H783D8AFF,&HFF16081A,0,0,0,0,100,100,1,0,1,7,0,2,60,60,50,1
+Style: OP Lyrics Accent,Kanit SemiBold,100,&HFFFFC66E,&HFFFFC66E,&H00FFC66E,&HFF16081A,0,0,0,0,100,100,1,0,1,3,0,2,60,60,50,1
+Style: OP Spoken,Kanit Medium,78,&H00D2EBF7,&H00D2EBF7,&H00141414,&H8C000000,0,1,0,0,100,100,1,0,1,3,2,2,160,160,60,1
+Style: Dub OP Believe,Dub OP Visual Duality,68,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,10,10,10,1
+Style: Episode-Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
+Style: Episode-Captions-207-,Impress BT Pace,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Episode-Credits-207-,FOT-Greco Std B Strp,50,&H00FFFFFF,&H00003FFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,3,0,7,16,16,16,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:33.84,0:00:33.87,Default,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:42.32,0:01:42.35,Default,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:33.84,0:00:33.87,Default,OP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:59.99,0:02:09.98,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 0,0:01:54.23,0:01:55.83,Main-207-,,0,0,0,,[NAMI]\NNo!
+Dialogue: 50,0:01:55.87,0:01:57.80,Flashbacks-207-,,0,0,0,,[USOPP]\NListen, Nami,\Nthe Clima Takt is a weapon,
+Dialogue: 50,0:01:57.84,0:02:00.00,Flashbacks-207-,,0,0,0,,but you have to rely on\Na stronger one to use it:
+Dialogue: 50,0:02:00.04,0:02:00.87,Flashbacks-207-,,0,0,0,,{\an8}Your brain!
+Dialogue: 50,0:02:00.87,0:02:03.31,Flashbacks-207-,,0,0,0,,{\an8}You gotta think to\Nsurvive a battle!
+Dialogue: 50,0:02:03.34,0:02:06.51,Flashbacks-207-,,0,0,0,,{\an8}Remember: Your mind\Nis the real weapon.
+Dialogue: 50,0:02:07.64,0:02:08.58,Thoughts-207-,,0,0,0,,{\an8}[NAMI]\NRight! Think!
+Dialogue: 50,0:02:08.60,0:02:10.49,Thoughts-207-,,0,0,0,,{\an8}Let's see, I've got Heat\NBalls and Cool Balls!
+Dialogue: 50,0:02:10.49,0:02:11.66,Thoughts-207-,,0,0,0,,All I need to do\Nis take advantage
+Dialogue: 50,0:02:11.69,0:02:14.46,Thoughts-207-,,0,0,0,,of their characteristics\Nand combine them!
+Dialogue: 50,0:02:26.17,0:02:27.70,Flashbacks-207-,,0,0,0,,[USOPP]\NOne last thing.
+Dialogue: 50,0:02:27.77,0:02:29.14,Flashbacks-207-,,0,0,0,,Tornado Tempo!
+Dialogue: 50,0:02:29.21,0:02:31.68,Flashbacks-207-,,0,0,0,,This is the centerpiece\Nof the whole weapon!
+Dialogue: 50,0:02:31.71,0:02:33.81,Main-207-,,0,0,0,,Tornado Tempo?
+Dialogue: 50,0:02:33.88,0:02:36.24,Flashbacks-207-,,0,0,0,,Okay, here's the deal:\NAs long as your enemy is human,
+Dialogue: 50,0:02:36.28,0:02:39.19,Flashbacks-207-,,0,0,0,,they won't be able to stand\Nafter being struck by it.
+Dialogue: 50,0:02:39.21,0:02:42.25,Flashbacks-207-,,0,0,0,,But it's a last resort,\Nand you only get one shot.
+Dialogue: 50,0:02:42.25,0:02:44.25,Flashbacks-207-,,0,0,0,,If you miss, it's over.
+Dialogue: 50,0:02:44.25,0:02:47.19,Main-207-,,0,0,0,,If I miss, it's over.
+Dialogue: 50,0:02:47.22,0:02:48.85,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NPay attention.
+Dialogue: 0,0:02:48.85,0:02:49.98,Main-207-,,0,0,0,,[yelps]
+Dialogue: 50,0:02:52.19,0:02:54.26,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NThat little gadget\Nof yours is interesting,
+Dialogue: 50,0:02:54.32,0:02:55.75,Main-207-,,0,0,0,,but it's not a weapon.
+Dialogue: 50,0:02:55.80,0:02:57.00,Main-207-,,0,0,0,,Here's some advice, sweetie:
+Dialogue: 50,0:02:57.03,0:03:00.34,Main-207-,,0,0,0,,If you can't use it to attack, it's nothing more than a toy.
+Dialogue: 50,0:03:00.37,0:03:02.12,Main-207-,,0,0,0,,The day that thing can be called a weapon
+Dialogue: 50,0:03:02.12,0:03:04.89,Main-207-,,0,0,0,,is the day you can finally hurt someone with it.
+Dialogue: 50,0:03:04.96,0:03:06.20,Main-207-,,0,0,0,,Now...
+Dialogue: 50,0:03:14.17,0:03:16.14,Main-207-,,0,0,0,,Stop running.
+Dialogue: 50,0:03:16.17,0:03:18.81,Main-207-,,0,0,0,,If I don't do something quick, I'm gonna get skewered!
+Dialogue: 50,0:03:18.84,0:03:21.21,Main-207-,,0,0,0,,The only chance I've got is that Tornado Tempo thing!
+Dialogue: 50,0:03:21.24,0:03:23.00,Main-207-,,0,0,0,,If I can do it!
+Dialogue: 0,0:03:23.92,0:03:24.62,Main-207-,,0,0,0,,[chuckles]
+Dialogue: 50,0:03:24.62,0:03:27.35,Main-207-,,0,0,0,,Hey! Give that back!
+Dialogue: 50,0:03:27.35,0:03:30.39,Main-207-,,0,0,0,,Did you seriously think you could kill me with this toy?
+Dialogue: 0,0:03:30.46,0:03:32.02,Main-207-,,0,0,0,,[chuckles]\NOh, please.
+Dialogue: 50,0:03:32.11,0:03:33.74,Main-207-,,0,0,0,,A sweater can produce\Nmore electricity
+Dialogue: 50,0:03:33.78,0:03:34.88,Main-207-,,0,0,0,,than this little thing.
+Dialogue: 50,0:03:34.88,0:03:37.95,Main-207-,,0,0,0,,Well, we won't know unless I try, so give it back to me!
+Dialogue: 0,0:03:37.98,0:03:40.05,Main-207-,,0,0,0,,[NAMI yells]
+Dialogue: 50,0:03:43.75,0:03:45.28,Thoughts-207-,,0,0,0,,[NAMI]\NCome on, think!
+Dialogue: 50,0:03:45.28,0:03:46.85,Thoughts-207-,,0,0,0,,I have to distract her somehow
+Dialogue: 50,0:03:46.89,0:03:49.09,Thoughts-207-,,0,0,0,,so she can't dodge\Nthe Tornado Tempo!
+Dialogue: 50,0:03:49.09,0:03:50.59,Thoughts-207-,,0,0,0,,What do I have to work with?
+Dialogue: 0,0:03:50.63,0:03:51.76,Main-207-,,0,0,0,,Uhh...
+Dialogue: 50,0:03:51.79,0:03:53.96,Main-207-,,0,0,0,,There are the three different\Ntypes of air bubbles,
+Dialogue: 50,0:03:54.00,0:03:57.58,Thoughts-207-,,0,0,0,,and the extremely dry weather of\Nthis country, but that's all!
+Dialogue: 50,0:03:57.58,0:04:00.95,Thoughts-207-,,0,0,0,,If only there was just a little more moisture in the air.
+Dialogue: 50,0:04:01.02,0:04:02.35,Thoughts-207-,,0,0,0,,Wait! Moisture!
+Dialogue: 50,0:04:02.38,0:04:05.12,Thoughts-207-,,0,0,0,,That's it! This thing\Nhas a rain technique!
+Dialogue: 50,0:04:07.78,0:04:12.89,Main-207-,,0,0,0,,{\fad(150,150)}Rain Tempo!
+Dialogue: 50,0:04:12.95,0:04:14.15,Main-207-,,0,0,0,,Water tricks?
+Dialogue: 50,0:04:14.15,0:04:17.26,Main-207-,,0,0,0,,{\fad(150,150)}[NAMI]\NRotating Sprinkler!
+Dialogue: 50,0:04:17.39,0:04:18.29,Main-207-,,0,0,0,,Desperate.
+Dialogue: 50,0:04:18.36,0:04:21.09,Main-207-,,0,0,0,,No, I'm not! I've got\Na plan, you'll see!
+Dialogue: 50,0:04:21.09,0:04:21.93,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NI don't think so.
+Dialogue: 50,0:04:21.96,0:04:24.93,Main-207-,,0,0,0,,I've had enough of your party tricks.
+Dialogue: 50,0:04:27.27,0:04:30.40,Main-207-,,0,0,0,,And speaking of parties, time to end this one.
+Dialogue: 50,0:04:30.44,0:04:31.30,Main-207-,,0,0,0,,Uh-oh!
+Dialogue: 50,0:04:31.31,0:04:35.32,Main-207-,,0,0,0,,{\fad(150,150)}[MISS DOUBLEFINGER]\NSea Urchin Stinger!
+Dialogue: 0,0:04:37.05,0:04:39.06,Main-207-,,0,0,0,,[MISS DOUBLEFINGER yells]
+Dialogue: 50,0:04:39.06,0:04:42.39,Main-207-,,0,0,0,,Now why don't you be a good\Nlittle girl for me and die?
+Dialogue: 0,0:04:45.36,0:04:46.76,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:04:51.07,0:04:54.74,Main-207-,,0,0,0,,If that'd been me instead\Nof the wall, oh, man!
+Dialogue: 50,0:04:55.57,0:04:57.94,Main-207-,,0,0,0,,Since you showed me something interesting earlier,
+Dialogue: 50,0:04:58.01,0:05:00.74,Main-207-,,0,0,0,,it's only fair that I return the favor.
+Dialogue: 50,0:05:01.78,0:05:03.41,Main-207-,,0,0,0,,[NAMI]\NNow's my chance!
+Dialogue: 0,0:05:08.40,0:05:10.20,Main-207-,,0,0,0,,[chuckles]
+Dialogue: 50,0:05:12.60,0:05:15.27,Thoughts-207-,,0,0,0,,[NAMI]\NHot air rises while\Nabsorbing moisture.
+Dialogue: 50,0:05:15.34,0:05:17.37,Thoughts-207-,,0,0,0,,When it collides with cold air that's descending,
+Dialogue: 50,0:05:17.41,0:05:21.24,Thoughts-207-,,0,0,0,,it rapidly cools, and the\Nmoisture gets frozen.
+Dialogue: 50,0:05:21.28,0:05:23.58,Thoughts-207-,,0,0,0,,And then...
+Dialogue: 50,0:05:23.58,0:05:26.52,Main-207-,,0,0,0,,{\fad(150,150)}Now Spike-Spike... Doping!
+Dialogue: 0,0:05:26.55,0:05:28.38,Main-207-,,0,0,0,,[yells]
+Dialogue: 0,0:05:28.42,0:05:29.62,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:05:29.68,0:05:31.42,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NI told you your life\Nwas over, didn't I?
+Dialogue: 0,0:05:31.42,0:05:34.26,Main-207-,,0,0,0,,Stinger Flail!
+Dialogue: 0,0:05:35.62,0:05:41.03,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:05:51.62,0:05:54.02,Main-207-,,0,0,0,,At least you've proven that\Nyou're a first-class expert
+Dialogue: 50,0:05:54.06,0:05:57.59,Main-207-,,0,0,0,,at something, even if\Nit is running away.
+Dialogue: 0,0:05:59.53,0:06:01.36,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:06:01.40,0:06:03.53,Main-207-,,0,0,0,,[NAMI]\NOh, right! The air bubbles!
+Dialogue: 0,0:06:05.40,0:06:06.80,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:06:08.57,0:06:09.90,Main-207-,,0,0,0,,[NAMI]\NA cloud!
+Dialogue: 50,0:06:09.94,0:06:12.07,Main-207-,,0,0,0,,It's small, but it formed!
+Dialogue: 50,0:06:12.11,0:06:13.91,Main-207-,,0,0,0,,Just what are you babbling about?
+Dialogue: 50,0:06:13.94,0:06:15.48,Main-207-,,0,0,0,,It's still not large\Nenough, though!
+Dialogue: 50,0:06:15.54,0:06:18.31,Main-207-,,0,0,0,,I've gotta make it bigger!
+Dialogue: 50,0:06:18.38,0:06:20.42,Main-207-,,0,0,0,,{\fad(150,150)}Cool Ball!
+Dialogue: 50,0:06:20.45,0:06:22.45,Main-207-,,0,0,0,,{\fad(150,150)}Heat Ball!
+Dialogue: 50,0:06:24.40,0:06:27.76,Main-207-,,0,0,0,,I've had about enough of this!
+Dialogue: 50,0:06:27.80,0:06:29.90,Main-207-,,0,0,0,,Time to die!
+Dialogue: 0,0:06:32.30,0:06:35.47,Main-207-,,0,0,0,,Stinger Flail!
+Dialogue: 50,0:06:38.88,0:06:42.48,Main-207-,,0,0,0,,Tell me. Are you\Nprepared to die?
+Dialogue: 50,0:06:42.51,0:06:44.68,Main-207-,,0,0,0,,How 'bout you?
+Dialogue: 50,0:06:44.71,0:06:46.88,Main-207-,,0,0,0,,You're just bluffing, girl.
+Dialogue: 50,0:06:53.57,0:06:54.54,Main-207-,,0,0,0,,Am I?
+Dialogue: 0,0:07:14.17,0:07:16.97,Main-207-,,0,0,0,,[growls]
+Dialogue: 50,0:07:16.97,0:07:18.14,Main-207-,,0,0,0,,You're dead meat!
+Dialogue: 0,0:07:18.14,0:07:19.71,Main-207-,,0,0,0,,[gasps]
+Dialogue: 0,0:07:20.48,0:07:22.88,Main-207-,,0,0,0,,[MISS DOUBLEFINGER yells]
+Dialogue: 0,0:07:26.88,0:07:28.25,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NWhat?
+Dialogue: 50,0:07:28.32,0:07:30.32,Main-207-,,0,0,0,,[NAMI]\NToday's forecast\Ncalls for pleasant weather
+Dialogue: 50,0:07:30.35,0:07:32.42,Main-207-,,0,0,0,,with stable humidity and mild winds.
+Dialogue: 50,0:07:32.46,0:07:34.46,Main-207-,,0,0,0,,However, a high-pressure\Nsystem will be moving in
+Dialogue: 50,0:07:34.50,0:07:36.30,Main-207-,,0,0,0,,sometime during the afternoon.
+Dialogue: 50,0:07:36.33,0:07:38.17,Main-207-,,0,0,0,,This could create\Nsome strange weather
+Dialogue: 50,0:07:38.20,0:07:39.84,Main-207-,,0,0,0,,in one particular area,
+Dialogue: 50,0:07:39.86,0:07:43.70,Main-207-,,0,0,0,,so people in the vicinity need\Nto watch out for mirages.
+Dialogue: 50,0:07:45.13,0:07:48.30,Main-207-,,0,0,0,,And more importantly,\Nfor tornados.
+Dialogue: 50,0:07:49.84,0:07:52.17,Flashbacks-207-,,0,0,0,,This is a centerpiece\Nof the whole weapon.
+Dialogue: 50,0:07:52.20,0:07:55.21,Flashbacks-207-,,0,0,0,,But it's a last resort, and you only get one shot.
+Dialogue: 50,0:07:55.24,0:07:57.74,Flashbacks-207-,,0,0,0,,If you miss, it's over.
+Dialogue: 50,0:07:59.18,0:08:02.18,Thoughts-207-,,0,0,0,,[NAMI]\NIf I miss, it's over.
+Dialogue: 50,0:08:02.21,0:08:05.85,Main-207-,,0,0,0,,[NAMI]\NA tornado watch has been issued!
+Dialogue: 50,0:08:07.67,0:08:09.77,Main-207-,,0,0,0,,Something the matter?
+Dialogue: 0,0:08:12.41,0:08:13.58,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NOh, dear, it looks like
+Dialogue: 50,0:08:13.61,0:08:16.51,Main-207-,,0,0,0,,that left leg of yours\Nis pretty injured.
+Dialogue: 50,0:08:16.54,0:08:19.85,Main-207-,,0,0,0,,So much so, in fact, that I doubt you could run away.
+Dialogue: 50,0:08:23.42,0:08:26.56,Main-207-,,0,0,0,,{\fad(150,150)}Sea Urchin Stinger!
+Dialogue: 0,0:08:30.36,0:08:34.26,Main-207-,,0,0,0,,[screams]
+Dialogue: 50,0:08:39.80,0:08:43.71,Main-207-,,0,0,0,,This is... It's nothing!
+Dialogue: 50,0:08:43.74,0:08:45.61,Main-207-,,0,0,0,,It doesn't hurt at all!
+Dialogue: 50,0:08:45.64,0:08:47.44,Main-207-,,0,0,0,,Do you have any idea\Nwhat kind of pain
+Dialogue: 50,0:08:47.48,0:08:49.78,Main-207-,,0,0,0,,she's been going through?
+Dialogue: 50,0:08:49.84,0:08:52.74,Main-207-,,0,0,0,,Compared to Vivi...
+Dialogue: 0,0:08:52.74,0:08:54.74,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NHuh?
+Dialogue: 50,0:08:54.78,0:08:57.78,Main-207-,,0,0,0,,[NAMI]\NIt doesn't matter if I\Nlose a foot or a leg or two,
+Dialogue: 50,0:08:57.82,0:08:59.75,Main-207-,,0,0,0,,or even an arm...
+Dialogue: 50,0:08:59.75,0:09:01.82,Main-207-,,0,0,0,,I don't care!
+Dialogue: 0,0:09:03.89,0:09:05.56,Main-207-,,0,0,0,,[NAMI]\NNow!
+Dialogue: 50,0:09:05.59,0:09:09.90,Main-207-,,0,0,0,,Take this! Tornado...
+Dialogue: 50,0:09:09.93,0:09:12.40,Main-207-,,0,0,0,,...Tempo!
+Dialogue: 0,0:09:19.98,0:09:21.58,Main-207-,,0,0,0,,[gasps]
+Dialogue: 0,0:09:29.58,0:09:30.75,Main-207-,,0,0,0,,Huh?
+Dialogue: 0,0:09:36.69,0:09:39.53,Main-207-,,0,0,0,,What? What? What? What? What?
+Dialogue: 50,0:09:39.59,0:09:42.46,Main-207-,,0,0,0,,[MISS DOUBLEFINGER]\NWhat have you done to me?
+Dialogue: 0,0:09:59.56,0:10:00.86,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:10:52.38,0:10:54.71,Main-207-,,0,0,0,,It worked! I did it!
+Dialogue: 50,0:10:54.74,0:10:58.75,Main-207-,,0,0,0,,Usopp! Vivi!
+Dialogue: 50,0:11:10.92,0:11:12.79,Thoughts-207-,,0,0,0,,[VIVI]\NWhat is he talking about?
+Dialogue: 50,0:11:12.79,0:11:16.39,Thoughts-207-,,0,0,0,,Pluton? What is that?\NI don't have a clue.
+Dialogue: 50,0:11:16.43,0:11:17.40,Main-207-,,0,0,0,,Pluton.
+Dialogue: 50,0:11:17.43,0:11:18.63,Main-207-,,0,0,0,,According to legend,
+Dialogue: 50,0:11:18.63,0:11:22.67,Main-207-,,0,0,0,,it can completely obliterate an island with just one shot.
+Dialogue: 50,0:11:29.14,0:11:31.14,Main-207-,,0,0,0,,[CROCODILE]\NAn ancient weapon\Nwhose power rivals
+Dialogue: 0,0:11:31.18,0:11:32.24,Main-207-,,0,0,0,,that of a god.
+Dialogue: 50,0:11:32.28,0:11:33.81,Main-207-,,0,0,0,,It's somewhere in this country,
+Dialogue: 50,0:11:33.81,0:11:37.15,Main-207-,,0,0,0,,but you already knew that,\Ndidn't you, Your Highness?
+Dialogue: 50,0:11:38.72,0:11:43.01,Main-207-,,0,0,0,,An ancient weapon?\NAlabasta has such a thing?
+Dialogue: 50,0:11:43.01,0:11:44.68,Main-207-,,0,0,0,,And father knew about it?
+Dialogue: 50,0:11:44.71,0:11:47.72,Main-207-,,0,0,0,,Perhaps it is a secret passed down with the throne.
+Dialogue: 50,0:11:47.75,0:11:50.99,Main-207-,,0,0,0,,Acquiring Pluton has always been my goal.
+Dialogue: 50,0:11:50.99,0:11:52.19,Main-207-,,0,0,0,,With it, this peaceful country
+Dialogue: 50,0:11:52.22,0:11:56.06,Main-207-,,0,0,0,,will become a military power to\Nbe reckoned with under my rule.
+Dialogue: 50,0:11:56.13,0:11:57.53,Main-207-,,0,0,0,,Your rule?
+Dialogue: 50,0:11:57.59,0:12:00.56,Main-207-,,0,0,0,,You're not this\Ncountry's monarch!
+Dialogue: 50,0:12:00.60,0:12:02.20,Main-207-,,0,0,0,,[CROCODILE]\NOh, but I soon will be.
+Dialogue: 50,0:12:02.23,0:12:03.27,Main-207-,,0,0,0,,And once I'm on the throne,
+Dialogue: 50,0:12:03.33,0:12:05.94,Main-207-,,0,0,0,,it will be easy to bring all\Nthe pirates in this area
+Dialogue: 50,0:12:06.03,0:12:07.70,Main-207-,,0,0,0,,under my umbrella.
+Dialogue: 50,0:12:07.73,0:12:10.60,Main-207-,,0,0,0,,With such influence,\Neventually I'll gain more power
+Dialogue: 50,0:12:10.62,0:12:12.79,Main-207-,,0,0,0,,than even the World\NGovernment itself.
+Dialogue: 50,0:12:12.82,0:12:15.06,Main-207-,,0,0,0,,No one will dare cross me.
+Dialogue: 50,0:12:15.09,0:12:17.13,Main-207-,,0,0,0,,The World Government\Nwould never allow you
+Dialogue: 50,0:12:17.13,0:12:19.40,Main-207-,,0,0,0,,to wield that much power!
+Dialogue: 50,0:12:19.41,0:12:21.31,Main-207-,,0,0,0,,[CROCODILE]\NYou're right, they wouldn't.
+Dialogue: 50,0:12:21.40,0:12:23.97,Main-207-,,0,0,0,,So where is the Pluton? Tell me.
+Dialogue: 50,0:12:24.00,0:12:26.24,Main-207-,,0,0,0,,I don't know where you heard\Nthat name, Crocodile,
+Dialogue: 50,0:12:26.27,0:12:27.94,Main-207-,,0,0,0,,but I don't have\Nthe slightest idea
+Dialogue: 50,0:12:27.97,0:12:29.84,Main-207-,,0,0,0,,as to where it could be found.
+Dialogue: 50,0:12:29.92,0:12:31.82,Main-207-,,0,0,0,,I'm not even certain it ever existed,
+Dialogue: 50,0:12:31.90,0:12:33.97,Main-207-,,0,0,0,,let alone if it's hidden in this country.
+Dialogue: 50,0:12:34.00,0:12:36.00,Main-207-,,0,0,0,,It could be a myth for all I know.
+Dialogue: 50,0:12:36.04,0:12:39.71,Main-207-,,0,0,0,,What you say probably isn't a complete lie.
+Dialogue: 50,0:12:40.51,0:12:43.38,Main-207-,,0,0,0,,I have considered that possibility for a while now.
+Dialogue: 50,0:12:43.41,0:12:45.31,Main-207-,,0,0,0,,That Pluton may have never existed.
+Dialogue: 50,0:12:45.31,0:12:47.81,Main-207-,,0,0,0,,There are those who\Nbelieve it's just a fable,
+Dialogue: 50,0:12:47.97,0:12:49.71,Main-207-,,0,0,0,,but I believe that it's real.
+Dialogue: 0,0:12:49.75,0:12:54.76,Main-207-,,0,0,0,,[ROYAL SOLDIERS yelling]
+Dialogue: 50,0:12:56.91,0:13:00.22,Main-207-,,0,0,0,,[CROCODILE]\NWhat noisy insects.
+Dialogue: 50,0:13:00.25,0:13:01.39,Main-207-,,0,0,0,,[SOLDIER A]\NI heard that King Cobra's
+Dialogue: 50,0:13:01.39,0:13:03.39,Main-207-,,0,0,0,,been crucified by\NCrocodile up there!
+Dialogue: 50,0:13:03.42,0:13:05.19,Main-207-,,0,0,0,,[SOLDIER B]\NWe've got to save His Majesty!
+Dialogue: 50,0:13:05.28,0:13:06.78,Main-207-,,0,0,0,,[SOLDIER C]\NIf we can break\Nthrough those doors,
+Dialogue: 50,0:13:06.81,0:13:08.45,Main-207-,,0,0,0,,we can save the king!
+Dialogue: 50,0:13:08.45,0:13:09.98,Main-207-,,0,0,0,,How? We can't do anything
+Dialogue: 50,0:13:10.07,0:13:12.47,Main-207-,,0,0,0,,because of those strange\Nhands coming out from them!
+Dialogue: 50,0:13:12.51,0:13:14.81,Main-207-,,0,0,0,,[SOLDIER B]\NIt's impossible\Nunless we find a way
+Dialogue: 50,0:13:14.82,0:13:16.96,Main-207-,,0,0,0,,to stop those things!
+Dialogue: 50,0:13:16.96,0:13:18.19,Main-207-,,0,0,0,,[CROCODILE]\NIf my timing's correct,
+Dialogue: 50,0:13:18.19,0:13:20.29,Main-207-,,0,0,0,,the rebel army should break\Nthrough the defenses
+Dialogue: 50,0:13:20.32,0:13:23.06,Main-207-,,0,0,0,,and reach that square in\Napproximately 20 minutes,
+Dialogue: 50,0:13:23.11,0:13:26.12,Main-207-,,0,0,0,,where they'll clash with the royal forces.
+Dialogue: 50,0:13:26.15,0:13:30.99,Main-207-,,0,0,0,,And then, in just half\Nan hour, at 4:30...
+Dialogue: 50,0:13:32.96,0:13:34.99,Main-207-,,0,0,0,,[CROCODILE]\N...their battle will\Nbe interrupted by a bomb
+Dialogue: 50,0:13:35.04,0:13:38.01,Main-207-,,0,0,0,,I've ordered to be\Nfired into the square.
+Dialogue: 0,0:13:40.81,0:13:42.38,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:13:44.21,0:13:46.21,Main-207-,,0,0,0,,Please don't! I'm begging you!
+Dialogue: 50,0:13:46.26,0:13:48.09,Main-207-,,0,0,0,,Oh, and it's no ordinary bomb,
+Dialogue: 50,0:13:48.09,0:13:50.26,Main-207-,,0,0,0,,but one so powerful it\Nwill destroy everything
+Dialogue: 50,0:13:50.33,0:13:52.46,Main-207-,,0,0,0,,within a five kilometer radius.
+Dialogue: 50,0:13:52.46,0:13:54.40,Main-207-,,0,0,0,,If you do that, everyone...!
+Dialogue: 50,0:13:54.43,0:13:55.43,Main-207-,,0,0,0,,[CROCODILE]\NThat's right.
+Dialogue: 50,0:13:55.49,0:13:57.14,Main-207-,,0,0,0,,No one from either the royal army
+Dialogue: 50,0:13:57.14,0:13:59.27,Main-207-,,0,0,0,,or the rebel forces will survive.
+Dialogue: 50,0:13:59.27,0:14:02.21,Main-207-,,0,0,0,,They'll be wiped out and the battle will be over.
+Dialogue: 0,0:14:02.23,0:14:03.46,Main-207-,,0,0,0,,[grunts]
+Dialogue: 50,0:14:03.53,0:14:06.13,Main-207-,,0,0,0,,Aren't you happy? You should be.
+Dialogue: 50,0:14:06.20,0:14:09.87,Main-207-,,0,0,0,,After all, you're the one who\Nwanted them to stop so badly.
+Dialogue: 50,0:14:09.90,0:14:11.77,Main-207-,,0,0,0,,Since I'll be ruling from this palace,
+Dialogue: 50,0:14:11.84,0:14:14.57,Main-207-,,0,0,0,,there's no need to blow it up just to end their fight.
+Dialogue: 50,0:14:14.57,0:14:17.41,Main-207-,,0,0,0,,It's easier just blow\Nboth armies up instead.
+Dialogue: 50,0:14:17.44,0:14:19.44,Main-207-,,0,0,0,,This land's worth more than they are.
+Dialogue: 50,0:14:19.48,0:14:22.34,Main-207-,,0,0,0,,How can you be so callous toward them?
+Dialogue: 50,0:14:22.34,0:14:25.71,Main-207-,,0,0,0,,What did these people ever do\Nto you to deserve this, huh?
+Dialogue: 50,0:14:25.74,0:14:27.98,Main-207-,,0,0,0,,They have lives and families!
+Dialogue: 50,0:14:27.99,0:14:29.01,Main-207-,,0,0,0,,Princess!
+Dialogue: 50,0:14:29.01,0:14:30.85,Main-207-,,0,0,0,,Who cares?
+Dialogue: 50,0:14:30.88,0:14:33.12,Main-207-,,0,0,0,,[VIVI]\NYou don't have to\Nkill them, Crocodile!
+Dialogue: 50,0:14:33.15,0:14:34.72,Main-207-,,0,0,0,,[CHAKA]\NPrincess!
+Dialogue: 50,0:14:34.79,0:14:36.36,Main-207-,,0,0,0,,[CROCODILE]\NPerhaps I'll change my mind
+Dialogue: 50,0:14:36.38,0:14:39.21,Main-207-,,0,0,0,,if the king answers\Nanother question.
+Dialogue: 50,0:14:42.18,0:14:44.85,Main-207-,,0,0,0,,There's a Poneglyph in\Nthis country, Your Majesty.
+Dialogue: 50,0:14:44.88,0:14:46.15,Main-207-,,0,0,0,,Where is it?
+Dialogue: 50,0:14:46.18,0:14:50.39,Main-207-,,0,0,0,,Poneglyph? What are\Nyou talking about?
+Dialogue: 50,0:14:50.39,0:14:53.99,Main-207-,,0,0,0,,If you promise to spare them, I'll tell you where it is.
+Dialogue: 0,0:14:54.03,0:14:55.73,Main-207-,,0,0,0,,[chuckles]
+Dialogue: 50,0:14:55.78,0:15:00.92,Main-207-,,0,0,0,,I'll... even show you.
+Dialogue: 50,0:15:00.92,0:15:02.09,Main-207-,,0,0,0,,Father.
+Dialogue: 0,0:15:02.09,0:15:04.13,Main-207-,,0,0,0,,[CROCODILE laughs]
+Dialogue: 50,0:15:04.20,0:15:09.10,Main-207-,,0,0,0,,Just what I'd expect from\Na king. You're a wise man.
+Dialogue: 50,0:15:09.13,0:15:10.94,Main-207-,,0,0,0,,[CHAKA]\NEnough.
+Dialogue: 50,0:15:10.97,0:15:15.47,Main-207-,,0,0,0,,I cannot take...\Nanother second of this!
+Dialogue: 0,0:15:37.68,0:15:39.21,Main-207-,,0,0,0,,Shut up.
+Dialogue: 0,0:15:39.25,0:15:41.88,Main-207-,,0,0,0,,[ZORO]\NHere, let me show you...
+Dialogue: 0,0:15:41.88,0:15:44.59,Main-207-,,0,0,0,,...the difference\Nin pride between...
+Dialogue: 50,0:15:46.59,0:15:48.56,Main-207-,,0,0,0,,[ZORO]\N...your swords and mine!
+Dialogue: 50,0:15:48.56,0:15:51.43,Main-207-,,0,0,0,,{\fad(150,150)}Three-Swords Style...
+Dialogue: 50,0:15:51.49,0:15:53.40,Main-207-,,0,0,0,,{\fad(150,150)}...Bull Needle!
+Dialogue: 50,0:15:56.26,0:15:58.23,Main-207-,,0,0,0,,{\fad(150,150)}Spider...
+Dialogue: 50,0:15:58.23,0:15:59.90,Main-207-,,0,0,0,,...Defense.
+Dialogue: 0,0:15:59.94,0:16:01.57,Main-207-,,0,0,0,,[yells]
+Dialogue: 0,0:16:17.25,0:16:18.22,Main-207-,,0,0,0,,[ZORO]\NHuh.
+Dialogue: 50,0:16:18.25,0:16:21.59,Main-207-,,0,0,0,,So basically, your body is as hard as steel.
+Dialogue: 50,0:16:21.59,0:16:24.86,Main-207-,,0,0,0,,Unless I can cut steel, I can't defeat you.
+Dialogue: 50,0:16:24.91,0:16:26.98,Main-207-,,0,0,0,,[MR. 1]\NThat would be correct.
+Dialogue: 50,0:16:27.05,0:16:30.92,Main-207-,,0,0,0,,Smashing and cutting attacks won't work on me.
+Dialogue: 50,0:16:32.62,0:16:34.32,Main-207-,,0,0,0,,Well, that bites, doesn't it?
+Dialogue: 50,0:16:34.39,0:16:36.29,Main-207-,,0,0,0,,I'm not capable of cutting steel yet,
+Dialogue: 50,0:16:36.36,0:16:38.52,Main-207-,,0,0,0,,so I guess there's only one thing left to do.
+Dialogue: 50,0:16:38.59,0:16:40.93,Main-207-,,0,0,0,,[MR. 1]\NHmph. And what's\Nthat, swordsman?
+Dialogue: 50,0:16:40.93,0:16:43.90,Main-207-,,0,0,0,,[ZORO]\NI'm gonna learn how\Nto cut it right here and now.
+Dialogue: 50,0:16:44.02,0:16:46.66,Main-207-,,0,0,0,,Really?
+Dialogue: 50,0:16:46.69,0:16:49.34,Main-207-,,0,0,0,,[ZORO]\NI've been waiting for a\Nchallenge just like this one.
+Dialogue: 50,0:16:49.34,0:16:50.97,Main-207-,,0,0,0,,I've been telling myself for a while now
+Dialogue: 50,0:16:51.01,0:16:54.34,Main-207-,,0,0,0,,that it's time to take my skills to the next level.
+Dialogue: 50,0:16:55.51,0:16:57.95,Main-207-,,0,0,0,,When I defeat you, Mr. 1,
+Dialogue: 50,0:16:57.98,0:16:59.52,Main-207-,,0,0,0,,I'll be the swordsman\Nstrong enough
+Dialogue: 50,0:16:59.52,0:17:02.62,Main-207-,,0,0,0,,to cut through anything,\Nincluding steel.
+Dialogue: 50,0:17:16.68,0:17:18.85,Main-207-,,0,0,0,,[MR. 1]\NHuh. When you defeat me?
+Dialogue: 50,0:17:18.85,0:17:21.18,Main-207-,,0,0,0,,That's rich. Ha.
+Dialogue: 50,0:17:21.18,0:17:23.59,Main-207-,,0,0,0,,I hate to shatter your\Ndelusions, pirate,
+Dialogue: 50,0:17:23.62,0:17:25.42,Main-207-,,0,0,0,,but I feel it's only\Nfair to warn you
+Dialogue: 50,0:17:25.45,0:17:27.86,Main-207-,,0,0,0,,that ever since I gained\NDice Dice Powers,
+Dialogue: 50,0:17:27.89,0:17:29.29,Main-207-,,0,0,0,,I've never been scratched
+Dialogue: 50,0:17:29.36,0:17:32.46,Main-207-,,0,0,0,,by those who call\Nthemselves swordsmen.
+Dialogue: 50,0:17:32.53,0:17:36.40,Main-207-,,0,0,0,,You'll soon see.\NNo enemy can defeat me.
+Dialogue: 50,0:17:36.56,0:17:38.49,Main-207-,,0,0,0,,[ZORO]\NOoh, I'm really scared.
+Dialogue: 50,0:17:38.52,0:17:40.39,Main-207-,,0,0,0,,Save those stories\Nfor your grandkids
+Dialogue: 50,0:17:40.42,0:17:42.03,Main-207-,,0,0,0,,if you live that long, pal.
+Dialogue: 50,0:17:42.06,0:17:44.50,Main-207-,,0,0,0,,Anyway, I don't know how many\Nswordsmen you've defeated,
+Dialogue: 50,0:17:44.53,0:17:47.50,Main-207-,,0,0,0,,but you've never fought me before.
+Dialogue: 50,0:17:47.50,0:17:49.33,Main-207-,,0,0,0,,So you better watch\Nwhat you say, big guy,
+Dialogue: 50,0:17:49.33,0:17:51.74,Main-207-,,0,0,0,,'cause you're about\Nto eat those words.
+Dialogue: 50,0:17:53.59,0:17:57.60,Main-207-,,0,0,0,,The only thing sharp about you is your tongue.
+Dialogue: 50,0:17:57.60,0:18:00.33,Main-207-,,0,0,0,,All right, fine. I warned you.
+Dialogue: 50,0:18:04.34,0:18:06.47,Main-207-,,0,0,0,,You won't last that long.
+Dialogue: 50,0:18:06.50,0:18:08.51,Main-207-,,0,0,0,,Look who's talking!
+Dialogue: 0,0:18:29.73,0:18:31.03,Main-207-,,0,0,0,,[ZORO]\NHuh?
+Dialogue: 0,0:18:33.33,0:18:38.34,Main-207-,,0,0,0,,[ZORO yelling]
+Dialogue: 0,0:18:47.98,0:18:49.32,Main-207-,,0,0,0,,[growls]
+Dialogue: 50,0:18:51.19,0:18:53.65,Main-207-,,0,0,0,,[ZORO]\NOni...
+Dialogue: 0,0:18:53.65,0:18:55.15,Main-207-,,0,0,0,,...giri!
+Dialogue: 50,0:18:59.54,0:19:03.58,Main-207-,,0,0,0,,{\fad(150,150)}[ZORO]\NTiger... Trap!
+Dialogue: 50,0:19:34.57,0:19:36.71,Main-207-,,0,0,0,,I told you.
+Dialogue: 50,0:19:39.38,0:19:41.15,Main-207-,,0,0,0,,[chuckles]\NWell,\NI've gotta admit,
+Dialogue: 50,0:19:41.21,0:19:44.48,Main-207-,,0,0,0,,I'm surprised you don't even have a single bruise.
+Dialogue: 50,0:19:44.54,0:19:46.44,Main-207-,,0,0,0,,This is the first time this has ever happened.
+Dialogue: 50,0:19:46.48,0:19:50.29,Main-207-,,0,0,0,,No opponent of mine is standing\Nafter an attack like that.
+Dialogue: 50,0:19:50.32,0:19:52.40,Main-207-,,0,0,0,,[MR. 1]\NAs true as that may be,
+Dialogue: 50,0:19:52.40,0:19:54.36,Main-207-,,0,0,0,,you've never fought\Nagainst me before,
+Dialogue: 50,0:19:54.40,0:19:57.27,Main-207-,,0,0,0,,so who's eating their words now?
+Dialogue: 0,0:19:57.33,0:19:59.17,Main-207-,,0,0,0,,[chuckles]
+Dialogue: 50,0:20:06.34,0:20:08.44,Main-207-,,0,0,0,,Oh, right!
+Dialogue: 50,0:20:08.44,0:20:10.75,Thoughts-207-,,0,0,0,,[ZORO]\NThis guy's entire\Nbody is a blade.
+Dialogue: 50,0:20:10.75,0:20:13.98,Thoughts-207-,,0,0,0,,So his blades don't have\Na front or a back!
+Dialogue: 0,0:20:14.02,0:20:15.15,Main-207-,,0,0,0,,[gasps]
+Dialogue: 50,0:20:17.75,0:20:19.99,Main-207-,,0,0,0,,{\fad(150,150)}[MR. 1]\NSparkling Daisy!
+Dialogue: 50,0:20:27.53,0:20:29.60,Thoughts-207-,,0,0,0,,[ZORO]\NThis is crazy!
+Dialogue: 50,0:20:31.33,0:20:33.04,Main-207-,,0,0,0,,Goodbye.
+Dialogue: 50,0:21:01.57,0:21:03.84,Thoughts-207-,,0,0,0,,[ZORO]\NWhen it comes to training...
+Dialogue: 50,0:21:03.84,0:21:07.58,Main-207-,,0,0,0,,...I've done more\Nthan anyone else.
+Dialogue: 50,0:21:07.61,0:21:08.68,Thoughts-207-,,0,0,0,,I've also been pushed\Nto the brink
+Dialogue: 50,0:21:08.71,0:21:14.02,Thoughts-207-,,0,0,0,,in plenty of bad situations,\Nbut always succeeded.
+Dialogue: 50,0:21:14.02,0:21:17.96,Thoughts-207-,,0,0,0,,[ZORO]\NBut what is it that\NI lack to beat this guy?
+Dialogue: 50,0:21:18.96,0:21:21.70,Flashbacks-207-,,0,0,0,,[ZORO]\NSensei! Sensei!
+Dialogue: 0,0:21:23.06,0:21:25.03,Main-207-,,0,0,0,,[TEACHER]\NHm?
+Dialogue: 50,0:21:25.03,0:21:26.90,Flashbacks-207-,,0,0,0,,Is it true there are\Nswordsmen in this world
+Dialogue: 50,0:21:26.94,0:21:28.87,Flashbacks-207-,,0,0,0,,who can cut anything,\Neven steel?
+Dialogue: 50,0:21:28.87,0:21:30.64,Flashbacks-207-,,0,0,0,,Well, is it?
+Dialogue: 50,0:21:32.73,0:21:36.50,Flashbacks-207-,,0,0,0,,Yes. It certainly is.
+Dialogue: 50,0:21:36.50,0:21:37.60,Flashbacks-207-,,0,0,0,,Now pay attention.
+Dialogue: 50,0:21:37.67,0:21:41.34,Flashbacks-207-,,0,0,0,,I want you to watch this paper very carefully, Zoro.
+Dialogue: 0,0:21:43.71,0:21:46.55,Main-207-,,0,0,0,,Ha!
+Dialogue: 50,0:21:46.58,0:21:48.95,Flashbacks-207-,,0,0,0,,[ZORO]\NSensei, you didn't even cut it.
+Dialogue: 50,0:21:49.02,0:21:49.92,Flashbacks-207-,,0,0,0,,[TEACHER]\NListen, Zoro.
+Dialogue: 50,0:21:49.96,0:21:53.64,Flashbacks-207-,,0,0,0,,This is an important lesson for you to learn.
+Dialogue: 50,0:21:53.69,0:21:54.86,Flashbacks-207-,,0,0,0,,There are swordsmen out there
+Dialogue: 50,0:21:54.86,0:21:58.39,Flashbacks-207-,,0,0,0,,who are capable of\Ncutting nothing.
+Dialogue: 50,0:21:58.42,0:22:01.70,Flashbacks-207-,,0,0,0,,However, these same swordsmen\Ncan also cut anything,
+Dialogue: 50,0:22:01.71,0:22:05.61,Flashbacks-207-,,0,0,0,,and that includes steel,\Nusing the same sword.
+Dialogue: 50,0:22:05.65,0:22:07.05,Flashbacks-207-,,0,0,0,,The strongest swordsmen\Nin the world
+Dialogue: 50,0:22:07.05,0:22:09.65,Flashbacks-207-,,0,0,0,,are able to protect that\Nwhich they want to protect,
+Dialogue: 50,0:22:09.72,0:22:12.42,Flashbacks-207-,,0,0,0,,but also cut that\Nwhich they want to cut.
+Dialogue: 50,0:22:13.22,0:22:15.92,Flashbacks-207-,,0,0,0,,Swordplay that always harms\Nwhatever it touches,
+Dialogue: 50,0:22:15.96,0:22:19.90,Flashbacks-207-,,0,0,0,,well, Zoro, that's not\Nreal swordsmanship.
+Dialogue: 50,0:22:19.90,0:22:21.80,Flashbacks-207-,,0,0,0,,Do you understand?
+Dialogue: 50,0:22:32.75,0:22:37.25,Flashbacks-207-,,0,0,0,,[ZORO]\NSensei, I'm gonna be a\Nswordsman who can cut anything!
+Dialogue: 50,0:22:37.32,0:22:39.02,Flashbacks-207-,,0,0,0,,[TEACHER]\NZoro, were you listening at all
+Dialogue: 50,0:22:39.06,0:22:40.92,Flashbacks-207-,,0,0,0,,to what I was saying?
+Dialogue: 0,0:22:44.04,0:22:45.21,Main-207-,,0,0,0,,[MR. 1]\NHuh?
+Dialogue: 50,0:22:50.22,0:22:55.12,Main-207-,,0,0,0,,Well, what are you waiting for?\NHurry up and attack me again.
+Dialogue: 50,0:22:55.16,0:22:59.93,Main-207-,,0,0,0,,You'll never win if all you do is defend.
+Dialogue: 50,0:22:59.96,0:23:01.13,Main-207-,,0,0,0,,Trust me, pal,
+Dialogue: 50,0:23:01.16,0:23:03.90,Main-207-,,0,0,0,,there's nothing I'd rather do\Nmore right now than that,
+Dialogue: 50,0:23:03.90,0:23:06.90,Main-207-,,0,0,0,,but my hands are a little\Nfull at the moment.
+Dialogue: 50,0:23:10.47,0:23:13.24,Main-207-,,0,0,0,,And it wasn't a threat, it was a promise.
+Dialogue: 50,0:23:13.24,0:23:17.11,Main-207-,,0,0,0,,I'm gonna cut steel\Nand you're gonna die.
+Dialogue: 50,0:23:17.14,0:23:18.61,Main-207-,,0,0,0,,I highly doubt it.
+Dialogue: 50,0:23:18.64,0:23:21.84,Main-207-,,0,0,0,,[ZORO]\NShame you won't\Nbe alive to see it.
+Dialogue: 50,0:23:27.25,0:23:32.02,Main-207-,,0,0,0,,Large or small... I'll cut\Neverything into pieces!
+Dialogue: 50,0:23:33.32,0:23:35.46,Thoughts-207-,,0,0,0,,[ZORO]\N"Swordplay that cuts nothing."
+Dialogue: 50,0:23:35.49,0:23:37.43,Thoughts-207-,,0,0,0,,What the hell did that mean?
+Dialogue: 50,0:23:37.46,0:23:40.36,Main-207-,,0,0,0,,Think!
+Dialogue: 50,0:23:40.74,0:23:44.21,Thoughts-207-,,0,0,0,,Cut nothing, but cut steel.
+Dialogue: 50,0:23:44.24,0:23:48.01,Thoughts-207-,,0,0,0,,It doesn't make any\Nsense at all!
+Dialogue: 50,0:23:48.05,0:23:49.65,Main-207-,,0,0,0,,Thrust and thrust!
+Dialogue: 50,0:23:49.68,0:23:52.32,Main-207-,,0,0,0,,That's the secret of\Npowerful swordplay!
+Dialogue: 50,0:23:52.35,0:23:55.09,Main-207-,,0,0,0,,{\fad(150,150)}Atomic Spar!
+Dialogue: 50,0:23:56.74,0:23:59.48,Main-207-,,0,0,0,,[ZORO]\NYou're not the\Nonly one who can cut!
+Dialogue: 0,0:24:20.50,0:24:22.17,Main-207-,,0,0,0,,[ZORO yells]
+Dialogue: 0,0:24:27.34,0:24:30.18,Main-207-,,0,0,0,,[ZORO]\NCrab... Grab!
+Dialogue: 50,0:24:51.40,0:24:54.71,Main-207-,,0,0,0,,You're really starting to piss me off.
+Dialogue: 50,0:24:54.74,0:24:57.08,Main-207-,,0,0,0,,The feeling's mutual.
+Dialogue: 50,0:24:57.09,0:25:00.36,Main-207-,,0,0,0,,Perhaps we'd be evenly matched\Nif I were a pathetic swordsman,
+Dialogue: 0,0:25:00.40,0:25:01.36,Main-207-,,0,0,0,,but I'm not.
+Dialogue: 50,0:25:01.38,0:25:04.72,Main-207-,,0,0,0,,My weapons are far nastier than mere swords.
+Dialogue: 50,0:25:04.78,0:25:07.28,Main-207-,,0,0,0,,Take this one, for example.
+Dialogue: 50,0:25:12.29,0:25:14.43,Main-207-,,0,0,0,,{\fad(150,150)}[MR. 1]\NSpiral Hollow!
+Dialogue: 50,0:25:18.46,0:25:21.80,Main-207-,,0,0,0,,Jeez, what are you?\NAn excavator?
+Dialogue: 50,0:25:21.83,0:25:24.27,Main-207-,,0,0,0,,[MR. 1]\NAn assassin, actually.
+Dialogue: 50,0:25:26.86,0:25:31.20,Thoughts-207-,,0,0,0,,[ZORO]\NSparks? Just how fast\Nare those blades spinning?
+Dialogue: 50,0:25:33.20,0:25:34.64,Thoughts-207-,,0,0,0,,[ZORO]\NOh, no!
+Dialogue: 50,0:25:36.31,0:25:39.44,Main-207-,,0,0,0,,However, I don't mind being called an excavator.
+Dialogue: 50,0:25:39.48,0:25:43.05,Main-207-,,0,0,0,,Because I'm going to be digging out your organs.
+Dialogue: 0,0:25:45.32,0:25:46.75,Main-207-,,0,0,0,,[ZORO groans]
+Dialogue: 0,0:25:57.39,0:25:59.33,Main-207-,,0,0,0,,[groaning]
+Dialogue: 50,0:25:59.40,0:26:03.73,Main-207-,,0,0,0,,[MR. 1]\NThere's only one thing\Nleft for you after defeat.
+Dialogue: 50,0:26:03.77,0:26:05.60,Main-207-,,0,0,0,,Death!
+Dialogue: 50,0:26:26.44,0:26:29.04,Main-207-,,0,0,0,,I'm surprised you're still alive.
+Dialogue: 50,0:26:33.88,0:26:37.12,Thoughts-207-,,0,0,0,,[ZORO]\NI will not show my back to him.
+Dialogue: 50,0:26:38.62,0:26:41.79,Main-207-,,0,0,0,,What are you going to\Nfight with? Your hands?
+Dialogue: 0,0:26:46.86,0:26:49.13,Main-207-,,0,0,0,,Even if I tried to\Nexplain it to you,
+Dialogue: 0,0:26:51.82,0:26:55.29,Main-207-,,0,0,0,,[groaning]
+Dialogue: 50,0:27:05.43,0:27:07.53,Main-207-,,0,0,0,,[MR. 1]\NDie in peace.
+Dialogue: 50,0:27:10.37,0:27:15.67,Thoughts-207-,,0,0,0,,[ZORO]\NI've had bad luck\Nwith stones today.
+Dialogue: 0,0:27:26.40,0:27:29.07,Main-207-,,0,0,0,,[ZORO]\NGo! Keep heading to Alubarna!
+Dialogue: 50,0:27:31.15,0:27:35.79,Thoughts-207-,,0,0,0,,[ZORO]\NI wonder... if the\Nrest of 'em... are okay.
+Dialogue: 0,0:27:44.62,0:27:45.78,Main-207-,,0,0,0,,[MR. 1]\NHm?
+Dialogue: 50,0:27:51.89,0:27:56.90,Main-207-,,0,0,0,,That's impossible. I cut\Nhim so many times.
+Dialogue: 50,0:27:56.93,0:27:59.83,Main-207-,,0,0,0,,Did he dodge all those falling stones?
+Dialogue: 50,0:28:05.67,0:28:09.74,Thoughts-207-,,0,0,0,,[ZORO]\NIs that what I did? Dodge them?
+Dialogue: 50,0:28:09.78,0:28:11.14,Thoughts-207-,,0,0,0,,No.
+Dialogue: 50,0:28:11.18,0:28:13.98,Thoughts-207-,,0,0,0,,I was just able to\Nsense the place
+Dialogue: 50,0:28:13.98,0:28:16.58,Thoughts-207-,,0,0,0,,where no stones would fall.
+Dialogue: 50,0:28:20.45,0:28:22.52,Thoughts-207-,,0,0,0,,[ZORO]\NMy swords...
+Dialogue: 50,0:28:22.59,0:28:27.60,Thoughts-207-,,0,0,0,,One of 'em's underneath\Nthat stone. I feel it.
+Dialogue: 0,0:28:27.63,0:28:29.93,Main-207-,,0,0,0,,[crumbling]
+Dialogue: 50,0:28:29.96,0:28:31.97,Main-207-,,0,0,0,,What is he doing?
+Dialogue: 50,0:28:40.47,0:28:43.44,Thoughts-207-,,0,0,0,,[ZORO]\NI've experienced\Nthis feeling before.
+Dialogue: 50,0:28:47.20,0:28:50.87,Thoughts-207-,,0,0,0,,[ZORO]\NEverything goes\Nquiet around me.
+Dialogue: 50,0:28:50.87,0:28:55.80,Thoughts-207-,,0,0,0,,So quiet... I can hear my\Nheartbeat so clearly.
+Dialogue: 0,0:28:57.51,0:28:58.84,Main-207-,,0,0,0,,[ZORO]\NIs this...?
+Dialogue: 50,0:28:58.84,0:29:03.68,Main-207-,,0,0,0,,Is this what it feels like when\Nyou're close to death?
+Dialogue: 50,0:29:03.78,0:29:08.62,Thoughts-207-,,0,0,0,,It was almost like... like those\Nfalling stones gave me a hint.
+Dialogue: 50,0:29:08.63,0:29:11.46,Thoughts-207-,,0,0,0,,As if they were living things.
+Dialogue: 50,0:29:11.50,0:29:16.20,Thoughts-207-,,0,0,0,,No, it wasn't a hint. It was\Nmuch clearer than that.
+Dialogue: 50,0:29:16.20,0:29:18.17,Main-207-,,0,0,0,,It was like...
+Dialogue: 50,0:29:18.26,0:29:20.06,Main-207-,,0,0,0,,...rhythm.
+Dialogue: 0,0:29:20.12,0:29:21.78,Main-207-,,0,0,0,,Could it be?
+Dialogue: 50,0:29:21.82,0:29:24.99,Thoughts-207-,,0,0,0,,Trees have their own rhythm.
+Dialogue: 50,0:29:25.07,0:29:27.14,Thoughts-207-,,0,0,0,,So does soil.
+Dialogue: 50,0:29:27.17,0:29:30.24,Thoughts-207-,,0,0,0,,Is that what it is?
+Dialogue: 50,0:29:30.27,0:29:32.98,Main-207-,,0,0,0,,[TEACHER]\NThis is an important\Nlesson for you to learn.
+Dialogue: 50,0:29:33.01,0:29:34.78,Flashbacks-207-,,0,0,0,,Zoro, there are swordsmen out there
+Dialogue: 50,0:29:34.81,0:29:37.15,Flashbacks-207-,,0,0,0,,who are capable of cutting nothing.
+Dialogue: 50,0:29:39.25,0:29:42.29,Thoughts-207-,,0,0,0,,[ZORO]\NDoes "cutting nothing"\Nmean hearing the rhythm
+Dialogue: 50,0:29:42.32,0:29:44.82,Thoughts-207-,,0,0,0,,of the things around you?
+Dialogue: 50,0:29:44.86,0:29:49.16,Thoughts-207-,,0,0,0,,If so, is that how\None can cut steel?
+Dialogue: 50,0:29:51.32,0:29:53.69,Main-207-,,0,0,0,,[MR. 1]\NWhat the hell did you do?
+Dialogue: 50,0:29:53.76,0:29:56.83,Main-207-,,0,0,0,,After a vicious\Nattack like that,
+Dialogue: 50,0:29:56.83,0:29:58.60,Main-207-,,0,0,0,,and all the blood you've lost,
+Dialogue: 50,0:29:58.63,0:30:00.71,Main-207-,,0,0,0,,there's no way you\Ncan still be alive!
+Dialogue: 50,0:30:00.71,0:30:02.04,Thoughts-207-,,0,0,0,,[ZORO]\NI hear it.
+Dialogue: 50,0:30:02.04,0:30:06.55,Thoughts-207-,,0,0,0,,His steel, it has a rhythm.
+Dialogue: 50,0:30:06.58,0:30:09.65,Thoughts-207-,,0,0,0,,Just like everything else around me.
+Dialogue: 0,0:30:19.33,0:30:20.39,Main-207-,,0,0,0,,[thud]
+Dialogue: 50,0:30:25.57,0:30:28.14,Main-207-,,0,0,0,,All right. Fine.
+Dialogue: 50,0:30:28.14,0:30:31.31,Main-207-,,0,0,0,,When I'm done, you're gonna\Nwish you'd stayed down.
+Dialogue: 50,0:30:32.62,0:30:35.59,Thoughts-207-,,0,0,0,,[ZORO]\NOnly one question remains.
+Dialogue: 50,0:30:35.59,0:30:38.86,Thoughts-207-,,0,0,0,,Do I really have the ability to cut steel?
+Dialogue: 50,0:30:38.89,0:30:42.29,Main-207-,,0,0,0,,Well, there's only one way to find out.
+Dialogue: 50,0:30:42.36,0:30:44.30,Main-207-,,0,0,0,,[MR. 1]\NYou failed with three swords.
+Dialogue: 50,0:30:44.36,0:30:47.43,Main-207-,,0,0,0,,Can you defend yourself with only one?
+Dialogue: 50,0:30:47.63,0:30:51.90,Main-207-,,0,0,0,,I won't... defend.
+Dialogue: 50,0:30:51.93,0:30:55.60,Main-207-,,0,0,0,,So you're prepared... to die!
+Dialogue: 50,0:30:57.60,0:31:02.61,Main-207-,,0,0,0,,{\fad(150,150)}[ZORO]\NOne-Sword Style... Lion Strike!
+Dialogue: 50,0:31:02.64,0:31:05.21,Main-207-,,0,0,0,,{\fad(150,150)}[MR. 1]\NAtomic Spurt!
+Dialogue: 0,0:31:20.05,0:31:21.82,Main-207-,,0,0,0,,[MR. 1 screams]
+Dialogue: 0,0:31:24.89,0:31:27.99,Main-207-,,0,0,0,,Thanks to you...
+Dialogue: 0,0:31:28.02,0:31:31.03,Main-207-,,0,0,0,,...I've finally reached\Nthe next level.
+Dialogue: 50,0:31:35.56,0:31:38.07,Thoughts-207-,,0,0,0,,[MR. 1]\NI don't know how,
+Dialogue: 50,0:31:38.07,0:31:43.74,Thoughts-207-,,0,0,0,,but he learned how to do it,\Njust like he said he would.
+Dialogue: 50,0:31:46.38,0:31:51.45,Main-207-,,0,0,0,,[MR. 1]\NNow that you've cut\Nsteel, what's next for you?
+Dialogue: 0,0:31:51.51,0:31:53.05,Main-207-,,0,0,0,,Diamonds?
+Dialogue: 50,0:31:54.86,0:31:57.92,Main-207-,,0,0,0,,No, that'd be a waste.
+Dialogue: 0,0:31:57.92,0:31:59.92,Main-207-,,0,0,0,,[chuckles, chokes]
+Dialogue: 50,0:31:59.92,0:32:02.02,Main-207-,,0,0,0,,[MR. 1]\NGood luck.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:01:49.96,0:01:55.05,Episode-Title-207-,,0,0,0,,{\blur0.5\fad(984,936)\3c&H151310&\c&H151310&\bord2\1a&HFF&\t(939,984,\1a&H00&)\t(4154,4199,\1a&HFF&)}Cutting Steel
+Dialogue: 1,0:01:49.96,0:01:55.05,Episode-Title-207-,,0,0,0,,{\blur0.5\fad(984,936)\c&HE5E6E6&\bord0\4a&HFF&}Cutting Steel
+Dialogue: 0,0:11:01.39,0:11:01.52,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Bat{\alpha&HFF&}tle Behind the Medi Assembly Hall
+Dialogue: 0,0:11:01.52,0:11:01.64,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle {\alpha&HFF&}Behind the Medi Assembly Hall
+Dialogue: 0,0:11:01.64,0:11:01.77,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Be{\alpha&HFF&}hind the Medi Assembly Hall
+Dialogue: 0,0:11:01.77,0:11:01.89,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind{\alpha&HFF&} the Medi Assembly Hall
+Dialogue: 0,0:11:01.89,0:11:02.39,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind the {\alpha&HFF&}Medi Assembly Hall
+Dialogue: 0,0:11:02.39,0:11:02.64,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind the Me{\alpha&HFF&}di Assembly Hall
+Dialogue: 0,0:11:02.64,0:11:02.81,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind the Medi {\alpha&HFF&}Assembly Hall
+Dialogue: 0,0:11:02.81,0:11:02.94,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind the Medi Ass{\alpha&HFF&}embly Hall
+Dialogue: 0,0:11:02.94,0:11:03.10,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind the Medi Assembly{\alpha&HFF&} Hall
+Dialogue: 0,0:11:03.10,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&H000000&\3c&H000000&\alpha&H25&}Battle Behind the Medi Assembly Hall
+Dialogue: 0,0:11:03.65,0:11:03.81,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(580.67,899.67)\c&H000000&\3c&H000000&\alpha&H20&}A{\alpha&HFF&}lubarna North Block
+Dialogue: 0,0:11:03.81,0:11:03.94,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(580.67,899.67)\c&H000000&\3c&H000000&\alpha&H20&}Alu{\alpha&HFF&}barna North Block
+Dialogue: 0,0:11:03.94,0:11:04.15,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Aluba{\alpha&HFF&}rna North Block
+Dialogue: 0,0:11:04.15,0:11:04.40,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubar{\alpha&HFF&}na North Block
+Dialogue: 0,0:11:04.40,0:11:04.65,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna {\alpha&HFF&}North Block
+Dialogue: 0,0:11:04.65,0:11:05.15,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna No{\alpha&HFF&}rth Block
+Dialogue: 0,0:11:05.15,0:11:05.31,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna Nor{\alpha&HFF&}th Block
+Dialogue: 0,0:11:05.31,0:11:05.48,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna North{\alpha&HFF&} Block
+Dialogue: 0,0:11:05.48,0:11:05.65,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna North B{\alpha&HFF&}lock
+Dialogue: 0,0:11:05.65,0:11:05.90,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna North Blo{\alpha&HFF&}ck
+Dialogue: 0,0:11:05.90,0:11:06.15,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna North Bloc{\alpha&HFF&}k
+Dialogue: 0,0:11:06.15,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&H000000&\3c&H000000&\alpha&H20&}Alubarna North Block
+Dialogue: 0,0:11:07.02,0:11:07.40,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&H000000&\3c&H000000&\alpha&H20&}Win{\alpha&HFF&}ner: Nami
+Dialogue: 0,0:11:07.40,0:11:08.15,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&H000000&\3c&H000000&\alpha&H20&}Winner: {\alpha&HFF&}Nami
+Dialogue: 0,0:11:08.15,0:11:08.40,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&H000000&\3c&H000000&\alpha&H20&}Winner: Na{\alpha&HFF&}mi
+Dialogue: 0,0:11:08.40,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&H000000&\3c&H000000&\alpha&H20&}Winner: Nami
+Dialogue: 1,0:11:01.39,0:11:01.52,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Bat{\alpha&HFF&}tle Behind the Medi Assembly Hall
+Dialogue: 1,0:11:01.52,0:11:01.64,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle {\alpha&HFF&}Behind the Medi Assembly Hall
+Dialogue: 1,0:11:01.64,0:11:01.77,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Be{\alpha&HFF&}hind the Medi Assembly Hall
+Dialogue: 1,0:11:01.77,0:11:01.89,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind{\alpha&HFF&} the Medi Assembly Hall
+Dialogue: 1,0:11:01.89,0:11:02.39,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind the {\alpha&HFF&}Medi Assembly Hall
+Dialogue: 1,0:11:02.39,0:11:02.64,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind the Me{\alpha&HFF&}di Assembly Hall
+Dialogue: 1,0:11:02.64,0:11:02.81,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind the Medi {\alpha&HFF&}Assembly Hall
+Dialogue: 1,0:11:02.81,0:11:02.94,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind the Medi Ass{\alpha&HFF&}embly Hall
+Dialogue: 1,0:11:02.94,0:11:03.10,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind the Medi Assembly{\alpha&HFF&} Hall
+Dialogue: 1,0:11:03.10,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Battle Behind the Medi Assembly Hall
+Dialogue: 1,0:11:03.65,0:11:03.81,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(580.67,899.67)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}A{\alpha&HFF&}lubarna North Block
+Dialogue: 1,0:11:03.81,0:11:03.94,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(580.67,899.67)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alu{\alpha&HFF&}barna North Block
+Dialogue: 1,0:11:03.94,0:11:04.15,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Aluba{\alpha&HFF&}rna North Block
+Dialogue: 1,0:11:04.15,0:11:04.40,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubar{\alpha&HFF&}na North Block
+Dialogue: 1,0:11:04.40,0:11:04.65,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna {\alpha&HFF&}North Block
+Dialogue: 1,0:11:04.65,0:11:05.15,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna No{\alpha&HFF&}rth Block
+Dialogue: 1,0:11:05.15,0:11:05.31,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna Nor{\alpha&HFF&}th Block
+Dialogue: 1,0:11:05.31,0:11:05.48,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna North{\alpha&HFF&} Block
+Dialogue: 1,0:11:05.48,0:11:05.65,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna North B{\alpha&HFF&}lock
+Dialogue: 1,0:11:05.65,0:11:05.90,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna North Blo{\alpha&HFF&}ck
+Dialogue: 1,0:11:05.90,0:11:06.15,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna North Bloc{\alpha&HFF&}k
+Dialogue: 1,0:11:06.15,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Alubarna North Block
+Dialogue: 1,0:11:07.02,0:11:07.40,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Win{\alpha&HFF&}ner: Nami
+Dialogue: 1,0:11:07.40,0:11:08.15,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Winner: {\alpha&HFF&}Nami
+Dialogue: 1,0:11:08.15,0:11:08.40,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Winner: Na{\alpha&HFF&}mi
+Dialogue: 1,0:11:08.40,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\3c&HFBFBFC&\c&HFBFBFC&\4a&HFF&\bord0.5}Winner: Nami
+Dialogue: 2,0:11:01.39,0:11:01.52,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Bat{\alpha&HFF&}tle Behind the Medi Assembly Hall
+Dialogue: 2,0:11:01.52,0:11:01.64,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle {\alpha&HFF&}Behind the Medi Assembly Hall
+Dialogue: 2,0:11:01.64,0:11:01.77,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Be{\alpha&HFF&}hind the Medi Assembly Hall
+Dialogue: 2,0:11:01.77,0:11:01.89,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind{\alpha&HFF&} the Medi Assembly Hall
+Dialogue: 2,0:11:01.89,0:11:02.39,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind the {\alpha&HFF&}Medi Assembly Hall
+Dialogue: 2,0:11:02.39,0:11:02.64,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind the Me{\alpha&HFF&}di Assembly Hall
+Dialogue: 2,0:11:02.64,0:11:02.81,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind the Medi {\alpha&HFF&}Assembly Hall
+Dialogue: 2,0:11:02.81,0:11:02.94,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind the Medi Ass{\alpha&HFF&}embly Hall
+Dialogue: 2,0:11:02.94,0:11:03.10,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind the Medi Assembly{\alpha&HFF&} Hall
+Dialogue: 2,0:11:03.10,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(752,785)\c&HFBFBFC&\4a&HFF&}Battle Behind the Medi Assembly Hall
+Dialogue: 2,0:11:03.65,0:11:03.81,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(580.67,899.67)\c&HFBFBFC&\4a&HFF&}A{\alpha&HFF&}lubarna North Block
+Dialogue: 2,0:11:03.81,0:11:03.94,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx70\fscy85\pos(580.67,899.67)\c&HFBFBFC&\4a&HFF&}Alu{\alpha&HFF&}barna North Block
+Dialogue: 2,0:11:03.94,0:11:04.15,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Aluba{\alpha&HFF&}rna North Block
+Dialogue: 2,0:11:04.15,0:11:04.40,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubar{\alpha&HFF&}na North Block
+Dialogue: 2,0:11:04.40,0:11:04.65,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna {\alpha&HFF&}North Block
+Dialogue: 2,0:11:04.65,0:11:05.15,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna No{\alpha&HFF&}rth Block
+Dialogue: 2,0:11:05.15,0:11:05.31,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna Nor{\alpha&HFF&}th Block
+Dialogue: 2,0:11:05.31,0:11:05.48,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna North{\alpha&HFF&} Block
+Dialogue: 2,0:11:05.48,0:11:05.65,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna North B{\alpha&HFF&}lock
+Dialogue: 2,0:11:05.65,0:11:05.90,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna North Blo{\alpha&HFF&}ck
+Dialogue: 2,0:11:05.90,0:11:06.15,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna North Bloc{\alpha&HFF&}k
+Dialogue: 2,0:11:06.15,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\pos(580.67,899.67)\fscx70\fscy85\fnDFPGiHi-W7-Strp\q2\c&HFBFBFC&\4a&HFF&}Alubarna North Block
+Dialogue: 2,0:11:07.02,0:11:07.40,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&HFBFBFC&\4a&HFF&}Win{\alpha&HFF&}ner: Nami
+Dialogue: 2,0:11:07.40,0:11:08.15,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&HFBFBFC&\4a&HFF&}Winner: {\alpha&HFF&}Nami
+Dialogue: 2,0:11:08.15,0:11:08.40,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&HFBFBFC&\4a&HFF&}Winner: Na{\alpha&HFF&}mi
+Dialogue: 2,0:11:08.40,0:11:10.53,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.6\q2\fnDFPGiHi-W7-Strp\fscx85.05\fscy109.35\pos(583.33,1035.67)\c&HFBFBFC&\4a&HFF&}Winner: Nami
+Dialogue: 0,0:15:27.70,0:15:35.04,Episode-Captions-207-,,0,0,0,,{\q2\pos(744,605)\fad(450,0)\blur0.6\bord4.8\fscx75.05\fscy96.9\fnDFPGiHi-W7-Strp\c&H000000&\1a&HFF&\t(405,450,\1a&H00&)}Medi Assembly Hall, Main Street\NNorth Block
+Dialogue: 1,0:15:27.70,0:15:35.04,Episode-Captions-207-,,0,0,0,,{\q2\pos(744,605)\fad(450,0)\blur0.6\bord0.5\fscx75.05\fscy96.9\fnDFPGiHi-W7-Strp\3c&HFFFFFF&\1a&HFF&\4a&HFF&\t(405,450,\1a&H00&)}Medi Assembly Hall, Main Street\NNorth Block
+Dialogue: 2,0:15:27.70,0:15:35.04,Episode-Captions-207-,,0,0,0,,{\q2\pos(744,605)\fad(450,0)\blur0.6\bord0\fscx75.05\fscy96.9\fnDFPGiHi-W7-Strp\4a&HFF&}Medi Assembly Hall, Main Street\NNorth Block
+Dialogue: 0,0:32:11.91,0:32:12.16,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Bat{\alpha&HFF&}tle in Front of the Medi Assembly Hall
+Dialogue: 0,0:32:12.16,0:32:12.54,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle{\alpha&HFF&} in Front of the Medi Assembly Hall
+Dialogue: 0,0:32:12.54,0:32:12.66,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in {\alpha&HFF&}Front of the Medi Assembly Hall
+Dialogue: 0,0:32:12.66,0:32:13.08,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front {\alpha&HFF&}of the Medi Assembly Hall
+Dialogue: 0,0:32:13.08,0:32:13.58,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front of{\alpha&HFF&} the Medi Assembly Hall
+Dialogue: 0,0:32:13.58,0:32:13.70,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front of the {\alpha&HFF&}Medi Assembly Hall
+Dialogue: 0,0:32:13.70,0:32:13.91,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front of the Medi {\alpha&HFF&}Assembly Hall
+Dialogue: 0,0:32:13.91,0:32:14.04,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front of the Medi Ass{\alpha&HFF&}embly Hall
+Dialogue: 0,0:32:14.04,0:32:14.29,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front of the Medi Assembly {\alpha&HFF&}Hall
+Dialogue: 0,0:32:14.29,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&H000000&\3c&H000000&\alpha&H10&}Battle in Front of the Medi Assembly Hall
+Dialogue: 0,0:32:14.90,0:32:15.08,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}A{\alpha&HFF&}lubarna North Block
+Dialogue: 0,0:32:15.08,0:32:15.41,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alu{\alpha&HFF&}barna North Block
+Dialogue: 0,0:32:15.41,0:32:15.66,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Aluba{\alpha&HFF&}rna North Block
+Dialogue: 0,0:32:15.66,0:32:16.04,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubar{\alpha&HFF&}na North Block
+Dialogue: 0,0:32:16.04,0:32:16.16,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna {\alpha&HFF&}North Block
+Dialogue: 0,0:32:16.16,0:32:16.29,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna No{\alpha&HFF&}rth Block
+Dialogue: 0,0:32:16.29,0:32:16.66,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna Nor{\alpha&HFF&}th Block
+Dialogue: 0,0:32:16.66,0:32:16.91,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna North{\alpha&HFF&} Block
+Dialogue: 0,0:32:16.91,0:32:17.17,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna North B{\alpha&HFF&}lock
+Dialogue: 0,0:32:17.17,0:32:17.54,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna North Blo{\alpha&HFF&}ck
+Dialogue: 0,0:32:17.54,0:32:17.67,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna North Bloc{\alpha&HFF&}k
+Dialogue: 0,0:32:17.67,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&H000000&\3c&H000000&\alpha&H10&}Alubarna North Block
+Dialogue: 0,0:32:18.58,0:32:18.92,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&H000000&\3c&H000000&\alpha&H10&}Win{\alpha&HFF&}ner: Zoro
+Dialogue: 0,0:32:18.92,0:32:20.13,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&H000000&\3c&H000000&\alpha&H10&}Winner:{\alpha&HFF&} Zoro
+Dialogue: 0,0:32:20.13,0:32:20.38,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&H000000&\3c&H000000&\alpha&H10&}Winner: Zo{\alpha&HFF&}ro
+Dialogue: 0,0:32:20.38,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\bord5\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&H000000&\3c&H000000&\alpha&H10&}Winner: Zoro
+Dialogue: 1,0:32:11.91,0:32:12.16,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Bat{\alpha&HFF&}tle in Front of the Medi Assembly Hall
+Dialogue: 1,0:32:12.16,0:32:12.54,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle{\alpha&HFF&} in Front of the Medi Assembly Hall
+Dialogue: 1,0:32:12.54,0:32:12.66,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in {\alpha&HFF&}Front of the Medi Assembly Hall
+Dialogue: 1,0:32:12.66,0:32:13.08,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front {\alpha&HFF&}of the Medi Assembly Hall
+Dialogue: 1,0:32:13.08,0:32:13.58,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front of{\alpha&HFF&} the Medi Assembly Hall
+Dialogue: 1,0:32:13.58,0:32:13.70,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front of the {\alpha&HFF&}Medi Assembly Hall
+Dialogue: 1,0:32:13.70,0:32:13.91,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front of the Medi {\alpha&HFF&}Assembly Hall
+Dialogue: 1,0:32:13.91,0:32:14.04,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front of the Medi Ass{\alpha&HFF&}embly Hall
+Dialogue: 1,0:32:14.04,0:32:14.29,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front of the Medi Assembly {\alpha&HFF&}Hall
+Dialogue: 1,0:32:14.29,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Battle in Front of the Medi Assembly Hall
+Dialogue: 1,0:32:14.90,0:32:15.08,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}A{\alpha&HFF&}lubarna North Block
+Dialogue: 1,0:32:15.08,0:32:15.41,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alu{\alpha&HFF&}barna North Block
+Dialogue: 1,0:32:15.41,0:32:15.66,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Aluba{\alpha&HFF&}rna North Block
+Dialogue: 1,0:32:15.66,0:32:16.04,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubar{\alpha&HFF&}na North Block
+Dialogue: 1,0:32:16.04,0:32:16.16,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna {\alpha&HFF&}North Block
+Dialogue: 1,0:32:16.16,0:32:16.29,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna No{\alpha&HFF&}rth Block
+Dialogue: 1,0:32:16.29,0:32:16.66,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna Nor{\alpha&HFF&}th Block
+Dialogue: 1,0:32:16.66,0:32:16.91,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna North{\alpha&HFF&} Block
+Dialogue: 1,0:32:16.91,0:32:17.17,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna North B{\alpha&HFF&}lock
+Dialogue: 1,0:32:17.17,0:32:17.54,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna North Blo{\alpha&HFF&}ck
+Dialogue: 1,0:32:17.54,0:32:17.67,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna North Bloc{\alpha&HFF&}k
+Dialogue: 1,0:32:17.67,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Alubarna North Block
+Dialogue: 1,0:32:18.58,0:32:18.92,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Win{\alpha&HFF&}ner: Zoro
+Dialogue: 1,0:32:18.92,0:32:20.13,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Winner:{\alpha&HFF&} Zoro
+Dialogue: 1,0:32:20.13,0:32:20.38,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Winner: Zo{\alpha&HFF&}ro
+Dialogue: 1,0:32:20.38,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\3c&HFAFBFB&\c&HFAFBFB&\4a&HFF&\bord0.5}Winner: Zoro
+Dialogue: 2,0:32:11.91,0:32:12.16,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Bat{\alpha&HFF&}tle in Front of the Medi Assembly Hall
+Dialogue: 2,0:32:12.16,0:32:12.54,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle{\alpha&HFF&} in Front of the Medi Assembly Hall
+Dialogue: 2,0:32:12.54,0:32:12.66,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in {\alpha&HFF&}Front of the Medi Assembly Hall
+Dialogue: 2,0:32:12.66,0:32:13.08,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front {\alpha&HFF&}of the Medi Assembly Hall
+Dialogue: 2,0:32:13.08,0:32:13.58,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front of{\alpha&HFF&} the Medi Assembly Hall
+Dialogue: 2,0:32:13.58,0:32:13.70,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front of the {\alpha&HFF&}Medi Assembly Hall
+Dialogue: 2,0:32:13.70,0:32:13.91,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front of the Medi {\alpha&HFF&}Assembly Hall
+Dialogue: 2,0:32:13.91,0:32:14.04,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front of the Medi Ass{\alpha&HFF&}embly Hall
+Dialogue: 2,0:32:14.04,0:32:14.29,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front of the Medi Assembly {\alpha&HFF&}Hall
+Dialogue: 2,0:32:14.29,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(749,780)\c&HFAFBFB&\4a&HFF&}Battle in Front of the Medi Assembly Hall
+Dialogue: 2,0:32:14.90,0:32:15.08,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}A{\alpha&HFF&}lubarna North Block
+Dialogue: 2,0:32:15.08,0:32:15.41,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alu{\alpha&HFF&}barna North Block
+Dialogue: 2,0:32:15.41,0:32:15.66,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Aluba{\alpha&HFF&}rna North Block
+Dialogue: 2,0:32:15.66,0:32:16.04,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubar{\alpha&HFF&}na North Block
+Dialogue: 2,0:32:16.04,0:32:16.16,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna {\alpha&HFF&}North Block
+Dialogue: 2,0:32:16.16,0:32:16.29,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna No{\alpha&HFF&}rth Block
+Dialogue: 2,0:32:16.29,0:32:16.66,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna Nor{\alpha&HFF&}th Block
+Dialogue: 2,0:32:16.66,0:32:16.91,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna North{\alpha&HFF&} Block
+Dialogue: 2,0:32:16.91,0:32:17.17,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna North B{\alpha&HFF&}lock
+Dialogue: 2,0:32:17.17,0:32:17.54,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna North Blo{\alpha&HFF&}ck
+Dialogue: 2,0:32:17.54,0:32:17.67,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna North Bloc{\alpha&HFF&}k
+Dialogue: 2,0:32:17.67,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx65\fscy80\pos(650,892.33)\c&HFAFBFB&\4a&HFF&}Alubarna North Block
+Dialogue: 2,0:32:18.58,0:32:18.92,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&HFAFBFB&\4a&HFF&}Win{\alpha&HFF&}ner: Zoro
+Dialogue: 2,0:32:18.92,0:32:20.13,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&HFAFBFB&\4a&HFF&}Winner:{\alpha&HFF&} Zoro
+Dialogue: 2,0:32:20.13,0:32:20.38,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&HFAFBFB&\4a&HFF&}Winner: Zo{\alpha&HFF&}ro
+Dialogue: 2,0:32:20.38,0:32:22.75,Episode-Captions-207-,,0,0,0,,{\bord0\blur0.7\q2\fnDFPGiHi-W7-Strp\fscx84\fscy102\pos(566,1021)\c&HFAFBFB&\4a&HFF&}Winner: Zoro
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Video Editing
+Dialogue: 1,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Video Editing
+Dialogue: 0,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Gigglebot\NZenef
+Dialogue: 1,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Gigglebot\NZenef
+Dialogue: 0,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Typesetting
+Dialogue: 1,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Typesetting
+Dialogue: 0,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}PhosCity
+Dialogue: 1,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}PhosCity
+Dialogue: 0,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3800,3845,\1a&HFF&)}Quality Control
+Dialogue: 1,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Quality Control
+Dialogue: 0,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3800,3845,\1a&HFF&)}Galaxy 9000\NPepperjack\NScolines
+Dialogue: 1,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Galaxy 9000\NPepperjack\NScolines
+Dialogue: 0,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Soundtracking
+Dialogue: 1,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Halee
+Dialogue: 1,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Halee
+Dialogue: 0,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Graphics
+Dialogue: 1,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Graphics
+Dialogue: 0,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Datenshi
+Dialogue: 1,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Datenshi
+Dialogue: 0,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Karaoke
+Dialogue: 1,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Karaoke
+Dialogue: 0,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}KaitouYahiko
+Dialogue: 1,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Closed Captioning
+Dialogue: 1,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Closed Captioning
+Dialogue: 0,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Translation
+Dialogue: 1,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Translation
+Dialogue: 0,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Funimation\NGaijin
+Dialogue: 1,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Funimation\NGaijin
+Dialogue: 0,0:00:19.73,0:00:22.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(60,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2800,2845,\1a&HFF&)}Raws
+Dialogue: 1,0:00:19.73,0:00:22.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(60,40)\fad(600,200)\4a&HFF&}Raws
+Dialogue: 0,0:00:19.73,0:00:22.73,Episode-Credits-207-,,0,0,0,,{\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(2800,2845,\1a&HFF&)}Neo-Raws
+Dialogue: 1,0:00:19.73,0:00:22.73,Episode-Credits-207-,,0,0,0,,{\bord0\blur0.6\pos(90,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}Neo-Raws
+Dialogue: 0,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\an9}{\blur0.6\pos(1380,40)\fad(600,200)\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Timing
+Dialogue: 1,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\an9}{\bord0\blur0.6\pos(1380,40)\fad(600,200)\4a&HFF&}Timing
+Dialogue: 0,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\an9}{\blur0.6\pos(1350,83)\fad(600,200)\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\an9}{\bord0\blur0.6\pos(1350,83)\fad(600,200)\fscx115\fscy120\4a&HFF&}NateTheBird
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4

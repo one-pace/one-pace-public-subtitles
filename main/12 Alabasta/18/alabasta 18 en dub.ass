@@ -1,0 +1,596 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 1080
+LayoutResX: 1440
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+WrapStyle: 0
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Karaoke,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,8,23,23,23,1
+Style: Narration,Impress BT Pace,74,&H00D2EBF7,&H000000FF,&H00141414,&H96000000,0,-1,0,0,100,100,1,0,1,3,2,2,180,180,40,1
+Style: Dedication,Complete in Him ESP,120,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,10,10,10,1
+Style: Typeset things,Candara,83,&H00F6FBF6,&H00F5FEF5,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4.5,0,5,45,45,45,0
+Style: RogerMonologue,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Translation,Duality,68,&H00292CC7,&H000019FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,4,0,1,6.8,0,2,23,23,34,1
+Style: OP Lyrics,Kanit SemiBold,100,&H00F0F4FF,&H00F0F4FF,&H0030103A,&H7016081A,0,0,0,0,100,100,1,0,1,3.6,2.4,2,60,60,50,1
+Style: OP Lyrics Active,Kanit SemiBold,100,&H005F5AFF,&HFF5F5AFF,&HFF30103A,&HFF16081A,0,0,0,0,100,100,1,0,1,0,0,2,60,60,50,1
+Style: OP Lyrics Glow,Kanit SemiBold,100,&HFF3D8AFF,&HFF3D8AFF,&H783D8AFF,&HFF16081A,0,0,0,0,100,100,1,0,1,7,0,2,60,60,50,1
+Style: OP Lyrics Accent,Kanit SemiBold,100,&HFFFFC66E,&HFFFFC66E,&H00FFC66E,&HFF16081A,0,0,0,0,100,100,1,0,1,3,0,2,60,60,50,1
+Style: OP Spoken,Kanit Medium,78,&H00D2EBF7,&H00D2EBF7,&H00141414,&H8C000000,0,1,0,0,100,100,1,0,1,3,2,2,160,160,60,1
+Style: Dub OP Believe,Dub OP Visual Duality,68,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,10,10,10,1
+Style: Episode-Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
+Style: Episode-Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Episode-Credits-207-,FOT-Greco Std B Strp,50,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,3,0,7,16,16,16,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=0}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:33.84,0:00:33.87,Default,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:42.32,0:01:42.35,Default,chptr,0,0,0,,{Episode}
+Comment: 0,0:00:33.84,0:00:33.87,Default,OP,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:49.92,0:01:59.91,Warning,,0,0,0,,{\fscx0\fscy0\clip(0,0,0,0)\org(0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=1}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=2}===============================DIALOGUE============================
+Dialogue: 50,0:01:51.03,0:01:53.43,Main-207-,,0,0,0,,{\an8}I don't know that I've even heard of such a company.
+Dialogue: 50,0:01:55.00,0:01:56.83,Main-207-,,0,0,0,,{\an8}Are you sure it exists?
+Dialogue: 50,0:01:56.90,0:02:01.27,Main-207-,,0,0,0,,{\an8}We're just ordinary citizens of Alabasta, Mr. Marine.
+Dialogue: 50,0:02:01.30,0:02:02.91,Main-207-,,0,0,0,,You wouldn't wanna\Nhurt good citizens
+Dialogue: 50,0:02:02.94,0:02:04.47,Main-207-,,0,0,0,,just because there's a rebellion.
+Dialogue: 50,0:02:07.58,0:02:08.85,Main-207-,,0,0,0,,Wait, Sergeant Major, they...!
+Dialogue: 50,0:02:08.92,0:02:10.42,Main-207-,,0,0,0,,Shut up!
+Dialogue: 50,0:02:10.42,0:02:12.82,Main-207-,,0,0,0,,Why were you hesitating, Marine?
+Dialogue: 50,0:02:12.86,0:02:15.26,Main-207-,,0,0,0,,If you wait for proof, you won't prevent anything.
+Dialogue: 50,0:02:15.29,0:02:18.27,Main-207-,,0,0,0,,You should be able to tell\Nwho the enemy is immediately!
+Dialogue: 50,0:02:18.27,0:02:20.80,Main-207-,,0,0,0,,Yes! We're very\Nsorry, Sergeant!
+Dialogue: 50,0:02:20.87,0:02:22.94,Thoughts-207-,,0,0,0,,We only have until 4:30.
+Dialogue: 50,0:02:22.97,0:02:25.27,Thoughts-207-,,0,0,0,,We're running out of time.
+Dialogue: 50,0:02:27.54,0:02:29.12,Main-207-,,0,0,0,,The clock.
+Dialogue: 50,0:02:29.12,0:02:30.65,Main-207-,,0,0,0,,Ribbit, ribbit, ribbit.
+Dialogue: 50,0:02:30.69,0:02:32.06,Main-207-,,0,0,0,,Hey, listen, Mr. 7.
+Dialogue: 50,0:02:32.12,0:02:34.02,Main-207-,,0,0,0,,I think this is a very\Nimportant mission
+Dialogue: 50,0:02:34.06,0:02:35.99,Main-207-,,0,0,0,,the boss has assigned to us.
+Dialogue: 50,0:02:36.02,0:02:37.66,Main-207-,,0,0,0,,I think you're\Nabsolutely correct
+Dialogue: 50,0:02:37.69,0:02:39.80,Main-207-,,0,0,0,,about that, Miss Father's Day.
+Dialogue: 50,0:02:39.83,0:02:40.96,Main-207-,,0,0,0,,And do you know what else?
+Dialogue: 50,0:02:41.00,0:02:42.66,Main-207-,,0,0,0,,I bet we'll get big promotions
+Dialogue: 50,0:02:42.70,0:02:44.83,Main-207-,,0,0,0,,for pulling this off successfully, ribbit, ribbit.
+Dialogue: 50,0:02:46.97,0:02:49.37,Main-207-,,0,0,0,,I do hope that that is\Nthe planned reward.
+Dialogue: 50,0:02:49.40,0:02:51.37,Main-207-,,0,0,0,,After all, this is quite\Na difficult mission
+Dialogue: 50,0:02:51.39,0:02:53.36,Main-207-,,0,0,0,,when you think about it,\NMiss Father's Day.
+Dialogue: 50,0:02:53.39,0:02:54.96,Main-207-,,0,0,0,,We're shooting a cannonball\Ninto the crowd
+Dialogue: 50,0:02:54.97,0:02:56.60,Main-207-,,0,0,0,,using such a big cannon!
+Dialogue: 50,0:02:59.87,0:03:01.94,Main-207-,,0,0,0,,So the reward should\Nbe just as big!
+Dialogue: 0,0:03:06.78,0:03:07.61,Main-207-,,0,0,0,,Ribbit!
+Dialogue: 50,0:03:07.61,0:03:10.55,Main-207-,,0,0,0,,It's almost time\Nto go now, Mr. 7!
+Dialogue: 50,0:03:10.62,0:03:15.46,Main-207-,,0,0,0,,We're ready to fire! Yeah!
+Dialogue: 50,0:03:27.68,0:03:30.32,Main-207-,,0,0,0,,What is it you're saying?
+Dialogue: 50,0:03:30.35,0:03:34.35,Main-207-,,0,0,0,,What is it that you think I do\Nnot understand, Straw Hat?
+Dialogue: 0,0:03:42.38,0:03:44.59,Main-207-,,0,0,0,,Gum-Gum...
+Dialogue: 0,0:03:44.62,0:03:46.96,Main-207-,,0,0,0,,...Gatling!
+Dialogue: 50,0:03:54.73,0:03:56.33,Main-207-,,0,0,0,,I don't think you understand.
+Dialogue: 50,0:03:56.40,0:03:58.97,Main-207-,,0,0,0,,You're going to die here very soon.
+Dialogue: 50,0:03:59.00,0:04:02.27,Main-207-,,0,0,0,,The poison from my hook has entered your wound.
+Dialogue: 50,0:04:04.64,0:04:06.51,Main-207-,,0,0,0,,Your body is probably becoming
+Dialogue: 50,0:04:06.58,0:04:08.48,Main-207-,,0,0,0,,numb right now.
+Dialogue: 50,0:04:10.18,0:04:12.61,Main-207-,,0,0,0,,It doesn't matter whether you win or lose this fight.
+Dialogue: 50,0:04:12.65,0:04:15.02,Main-207-,,0,0,0,,Your body will still be\Nburied underneath the rubble
+Dialogue: 50,0:04:15.08,0:04:17.02,Main-207-,,0,0,0,,when this temple collapses.
+Dialogue: 50,0:04:17.08,0:04:19.42,Main-207-,,0,0,0,,Fifteen seconds until we shoot!
+Dialogue: 50,0:04:19.78,0:04:22.48,Main-207-,,0,0,0,,Cannon aimed at the center\Nof Palace Square,
+Dialogue: 50,0:04:22.51,0:04:25.15,Main-207-,,0,0,0,,ribbit, ribbit.
+Dialogue: 50,0:04:25.18,0:04:27.12,Main-207-,,0,0,0,,Fire!
+Dialogue: 50,0:04:28.35,0:04:30.99,Main-207-,,0,0,0,,Hey, Nami! What the hell is it\Nyou're trying to do anyway?
+Dialogue: 50,0:04:31.02,0:04:33.16,Main-207-,,0,0,0,,We really don't have time to play around!
+Dialogue: 50,0:04:33.19,0:04:35.46,Main-207-,,0,0,0,,If we mess this up,\Nwe're gonna die!
+Dialogue: 50,0:04:35.47,0:04:36.34,Main-207-,,0,0,0,,Hey!
+Dialogue: 50,0:04:36.37,0:04:37.54,Main-207-,,0,0,0,,Thanks, Usopp, but I\Nalready know that!
+Dialogue: 50,0:04:37.64,0:04:41.24,Main-207-,,0,0,0,,Now just shut up and stand there\Nquietly! I'm calculating.
+Dialogue: 50,0:04:41.28,0:04:43.72,Main-207-,,0,0,0,,Maybe I would shut up if I had\Nany idea what was going on!
+Dialogue: 50,0:04:43.72,0:04:45.48,Main-207-,,0,0,0,,Would you just explain\Nwhat the hell it is
+Dialogue: 50,0:04:45.61,0:04:46.48,Main-207-,,0,0,0,,you're planning already?
+Dialogue: 50,0:04:46.52,0:04:49.18,Main-207-,,0,0,0,,Calm down!\NYou'll know soon enough!
+Dialogue: 50,0:04:49.22,0:04:50.31,Main-207-,,0,0,0,,Are you ready?
+Dialogue: 50,0:04:50.31,0:04:51.65,Main-207-,,0,0,0,,Ribbit, ribbit, ribbit.
+Dialogue: 50,0:04:51.68,0:04:55.13,Main-207-,,0,0,0,,Hey, listen Mr. 7. This is\Na very special occasion.
+Dialogue: 50,0:04:55.13,0:04:57.43,Main-207-,,0,0,0,,I think we should\Ndo a countdown!
+Dialogue: 50,0:04:57.43,0:04:59.27,Main-207-,,0,0,0,,That's a good plan,\NMiss Father's Day.
+Dialogue: 50,0:04:59.32,0:05:02.06,Main-207-,,0,0,0,,A good plan, a very good plan.\NSounds interesting.
+Dialogue: 50,0:05:03.04,0:05:05.34,Main-207-,,0,0,0,,Forecasting... a typhoon!
+Dialogue: 50,0:05:05.37,0:05:09.28,Main-207-,,0,0,0,,{\q2}– Here we go! Countdown!\N– Here we go! Countdown!
+Dialogue: 50,0:05:10.47,0:05:13.50,Main-207-,,0,0,0,,{\fad(150,150)}Cyclone Tempo!
+Dialogue: 50,0:05:13.54,0:05:14.64,Main-207-,,0,0,0,,What?
+Dialogue: 50,0:05:14.64,0:05:16.97,Main-207-,,0,0,0,,But wait, Cyclone Tempo is\Njust a silly boomerang game
+Dialogue: 50,0:05:17.04,0:05:18.98,Main-207-,,0,0,0,,to play at parties!
+Dialogue: 50,0:05:19.11,0:05:21.38,Main-207-,,0,0,0,,Just head for the clock tower!
+Dialogue: 50,0:05:35.36,0:05:38.43,Main-207-,,0,0,0,,What the...? They're flying up?
+Dialogue: 50,0:05:38.96,0:05:42.03,Main-207-,,0,0,0,,Chopper! Jump up to where\NSanji is, all right?
+Dialogue: 0,0:05:42.06,0:05:43.10,Main-207-,,0,0,0,,{\q2}– Huh?\N– Huh?
+Dialogue: 50,0:05:43.13,0:05:45.80,Main-207-,,0,0,0,,That's it? This is her big plan?
+Dialogue: 50,0:05:45.87,0:05:47.70,Main-207-,,0,0,0,,To make it all the way up\Nthere piggy back like this?
+Dialogue: 50,0:05:47.70,0:05:51.42,Main-207-,,0,0,0,,Sanji, you know what to do,\Nright? We have to hurry!
+Dialogue: 50,0:05:51.42,0:05:53.69,Main-207-,,0,0,0,,I think I get the\Nidea, but it's risky.
+Dialogue: 50,0:05:53.76,0:05:56.32,Main-207-,,0,0,0,,Well, I guess I just have to do it.
+Dialogue: 50,0:05:56.36,0:05:58.53,Main-207-,,0,0,0,,It's too late to turn back at this point.
+Dialogue: 50,0:05:58.55,0:05:59.58,Main-207-,,0,0,0,,Tony, let's do this!
+Dialogue: 50,0:05:59.62,0:06:02.62,Main-207-,,0,0,0,,Okay, Vivi. Now just\Nhang on tightly!
+Dialogue: 50,0:06:04.38,0:06:06.45,Main-207-,,0,0,0,,I see. That's what\Nthey're doing.
+Dialogue: 50,0:06:06.47,0:06:08.74,Main-207-,,0,0,0,,Chopper! Get on my right leg.
+Dialogue: 0,0:06:08.77,0:06:10.14,Main-207-,,0,0,0,,Right!
+Dialogue: 50,0:06:11.78,0:06:14.10,Main-207-,,0,0,0,,Eleven seconds!
+Dialogue: 50,0:06:14.10,0:06:16.10,Main-207-,,0,0,0,,Here they come, Zoro!
+Dialogue: 50,0:06:16.14,0:06:18.01,Main-207-,,0,0,0,,Good job so far!
+Dialogue: 50,0:06:19.68,0:06:22.15,Main-207-,,0,0,0,,So I just throw them\Nto the top of that tower.
+Dialogue: 50,0:06:22.18,0:06:23.48,Main-207-,,0,0,0,,{\q2}– Ten!\N– Ten!
+Dialogue: 0,0:06:23.51,0:06:25.18,Main-207-,,0,0,0,,Zoro!
+Dialogue: 50,0:06:25.24,0:06:27.61,Main-207-,,0,0,0,,Yeah, I'm ready. Come on up.
+Dialogue: 0,0:06:27.64,0:06:28.54,Main-207-,,0,0,0,,Not swords!
+Dialogue: 50,0:06:28.54,0:06:31.21,Main-207-,,0,0,0,,It's the flat of the\Nblade, calm down!
+Dialogue: 50,0:06:31.30,0:06:32.14,Main-207-,,0,0,0,,Get your footing.
+Dialogue: 50,0:06:32.17,0:06:33.21,Main-207-,,0,0,0,,Okay!
+Dialogue: 50,0:06:33.24,0:06:34.38,Main-207-,,0,0,0,,{\q2}– Nine!\N– Nine!
+Dialogue: 50,0:06:34.41,0:06:36.81,Main-207-,,0,0,0,,Careful! There's a\Ncouple of weirdoes up there.
+Dialogue: 50,0:06:36.84,0:06:40.15,Main-207-,,0,0,0,,Yes, I know them.
+Dialogue: 50,0:06:40.15,0:06:40.52,Main-207-,,0,0,0,,Oops.
+Dialogue: 50,0:06:40.52,0:06:42.55,Main-207-,,0,0,0,,Hello, Miss Wednesday.
+Dialogue: 50,0:06:43.79,0:06:44.96,Main-207-,,0,0,0,,Ribbit, ribbit, ribbit.
+Dialogue: 50,0:06:44.99,0:06:46.59,Main-207-,,0,0,0,,I'd recognize that\Nlittle traitor
+Dialogue: 50,0:06:46.62,0:06:49.43,Main-207-,,0,0,0,,to our company anywhere!
+Dialogue: 50,0:06:49.46,0:06:50.66,Main-207-,,0,0,0,,They noticed!
+Dialogue: 50,0:06:50.73,0:06:51.63,Main-207-,,0,0,0,,They did?!
+Dialogue: 50,0:06:51.64,0:06:54.57,Main-207-,,0,0,0,,We're still in the air.\NThis is really bad!
+Dialogue: 50,0:06:54.57,0:06:57.84,Main-207-,,0,0,0,,If they shoot at us, we're finished!
+Dialogue: 50,0:06:57.87,0:06:59.50,Main-207-,,0,0,0,,Whatever it is you really want
+Dialogue: 50,0:06:59.56,0:07:01.60,Main-207-,,0,0,0,,can't be in this country.
+Dialogue: 50,0:07:01.63,0:07:05.34,Main-207-,,0,0,0,,Aren't I right? You're fighting\Nfor somebody else's goal now.
+Dialogue: 50,0:07:05.34,0:07:07.67,Main-207-,,0,0,0,,And how can there be any\Npoint in dying for that?
+Dialogue: 50,0:07:07.67,0:07:09.90,Main-207-,,0,0,0,,If only you would just get rid of a friend or two,
+Dialogue: 50,0:07:09.93,0:07:13.57,Main-207-,,0,0,0,,you could easily avoid so many\Nof these inconvenient problems.
+Dialogue: 50,0:07:13.61,0:07:16.94,Main-207-,,0,0,0,,Loyalty is only for\Nidiots and weaklings.
+Dialogue: 50,0:07:17.01,0:07:18.58,Main-207-,,0,0,0,,Like I said,
+Dialogue: 50,0:07:18.61,0:07:22.95,Main-207-,,0,0,0,,you really don't understand anything, do you?
+Dialogue: 50,0:07:23.02,0:07:24.62,Main-207-,,0,0,0,,Vivi...
+Dialogue: 50,0:07:25.69,0:07:30.19,Main-207-,,0,0,0,,Vivi is always telling\Npeople not to risk their lives,
+Dialogue: 50,0:07:30.22,0:07:31.96,Main-207-,,0,0,0,,but she's the first\Nto lay down her life
+Dialogue: 50,0:07:32.01,0:07:33.85,Main-207-,,0,0,0,,in order to save others.
+Dialogue: 50,0:07:33.91,0:07:37.75,Main-207-,,0,0,0,,If we don't help her,\Nshe'll die. You'll kill her.
+Dialogue: 50,0:07:37.75,0:07:40.28,Main-207-,,0,0,0,,You still don't get it.
+Dialogue: 50,0:07:40.32,0:07:41.85,Main-207-,,0,0,0,,That's what makes\Nher such a burden.
+Dialogue: 50,0:07:41.85,0:07:44.85,Main-207-,,0,0,0,,So why not ditch the princess\Nand save yourselves?
+Dialogue: 50,0:07:44.88,0:07:47.59,Main-207-,,0,0,0,,Because none of us want Vivi to die!
+Dialogue: 50,0:07:47.62,0:07:50.52,Main-207-,,0,0,0,,Helping each other is what friends do!
+Dialogue: 50,0:07:50.52,0:07:52.52,Main-207-,,0,0,0,,And that's why none of\Nus will leave her behind
+Dialogue: 50,0:07:52.52,0:07:54.26,Main-207-,,0,0,0,,or quit fighting you!
+Dialogue: 50,0:07:54.29,0:07:56.31,Main-207-,,0,0,0,,As long as she doesn't give up\Non her country, neither will we!
+Dialogue: 50,0:07:58.16,0:08:01.66,Main-207-,,0,0,0,,Even if that means all the rest of you end up dead?
+Dialogue: 50,0:08:01.70,0:08:05.30,Main-207-,,0,0,0,,If we die, we die.\NThat's all there is to it.
+Dialogue: 50,0:08:05.33,0:08:07.50,Main-207-,,0,0,0,,Adjust Ribbit-Ribbit\NGun for attack!
+Dialogue: 50,0:08:07.54,0:08:09.44,Main-207-,,0,0,0,,This is an unexpected catch.
+Dialogue: 50,0:08:09.44,0:08:11.54,Main-207-,,0,0,0,,Adjusting Yellow Gun!
+Dialogue: 50,0:08:12.40,0:08:14.17,Main-207-,,0,0,0,,How nice. How nice.\NThis is good!
+Dialogue: 50,0:08:14.17,0:08:16.14,Main-207-,,0,0,0,,They are the perfect prey for us!
+Dialogue: 50,0:08:16.23,0:08:17.96,Main-207-,,0,0,0,,What do you think you bastards are doing,
+Dialogue: 50,0:08:17.96,0:08:20.06,Main-207-,,0,0,0,,pointing your guns at Vivi?!
+Dialogue: 50,0:08:20.13,0:08:22.13,Main-207-,,0,0,0,,This isn't good! The two\Nof them are a sniper team!
+Dialogue: 50,0:08:22.17,0:08:23.14,Main-207-,,0,0,0,,Chopper!
+Dialogue: 50,0:08:23.18,0:08:24.58,Main-207-,,0,0,0,,I'll throw you guys up, anyway.
+Dialogue: 50,0:08:24.62,0:08:25.92,Main-207-,,0,0,0,,It'll change the direction,
+Dialogue: 50,0:08:26.02,0:08:27.46,Main-207-,,0,0,0,,but you need to\Nfigure somethin' out!
+Dialogue: 50,0:08:27.49,0:08:29.09,Main-207-,,0,0,0,,Huh? What do I do?
+Dialogue: 50,0:08:29.12,0:08:30.59,Main-207-,,0,0,0,,We have seven seconds!
+Dialogue: 50,0:08:30.59,0:08:33.46,Main-207-,,0,0,0,,Just figure something out!
+Dialogue: 50,0:08:34.55,0:08:38.86,Main-207-,,0,0,0,,Chopper, Vivi! Are you\Nready? I'm sendin' you up.
+Dialogue: 50,0:08:40.40,0:08:41.33,Main-207-,,0,0,0,,Ready?
+Dialogue: 50,0:08:41.33,0:08:43.07,Main-207-,,0,0,0,,Aim and fire!
+Dialogue: 50,0:08:44.57,0:08:48.34,Main-207-,,0,0,0,,Our bullets are set to crash into each other!
+Dialogue: 50,0:08:48.34,0:08:50.21,Main-207-,,0,0,0,,And then they're going to explode!
+Dialogue: 50,0:08:54.34,0:08:55.67,Main-207-,,0,0,0,,No!
+Dialogue: 50,0:08:59.70,0:09:01.04,Main-207-,,0,0,0,,What an idiot!
+Dialogue: 50,0:09:01.07,0:09:02.64,Main-207-,,0,0,0,,He's hit!
+Dialogue: 50,0:09:03.62,0:09:05.06,Main-207-,,0,0,0,,Are you ready, Vivi?
+Dialogue: 50,0:09:05.09,0:09:07.86,Main-207-,,0,0,0,,Just throw me with\Nall your strength, Tony!
+Dialogue: 50,0:09:11.53,0:09:13.40,Main-207-,,0,0,0,,It's no use, ribbit, ribbit.
+Dialogue: 0,0:09:13.43,0:09:14.13,Main-207-,,0,0,0,,Dodging.
+Dialogue: 50,0:09:14.14,0:09:16.07,Main-207-,,0,0,0,,{\q2}– Aim and fire!\N– Aim and fire!
+Dialogue: 50,0:09:16.14,0:09:18.42,Main-207-,,0,0,0,,Who's that?
+Dialogue: 0,0:09:18.42,0:09:19.69,Main-207-,,0,0,0,,Huh?
+Dialogue: 50,0:09:26.26,0:09:27.90,Main-207-,,0,0,0,,Where'd Miss Wednesday go?
+Dialogue: 50,0:09:27.93,0:09:30.40,Main-207-,,0,0,0,,Oh! What now?
+Dialogue: 0,0:09:32.93,0:09:35.77,Main-207-,,0,0,0,,Peacock String!
+Dialogue: 50,0:09:35.80,0:09:37.44,Main-207-,,0,0,0,,Up there!
+Dialogue: 50,0:09:48.92,0:09:50.28,Main-207-,,0,0,0,,You can talk as\Ntough as you want
+Dialogue: 50,0:09:50.35,0:09:52.45,Main-207-,,0,0,0,,and keep blathering on about\Nfriendship if you like,
+Dialogue: 0,0:09:52.52,0:09:55.96,Main-207-,,0,0,0,,but your body is still\Nfreezing up on you.
+Dialogue: 0,0:09:56.02,0:09:59.09,Main-207-,,0,0,0,,You look pathetic, Straw Hat.
+Dialogue: 0,0:10:04.06,0:10:05.93,Main-207-,,0,0,0,,Slasher!
+Dialogue: 0,0:10:08.74,0:10:10.74,Main-207-,,0,0,0,,Ribbit. Well, Princess.
+Dialogue: 50,0:10:10.77,0:10:12.81,Main-207-,,0,0,0,,Looks like you missed us!
+Dialogue: 50,0:10:17.74,0:10:19.08,Main-207-,,0,0,0,,{\fad(150,150)}Run Back!
+Dialogue: 50,0:10:23.12,0:10:24.79,Main-207-,,0,0,0,,All right!
+Dialogue: 0,0:10:47.34,0:10:49.41,Main-207-,,0,0,0,,{\q2}– Vivi!\N– Vivi!
+Dialogue: 50,0:10:49.41,0:10:52.15,Flashbacks-207-,,0,0,0,,Hey! Out of here, you brats!
+Dialogue: 50,0:10:52.18,0:10:54.25,Flashbacks-207-,,0,0,0,,Did you sneak in through the shortcut again?
+Dialogue: 50,0:10:54.25,0:10:55.28,Flashbacks-207-,,0,0,0,,Gatekeeper!
+Dialogue: 0,0:10:55.32,0:10:56.95,Main-207-,,0,0,0,,Run!
+Dialogue: 50,0:10:56.98,0:10:59.15,Flashbacks-207-,,0,0,0,,Would the two of you\Nplease say something
+Dialogue: 50,0:10:59.18,0:11:01.52,Flashbacks-207-,,0,0,0,,to the kids to keep them away?
+Dialogue: 0,0:11:01.58,0:11:02.99,Main-207-,,0,0,0,,Hm?
+Dialogue: 50,0:11:03.02,0:11:04.99,Flashbacks-207-,,0,0,0,,Sure.
+Dialogue: 50,0:11:05.01,0:11:06.14,Flashbacks-207-,,0,0,0,,Vivi. Going somewhere?
+Dialogue: 50,0:11:06.14,0:11:07.81,Flashbacks-207-,,0,0,0,,Mh-hm. The secret base.
+Dialogue: 50,0:11:09.08,0:11:12.02,Flashbacks-207-,,0,0,0,,Right. Well, you\Nhave a good time.
+Dialogue: 50,0:11:13.99,0:11:17.02,Flashbacks-207-,,0,0,0,,So, where did Princess Vivi go?
+Dialogue: 50,0:11:17.09,0:11:18.09,Flashbacks-207-,,0,0,0,,Huh?
+Dialogue: 50,0:11:18.12,0:11:20.96,Flashbacks-207-,,0,0,0,,Oh, I can't tell you.\NIt's a secret.
+Dialogue: 50,0:11:22.13,0:11:24.33,Main-207-,,0,0,0,,The clock tower, huh?
+Dialogue: 50,0:11:53.67,0:11:56.01,Main-207-,,0,0,0,,It stopped, right?
+Dialogue: 50,0:12:22.44,0:12:25.01,Main-207-,,0,0,0,,Oh, hey, you're still alive.
+Dialogue: 50,0:12:25.04,0:12:28.51,Main-207-,,0,0,0,,Yeah. What happened\Nwith the cannon?
+Dialogue: 50,0:12:29.95,0:12:31.72,Main-207-,,0,0,0,,What was that?
+Dialogue: 50,0:12:36.67,0:12:38.21,Main-207-,,0,0,0,,What's the matter?
+Dialogue: 50,0:12:38.27,0:12:40.28,Main-207-,,0,0,0,,Apparently, somethin's\Ngone wrong up there.
+Dialogue: 50,0:12:40.31,0:12:43.15,Main-207-,,0,0,0,,It's Vivi. We still\Nhaven't seen her.
+Dialogue: 50,0:12:45.28,0:12:47.28,Main-207-,,0,0,0,,Oh, no. You guys!
+Dialogue: 50,0:12:47.28,0:12:48.48,Main-207-,,0,0,0,,What is it?
+Dialogue: 50,0:12:48.52,0:12:50.19,Main-207-,,0,0,0,,The cannon ball has\Na timing device.
+Dialogue: 50,0:12:50.22,0:12:52.96,Main-207-,,0,0,0,,If we don't do something, it'll explode!
+Dialogue: 50,0:12:53.05,0:12:56.72,Main-207-,,0,0,0,,Ah! What did you say?!
+Dialogue: 50,0:12:58.72,0:13:02.36,Main-207-,,0,0,0,,A time bomb? No.
+Dialogue: 50,0:13:04.19,0:13:06.06,Main-207-,,0,0,0,,I was very well prepared, Cobra.
+Dialogue: 50,0:13:06.09,0:13:09.39,Main-207-,,0,0,0,,You have to be willing to admit that much, surely.
+Dialogue: 50,0:13:09.39,0:13:11.49,Main-207-,,0,0,0,,The most successful\Nmissions always account
+Dialogue: 50,0:13:11.53,0:13:15.00,Main-207-,,0,0,0,,for unforeseen circumstances.
+Dialogue: 50,0:13:15.03,0:13:16.40,Main-207-,,0,0,0,,In this case, for instance,
+Dialogue: 50,0:13:16.43,0:13:19.03,Main-207-,,0,0,0,,even if something happens to the cannoneers,
+Dialogue: 50,0:13:19.07,0:13:21.67,Main-207-,,0,0,0,,the cannon ball will\Nstill explode on its own.
+Dialogue: 50,0:13:21.70,0:13:26.21,Main-207-,,0,0,0,,The attack will only be delayed\Nby a few seconds or so.
+Dialogue: 50,0:13:26.21,0:13:27.64,Main-207-,,0,0,0,,Of course, I did\Noriginally want it
+Dialogue: 50,0:13:27.68,0:13:30.35,Main-207-,,0,0,0,,to be shot into the\Ncenter of the Square,
+Dialogue: 50,0:13:30.38,0:13:32.52,Main-207-,,0,0,0,,but the cannon ball is big\Nenough that it should do
+Dialogue: 50,0:13:32.55,0:13:36.25,Main-207-,,0,0,0,,plenty of damage\Nfrom right where it is.
+Dialogue: 50,0:13:41.22,0:13:43.03,Flashbacks-207-,,0,0,0,,Stopping the rebellion.
+Dialogue: 50,0:13:43.05,0:13:44.68,Flashbacks-207-,,0,0,0,,Saving the kingdom.
+Dialogue: 50,0:13:44.71,0:13:49.75,Flashbacks-207-,,0,0,0,,All those worthless ideas you've clung to for so long.
+Dialogue: 50,0:13:49.82,0:13:54.19,Flashbacks-207-,,0,0,0,,In the end, they just created more victims for me.
+Dialogue: 50,0:13:59.06,0:14:01.43,Flashbacks-207-,,0,0,0,,Let me tell you something.
+Dialogue: 50,0:14:06.32,0:14:10.12,Flashbacks-207-,,0,0,0,,You're never going\Nto save this country.
+Dialogue: 50,0:14:12.72,0:14:14.46,Main-207-,,0,0,0,,Damn it. This isn't right!
+Dialogue: 50,0:14:14.49,0:14:17.60,Main-207-,,0,0,0,,Stopping the cannoneers\Nshould've stopped the attack!
+Dialogue: 50,0:14:17.60,0:14:19.44,Main-207-,,0,0,0,,A timer?
+Dialogue: 50,0:14:19.51,0:14:22.71,Main-207-,,0,0,0,,Considering its power, even if it explodes from up there,
+Dialogue: 50,0:14:22.74,0:14:26.05,Main-207-,,0,0,0,,it'll still kill all the people\Nin the Square and the town.
+Dialogue: 50,0:14:26.10,0:14:27.57,Main-207-,,0,0,0,,Then what's gonna happen now?!
+Dialogue: 50,0:14:29.15,0:14:30.12,Main-207-,,0,0,0,,Oh, crap!
+Dialogue: 50,0:14:30.12,0:14:31.66,Main-207-,,0,0,0,,Does this just mean it\Nwas impossible all along
+Dialogue: 50,0:14:31.72,0:14:34.89,Main-207-,,0,0,0,,for us to stop the explosion\Nfrom happening?
+Dialogue: 50,0:14:38.06,0:14:41.10,Main-207-,,0,0,0,,He made us spend all\Nthis time looking for it!
+Dialogue: 50,0:14:41.13,0:14:44.50,Main-207-,,0,0,0,,He even announced the attack\Nso we would do just that!
+Dialogue: 50,0:14:44.67,0:14:46.01,Main-207-,,0,0,0,,Why?
+Dialogue: 50,0:14:49.11,0:14:51.68,Main-207-,,0,0,0,,Just how far will Crocodile\Ninsist on going
+Dialogue: 50,0:14:51.68,0:14:55.02,Main-207-,,0,0,0,,to make fools of us all?
+Dialogue: 50,0:14:55.05,0:14:57.38,Main-207-,,0,0,0,,It's not enough for him to\Ntear this country apart,
+Dialogue: 50,0:14:57.42,0:15:00.35,Main-207-,,0,0,0,,he has to mock us\Nwhile he's doing it!
+Dialogue: 50,0:15:02.19,0:15:06.86,Main-207-,,0,0,0,,Crocodile!
+Dialogue: 50,0:15:16.06,0:15:17.99,Flashbacks-207-,,0,0,0,,And that's why none\Nof us will leave her behind
+Dialogue: 50,0:15:18.06,0:15:19.80,Flashbacks-207-,,0,0,0,,or quit fighting you.
+Dialogue: 50,0:15:19.83,0:15:21.90,Flashbacks-207-,,0,0,0,,As long as she doesn't give up on her country,
+Dialogue: 50,0:15:21.93,0:15:23.17,Flashbacks-207-,,0,0,0,,neither will we!
+Dialogue: 50,0:15:43.77,0:15:45.03,Main-207-,,0,0,0,,You can't...
+Dialogue: 50,0:15:49.10,0:15:50.67,Main-207-,,0,0,0,,...defeat me.
+Dialogue: 50,0:15:52.87,0:15:54.44,Main-207-,,0,0,0,,You finally manage to speak,
+Dialogue: 50,0:15:54.48,0:15:57.94,Main-207-,,0,0,0,,and that's all you can come up with?
+Dialogue: 50,0:15:57.98,0:16:00.48,Main-207-,,0,0,0,,I suppose it's an acceptable\Nbluff from a loser
+Dialogue: 50,0:16:00.51,0:16:02.32,Main-207-,,0,0,0,,who's about to die.
+Dialogue: 50,0:16:02.35,0:16:06.29,Main-207-,,0,0,0,,But of course, like any bluff, it's empty air.
+Dialogue: 50,0:16:10.22,0:16:14.00,Main-207-,,0,0,0,,Except, I'm the man\Nwho'll be King of the Pirates!
+Dialogue: 50,0:16:14.55,0:16:16.72,Main-207-,,0,0,0,,Listen up, you damn brat.
+Dialogue: 50,0:16:16.76,0:16:19.39,Main-207-,,0,0,0,,If you really knew anything about this sea,
+Dialogue: 50,0:16:19.42,0:16:22.06,Main-207-,,0,0,0,,you wouldn't make\Nsuch an idiotic statement.
+Dialogue: 50,0:16:24.56,0:16:26.40,Main-207-,,0,0,0,,I told you before.
+Dialogue: 50,0:16:26.43,0:16:28.80,Main-207-,,0,0,0,,There are thousands\Nof rookies just like you.
+Dialogue: 50,0:16:28.84,0:16:32.07,Main-207-,,0,0,0,,Every one of them chasing\Ntheir naïve little dreams!
+Dialogue: 50,0:16:34.81,0:16:36.68,Main-207-,,0,0,0,,The sooner you understand the true level
+Dialogue: 50,0:16:36.74,0:16:38.58,Main-207-,,0,0,0,,of the grand line,
+Dialogue: 50,0:16:38.58,0:16:41.28,Main-207-,,0,0,0,,the sooner you'll give up\Non your foolish dreams!
+Dialogue: 50,0:16:58.12,0:17:01.72,Main-207-,,0,0,0,,I'm the one\Nwho's gonna beat you.
+Dialogue: 50,0:17:04.77,0:17:05.87,Main-207-,,0,0,0,,Wait, was that...?
+Dialogue: 50,0:17:05.94,0:17:08.30,Main-207-,,0,0,0,,Yeah, I think it's the bird man.
+Dialogue: 0,0:17:12.44,0:17:13.81,Main-207-,,0,0,0,,Pell?
+Dialogue: 50,0:17:13.84,0:17:16.65,Main-207-,,0,0,0,,Wow, this place brings back so many memories.
+Dialogue: 50,0:17:16.68,0:17:20.55,Main-207-,,0,0,0,,The Sand-Sand Clan's\Nsuper-secret base.
+Dialogue: 0,0:17:20.62,0:17:21.78,Main-207-,,0,0,0,,Pell, listen to me...
+Dialogue: 50,0:17:21.82,0:17:23.98,Secondary-207-,,0,0,0,,{\an8}You certainly were a mischievous\Nlittle child, Princess Vivi.
+Dialogue: 50,0:17:23.98,0:17:25.45,Main-207-,,0,0,0,,You gave us no end of trouble
+Dialogue: 50,0:17:25.48,0:17:29.22,Main-207-,,0,0,0,,with all your pranks\Nand disappearances.
+Dialogue: 50,0:17:29.22,0:17:30.19,Flashbacks-207-,,0,0,0,,It's Vivi!
+Dialogue: 50,0:17:30.19,0:17:34.26,Flashbacks-207-,,0,0,0,,What's she doing in the ammunition bunker?
+Dialogue: 50,0:17:34.29,0:17:37.63,Flashbacks-207-,,0,0,0,,Hey! What happened?\NWhat was that explosion?
+Dialogue: 50,0:17:40.32,0:17:42.29,Flashbacks-207-,,0,0,0,,Princess Vivi, how many\Ntimes have we told you
+Dialogue: 50,0:17:42.32,0:17:43.76,Flashbacks-207-,,0,0,0,,not to go near the\Nammunition bunker?
+Dialogue: 50,0:17:43.77,0:17:45.77,Flashbacks-207-,,0,0,0,,You could get hurt!
+Dialogue: 0,0:17:45.77,0:17:47.34,Main-207-,,0,0,0,,Pell!
+Dialogue: 0,0:17:47.37,0:17:48.67,Main-207-,,0,0,0,,Sir!
+Dialogue: 50,0:17:49.64,0:17:52.94,Flashbacks-207-,,0,0,0,,I was trying to make some fireworks, but I messed up.
+Dialogue: 50,0:17:52.98,0:17:54.61,Flashbacks-207-,,0,0,0,,I know it's the\Nanniversary of the day
+Dialogue: 50,0:17:54.65,0:17:56.95,Flashbacks-207-,,0,0,0,,you joined the army, Pell, so...
+Dialogue: 50,0:17:58.40,0:17:59.50,Flashbacks-207-,,0,0,0,,What are you doing?
+Dialogue: 50,0:17:59.57,0:18:02.50,Flashbacks-207-,,0,0,0,,I've told you a hundred times!
+Dialogue: 50,0:18:02.57,0:18:05.77,Flashbacks-207-,,0,0,0,,Never, ever come near here!
+Dialogue: 50,0:18:05.81,0:18:07.74,Flashbacks-207-,,0,0,0,,Just what do you\Nthink you're doing?
+Dialogue: 50,0:18:07.74,0:18:09.58,Flashbacks-207-,,0,0,0,,How dare you touch the Princess!
+Dialogue: 50,0:18:09.61,0:18:11.75,Flashbacks-207-,,0,0,0,,You're through! No\None dares hurt her!
+Dialogue: 50,0:18:11.78,0:18:14.24,Flashbacks-207-,,0,0,0,,Hold on, Igaram.
+Dialogue: 50,0:18:14.24,0:18:16.40,Flashbacks-207-,,0,0,0,,It's fine.
+Dialogue: 50,0:18:18.75,0:18:21.32,Flashbacks-207-,,0,0,0,,It could've been much worse.
+Dialogue: 50,0:18:22.57,0:18:24.74,Flashbacks-207-,,0,0,0,,What if you were killed?
+Dialogue: 50,0:18:30.84,0:18:32.44,Flashbacks-207-,,0,0,0,,Faster!
+Dialogue: 50,0:18:32.51,0:18:35.61,Flashbacks-207-,,0,0,0,,And go higher! Higher!
+Dialogue: 50,0:18:35.68,0:18:38.25,Flashbacks-207-,,0,0,0,,Vivi, I need you\Nto promise me something.
+Dialogue: 50,0:18:38.28,0:18:39.78,Flashbacks-207-,,0,0,0,,Never tell the king about this.
+Dialogue: 50,0:18:43.12,0:18:45.46,Flashbacks-207-,,0,0,0,,He made it clear that I'm not supposed to do this.
+Dialogue: 50,0:18:45.52,0:18:48.22,Flashbacks-207-,,0,0,0,,He told me to never to go\Nflying with you on my back.
+Dialogue: 50,0:18:48.26,0:18:49.46,Flashbacks-207-,,0,0,0,,If you're scared, fine!
+Dialogue: 50,0:18:49.52,0:18:52.53,Flashbacks-207-,,0,0,0,,But I'll never forgive\Nyou if you stop!
+Dialogue: 50,0:18:53.62,0:18:56.19,Flashbacks-207-,,0,0,0,,After all, didn't\Nyou say you'd do anything
+Dialogue: 50,0:18:56.27,0:18:58.58,Flashbacks-207-,,0,0,0,,I wanted you to?
+Dialogue: 50,0:19:02.80,0:19:03.87,Main-207-,,0,0,0,,Hey, Pell?
+Dialogue: 50,0:19:05.18,0:19:06.08,Flashbacks-207-,,0,0,0,,Yes?
+Dialogue: 50,0:19:06.16,0:19:08.56,Flashbacks-207-,,0,0,0,,You train for\Nbattle every day. Why?
+Dialogue: 50,0:19:08.60,0:19:09.66,Flashbacks-207-,,0,0,0,,Because I'm a guard.
+Dialogue: 50,0:19:09.73,0:19:11.80,Flashbacks-207-,,0,0,0,,It's my duty to protect this country.
+Dialogue: 50,0:19:11.83,0:19:13.80,Flashbacks-207-,,0,0,0,,I have to stay strong.
+Dialogue: 50,0:19:13.83,0:19:15.76,Flashbacks-207-,,0,0,0,,So, who will you be fighting?
+Dialogue: 50,0:19:15.76,0:19:18.17,Flashbacks-207-,,0,0,0,,Who?
+Dialogue: 50,0:19:18.20,0:19:19.40,Flashbacks-207-,,0,0,0,,I don't know.
+Dialogue: 50,0:19:19.43,0:19:22.17,Flashbacks-207-,,0,0,0,,But I don't fight. I protect.
+Dialogue: 50,0:19:22.17,0:19:23.74,Flashbacks-207-,,0,0,0,,They're different?
+Dialogue: 50,0:19:23.77,0:19:26.04,Flashbacks-207-,,0,0,0,,They serve different purposes.
+Dialogue: 50,0:19:26.07,0:19:29.34,Main-207-,,0,0,0,,Hmm. I don't understand.
+Dialogue: 50,0:19:34.38,0:19:37.35,Main-207-,,0,0,0,,I'm so proud that I've\Nbeen able to serve you
+Dialogue: 50,0:19:37.35,0:19:39.59,Main-207-,,0,0,0,,all these years, Princess.
+Dialogue: 50,0:19:39.62,0:19:43.02,Main-207-,,0,0,0,,Protecting the Nefertari family has been an honor.
+Dialogue: 0,0:20:05.54,0:20:07.28,Main-207-,,0,0,0,,I am...
+Dialogue: 50,0:20:07.31,0:20:10.18,Main-207-,,0,0,0,,...Alabasta's guardian deity.
+Dialogue: 50,0:20:15.39,0:20:17.06,Main-207-,,0,0,0,,The Falcon!
+Dialogue: 50,0:20:18.86,0:20:21.66,Main-207-,,0,0,0,,And I am sworn\Nto destroy the enemies
+Dialogue: 50,0:20:21.70,0:20:23.73,Main-207-,,0,0,0,,of the royal family!
+Dialogue: 50,0:21:31.44,0:21:32.77,Main-207-,,0,0,0,,He's gone.
+Dialogue: 50,0:21:36.28,0:21:38.98,Main-207-,,0,0,0,,He saved us all.
+Dialogue: 50,0:21:59.40,0:22:02.00,Main-207-,,0,0,0,,This can't be happening!
+Dialogue: 50,0:22:09.48,0:22:11.38,Main-207-,,0,0,0,,Stop it!
+Dialogue: 50,0:22:11.41,0:22:13.01,Main-207-,,0,0,0,,All of you, are you out of your minds?
+Dialogue: 0,0:22:13.01,0:22:14.01,Main-207-,,0,0,0,,Ma'am! No!
+Dialogue: 50,0:22:22.62,0:22:23.79,Main-207-,,0,0,0,,What the...?
+Dialogue: 0,0:22:26.26,0:22:27.76,Main-207-,,0,0,0,,Tashigi.
+Dialogue: 50,0:22:27.85,0:22:30.09,Main-207-,,0,0,0,,I need you to keep a\Nvigilant eye on this country
+Dialogue: 50,0:22:30.09,0:22:32.76,Flashbacks-207-,,0,0,0,,and where it ends up.
+Dialogue: 50,0:22:32.76,0:22:35.03,Flashbacks-207-,,0,0,0,,Whether it falls,\Nor whether it survives.
+Dialogue: 50,0:22:35.09,0:22:37.26,Flashbacks-207-,,0,0,0,,The dawn of a brand-new\Nand historic age
+Dialogue: 50,0:22:37.26,0:22:39.26,Main-207-,,0,0,0,,is on the horizon.
+Dialogue: 50,0:22:55.11,0:22:56.15,Main-207-,,0,0,0,,Madness.
+Dialogue: 50,0:22:57.45,0:22:59.78,Main-207-,,0,0,0,,Why aren't they stopping?
+Dialogue: 50,0:23:03.46,0:23:04.26,Main-207-,,0,0,0,,{\an8\fscx50\fscy50\bord1.9\shad1.9}Stop it!
+Dialogue: 0,0:23:04.01,0:23:08.01,Main-207-,,0,0,0,,Stop fighting! Please stop!
+Dialogue: 50,0:23:08.01,0:23:09.06,Main-207-,,0,0,0,,{\an8\fscx60\fscy60\bord2.28\shad2.28}Stop
+Dialogue: 50,0:23:09.06,0:23:10.11,Main-207-,,0,0,0,,{\an8\fscx60\fscy60\bord2.28\shad2.28}fighting!
+Dialogue: 0,0:23:11.02,0:23:13.43,Main-207-,,0,0,0,,Please stop!
+Dialogue: 50,0:23:13.46,0:23:16.66,Main-207-,,0,0,0,,{\an8\fscx80\fscy80\bord3.04\shad3.04}Please stop fighting!
+Dialogue: 50,0:23:16.70,0:23:18.46,Main-207-,,0,0,0,,Stop fighting!
+Dialogue: 50,0:23:18.50,0:23:20.63,Main-207-,,0,0,0,,Stop it, please!
+Dialogue: 50,0:23:20.67,0:23:22.60,Main-207-,,0,0,0,,Stop fighting!
+Dialogue: 50,0:23:22.63,0:23:27.46,Main-207-,,0,0,0,,Please stop! Stop fighting!
+Dialogue: 50,0:23:32.34,0:23:35.10,Main-207-,,0,0,0,,Please stop fighting!
+Dialogue: 0,0:23:35.10,0:23:37.27,Main-207-,,0,0,0,,{\an1\q2\pos(519.5,1053)}– Stop it!\N– Vivi.
+Dialogue: 50,0:23:37.86,0:23:42.36,Main-207-,,0,0,0,,Please stop fighting! Stop it!
+Dialogue: 50,0:23:42.40,0:23:45.60,Main-207-,,0,0,0,,Please stop the fighting!
+Dialogue: 0,0:23:45.63,0:23:50.14,Main-207-,,0,0,0,,Stop! Please stop fighting!
+Dialogue: 50,0:23:52.20,0:23:53.92,Main-207-,,0,0,0,,{\an8\fscx60\fscy60\bord2.28\shad2.28}Please stop!
+Dialogue: 50,0:23:55.19,0:23:56.29,Main-207-,,0,0,0,,You fool.
+Dialogue: 50,0:23:57.29,0:23:58.39,Main-207-,,0,0,0,,You dopes!
+Dialogue: 50,0:23:58.43,0:24:01.40,Main-207-,,0,0,0,,Why are you just standing there?\NGet your rears in gear!
+Dialogue: 50,0:24:01.43,0:24:05.30,Main-207-,,0,0,0,,It doesn't matter how, just stop the rebellion!
+Dialogue: 50,0:24:05.37,0:24:07.27,Main-207-,,0,0,0,,We've got to keep\Nthe casualties as low
+Dialogue: 50,0:24:07.30,0:24:09.20,Main-207-,,0,0,0,,as we possibly can!
+Dialogue: 0,0:24:13.98,0:24:15.78,Main-207-,,0,0,0,,Stop!
+Dialogue: 50,0:24:15.81,0:24:17.21,Main-207-,,0,0,0,,{\an8\fscx70\fscy70\bord2.66\shad2.66}Stop it!
+Dialogue: 50,0:24:20.15,0:24:25.25,Main-207-,,0,0,0,,Stop fighting! Stop fighting!\NStop fighting!
+Dialogue: 50,0:24:25.29,0:24:26.99,Main-207-,,0,0,0,,Please stop fighting!
+Dialogue: 50,0:25:18.40,0:25:22.24,Thoughts-207-,,0,0,0,,The scorpion's poison\Nshould be working by now.
+Dialogue: 50,0:25:24.40,0:25:27.81,Main-207-,,0,0,0,,Where does this brat\Nget his strength from?
+Dialogue: 50,0:25:36.45,0:25:38.99,Flashbacks-207-,,0,0,0,,Mr. 5's team was taken down?
+Dialogue: 50,0:25:39.02,0:25:40.46,Flashbacks-207-,,0,0,0,,Who the hell did it?
+Dialogue: 50,0:25:42.49,0:25:44.49,Flashbacks-207-,,0,0,0,,Monkey D. Luffy?
+Dialogue: 50,0:25:44.53,0:25:46.53,Flashbacks-207-,,0,0,0,,Never heard of him.
+Dialogue: 50,0:25:46.59,0:25:48.86,Flashbacks-207-,,0,0,0,,Huh. It must be a mistake.
+Dialogue: 50,0:25:49.56,0:25:51.76,Flashbacks-207-,,0,0,0,,You're saying that they're still alive?
+Dialogue: 50,0:25:52.10,0:25:53.77,Main-207-,,0,0,0,,We've just received word.
+Dialogue: 50,0:25:53.81,0:25:55.14,Flashbacks-207-,,0,0,0,,Those pirates have arrived.
+Dialogue: 50,0:25:59.77,0:26:01.87,Main-207-,,0,0,0,,You're just a two-bit nobody\Nwho comes from
+Dialogue: 50,0:26:01.94,0:26:03.14,Main-207-,,0,0,0,,who-knows-where!
+Dialogue: 50,0:26:04.84,0:26:06.54,Main-207-,,0,0,0,,You can't beat me!
+Dialogue: 50,0:26:06.61,0:26:09.78,Main-207-,,0,0,0,,Do you have any idea who I am?
+Dialogue: 50,0:26:09.81,0:26:13.55,Main-207-,,0,0,0,,I don't care who you are,\N'cause it doesn't matter!
+Dialogue: 50,0:26:13.62,0:26:17.45,Main-207-,,0,0,0,,Whoever you are, I will beat you!
+Dialogue: 50,0:26:32.94,0:26:35.01,Main-207-,,0,0,0,,Now fall with this ancient temple,
+Dialogue: 50,0:26:35.04,0:26:37.25,Main-207-,,0,0,0,,and let the desert\Nsands bury you!
+Dialogue: 50,0:26:38.68,0:26:40.21,Main-207-,,0,0,0,,{\fad(150,150)}Sables...
+Dialogue: 50,0:26:43.27,0:26:44.98,Main-207-,,0,0,0,,{\fad(150,0)\t(1395,0,1,\3c&HFFFFFF&\4c&HFFFFFF&)}Hazado!
+Dialogue: 0,0:27:06.65,0:27:10.29,Main-207-,,0,0,0,,Gum-Gum...
+Dialogue: 50,0:27:11.39,0:27:12.56,Main-207-,,0,0,0,,{\fad(150,150)}Desert...
+Dialogue: 0,0:27:13.79,0:27:15.49,Main-207-,,0,0,0,,...Storm!
+Dialogue: 0,0:27:15.53,0:27:17.33,Main-207-,,0,0,0,,...Spada!
+Dialogue: 50,0:28:28.36,0:28:29.77,Main-207-,,0,0,0,,Amazing!
+Dialogue: 50,0:28:29.80,0:28:31.87,Main-207-,,0,0,0,,He punched him straight\Nup through the bedrock
+Dialogue: 50,0:28:31.87,0:28:33.24,Main-207-,,0,0,0,,beneath the city!
+Dialogue: 50,0:28:44.24,0:28:45.54,Main-207-,,0,0,0,,Hey, you guys!
+Dialogue: 50,0:28:45.57,0:28:46.88,Main-207-,,0,0,0,,Look there!
+Dialogue: 50,0:28:55.55,0:28:57.08,Main-207-,,0,0,0,,{\q2}– Crocodile?!\N– Crocodile?!
+Dialogue: 50,0:29:16.00,0:29:17.57,Flashbacks-207-,,0,0,0,,Now that this\Nconflict has escalated,
+Dialogue: 50,0:29:17.60,0:29:19.97,Flashbacks-207-,,0,0,0,,more blood will be shed throughout the kingdom.
+Dialogue: 50,0:29:20.01,0:29:21.64,Flashbacks-207-,,0,0,0,,We're at war.
+Dialogue: 50,0:29:21.66,0:29:23.46,Flashbacks-207-,,0,0,0,,You're trying to\Nget me home safely,
+Dialogue: 50,0:29:23.50,0:29:24.63,Flashbacks-207-,,0,0,0,,but there's no time!
+Dialogue: 50,0:29:24.66,0:29:27.06,Flashbacks-207-,,0,0,0,,I need to get home as quickly as possible!
+Dialogue: 50,0:29:27.10,0:29:28.30,Flashbacks-207-,,0,0,0,,If I don't make it back in time,
+Dialogue: 50,0:29:28.33,0:29:32.14,Flashbacks-207-,,0,0,0,,a million innocent citizens will\Ngive their lives needlessly!
+Dialogue: 50,0:29:44.15,0:29:45.58,Flashbacks-207-,,0,0,0,,Right. Well, this should be fun!
+Dialogue: 50,0:29:45.65,0:29:48.22,Flashbacks-207-,,0,0,0,,All we have to do is beat\Nup that Crocodile guy!
+Dialogue: 50,0:29:52.06,0:29:53.09,Thoughts-207-,,0,0,0,,Luffy...
+Dialogue: 50,0:30:00.33,0:30:02.16,Main-207-,,0,0,0,,I don't know how he got there in the first place,
+Dialogue: 50,0:30:02.16,0:30:04.56,Main-207-,,0,0,0,,but I'm sure it can\Nonly mean one thing.
+Dialogue: 50,0:30:04.60,0:30:06.09,Main-207-,,0,0,0,,I knew it! I knew it!
+Dialogue: 50,0:30:06.09,0:30:08.12,Main-207-,,0,0,0,,I never doubted it for a second!
+Dialogue: 50,0:30:09.37,0:30:11.61,Main-207-,,0,0,0,,It can only mean...
+Dialogue: 50,0:30:11.61,0:30:14.21,Main-207-,,0,0,0,,{\q2}– Luffy did it! He won!\N– Luffy did it! He won!
+Dialogue: 50,0:30:22.48,0:30:26.58,Main-207-,,0,0,0,,Please! Our enemy is defeated.
+Dialogue: 50,0:30:35.10,0:30:37.80,Main-207-,,0,0,0,,Don't shed any more blood.
+Dialogue: 50,0:30:41.37,0:30:43.31,Main-207-,,0,0,0,,{\an8\fscx70\fscy70\bord2.66\shad2.66}Stop fighting!
+Dialogue: 0,0:30:43.34,0:30:45.78,Main-207-,,0,0,0,,Please stop fighting!
+Dialogue: 0,0:31:06.23,0:31:08.23,Main-207-,,0,0,0,,{\an1\q2\pos(460,1053)}Koza!
+Dialogue: 50,0:31:08.30,0:31:09.87,Main-207-,,0,0,0,,Hey, are you all right?
+Dialogue: 50,0:31:13.71,0:31:15.11,Main-207-,,0,0,0,,Do you see it?
+Dialogue: 50,0:31:28.89,0:31:31.09,Flashbacks-207-,,0,0,0,,Don't be so suspicious, Koza.
+Dialogue: 50,0:31:38.10,0:31:40.07,Flashbacks-207-,,0,0,0,,The rain will fall.
+Dialogue: 50,0:31:50.58,0:31:53.78,Main-207-,,0,0,0,,The battle... will end.
+Dialogue: 50,0:31:58.95,0:32:00.02,Main-207-,,0,0,0,,Rain.
+Dialogue: 50,0:32:11.12,0:32:13.93,Main-207-,,0,0,0,,The madness has finally stopped.
+Dialogue: 50,0:32:13.93,0:32:15.46,Main-207-,,0,0,0,,They're beginning to hesitate.
+Dialogue: 50,0:32:18.77,0:32:20.93,Main-207-,,0,0,0,,The rain is starting\Nto clear the air.
+Dialogue: 50,0:32:34.25,0:32:35.95,Main-207-,,0,0,0,,Stop fighting!
+Dialogue: 50,0:32:37.05,0:32:40.69,Main-207-,,0,0,0,,{\fad(0,4191)}Listen to me!
+Dialogue: 50,0:32:47.09,0:32:49.69,Main-207-,,0,0,0,,They've heard\NVivi's voice. Finally.
+Dialogue: 50,0:32:56.20,0:32:57.67,Main-207-,,0,0,0,,Vivi.
+Dialogue: 50,0:32:57.70,0:32:59.44,Main-207-,,0,0,0,,The princess.
+Dialogue: 50,0:32:59.50,0:33:00.70,Main-207-,,0,0,0,,Vivi?
+Dialogue: 50,0:33:00.74,0:33:02.90,Main-207-,,0,0,0,,I didn't know the\Nprincess had come back.
+Dialogue: 50,0:33:09.97,0:33:11.64,Main-207-,,0,0,0,,Sir Crocodile?
+Dialogue: 50,0:33:11.67,0:33:13.11,Main-207-,,0,0,0,,How did he get here?
+Dialogue: 50,0:33:13.11,0:33:15.11,Main-207-,,0,0,0,,What happened to him?
+Dialogue: 50,0:33:15.14,0:33:17.98,Main-207-,,0,0,0,,Oh, so they're still calling him Sir Crocodile?
+Dialogue: 50,0:33:18.01,0:33:21.01,Main-207-,,0,0,0,,We'll see if he's Sir Crocodile\Nafter I tell them what's what!
+Dialogue: 50,0:33:22.11,0:33:24.22,Main-207-,,0,0,0,,Hold on. Just stay here.
+Dialogue: 50,0:33:36.77,0:33:39.47,Main-207-,,0,0,0,,The rain has returned.
+Dialogue: 50,0:33:39.54,0:33:42.54,Main-207-,,0,0,0,,And will fall again,\Nas it used to.
+Dialogue: 50,0:33:44.21,0:33:46.38,Main-207-,,0,0,0,,Our nightmare is over.
+Dialogue: 50,0:33:46.38,0:33:47.72,Main-207-,,0,0,0,,Finally over.
+Dialogue: 50,0:34:09.57,0:34:10.74,Main-207-,,0,0,0,,I thank you.
+Dialogue: 50,0:34:20.15,0:34:21.42,Main-207-,,0,0,0,,No sweat!
+Dialogue: 50,0:07:56.31,0:07:57.26,Main-207-,,0,0,0,,As long as she doesn't give up\Non her country, neither will we!
+Dialogue: 0,0:23:27.46,0:23:32.30,Main-207-,,0,0,0,,Please stop! Stop fighting!
+Dialogue: 50,0:29:42.37,0:29:44.15,Main-207-,,0,0,0,,A million innocent citizens will\Ngive their lives needlessly!
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=3}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=4}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:01:49.96,0:01:52.88,Episode-Title-207-,,0,0,0,,{\bord2.2\c&H161617&\3c&H161617&\fad(984,0)\fsp-2\1a&HFF&\blur0.5\t(939,984,\1a&H00&)}I Will Surpass You
+Dialogue: 1,0:01:49.96,0:01:52.88,Episode-Title-207-,,0,0,0,,{\bord0\c&HE7E7E7&\4a&HFF&\blur0.6\fad(984,0)\fsp-2}I Will Surpass You
+Dialogue: 0,0:09:08.40,0:09:10.95,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}5 Seconds Until Detonation
+Dialogue: 0,0:09:08.40,0:09:10.95,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}5 Seconds Until Detonation
+Dialogue: 0,0:09:08.40,0:09:10.95,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}5 Seconds Until Detonation
+Dialogue: 0,0:09:19.71,0:09:22.33,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}4 Seconds Until Detonation
+Dialogue: 0,0:09:19.71,0:09:22.33,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}4 Seconds Until Detonation
+Dialogue: 0,0:09:19.71,0:09:22.33,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}4 Seconds Until Detonation
+Dialogue: 0,0:09:36.72,0:09:39.39,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}3 Seconds Until Detonation
+Dialogue: 0,0:09:36.72,0:09:39.39,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}3 Seconds Until Detonation
+Dialogue: 0,0:09:36.72,0:09:39.39,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}3 Seconds Until Detonation
+Dialogue: 0,0:10:15.34,0:10:17.43,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}2 Seconds Until Detonation
+Dialogue: 0,0:10:15.34,0:10:17.43,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}2 Seconds Until Detonation
+Dialogue: 0,0:10:15.34,0:10:17.43,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}2 Seconds Until Detonation
+Dialogue: 0,0:10:31.11,0:10:33.53,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}1 Second Until Detonation
+Dialogue: 0,0:10:31.11,0:10:33.53,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}1 Second Until Detonation
+Dialogue: 0,0:10:31.11,0:10:33.53,Episode-Captions-207-,,0,0,0,,{\pos(720,725)\bord0\fnDFPGiHi-W7-Strp\fscx80\fscy80\c&HF8F4FC&\blur0.8}1 Second Until Detonation
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=5}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=6}===============================CREDITS==============================
+Dialogue: 0,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Video Editing
+Dialogue: 1,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\bord0\4a&HFF&}Video Editing
+Dialogue: 0,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,200)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Gigglebot\Nfedew
+Dialogue: 1,0:00:01.73,0:00:03.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,200)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Gigglebot\Nfedew
+Dialogue: 0,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}Timing
+Dialogue: 1,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,200)\blur0.6\bord0\4a&HFF&}Timing
+Dialogue: 0,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,200)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1800,1845,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:03.73,0:00:05.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,200)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3400,3445,\1a&HFF&)}Quality Control
+Dialogue: 1,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Quality Control
+Dialogue: 0,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(3400,3445,\1a&HFF&)}Galaxy 9000\NPepperjack\NPhosCity\NScolines\NZenef
+Dialogue: 1,0:00:05.73,0:00:09.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Galaxy 9000\NPepperjack\NPhosCity\NScolines\NZenef
+Dialogue: 0,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Soundtracking
+Dialogue: 1,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Halee
+Dialogue: 1,0:00:09.73,0:00:11.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Halee
+Dialogue: 0,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Graphics
+Dialogue: 1,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Datenshi
+Dialogue: 1,0:00:11.73,0:00:13.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Datenshi
+Dialogue: 0,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Karaoke
+Dialogue: 1,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Karaoke
+Dialogue: 0,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}KaitouYahiko
+Dialogue: 1,0:00:13.73,0:00:15.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Dubtitles
+Dialogue: 1,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Dubtitles
+Dialogue: 0,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:15.73,0:00:17.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Translation
+Dialogue: 1,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Translation
+Dialogue: 0,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}DemonRin\NFunimation
+Dialogue: 1,0:00:17.73,0:00:19.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}DemonRin\NFunimation
+Dialogue: 0,0:00:19.73,0:00:21.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Raws
+Dialogue: 1,0:00:19.73,0:00:21.73,Episode-Credits-207-,,0,0,0,,{\pos(60,40)\fad(600,600)\blur0.6\bord0\4a&HFF&}Raws
+Dialogue: 0,0:00:19.73,0:00:21.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\fscx115\fscy120\c&H000000&\1a&HFF&\t(555,600,\1a&H00&)\t(1400,1445,\1a&HFF&)}Neo-Raws
+Dialogue: 1,0:00:19.73,0:00:21.73,Episode-Credits-207-,,0,0,0,,{\pos(90,83)\fad(600,600)\blur0.6\bord0\fscx115\fscy120\4a&HFF&}Neo-Raws
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=7}===============================CREDITS==============================
+
+
+
+
+
+
+
+
+
+
+
+
+
+Style: OP Lyrics,Kanit SemiBold,100,&H00F0F4FF,&H00F0F4FF,&H0030103A,&H7016081A,0,0,0,0,100,100,1,0,1,3.6,2.4,2,60,60,50,1
+Style: OP Lyrics Active,Kanit SemiBold,100,&H005F5AFF,&HFF5F5AFF,&HFF30103A,&HFF16081A,0,0,0,0,100,100,1,0,1,0,0,2,60,60,50,1
+Style: OP Lyrics Glow,Kanit SemiBold,100,&HFF3D8AFF,&HFF3D8AFF,&H783D8AFF,&HFF16081A,0,0,0,0,100,100,1,0,1,7,0,2,60,60,50,1
+Style: OP Lyrics Accent,Kanit SemiBold,100,&HFFFFC66E,&HFFFFC66E,&H00FFC66E,&HFF16081A,0,0,0,0,100,100,1,0,1,3,0,2,60,60,50,1
+Style: OP Spoken,Kanit Medium,78,&H00D2EBF7,&H00D2EBF7,&H00141414,&H8C000000,0,1,0,0,100,100,1,0,1,3,2,2,160,160,60,1
+
+
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 2,_aegi_folddata,e0;1;2
+Data: 3,_aegi_folddata,e1;1;2
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 6,_aegi_folddata,e0;1;4
+Data: 7,_aegi_folddata,e1;1;4
