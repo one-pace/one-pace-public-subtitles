@@ -1,0 +1,569 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1440
+PlayResY: 1080
+LayoutResX: 1440
+LayoutResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Episode-Title-207-,M+ 1c,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.5,0,2,15,15,383,1
+Style: Episode-Credits-207-,FOT-Greco Std B Strp,50,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,3,0,7,16,16,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=44}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.02,Main-207-,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:50.01,0:01:50.05,Main-207-,chptr,0,0,0,,{Episode}
+Comment: 0,0:30:14.29,0:30:14.33,Main-207-,chptr,0,0,0,,{Ending}
+Comment: 0,0:00:47.90,0:00:47.94,Main-207-,OP,0,0,0,,
+Comment: 0,0:30:15.29,0:30:15.34,Main-207-,ED,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:50.01,0:02:00.01,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=45}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=46}===============================DIALOGUE============================
+Dialogue: 0,0:01:57.01,0:01:59.14,Flashbacks-207-,Genzo,0,0,0,,You just never learn, do you?
+Dialogue: 0,0:01:59.14,0:02:01.81,Flashbacks-207-,Nami,0,0,0,,Let go! I'll pay you later
+Dialogue: 0,0:02:02.19,0:02:02.94,Flashbacks-207-,,0,0,0,,any way you want.
+Dialogue: 0,0:02:04.02,0:02:05.61,Flashbacks-207-,Bellemere,0,0,0,,You made a boy cry?
+Dialogue: 0,0:02:05.61,0:02:07.57,Flashbacks-207-,Nojiko,0,0,0,,He made me mad!
+Dialogue: 0,0:02:07.57,0:02:09.65,Flashbacks-207-,Mother,0,0,0,,Oh, it's okay. Kids will be kids.
+Dialogue: 0,0:02:09.65,0:02:11.74,Flashbacks-207-,Nami,0,0,0,,He said your tangerines suck.
+Dialogue: 0,0:02:11.74,0:02:12.57,Flashbacks-207-,Bellemere,0,0,0,,He {\i0}what{\i1}?!
+Dialogue: 0,0:02:12.57,0:02:13.53,Flashbacks-207-,Mother,0,0,0,,Bell-mère!
+Dialogue: 0,0:02:14.74,0:02:16.45,Flashbacks-207-,Bellemere,0,0,0,,Never give up...
+Dialogue: 0,0:02:17.70,0:02:22.49,Flashbacks-207-,,0,0,0,,You must find the strength inside you\Nto always move on...
+Dialogue: 0,0:02:24.37,0:02:26.71,Flashbacks-207-,,0,0,0,,You must live through every moment.
+Dialogue: 0,0:02:30.38,0:02:37.51,Flashbacks-207-,Bellemere,0,0,0,,And if you can smile in the face of it\Nall, that is the greatest strength.
+Dialogue: 0,0:02:37.64,0:02:43.64,Flashbacks-207-,Nami & Nojiko,0,0,0,,{\fad(0,2354)}– Bell-mère!\N– Bell-mère!
+Dialogue: 0,0:02:46.56,0:02:49.57,Main-207-,,0,0,0,,While I'm in charge\Nthose without money will die!
+Dialogue: 0,0:02:49.57,0:02:52.28,Main-207-,,0,0,0,,Now do you understand\Nme, you worms?!
+Dialogue: 0,0:02:55.45,0:02:56.28,Main-207-,Hatchan,0,0,0,,What's this?
+Dialogue: 0,0:02:57.41,0:02:58.41,Main-207-,Hatchan,0,0,0,,A map?
+Dialogue: 0,0:02:58.41,0:02:59.37,Main-207-,Nami,0,0,0,,No!
+Dialogue: 0,0:02:59.78,0:03:02.78,Main-207-,Nami,0,0,0,,That's my map! I drew it.\NYou can't have it!
+Dialogue: 0,0:03:03.37,0:03:04.83,Main-207-,,0,0,0,,A {\i1}child{\i0} drew this?
+Dialogue: 0,0:03:04.83,0:03:06.97,Main-207-,,0,0,0,,Give it back!
+Dialogue: 0,0:03:05.46,0:03:06.97,Secondary-207-,Nojiko,0,0,0,,Nami, No!
+Dialogue: 0,0:03:07.54,0:03:08.67,Main-207-,Arlong,0,0,0,,Hmmm...
+Dialogue: 0,0:03:09.17,0:03:11.00,Main-207-,,0,0,0,,Very good.
+Dialogue: 0,0:03:11.96,0:03:14.59,Main-207-,Arlong,0,0,0,,She could be useful.
+Dialogue: 0,0:03:14.59,0:03:15.28,Main-207-,Arlong,0,0,0,,Bring her with us.
+Dialogue: 0,0:03:15.28,0:03:15.78,Main-207-,Hatchan,0,0,0,,Right!
+Dialogue: 0,0:03:17.26,0:03:19.76,Main-207-,,0,0,0,,Waaaah! No! Help!
+Dialogue: 0,0:03:20.14,0:03:22.22,Main-207-,,0,0,0,,Let her go! Let her go!
+Dialogue: 0,0:03:21.01,0:03:22.22,Secondary-207-,Genzo,0,0,0,,Wait!
+Dialogue: 0,0:03:22.64,0:03:24.48,Main-207-,,0,0,0,,You promised not to hurt her
+Dialogue: 0,0:03:24.48,0:03:26.48,Main-207-,,0,0,0,,if you got your money.
+Dialogue: 0,0:03:26.48,0:03:29.69,Main-207-,,0,0,0,,Right, I won't hurt\Nher, just borrow her for a while.
+Dialogue: 0,0:03:29.69,0:03:31.44,Main-207-,,0,0,0,,Genzo, help me.
+Dialogue: 0,0:03:31.44,0:03:33.11,Main-207-,,0,0,0,,I won't let you take her.
+Dialogue: 0,0:03:33.48,0:03:34.80,Main-207-,,0,0,0,,Kuroobi.
+Dialogue: 0,0:03:39.07,0:03:40.60,Main-207-,,0,0,0,,Genzo!
+Dialogue: 0,0:03:40.70,0:03:42.29,Main-207-,,0,0,0,,Genzo! Genzo!
+Dialogue: 0,0:03:42.29,0:03:44.25,Main-207-,,0,0,0,,GENZO!
+Dialogue: 0,0:03:50.13,0:03:52.84,Main-207-,Genzo,0,0,0,,I'll... I'll save you Nami...
+Dialogue: 0,0:03:53.38,0:03:55.30,Main-207-,Genzo,0,0,0,,I won't let you go.
+Dialogue: 0,0:03:55.30,0:03:59.89,Main-207-,,0,0,0,,No, please...! It's okay...!\NYou don't need to save me!
+Dialogue: 0,0:04:00.09,0:04:00.89,Main-207-,,0,0,0,,Enough of this!
+Dialogue: 0,0:04:00.89,0:04:03.17,Main-207-,Genzo,0,0,0,,I will... save you.
+Dialogue: 0,0:04:05.64,0:04:09.40,Main-207-,Nami,0,0,0,,Please, no more killing!
+Dialogue: 0,0:04:17.95,0:04:22.07,Main-207-,Doctor,0,0,0,,All of our ships have been sunk...
+Dialogue: 0,0:04:22.07,0:04:26.54,Main-207-,Doctor,0,0,0,,I'm afraid our plan to have Nami\Nand Nojiko escape to the sea was
+Dialogue: 0,0:04:26.54,0:04:28.00,Main-207-,Genzo,0,0,0,,a bad plan.
+Dialogue: 0,0:04:28.75,0:04:31.50,Main-207-,Genzo,0,0,0,,The Marines won't bother\Ntrying to save us...
+Dialogue: 0,0:04:31.50,0:04:33.38,Main-207-,Genzo,0,0,0,,We've lost our island.
+Dialogue: 0,0:04:33.38,0:04:35.88,Main-207-,,0,0,0,,Bell-mère knew\Nthat this would happen...
+Dialogue: 0,0:04:35.88,0:04:40.72,Main-207-,,0,0,0,,{\q2}Her experiences in the Marines taught\Nher what all these creatures are capable of.
+Dialogue: 0,0:04:41.26,0:04:44.35,Main-207-,,0,0,0,,She knew that none\Nof us would escape.
+Dialogue: 0,0:04:48.94,0:04:51.15,Main-207-,,0,0,0,,They've taken Nami...
+Dialogue: 0,0:04:51.60,0:04:53.06,Main-207-,,0,0,0,,What am I supposed to do now?
+Dialogue: 0,0:04:53.06,0:04:55.92,Main-207-,,0,0,0,,Bell-mère...
+Dialogue: 0,0:04:59.86,0:05:02.53,Main-207-,Doctor,0,0,0,,We know where Arlong\Nand his crew are!
+Dialogue: 0,0:05:02.53,0:05:05.62,Main-207-,Doctor,0,0,0,,It looks like they're going\Nto settle right here on this island...
+Dialogue: 0,0:05:06.08,0:05:07.41,Main-207-,Doctor,0,0,0,,It's time to decide.
+Dialogue: 0,0:05:07.79,0:05:09.66,Main-207-,Doctor,0,0,0,,We can fight to the death right now
+Dialogue: 0,0:05:09.66,0:05:12.92,Main-207-,Doctor,0,0,0,,or we can take a chance\Nthat the Marines will some day
+Dialogue: 0,0:05:12.92,0:05:15.55,Main-207-,Doctor,0,0,0,,come to save us and hope and pray\Nwe don't get killed before then...
+Dialogue: 0,0:05:15.55,0:05:16.75,Main-207-,Doctor,0,0,0,,Your choice!
+Dialogue: 0,0:05:16.88,0:05:20.47,Main-207-,Genzo,0,0,0,,Only Marine headquarters stands\Na chance against them.
+Dialogue: 0,0:05:20.84,0:05:23.97,Main-207-,Genzo,0,0,0,,But they have their hands full\Nwith the Grand Line...
+Dialogue: 0,0:05:23.97,0:05:28.10,Main-207-,Genzo,0,0,0,,{\q2}The chances that they would come\Nall the way out here for us are as good as zero.
+Dialogue: 0,0:05:28.10,0:05:31.48,Main-207-,Genzo,0,0,0,,But I can't just sit here\Nand abandon Nami...
+Dialogue: 0,0:05:31.98,0:05:32.81,Main-207-,Genzo,0,0,0,,We must fight.
+Dialogue: 0,0:05:35.57,0:05:36.94,Main-207-,,0,0,0,,I'm in...
+Dialogue: 0,0:05:36.94,0:05:40.03,Main-207-,,0,0,0,,I can't just stand by and do nothing\Nwhen a child is in danger.
+Dialogue: 0,0:05:40.36,0:05:42.53,Main-207-,,0,0,0,,Now who else will come\Nfight beside us?
+Dialogue: 0,0:05:42.53,0:05:45.62,Main-207-,,0,0,0,,I don't care if they kill me, I'm going\Nto save that little brat.
+Dialogue: 0,0:05:45.62,0:05:48.41,Main-207-,Villager 3,0,0,0,,Bell-mère gave her life for those girls,\Nwe should do no less!
+Dialogue: 0,0:05:48.41,0:05:49.87,Main-207-,Villager 4,0,0,0,,Let's fight!
+Dialogue: 0,0:05:49.87,0:05:53.59,Main-207-,Villager 5,0,0,0,,If just one of us fights\Nthey'll blame us all, so let's do it!
+Dialogue: 0,0:06:00.38,0:06:02.80,Main-207-,Nojiko,0,0,0,,Nami! Nami!
+Dialogue: 0,0:06:02.80,0:06:03.55,Main-207-,Villager 1,0,0,0,,Nami!
+Dialogue: 0,0:06:03.55,0:06:04.43,Main-207-,Villager 2,0,0,0,,What?!
+Dialogue: 0,0:06:04.43,0:06:05.34,Main-207-,Villager 3,0,0,0,,You're okay!
+Dialogue: 0,0:06:05.93,0:06:07.51,Main-207-,Nojiko,0,0,0,,Nami, Nami...!
+Dialogue: 0,0:06:08.39,0:06:11.73,Main-207-,Nojiko,0,0,0,,Are you okay...?\NDid they hurt you any?
+Dialogue: 0,0:06:14.52,0:06:15.27,Main-207-,,0,0,0,,Hey...
+Dialogue: 0,0:06:15.27,0:06:18.32,Main-207-,Nami,0,0,0,,I'm... joining them.
+Dialogue: 0,0:06:18.32,0:06:19.15,Main-207-,Nojiko,0,0,0,,Huh?
+Dialogue: 0,0:06:21.53,0:06:23.74,Main-207-,Nami,0,0,0,,I'm joining Arlong's crew.
+Dialogue: 0,0:06:24.61,0:06:26.95,Main-207-,,0,0,0,,I'll get to be a navigator\Nand draw maps.
+Dialogue: 0,0:06:31.95,0:06:34.04,Main-207-,Genzo,0,0,0,,Heh... What in the world\Nare you talking about?
+Dialogue: 0,0:06:34.79,0:06:36.54,Main-207-,Genzo,0,0,0,,Stand back...
+Dialogue: 0,0:06:36.54,0:06:39.25,Main-207-,Genzo,0,0,0,,Did they threaten to do\Nsomething terrible to you...?
+Dialogue: 0,0:06:39.25,0:06:40.84,Main-207-,Genzo,0,0,0,,Please... tell me.
+Dialogue: 0,0:06:40.84,0:06:41.51,Main-207-,Nami,0,0,0,,No.
+Dialogue: 0,0:06:41.51,0:06:42.88,Main-207-,,0,0,0,,They must have done something!
+Dialogue: 0,0:06:42.88,0:06:44.30,Main-207-,,0,0,0,,Tell the truth!
+Dialogue: 0,0:06:42.88,0:06:43.84,Secondary-207-,,0,0,0,,No!
+Dialogue: 0,0:06:44.30,0:06:46.34,Main-207-,Nami,0,0,0,,Let go of me!
+Dialogue: 0,0:06:46.34,0:06:47.39,Main-207-,,0,0,0,,Nami.
+Dialogue: 0,0:06:49.95,0:06:51.24,Main-207-,Nojiko,0,0,0,,No!
+Dialogue: 0,0:06:52.64,0:06:55.31,Main-207-,,0,0,0,,But... that's an... Arlong tattoo.
+Dialogue: 0,0:06:56.44,0:06:57.19,Main-207-,Genzo,0,0,0,,Not you.
+Dialogue: 0,0:06:57.86,0:06:58.98,Main-207-,,0,0,0,,But why?
+Dialogue: 0,0:07:00.23,0:07:01.86,Main-207-,,0,0,0,,Look at this...
+Dialogue: 0,0:07:01.86,0:07:04.36,Main-207-,,0,0,0,,They gave me all this money.
+Dialogue: 0,0:07:07.37,0:07:10.45,Main-207-,,0,0,0,,Heh heh... They say...\Nthey'll buy me anything I want.
+Dialogue: 0,0:07:10.45,0:07:11.74,Main-207-,Nojiko,0,0,0,,No...!
+Dialogue: 0,0:07:11.83,0:07:14.87,Main-207-,Nojiko,0,0,0,,I will never forgive you if you join\Nthem! Don't you understand?!
+Dialogue: 0,0:07:14.87,0:07:17.58,Main-207-,Nojiko,0,0,0,,They killed Bell-mère in front of us!
+Dialogue: 0,0:07:17.58,0:07:19.46,Main-207-,Nojiko,0,0,0,,She died to keep us safe.
+Dialogue: 0,0:07:19.46,0:07:21.80,Main-207-,Nojiko,0,0,0,,I'll never forgive you! Never!
+Dialogue: 0,0:07:21.80,0:07:23.34,Main-207-,Nojiko,0,0,0,,You're not my sister! Who cares?
+Dialogue: 0,0:07:23.34,0:07:26.43,Main-207-,Nojiko,0,0,0,,{\q2}Why would I want to live like Bell-mère\Nif it just gets you killed?
+Dialogue: 0,0:07:26.43,0:07:29.43,Main-207-,Nojiko,0,0,0,,I don't wanna die like that!
+Dialogue: 0,0:07:31.56,0:07:32.97,Main-207-,Nojiko,0,0,0,,How could you...?
+Dialogue: 0,0:07:33.43,0:07:35.10,Main-207-,Nojiko,0,0,0,,Bell-mère...
+Dialogue: 0,0:07:36.19,0:07:39.27,Main-207-,Nojiko,0,0,0,,Bell-mère gave her life\Nso that you and I could go on living
+Dialogue: 0,0:07:39.27,0:07:40.11,Main-207-,Nojiko,0,0,0,,together.
+Dialogue: 0,0:07:40.11,0:07:41.90,Main-207-,Genzo,0,0,0,,That's enough, Nojiko!
+Dialogue: 0,0:07:42.57,0:07:43.86,Main-207-,,0,0,0,,Leave us Nami!
+Dialogue: 0,0:07:43.86,0:07:46.70,Main-207-,,0,0,0,,Never set foot in this village again!
+Dialogue: 0,0:07:54.16,0:07:55.33,Main-207-,Nojiko,0,0,0,,Nami!
+Dialogue: 0,0:07:59.92,0:08:01.84,Thoughts-207-,Genzo,0,0,0,,I don't understand.
+Dialogue: 0,0:08:01.87,0:08:08.09,Thoughts-207-,Genzo,0,0,0,,{\q2}How could she betray her family like that?\NFor money? Bell-mère was like her mother.
+Dialogue: 0,0:08:18.39,0:08:20.79,Thoughts-207-,Nojiko,0,0,0,,Nami loved Bell-mère...
+Dialogue: 0,0:08:20.86,0:08:23.57,Thoughts-207-,Nojiko,0,0,0,,I know she did.
+Dialogue: 0,0:08:30.82,0:08:31.87,Main-207-,Nami,0,0,0,,Hey...
+Dialogue: 0,0:08:32.49,0:08:34.87,Main-207-,Nami,0,0,0,,Didn't Bell-mère always say...
+Dialogue: 0,0:08:36.00,0:08:37.37,Main-207-,Nami,0,0,0,,..."Good things will
+Dialogue: 0,0:08:37.91,0:08:40.75,Main-207-,Nami,0,0,0,,come your way, as long as\Nyou continue to live.
+Dialogue: 0,0:08:41.33,0:08:43.91,Main-207-,,0,0,0,,Lots of good things."
+Dialogue: 0,0:08:45.25,0:08:46.01,Main-207-,Nojiko,0,0,0,,Yes.
+Dialogue: 0,0:08:46.55,0:08:48.97,Main-207-,Nami,0,0,0,,After Arlong took me
+Dialogue: 0,0:08:48.97,0:08:51.89,Main-207-,Nami,0,0,0,,I watched him sink five Marine ships\Nlike they were toys.
+Dialogue: 0,0:08:51.89,0:08:54.93,Main-207-,Nami,0,0,0,,I don't think they'll send any more.
+Dialogue: 0,0:08:54.93,0:08:57.93,Main-207-,Nami,0,0,0,,We're on our own.
+Dialogue: 0,0:08:57.93,0:09:02.30,Main-207-,Nami,0,0,0,,So I decided I'd do something\Nabout it. I made a deal with Arlong
+Dialogue: 0,0:09:02.35,0:09:04.02,Main-207-,Nami,0,0,0,,to buy Cocoyashi village from him.
+Dialogue: 0,0:09:04.48,0:09:06.65,Main-207-,Nojiko,0,0,0,,Buy Cocoyashi? How?
+Dialogue: 0,0:09:07.71,0:09:10.15,Main-207-,Nami,0,0,0,,For 100 million berries.
+Dialogue: 0,0:09:12.28,0:09:15.37,Main-207-,,0,0,0,,If I buy the town, we'll be free.
+Dialogue: 0,0:09:15.37,0:09:17.91,Main-207-,,0,0,0,,No else will die.
+Dialogue: 0,0:09:17.91,0:09:21.12,Main-207-,,0,0,0,,And all I have to do is join\Nhis crew and draw maps.
+Dialogue: 0,0:09:21.12,0:09:23.63,Main-207-,Nojiko,0,0,0,,But 100 million berries!
+Dialogue: 0,0:09:23.63,0:09:25.42,Main-207-,Nojiko,0,0,0,,You can't earn that working\Nyour whole life.
+Dialogue: 0,0:09:25.42,0:09:27.17,Main-207-,Nami,0,0,0,,I will get that money
+Dialogue: 0,0:09:27.17,0:09:28.51,Main-207-,Nami,0,0,0,,no matter what.
+Dialogue: 0,0:09:28.96,0:09:33.97,Main-207-,Nami,0,0,0,,{\q2}People are having a hard enough time paying\Ntheir own tribute so I have to do this alone.
+Dialogue: 0,0:09:33.97,0:09:37.77,Main-207-,Nami,0,0,0,,If anyone tries to help me,\Nthey'll just get hurt.
+Dialogue: 0,0:09:44.11,0:09:45.61,Main-207-,Nojiko,0,0,0,,Won't it be hard?
+Dialogue: 0,0:09:45.61,0:09:47.27,Main-207-,Nami,0,0,0,,Yeah...
+Dialogue: 0,0:09:47.27,0:09:50.53,Main-207-,Nojiko,0,0,0,,Living with the people\Nwho killed our mother?
+Dialogue: 0,0:09:50.53,0:09:51.53,Main-207-,Nami,0,0,0,,I'll be okay.
+Dialogue: 0,0:09:52.11,0:09:53.53,Main-207-,Nami,0,0,0,,I'll just smile
+Dialogue: 0,0:09:53.53,0:09:57.65,Main-207-,Nami,0,0,0,,every time I see his face.\NI'm not going to cry anymore.
+Dialogue: 0,0:10:01.16,0:10:03.62,Main-207-,,0,0,0,,I'm going to fight by myself.
+Dialogue: 0,0:10:21.35,0:10:23.60,Main-207-,Nojiko,0,0,0,,To make a choice like that
+Dialogue: 0,0:10:23.60,0:10:26.69,Main-207-,Nojiko,0,0,0,,when you're only ten years\Nold. Do you know how
+Dialogue: 0,0:10:26.69,0:10:28.82,Main-207-,Nojiko,0,0,0,,hard that must have been?
+Dialogue: 0,0:10:29.65,0:10:33.36,Main-207-,,0,0,0,,All to save the village\Nshe loved so much...
+Dialogue: 0,0:10:33.36,0:10:34.11,Main-207-,,0,0,0,,That girl...
+Dialogue: 0,0:10:34.99,0:10:38.88,Main-207-,,0,0,0,,Ahhhh! Whoever makes\NNami suffer's going to hear from me!
+Dialogue: 0,0:10:39.03,0:10:41.62,Main-207-,,0,0,0,,Why'd you do that?
+Dialogue: 0,0:10:41.62,0:10:42.79,Main-207-,,0,0,0,,Because...
+Dialogue: 0,0:10:42.79,0:10:45.37,Main-207-,,0,0,0,,I'm telling you to stay out of it...
+Dialogue: 0,0:10:45.37,0:10:47.75,Main-207-,,0,0,0,,If you go around saying\Nthat she's your friend,
+Dialogue: 0,0:10:47.75,0:10:49.50,Main-207-,,0,0,0,,they're going to become\Nsuspicious of her.
+Dialogue: 0,0:10:49.92,0:10:53.32,Main-207-,,0,0,0,,Then her eight years of suffering\Nwill have been for nothing.
+Dialogue: 0,0:10:53.38,0:10:55.55,Main-207-,,0,0,0,,Don't make it harder\Nthan it already is.
+Dialogue: 0,0:10:56.34,0:10:59.31,Main-207-,,0,0,0,,She has to fight alone.\NKnowing there are people
+Dialogue: 0,0:10:59.31,0:11:02.81,Main-207-,,0,0,0,,who call her "friend" only makes\Nthe suffering worse.
+Dialogue: 0,0:11:16.95,0:11:19.62,FlashbacksSecondary-207-,,0,0,0,,{\an8}Get back here you little brat!
+Dialogue: 0,0:11:19.62,0:11:22.12,FlashbacksSecondary-207-,Pirate B,0,0,0,,{\an8}Stop!
+Dialogue: 0,0:11:22.54,0:11:24.33,Flashbacks-207-,Nojiko,0,0,0,,A pirate thief?
+Dialogue: 0,0:11:24.75,0:11:26.12,Flashbacks-207-,Nami,0,0,0,,That's right.
+Dialogue: 0,0:11:26.12,0:11:29.59,Flashbacks-207-,Nami,0,0,0,,{\q2}The only thing this place has going\Nfor it is plenty of pirates to steal from.
+Dialogue: 0,0:11:29.92,0:11:31.88,Flashbacks-207-,Nami,0,0,0,,I'm gonna make 'em pay!
+Dialogue: 0,0:11:31.88,0:11:34.22,Flashbacks-207-,Nojiko,0,0,0,,You're all cut up!
+Dialogue: 0,0:11:34.22,0:11:38.18,Flashbacks-207-,Nami,0,0,0,,Yeah, I kinda screwed up.\NBut look, one million berries.
+Dialogue: 0,0:11:38.18,0:11:40.85,Flashbacks-207-,Nojiko,0,0,0,,Who cares about that?\NYou need a doctor!
+Dialogue: 0,0:11:40.85,0:11:42.77,Flashbacks-207-,Nami,0,0,0,,It's nothing, these cuts are nothing!
+Dialogue: 0,0:11:43.64,0:11:46.10,Flashbacks-207-,Nami,0,0,0,,No one will find it here.
+Dialogue: 0,0:11:46.10,0:11:48.81,Flashbacks-207-,Nami,0,0,0,,I'll save up little by little.
+Dialogue: 0,0:11:48.81,0:11:52.62,Flashbacks-207-,Nami,0,0,0,,By the time this is filled I'll have\Nmy hundred million.
+Dialogue: 0,0:11:54.70,0:11:56.82,Flashbacks-207-,Nami,0,0,0,,Still a long way to go.
+Dialogue: 0,0:11:58.32,0:12:01.00,Thoughts-207-,Nami,0,0,0,,100 million Berries...
+Dialogue: 0,0:12:02.66,0:12:06.62,Thoughts-207-,Nami,0,0,0,,{\q2}It's taken a while but only seven million left...
+Dialogue: 0,0:12:09.15,0:12:11.75,Thoughts-207-,,0,0,0,,I can get that with one more job...
+Dialogue: 0,0:12:11.75,0:12:14.80,Thoughts-207-,,0,0,0,,Just one more trip\Nand this will finally be over.
+Dialogue: 0,0:12:15.67,0:12:20.89,Thoughts-207-,,0,0,0,,Arlong's rule will be over...\NCocoyashi village will be free...
+Dialogue: 0,0:12:20.89,0:12:22.51,Thoughts-207-,,0,0,0,,I will be free
+Dialogue: 0,0:12:22.93,0:12:25.02,Thoughts-207-,,0,0,0,,and then...
+Dialogue: 0,0:12:25.56,0:12:30.39,Thoughts-207-,,0,0,0,,And then I think I'll finally be able\Nto smile again for real.
+Dialogue: 0,0:12:31.65,0:12:33.27,Thoughts-207-,,0,0,0,,Bell-mère...
+Dialogue: 0,0:12:49.92,0:12:52.92,Main-207-,Genzo,0,0,0,,So why do the Marines want Nami?
+Dialogue: 0,0:12:53.29,0:12:56.63,Main-207-,Nezumi,0,0,0,,Your job is to lead the way, quietly.
+Dialogue: 0,0:12:59.30,0:13:03.18,Main-207-,,0,0,0,,A hat pinwheel... Where\Nin the world did he get that?
+Dialogue: 0,0:13:03.85,0:13:05.26,Main-207-,,0,0,0,,It's so cool.
+Dialogue: 0,0:13:12.60,0:13:15.32,Main-207-,,0,0,0,,One more little job... Let's get to it.
+Dialogue: 0,0:13:20.57,0:13:21.70,Main-207-,,0,0,0,,Genzo...?
+Dialogue: 0,0:13:21.70,0:13:23.20,Main-207-,,0,0,0,,And the Marines?
+Dialogue: 0,0:13:27.91,0:13:30.41,Main-207-,,0,0,0,,Are you the pirate thief\Nknown as Nami?
+Dialogue: 0,0:13:32.37,0:13:34.03,Main-207-,,0,0,0,,The Marine's sources have revealed...
+Dialogue: 0,0:13:34.03,0:13:37.34,Main-207-,,0,0,0,,{\q2}That you have quite a large sum of treasure\Nthat you've stolen from pirates...
+Dialogue: 0,0:13:37.70,0:13:40.61,Main-207-,,0,0,0,,The government hereby confiscates\Neverything you've stolen...
+Dialogue: 0,0:13:40.61,0:13:43.72,Main-207-,,0,0,0,,It is required that you comply\Nimmediately. Do you understand?
+Dialogue: 0,0:13:45.76,0:13:47.81,Main-207-,,0,0,0,,I'm only going to warn you once...
+Dialogue: 0,0:13:47.81,0:13:50.06,Main-207-,,0,0,0,,I'm one of the leaders\Nof the Arlong Pirates...
+Dialogue: 0,0:13:50.06,0:13:53.15,Main-207-,,0,0,0,,If you mess with me,\NArlong won't sit by quietly.
+Dialogue: 0,0:13:54.40,0:13:55.90,Main-207-,,0,0,0,,Chichichi... Silly girl...
+Dialogue: 0,0:13:55.90,0:13:59.65,Main-207-,,0,0,0,,{\q2}Who do you think I am? Do you honestly think\Nyou can intimidate me...?
+Dialogue: 0,0:13:59.65,0:14:01.20,Main-207-,,0,0,0,,Find the stolen goods!
+Dialogue: 0,0:14:03.20,0:14:04.81,Main-207-,,0,0,0,,Don't move.
+Dialogue: 0,0:14:08.80,0:14:12.12,Main-207-,,0,0,0,,I said stop!
+Dialogue: 0,0:14:16.96,0:14:19.96,Main-207-,,0,0,0,,Do you really think this is what\Nthe Marines should be doing now?
+Dialogue: 0,0:14:19.96,0:14:23.84,Main-207-,,0,0,0,,The Arlong Pirates are murderers;\Nthey've destroyed entire cities and
+Dialogue: 0,0:14:23.84,0:14:25.05,Main-207-,,0,0,0,,you're doing nothing!
+Dialogue: 0,0:14:25.55,0:14:29.26,Main-207-,,0,0,0,,He's ruling over this island\Nand trampling over people's lives!
+Dialogue: 0,0:14:30.44,0:14:34.60,Main-207-,,0,0,0,,{\q2}You'd ignore {\i1}Arlong's atrocities{\i0} to steal\Nfrom a thief...? Is that what you stand for?!
+Dialogue: 0,0:14:36.19,0:14:38.36,Main-207-,,0,0,0,,Chichichi... Big talk\Nfrom a filthy criminal...
+Dialogue: 0,0:14:38.36,0:14:39.53,Main-207-,,0,0,0,,Ha... Continue the search men.
+Dialogue: 0,0:14:39.94,0:14:44.53,Main-207-,,0,0,0,,{\q2}Every person on this island has been waiting\Nfor the Marines to come and help them for years!
+Dialogue: 0,0:14:44.91,0:14:48.03,Main-207-,,0,0,0,,{\q2}How dare you pass them by and come\Nhere searching for {\i1}money{\i0}!
+Dialogue: 0,0:14:48.41,0:14:51.20,Main-207-,Marine C,0,0,0,,Colonel...! This tangerine orchard\Nseems a little suspicious!
+Dialogue: 0,0:14:51.20,0:14:54.25,Main-207-,Nezumi,0,0,0,,Dig it up! The whole thing if need be!
+Dialogue: 0,0:14:55.87,0:14:59.50,Main-207-,,0,0,0,,Keep your filthy hands\Noff Bell-mère's tangerine orchard!
+Dialogue: 0,0:15:02.46,0:15:04.22,Main-207-,,0,0,0,,I won't let you take my money...!
+Dialogue: 0,0:15:04.22,0:15:06.47,Main-207-,,0,0,0,,That money's for... It's for...!
+Dialogue: 0,0:15:08.72,0:15:12.72,Main-207-,,0,0,0,,That poor girl's money is meant\Nto save Cocoyashi Village...!
+Dialogue: 0,0:15:12.72,0:15:16.94,Main-207-,,0,0,0,,{\q2}What gives you the right to take\Nour salvation away from her?! Damn you!
+Dialogue: 0,0:15:18.94,0:15:20.32,Main-207-,,0,0,0,,My my...
+Dialogue: 0,0:15:20.32,0:15:23.90,Main-207-,,0,0,0,,{\q2}A mere village representative talking down\Nto a Marine colonel. How bold.
+Dialogue: 0,0:15:24.90,0:15:26.28,Main-207-,,0,0,0,,Genzo...
+Dialogue: 0,0:15:26.28,0:15:28.24,Main-207-,,0,0,0,,How'd you know about that?
+Dialogue: 0,0:15:32.12,0:15:34.08,Main-207-,Genzo,0,0,0,,I've always known... Nami.
+Dialogue: 0,0:15:36.46,0:15:39.96,Main-207-,Genzo,0,0,0,,I couldn't believe\Nwhat you had done...
+Dialogue: 0,0:15:39.96,0:15:41.84,Main-207-,Genzo,0,0,0,,So I confronted Nojiko about it later.
+Dialogue: 0,0:15:41.84,0:15:44.26,Main-207-,Genzo,0,0,0,,Since then,
+Dialogue: 0,0:15:44.26,0:15:48.80,Main-207-,Genzo,0,0,0,,{\q2}everyone has known that you stayed with the\NArlong Pirates so that you could save the village.
+Dialogue: 0,0:15:49.18,0:15:52.18,Main-207-,Genzo,0,0,0,,But we all agreed we'd never tell\Nyou that we knew...
+Dialogue: 0,0:15:52.18,0:15:55.06,Main-207-,Genzo,0,0,0,,If you ever thought the villagers\Nwere placing their hopes on you,
+Dialogue: 0,0:15:55.06,0:15:58.27,Main-207-,Genzo,0,0,0,,you might never leave\Nhis gang for fear of letting us down.
+Dialogue: 0,0:15:58.81,0:16:00.52,Main-207-,,0,0,0,,That can't be...
+Dialogue: 0,0:16:02.98,0:16:05.90,Main-207-,,0,0,0,,Now hold on a minute,\Njust what are you trying to say here?
+Dialogue: 0,0:16:05.90,0:16:10.32,Main-207-,,0,0,0,,{\q2}Are you telling me that the villagers are thieves,\Nand we should arrest every one of them...?
+Dialogue: 0,0:16:10.32,0:16:11.70,Main-207-,,0,0,0,,Is that what you're saying?
+Dialogue: 0,0:16:11.70,0:16:16.29,Main-207-,Nojiko,0,0,0,,{\q2}What he's saying is that every last one\Nof us is fighting to survive
+Dialogue: 0,0:16:16.71,0:16:17.96,Main-207-,Nojiko,0,0,0,,We have to fend for ourselves
+Dialogue: 0,0:16:17.96,0:16:20.67,Main-207-,Nojiko,0,0,0,,because we can't rely on support\Nfrom you government people!
+Dialogue: 0,0:16:21.00,0:16:24.71,Main-207-,Nojiko,0,0,0,,{\q2}So if you're not gonna protect\Nour village, then get the hell outta here!
+Dialogue: 0,0:16:25.26,0:16:28.59,Main-207-,Nojiko,0,0,0,,And be quick about it,\Nor Arlong'll sink your ship too!
+Dialogue: 0,0:16:28.59,0:16:30.47,Main-207-,,0,0,0,,Arlong will...?
+Dialogue: 0,0:16:30.47,0:16:32.30,Main-207-,,0,0,0,,I wouldn't be so sure.
+Dialogue: 0,0:16:34.60,0:16:36.18,Main-207-,,0,0,0,,You still haven't found it...?!
+Dialogue: 0,0:16:36.18,0:16:40.36,Main-207-,,0,0,0,,We're looking for 100 million berries\Nhere, not a grain of rice!
+Dialogue: 0,0:16:40.85,0:16:42.31,Main-207-,Genzo,0,0,0,,Hey you!
+Dialogue: 0,0:16:42.31,0:16:43.94,Main-207-,Genzo,0,0,0,,How do you know\Nhow much there is?!
+Dialogue: 0,0:16:45.78,0:16:47.95,Main-207-,,0,0,0,,Oh... I don't know...
+Dialogue: 0,0:16:47.95,0:16:51.32,Main-207-,,0,0,0,,I just have a hunch that that's\Nthe amount we're looking for.
+Dialogue: 0,0:17:02.21,0:17:04.13,Main-207-,,0,0,0,,It's him...
+Dialogue: 0,0:17:09.01,0:17:12.01,Main-207-,,0,0,0,,Tell me...! It was Arlong\Nthat sent you wasn't it?!
+Dialogue: 0,0:17:13.51,0:17:15.39,Main-207-,,0,0,0,,Chichichi... 'Course not...
+Dialogue: 0,0:17:15.39,0:17:17.58,Main-207-,,0,0,0,,I wouldn't do a pirate's dirty work,\Nthat'd be wrong...
+Dialogue: 0,0:17:17.58,0:17:21.56,Main-207-,,0,0,0,,{\q2}I'm just a public servant dealing with theft\Nthe way any government worker would.
+Dialogue: 0,0:17:21.56,0:17:23.98,Main-207-,,0,0,0,,You corrupt marine scumbag!
+Dialogue: 0,0:17:23.98,0:17:27.61,Main-207-,,0,0,0,,The Marines have stooped\Nto being nothing but pirate cronies!
+Dialogue: 0,0:17:29.24,0:17:30.74,Thoughts-207-,,0,0,0,,Arlong!
+Dialogue: 0,0:17:31.11,0:17:32.49,Main-207-,Marine G,0,0,0,,Sir, I found it!
+Dialogue: 0,0:17:40.79,0:17:42.75,Main-207-,Nezumi,0,0,0,,Incredible!
+Dialogue: 0,0:17:42.75,0:17:45.96,Main-207-,Nezumi,0,0,0,,I must say I'm impressed\Nyou gathered this much treasure!
+Dialogue: 0,0:17:45.96,0:17:48.26,Main-207-,,0,0,0,,The money's all ragged and bloody.
+Dialogue: 0,0:17:48.26,0:17:50.42,Main-207-,,0,0,0,,No matter... Money's money!
+Dialogue: 0,0:17:52.80,0:17:56.35,Thoughts-207-,,0,0,0,,Thirty percent of this is all mine!
+Dialogue: 0,0:17:56.35,0:17:58.27,Main-207-,Nami,0,0,0,,Don't touch that...
+Dialogue: 0,0:17:58.77,0:18:02.60,Main-207-,,0,0,0,,Don't touch that... Don't touch that...
+Dialogue: 0,0:18:02.60,0:18:04.35,Main-207-,,0,0,0,,Nami...
+Dialogue: 0,0:18:04.35,0:18:06.94,Main-207-,,0,0,0,,Stop it... Don't touch that!
+Dialogue: 0,0:18:06.94,0:18:08.57,Main-207-,,0,0,0,,Stop it!
+Dialogue: 0,0:18:31.13,0:18:31.76,Main-207-,,0,0,0,,Nojiko!
+Dialogue: 0,0:18:32.67,0:18:33.97,Main-207-,,0,0,0,,Nojiko!
+Dialogue: 0,0:18:39.35,0:18:41.81,Main-207-,Genzo,0,0,0,,Doctor! Doctor!
+Dialogue: 0,0:18:42.81,0:18:44.69,Main-207-,Doctor,0,0,0,,Genzo! What is it?!
+Dialogue: 0,0:18:44.69,0:18:46.10,Main-207-,Genzo,0,0,0,,Nojiko's been shot!
+Dialogue: 0,0:18:46.10,0:18:47.31,Main-207-,Doctor,0,0,0,,By who?!
+Dialogue: 0,0:18:47.31,0:18:48.44,Main-207-,Genzo,0,0,0,,The Marines.
+Dialogue: 0,0:18:48.44,0:18:49.27,Main-207-,Doctor,0,0,0,,The Marines?!
+Dialogue: 0,0:18:54.61,0:18:55.57,Main-207-,Doctor,0,0,0,,Nami.
+Dialogue: 0,0:18:56.16,0:18:57.91,Main-207-,,0,0,0,,Hey Nami...!
+Dialogue: 0,0:18:57.91,0:19:00.24,Main-207-,,0,0,0,,What's up?! Need help\Nwith anything?!
+Dialogue: 0,0:19:02.58,0:19:04.00,Main-207-,,0,0,0,,Why are you still here?
+Dialogue: 0,0:19:05.00,0:19:08.75,Main-207-,,0,0,0,,Stay outta my business...!\NJust get away from our island!
+Dialogue: 0,0:19:15.68,0:19:17.22,Thoughts-207-,,0,0,0,,Arlong...
+Dialogue: 0,0:19:17.22,0:19:20.14,Flashbacks-207-,,0,0,0,,I bet it's the village...\NYou want it left alone?
+Dialogue: 0,0:19:20.51,0:19:22.18,Thoughts-207-,,0,0,0,,Arlong!
+Dialogue: 0,0:19:22.18,0:19:25.19,Flashbacks-207-,,0,0,0,,Gather up 100 million berries,\Nthen bring it to me...
+Dialogue: 0,0:19:25.19,0:19:28.98,Flashbacks-207-,,0,0,0,,{\q2}Do so and I will let your village go in addition\Nto giving you your freedom.
+Dialogue: 0,0:19:29.40,0:19:30.73,Thoughts-207-,,0,0,0,,Arlong!
+Dialogue: 0,0:19:30.73,0:19:34.99,Flashbacks-207-,,0,0,0,,{\q2}And I'm the kind of fishman who would rather\Ndie than break an agreement concerning money.
+Dialogue: 0,0:19:34.99,0:19:37.11,Flashbacks-207-,,0,0,0,,And I don't even care\Nhow long it takes you,
+Dialogue: 0,0:19:37.11,0:19:38.78,Flashbacks-207-,,0,0,0,,I will honor our agreement.
+Dialogue: 0,0:19:39.62,0:19:41.12,Main-207-,Nami,0,0,0,,Arlong!
+Dialogue: 0,0:19:45.75,0:19:47.71,Main-207-,,0,0,0,,What's {\i1}her{\i0} problem?
+Dialogue: 0,0:19:49.84,0:19:51.38,Main-207-,Nami,0,0,0,,Arlong!
+Dialogue: 0,0:19:51.67,0:19:52.29,Main-207-,Group,0,0,0,,– Hmm?\N– Hmm?
+Dialogue: 0,0:19:52.50,0:19:54.42,Main-207-,Arlong,0,0,0,,Hmm? Ah...
+Dialogue: 0,0:19:54.42,0:19:58.01,Main-207-,Arlong,0,0,0,,What seems to be the problem,\NO skilled surveyor of ours?
+Dialogue: 0,0:19:58.01,0:20:00.26,Main-207-,Arlong,0,0,0,,Why the sour face?
+Dialogue: 0,0:20:00.85,0:20:04.77,Main-207-,,0,0,0,,{\q2}Those Marine maggots you keep\Non the payroll stole every last berry I had!
+Dialogue: 0,0:20:05.52,0:20:07.69,Main-207-,,0,0,0,,{\q2}What happened to all that crap about dying
+Dialogue: 0,0:20:07.69,0:20:09.77,Main-207-,,0,0,0,,before you'd ever break a promise\Nwhen it comes to money...?!
+Dialogue: 0,0:20:09.77,0:20:11.27,Main-207-,,0,0,0,,Bastard!
+Dialogue: 0,0:20:11.27,0:20:13.48,Main-207-,,0,0,0,,Refresh my memory.\NDid I break a promise?
+Dialogue: 0,0:20:13.90,0:20:17.02,Main-207-,,0,0,0,,Don't play dumb with me! I know that\Nyou teamed up with the Marines to–
+Dialogue: 0,0:20:18.53,0:20:21.16,Main-207-,,0,0,0,,Just when did I break\Nthat promise...?
+Dialogue: 0,0:20:21.16,0:20:22.20,Main-207-,,0,0,0,,Speak up girl.
+Dialogue: 0,0:20:30.29,0:20:32.17,Thoughts-207-,,0,0,0,,Damn you...
+Dialogue: 0,0:20:32.17,0:20:34.25,Thoughts-207-,,0,0,0,,Damn you! Damn you!
+Dialogue: 0,0:20:36.21,0:20:37.34,Main-207-,,0,0,0,,Too bad...
+Dialogue: 0,0:20:37.34,0:20:39.18,Main-207-,,0,0,0,,All your stolen money got stolen...
+Dialogue: 0,0:20:39.18,0:20:41.72,Main-207-,,0,0,0,,That certainly is unfortunate...
+Dialogue: 0,0:20:41.72,0:20:44.06,Main-207-,,0,0,0,,But a deal is a deal Nami...
+Dialogue: 0,0:20:44.06,0:20:47.06,Main-207-,,0,0,0,,If you can't come up\Nwith 100 million berries,
+Dialogue: 0,0:20:47.06,0:20:50.01,Main-207-,,0,0,0,,then both you and your village stay\Nin my possession indefinitely.
+Dialogue: 0,0:20:50.01,0:20:52.19,Main-207-,,0,0,0,,Well, you know the terms. Hmm?
+Dialogue: 0,0:20:52.65,0:20:53.69,Main-207-,,0,0,0,,You pig!
+Dialogue: 0,0:20:56.78,0:20:58.95,Main-207-,,0,0,0,,It's only 100 million berries!
+Dialogue: 0,0:20:58.95,0:21:01.66,Main-207-,,0,0,0,,Start saving again\Nand you'll have it in no time!
+Dialogue: 0,0:21:04.70,0:21:07.50,Main-207-,,0,0,0,,Or, are you gonna run out on me?
+Dialogue: 0,0:21:08.96,0:21:13.92,Main-207-,,0,0,0,,{\q2}Listen... If you do that, I'll kill everyone\Nin that village. Do you understand me?
+Dialogue: 0,0:21:17.67,0:21:18.92,Flashbacks-207-,Genzo,0,0,0,,Nami...
+Dialogue: 0,0:21:18.92,0:21:21.68,Flashbacks-207-,Genzo,0,0,0,,We agreed we would never tell\Nyou that we knew...
+Dialogue: 0,0:21:21.68,0:21:24.93,Flashbacks-207-,Genzo,0,0,0,,If you thought all of us were counting\Non you, you would be
+Dialogue: 0,0:21:24.93,0:21:28.73,Flashbacks-207-,Genzo,0,0,0,,{\fad(0,935)}bound by guilt never to leave\Nhis gang for fear of letting us down.
+Dialogue: 0,0:21:33.65,0:21:34.65,Main-207-,,0,0,0,,Aww...
+Dialogue: 0,0:21:34.65,0:21:36.78,Main-207-,,0,0,0,,Running away so soon?
+Dialogue: 0,0:21:39.86,0:21:41.70,Main-207-,,0,0,0,,Shouldn't we chase after her?
+Dialogue: 0,0:21:41.70,0:21:43.82,Main-207-,Arlong,0,0,0,,No need for that.
+Dialogue: 0,0:21:44.32,0:21:46.83,Main-207-,Arlong,0,0,0,,Trust me Hachi\Nshe's not going anywhere...
+Dialogue: 0,0:21:46.83,0:21:51.33,Main-207-,Arlong,0,0,0,,{\q2}There's no way Nami could just abandon\Nthe lives of all those villagers.
+Dialogue: 0,0:21:52.33,0:21:55.21,Main-207-,Choo,0,0,0,,Choo. Now that's what\NI call playing dirty.
+Dialogue: 0,0:21:55.21,0:21:59.42,Main-207-,,0,0,0,,There's no way I'd let go\Nof an asset like Nami that easily.
+Dialogue: 0,0:21:59.42,0:22:02.68,Main-207-,,0,0,0,,I may be cruel but I'm not\N{\i1}totally{\i0} heartless.
+Dialogue: 0,0:22:04.18,0:22:09.27,Main-207-,,0,0,0,,{\q2}{\i1}Once{\i0} she's done charting\Nall the world's oceans, she'll have her freedom.
+Dialogue: 0,0:22:11.77,0:22:15.40,Main-207-,,0,0,0,,That's pretty harsh man,\Nit'll take decades for sure.
+Dialogue: 0,0:22:15.40,0:22:18.19,Main-207-,,0,0,0,,Yeah, I bet a hundred years\Nwouldn't be enough!
+Dialogue: 0,0:22:26.91,0:22:28.74,Main-207-,Genzo,0,0,0,,We've had enough...! Take up arms!
+Dialogue: 0,0:22:28.74,0:22:29.83,Main-207-,Genzo,0,0,0,,It's time to fight!
+Dialogue: 0,0:22:30.72,0:22:31.64,Main-207-,Sanji,0,0,0,,Yeah!
+Dialogue: 0,0:22:34.25,0:22:38.75,Thoughts-207-,,0,0,0,,Genzo! Please!\NDon't do anything stupid!
+Dialogue: 0,0:22:38.75,0:22:41.42,Thoughts-207-,,0,0,0,,We have to live or our struggles\Nwill mean nothing!
+Dialogue: 0,0:22:42.01,0:22:45.14,Thoughts-207-,,0,0,0,,You can't throw your lives away!
+Dialogue: 0,0:22:45.14,0:22:47.18,Main-207-,Genzo,0,0,0,,Eight long years ago...
+Dialogue: 0,0:22:47.51,0:22:50.68,Main-207-,Genzo,0,0,0,,We promised we wouldn't live\Nour lives in vain!
+Dialogue: 0,0:22:50.68,0:22:53.18,Main-207-,Genzo,0,0,0,,No matter the pain or humiliation
+Dialogue: 0,0:22:53.18,0:22:58.65,Main-207-,Genzo,0,0,0,,{\q2}we endured under Arlong, we swore to fight the\Nlong fight so Nami could meet their demands!
+Dialogue: 0,0:22:58.65,0:23:01.36,Main-207-,Genzo,0,0,0,,But, they {\i1}lied{\i0}! They never intended
+Dialogue: 0,0:23:01.74,0:23:06.32,Main-207-,Genzo,0,0,0,,{\q2}to keep their end of the deal.\NInstead they stole our only chance at freedom!
+Dialogue: 0,0:23:06.32,0:23:07.24,Main-207-,Genzo,0,0,0,,So now...
+Dialogue: 0,0:23:07.78,0:23:12.20,Main-207-,Genzo,0,0,0,,{\q2}We should make those filthy fishmen pay for the\Nyears they manipulated that kind young girl...!
+Dialogue: 0,0:23:12.20,0:23:13.00,Main-207-,Genzo,0,0,0,,Am I right?!
+Dialogue: 0,0:23:13.66,0:23:15.25,Main-207-,Villager E,0,0,0,,Yeah! Let's do this!
+Dialogue: 0,0:23:15.25,0:23:19.04,Main-207-,Villager H,0,0,0,,We were always ready to fight\Nthose monsters! Let's get 'em!
+Dialogue: 0,0:23:19.46,0:23:22.17,Main-207-,Villager H,0,0,0,,Time to show those lousy stinkin'\Nfishmen what we're made of!
+Dialogue: 0,0:23:23.15,0:23:23.94,Main-207-,,0,0,0,,Yeah!
+Dialogue: 0,0:23:24.13,0:23:27.35,Main-207-,Nami,0,0,0,,Everybody! Wait! Huh?
+Dialogue: 0,0:23:27.76,0:23:29.05,Main-207-,Nojiko,0,0,0,,Nami!
+Dialogue: 0,0:23:32.35,0:23:33.85,Main-207-,,0,0,0,,Calm down...!
+Dialogue: 0,0:23:33.85,0:23:35.48,Main-207-,,0,0,0,,It's not that much money...!
+Dialogue: 0,0:23:35.48,0:23:37.73,Main-207-,,0,0,0,,I can make it back in no time...!
+Dialogue: 0,0:23:37.73,0:23:39.77,Main-207-,,0,0,0,,I'll take care of it, don't worry!
+Dialogue: 0,0:23:40.27,0:23:41.90,Main-207-,,0,0,0,,It'll be easy... this time!
+Dialogue: 0,0:23:41.90,0:23:46.15,Main-207-,,0,0,0,,I'm used to it! I'll be fine!\NJust relax! Everything is okay!
+Dialogue: 0,0:23:47.07,0:23:50.35,Main-207-,,0,0,0,,Hey... It's nothing\Ncompared to back then.
+Dialogue: 0,0:23:51.83,0:23:53.79,Flashbacks-207-,,0,0,0,,It's okay...!\NYou don't need to save me!
+Dialogue: 0,0:23:54.20,0:23:55.41,Main-207-,,0,0,0,,C'mon everyone!
+Dialogue: 0,0:23:55.41,0:23:58.04,Main-207-,,0,0,0,,I'm perfectly fine!
+Dialogue: 0,0:24:03.96,0:24:05.59,Main-207-,Genzo,0,0,0,,You've done enough...
+Dialogue: 0,0:24:05.59,0:24:07.68,Main-207-,Genzo,0,0,0,,You have to know\Nthat there is no point now.
+Dialogue: 0,0:24:08.55,0:24:13.01,Main-207-,Genzo,0,0,0,,{\q2}You struggled so hard, carrying\Nour lives on your back this whole time.
+Dialogue: 0,0:24:13.01,0:24:16.39,Main-207-,Genzo,0,0,0,,I can only imagine that joining\Nthem must have been more painful,
+Dialogue: 0,0:24:16.39,0:24:18.98,Main-207-,Genzo,0,0,0,,than being stabbed through the heart.
+Dialogue: 0,0:24:19.98,0:24:22.36,Main-207-,Genzo,0,0,0,,You fought very well.
+Dialogue: 0,0:24:23.86,0:24:25.15,Main-207-,Nami,0,0,0,,Genzo...
+Dialogue: 0,0:24:31.28,0:24:33.41,Main-207-,Genzo,0,0,0,,Set yourself free from this village.
+Dialogue: 0,0:24:35.08,0:24:36.53,Main-207-,Nami,0,0,0,,Genzo!
+Dialogue: 0,0:24:36.87,0:24:38.33,Main-207-,Nojiko,0,0,0,,Nami. Do it.
+Dialogue: 0,0:24:38.33,0:24:39.71,Main-207-,Nami,0,0,0,,What?! Nojiko!
+Dialogue: 0,0:24:40.46,0:24:41.46,Main-207-,,0,0,0,,Nami...
+Dialogue: 0,0:24:41.46,0:24:42.54,Main-207-,Genzo,0,0,0,,Go on.
+Dialogue: 0,0:24:43.67,0:24:46.92,Main-207-,,0,0,0,,{\q2}You are an exceptional young woman...\NAnd you have a dream.
+Dialogue: 0,0:24:46.92,0:24:48.68,Main-207-,,0,0,0,,Everyone! Listen!
+Dialogue: 0,0:24:49.65,0:24:51.51,Main-207-,,0,0,0,,I won't let you go...!
+Dialogue: 0,0:24:52.68,0:24:54.18,Main-207-,,0,0,0,,Just stay right there...!
+Dialogue: 0,0:24:54.18,0:24:57.06,Main-207-,,0,0,0,,I'm not going to let any one else\Nget hurt by these monsters!
+Dialogue: 0,0:24:59.69,0:25:00.81,Main-207-,,0,0,0,,You'll all die...
+Dialogue: 0,0:25:01.81,0:25:03.15,Main-207-,Genzo,0,0,0,,We know that.
+Dialogue: 0,0:25:08.99,0:25:12.32,Main-207-,Doctor,0,0,0,,Nami... It's no use,\Nwe've made up our minds!
+Dialogue: 0,0:25:16.04,0:25:17.62,Main-207-,,0,0,0,,Get outta the way!
+Dialogue: 0,0:25:19.62,0:25:21.17,Main-207-,Genzo,0,0,0,,Move out!
+Dialogue: 0,0:25:21.17,0:25:25.40,Main-207-,Doctor,0,0,0,,We may not win\Nbut we will give 'em hell!
+Dialogue: 0,0:26:04.71,0:26:07.34,Main-207-,,0,0,0,,Arlong!
+Dialogue: 0,0:26:09.59,0:26:10.34,Main-207-,,0,0,0,,Arlong!
+Dialogue: 0,0:26:10.34,0:26:14.89,Main-207-,,0,0,0,,Arlong! Arlong! Arlong!\NArlong! Arlong! Arlong!
+Dialogue: 0,0:26:21.10,0:26:22.44,Main-207-,,0,0,0,,Luffy.
+Dialogue: 0,0:26:26.19,0:26:27.65,Main-207-,Nami,0,0,0,,What do you want?
+Dialogue: 0,0:26:27.65,0:26:29.78,Main-207-,Nami,0,0,0,,You don't know anything about this.
+Dialogue: 0,0:26:29.78,0:26:33.57,Main-207-,,0,0,0,,{\q2}You don't know what's been happening\Non this island for the past eight years.
+Dialogue: 0,0:26:33.57,0:26:35.32,Main-207-,Luffy,0,0,0,,Nope. I don't.
+Dialogue: 0,0:26:36.12,0:26:37.70,Main-207-,,0,0,0,,This has nothing to do with you!
+Dialogue: 0,0:26:38.54,0:26:41.16,Main-207-,,0,0,0,,I told you to leave this place.
+Dialogue: 0,0:26:41.16,0:26:43.16,Main-207-,,0,0,0,,Yep... You sure did.
+Dialogue: 0,0:26:43.16,0:26:44.42,Main-207-,Nami,0,0,0,,So leave...!
+Dialogue: 0,0:26:44.42,0:26:45.79,Main-207-,Nami,0,0,0,,I told you to leave...!
+Dialogue: 0,0:26:45.79,0:26:48.13,Main-207-,,0,0,0,,Get out of here...! Get out
+Dialogue: 0,0:26:48.13,0:26:49.38,Main-207-,,0,0,0,,of here now...!
+Dialogue: 0,0:26:49.38,0:26:52.88,Main-207-,,0,0,0,,Go...! Go away...! Go...! Go...! Go!
+Dialogue: 0,0:27:07.81,0:27:08.98,Main-207-,Nami,0,0,0,,Luffy...
+Dialogue: 0,0:27:10.48,0:27:11.86,Main-207-,Nami,0,0,0,,Help me.
+Dialogue: 0,0:27:24.12,0:27:26.67,Main-207-,,0,0,0,,He's gonna pay!
+Dialogue: 0,0:27:18.53,0:27:22.29,Main-207-,Luffy,0,0,0,,Of course... That's what friends do.
+Dialogue: 0,0:27:29.54,0:27:32.39,Flashbacks-207-,,0,0,0,,You better keep\Nyour hands off my hat.
+Dialogue: 0,0:27:33.88,0:27:35.22,Main-207-,Nami,0,0,0,,Luffy.
+Dialogue: 0,0:27:41.68,0:27:43.09,Main-207-,,0,0,0,,Let's go!
+Dialogue: 0,0:27:44.18,0:27:45.14,Main-207-,,0,0,0,,{\pos(232.5,1053)}Right!
+Dialogue: 0,0:27:49.52,0:27:50.57,Main-207-,Villager A,0,0,0,,Hey!
+Dialogue: 0,0:27:50.57,0:27:52.36,Main-207-,Villager A,0,0,0,,Are you guys alright?
+Dialogue: 0,0:27:52.36,0:27:54.32,Main-207-,Doctor,0,0,0,,Did Arlong do this to you?
+Dialogue: 0,0:27:55.86,0:27:57.07,Main-207-,Genzo,0,0,0,,Move aside!
+Dialogue: 0,0:27:57.95,0:28:01.33,Main-207-,Genzo,0,0,0,,We have business to take care\Nof with the fishmen.
+Dialogue: 0,0:28:01.33,0:28:03.83,Main-207-,,0,0,0,,When we finally found out\Nthe truth about big sis Nami...
+Dialogue: 0,0:28:03.83,0:28:07.83,Main-207-,,0,0,0,,{\q2}We realized the only thing\Nwe could do was defeat Arlong in battle...
+Dialogue: 0,0:28:07.83,0:28:10.34,Main-207-,,0,0,0,,So we decided to come back here\Nand challenge him.
+Dialogue: 0,0:28:10.34,0:28:12.96,Main-207-,,0,0,0,,Yeah... Then we lost,\Nbut only by a hair.
+Dialogue: 0,0:28:14.80,0:28:19.05,Main-207-,,0,0,0,,{\q2}I'm sorry but I can't let you through this door...\NYou have no chance of victory.
+Dialogue: 0,0:28:19.05,0:28:20.01,Main-207-,,0,0,0,,What's that?
+Dialogue: 0,0:28:20.35,0:28:24.43,Main-207-,,0,0,0,,{\q2}Be patient... It won't be long now. You see\Nwe're waiting for the arrival of certain men.
+Dialogue: 0,0:28:25.06,0:28:26.52,Main-207-,,0,0,0,,What "certain men"?
+Dialogue: 0,0:28:26.98,0:28:29.10,Main-207-,Yosaku,0,0,0,,Don't worry. They'll be here soon...
+Dialogue: 0,0:28:29.10,0:28:31.61,Main-207-,Yosaku,0,0,0,,I'd bet my life on it!
+Dialogue: 0,0:28:46.70,0:28:47.46,Main-207-,,0,0,0,,– There!\N– There!
+Dialogue: 0,0:29:03.47,0:29:04.56,Main-207-,,0,0,0,,It's them...
+Dialogue: 0,0:29:04.56,0:29:07.60,Main-207-,Genzo,0,0,0,,But why would they come\Nto defend our village?
+Dialogue: 0,0:29:08.06,0:29:10.69,Main-207-,,0,0,0,,If those men can't handle\NArlong and his gang,
+Dialogue: 0,0:29:10.69,0:29:15.53,Main-207-,,0,0,0,,{\q2}then there really is no hope... Not only\Nfor this island but for the whole East Blue.
+Dialogue: 0,0:29:16.23,0:29:19.61,Main-207-,Johnny,0,0,0,,{\q2}Those are the faces of the four men\Nwho are here to change your destiny...
+Dialogue: 0,0:29:19.61,0:29:23.12,Main-207-,Johnny,0,0,0,,Burn their images into your memory!
+Dialogue: 0,0:29:32.04,0:29:33.17,Main-207-,Luffy,0,0,0,,Step aside.
+Dialogue: 0,0:29:40.22,0:29:45.05,Main-207-,,0,0,0,,{\q2}Hey. Do you think those two idiots that showed\Nup earlier are members of Zoro's little crew?
+Dialogue: 0,0:29:45.43,0:29:48.18,Main-207-,,0,0,0,,Zoro? They seemed\Ntoo weak for that...
+Dialogue: 0,0:29:48.18,0:29:49.85,Main-207-,,0,0,0,,They weren't even worth killing.
+Dialogue: 0,0:29:49.85,0:29:51.64,Main-207-,,0,0,0,,That's for sure!
+Dialogue: 0,0:30:05.20,0:30:06.53,Main-207-,,0,0,0,,What the–
+Dialogue: 0,0:30:09.25,0:30:11.37,Main-207-,,0,0,0,,Now which one of you is Arlong?
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=47}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=48}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:02:37.51,0:02:43.64,Episode-Title-207-,,0,0,0,,{\blur0.5\fad(2024,0)\3c&H1E1E1E&\c&H1E1E1E&\bord2.3\1a&HFF&\t(1983,2024,\1a&H00&)}Live
+Dialogue: 1,0:02:37.51,0:02:43.64,Episode-Title-207-,,0,0,0,,{\blur0.5\fad(2024,0)\c&HE7E6E6&\bord0\4a&HFF&}Live
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=49}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=50}===============================CREDITS==============================
+Dialogue: 0,0:00:01.77,0:00:04.28,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord3\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Video Editing
+Dialogue: 1,0:00:01.77,0:00:04.28,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord0\4a&HFF&}Video Editing
+Dialogue: 0,0:00:01.77,0:00:04.28,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Gigglebot\NZenef
+Dialogue: 1,0:00:01.77,0:00:04.28,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Gigglebot\NZenef
+Dialogue: 0,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Soundtracking
+Dialogue: 1,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord0\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Halee
+Dialogue: 1,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Halee
+Dialogue: 0,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Graphics
+Dialogue: 1,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Datenshi
+Dialogue: 1,0:00:04.28,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Datenshi
+Dialogue: 0,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,603)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(3397,3439,\1a&HFF&)}Quality Control
+Dialogue: 1,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,603)\blur0.6\bord0\4a&HFF&}Quality Control
+Dialogue: 0,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,603)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(3397,3439,\1a&HFF&)}DolphinWeabu\Ndanpmss\NFeeso\NGalaxy 9000\NItsKipz\NPepperjack\NPoppy\NScolines
+Dialogue: 1,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,603)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}DolphinWeabu\Ndanpmss\NFeeso\NGalaxy 9000\NItsKipz\NPepperjack\NPoppy\NScolines
+Dialogue: 0,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Karaoke
+Dialogue: 1,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord0\4a&HFF&}Karaoke
+Dialogue: 0,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}KaitouYahiko
+Dialogue: 1,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Timing
+Dialogue: 1,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord0\4a&HFF&}Timing
+Dialogue: 0,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:10.78,0:00:13.28,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:13.28,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(609,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(567,609,\1a&H00&)\t(2903,2945,\1a&HFF&)}Dubtitle Editor
+Dialogue: 1,0:00:13.28,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(609,607)\blur0.6\bord0\4a&HFF&}Dubtitle Editor
+Dialogue: 0,0:00:13.28,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(609,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(567,609,\1a&H00&)\t(2903,2945,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:13.28,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Raws
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,0)\blur0.6\bord0\4a&HFF&}Raws
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Neo-Raws
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Neo-Raws
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(602,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Translation
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(602,0)\blur0.6\bord0\4a&HFF&}Translation
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(602,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Funimation\NGaijin\NPamkinPinguin
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(602,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Funimation\NGaijin\NPamkinPinguin
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=51}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 12,_aegi_folddata,e0;0;2
+Data: 13,_aegi_folddata,e1;0;2
+Data: 24,_aegi_folddata,e0;1;1
+Data: 25,_aegi_folddata,e1;1;1
+Data: 32,_aegi_folddata,e0;0;4
+Data: 33,_aegi_folddata,e1;0;4
+Data: 34,_aegi_folddata,e0;0;3
+Data: 35,_aegi_folddata,e1;0;3
+Data: 36,_aegi_folddata,e0;1;2
+Data: 37,_aegi_folddata,e1;1;2
+Data: 38,_aegi_folddata,e0;1;3
+Data: 39,_aegi_folddata,e1;1;3
+Data: 40,_aegi_folddata,e0;0;1
+Data: 41,_aegi_folddata,e1;0;1
+Data: 42,_aegi_folddata,e0;1;4
+Data: 43,_aegi_folddata,e1;1;4
+Data: 44,_aegi_folddata,e0;1;5
+Data: 45,_aegi_folddata,e1;1;5
+Data: 46,_aegi_folddata,e0;1;6
+Data: 47,_aegi_folddata,e1;1;6
+Data: 48,_aegi_folddata,e0;1;7
+Data: 49,_aegi_folddata,e1;1;7
+Data: 50,_aegi_folddata,e0;1;8
+Data: 51,_aegi_folddata,e1;1;8

@@ -1,0 +1,536 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1440
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,48,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Main-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: Flashbacks-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Thoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Secondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,300,300,27,1
+Style: FlashbacksSecondary-207+,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: FlashbackThoughts-207+,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,300,300,27,1
+Style: Narrator-207+,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,300,300,27,1
+Style: Title-207+,Agency FB,95,&H00FEFEFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,120,100,0.8,0,1,2.5,0,2,15,15,383,1
+Style: Captions-207+,FOT-Greco Std DB Strp,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,15,15,30,1
+Style: Credits-207+,FOT-Greco Std DB Strp,55,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,105,105,1.5,0,1,3.7,0,7,15,15,15,1
+Style: Main-207-,Impress BT Pace,82,&H00FFFFFF,&H00002EFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Thoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,0,0,0,100,100,0,0,1,4.4,3.8,2,180,180,27,1
+Style: Flashbacks-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: Secondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,3.8,3.8,2,180,180,27,1
+Style: FlashbacksSecondary-207-,Impress BT Pace,82,&H00D6D6D6,&H00FFFFFF,&H00525252,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: FlashbackThoughts-207-,Impress BT Pace,82,&H00FFFFFF,&H00FFFFFF,&H00878787,&H78000000,0,-1,0,0,100,100,0,0,1,4.2,3.8,2,180,180,27,1
+Style: Narrator-207-,Impress BT Pace,82,&H00FFFFFF,&H000000FF,&H00000000,&H78000000,0,-1,0,0,100,100,0,0,1,3.8,3.8,8,180,180,27,1
+Style: Title-207-,Agency FB,95,&H00FEFEFE,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,120,100,1.1,0,1,2.2,0,2,23,23,383,1
+Style: Captions-207-,Chinacat,99,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,100,100,5,0,1,3.4,0,2,16,16,27,1
+Style: Credits-207-,FOT-Greco Std B Strp,43,&H00FFFFFF,&H00002EFF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+Style: Warning,Impress BT Pace,90,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Episode-Title-207-,M+ 1c,95,&H00FEFEFE,&H00003FFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.2,0,2,23,23,383,1
+Style: Episode-Credits-207-,FOT-Greco Std B Strp,46,&H00FFFFFF,&H000019FF,&H00000000,&H00000000,-1,0,0,0,95,100,1.6,0,1,5,0,7,16,16,16,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=58}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.02,Main-207-,chptr,0,0,0,,{Opening}
+Comment: 0,0:01:50.01,0:01:50.05,Main-207-,chptr,0,0,0,,{Episode}
+Comment: 0,0:24:38.29,0:24:38.33,Main-207-,chptr,0,0,0,,{Ending}
+Comment: 0,0:00:47.90,0:00:47.94,Main-207-,OP,0,0,0,,
+Comment: 0,0:24:39.29,0:24:39.33,Main-207-,ED,0,0,0,,
+Dialogue: 0,0:00:00.00,0:00:09.99,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Dialogue: 0,0:01:50.01,0:02:00.01,Warning,,0,0,0,,{\org(0,0)\fscx0\fscy0\clip(0,0,0,0)}Your media player does not support the subtitle format used in this episode.\NSubtitles will likely not function properly.\NPlease use one of the recommended video players, preferably mpv:\Nhttps://mpv.io
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=59}========================CHAPTERS AND OPENINGS=====================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=60}===============================DIALOGUE============================
+Dialogue: 0,0:01:53.51,0:01:55.24,Main-207-,,0,0,0,,{\q2}– Big Bro won!\N– Big Bro won!
+Dialogue: 0,0:01:55.47,0:01:59.43,Main-207-,,0,0,0,,Arlong Park has fallen!
+Dialogue: 0,0:02:02.98,0:02:06.69,Main-207-,,0,0,0,,{\q2}Nojiko... Is all of this really happening...?
+Dialogue: 0,0:02:06.69,0:02:08.61,Main-207-,,0,0,0,,Surely this is a dream.
+Dialogue: 0,0:02:12.35,0:02:15.54,Main-207-,,0,0,0,,Luffy! Luffy! Luffy!
+Dialogue: 0,0:02:14.83,0:02:16.79,Secondary-207-,,0,0,0,,Luffy?
+Dialogue: 0,0:02:17.13,0:02:25.42,Main-207-,,0,0,0,,{\q2}Luffy! Luffy! Luffy! Luffy? Good job, Luffy!\NYou almost did as good as me. Let's face it, I'm
+Dialogue: 0,0:02:25.42,0:02:27.50,Main-207-,,0,0,0,,pretty much the star,\Nbut I'll cheer for you anyway
+Dialogue: 0,0:02:27.50,0:02:31.09,Main-207-,,0,0,0,,{\q2}because I'm super modest,\Nand I don't want to steal your thunder.
+Dialogue: 0,0:02:31.76,0:02:34.05,Main-207-,Sanji,0,0,0,,You really had us going there, Luffy.
+Dialogue: 0,0:02:34.93,0:02:39.51,Main-207-,Sanji,0,0,0,,{\q2}Start dealin' with the bad guys quicker.\NI almost had a heart attack... You rubber jerk!
+Dialogue: 0,0:02:41.10,0:02:44.50,Main-207-,,0,0,0,,Luffy! Luffy! Luffy!
+Dialogue: 0,0:02:43.34,0:02:44.02,Secondary-207-,,0,0,0,,Luffy! Luffy!
+Dialogue: 0,0:02:44.02,0:02:50.38,Secondary-207-,,0,0,0,,Luffy! Luffy!
+Dialogue: 0,0:02:40.07,0:02:41.32,Secondary-207-,,0,0,0,,Luffy?
+Dialogue: 0,0:03:08.33,0:03:10.09,Main-207-,,0,0,0,,This is awesome!
+Dialogue: 0,0:03:23.14,0:03:25.80,Main-207-,,0,0,0,,Okay! Hold it right there!
+Dialogue: 0,0:03:26.27,0:03:27.10,Main-207-,,0,0,0,,Damn! It's him!
+Dialogue: 0,0:03:28.60,0:03:30.86,Main-207-,,0,0,0,,What a lucky day today is.
+Dialogue: 0,0:03:30.86,0:03:34.74,Main-207-,,0,0,0,,Very nice. I saw the entire fight\Nand I must say, good work!
+Dialogue: 0,0:03:34.74,0:03:39.28,Main-207-,,0,0,0,,{\q2}I can only assume that your victory\Nhere was some sort of bizarre accident.
+Dialogue: 0,0:03:39.28,0:03:42.08,Main-207-,,0,0,0,,{\q2}I never thought that the fishmen would lose\Nto riff-raff like you and your crew.
+Dialogue: 0,0:03:43.04,0:03:46.62,Main-207-,,0,0,0,,However, now that Arlong is out\Nof the picture, I'll be taking all
+Dialogue: 0,0:03:46.62,0:03:50.96,Main-207-,,0,0,0,,{\q2}the money I was supposed to give to him\Nin addition to all the treasure in Arlong Park.
+Dialogue: 0,0:03:50.96,0:03:52.30,Main-207-,,0,0,0,,Now drop your weapons!
+Dialogue: 0,0:03:52.30,0:03:55.51,Main-207-,,0,0,0,,Colonel Nezumi of Branch Sixteen
+Dialogue: 0,0:03:55.51,0:03:57.43,Main-207-,,0,0,0,,gets all the credit!
+Dialogue: 0,0:04:00.01,0:04:01.10,Main-207-,,0,0,0,,Zoro!
+Dialogue: 0,0:04:01.10,0:04:04.85,Main-207-,,0,0,0,,{\q2}I see you're trying to rain on these people's\Nparade... Now that's just plain rude.
+Dialogue: 0,0:04:10.23,0:04:15.15,Main-207-,,0,0,0,,Go on, you scum, just try it.\NYou'll be sorry, I promise you that.
+Dialogue: 0,0:04:15.15,0:04:16.57,Main-207-,Sanji,0,0,0,,He's still at it.
+Dialogue: 0,0:04:20.28,0:04:22.70,Main-207-,Nami,0,0,0,,This is for shooting Nojiko.
+Dialogue: 0,0:04:23.28,0:04:27.62,Main-207-,Nami,0,0,0,,And also for mercilessly destroying\NBellemere's tangerine orchard.
+Dialogue: 0,0:04:30.96,0:04:32.21,Main-207-,,0,0,0,,Colonel!
+Dialogue: 0,0:04:36.96,0:04:39.59,Main-207-,,0,0,0,,Thanks, Nami. That felt good.
+Dialogue: 0,0:04:39.59,0:04:42.09,Main-207-,,0,0,0,,A thousand more\Nand we'll call it even!
+Dialogue: 0,0:04:48.27,0:04:51.65,Main-207-,Nami,0,0,0,,What you're gonna do is clean up\Nafter those fishmen.
+Dialogue: 0,0:04:51.65,0:04:54.02,Main-207-,Nami,0,0,0,,Then you're gonna help\Nto rebuild the town of Gosa,
+Dialogue: 0,0:04:54.02,0:04:58.11,Main-207-,Nami,0,0,0,,{\q2}and you won't lay a finger\Non any of the money or valuables in Arlong Park.
+Dialogue: 0,0:04:58.11,0:05:00.49,Main-207-,Nami,0,0,0,,That's the island's money\Nnow! Got it?!
+Dialogue: 0,0:05:00.49,0:05:04.41,Main-207-,,0,0,0,,Right! Yeah! I'll do anything you say!
+Dialogue: 0,0:05:04.41,0:05:05.99,Main-207-,Nami,0,0,0,,And there's one more thing!
+Dialogue: 0,0:05:06.45,0:05:08.20,Main-207-,Nami,0,0,0,,Give me my money back, jerk!
+Dialogue: 0,0:05:08.54,0:05:13.67,Main-207-,,0,0,0,,I promise! I promise!\NI'll give every berry back!
+Dialogue: 0,0:05:17.00,0:05:19.51,Main-207-,,0,0,0,,I'll get you, you pirates!
+Dialogue: 0,0:05:19.51,0:05:22.09,Main-207-,,0,0,0,,Luffy is your Captain, right?
+Dialogue: 0,0:05:22.47,0:05:25.10,Main-207-,,0,0,0,,{\q2}Well, mark my freaking words, rubber man,
+Dialogue: 0,0:05:25.10,0:05:28.06,Main-207-,,0,0,0,,major things are gonna happen\N'cause you made me angry!
+Dialogue: 0,0:05:28.43,0:05:30.43,Main-207-,,0,0,0,,{\an8}I swear you'll regret this!
+Dialogue: 0,0:05:30.43,0:05:34.19,Main-207-,,0,0,0,,{\an8}I'll get my revenge!\NJust you wait and see!
+Dialogue: 0,0:05:34.19,0:05:36.69,Main-207-,Sanji,0,0,0,,Major things are gonna happen?
+Dialogue: 0,0:05:36.69,0:05:40.07,Main-207-,Luffy,0,0,0,,And I'm gonna be King of the Pirates.
+Dialogue: 0,0:05:40.07,0:05:42.95,Main-207-,,0,0,0,,That's not what he means at all.\NAre you really that clueless?!
+Dialogue: 0,0:05:42.95,0:05:46.53,Main-207-,,0,0,0,,Hold on! What next?!\NAre we in super big trouble, or what?!
+Dialogue: 0,0:05:46.53,0:05:48.58,Main-207-,,0,0,0,,Hey! Hey! What do we do?!
+Dialogue: 0,0:05:49.08,0:05:53.08,Main-207-,,0,0,0,,Now's not the time\Nto keep this to ourselves!
+Dialogue: 0,0:05:53.08,0:05:56.34,Main-207-,,0,0,0,,{\q2}We need to tell everyone on the island\Nwhat happened here today!
+Dialogue: 0,0:06:00.13,0:06:02.84,Main-207-,,0,0,0,,Arlong Park has fallen!
+Dialogue: 0,0:06:03.24,0:06:07.15,Main-207-,,0,0,0,,Hey, Zoro! What's\Nthat on your chest?
+Dialogue: 0,0:06:07.15,0:06:08.86,Main-207-,,0,0,0,,What are you...
+Dialogue: 0,0:06:05.43,0:06:08.06,Secondary-207-,Genzo,0,0,0,,[GENZO]\NHuh?
+Dialogue: 0,0:06:17.19,0:06:19.40,Main-207-,,0,0,0,,Good job, Nami.
+Dialogue: 0,0:06:20.74,0:06:24.74,Main-207-,Genzo,0,0,0,,Our island would be saved\Nby unruly pirates.
+Dialogue: 0,0:06:24.74,0:06:26.74,Main-207-,Genzo,0,0,0,,The world is strange.
+Dialogue: 0,0:06:43.55,0:06:46.55,Main-207-,Nojiko,0,0,0,,[NOJIKO]\NWhy are you\Nstill here, Nami?
+Dialogue: 0,0:06:47.30,0:06:49.56,Main-207-,Nojiko,0,0,0,,[NOJIKO]\NYour friends\Nhave been looking for you.
+Dialogue: 0,0:06:51.56,0:06:53.18,Main-207-,Nami,0,0,0,,[NAMI]\NHey, Nojiko.
+Dialogue: 0,0:06:53.18,0:06:53.68,Main-207-,,0,0,0,,Huh?
+Dialogue: 0,0:06:53.68,0:06:54.52,Main-207-,Nami,0,0,0,,Genzo...
+Dialogue: 0,0:06:55.14,0:06:57.65,Main-207-,Nami,0,0,0,,If Bell-mère were still alive
+Dialogue: 0,0:06:57.65,0:07:00.61,Main-207-,Nami,0,0,0,,and I wanted to become a pirate\Ndo you think she'd let me do it?
+Dialogue: 0,0:07:01.23,0:07:02.61,Main-207-,,0,0,0,,A pirate...?
+Dialogue: 0,0:07:02.61,0:07:04.99,Main-207-,,0,0,0,,What do you think?\NOf course she'd never let her
+Dialogue: 0,0:07:04.99,0:07:08.24,Main-207-,,0,0,0,,precious daughter go out to sea\Nwith a bunch of treacherous pirates.
+Dialogue: 0,0:07:08.24,0:07:09.91,Main-207-,Nojiko,0,0,0,,Yeah, she'd let you!
+Dialogue: 0,0:07:08.95,0:07:09.91,Secondary-207-,,0,0,0,,Nojiko!
+Dialogue: 0,0:07:09.91,0:07:11.77,Main-207-,Nojiko,0,0,0,,But if she had said 'no,'
+Dialogue: 0,0:07:11.87,0:07:13.54,Main-207-,Nojiko,0,0,0,,that wouldn't stop you, would it?
+Dialogue: 0,0:07:15.16,0:07:17.54,Main-207-,,0,0,0,,That's right. Nope.
+Dialogue: 0,0:07:20.42,0:07:21.50,Main-207-,Genzo,0,0,0,,[GENZO]\NI see...
+Dialogue: 0,0:07:24.17,0:07:26.19,Main-207-,,0,0,0,,What's up, Genzo?
+Dialogue: 0,0:07:28.47,0:07:31.97,Main-207-,Genzo,0,0,0,,You certainly are\NBellemere's kids. Ha, ha.
+Dialogue: 0,0:07:31.97,0:07:33.27,Main-207-,,0,0,0,,Oh, yeah?
+Dialogue: 0,0:07:33.32,0:07:36.77,Main-207-,Genzo,0,0,0,,Nami, you've already made up\Nyour mind about this.
+Dialogue: 0,0:07:39.06,0:07:41.76,Main-207-,Genzo,0,0,0,,[GENZO]\NThere's no use\Nfighting it. Live your life.
+Dialogue: 0,0:07:47.41,0:07:48.61,Main-207-,,0,0,0,,He's still at it.
+Dialogue: 0,0:07:49.53,0:07:53.23,Main-207-,Sanji,0,0,0,,[SANJI]\NWell, you saw the way\Nhe looked after that fight.
+Dialogue: 0,0:07:53.23,0:07:56.87,Main-207-,Usopp,0,0,0,,[USOPP]\NYeah, anyone\Nelse would've been dead.
+Dialogue: 0,0:07:58.62,0:07:59.96,Main-207-,,0,0,0,,You dumbass!
+Dialogue: 0,0:08:00.46,0:08:02.92,Main-207-,,0,0,0,,Did you think this\Nwould heal on its own?
+Dialogue: 0,0:08:04.09,0:08:07.13,Main-207-,,0,0,0,,Seriously, pirates are supposed\Nbe smarter than this.
+Dialogue: 0,0:08:09.30,0:08:10.47,Main-207-,Doctor,0,0,0,,[DOCTOR]\NDon't you have\Na ship's doctor?
+Dialogue: 0,0:08:10.47,0:08:12.89,Main-207-,Luffy,0,0,0,,[LUFFY]\NDoctor? Never thought\Nof that. Good idea.
+Dialogue: 0,0:08:13.26,0:08:13.76,Main-207-,,0,0,0,,Luffy?
+Dialogue: 0,0:08:13.76,0:08:16.14,Main-207-,Luffy,0,0,0,,But we need to get\Na musician first, right?
+Dialogue: 0,0:08:16.14,0:08:17.39,Main-207-,,0,0,0,,Why's that?
+Dialogue: 0,0:08:17.39,0:08:19.65,Main-207-,Luffy,0,0,0,,Because pirates really like to sing.
+Dialogue: 0,0:08:19.65,0:08:22.31,Main-207-,,0,0,0,,That's true, but why's that first?
+Dialogue: 0,0:08:22.31,0:08:24.32,Main-207-,,0,0,0,,Hello? Hello?
+Dialogue: 0,0:08:24.32,0:08:26.19,Main-207-,,0,0,0,,{\i1}Yes. This is Navy Headquarters.
+Dialogue: 0,0:08:26.19,0:08:27.95,Main-207-,,0,0,0,,Headquarters! Right! Good!
+Dialogue: 0,0:08:27.95,0:08:32.49,Main-207-,,0,0,0,,{\q2}Hello! Hello. This is Colonel Nezumi\Nof Marine Branch Sixteen, Marine Code
+Dialogue: 0,0:08:32.49,0:08:35.08,Main-207-,,0,0,0,,00733.
+Dialogue: 0,0:08:35.62,0:08:36.95,Main-207-,,0,0,0,,I have a request!
+Dialogue: 0,0:08:36.95,0:08:39.33,Main-207-,,0,0,0,,{\q2\i1}There really is no reason\Nto shout. I can hear you.
+Dialogue: 0,0:08:39.33,0:08:43.25,Main-207-,,0,0,0,,{\pos(720,1071.3)}Listen! There's a pirate who wears\Na straw hat. He's named Luffy.
+Dialogue: 0,0:08:43.25,0:08:47.47,Main-207-,,0,0,0,,{\pos(720,1071.3)\i1}Listen! There's a pirate who wears\Na straw hat. He's named Luffy.
+Dialogue: 0,0:08:47.47,0:08:51.97,Main-207-,,0,0,0,,{\q2}I hereby declare that he and his four\Ncrewmembers are enemies of the government!
+Dialogue: 0,0:08:52.43,0:08:57.06,Main-207-,,0,0,0,,{\q2}{\i1\pos(720,1071.3)}I hereby declare that he and his four\Ncrewmembers are enemies of the government!
+Dialogue: 0,0:08:57.06,0:08:58.56,Main-207-,,0,0,0,,Luffy... Alright
+Dialogue: 0,0:08:58.56,0:09:00.10,Main-207-,,0,0,0,,They managed to take down
+Dialogue: 0,0:09:00.10,0:09:03.94,Main-207-,,0,0,0,,the purportedly invincible\NFish-Man Arlong at his home base.
+Dialogue: 0,0:09:03.94,0:09:06.57,Main-207-,,0,0,0,,Based on the grave threat\Nthey present, a large bounty
+Dialogue: 0,0:09:06.57,0:09:10.07,Main-207-,,0,0,0,,has been placed\Non their captain, Straw Hat Luffy.
+Dialogue: 0,0:09:10.07,0:09:11.70,Main-207-,,0,0,0,,Transmitting photograph now.
+Dialogue: 0,0:09:11.70,0:09:12.78,Main-207-,,0,0,0,,{\i1}Roger that.
+Dialogue: 0,0:09:16.62,0:09:17.50,Main-207-,,0,0,0,,Huh?
+Dialogue: 0,0:09:17.50,0:09:20.25,Main-207-,,0,0,0,,Couldn't you have taken\Na better picture than that.
+Dialogue: 0,0:09:20.25,0:09:22.00,Main-207-,,0,0,0,,No... Sorry sir.
+Dialogue: 0,0:09:22.37,0:09:26.96,Main-207-,,0,0,0,,{\i1}Okay. Right after a quick verification,\NI'll send it in for approval, sir.
+Dialogue: 0,0:09:27.71,0:09:32.30,Main-207-,,0,0,0,,Don't forget, he's\Na wanted pirate! Dead or alive!
+Dialogue: 0,0:09:32.64,0:09:37.18,Main-207-,,0,0,0,,{\i1}I want his face on posters\Nall over the world!
+Dialogue: 0,0:09:49.74,0:09:51.70,Main-207-,Sanji,0,0,0,,[SANJI]\NBoy am I stuffed.
+Dialogue: 0,0:09:52.07,0:09:55.07,Main-207-,Sanji,0,0,0,,It's nice to not have\Nto cook for a change.
+Dialogue: 0,0:09:55.07,0:09:56.95,Main-207-,Sanji,0,0,0,,So, how're you feelin', Zoro?
+Dialogue: 0,0:09:56.95,0:09:59.95,Main-207-,,0,0,0,,I'll be okay. I think\Nall I need's a little bit a rest.
+Dialogue: 0,0:09:59.95,0:10:01.37,Main-207-,Sanji,0,0,0,,That's good.
+Dialogue: 0,0:10:01.37,0:10:04.75,Main-207-,Zoro,0,0,0,,[ZORO]\NSeriously, how much\Nlonger can they keep this up?
+Dialogue: 0,0:10:04.75,0:10:06.71,Main-207-,Zoro,0,0,0,,It's been three days now.
+Dialogue: 0,0:10:06.71,0:10:08.05,Main-207-,Sanji,0,0,0,,Nothing wrong with that.
+Dialogue: 0,0:10:08.05,0:10:11.67,Main-207-,Sanji,0,0,0,,Smoke 'em if ya got 'em.
+Dialogue: 0,0:10:12.88,0:10:15.51,Main-207-,Luffy,0,0,0,,[LUFFY]\NHey, Sanji...\NWhere'd you get that melon you had.
+Dialogue: 0,0:10:15.51,0:10:16.89,Main-207-,Luffy,0,0,0,,I want to give it a try.
+Dialogue: 0,0:10:16.89,0:10:19.27,Main-207-,,0,0,0,,It isn't polite to talk\Nwith your mouth full.
+Dialogue: 0,0:10:19.27,0:10:22.73,Main-207-,Sanji,0,0,0,,{\q2}[SANJI]\NI dunno. It was a raw ham melon\Nwith raw ham on top.
+Dialogue: 0,0:10:22.73,0:10:25.81,Main-207-,Luffy,0,0,0,,[LUFFY]\NRaw ham melon?!\NShow me where you found it!
+Dialogue: 0,0:10:25.81,0:10:26.36,Main-207-,Sanji,0,0,0,,[SANJI]\NI can't.
+Dialogue: 0,0:10:26.98,0:10:31.69,Main-207-,Sanji,0,0,0,,{\q2}The whole town is basically\None giant buffet. Good luck finding it.
+Dialogue: 0,0:10:32.36,0:10:33.70,Main-207-,,0,0,0,,He ran off.
+Dialogue: 0,0:10:33.70,0:10:36.03,Main-207-,Sanji,0,0,0,,Three days of stuffing his face.
+Dialogue: 0,0:10:36.82,0:10:39.03,Main-207-,Sanji,0,0,0,,And now that my belly's full.
+Dialogue: 0,0:10:39.83,0:10:40.91,Main-207-,Sanji,0,0,0,,Time to dance!
+Dialogue: 0,0:10:41.26,0:10:46.58,Main-207-,Usopp,0,0,0,,[USOPP]\NI am Captain Usopp!
+Dialogue: 0,0:10:46.58,0:10:50.13,Main-207-,,0,0,0,,I destroyed the strongest\Nof all the fishmen!
+Dialogue: 0,0:10:46.58,0:10:48.34,Secondary-207-,,0,0,0,,{\an8}Can I have your autograph?
+Dialogue: 0,0:10:50.92,0:10:54.93,Main-207-,,0,0,0,,Let's sing about me, let's sing!
+Dialogue: 0,0:10:54.93,0:11:00.68,Main-207-,,0,0,0,,{\an8\fad(150,150)\b1\bord3.375\shad2.7\fnFOT-Greco Std B Strp\fs74.25}♪ I am the greatest,\Nmy friends. ♪
+Dialogue: 0,0:10:59.14,0:11:01.06,Main-207-,Nojiko,0,0,0,,I'm so bored.
+Dialogue: 0,0:11:01.06,0:11:01.68,Main-207-,Chabo,0,0,0,,[CHABO]\NHm?
+Dialogue: 0,0:11:01.68,0:11:04.23,Main-207-,Nojiko,0,0,0,,I thought you'd be more upset.
+Dialogue: 0,0:11:04.23,0:11:08.11,Main-207-,,0,0,0,,{\q2}Why didn't this happen before my daddy died?\NWhy is life so unfair?
+Dialogue: 0,0:11:08.52,0:11:09.48,Main-207-,,0,0,0,,That.
+Dialogue: 0,0:11:10.44,0:11:13.07,Main-207-,,0,0,0,,I was kinda upset, at first...
+Dialogue: 0,0:11:13.07,0:11:15.99,Main-207-,,0,0,0,,But I decided just\Nto think about my future.
+Dialogue: 0,0:11:15.99,0:11:17.57,Main-207-,,0,0,0,,What about it?
+Dialogue: 0,0:11:18.07,0:11:21.37,Main-207-,Chabo,0,0,0,,[CHABO]\NWe were saved\Nby the straw hat guy and his friends.
+Dialogue: 0,0:11:21.74,0:11:26.21,Main-207-,Chabo,0,0,0,,{\q2}But tomorrow we have to start all over again,\Non our own, without anybody's help.
+Dialogue: 0,0:11:26.87,0:11:31.42,Main-207-,Chabo,0,0,0,,We can't forget the past...\Nbut... now... it's
+Dialogue: 0,0:11:31.42,0:11:35.51,Main-207-,Chabo,0,0,0,,{\q2}really up to us what happens. There's no one\Nto blame our problems on anymore.
+Dialogue: 0,0:11:35.51,0:11:38.59,Main-207-,Chabo,0,0,0,,We can succeed or fail.\NIt all depends on our choices.
+Dialogue: 0,0:11:39.30,0:11:42.47,Main-207-,Chabo,0,0,0,,Whining about the past\Ngets us nowhere.
+Dialogue: 0,0:11:42.97,0:11:44.77,Main-207-,Chabo,0,0,0,,I decided to think that way.
+Dialogue: 0,0:11:46.85,0:11:47.60,Main-207-,Nojiko,0,0,0,,That so?
+Dialogue: 0,0:11:47.60,0:11:48.85,Main-207-,,0,0,0,,Stop, ow, ow, let
+Dialogue: 0,0:11:48.85,0:11:51.86,Main-207-,,0,0,0,,go, stop that hurts, ow, stop ow!
+Dialogue: 0,0:11:51.86,0:11:54.11,Main-207-,Nojiko,0,0,0,,It's no fun if I can't harass\Nyou for being a baby.
+Dialogue: 0,0:11:54.11,0:11:58.11,Main-207-,,0,0,0,,So you decided to hurt me instead?!\NYou stupid old punk!
+Dialogue: 0,0:12:04.04,0:12:05.41,Main-207-,,0,0,0,,Punk... That's right!
+Dialogue: 0,0:12:08.83,0:12:09.83,Main-207-,Nami,0,0,0,,[NAMI]\NCan you get rid of it?
+Dialogue: 0,0:12:09.83,0:12:13.50,Main-207-,Doctor,0,0,0,,[DOCTOR]\NI'll do my best. But you do
+Dialogue: 0,0:12:13.50,0:12:15.01,Main-207-,Doctor,0,0,0,,realize this is a tattoo.
+Dialogue: 0,0:12:16.97,0:12:20.97,Main-207-,Nami,0,0,0,,[NAMI]\NHeh. I was stupid.\NI knew it wouldn't come off.
+Dialogue: 0,0:12:20.97,0:12:23.76,Flashbacks-207-,,0,0,0,,[NAMI cries]\NI don't want\Nanyone to see this!
+Dialogue: 0,0:12:24.43,0:12:27.56,Flashbacks-207-,,0,0,0,,This... This awful tattoo.
+Dialogue: 0,0:12:27.56,0:12:32.50,Flashbacks-207-,,0,0,0,,I'm just pretending but it's\Nlike he owns me now.
+Dialogue: 0,0:12:35.94,0:12:37.24,Flashbacks-207-,,0,0,0,,Nami.
+Dialogue: 0,0:12:39.82,0:12:42.20,Flashbacks-207-,Nami,0,0,0,,[NAMI]\NNojiko, what is that?
+Dialogue: 0,0:12:42.20,0:12:43.08,Flashbacks-207-,Nojiko,0,0,0,,[NOJIKO]\NOh, you mean this?
+Dialogue: 0,0:12:43.87,0:12:47.04,Flashbacks-207-,Nojiko,0,0,0,,It's nothing, just a tattoo.
+Dialogue: 0,0:12:47.37,0:12:49.97,Flashbacks-207-,,0,0,0,,Now I look just like you.
+Dialogue: 0,0:12:56.01,0:12:57.26,Main-207-,Nami,0,0,0,,[NAMI]\NHey, Doc.
+Dialogue: 0,0:12:57.97,0:13:00.34,Main-207-,Nami,0,0,0,,[NAMI]\NI think I'd like a new tattoo.
+Dialogue: 0,0:13:01.80,0:13:02.72,Main-207-,Nami,0,0,0,,[NAMI]\NLike this.
+Dialogue: 0,0:13:03.89,0:13:05.26,Main-207-,,0,0,0,,Look at those
+Dialogue: 0,0:13:05.26,0:13:10.13,Main-207-,,0,0,0,,Let's stand as we sing.
+Dialogue: 0,0:13:14.27,0:13:15.90,Main-207-,Genzo,0,0,0,,[GENZO]\NBell-mère.
+Dialogue: 0,0:13:15.90,0:13:20.15,Main-207-,Genzo,0,0,0,,{\q2}Your daughters are strong young women\Nnow. You'd be so proud.
+Dialogue: 0,0:13:21.41,0:13:24.33,Main-207-,Genzo,0,0,0,,It's like I'm standing right\Nin front of you again.
+Dialogue: 0,0:13:24.70,0:13:29.29,Main-207-,Genzo,0,0,0,,{\q2}[GENZO]\NWe're not going to waste\Na single moment now. So much has been lost.
+Dialogue: 0,0:13:29.29,0:13:32.79,Main-207-,Genzo,0,0,0,,Everyone has had to make\Nterrible sacrifices. Which is why
+Dialogue: 0,0:13:32.79,0:13:38.09,Main-207-,Genzo,0,0,0,,{\q2}I don't care if I look like a fool, I'm happy\Nfor the first time in a long while.
+Dialogue: 0,0:13:39.84,0:13:41.59,Main-207-,Luffy,0,0,0,,[LUFFY]\NRaw ham melon!
+Dialogue: 0,0:13:41.93,0:13:46.60,Main-207-,,0,0,0,,no food up here.
+Dialogue: 0,0:13:46.60,0:13:47.56,Main-207-,Luffy,0,0,0,,Guess I'll go back Be quiet!
+Dialogue: 0,0:13:48.85,0:13:51.85,Main-207-,Luffy,0,0,0,,[LUFFY]\NA grave? Did somebody die?
+Dialogue: 0,0:13:51.85,0:13:54.06,Main-207-,Genzo,0,0,0,,[GENZO]\NYes. A long time ago.
+Dialogue: 0,0:13:54.69,0:13:59.03,Main-207-,Luffy,0,0,0,,Oh, I'm sorry. I give you\Nto my conveniences.
+Dialogue: 0,0:13:59.53,0:14:04.16,Main-207-,Luffy,0,0,0,,Wait, my sincere compliments.\NNope... My darkest concussion?
+Dialogue: 0,0:14:04.16,0:14:06.41,Main-207-,Genzo,0,0,0,,[GENZO]\NMy deepest condolences.
+Dialogue: 0,0:14:06.41,0:14:08.12,Main-207-,Luffy,0,0,0,,[LUFFY]\NThanks!
+Dialogue: 0,0:14:08.12,0:14:09.41,Main-207-,Genzo,0,0,0,,[GENZO]\NListen, boy.
+Dialogue: 0,0:14:10.12,0:14:13.96,Main-207-,Genzo,0,0,0,,{\q2}I know Nami's going away with you.\NShe has her mind set on becoming a pirate,
+Dialogue: 0,0:14:13.96,0:14:15.96,Main-207-,Genzo,0,0,0,,and that's dangerous business.
+Dialogue: 0,0:14:15.96,0:14:18.09,Main-207-,Genzo,0,0,0,,And I'm fine with that.
+Dialogue: 0,0:14:18.09,0:14:20.76,Main-207-,Genzo,0,0,0,,It can't be helped.
+Dialogue: 0,0:14:20.76,0:14:24.26,Main-207-,Genzo,0,0,0,,But if any of you ever do\Nanything to hurt her,
+Dialogue: 0,0:14:24.26,0:14:26.72,Main-207-,Genzo,0,0,0,,I will kill you.
+Dialogue: 0,0:14:26.72,0:14:29.68,Main-207-,Luffy,0,0,0,,[LUFFY]\NWe're not going to hurt her.
+Dialogue: 0,0:14:30.35,0:14:31.14,Main-207-,,0,0,0,,You sure?!
+Dialogue: 0,0:14:33.14,0:14:34.10,Main-207-,,0,0,0,,I'm sure.
+Dialogue: 0,0:15:07.05,0:15:11.31,Flashbacks-207-,Nami,0,0,0,,[NAMI]\NWow, what's up\Nwith all the food?
+Dialogue: 0,0:15:11.31,0:15:14.04,Flashbacks-207-,Bellemere,0,0,0,,[BELL-MÈRE]\NDo you two know\Nwhat today is?
+Dialogue: 0,0:15:14.04,0:15:14.56,Flashbacks-207-,Nami & Nojiko,0,0,0,,{\q2}[NAMI, NOJIKO]\N– Huh?\N– Huh?
+Dialogue: 0,0:15:14.89,0:15:18.69,Flashbacks-207-,Bellemere,0,0,0,,It's the anniversary...\N...of the day we met!
+Dialogue: 0,0:15:19.31,0:15:22.63,Flashbacks-207-,Bellemere,0,0,0,,We're celebrating the day\Nyou became my daughters.
+Dialogue: 0,0:15:26.53,0:15:28.41,Flashbacks-207-,Bellemere,0,0,0,,Hey, don't cry.
+Dialogue: 0,0:15:28.41,0:15:31.54,Flashbacks-207-,Bellemere,0,0,0,,It's just a storm.\NSo what if it ruins our crops?
+Dialogue: 0,0:15:31.54,0:15:36.00,Flashbacks-207-,Bellemere,0,0,0,,{\q2}You need to learn to be strong girls\Nwho can smile even during hard times.
+Dialogue: 0,0:15:36.54,0:15:40.25,Flashbacks-207-,Bellemere,0,0,0,,Do that, and nothing\Nwill ever stop you.
+Dialogue: 0,0:15:41.71,0:15:43.92,Flashbacks-207-,Bellemere,0,0,0,,[BELL-MÈRE]\NNow\Nshow me those smiles.
+Dialogue: 0,0:15:44.84,0:15:47.44,Flashbacks-207-,Bellemere,0,0,0,,Nami, will you go get the salt?
+Dialogue: 0,0:15:48.01,0:15:51.22,Flashbacks-207-,Bellemere,0,0,0,,I see you can draw land maps\Nnow as well as sea charts.
+Dialogue: 0,0:15:51.22,0:15:54.27,Flashbacks-207-,,0,0,0,,I wanted the book\Nto study navigation.
+Dialogue: 0,0:15:54.64,0:15:56.39,Flashbacks-207-,Bellemere,0,0,0,,Navigation as well?
+Dialogue: 0,0:15:56.39,0:15:59.06,Flashbacks-207-,,0,0,0,,– You're gonna be a navigator?\N– That's right,
+Dialogue: 0,0:15:59.06,0:16:02.94,Flashbacks-207-,,0,0,0,,{\q2}I'm gonna guide ships around all the oceans\Nof the world. It'll be great.
+Dialogue: 0,0:16:02.94,0:16:06.57,Flashbacks-207-,,0,0,0,,And I'll be able to make\Nmaps of all the far off places I'll go.
+Dialogue: 0,0:16:07.07,0:16:11.49,Flashbacks-207-,Bellemere,0,0,0,,{\q2}So, this island map is a first step\Ntoward realizing your dream, is that it?
+Dialogue: 0,0:16:11.49,0:16:13.04,Flashbacks-207-,,0,0,0,,Yeah!
+Dialogue: 0,0:16:44.07,0:16:46.74,Main-207-,Nami,0,0,0,,[NAMI]\NWell, Bell-mère.\NWe finally made it...
+Dialogue: 0,0:16:47.32,0:16:50.82,Main-207-,Nami,0,0,0,,It took eight long years\Nbut we're finally free.
+Dialogue: 0,0:16:50.82,0:16:53.49,Main-207-,Nami,0,0,0,,The village... and me.
+Dialogue: 0,0:16:53.49,0:16:55.95,Main-207-,Nami,0,0,0,,It's just like you told us\Nwhen we were children.
+Dialogue: 0,0:16:55.95,0:16:59.83,Main-207-,Nami,0,0,0,,"Be brave and smile,\Nand nothing will be able to stop you."
+Dialogue: 0,0:16:59.83,0:17:01.21,Main-207-,Nami,0,0,0,,It's so true.
+Dialogue: 0,0:17:01.21,0:17:04.84,Main-207-,Nami,0,0,0,,Arlong's gone. And now everybody\Nis so happy to be free.
+Dialogue: 0,0:17:07.42,0:17:10.18,Main-207-,Nami,0,0,0,,And me? I'm finally gonna\Nleave this island.
+Dialogue: 0,0:17:11.13,0:17:13.93,Main-207-,Nami,0,0,0,,But don't worry. I'll be okay.
+Dialogue: 0,0:17:13.93,0:17:17.64,Main-207-,Nami,0,0,0,,{\q2}I'm going with good, strong people like you.
+Dialogue: 0,0:17:19.27,0:17:23.27,Main-207-,Nami,0,0,0,,And this last map is all that\NI have left to remind me,
+Dialogue: 0,0:17:23.27,0:17:25.61,Main-207-,Nami,0,0,0,,but none of that really\Nmatters anymore, right?
+Dialogue: 0,0:17:26.36,0:17:32.20,Main-207-,Nami,0,0,0,,{\q2}Cause now. I'll start again... And every map\NI draw will be for me and nobody else.
+Dialogue: 0,0:17:32.20,0:17:36.41,Main-207-,Nami,0,0,0,,{\q2}Oh, you see. This time when I see the world\Nit will be with all of my friends.
+Dialogue: 0,0:17:37.91,0:17:40.33,Main-207-,Nami,0,0,0,,You know that's\Nwhat I've always wanted.
+Dialogue: 0,0:17:41.75,0:17:42.83,Main-207-,,0,0,0,,Anyway.
+Dialogue: 0,0:17:44.25,0:17:47.59,Main-207-,Nami,0,0,0,,I'm just trying to say goodbye\Ncause I don't know if I'll be back.
+Dialogue: 0,0:17:56.39,0:17:59.28,Main-207-,Nami,0,0,0,,[NAMI]\NI'm going now, okay?
+Dialogue: 0,0:18:24.79,0:18:26.77,Main-207-,Usopp,0,0,0,,[USOPP]\NThis is the last one, right?
+Dialogue: 0,0:18:26.79,0:18:27.38,Main-207-,Zoro,0,0,0,,[ZORO]\NYeah.
+Dialogue: 0,0:18:27.38,0:18:28.63,Main-207-,Luffy,0,0,0,,[LUFFY]\NWe got everything?
+Dialogue: 0,0:18:28.63,0:18:29.50,Main-207-,Usopp,0,0,0,,[USOPP]\NYup!
+Dialogue: 0,0:18:29.50,0:18:32.38,Main-207-,Sanji,0,0,0,,Alright. We're stocked up\Nwith everything we need.
+Dialogue: 0,0:18:32.38,0:18:34.29,Main-207-,Sanji,0,0,0,,I think we're good to go.
+Dialogue: 0,0:18:34.72,0:18:36.76,Main-207-,,0,0,0,,[USOPP grunts]\NYou know\Nwe've only been on this little island
+Dialogue: 0,0:18:36.76,0:18:39.10,Main-207-,,0,0,0,,for a few days but it feels\Nmore like a lifetime.
+Dialogue: 0,0:18:39.43,0:18:40.52,Main-207-,Luffy,0,0,0,,[laughs]\NYeah!
+Dialogue: 0,0:18:47.44,0:18:51.07,Main-207-,Sanji,0,0,0,,{\q2}[SANJI]\NHm? We can't thank you enough\Nfor everything you've done for us,
+Dialogue: 0,0:18:51.07,0:18:54.49,Main-207-,Sanji,0,0,0,,{\q2}but we gotta go back\Nto our regular jobs as bounty hunters.
+Dialogue: 0,0:18:54.49,0:18:55.41,Main-207-,,0,0,0,,So, this is goodbye.
+Dialogue: 0,0:18:56.11,0:18:58.91,Main-207-,,0,0,0,,I hope we get\Nto meet again someday.
+Dialogue: 0,0:18:59.91,0:19:00.87,Main-207-,,0,0,0,,See ya 'round.
+Dialogue: 0,0:19:01.50,0:19:03.12,Main-207-,Johnny & Yosaku,0,0,0,,{\q2}[JOHNNY, YOSAKU]\N– Goodbye!\N– Goodbye!
+Dialogue: 0,0:19:03.12,0:19:05.33,Main-207-,,0,0,0,,Yeah, now it's time\Nfor us to get going.
+Dialogue: 0,0:19:06.54,0:19:09.57,Main-207-,,0,0,0,,But we can't leave\Nyet– we gotta wait for Nami.
+Dialogue: 0,0:19:09.63,0:19:11.05,Main-207-,,0,0,0,,Well, maybe she's not coming.
+Dialogue: 0,0:19:11.05,0:19:13.09,Main-207-,,0,0,0,,Uhh. What, why not?!
+Dialogue: 0,0:19:13.59,0:19:17.09,Main-207-,,0,0,0,,{\q2}If you try to hit on her again,\NI swear I'll break your freakin' neck! You got it?!
+Dialogue: 0,0:19:17.09,0:19:18.35,Main-207-,,0,0,0,,Why would I do something like that?
+Dialogue: 0,0:19:18.35,0:19:20.10,Main-207-,Usopp,0,0,0,,[USOPP]\NShe might\Nnot even be coming.
+Dialogue: 0,0:19:20.10,0:19:24.23,Main-207-,Usopp,0,0,0,,{\q2}After all, she has achieved her goal.\NNami doesn't have to be a pirate anymore.
+Dialogue: 0,0:19:24.23,0:19:27.60,Main-207-,Usopp,0,0,0,,here on this island
+Dialogue: 0,0:19:24.23,0:19:25.23,Secondary-207-,Usopp,0,0,0,,{\an8}She might be better off if she stayed
+Dialogue: 0,0:19:25.23,0:19:27.78,Secondary-207-,Usopp,0,0,0,,{\an8}with all her friends and family.
+Dialogue: 0,0:19:27.60,0:19:29.06,Main-207-,,0,0,0,,What about {\i1}me{\i0}, dammit?!
+Dialogue: 0,0:19:29.69,0:19:32.73,Main-207-,,0,0,0,,Without Nami onboard\NI have like 98.72% less reason
+Dialogue: 0,0:19:32.73,0:19:36.07,Main-207-,,0,0,0,,to stay with you people\Non this stupid pirate ship.
+Dialogue: 0,0:19:36.07,0:19:39.07,Main-207-,Luffy,0,0,0,,Hey, I'm still upset with you\Nabout the raw ham melon!
+Dialogue: 0,0:19:39.57,0:19:40.70,Main-207-,,0,0,0,,Why isn't Nami here?
+Dialogue: 0,0:19:40.70,0:19:43.62,Main-207-,,0,0,0,,Don't know. I haven't seen\Nher anywhere since this morning.
+Dialogue: 0,0:19:43.62,0:19:44.25,Main-207-,Genzo,0,0,0,,[GENZO]\NWhat?!
+Dialogue: 0,0:19:44.62,0:19:46.54,Main-207-,,0,0,0,,One-hundred million berries?
+Dialogue: 0,0:19:46.54,0:19:48.75,Main-207-,,0,0,0,,She left all of the money?
+Dialogue: 0,0:19:48.75,0:19:51.04,Main-207-,,0,0,0,,She's not even gonna\Ntake some of it?
+Dialogue: 0,0:19:51.04,0:19:53.84,Main-207-,,0,0,0,,But she worked so hard to get it.
+Dialogue: 0,0:19:53.84,0:19:57.01,Main-207-,,0,0,0,,She'll steal more.\NThat's what her letter said.
+Dialogue: 0,0:19:58.39,0:20:01.01,Main-207-,,0,0,0,,There's no changing her mind\Nonce it's made up.
+Dialogue: 0,0:20:01.39,0:20:02.76,Main-207-,Genzo,0,0,0,,That girl.
+Dialogue: 0,0:20:02.76,0:20:06.48,Main-207-,Genzo,0,0,0,,She didn't even give us a chance\Nto thank her. Hm?
+Dialogue: 0,0:20:06.48,0:20:07.28,Main-207-,,0,0,0,,[LUFFY gasps]
+Dialogue: 0,0:20:10.98,0:20:12.90,Main-207-,Sanji,0,0,0,,[SANJI]\NThere she is!
+Dialogue: 0,0:20:07.32,0:20:08.21,Main-207-,,0,0,0,,[USOPP, ZORO gasp]
+Dialogue: 0,0:20:08.21,0:20:09.37,Main-207-,,0,0,0,,[SANJI screams]
+Dialogue: 0,0:20:12.90,0:20:14.28,Main-207-,Genzo,0,0,0,,[GENZO]\NNami!
+Dialogue: 0,0:20:13.44,0:20:14.28,Secondary-207-,Nojiko,0,0,0,,[NOJIKO]\NNami!
+Dialogue: 0,0:20:14.28,0:20:16.40,Main-207-,Villagers,0,0,0,,{\q2}[VILLAGERS]\N– Nami!\N– Nami!
+Dialogue: 0,0:20:16.40,0:20:17.74,Main-207-,,0,0,0,,Set the sails!
+Dialogue: 0,0:20:24.29,0:20:26.66,Main-207-,,0,0,0,,I don't get it. Why's she running?
+Dialogue: 0,0:20:26.66,0:20:27.91,Main-207-,Luffy,0,0,0,,[LUFFY]\NShe said to set sail.
+Dialogue: 0,0:20:27.91,0:20:28.50,Main-207-,,0,0,0,,What?
+Dialogue: 0,0:20:29.96,0:20:31.46,Main-207-,,0,0,0,,No, she's planning
+Dialogue: 0,0:20:31.46,0:20:35.30,Main-207-,,0,0,0,,on leaving us without letting\Nany of us thank her or say goodbye.
+Dialogue: 0,0:20:35.30,0:20:36.21,Main-207-,,0,0,0,,Hey, wait!
+Dialogue: 0,0:20:36.21,0:20:37.88,Main-207-,Luffy,0,0,0,,[LUFFY]\NSet sail
+Dialogue: 0,0:20:42.76,0:20:44.26,Main-207-,Villager A,0,0,0,,[VILLAGER A]\NWait!
+Dialogue: 0,0:20:44.26,0:20:45.93,Main-207-,Villager A,0,0,0,,Don't go!
+Dialogue: 0,0:20:45.93,0:20:46.46,Main-207-,Villager B,0,0,0,,[VILLAGER B]\NThey're leaving!
+Dialogue: 0,0:20:46.46,0:20:48.69,Main-207-,Doctor,0,0,0,,[DOCTOR]\NStop!\NAt least let us say goodbye!
+Dialogue: 0,0:20:50.40,0:20:51.65,Main-207-,Villager A,0,0,0,,[VILLAGER A]\NNami, don't!
+Dialogue: 0,0:20:51.65,0:20:53.11,Main-207-,Villager B,0,0,0,,[VILLAGER B]\NLet us thank you!
+Dialogue: 0,0:20:54.86,0:20:58.86,Main-207-,,0,0,0,,Nami! Come back here\Nyou can't leave this way!
+Dialogue: 0,0:20:58.86,0:21:02.12,Main-207-,Sanji,0,0,0,,So, you sure you want\Nto let her leave like this?
+Dialogue: 0,0:21:02.12,0:21:04.83,Main-207-,,0,0,0,,Not my decision.\NShe does what she wants.
+Dialogue: 0,0:21:23.05,0:21:23.60,Main-207-,,0,0,0,,Nami!
+Dialogue: 0,0:21:34.06,0:21:35.07,Main-207-,,0,0,0,,Why?!
+Dialogue: 0,0:21:56.42,0:21:56.96,Main-207-,,0,0,0,,Huh?! No way!
+Dialogue: 0,0:21:57.15,0:21:58.38,Main-207-,Villager A,0,0,0,,[VILLAGER A]\NHey,\Nwhere's my money?!
+Dialogue: 0,0:21:58.38,0:21:59.71,Main-207-,Villager B,0,0,0,,[VILLAGER B]\NMy wallet's gone!
+Dialogue: 0,0:21:59.71,0:22:01.05,Main-207-,Villager C,0,0,0,,[VILLAGER C]\NMine, too!
+Dialogue: 0,0:22:01.05,0:22:03.68,Main-207-,Villager D,0,0,0,,[VILLAGER D]\N– She stole my money!\N– My purse is gone!
+Dialogue: 0,0:22:07.31,0:22:08.89,Main-207-,,0,0,0,,Thanks a bunch!
+Dialogue: 0,0:22:09.68,0:22:13.98,Main-207-,,0,0,0,,{\q2}– Damn! You little brat!\N– Damn! You little brat!
+Dialogue: 0,0:22:14.94,0:22:17.94,Main-207-,,0,0,0,,Great, she hasn't changed a bit.
+Dialogue: 0,0:22:17.94,0:22:19.78,Main-207-,,0,0,0,,I'd watch my back.
+Dialogue: 0,0:22:19.79,0:22:24.16,Main-207-,,0,0,0,,[LUFFY, SANJI laughing]
+Dialogue: 0,0:22:24.16,0:22:25.78,Main-207-,Genzo,0,0,0,,[GENZO]\NYou lousy pickpocket!
+Dialogue: 0,0:22:26.70,0:22:27.66,Main-207-,Genzo,0,0,0,,We'll miss you!
+Dialogue: 0,0:22:35.21,0:22:36.59,Main-207-,Genzo,0,0,0,,[GENZO]\NBoy!
+Dialogue: 0,0:22:37.92,0:22:40.42,Main-207-,Genzo,0,0,0,,Remember what I told you.
+Dialogue: 0,0:22:44.47,0:22:47.55,Main-207-,Nami,0,0,0,,[NAMI]\NGoodbye everybody!\NI'll miss you. Take care.
+Dialogue: 0,0:22:43.29,0:22:44.55,Secondary-207-,Luffy,0,0,0,,[LUFFY]\NYou got it!
+Dialogue: 0,0:22:50.12,0:22:52.56,Main-207-,,0,0,0,,[NOJIKO laughing]\NI can't believe her!
+Dialogue: 0,0:22:52.56,0:22:55.35,Main-207-,,0,0,0,,My little sister got us good\Nwith that one.
+Dialogue: 0,0:22:56.81,0:22:58.06,Main-207-,,0,0,0,,Be safe, Nami.
+Dialogue: 0,0:23:02.07,0:23:04.32,Main-207-,Doctor,0,0,0,,[DOCTOR]\NTake a look at this.
+Dialogue: 0,0:23:04.32,0:23:06.62,Main-207-,Genzo,0,0,0,,[GENZO]\NWhat is it Doc... Nami's bill?
+Dialogue: 0,0:23:07.20,0:23:12.62,Main-207-,Doctor,0,0,0,,{\q2}[DOCTOR]\NNot exactly. That girl\Nwill never change. That's her new tattoo.
+Dialogue: 0,0:23:12.91,0:23:14.75,Main-207-,Genzo,0,0,0,,[GENZO]\N– What's it supposed\Nto be? – A tangerine
+Dialogue: 0,0:23:14.75,0:23:17.75,Main-207-,Genzo,0,0,0,,and a pinwheel.
+Dialogue: 0,0:23:19.00,0:23:22.42,Main-207-,,0,0,0,,Hey, Genzo. Where's your pinwheel?
+Dialogue: 0,0:23:26.68,0:23:28.55,Main-207-,Genzo,0,0,0,,[GENZO laughs]\NI\Ndon't need it anymore.
+Dialogue: 0,0:23:39.31,0:23:41.57,Thoughts-207-,Nami,0,0,0,,[NAMI]\NI'm off.
+Dialogue: 0,0:23:44.02,0:23:45.31,Main-207-,,0,0,0,,Ah, man.
+Dialogue: 0,0:23:48.11,0:23:51.87,Flashbacks-207-,Bellemere,0,0,0,,[BELL-MÈRE]\NGenzo, back off.\NDon't get so close to Nami.
+Dialogue: 0,0:23:51.87,0:23:55.50,Flashbacks-207-,Genzo,0,0,0,,[GENZO]\NI just wanted\Nto see her smile.
+Dialogue: 0,0:23:55.50,0:23:58.71,Flashbacks-207-,Bellemere,0,0,0,,[BELL-MÈRE]\NYour face is too scary.\NIt's making her cry.
+Dialogue: 0,0:23:58.71,0:24:01.21,Flashbacks-207-,Genzo,0,0,0,,[GENZO]\NI can't change my face...
+Dialogue: 0,0:24:01.84,0:24:02.38,Flashbacks-207-,Genzo,0,0,0,,Oh, wait...
+Dialogue: 0,0:24:03.00,0:24:06.30,Flashbacks-207-,Genzo,0,0,0,,I'll keep this on my hat\Nto distract her.
+Dialogue: 0,0:24:06.30,0:24:08.34,Flashbacks-207-,Genzo,0,0,0,,What do ya think little girl?
+Dialogue: 0,0:24:08.34,0:24:09.84,Flashbacks-207-,Bellemere,0,0,0,,[BELL-MÈRE]\NYou're joking, right?
+Dialogue: 0,0:24:09.84,0:24:13.37,Flashbacks-207-,Bellemere,0,0,0,,It's just a stupid pinwheel. There's\Nno way it's going to make her–
+Dialogue: 0,0:24:13.37,0:24:16.56,Main-207-,,0,0,0,,[laughing]
+Dialogue: 0,0:24:19.90,0:24:22.70,Flashbacks-207-,Bellemere,0,0,0,,[BELL-MÈRE]\NI can't believe\Nit. She's laughing.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=61}===============================DIALOGUE============================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=62}============================SIGNS AND TITLE=========================
+Dialogue: 0,0:01:50.05,0:01:53.22,Episode-Title-207-,,0,0,0,,{\blur0.5\fad(978,0)\3c&H1E1E1E&\c&H1E1E1E&\bord2.3\1a&HFF&\t(936,978,\1a&H00&)}Spin, Pinwheel, Spin
+Dialogue: 1,0:01:50.05,0:01:53.22,Episode-Title-207-,,0,0,0,,{\blur0.5\fad(978,0)\c&HE7E6E6&\bord0\4a&HFF&}Spin, Pinwheel, Spin
+Dialogue: 0,0:08:22.36,0:08:27.82,Captions-207-,,0,0,0,,{\blur0.7\fad(976,980)\an2\bord5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&H000000&\3c&H000000&\1a&HFF&\t(934,976,\1a&H00&)\t(4480,4521,\1a&HFF&)}Marine Base (16th Branch)
+Dialogue: 1,0:08:22.36,0:08:27.82,Captions-207-,,0,0,0,,{\blur0.7\fad(976,980)\an2\bord0.5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\3c&HF9F9FA&\c&HF9F9FA&\1a&HFF&\t(934,976,\1a&H00&)\t(4480,4521,\1a&HFF&)\4a&HFF&}Marine Base (16th Branch)
+Dialogue: 2,0:08:22.36,0:08:27.82,Captions-207-,,0,0,0,,{\blur0.7\fad(976,980)\an2\bord0\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&HF9F9FA&\4a&HFF&}Marine Base (16th Branch)
+Dialogue: 0,0:08:35.12,0:08:39.25,Captions-207-,,0,0,0,,{\blur0.7\fad(729,482)\an2\bord5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&H000000&\3c&H000000&\1a&HFF&\t(687,729,\1a&H00&)\t(3648,3690,\1a&HFF&)}Transponder Snail\N16th Marine Branch
+Dialogue: 1,0:08:35.12,0:08:39.25,Captions-207-,,0,0,0,,{\blur0.7\fad(729,482)\an2\bord0.5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\3c&HF9F9FA&\c&HF9F9FA&\1a&HFF&\t(687,729,\1a&H00&)\t(3648,3690,\1a&HFF&)\4a&HFF&}Transponder Snail\N16th Marine Branch
+Dialogue: 2,0:08:35.12,0:08:39.25,Captions-207-,,0,0,0,,{\blur0.7\fad(729,482)\an2\bord0\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&HF9F9FA&\4a&HFF&}Transponder Snail\N16th Marine Branch
+Dialogue: 0,0:08:43.29,0:08:47.47,Captions-207-,,0,0,0,,{\blur0.7\fad(734,0)\an2\bord5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&H000000&\3c&H000000&\1a&HFF&\t(692,734,\1a&H00&)}Transponder Snail\NMarine HQ
+Dialogue: 1,0:08:43.29,0:08:47.47,Captions-207-,,0,0,0,,{\blur0.7\fad(734,0)\an2\bord0.5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\3c&HF9F9FA&\c&HF9F9FA&\1a&HFF&\t(692,734,\1a&H00&)\4a&HFF&}Transponder Snail\NMarine HQ
+Dialogue: 2,0:08:43.29,0:08:47.47,Captions-207-,,0,0,0,,{\blur0.7\fad(734,0)\an2\bord0\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&HF9F9FA&\4a&HFF&}Transponder Snail\NMarine HQ
+Dialogue: 0,0:08:52.01,0:08:56.39,Captions-207-,,0,0,0,,{\blur0.7\fad(731,730)\an2\bord5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&H000000&\3c&H000000&\1a&HFF&\t(689,731,\1a&H00&)\t(3650,3692,\1a&HFF&)}Marine HQ Information Office
+Dialogue: 1,0:08:52.01,0:08:56.39,Captions-207-,,0,0,0,,{\blur0.7\fad(731,730)\an2\bord0.5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\3c&HF9F9FA&\c&HF9F9FA&\1a&HFF&\t(689,731,\1a&H00&)\t(3650,3692,\1a&HFF&)\4a&HFF&}Marine HQ Information Office
+Dialogue: 2,0:08:52.01,0:08:56.39,Captions-207-,,0,0,0,,{\blur0.7\fad(731,730)\an2\bord0\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&HF9F9FA&\4a&HFF&}Marine HQ Information Office
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an\pos(720,1053)\fscx100\fscy100\frz0\p1\3c&H000000&\3a&HFF&\c&HB68568&\clip()}m 263.2 -150.6 l 317.6 198.2 320.8 622.2 485.6 611 376.8 -149
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\pos(720,1053)\p1\3c&H000000&\3a&HFF&\c&HB68568&\clip()}m 36.79 -104.5 l -1.5 148.99 -27.41 357.81 -24.05 454.24 -4.85 565.51 180.81 670.99 196.66 617.27 217.54 573.39 230.55 536.13 232.26 516.22 230.99 510.15 245.04 426.66 252.3 388.61 255.1 377.89 260.14 316.26 270.41 241.34 273.77 193.48 262.02 68.77 255.17 -87.8
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\pos(720,1053)\fscx100\fscy100\frz0\p1\3c&H000000&\3a&HFF&\c&H875E40&\clip()}m 112.14 -149.71 l 90.48 -57.85 141.14 -46.8
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\pos(720,1053)\p1\c&HB68568&\3c&H000000&\3a&HFF&\clip()}m -60.9 -176.99 l -103.65 96.94 -123.11 242.6 -166.46 359.37 -120.9 457.34 -89.56 486.95 -71.5 502.18 -88.92 529.3 -217.19 496 -292.88 384.82 -196.88 -194.74
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\pos(720,1053)\p1\3c&H000000&\3a&HFF&\c&H8A5E42&\clip()}m 135.3 -480.2 l 124.32 -402.57 150.88 -439.69
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\pos(720,1053)\fscx100\fscy100\frz0\p1\c&H8A5D41&\3c&H000000&\3a&HFF&\clip()}m 118.52 -341.21 l 104.53 -270.09 110.3 -268.83 117.84 -301.23 124.64 -311.7 129.65 -325.41 129.51 -340.1
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\bord0\pos(720,1053)\fscx100\fscy100\frz0\p1\c&H8B5E41&\clip()}m 105.3 -150.36 l 142.08 -149.5 139.07 -253.32 125.38 -255.3 b 118.35 -222.36 115.59 -207.31 105.75 -177
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\bord0\pos(720,1053)\p1\c&H8A5E42&\p1\clip()}m -104.88 -367.07 l -67.76 -612.28 -142.28 -595.74 -165.78 -414.38
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\bord0\pos(720,1053)\p1\c&H8A5E42&\p1\clip()}m -164.69 -221.54 l -158.68 -173.98 -176.77 -168.09 -183.14 -173.21 -184.37 -184.18 -179.25 -201.5
+Dialogue: 0,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\an2\bord0\pos(720,1053)\p1\c&H875B44&\p1\clip()}m -159.66 -238.6 l -167.55 -237.78 -162.44 -208.59 -156.68 -218.66
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx145\fscy165\iclip(m 535.84 201 l 518.09 310.75 585.1 316.5 602.1 206.25)\shad0\frz355.4\pos(560.55,353.23)}I'm
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx145\fscy165\clip(m 535.84 201 l 518.09 310.75 585.1 316.5 602.1 206.25)\shad0\frz355.4\pos(560.55,353.23)}I'm
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx145\fscy165\iclip(m 836.79 232 l 834.12 326.06 886.26 328 848.43 219.64)\shad0\frz4.517\pos(864.53,355.76)}l{\fsp-0.5}eav{\fsp}ing
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx145\fscy165\clip(m 836.79 232 l 834.12 326.06 886.26 328 848.43 219.64)\shad0\frz4.517\pos(865.86,353.09)}l{\fsp-0.5}eav{\fsp}ing
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx150\fscy170\shad0\iclip(m 511.79 359 l 505.28 412.09 503.12 465.33 560.46 475.33 577.47 354.33)\frz355.3\pos(523.06,476.62)}this
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx150\fscy170\shad0\clip(m 511.79 359 l 505.28 412.09 503.12 465.33 560.46 475.33 577.47 354.33)\frz355.3\pos(523.06,476.62)}this
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx150\fscy170\shad0\frz1.496\pos(861.93,483.82)\iclip(m 835.29 368.48 l 844.02 454.3 902.94 450.91 899.06 369.21)}behind.
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx150\fscy170\shad0\frz1.496\pos(861.93,483.82)\clip(m 835.29 368.48 l 844.02 454.3 902.94 450.91 899.06 369.21)}behind.
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx155\fscy175\shad0\frz356.8\pos(505.46,627.95)\iclip(m 557.17 505.07 l 545.17 598.13 498.49 598.4 505.43 490.93)}It
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx155\fscy175\shad0\frz356.8\pos(505.46,627.95)\clip(m 557.17 505.07 l 545.17 598.13 498.49 598.4 505.43 490.93)}It
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx155\fscy175\shad0\frz2.842\iclip(m 841.55 499.76 l 830.02 591.76 884.14 596.24 898.03 507.53)\pos(847.13,634.75)}belongs
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx155\fscy175\shad0\frz2.842\clip(m 841.55 499.76 l 830.02 591.76 884.14 596.24 898.03 507.53)\pos(847.13,634.75)}belongs
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx160\fscy180\shad0\frz356.1\pos(421.7,764.35)}to
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx160\fscy180\shad0\frz356.1\pos(421.7,764.35)}to
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx160\fscy180\shad0\frz355.2\pos(638.82,781.55)}the
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx160\fscy180\shad0\frz355.2\pos(638.82,781.55)}the
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx160\fscy180\shad0\frz4.031\pos(961.25,770.35)\iclip(m 880.18 637.93 l 826.24 644.44 807.57 745.78 889.96 746.07)}village.
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx160\fscy180\shad0\frz4.031\pos(961.25,770.35)\clip(m 880.18 637.93 l 826.24 644.44 807.57 745.78 889.96 746.07)}village.
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H060714&\bord0\blur0.8\fnJanicesHand\fscx170\fscy180\shad0\iclip(m 893.95 784 l 907.29 913.9 794.11 925.71 811.64 776.76)\pos(987.39,927.69)\frz11.94}{\fsp-}Nami
+Dialogue: 1,0:14:59.17,0:15:02.13,Captions-207-,,0,0,0,,{\c&H280806&\bord0\blur0.8\fnJanicesHand\fscx170\fscy180\shad0\clip(m 893.95 784 l 907.29 913.9 794.11 925.71 811.64 776.76)\pos(987.39,927.69)\frz11.94}{\fsp-}Nami
+Dialogue: 0,0:18:18.74,0:18:22.00,Captions-207-,,0,0,0,,{\blur0.7\fad(483,0)\an2\bord5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&H000000&\3c&H000000&\1a&HFF&\t(441,483,\1a&H00&)}The Morning of Departure
+Dialogue: 1,0:18:18.74,0:18:22.00,Captions-207-,,0,0,0,,{\blur0.7\fad(483,0)\an2\bord0.5\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\3c&HF9F9FA&\c&HF9F9FA&\1a&HFF&\t(441,483,\1a&H00&)\4a&HFF&}The Morning of Departure
+Dialogue: 2,0:18:18.74,0:18:22.00,Captions-207-,,0,0,0,,{\blur0.7\fad(483,0)\an2\bord0\fnDFPGiHi-W7-Strp\fscx85\fscy90\pos(720,715)\c&HF9F9FA&\4a&HFF&}The Morning of Departure
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=63}============================SIGNS AND TITLE=========================
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=64}===============================CREDITS==============================
+Dialogue: 0,0:00:01.77,0:00:04.32,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord3\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Video Editing
+Dialogue: 1,0:00:01.77,0:00:04.32,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(607,610)\blur0.6\bord0\4a&HFF&}Video Editing
+Dialogue: 0,0:00:01.77,0:00:04.32,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(566,607,\1a&H00&)\t(1900,1942,\1a&HFF&)}Gigglebot\NZenef
+Dialogue: 1,0:00:01.77,0:00:04.32,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(607,610)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Gigglebot\NZenef
+Dialogue: 0,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Soundtracking
+Dialogue: 1,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(600,607)\blur0.6\bord0\4a&HFF&}Soundtracking
+Dialogue: 0,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Halee
+Dialogue: 1,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Halee
+Dialogue: 0,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Graphics
+Dialogue: 1,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(600,607)\blur0.6\bord0\4a&HFF&}Graphics
+Dialogue: 0,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(558,600,\1a&H00&)\t(1893,1935,\1a&HFF&)}Datenshi\NYag
+Dialogue: 1,0:00:04.32,0:00:06.78,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(600,607)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Datenshi\NYag
+Dialogue: 0,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,603)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(3397,3439,\1a&HFF&)}Quality Control
+Dialogue: 1,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,603)\blur0.6\bord0\4a&HFF&}Quality Control
+Dialogue: 0,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,603)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)\t(3397,3439,\1a&HFF&)}danpmss\NFeeso\NGab\NGalaxy 9000\NPepperjack\NScolines\NWestfal
+Dialogue: 1,0:00:06.78,0:00:10.78,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,603)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}danpmss\NFeeso\NGab\NGalaxy 9000\NPepperjack\NScolines\NWestfal
+Dialogue: 0,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Karaoke
+Dialogue: 1,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(606,601)\blur0.6\bord0\4a&HFF&}Karaoke
+Dialogue: 0,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}KaitouYahiko
+Dialogue: 1,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}KaitouYahiko
+Dialogue: 0,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Typesetting
+Dialogue: 1,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(606,601)\blur0.6\bord0\4a&HFF&}Typesetting
+Dialogue: 0,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Gab\NPhosCity\NPollychan\NVillager
+Dialogue: 1,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Gab\NPhosCity\NPollychan\NVillager
+Dialogue: 0,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(450,350)\fad(606,601)\blur0.6\bord3\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}Timing
+Dialogue: 1,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(450,350)\fad(606,601)\blur0.6\bord0\4a&HFF&}Timing
+Dialogue: 0,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(490,395)\fad(606,601)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(565,606,\1a&H00&)\t(1899,1941,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:10.78,0:00:13.33,Episode-Credits-207-,,0,0,0,,{\pos(490,395)\fad(606,601)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:13.33,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(609,607)\blur0.6\bord3\c&H000000&\1a&HFF&\t(567,609,\1a&H00&)\t(2903,2945,\1a&HFF&)}Closed Captioning
+Dialogue: 1,0:00:13.33,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(609,607)\blur0.6\bord0\4a&HFF&}Closed Captioning
+Dialogue: 0,0:00:13.33,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(609,607)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(567,609,\1a&H00&)\t(2903,2945,\1a&HFF&)}NateTheBird
+Dialogue: 1,0:00:13.33,0:00:16.79,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(600,600)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}NateTheBird
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Raws
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,225)\fad(602,0)\blur0.6\bord0\4a&HFF&}Raws
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Neo-Raws
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,270)\fad(602,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}Neo-Raws
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(602,0)\blur0.6\bord3\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}Translation
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(90,350)\fad(602,0)\blur0.6\bord0\4a&HFF&}Translation
+Dialogue: 0,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(602,0)\blur0.6\bord3\fscx120\fscy125\c&H000000&\1a&HFF&\t(561,602,\1a&H00&)}danpmss\NFunimation\NGaijin\NPamkinPinguin
+Dialogue: 1,0:00:16.79,0:00:19.25,Episode-Credits-207-,,0,0,0,,{\pos(130,395)\fad(602,0)\blur0.6\bord0\fscx120\fscy125\4a&HFF&}danpmss\NFunimation\NGaijin\NPamkinPinguin
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,{=65}===============================CREDITS==============================
+
+[Aegisub Extradata]
+Data: 0,_aegi_folddata,e0;1;1
+Data: 1,_aegi_folddata,e1;1;1
+Data: 4,_aegi_folddata,e0;1;3
+Data: 5,_aegi_folddata,e1;1;3
+Data: 14,_aegi_folddata,e0;1;2
+Data: 15,_aegi_folddata,e1;1;2
+Data: 16,_aegi_folddata,e0;0;4
+Data: 17,_aegi_folddata,e1;0;4
+Data: 18,_aegi_folddata,e0;0;3
+Data: 19,_aegi_folddata,e1;0;3
+Data: 20,_aegi_folddata,e0;0;2
+Data: 21,_aegi_folddata,e1;0;2
+Data: 22,_aegi_folddata,e0;0;1
+Data: 23,_aegi_folddata,e1;0;1
+Data: 24,_aegi_folddata,e0;1;4
+Data: 25,_aegi_folddata,e1;1;4
+Data: 32,_aegi_folddata,e0;1;6
+Data: 33,_aegi_folddata,e1;1;6
+Data: 36,_aegi_folddata,e0;1;8
+Data: 37,_aegi_folddata,e1;1;8
+Data: 40,_aegi_folddata,e0;1;10
+Data: 41,_aegi_folddata,e1;1;10
+Data: 44,_aegi_folddata,e0;0;10
+Data: 45,_aegi_folddata,e1;0;10
+Data: 46,_aegi_folddata,e0;1;12
+Data: 47,_aegi_folddata,e1;1;13
+Data: 50,_aegi_folddata,e0;1;14
+Data: 51,_aegi_folddata,e1;1;14
+Data: 52,_aegi_folddata,e0;1;15
+Data: 53,_aegi_folddata,e1;1;15
+Data: 54,_aegi_folddata,e0;1;16
+Data: 55,_aegi_folddata,e1;1;16
+Data: 56,_aegi_folddata,e0;0;16
+Data: 57,_aegi_folddata,e1;0;16
+Data: 58,_aegi_folddata,e0;1;17
+Data: 59,_aegi_folddata,e1;1;17
+Data: 60,_aegi_folddata,e0;1;18
+Data: 61,_aegi_folddata,e1;1;18
+Data: 62,_aegi_folddata,e0;1;19
+Data: 63,_aegi_folddata,e1;1;19
+Data: 64,_aegi_folddata,e0;1;20
+Data: 65,_aegi_folddata,e1;1;20
